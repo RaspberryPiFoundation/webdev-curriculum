@@ -33,7 +33,9 @@ Change `<d1>` back to `<h1>` and save again.
 
 Inside `<img>` tag we have the `href` and `alt` attributes:
 
-	<img href="kitten.jpg" alt="This is a kitten." />
+```HTML
+<img href="kitten.jpg" alt="This is a kitten." />
+```
 
 Try changing `href` to something else. Save the document and refresh in the browser.
 
@@ -45,7 +47,9 @@ Change it back to `href` so we can keep looking at the kitten.
 
 4. Now remove the second quote (`"`) from `alt` attribute of this image: the one after the text, so you end up with this:
 
-	<img href="kitten.jpg" alt="This is a kitten. />
+```HTML
+<img href="kitten.jpg" alt="This is a kitten. />
+```
 
 Save it and refresh in the browser. 
 
@@ -69,25 +73,33 @@ __Are you done? Great! Let's now link the two pages you have created together.__
 
 When we've been linking to parts of the same page, we could just point links to a specific id within a page, like this:
 	
-	<a href="#kitten">Click to see a kitten</a>
+```HTML
+<a href="#kitten">Click to see a kitten</a>
+```
 
 Which then took you to something like this:
 
-	<div id="kitten">
-		<img src="kitten.jpg" alt="This is a kitten." />
-	</div>
+```HTML
+<div id="kitten">
+	<img src="kitten.jpg" alt="This is a kitten." />
+</div>
+```
 
 To link to another page, we don't need to include the hash symbol (`#`), but instead we need to say which file we would like the link to take us to.
 
 So to link from `about_me_page_2.html` to `about_me.html` write it like this:
 
-	<a href="about_me.html">Go to About Me page</a>
+```HTML
+<a href="about_me.html">Go to About Me page</a>
+```
 
 You can change the link text to something else, like the page title if you have changed it.
 
 To link back from `about_me.html` to `about_me_page_2.html` you would have to write it like so:
 
-	<a href="about_me_page_2.html">Go to my second page</a>
+```HTML
+<a href="about_me_page_2.html">Go to my second page</a>
+```
 
 Congratulations! You have made your own website.
 

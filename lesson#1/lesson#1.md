@@ -99,12 +99,14 @@ For example, some of your paragraphs might be introductions, so you could give t
 
 9. What will happen if you move things around? Let's go back to the code editor. Find an `<ol>` tag in the code and select it with all its got inside, like so:
 
-		<ol>
-			<li>Kittens</li>
-			<li>Cake</li>
-			<li>Lie-ins</li>
-			<li>Playing games</li>
-		</ol>
+```HTML
+<ol>
+	<li>Kittens</li>
+	<li>Cake</li>
+	<li>Lie-ins</li>
+	<li>Playing games</li>
+</ol>
+```
 
 Now copy it and move it somewhere else. Save the page and refresh it in the browser. How does the order of your code affect the order in which things are displayed in the browser?
 
