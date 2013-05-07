@@ -2,7 +2,7 @@
 
 ## Introduction
 
-You know a few __HTML tags, so it's time to make your first page! Let's get started right away.
+You know a few __HTML__ tags, so it's time to make your first page! Let's get started right away.
 
 ## Step 1: Open the starting document 
 

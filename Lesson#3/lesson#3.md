@@ -1,4 +1,4 @@
-#Lesson # 3
+#Lesson #3
 
 The Mission. Felix the cat has gone missing. His owner made a poster [insert picture] to hang up in the neighboorhood, but you realise making a website means many more people can see it.##Step 1:Make a new folder called FelixMake a new document called index.html and save it inside the folder called FelixNow set up your document like you learnt in the previous session
 ```HTML	<!doctype html>	<html>		<head>		</head>		<body>		</body>	</html>
