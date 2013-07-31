@@ -19,7 +19,7 @@ To contribute:
 4. Ask another native speaker to read through and comment with :+1:
    if they like your work
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+See [CONTRIBUTING.md](https://github.com/CodeClub/scratch-curriculum/blob/master/CONTRIBUTING.md) for more details.
 ## Discuss
 Ask questions and share your experiences with other Code Clube World local teams in our community:
 https://plus.google.com/communities/107429287353708601653
