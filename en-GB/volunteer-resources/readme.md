@@ -29,7 +29,7 @@ As before there are individual sessions and then one session that can just go on
 
 ##4) Hosting students work
 
-If we're making websites then need to be online right? 
+If we're making websites then need to be online right? Unfortunately at this time we are not able to offer free hosting, so you should look into how to do this individually for your club. 
 
 
 Good luck!
