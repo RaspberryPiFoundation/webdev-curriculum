@@ -28,20 +28,21 @@ the desktop (desktop is just a directory like any other, only a little bit speci
 ###Case #2 – going into different directories
 What if we wanted to copy our site onto a memory stick? We would have to move both files and make sure they live in the same directory on the stick. Maybe we can make it easier by putting them in their own directory and move that. So our file structure now looks like this:
 
-`my_kitty_site |
+`my_kitty_site 
+|
 \- page.html
 |
-\ kitty.jpg
+\ kitty.jpg`
 
 Let’s tidy it up a bit more. What if later we want to include more images? Let’s put them in their own directory so it’s easier to find them.
-my_kitty_site |
-
+`my_kitty_site 
+| 
 \- page.html
 |
 \ - images |
-\ kitty.jpg
-|
-\ kitty_and_puppy.jpg`
+  \ kitty.jpg
+  |
+  \ kitty_and_puppy.jpg`
 
 
 Now we we open up the page in the browser, the image doesn’t show up! This is because the browser can’t find it. Let’s help it by adding what we call a path – a route through the directories it has to take to find the files, starting at the page. In our case we would have to go into images directory before we get to the picture, like this:
@@ -53,14 +54,18 @@ images directory first. Save, refresh, and the kitty is back
 What if you fancied tidying up your file structure some more and put all your HTML documents in their own directories, like we did with images?
 
 Let’s say you created the following:
-my_kitty_site |
-\ - pages ||
-| \ - page.html |
+`my_kitty_site 
+|
+\ - pages
+| |
+| \ - page.html 
+|
 \ - images
-|
-\ kitty.jpg
-|
-\ kitty_and_puppy.jpg
+  |
+  \ kitty.jpg
+  |
+  \ kitty_and_puppy.jpg`
+
 Again, when we open up the page.html our images don’t work. This is because the browser looks for files in relation to the page you’re looking at. When we said:
 `<img src=”images/kitty.jpg” alt=”A kitty playing with some wool.”>`
 We meant: “from page.html go into directory called images where you will find kitty. jpg”. But there are no images inside pages directory, where page.html lives! What we wanted to say was: “from page.html go one directory up, then go into directory called images where you will find kitty.jpg”. So how can we say it?
