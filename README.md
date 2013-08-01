@@ -5,7 +5,6 @@ This repository contains all the material for Term 3 of [Code Club][codeclub], l
 It consists of lesson notes and plans in [Markdown][markdown] format, project assets (HTML files, CSS files, images), and a few PDFS.
 
 This material is openly available for everyone to use and contribute to.
-Right now, we’re receiving translations from all over the world.
 See 'contributing' below to find out how you can take part.
 
 ## Contributing
