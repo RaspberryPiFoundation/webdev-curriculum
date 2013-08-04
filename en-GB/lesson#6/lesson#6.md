@@ -14,7 +14,7 @@ Five ninjas arrived in town and need to hide before anyone notices them. Using y
 **Let's move a ninja**
 
 4. Each one of the ninjas is named using the `id` attribute. Let's move Alex The Ninja first. Find Alex's corresponding CSS rule.
-5. Change the value of `left` to `100px` and `top` to `320px`. (TODO: change to place behind an object)
+5. Change the value of `left` to `100px` and `top` to `320px`.
 When `position` property is set to `absolute` it means we will be describing the position in relation to ninja's parent element - in this case the `<div>` with `id` `street_corner`.
 `px` means `pixel`. `left` describes how far to move the ninja from the left edge (by how many pixels), and `top` tells the browser how far to move it down from the top edge.
 6. Change `left` to `right` and `top` to `bottom`. Now your code tells the browser to put the ninja a `100px` to the left of the right edge, and `320px` up from the bottom edge.
