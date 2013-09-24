@@ -34,7 +34,7 @@ Even though the browser will try to display things as best as it can, it helps i
 To tell browser that, we use `tags`. 
 
 Tags look like this:
-<p>This is some text.</p>
+`<p>This is some text.</p>`
 
 `<p>` is short for __paragraph__.
 
@@ -70,8 +70,6 @@ but we added an attribute to the opening one:
 #### If you are using developer tools:
 3. Move around the page. Right click anything interesting, and then click `Inspect element`. A panel will open up which will show you the page's code as the same time as the page.
 4. Move your mouse over different pieces of code. The corresponding things on the page will be highlighted, so you can see which bit does what.
-
- 
 5. Try to inspect all parts of the page. Can you figure out what the different tag names stand for?
 
 We already know `<p>` and `<a>`.
@@ -92,7 +90,7 @@ There are also some tags that we will always use in HTML documents, and they are
 
 Whenever this happens, we say that the tag that is being wrapped is the _child_ and the tag that does the wrapping is the __parent__ element. It's a little bit like a family tree!
 
-7. To the browser all tags of the same kind are the same, but you can mark them out using classes and ids (pronounced aye-dees). 
+7. To the browser all tags of the same kind are the same, but you can mark them out using classes and Ids (pronounced aye-dees). 
 For example, some of your paragraphs might be introductions, so you could give them a class `introduction`. See if you can spot some classes inside `page.html` .
 
 8. Ids are used to mark unique items on your page. See if you can spot the `div` tag with an `id` of `kitten` in the page.
