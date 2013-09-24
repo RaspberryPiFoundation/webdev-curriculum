@@ -1,4 +1,4 @@
-# The web
+# Lesson 1: The web
 
 ## Introduction
 

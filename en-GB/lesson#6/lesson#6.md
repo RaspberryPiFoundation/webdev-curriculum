@@ -1,4 +1,4 @@
-# Hide the ninjas
+#Lesson 6: Hide the ninjas
 
 ## Introduction
 This project will build on your knowledge of CSS-fu. 

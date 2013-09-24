@@ -1,4 +1,4 @@
-#PROJECT 4: STYLING WEB PAGES
+#Lesson 4: Styling web pages
 
 Let’s make our website better with some styles.
 In this lesson and the next we are going to learn how to change colour, text, sizes and more!

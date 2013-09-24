@@ -1,6 +1,5 @@
-#Project 7
+#Lesson 7: DESIGN & BUILD YOUR OWN WEBSITE
 
-##DESIGN & BUILD YOUR OWN WEBSITE
 __Introduction:__ In this project you will design and code your very own website! You’ll need to plan what your website is going to be about, and create the content (text, information, pictures, video etc.) that should go on it.
 
 ##Step 1: Designing your website
