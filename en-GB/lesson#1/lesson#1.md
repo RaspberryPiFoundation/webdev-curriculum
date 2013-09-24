@@ -46,7 +46,7 @@ The browser knows that anything in between the two tags is a paragraph of text.
 
 Tags can have attributes, which are bits of useful information about the element.
 Let's have a look at the link tag:
-<a href="http://codeclub.org.uk">Visit CodeClub website</a>
+`<a href="http://codeclub.org.uk">Visit CodeClub website</a>`
 `<a>` stands for __anchor__, which is what links used to be called.
 
 It also has the opening tag:
