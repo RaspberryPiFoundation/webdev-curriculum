@@ -1,10 +1,16 @@
-# Lesson 1: The web
+---
+lesson_title: the web
+level: Lesson 1
+language: en
+...
 
-## Introduction
+# Introduction { .intro}
 
 Have you ever wondered how the worldwide web works? Of course you have! Today you will learn how to make web sites so you too can contribute to building it. Websites are written using __HTML__, which stands for __HyperText Markup Language__. You will find out more about it as you build your page.
 
-## Step 1: What are web pages?
+# Step 1: What are web pages? { .activity}
+
+## Activity Checklist { .check}
 
 1. Open a __text editor__. 
 2. Create a new document. 
@@ -25,7 +31,7 @@ When you type in the address in your browser, your request gets passed along to 
 
 // diagram how web works - should say at the top: can I have this page please? And at the bottom: here you go
 
-## Step 2: What is HTML?
+# Step 2: What is HTML? { .activity}
 
 HTML is a __markup__ language - it means that it is used to describe what things are. 
 
@@ -59,6 +65,8 @@ but we added an attribute to the opening one:
 `href` stands for _hypertext reference_. A text that linked to other texts was once named _hypertext_, because it could have images, and sounds, and could link to other texts. That made it a little bit different to plain text.
 `href` tells the browser where the link should take you to, and the text in between the tags will be visible as a link.
 
+## Activity Checklist { .check}
+
 1. Open the `page.html` file.
 2. Ask the volunteer whether you can use X-Ray Goggles or developer tools to look at the code (developer is someone who makes things with code).
 
@@ -86,16 +94,18 @@ There are also some tags that we will always use in HTML documents, and they are
 `<head>` - inside `<head>` we put things which may be useful to the browser, but which don't appear as text on the page. In this example we put a `<title>` there, which then shows up at the top of the browser window.
 `<body>` - that's where we put the things we want to appear on the page
 
-6. Notice how tags can __nest__ within one another. We have the `<a>` tag, which is inside a `<p>` tag, which in turn is inside `<div>`, which is placed inside `<body>`.
+## Activity Checklist { .check}
+
++ Notice how tags can __nest__ within one another. We have the `<a>` tag, which is inside a `<p>` tag, which in turn is inside `<div>`, which is placed inside `<body>`.
 
 Whenever this happens, we say that the tag that is being wrapped is the _child_ and the tag that does the wrapping is the __parent__ element. It's a little bit like a family tree!
 
-7. To the browser all tags of the same kind are the same, but you can mark them out using classes and Ids (pronounced aye-dees). 
++ To the browser all tags of the same kind are the same, but you can mark them out using classes and Ids (pronounced aye-dees). 
 For example, some of your paragraphs might be introductions, so you could give them a class `introduction`. See if you can spot some classes inside `page.html` .
 
-8. Ids are used to mark unique items on your page. See if you can spot the `div` tag with an `id` of `kitten` in the page.
++ Ids are used to mark unique items on your page. See if you can spot the `div` tag with an `id` of `kitten` in the page.
 
-9. What will happen if you move things around? Let's go back to the code editor. Find an `<ol>` tag in the code and select it with all its got inside, like so:
++ What will happen if you move things around? Let's go back to the code editor. Find an `<ol>` tag in the code and select it with all its got inside, like so:
 
 ```HTML
 <ol>
@@ -108,15 +118,10 @@ For example, some of your paragraphs might be introductions, so you could give t
 
 Now copy it and move it somewhere else. Save the page and refresh it in the browser. How does the order of your code affect the order in which things are displayed in the browser?
 
-## Things to try
+## Things to try { .try}
 
 * Create your own paragraph of text.
 * Make a link that points to another part of page (hint: it is something to do with id - look out for a link that takes you to the kitten).
 * Add your own headings where you think they might be useful. What happens if you change the heading numbers, for example from `<h3>` to `<h4>`?
 * What would you have to do to link to a different page?
 * If you are using developer tools, once you bring up the panel with the code try double-clicking on the code that looks interesting. See if you can change it. Now you get a live preview without having to move between the browser and the code editor. Cool, huh? Now refresh the page. What happened? When you edit code like this it doesn't get saved, so you can preview what would happen if you did, but don't mess up your file, so you can experiment lots and always go back.
-
-
-
-
-

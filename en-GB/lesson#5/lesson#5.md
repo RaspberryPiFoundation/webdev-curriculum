@@ -1,11 +1,15 @@
-#Lesson 5: Styling and formatting text
+---
+lesson_title: Styling and formatting text
+level: Lesson 5
+language: en
+...
 
-__Introduction:__ In this session we are going to learn how to style text with different fonts, colours and sizes. We'll also learn how to add background colours and borders. We will be using the same project you worked on last time, so make sure you open the index.html from the Felix folder.
+## __Introduction:__ { .intro }
+In this session we are going to learn how to style text with different fonts, colours and sizes. We'll also learn how to add background colours and borders. We will be using the same project you worked on last time, so make sure you open the index.html from the Felix folder.
 
-##Step 1: Fonts
+#Step 1: Fonts { .activity}
 
 We can change the look of the text by changing the __font__. The most common fonts are called 
-
 * Arial
 * Courier New, Courier
 * Garamond
@@ -40,7 +44,7 @@ p {
 }
 ```
 
-__Save__ and __view__.
+##__Save__ and __view__. { .save}
 
 Try some of the different fonts to see which ones you like best. Notice how we separate each font with a comma, and if the font has a name with more than one word we need to put it inside quotation marks.
 
@@ -58,7 +62,7 @@ a {
 }
 ```
 
-__Save__ and __view__. 
+##__Save__ and __view__. { .save}
 
 Or we could make it italic.
 
@@ -67,7 +71,7 @@ a {
 	font-style:italic;
 }
 ```
-__Save__ and __view__.
+##__Save__ and __view__. { .save}
 
 There’s also a font-style value called ‘oblique’. What does that look like?
 
@@ -81,7 +85,7 @@ h2 {
 
 Try it!
 
-##Step 2 borders!
+#Step 2: Borders! { .activity}
 
 Let’s add a border around the image
 
@@ -92,11 +96,12 @@ img {
 	border-style:solid;
 }
 ```
-__Save__ and __view__. Try changing the color, width and border-style until you are happy. Some values for border-syle are `dashed`, `dotted`, `double`, `groove`, `ridge`, `inset`, `outset`. 
+##__Save__ and __view__. { .save}
+Try changing the color, width and border-style until you are happy. Some values for border-syle are `dashed`, `dotted`, `double`, `groove`, `ridge`, `inset`, `outset`. 
 
 You can put borders around all kinds of elements, why not try a few more.
 
-##Step 3: IDs and classes
+#Step 3: IDs and classes { .activity}
 
 We want to make the contact paragraph __highlighted__.  We can’t use the `<p>` tag because that would change all the paragraphs. To make a style apply only to one element, we use something called IDs. We need to edit the html to this:
 
@@ -110,7 +115,8 @@ then we can style the ID like so:
 	color:red;
 }
 ```
-__Save__ and __view__. An ID is unique and can only be used once per page. So what if we wanted to make two of the paragraphs have a larger font-size? We can do that by using classes. First we need to give class names to the paragraphs we want changing.
+##__Save__ and __view__. { .save}
+An ID is unique and can only be used once per page. So what if we wanted to make two of the paragraphs have a larger font-size? We can do that by using classes. First we need to give class names to the paragraphs we want changing.
 
 ```HTML
 <p class="large">He went missing from the garden yesterday.</p>
@@ -124,10 +130,10 @@ we style a class like this (with a `.` instead of a `#`):
 }
 ```
 
-##Further study:
+##Further study: . { .try}
 
-How would you change the page to make it look better? Why not try using your favorite fonts, colors, etc.
++ How would you change the page to make it look better? Why not try using your favorite fonts, colors, etc.
 
-if you finish early you can go style the html we did in previous lessons.
++ if you finish early you can go style the html we did in previous lessons.
 
-By the way, did you know that the background property does not only take values that are colours, but also images?
++ By the way, did you know that the background property does not only take values that are colours, but also images?

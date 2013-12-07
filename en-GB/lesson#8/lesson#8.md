@@ -1,16 +1,20 @@
-# Audio  and video on web pages (additional materials)
+---
+lesson_title: # Audio  and video on web pages 
+level: Lesson 8
+language: en
+...
 
-## Introduction
+# Introduction { .intro}
 
 There are a few ways to add videos or audio to your pages. Let's  have a closer look at them together.
 
-## Add a video from YouTube
+# Add a video from YouTube { .activity}
 
 Adding videos from YouTube is really simple.
 
-1. Go to the video page on YouTube.
-2. Under the video player you can find the `Share` button. Click that.
-3. To get the code you can use on your web page, click `Embed`.
++ Go to the video page on YouTube.
++ Under the video player you can find the `Share` button. Click that.
++ To get the code you can use on your web page, click `Embed`.
 
 It will look something like this:
 
@@ -21,21 +25,21 @@ This specific code fragment would add a CodeClub video to your page. Just copy a
 Notice the `width` and `height` attributes. They allow you to control how big will the video be on the page, so feel free to change them.
 
 
-## Add a video from Vimeo.
+# Add a video from Vimeo. { .activity}
 
-1. Go to the video page on Vimeo.
-2. Click the `Share` button on the video player.
-3. On the right hand side there is an Embed box. Click it to select the code and copy it. It will look a bit like this:
++ Go to the video page on Vimeo.
++ Click the `Share` button on the video player.
++ On the right hand side there is an Embed box. Click it to select the code and copy it. It will look a bit like this:
 
 <iframe src="http://player.vimeo.com/video/44738167?title=0&amp;byline=0&amp;portrait=0&amp;badge=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-4. Paste the code where you would like the video to appear on the page. Notice the `width` and `height` attributes. They allow you to control how big will the video be on the page, so feel free to change them.
++ Paste the code where you would like the video to appear on the page. Notice the `width` and `height` attributes. They allow you to control how big will the video be on the page, so feel free to change them.
 
-## Adding a video file from your computer
+# Adding a video file from your computer { .activity}
 
 If you have a video you have created you can put it on your page without having to upload it to YouTube or Vimeo.
 
-1. To place a video on your page you will need to add a `video` tag. Just like the `<img>` tag is has the `src` attribute pointing to the file:
++ To place a video on your page you will need to add a `video` tag. Just like the `<img>` tag is has the `src` attribute pointing to the file:
 
 	<video src="spaceship_landing.mp4">
 	</video>
@@ -49,39 +53,39 @@ To let the browser know we have more than one format of video ready, write it li
 		<source src="spaceship_landing.mp4" type="video/mp4">
 	</video>
 
-2. To add a picture that will be seen before the video plays, you can use a `poster` attribute:
++ To add a picture that will be seen before the video plays, you can use a `poster` attribute:
 
 	<video poster="spaceship_landing.jpg">
 		<source src="spaceship_landing.ogv" type="video/ogg">
 		<source src="spaceship_landing.mp4" type="video/mp4">
 	</video>
 
-3. If you want to automatically play the video, you can add the `autoplay` keyword, like this:
++ If you want to automatically play the video, you can add the `autoplay` keyword, like this:
 
 	<video poster="spaceship_landing.jpg" autoplay>
 		<source src="spaceship_landing.ogv" type="video/ogg">
 		<source src="spaceship_landing.mp4" type="video/mp4">
 	</video>
 
-4. To display video controls, such as the play button, the volume and so on you can add the `controls` keyword:
++ To display video controls, such as the play button, the volume and so on you can add the `controls` keyword:
 
 	<video poster="spaceship_landing.jpg" controls>
 		<source src="spaceship_landing.ogv" type="video/ogg">
 		<source src="spaceship_landing.mp4" type="video/mp4">
 	</video>
 
-5. You can also control the size of the video using the `width` and `height` attributes. Write this:
++ You can also control the size of the video using the `width` and `height` attributes. Write this:
 
 	<video poster="spaceship_landing.jpg" width="600" height="400">
 		<source src="spaceship_landing.ogv" type="video/ogg">
 		<source src="spaceship_landing.mp4" type="video/mp4">
 	</video>
 
-## Adding an audio file from your computer
+# Adding an audio file from your computer { .activity}
 
 The way to add audio files to your page from your computer is similar to adding video file.
 
-1. To place the audio on page write this:
++ To place the audio on page write this:
 
 	<audio src="spaceship.mp3">
 	</audio>
@@ -95,14 +99,14 @@ Just like with video, not every browser can play every type of audio file, so to
  		<source src="spaceship.ogg" type='audio/ogg; codecs=vorbis'>
 	</audio>
 
-2. To add the controls you need to add the `controls` keyword:
++ To add the controls you need to add the `controls` keyword:
 
 	<audio controls>
  		<source src="spaceship.mp3" type='audio/mp3'>
  		<source src="spaceship.ogg" type='audio/ogg; codecs=vorbis'>
 	</audio>
 
-3. If you want the audio to play as soon as the page loads, you can add the `autoplay` keyword, like this:
++ If you want the audio to play as soon as the page loads, you can add the `autoplay` keyword, like this:
 
 	<audio controls autoplay>
  		<source src="spaceship.mp3" type='audio/mp3'>

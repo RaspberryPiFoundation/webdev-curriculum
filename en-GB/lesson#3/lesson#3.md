@@ -1,8 +1,14 @@
-#Lesson 3: Missing cat website
+---
+lesson_title: Missing cat website
+level: Lesson 3
+language: en
+...
 
-__The Mission:__ Felix the cat has gone missing. His owner made a poster [insert picture] to hang up in the neighboorhood, but you realise making a website means many more people can see it.
+## __The Mission:__ { .intro}
 
-##Step 1:
+Felix the cat has gone missing. His owner made a poster [insert picture] to hang up in the neighborhood, but you realise making a website means many more people can see it.
+
+#Step 1: { .activity}
 
 Make a new folder called Felix
 Make a new document called index.html and save it inside the folder called Felix
@@ -33,7 +39,7 @@ Make a title and header. Remember the title goes in the head and the header goes
 </html>
 ```
 
-##Step 2:
+#Step 2: { .activity}
 
 We also need a picture of Felix, so people know what to look for. We’ve previously learned how to put in an image that’s already hosted somewhere on the internet, but this time we are going to use an image on our computer. We need to put the image *felix.jpg* in the same folder as our `index.html`, the folder you named Felix.
 
@@ -43,7 +49,7 @@ Now, write the `<img>` tag like you would normally, but in the src attribute, in
 <img src="felix.jpg" alt="picture of Felix">
 ```
 
-Save your file and view it in a browser.
+## Save your file and view it in a browser. { .save}
 
 The image is quite large, so we want to make it a bit smaller. We can do this by using height or width attributes (or both). We don’t specify the width in centimeters or meters or inches or feet, but in something called *pixels*. I’m going to go with 400 pixels for this image.
 
@@ -51,7 +57,7 @@ The image is quite large, so we want to make it a bit smaller. We can do this by
 <img src="felix.jpg" alt="picture of Felix" width="400">
 ```
 
-##Step 3: 
+#Step 3: { .activity}
 
 Underneath the picture we should write a description of Felix, and give some details of when and where he went missing. For this we can just write some paragraphs.
 
@@ -72,9 +78,9 @@ That’s just a pretend email address, but let’s make it so that if someone cl
 <p>Have you seen Felix? Please contact his owners at <a href="mailto:felixowners@email.com">felixowners@email.com</a></p>
 ```
 
-Save your document and check if it works in a browser!
+## Save your document and check if it works in a browser! { .save}
 
-##Step 4: Adding strong text and emphasis.
+# Step 4: Adding strong text and emphasis { .activity}
 
 We really want people to find Felix, so we want to add some *emphasis* to ‘please’. We do this with the em tag.
 
@@ -88,9 +94,10 @@ We also want ‘thank you’ to stand out, which we can do by adding the strong 
 <p><strong>Thank you!</strong><p>
 ```
 
-Save your document and view it in the browser. Notice how please is now in *italics* and Thank you is **bold**?
+## Save your document and view it in the browser. { .save}
+Notice how please is now in *italics* and Thank you is **bold**?
 
-##Step 5: Comments
+#Step 5: Comments { .activity}
 
 Sometimes it is useful to write comments in the html file itself. By comments we mean stuff that is meant for humans to read if they’re viewing the file, and not for the browser to read and display. We do that by using the special code:
 
@@ -106,7 +113,7 @@ Let’s put a comment in our file saying this is a code club project and Felix i
 ```
 
 
-##Step 6: More metadata (that’s just stuff that goes in the head)
+#Step 6: More metadata (that’s just stuff that goes in the head) { .activity}
 
 Let’s add who wrote the webpage to the webpage, so anyone viewing the file knows it’s you.
 
@@ -142,10 +149,10 @@ And some keywords, separated by commas
 <meta name="keywords" content="Felix, cat, missing">
 ```
 
-##Further study:
+##Further study: { .try}
 
-Is there anything else you could add to the webpage that would help people find Felix? More information? How would you add a map of where he went missing?
++ Is there anything else you could add to the webpage that would help people find Felix? More information? How would you add a map of where he went missing?
 
-More fun with images. Add an image that moves. Try adding the image `catswithhats.gif` to the website. Open it in the browser to see what happens.
++ More fun with images. Add an image that moves. Try adding the image `catswithhats.gif` to the website. Open it in the browser to see what happens.
 
-If Felix get found. Use the tag 	 `<del>` to strike through any information that is no longer true, like missing. Use tag  `<ins> ` to insert any new information instead, like __Found__! 
++ If Felix get found. Use the tag 	 `<del>` to strike through any information that is no longer true, like missing. Use tag  `<ins> ` to insert any new information instead, like __Found__! 
