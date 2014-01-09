@@ -3,7 +3,7 @@ lesson_title: Hide the ninjas
 level: Lesson 6
 language: en
 ...
-## Introduction { .imtro}
+## Introduction { .intro}
 This project will build on your knowledge of CSS-fu. 
 
 Five ninjas arrived in town and need to hide before anyone notices them. Using your own ninja-like CSS skills to get them into a safe spot. You can move the ninjas themselves, and some of the objects in the street too. Quick! There is no time!
