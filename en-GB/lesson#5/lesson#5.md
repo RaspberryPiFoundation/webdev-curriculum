@@ -50,7 +50,9 @@ Try some of the different fonts to see which ones you like best. Notice how we s
 
 Which of the fonts we mentioned do you think looks best? Which one do you think is easiest to read?
 
-Do you have other fonts on your computer than the ones mentioned? (you probably do). Try opening a program like Word or Pages, all the fonts stored on the computer can usually be found there [insert pic?]
+Do you have other fonts on your computer than the ones mentioned? (you probably do). Try opening a program like Word or Pages, all the fonts stored on the computer can usually be found there.
+
+![screenshot](https://github.com/CodeClub/webdev-curriculum/blob/3334123790f7b33cb17da6f108b60d36eac4a628/en-GB/lesson%235/fonts.png?raw=true)
 
 Find one you like and try it out on the website!
 

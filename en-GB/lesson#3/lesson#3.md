@@ -6,7 +6,10 @@ language: en
 
 ## __The Mission:__ { .intro}
 
-Felix the cat has gone missing. His owner made a poster [insert picture] to hang up in the neighborhood, but you realise making a website means many more people can see it.
+Felix the cat has gone missing. His owner made a poster 
+to hang up in the neighborhood, but you realise making a website means many more people can see it.
+
+![screenshot](https://github.com/CodeClub/webdev-curriculum/blob/3334123790f7b33cb17da6f108b60d36eac4a628/en-GB/lesson%233/missingcat.png?raw=true)
 
 #Step 1: { .activity}
 
@@ -148,6 +151,8 @@ And some keywords, separated by commas
 ```HTML
 <meta name="keywords" content="Felix, cat, missing">
 ```
+
+![screenshot](https://github.com/CodeClub/webdev-curriculum/blob/3334123790f7b33cb17da6f108b60d36eac4a628/en-GB/lesson%233/screenshot_jsbin.png?raw=true)
 
 ##Further study: { .try}
 

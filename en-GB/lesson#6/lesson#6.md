@@ -8,6 +8,8 @@ This project will build on your knowledge of CSS-fu.
 
 Five ninjas arrived in town and need to hide before anyone notices them. Using your own ninja-like CSS skills to get them into a safe spot. You can move the ninjas themselves, and some of the objects in the street too. Quick! There is no time!
 
+![screenshot](https://github.com/CodeClub/webdev-curriculum/blob/3334123790f7b33cb17da6f108b60d36eac4a628/en-GB/lesson%236/ninjas.png?raw=true)
+
 # Step 1: Meet the ninjas { .activity}
 
 + Open up the file called `ninjas.html` in the code editor. Open it up in the browser as well.
