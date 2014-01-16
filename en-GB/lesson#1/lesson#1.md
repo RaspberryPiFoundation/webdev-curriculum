@@ -29,7 +29,9 @@ __How can we view these files?__
 
 When you type in the address in your browser, your request gets passed along to a computer which is always turned on and configured to allow you to see the pages that live inside it. This computer is called a server. When it receives a request from your computer, it looks for all the necessary files: the `.html` file and sends you that with anything else that the page needs, like images and videos.
 
-// diagram how web works - should say at the top: can I have this page please? And at the bottom: here you go
+###Can I have this page please? 
+![screenshot](https://github.com/CodeClub/webdev-curriculum/blob/3334123790f7b33cb17da6f108b60d36eac4a628/en-GB/lesson%231/code%20and%20images/diagram_screenshot.png?raw=true)
+Here you go.
 
 # Step 2: What is HTML? { .activity}
 
