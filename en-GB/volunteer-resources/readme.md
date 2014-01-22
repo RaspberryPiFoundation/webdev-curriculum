@@ -13,7 +13,7 @@ Does your primary school have internet? Does it have a decent capacity that woul
 
 ##2) Text editors
 
-Are you allowed to install software on the computers at the venue? If you are then we recommend installing the excellent [Sublime Text 2](http://www.sublimetext.com/3) which can be downloaded free for evaluation  and is available for PC/Mac/Linux. The Sublime team has given us written permission to use Sublime Text in Code Clubs without paying for the license. 
+Are you allowed to install software on the computers at the venue? If you are then we recommend installing the excellent [Sublime Text 3](http://www.sublimetext.com/3) which can be downloaded free for evaluation  and is available for PC/Mac/Linux. The Sublime team has given us written permission to use Sublime Text in Code Clubs without paying for the license. 
 
 If you're not allowed to install software than use Notepad for PC or TextEdit for Mac, but these do not have syntax highlighting. 
 
