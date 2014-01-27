@@ -5,35 +5,35 @@
 
     "projects": [
         {
-            "filename": "lesson#1/lesson#1.md",
+            "filename": "lesson1/lesson1.md",
             "number": 1
         },
         {
-            "filename": "lesson#2/lesson#2.md",
+            "filename": "lesson2/lesson2.md",
             "number": 2
         },
         {
-            "filename": "lesson#3/lesson#3.md",
+            "filename": "lesson3/lesson3.md",
             "number": 3
         },
         {
-            "filename": "lesson#4/lesson#4.md",
+            "filename": "lesson4/lesson4.md",
             "number": 4
         },
         {
-            "filename": "lesson#5/lesson#5.md",
+            "filename": "lesson5/lesson5.md",
             "number": 5
         },
         {
-            "filename": "lesson#6/lesson#6.md",
+            "filename": "lesson6/lesson6.md",
             "number": 6
         },
         {
-            "filename": "lesson#7/lesson#7.md",
+            "filename": "lesson7/lesson7.md",
             "number": 7
         },
         {
-            "filename": "lesson#8/lesson#8.md",
+            "filename": "lesson8/lesson8.md",
             "number": 8
         }
     ],
