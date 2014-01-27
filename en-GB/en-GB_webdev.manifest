@@ -1,0 +1,55 @@
+{
+    "name": "webdev",
+    "language": "en-GB",
+    "number": 3,
+
+    "projects": [
+        {
+            "filename": "lesson#1/lesson#1.md",
+            "number": 1
+        },
+        {
+            "filename": "lesson#2/lesson#2.md",
+            "number": 2
+        },
+        {
+            "filename": "lesson#3/lesson#3.md",
+            "number": 3
+        },
+        {
+            "filename": "lesson#4/lesson#4.md",
+            "number": 4
+        },
+        {
+            "filename": "lesson#5/lesson#5.md",
+            "number": 5
+        },
+        {
+            "filename": "lesson#6/lesson#6.md",
+            "number": 6
+        },
+        {
+            "filename": "lesson#7/lesson#7.md",
+            "number": 7
+        },
+        {
+            "filename": "lesson#8/lesson#8.md",
+            "number": 8
+        }
+    ],
+    "extras": [
+        { 
+            "name": "Readme",
+            "note": "volunteer-resources/readme.md"
+        },
+        { 
+            "name": "Meet the browsers",
+            "note": "volunteer-resources/meet-the-browsers.md"
+        },
+        { 
+            "name": "Saving your work",
+            "note": "volunteer-resources/saving-your-work.md"
+        }
+    ]
+}
+

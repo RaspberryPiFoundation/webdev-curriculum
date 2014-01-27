@@ -1,5 +1,5 @@
 ---
-lesson_title: Hide the ninjas
+title: Hide the ninjas
 level: Lesson 6
 language: en
 ...

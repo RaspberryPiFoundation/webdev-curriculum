@@ -1,5 +1,5 @@
 ---
-lesson_title: Styling and formatting text
+title: Styling and formatting text
 level: Lesson 5
 language: en
 ...

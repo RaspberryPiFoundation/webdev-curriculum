@@ -1,5 +1,5 @@
 ---
-lesson_title: Missing cat website
+title: Missing cat website
 level: Lesson 3
 language: en
 ...

@@ -1,5 +1,5 @@
 ---
-lesson_title: # Audio  and video on web pages 
+title: Audio and video on web pages 
 level: Lesson 8
 language: en
 ...

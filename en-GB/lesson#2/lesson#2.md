@@ -1,5 +1,5 @@
 ---
-lesson_title: Building simple webpages
+title: Building simple webpages
 level: Lesson 2
 language: en
 ...

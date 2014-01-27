@@ -1,5 +1,5 @@
 ---
-lesson_title: DESIGN & BUILD YOUR OWN WEBSITE
+title: DESIGN & BUILD YOUR OWN WEBSITE
 level: Lesson 7
 language: en
 ...

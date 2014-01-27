@@ -1,5 +1,5 @@
 ---
-lesson_title: Styling web pages
+title: Styling web pages
 level: Lesson 4
 language: en
 ...
