@@ -1,5 +1,7 @@
 {
-    "name": "webdev",
+    "id": "webdev",
+    "title": "HTML & CSS",
+    "description":"Learn how to build websites using HTML and CSS.",
     "language": "en-GB",
     "number": 3,
 
