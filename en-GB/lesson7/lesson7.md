@@ -1,7 +1,10 @@
 ---
 title: DESIGN & BUILD YOUR OWN WEBSITE
 level: Lesson 7
-language: en
+language: en-GB
+embeds: "*.png"
+note: "notes for club leaders.md"
+stylesheet: web
 ...
 
 ## __Introduction:__ { .intro}

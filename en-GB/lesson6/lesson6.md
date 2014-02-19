@@ -1,14 +1,19 @@
 ---
 title: Hide the ninjas
 level: Lesson 6
-language: en
+language: en-GB
+embeds: "*.png"
+materials: "code and images"
+note: "notes for club leaders.md"
+stylesheet: web
 ...
+
 ## Introduction { .intro}
 This project will build on your knowledge of CSS-fu. 
 
 Five ninjas arrived in town and need to hide before anyone notices them. Using your own ninja-like CSS skills to get them into a safe spot. You can move the ninjas themselves, and some of the objects in the street too. Quick! There is no time!
 
-![screenshot](https://github.com/CodeClub/webdev-curriculum/blob/master/en-GB/lesson%236/ninjas.png?raw=true)
+![screenshot](ninjas.png)
 
 # Step 1: Meet the ninjas { .activity}
 
