@@ -49,8 +49,10 @@ If you have a video you have created you can put it on your page without having 
 
 + To place a video on your page you will need to add a `video` tag. Just like the `<img>` tag is has the `src` attribute pointing to the file:
 
+```
 	<video src="spaceship_landing.mp4">
 	</video>
+```
 
 Sadly the annoying thing about adding video that was is that not every browser can play all of the video formats. You will have to save it in at least `.mp4` and `.ogv` formats, which will work in most browsers.
 
