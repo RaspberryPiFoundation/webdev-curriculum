@@ -1,7 +1,11 @@
 ---
 title: the web
 level: Lesson 1
-language: en
+language: en-GB
+embeds: "*.png"
+materials: "code and images"
+note: "notes for club leaders.md"
+stylesheet: web
 ...
 
 # Introduction { .intro}
@@ -30,7 +34,7 @@ __How can we view these files?__
 When you type in the address in your browser, your request gets passed along to a computer which is always turned on and configured to allow you to see the pages that live inside it. This computer is called a server. When it receives a request from your computer, it looks for all the necessary files: the `.html` file and sends you that with anything else that the page needs, like images and videos.
 
 ###Can I have this page please? 
-![screenshot](https://github.com/CodeClub/webdev-curriculum/blob/master/en-GB/lesson%231/diagram_screenshot.png?raw=true)
+![screenshot](diagram_screenshot.png)
 Here you go.
 
 # Step 2: What is HTML? { .activity}
