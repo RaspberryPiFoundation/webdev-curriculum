@@ -4,7 +4,6 @@ level: Lesson 1
 language: en-GB
 embeds: "*.png"
 materials: "code and images"
-note: "notes for club leaders.md"
 stylesheet: web
 ...
 
