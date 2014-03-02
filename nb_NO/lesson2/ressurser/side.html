@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Kodeklubben</title>
+	</head>
+	<body>
+		<h1>Dette er den viktigste overskriften på siden</h1>
+		<h2>Dette er enda en overskrift</h2>
+		<p>Hei! Her er en paragraf med tekst. Den kan være kort eller lang, og den kan <a href="overraskelse.html">inneholde linker</a>. Du kan for eksempel markere noen ord som <strong>viktige</strong> på en eller <em>annen</em> måte.</p>
+		<h3>Lister</h3>
+		<p>Her er en liste over ting jeg liker, sortert med det beste øverst:</p>
+		<ol>
+			<li>Kattunger</li>
+			<li>Universet</li>
+			<li>Å sove lenge</li>
+			<li>Å spille spill</li>
+		</ol>
+		<p>Og her er en liste over ting jeg ofte gjør, men de er ikke sortert:</p>
+		<ul>
+			<li>Gjøre lekser</li>
+			<li>Lese en favoritt-bok</li>
+			<li>Besøke en venn</li>
+			<li>Gå tur</li>
+			<li>Se film</li>
+		</ul>
+		<hr>
+		<h3>Gruppere ting</h3>
+		<div>
+			<p>Jeg har satt denne paragrafen i en boks. <code>&lt;div&gt;</code> er en boks du kan sette andre ting inn i. Den er nyttig å bruke når du vil gruppere ting sammen.</p>
+		</div>
+		<div>
+			<p class="om_klasser">Du kan bruke <code>klasser</code> til å skille like elementer i koden fra hverandre. Det kan være nyttig hvis du vil bruke samme typer tagger til litt forskjellige ting. <code>Klasser</code> er ikke synlige, men etterhvert vil du lære hvordan du kan bruke dem til å endre utseendet på ting på siden.</p>
+			<p class="om_klasser">Du kan ha mange elementer med samme <code>klasse</code>.</p>
+		</div>
+		<div id="om_id">
+			<p>Du kan også bruke <code>id</code> til nesten det samme: bruk <code>id</code> når du vil skille ut et helt spesielt element.</p>
+			<p>Du kan bare ha <em>ett</em> element med den samme id'en, men som en bonus så kan du <a href="#kattunge">linke til det elementet</a> på siden.</p>
+		</div>
+
+		<hr>
+
+		<!-- Oops, du fant meg! Hvorfor viste ikke nettleseren meg på siden? -->
+		<!--  
+                _                        
+                \`*-.                    
+                 )  _`-.                 
+                .  : `. .                
+                : _   '  \               
+                ; *` _.   `*-._          
+                `-.-'          `-.       
+                  ;       `       `.     
+                  :.       .        \    
+                  . \  .   :   .-'   .   
+                  '  `+.;  ;  '      :   
+                  :  '  |    ;       ;-. 
+                  ; '   : :`-:     _.`* ;
+             .*' /  .*' ; .*`- +'  `*' 
+               `*-*   `*-*  `*-*'        
+
+		-->
+		<!-- Alt innenfor pilene på starten og slutten av denne linjen blir behandlet som kommentarer -->
+		<!-- Kommentarer er en måte å markere og beskrive koden slik at du kan huske ting bedre senere. -->
+		<!-- Nettleseren vil skjule alle kommentarer for de som besøker siden. -->
+
+
+		<h3>Bilder</h3>
+		<div id="kattunge">
+			<img src="romkatt.jpg" width="600" height="480" alt="Dette er teksten du vil se når du beveger muspilen over bildet">
+			<p>Ooh, nå lærte du en ny tagg! <code>&lt;img&gt;</code> (bilde-taggen) lar deg sette inn bilder.</p>
+		</div>
+
+	</body>
+</html>
