@@ -1,140 +1,147 @@
 ---
-title: Building simple webpages
+title: en hjemmeside
 level: Lesson 2
-language: en-GB
+language: nb_NO
 embeds: "*.png"
-materials: "code and images"
+materials: "ressurser"
 stylesheet: web
 ...
 
-## Introduction { .intro}
+## Introduksjon { .intro}
 
-You know a few __HTML__ tags, so it's time to make your first page! Let's get started right away.
+Du kjenner en del __HTML__ tagger, så nå er det på tide å lage din første hjemmeside! La oss begynne med en gang.
 
-# Step 1: Open the starting document { .activity}
+# Steg 1: Åpne side some heater om meg { .activity}
 
-## Activity Checklist { .check}
+## Activitet { .check}
 
-1. Open a text editor. 
-2. Open the `about_me.html` file. It contains only a little bit of HTML code to get you started, but you will write the rest yourself.
+1. Åpne et __tekstprogram__. 
+2. Åpne filen som heter `om_meg.html`. Filen inneholder bittelitt HTMl kode for å hjelpe deg med å komme igang, men du må skrive resten selv.
 
-# Step 2: Make a page about yourself { .activity}
 
-### About mistakes
+# Steg 2: Lag en hjemmeside om deg selv { .activity}
 
-Mistakes often happen. It's very easy to make them in HTML because you have to remember to close each tag, and the opening and closing tag are slightly different. Let's try making some mistakes to see how browser tries to make sense of our code even if we haven't written it perfectly.
+### Om å gjøre feil
 
-## Activity Checklist { .check}
+Feil skjer ofte. Det er veldig lett å gjøre dem i HTML fordi du må huske å lukke hver tag, og åpnings-taggen og avslutnings-taggen er litt annerledes. La oss prøve å gjøre noen feil for å se hvordan nettleseren prøver å forstå meningen av koden vår, selv om vi ikke har skrevet den perfekt.
 
-+ Let's pick the list of things we like as an example. One of the mistakes that happen often is forgetting the __closing tag__, so let's remove the `</ul>` to see how it affects the page. Save the file and refresh it in the browser.
+## Activitet { .check}
 
-What happened? Some things below the list moved a little bit to the right. If you inspect the page with X-Ray Goggles you can see that things which followed the list now nest inside it, which is why they have moved to the right. After we removed the closing tag the browser simply doesn't know the list of items has ended.
++ La oss ta listen av ting vi liker for eksempel. En av feilene som skjer ofte, er å glemme __ avslutnings-taggen__, så la oss fjerne `</ ul>` for å se hvordan det påvirker siden. Lagre filen og oppdater den i nettleseren.
 
-Add the closing `</ul>` tag back in and save it. Now when you refresh the page the rest of tags aren't inside `<ul>` anymore.
+Hva har skjedd? Noen ting under listen flyttet litt til høyre. Hvis du inspisere siden med X-Ray Goggles kan du se at ting som fulgte listen nå er inne i den, det er derfor de har flyttet til høyre. Etter at vi fjernet avslutnings-taggen vet nettleseren rett og slett ikke at listen er avsluttet.
 
-+ Tags need to be spelt correctly for browser to understand them. What would happen if we misspelt something? 
+Legg avslutnings-taggen `</ ul>` igjen og lagre siden. Når du oppdaterer siden igjen er resten av kodene ikke inne i listen lenger.
+
++ Tagger må være stavet rikting for at nettleseren skal forstå dem. Hva skjer hvis vi gjør en skrivefeil?
 
 Find the `<h1>` tag. Let's change it to `<d1>`. Save the document and refresh it in the browser. 
 
-What happened? Since the browser doesn't know what you mean by this tag it can no longer tell that it's a heading and so it doesn't use a larger text to show how important this piece of text is. 
+Finn `<h1>` taggen. La oss se hva som skjer hvis vi froanderer den til `<d1>`. Lagre filen og oppdater nettleseren.
 
-Change `<d1>` back to `<h1>` and save again.
+Hva sjedde? Siden nettleseren ikke vet hva du mener med denne taggen så kan den ikke lenger forstå at det skal være en overskirft så den bruke rikke lenger en stærre tekst til å vise hvor viktig akkurat den teksten er.
 
-+ Find one of the `<img>` tags. We've just tried misspelling the tag name and the browser wasn't sure what to do with it. But what if we misspell the attribute?
+Bytt `<d1>` tilbake til `<h1>` og lagre igjen.
 
-Inside `<img>` tag we have the `href` and `alt` attributes:
 
-```HTML
-<img href="kitten.jpg" alt="This is a kitten." />
-```
++ Finn en av `<img>` taggene. Vi har akkurat prøvd å feilstave en tagg og nettleseren var ikke sikker på hva den skal gjøre med det. Men hva hvis vi feilstaver attributtet?
 
-Try changing `href` to something else. Save the document and refresh in the browser.
-
-Oh no! The kitten is gone!
-
-Suddenly, the browser no longer knows where to look for the picture to display - it is looking for the file name inside the `href` attribute, which is no longer there.
-
-Change it back to `href` so we can keep looking at the kitten.
-
-+ Now remove the second quote (`"`) from `alt` attribute of this image: the one after the text, so you end up with this:
+Inne i `<img>` taggen har vi `href` og `alt` attributter:
 
 ```HTML
-<img href="kitten.jpg" alt="This is a kitten. />
+<img href = "kattunge.jpg" alt = "Dette er en kattunge." />
 ```
 
-Save it and refresh in the browser. 
+Prøv å endre `href` til noe annet. Lagre dokumentet og oppdater i nettleseren.
 
-The next tag disappeared. Why? The browser will think that everything after `alt="` and before the next quote (`"`) is the additional text for this image, including the end of the image tag and the next opening tag. 
+Å nei! Kattungen er borte!
 
-Fix it again by adding a quote after the `alt` text.
+Plutselig nettleseren ikke lenger vet hvor du skal lete for å se bildet i displayet - den er ute etter filnavn inni `href` attributt, som ikke lenger er der.
 
-We've made some common mistakes together, and sometimes a simple error might make the browser struggle to understand what we mean. But most of the time it will try to show us something anyway, so when we've changed the header tag to something else it didn't understand this piece of text was a heading, but it still showed us the text. So it's a little bit understanding, but some mistakes can make it very confused.
+Pluttselig vet ikke nettleseren hvor den skal se etter bilde den skal vise - den ser ette filnavnet i `href` atributten som ikke lenger er der.
 
-# Step 3: Create another page and link to it { .activity}
+Endre det tilbake til `href` så vi kan fortsette å se på kattungen.
 
-Let's create another page. Open `about_me_page_2.html`. It has a little bit less code than the last page you were working with, but I'm sure you can figure out how to add new tags by now.
-
-__Some hints and ideas:__
-
-* Add a heading that will serve as the title of this page.
-* You could make this page about your pet, your favourite hobby or your friends and their hobbies.
-* Add a list of things your pet likes, if your page is about the pet.
-
-__Are you done? Great! Let's now link the two pages you have created together.__
-
-When we've been linking to parts of the same page, we could just point links to a specific id within a page, like this:
-	
-```HTML
-<a href="#kitten">Click to see a kitten</a>
-```
-
-Which then took you to something like this:
++ Nå fjern det andre kvotemerket (`" `) fra ` alt `atributtet av dette bildet: den etter teksten, slik at du ender opp med dette:
 
 ```HTML
-<div id="kitten">
-	<img src="kitten.jpg" alt="This is a kitten." />
-</div>
+<img href="kattunge.jpg" alt="Dette er en kattunge. />
 ```
 
-To link to another page, we don't need to include the hash symbol (`#`), but instead we need to say which file we would like the link to take us to.
+Lagre og oppdater i nettleseren.
 
-So to link from `about_me_page_2.html` to `about_me.html` write it like this:
+Den neste taggen forsvant. Hvorfor? Nettleseren vil tro at alt etter `alt =" `og før neste sitatmerke (` "`) er ekstra teksten for dette bildet, inkludert slutten av bildekoden og neste åpnings-taggen.
+
+Fiks det igjen ved å legge til et kvotemerke etter `alt` teksten.
+
+Vi har nå gjort noen vanlige feil sammen, og har sett at noen ganger kan en enkelt feil gjøre slik at nettleseren ikke forstår hva vi mener. Men mesteparten av tiden vil den prøve å vise oss noe uansett, så når vi har endret overskriften koden til noe annet forsto den ikke at teksten var en overskrift, men viste oss fortsatt teksten. Så den prøver så godt den kan, men noen feil kan gjøre den ganske forvirret.
+
+# Steg 3: Lag en ny side å link til den { .activity}
+
+La oss lage en ny side. Åpne `omg_meg_side_2.html`.  Den har litt mindre kode en den andre siden do jobbet med, men jeg er sikker på at du kan legge til mer kode selv nå.
+
+
+__Noen tips og ideer:__
+
+* Legg til en overskrift som vil fungere som tittelen på denne siden.
+* Denne siden kan handle om kjæledyret ditt, din favoritt hobby eller vennene dine og deres hobbyer.
+* Lag en liste over ting kjæledyret liker, hvis siden er om et kjæledyr.
+
+__Er du ferdig? Flott! La oss nå linke de to sidene du har laget sammen.__
+
+Når vi har linket til deler av den samme siden, kunne vi bare peke linken til en besstemt id på siden, som dette:
 
 ```HTML
-<a href="about_me.html">Go to About Me page</a>
+<a href="#kattunge"> Klikk for å se en kattunge </ a>
 ```
 
-You can change the link text to something else, like the page title if you have changed it.
-
-To link back from `about_me.html` to `about_me_page_2.html` you would have to write it like so:
+Som da tok deg til noe sånt som dette:
 
 ```HTML
-<a href="about_me_page_2.html">Go to my second page</a>
+<div id="kattunge">
+<img src = "kattunge.jpg" alt = "Dette er en kattunge." />
+</ div>
+```
+Hvis du vil koble til en annen side, trenger vi ikke å inkludere hashsymbolet (`#`), men i stedet må vi si hvilken fil vi vil linken skal ta oss til.
+
+Så for å linke fra `om_meg_side_2.html` til `om_meg.html` skriver vi slik:
+
+```HTML
+<a href="om_meg.html"> Gå til Om Meg siden </ a>
 ```
 
-Congratulations! You have made your own website.
+Du kan endre anker teksten til noe annet, som tittelen på siden hvis du har endret det.
 
-# Putting your website on the web (extra activity) { .activity}
+For å linke tilbake fra `om_meg.html` til `om_meg_side_2.html` må du skrive det slik:
 
-Now you have made your own site, you want to show it off, am I right? 
+```HTML
+<a href="om_meg_side_2.html"> Gå til min andre side </ a>
+```
 
-If you simply copied the address of the web page from your browser and then sent it to someone, they wouldn't see it. That's because this address describes a place on your computer, and your friends don't have access to it. Even of they did, what if they wanted to look at it when your computer wasn't turned on? 
+Gratulerer! Du har laget ditt eget nettsted.
 
-Remember servers from the first session? Servers are computers that are always on and connected to the internet, and they are set up so people can visit websites that live on those computers.
+# Publiser nettsiden din på Internett ( ekstra aktivitet) { .activity }
 
-To do that we will use __Cyberduck__ - it's a program for moving files from your computer to a server.
+Nå har du laget ditt eget nettsted, ønsker du å vise det fram, har jeg rett ?
 
-1. Click `Open Connection`.
-2. Add the server name, user name and password as instructed by the CodeClub volunteer.
-3. Click `Connect`. You will then see all the folders and files on the server - most likely the server will be empty, as you haven't added your files yet.
-4. Drag your website files from your computer into your server window. The uploading will begin.
-5. Once uploaded, you can visit your website at the address given to you by the CodeClub volunteer.
+Hvis du bare kopiert adressen til web side fra nettleseren din, og deretter sendt den til noen, ville de ikke se det . Det er fordi denne adressen beskriver et sted på datamaskinen din, og vennene dine ikke har tilgang til den. Selv for de gjorde, hva om de ønsket å se på det når datamaskinen ikke ble slått på?
 
+Hvis du bare kopierer adressen til siden din fra nettleseren og sender den til noen, kommer de ikke til å kunne se siden. Det er fordi denne adressen beskriver et sted på din datamaskin, og vennene dine har ikke tilgang til filene på din datamaskin. Selv om de hade tilgang, hva vile ske om de ønsket å se på nettsidene din når datamaskinen din er skrudd av?
 
-## Things to try { .try}
+Husker du servere fra den første økten? Servere er datamaskiner som alltid er på og koblet til Internett, og de er satt opp slik at folk kan besøke nettsteder som lever på disse datamaskinene.
 
-* How could you link to another page on the web? (Hint: try adding `http://` and then the address of the site you want to link to)
-* Similar to suggestion above, how would you add a picture from somewhere on the web instead of from your computer? (Hint: again, try adding `http://` and the address of the picture)
+For å gjøre dette vil vi bruke __Cyberduck__ - det er et program for å flytte filer fra din datamaskin til en server.
+
+1. Klikk `Åpne Tilkobling`.
+2. Legg inn servernavn, brukernavn og passord som instruert av Kodeklubben hjelperen.
+3.  Klikk `Tilkoble`. Du vil da se alle mappene og filene på serveren - mest sannsynlig vil serveren være tom, om du ikke har lagt filene dine ennå.
+4. Dra nettsted filene fra datamaskinen din til  server vinduet . Opplastingen vil begynne.
+5. Når det er lastet opp, kan du besøke nettstedet ditt på adressen gitt til deg av Kodeklubben hjelperen.
+
+## Ting du kan prøve { .try}
+
+* Hvordan kan du linke til en annen side på nettet? (Hint: prøv å legge `http://` og deretter adressen til nettstedet du vil koble til)
+* I likhet med forslaget ovenfor, hvordan ville du legge til et bilde fra et sted på nettet i stedet for fra datamaskinen? (Hint: igjen, prøve å legge `http://` og adressen til bildet)
 
 
 
