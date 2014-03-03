@@ -11,7 +11,7 @@ stylesheet: web
 
 Du kjenner en del __HTML__ tagger, så nå er det på tide å lage din første hjemmeside! La oss begynne med en gang.
 
-# Steg 1: Åpne side some heater om meg { .activity}
+# Steg 1: Åpne siden som heter om meg { .activity}
 
 ## Activitet { .check}
 
@@ -27,19 +27,17 @@ Feil skjer ofte. Det er veldig lett å gjøre dem i HTML fordi du må huske å l
 
 ## Activitet { .check}
 
-+ La oss ta listen av ting vi liker for eksempel. En av feilene som skjer ofte, er å glemme __ avslutnings-taggen__, så la oss fjerne `</ ul>` for å se hvordan det påvirker siden. Lagre filen og oppdater den i nettleseren.
++ La oss ta listen av ting vi liker som et eksempel. En av feilene som ofte skjer, er å glemme __ avslutnings-taggen__, så la oss fjerne `</ ul>` for å se hvordan det påvirker siden. Lagre filen og oppdater den i nettleseren.
 
-Hva har skjedd? Noen ting under listen flyttet litt til høyre. Hvis du inspisere siden med X-Ray Goggles kan du se at ting som fulgte listen nå er inne i den, det er derfor de har flyttet til høyre. Etter at vi fjernet avslutnings-taggen vet nettleseren rett og slett ikke at listen er avsluttet.
+Hva skjedde? Noen ting under listen ble flyttet litt til høyre. Hvis du inspiserer siden med X-Ray Goggles kan du se at ting som fulgte listen, nå er inne i den, det er derfor de har flyttet seg til høyre. Etter at vi fjernet avslutnings-taggen vet nettleseren rett og slett ikke at listen er avsluttet.
 
-Legg avslutnings-taggen `</ ul>` igjen og lagre siden. Når du oppdaterer siden igjen er resten av kodene ikke inne i listen lenger.
+Legg avslutnings-taggen `</ ul>` igjen og lagre siden. Når du oppdaterer siden igjen er ikke resten av kodene inne i listen lenger.
 
-+ Tagger må være stavet rikting for at nettleseren skal forstå dem. Hva skjer hvis vi gjør en skrivefeil?
++ Tagger må være stavet riktig for at nettleseren skal forstå dem. Hva skjer hvis vi gjør en skrivefeil?
 
-Find the `<h1>` tag. Let's change it to `<d1>`. Save the document and refresh it in the browser. 
+Finn `<h1>` taggen. La oss se hva som skjer hvis vi forandrer den til `<d1>`. Lagre filen og oppdater siden i nettlesern. 
 
-Finn `<h1>` taggen. La oss se hva som skjer hvis vi froanderer den til `<d1>`. Lagre filen og oppdater nettleseren.
-
-Hva sjedde? Siden nettleseren ikke vet hva du mener med denne taggen så kan den ikke lenger forstå at det skal være en overskirft så den bruke rikke lenger en stærre tekst til å vise hvor viktig akkurat den teksten er.
+Hva sjedde? Siden nettleseren ikke vet hva du mener med denne taggen så kan den ikke lenger forstå at det skal være en overskrift, så den bruker ikke lenger en større tekst til å vise hvor viktig akkurat den teksten er.
 
 Bytt `<d1>` tilbake til `<h1>` og lagre igjen.
 
@@ -56,13 +54,11 @@ Prøv å endre `href` til noe annet. Lagre dokumentet og oppdater i nettleseren.
 
 Å nei! Kattungen er borte!
 
-Plutselig nettleseren ikke lenger vet hvor du skal lete for å se bildet i displayet - den er ute etter filnavn inni `href` attributt, som ikke lenger er der.
-
-Pluttselig vet ikke nettleseren hvor den skal se etter bilde den skal vise - den ser ette filnavnet i `href` atributten som ikke lenger er der.
+Plutselig vet ikke nettleseren hvor den skal se etter bildet den skal vise - den ser etter filnavnet i `href` atributten som ikke lenger er der.
 
 Endre det tilbake til `href` så vi kan fortsette å se på kattungen.
 
-+ Nå fjern det andre kvotemerket (`" `) fra ` alt `atributtet av dette bildet: den etter teksten, slik at du ender opp med dette:
++ Nå fjern det andre anførselstegnet (`" `) fra `alt` attributtet av dette bildet: den etter teksten, slik at du ender opp med dette:
 
 ```HTML
 <img href="kattunge.jpg" alt="Dette er en kattunge. />
@@ -70,15 +66,15 @@ Endre det tilbake til `href` så vi kan fortsette å se på kattungen.
 
 Lagre og oppdater i nettleseren.
 
-Den neste taggen forsvant. Hvorfor? Nettleseren vil tro at alt etter `alt =" `og før neste sitatmerke (` "`) er ekstra teksten for dette bildet, inkludert slutten av bildekoden og neste åpnings-taggen.
+Den neste taggen forsvant. Hvorfor? Nettleseren vil tro at alt etter `alt =" `og før neste sitatmerke (` "`) er ekstra tekst for dette bildet, inkludert slutten av bildekoden og neste åpnings-taggen.
 
-Fiks det igjen ved å legge til et kvotemerke etter `alt` teksten.
+Fiks det igjen ved å legge til et anførselstegn etter `alt` teksten.
 
-Vi har nå gjort noen vanlige feil sammen, og har sett at noen ganger kan en enkelt feil gjøre slik at nettleseren ikke forstår hva vi mener. Men mesteparten av tiden vil den prøve å vise oss noe uansett, så når vi har endret overskriften koden til noe annet forsto den ikke at teksten var en overskrift, men viste oss fortsatt teksten. Så den prøver så godt den kan, men noen feil kan gjøre den ganske forvirret.
+Vi har nå gjort noen vanlige feil sammen, og har sett at noen ganger kan en enkelt feil gjøre slik at nettleseren ikke forstår hva vi mener. Men mesteparten av tiden vil den prøve å vise oss noe uansett, så når vi har endret overskrift-koden til noe annet, forsto den ikke at teksten var en overskrift, men viste oss fortsatt teksten. Så den prøver så godt den kan, men noen feil kan gjøre den ganske forvirret.
 
-# Steg 3: Lag en ny side å link til den { .activity}
+# Steg 3: Lag en ny side og link til den { .activity}
 
-La oss lage en ny side. Åpne `omg_meg_side_2.html`.  Den har litt mindre kode en den andre siden do jobbet med, men jeg er sikker på at du kan legge til mer kode selv nå.
+La oss lage en ny side. Åpne `omg_meg_side_2.html`.  Den har litt mindre kode en den andre siden du jobbet med, men jeg er sikker på at du kan legge til mer kode selv nå.
 
 
 __Noen tips og ideer:__
@@ -89,7 +85,7 @@ __Noen tips og ideer:__
 
 __Er du ferdig? Flott! La oss nå linke de to sidene du har laget sammen.__
 
-Når vi har linket til deler av den samme siden, kunne vi bare peke linken til en besstemt id på siden, som dette:
+Når vi har linket til deler av den samme siden, kunne vi bare peke linken til en bestemt id på siden, som dette:
 
 ```HTML
 <a href="#kattunge"> Klikk for å se en kattunge </ a>
@@ -120,23 +116,21 @@ For å linke tilbake fra `om_meg.html` til `om_meg_side_2.html` må du skrive de
 
 Gratulerer! Du har laget ditt eget nettsted.
 
-# Publiser nettsiden din på Internett ( ekstra aktivitet) { .activity }
+# Publiser nettsiden din på Internett (ekstra aktivitet) { .activity }
 
-Nå har du laget ditt eget nettsted, ønsker du å vise det fram, har jeg rett ?
+Nå har du laget ditt eget nettsted. Du ønsker vel å vise det frem, gjør du ikke?
 
-Hvis du bare kopiert adressen til web side fra nettleseren din, og deretter sendt den til noen, ville de ikke se det . Det er fordi denne adressen beskriver et sted på datamaskinen din, og vennene dine ikke har tilgang til den. Selv for de gjorde, hva om de ønsket å se på det når datamaskinen ikke ble slått på?
-
-Hvis du bare kopierer adressen til siden din fra nettleseren og sender den til noen, kommer de ikke til å kunne se siden. Det er fordi denne adressen beskriver et sted på din datamaskin, og vennene dine har ikke tilgang til filene på din datamaskin. Selv om de hade tilgang, hva vile ske om de ønsket å se på nettsidene din når datamaskinen din er skrudd av?
+Hvis du bare kopierer adressen til websiden fra nettleseren din, og deretter sender den til noen, ville de ikke se den. Det er fordi denne adressen beskriver et sted på datamaskinen din, og vennene dine ikke har tilgang til den. Selv om hadde hatt det, hva om de ønsket å se på den når datamaskinen din er skrudd av?
 
 Husker du servere fra den første økten? Servere er datamaskiner som alltid er på og koblet til Internett, og de er satt opp slik at folk kan besøke nettsteder som lever på disse datamaskinene.
 
 For å gjøre dette vil vi bruke __Cyberduck__ - det er et program for å flytte filer fra din datamaskin til en server.
 
 1. Klikk `Åpne Tilkobling`.
-2. Legg inn servernavn, brukernavn og passord som instruert av Kodeklubben hjelperen.
+2. Legg inn servernavn, brukernavn og passord som instruert av Kodeklubben-hjelperen.
 3.  Klikk `Tilkoble`. Du vil da se alle mappene og filene på serveren - mest sannsynlig vil serveren være tom, om du ikke har lagt filene dine ennå.
-4. Dra nettsted filene fra datamaskinen din til  server vinduet . Opplastingen vil begynne.
-5. Når det er lastet opp, kan du besøke nettstedet ditt på adressen gitt til deg av Kodeklubben hjelperen.
+4. Dra nettsted-filene fra datamaskinen din til servervinduet. Opplastingen vil begynne.
+5. Når det er lastet opp, kan du besøke nettstedet ditt på adressen gitt til deg av Kodeklubben-hjelperen.
 
 ## Ting du kan prøve { .try}
 
