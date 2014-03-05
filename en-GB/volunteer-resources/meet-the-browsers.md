@@ -1,11 +1,14 @@
-#WHY ARE THERE SO MANY BROWSERS?
+---
+title: Why are there so many browsers?
+language: en
+...
 
 __Introduction:__ You’ve already learnt that a browser is just a really fancy program that takes __HTML files__ (which are just text files using the HTML tags), __CSS files__ and associated media, like images or videos, and displays them according to the instructions written in code. But there are so many to choose from! What makes them different? After all, they should all do what your code tells them.
 
-##Meet the browsers
+#Meet the browsers
 The most popular browsers used on desktop and laptop computers are Internet Explorer, Google Chrome, Mozilla Firefox and Safari. On many tablets and phones that run on an Android system Opera Mini, Chrome or Dolphin might be used. iPhones and iPads use Mobile Safari.
 
-##HTML & CSS change all the time, and so do browsers
+#HTML & CSS change all the time, and so do browsers
 HTML and CSS aren’t static: new things you can do with them are being decided and added to the languages all the time. This is done by agreeing on what is a standard and what
 isn’t. These decisions are made by World Wide Web Consortium ( __W3C__ for short), a group of people including coders, browser makers and others interested in the future of the web (you can apply to become a member too). Once it’s decided what features are to be added, removed or changed, the browser makers then build browsers that can recognise the new things you can now do in code.
 

@@ -1,4 +1,7 @@
-#Hello! Welcome to term 3 of Code Club!
+---
+title: Hello! Welcome to term 3 of Code Club!
+language: en
+...
 
 In this term we're going to be learning about HTML and CSS. These are the building blocks of the web!
 

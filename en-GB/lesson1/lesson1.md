@@ -1,5 +1,5 @@
 ---
-title: the web
+title: The Web
 level: Lesson 1
 language: en
 ...
