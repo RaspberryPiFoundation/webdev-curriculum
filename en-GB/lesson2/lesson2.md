@@ -1,7 +1,10 @@
 ---
 title: Building simple webpages
 level: Lesson 2
-language: en
+language: en-GB
+embeds: "*.png"
+materials: "code and images"
+stylesheet: web
 ...
 
 ## Introduction { .intro}

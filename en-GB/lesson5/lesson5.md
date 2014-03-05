@@ -1,7 +1,10 @@
 ---
 title: Styling and formatting text
 level: Lesson 5
-language: en
+language: en-GB
+embeds: "*.png"
+materials: "code and images"
+stylesheet: web
 ...
 
 ## __Introduction:__ { .intro }
@@ -10,6 +13,7 @@ In this session we are going to learn how to style text with different fonts, co
 #Step 1: Fonts { .activity}
 
 We can change the look of the text by changing the __font__. The most common fonts are called 
+
 * Arial
 * Courier New, Courier
 * Garamond
@@ -52,7 +56,7 @@ Which of the fonts we mentioned do you think looks best? Which one do you think 
 
 Do you have other fonts on your computer than the ones mentioned? (you probably do). Try opening a program like Word or Pages, all the fonts stored on the computer can usually be found there.
 
-![screenshot](https://github.com/CodeClub/webdev-curriculum/blob/master/en-GB/lesson%235/fonts.png?raw=true)
+![screenshot](fonts.png)
 
 Find one you like and try it out on the website!
 

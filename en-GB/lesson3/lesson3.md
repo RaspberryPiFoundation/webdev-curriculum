@@ -1,7 +1,10 @@
 ---
 title: Missing cat website
 level: Lesson 3
-language: en
+language: en-GB
+embeds: "*.png"
+materials: "code and images"
+stylesheet: web
 ...
 
 ## __The Mission:__ { .intro}
@@ -9,7 +12,7 @@ language: en
 Felix the cat has gone missing. His owner made a poster 
 to hang up in the neighborhood, but you realise making a website means many more people can see it.
 
-![screenshot](https://github.com/CodeClub/webdev-curriculum/blob/master/en-GB/lesson%233/missingcat.png?raw=true)
+![screenshot](missingcat.png)
 
 #Step 1: { .activity}
 
@@ -152,7 +155,7 @@ And some keywords, separated by commas
 <meta name="keywords" content="Felix, cat, missing">
 ```
 
-![screenshot](https://github.com/CodeClub/webdev-curriculum/blob/master/en-GB/lesson%233/screenshot_jsbin.png?raw=true)
+![screenshot](screenshot_jsbin.png)
 
 ##Further study: { .try}
 

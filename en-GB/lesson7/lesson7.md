@@ -1,7 +1,9 @@
 ---
 title: Design & build your own website
 level: Lesson 7
-language: en
+language: en-GB
+embeds: "*.png"
+stylesheet: web
 ...
 
 ## __Introduction:__ { .intro}

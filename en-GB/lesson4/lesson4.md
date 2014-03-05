@@ -1,7 +1,10 @@
 ---
 title: Styling web pages
 level: Lesson 4
-language: en
+language: en-GB
+embeds: "*.png"
+materials: "code and images"
+stylesheet: web
 ...
 
 ## Introduction { .intro}
