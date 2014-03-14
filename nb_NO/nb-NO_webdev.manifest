@@ -1,8 +1,8 @@
 {
     "id": "webdev",
     "title": "HTML & CSS",
-    "description":"Learn how to build websites using HTML and CSS.",
-    "language": "en-GB",
+    "description":"Lær hvordan man lager nettsider med HTML and CSS.",
+    "language": "nb-NO",
     "number": 3,
 
     "projects": [
@@ -17,41 +17,7 @@
         {
             "filename": "lesson3/lesson3.md",
             "number": 3
-        },
-        {
-            "filename": "lesson4/lesson4.md",
-            "number": 4
-        },
-        {
-            "filename": "lesson5/lesson5.md",
-            "number": 5
-        },
-        {
-            "filename": "lesson6/lesson6.md",
-            "number": 6
-        },
-        {
-            "filename": "lesson7/lesson7.md",
-            "number": 7
-        },
-        {
-            "filename": "lesson8/lesson8.md",
-            "number": 8
         }
     ],
-    "extras": [
-        { 
-            "name": "Readme",
-            "note": "volunteer-resources/readme.md"
-        },
-        { 
-            "name": "Meet the browsers",
-            "note": "volunteer-resources/meet-the-browsers.md"
-        },
-        { 
-            "name": "Saving your work",
-            "note": "volunteer-resources/saving-your-work.md"
-        }
-    ]
 }
 
