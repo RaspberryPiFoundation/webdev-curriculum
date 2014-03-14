@@ -22,7 +22,8 @@ Adding videos from YouTube is really simple.
 It will look something like this:
 
 ```
-<iframe width="560" height="315" src="http://www.youtube.com/embed/FxhGIajRsq4" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/FxhGIajRsq4"
+   frameborder="0" allowfullscreen></iframe>
 ```
 
 This specific code fragment would add a CodeClub video to your page. Just copy and past it where you would like the video to appear.
@@ -37,7 +38,8 @@ Notice the `width` and `height` attributes. They allow you to control how big wi
 + On the right hand side there is an Embed box. Click it to select the code and copy it. It will look a bit like this:
 
 ```
-<iframe src="http://player.vimeo.com/video/44738167?title=0&amp;byline=0&amp;portrait=0&amp;badge=0" width="600" height="338" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="http://player.vimeo.com/video/44738167" width="600" height="338" 
+   frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 ```
 
 + Paste the code where you would like the video to appear on the page. Notice the `width` and `height` attributes. They allow you to control how big will the video be on the page, so feel free to change them.
