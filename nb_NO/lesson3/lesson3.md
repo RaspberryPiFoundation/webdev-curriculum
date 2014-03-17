@@ -91,7 +91,7 @@ Dette er bare en leke-epostadresse, men la oss gjøre det sånn at når noen kli
 Vi vil virkelig at folk skal finne Felix, så vi vil legge litt *trykk* på `vennligst`. Dette gjør vi ved å bruke em taggen.
 
 ```HTML
-<p>Har du sett Felix? <em>Vennligst</em> kontakt eieren hans på eierentilfelix@email.com</p>
+<p>Har du sett Felix? <em>Vennligst</em> kontakt eieren hans på <a href="mailto:eierentilfelix@email.com">eierentilfelix@email.com</a></p>
 ```
 Vi vil også at ´Tusen takk´ skal vises skikkelig, som vi oppnår ved å bruke strong taggen.	
 
