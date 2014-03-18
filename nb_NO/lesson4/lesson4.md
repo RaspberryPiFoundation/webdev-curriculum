@@ -1,6 +1,6 @@
 ---
 title: CSS
-level: Lesson 2
+level: Lesson 4
 language: nb_NO
 embeds: "*.png"
 materials: "ressurser"
@@ -84,7 +84,6 @@ span {
 
 #Steg 4: Bakgrunnsfarger { .activity}
 
-We can add colours to the background too, not just text. For instance:
 We kan legge til farger i bakgrunnen også, ikke bare selve teksten. For eksepel:
 
 ```css
@@ -92,8 +91,6 @@ body {
 	background-color:#D2FAFC; 
 }
 ```
-
-This will make the entire background light blue. You can choose any colour you like from a list at 
 Dette gjør hele bakgrunnen lys blå. Du kan bruke hvilken som helst farge fra [www.colourpicker.com](http://www.colourpicker.com) som genererer hvilken hexkode du trenger, som du kan klippe ut og lime inn der du trenger den.
 
 Nå prøv:
@@ -114,7 +111,7 @@ h1 {
   
 ## __LAGRE__ filen og se på den i nettlerseren { .save}
 
-## Moro med tekst
+# Steg 5: Moro med tekst
 Kanskje 'mistet' overskirften bør være __større__ og også store bokstaver. Vi kan angi størrelsen på teksten ved hjelp av`font-size`. Verdiene kan være masse forksjellig, men den mest vanlige er 12, 14, 16, 32, 48 og 72 piksler.
 For nå kan du prøve 72px. (px betyr piksel).
 
@@ -134,7 +131,7 @@ Det er mye mer merkbar nå ikke sant?
 ### Hvis du har Firefox eller Chrome nettleser:
 Egentlig er det en annen verdi for `text-decoration` kalt `blink`. Jeg kommer ikke til å fortelle deg hva den gjør. Du må prøve det. `text-decoration: blink;` (det kan bli litt irriterende etter en stund, du kan bytte tilbake til understrek hvis du foretrekker).
 
-# Steg 6. Sentre tekst ( og bilder) horisontalt  {.activity}
+# Steg 6: Sentre tekst ( og bilder) horisontalt  {.activity}
 
 All teksten vår er hele veien over til venstre. Vi kan endre det ved hjelp av `text-align:center` (du kan også bruke verdien "right" som betyr høyre, "left" betyr venstre, og er standard).
 1. Vi vil at all tekst skal væresentert, så vi kan skrive:
