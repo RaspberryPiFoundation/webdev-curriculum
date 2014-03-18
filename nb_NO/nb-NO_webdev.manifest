@@ -21,7 +21,12 @@
         ,
         {
             "filename": "lesson4/lesson4.md",
-            "number": 3
+            "number": 4
+        }
+        ,
+        {
+            "filename": "lesson5/lesson5.md",
+            "number": 5
         }
     ]
 }
