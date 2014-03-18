@@ -152,9 +152,6 @@ La du merke til at alt på siden gikk ble sentrert når vi setter `text-align:ce
 ```HTML
 <p>Har du sett Felix? <em>Vennligst</em> kontakt eieren hans</p>
 ```
-		
-The ‘Please’ will have the style of the `<p>` element with the style of the `<em>` element added on. This is why the stylesheets are called __cascading__ - the styles cascade from elements into all the ones inside them.
-
 
 Ordet 'Vennligst' vil arve stilen på `<p>` element med stilen på `<em>` element lagt på. Dette er grunnen til at stilene kalles __cascading__ - stilene kaskader fra elementer inn til alle de stilene som er inni dem.
 Vær forsiktig, men fordi noen stiler ikke er *arvet* . Vi vil finne ut om disse senere. 
