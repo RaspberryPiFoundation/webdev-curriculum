@@ -33,6 +33,17 @@
             "filename": "lesson7/lesson7.md",
             "number": 7
         }
+
+    ],
+    "extras": [
+        { 
+            "name": "Readme",
+            "note": "ressurser/readme.md"
+        },
+        { 
+            "name": "Nettlesere",
+            "note": "resurrser/nettlesere.md"
+        }
     ]
 }
 
