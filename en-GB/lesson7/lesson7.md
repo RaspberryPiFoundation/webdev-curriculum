@@ -16,7 +16,7 @@ Some people like to sketch out their website with pen and paper before starting 
 
 You will need to think about what content should go on the website. If you’re writing about your favourite hobby, what do you think people would like to know about it? Do you have any pictures or videos? If you don’t have any pictures you can always make a drawing.
 
-#Step 2: Coding you website { .activity}
+#Step 2: Coding your website { .activity}
 
 Use the knowledge you’ve learnt in the previous lessons to code your website. Your Code Club leader have some new materials for you as well that you can use, including how to put audio and video on your website. Exciting!
 
