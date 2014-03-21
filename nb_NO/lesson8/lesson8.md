@@ -115,8 +115,6 @@ Måten å legge lydfiler til siden din fra datamaskinen din er omtrent som med v
 
 Legg merke til `src` atributtet som peker til filen.
 
-Just like with video, not every browser can play every type of audio file, so to make sure as many people as possible can hear the audio you have to add the file in more than one format, at least in `.mp3` and `.oga`.
-
 Akkurat som med video, kan ikke alle nettlesere spille hver type lydfil, så for å sørge for at så mange som mulig kan høre lyden du har til å legge filen i mer enn ett format, i hvert fall i `.mp3` og `.oga`.
 
 ```
