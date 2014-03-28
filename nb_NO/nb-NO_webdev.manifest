@@ -39,16 +39,7 @@
             "number": 8
         }
 
-    ],
-    "extras": [
-        { 
-            "name": "Readme",
-            "note": "ressurser/readme.md"
-        },
-        { 
-            "name": "Nettlesere",
-            "note": "resurrser/nettlesere.md"
-        }
     ]
+    
 }
 
