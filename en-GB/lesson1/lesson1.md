@@ -42,7 +42,7 @@ HTML is a __markup__ language - it means that it is used to describe what things
 
 Even though the browser will try to display things as best as it can, it helps it to know what these things are.
 
-To tell browser that, we use `tags`. 
+To tell the browser that, we use `tags`. 
 
 Tags look like this:
 `<p>This is some text.</p>`
