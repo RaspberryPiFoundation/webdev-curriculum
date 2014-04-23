@@ -81,7 +81,7 @@ but we added an attribute to the opening one:
 4. Move your mouse around the page. You can see the parts of the page light up, and see what tags they are made of. You can click on each box to see the snippet of code the box is made of.
 
 #### If you are using developer tools:
-3. Move around the page. Right click anything interesting, and then click `Inspect element`. A panel will open up which will show you the page's code as the same time as the page.
+3. Move around the page. Right click anything interesting, and then click `Inspect element`. A panel will open up which will show you the page's code at the same time as the page.
 4. Move your mouse over different pieces of code. The corresponding things on the page will be highlighted, so you can see which bit does what.
 5. Try to inspect all parts of the page. Can you figure out what the different tag names stand for?
 
