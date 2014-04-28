@@ -15,7 +15,7 @@ Du kjenner en del __HTML__ tagger, så nå er det på tide å lage din første h
 
 ## Activitet { .check}
 
-1. Åpne et __tekstprogram__. 
+1. Åpne et __tekstprogram__.
 2. Åpne filen som heter `om_meg.html`. Filen inneholder bittelitt HTMl kode for å hjelpe deg med å komme igang, men du må skrive resten selv.
 
 
@@ -35,7 +35,7 @@ Legg avslutnings-taggen `</ ul>` igjen og lagre siden. Når du oppdaterer siden 
 
 + Tagger må være stavet riktig for at nettleseren skal forstå dem. Hva skjer hvis vi gjør en skrivefeil?
 
-Finn `<h1>` taggen. La oss se hva som skjer hvis vi forandrer den til `<d1>`. Lagre filen og oppdater siden i nettlesern. 
+Finn `<h1>` taggen. La oss se hva som skjer hvis vi forandrer den til `<d1>`. Lagre filen og oppdater siden i nettlesern.
 
 Hva sjedde? Siden nettleseren ikke vet hva du mener med denne taggen så kan den ikke lenger forstå at det skal være en overskrift, så den bruker ikke lenger en større tekst til å vise hvor viktig akkurat den teksten er.
 
@@ -46,7 +46,7 @@ Bytt `<d1>` tilbake til `<h1>` og lagre igjen.
 
 Inne i `<img>` taggen har vi `href` og `alt` attributter:
 
-```HTML
+```{.language-markup}
 <img href = "kattunge.jpg" alt = "Dette er en kattunge." />
 ```
 
@@ -60,7 +60,7 @@ Endre det tilbake til `href` så vi kan fortsette å se på kattungen.
 
 + Nå fjern det andre anførselstegnet (`" `) fra `alt` attributtet av dette bildet: den etter teksten, slik at du ender opp med dette:
 
-```HTML
+```{.language-markup}
 <img href="kattunge.jpg" alt="Dette er en kattunge. />
 ```
 
@@ -87,13 +87,13 @@ __Er du ferdig? Flott! La oss nå linke de to sidene du har laget sammen.__
 
 Når vi har linket til deler av den samme siden, kunne vi bare peke linken til en bestemt id på siden, som dette:
 
-```HTML
+```{.language-markup}
 <a href="#kattunge"> Klikk for å se en kattunge </ a>
 ```
 
 Som da tok deg til noe sånt som dette:
 
-```HTML
+```{.language-markup}
 <div id="kattunge">
 <img src = "kattunge.jpg" alt = "Dette er en kattunge." />
 </ div>
@@ -102,7 +102,7 @@ Hvis du vil koble til en annen side, trenger vi ikke å inkludere hashsymbolet (
 
 Så for å linke fra `om_meg_side_2.html` til `om_meg.html` skriver vi slik:
 
-```HTML
+```{.language-markup}
 <a href="om_meg.html"> Gå til Om Meg siden </ a>
 ```
 
@@ -110,7 +110,7 @@ Du kan endre anker teksten til noe annet, som tittelen på siden hvis du har end
 
 For å linke tilbake fra `om_meg.html` til `om_meg_side_2.html` må du skrive det slik:
 
-```HTML
+```{.language-markup}
 <a href="om_meg_side_2.html"> Gå til min andre side </ a>
 ```
 

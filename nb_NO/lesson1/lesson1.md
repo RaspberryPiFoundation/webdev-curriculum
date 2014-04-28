@@ -109,7 +109,7 @@ For eksempel, noen av paragrafene kan være introduksjoner, så du kan gi de en 
 
 + Hva skjer hvis du flytter ting rundt? La oss gå tilbake til tekstprogrammet. Finn en `<ol>` tagg i koden og velg den og alt som er inne i den, slik som dette:
 
-```HTML
+```{.language-markup}
 <ol>
 	<li>Katter</li>
 	<li>Bløtkake</li>

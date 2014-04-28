@@ -1,109 +1,132 @@
 {
+    "description": "Learn how to build websites using HTML and CSS.",
     "id": "webdev",
-    "title": "HTML & CSS",
-    "description":"Learn how to build websites using HTML and CSS.",
     "language": "en-GB",
     "number": 3,
+    "title": "HTML & CSS",
 
     "projects": [
         {
-            "filename": "lesson1/lesson1.md",
-            "number": 1,
-            "materials":[   "lesson1/code and images/about_me_page_2.html",
-                            "lesson1/code and images/about_me.html",
-                            "lesson1/code and images/bunny.png",
-                            "lesson1/code and images/cat.png",
-                            "lesson1/code and images/goldfish.png",
-                            "lesson1/code and images/hamster.png",
-                            "lesson1/code and images/kitten.jpeg",
-                            "lesson1/code and images/page.html",
-                            "lesson1/code and images/parrot.png",
-                            "lesson1/code and images/spacecat.jpg",
-                            "lesson1/code and images/surprise.html",
-                            "lesson1/code and images/tortoise.png"                                 
-                        ]
-        },
-        {
-            "filename": "lesson2/lesson2.md",
-            "number": 2,
-            "materials":[   "lesson2/code and images/about_me_page_2.html",
-                            "lesson2/code and images/about_me.html",
-                            "lesson2/code and images/bunny.png",
-                            "lesson2/code and images/cat.png",
-                            "lesson2/code and images/goldfish.png",
-                            "lesson2/code and images/hamster.png",
-                            "lesson2/code and images/index.html",
-                            "lesson2/code and images/kitten.jpeg",
-                            "lesson2/code and images/page.html",
-                            "lesson2/code and images/parrot.png",
-                            "lesson2/code and images/spacecat.jpg",
-                            "lesson2/code and images/surprise.html",
-                            "lesson2/code and images/tortoise.png"  
-                        ]
-        },
-        {
-            "filename": "lesson3/lesson3.md",
-            "number": 3,
-            "materials":[   "lesson3/code and images/catswithhats.gif",
-                            "lesson3/code and images/felix.jpg",
-                            "lesson3/code and images/index.html"
-                        ]
-        },
-        {
-            "filename": "lesson4/lesson4.md",
-            "number": 4,
-            "materials":[   "lesson4/code and images/felix.jpg",
-                            "lesson4/code and images/felixcss.html"
-                        ]
-        },
-        {
-            "filename": "lesson5/lesson5.md",
-            "number": 5,
-            "materials":[   "lesson5/code and images/felix.jpg",
-                            "lesson5/code and images/felixcss.html"
+            "number":   1,
+            "filename": "01 The Web/01 The Web.md",
+            "pdf":      "01 The Web/01 The Web.pdf",
+            "materials": [
+                "01 The Web/code and images/about_me_page_2.html",
+                "01 The Web/code and images/about_me.html",
+                "01 The Web/code and images/bunny.png",
+                "01 The Web/code and images/cat.png",
+                "01 The Web/code and images/goldfish.png",
+                "01 The Web/code and images/hamster.png",
+                "01 The Web/code and images/kitten.jpeg",
+                "01 The Web/code and images/page.html",
+                "01 The Web/code and images/parrot.png",
+                "01 The Web/code and images/spacecat.jpg",
+                "01 The Web/code and images/surprise.html",
+                "01 The Web/code and images/tortoise.png"
             ]
         },
+
         {
-            "filename": "lesson6/lesson6.md",
-            "number": 6,
-            "materials":[   "lesson6/code and images/alex.png",
-                            "lesson6/code and images/bike.png",
-                            "lesson6/code and images/bin.png",
-                            "lesson6/code and images/cafe_sign.png",
-                            "lesson6/code and images/cover.png",
-                            "lesson6/code and images/house_front.png",
-                            "lesson6/code and images/katy.png",
-                            "lesson6/code and images/lucy.png",
-                            "lesson6/code and images/ninjas.html",
-                            "lesson6/code and images/omar.png",
-                            "lesson6/code and images/other_objects.png",
-                            "lesson6/code and images/sam.png",
-                            "lesson6/code and images/skip.png",
-                            "lesson6/code and images/street_corner.png"                            
-                        ]
+            "number":   2,
+            "filename": "02 Building Simple Webpages/02 Building Simple Webpages.md",
+            "pdf":      "02 Building Simple Webpages/02 Building Simple Webpages.pdf",
+            "materials": [
+                "02 Building Simple Webpages/code and images/about_me_page_2.html",
+                "02 Building Simple Webpages/code and images/about_me.html",
+                "02 Building Simple Webpages/code and images/bunny.png",
+                "02 Building Simple Webpages/code and images/cat.png",
+                "02 Building Simple Webpages/code and images/goldfish.png",
+                "02 Building Simple Webpages/code and images/hamster.png",
+                "02 Building Simple Webpages/code and images/index.html",
+                "02 Building Simple Webpages/code and images/kitten.jpeg",
+                "02 Building Simple Webpages/code and images/page.html",
+                "02 Building Simple Webpages/code and images/parrot.png",
+                "02 Building Simple Webpages/code and images/spacecat.jpg",
+                "02 Building Simple Webpages/code and images/surprise.html",
+                "02 Building Simple Webpages/code and images/tortoise.png"
+            ]
         },
+
         {
-            "filename": "lesson7/lesson7.md",
-            "number": 7
+            "number":   3,
+            "filename": "03 Missing Cat Website/03 Missing Cat Website.md",
+            "pdf":      "03 Missing Cat Website/03 Missing Cat Website.pdf",
+            "materials": [
+                "03 Missing Cat Website/code and images/catswithhats.gif",
+                "03 Missing Cat Website/code and images/felix.jpg",
+                "03 Missing Cat Website/code and images/index.html"
+            ]
         },
+
         {
-            "filename": "lesson8/lesson8.md",
-            "number": 8
+            "number":   4,
+            "filename": "04 Styling Webpages/04 Styling Webpages.md",
+            "pdf":      "04 Styling Webpages/04 Styling Webpages.pdf",
+            "materials": [
+                "04 Styling Webpages/code and images/felix.jpg",
+                "04 Styling Webpages/code and images/felixcss.html"
+            ]
+        },
+
+        {
+            "number":   5,
+            "filename": "05 Styling and Formatting Text/05 Styling and Formatting Text.md",
+            "pdf":      "05 Styling and Formatting Text/05 Styling and Formatting Text.pdf",
+            "materials": [
+                "05 Styling and Formatting Text/code and images/felix.jpg",
+                "05 Styling and Formatting Text/code and images/felixcss.html"
+            ]
+        },
+
+        {
+            "number":   6,
+            "filename": "06 Hide the Ninjas/06 Hide the Ninjas.md",
+            "pdf":      "06 Hide the Ninjas/06 Hide the Ninjas.pdf",
+            "materials": [
+                "06 Hide the Ninjas/code and images/alex.png",
+                "06 Hide the Ninjas/code and images/bike.png",
+                "06 Hide the Ninjas/code and images/bin.png",
+                "06 Hide the Ninjas/code and images/cafe_sign.png",
+                "06 Hide the Ninjas/code and images/cover.png",
+                "06 Hide the Ninjas/code and images/house_front.png",
+                "06 Hide the Ninjas/code and images/katy.png",
+                "06 Hide the Ninjas/code and images/lucy.png",
+                "06 Hide the Ninjas/code and images/ninjas.html",
+                "06 Hide the Ninjas/code and images/omar.png",
+                "06 Hide the Ninjas/code and images/other_objects.png",
+                "06 Hide the Ninjas/code and images/sam.png",
+                "06 Hide the Ninjas/code and images/skip.png",
+                "06 Hide the Ninjas/code and images/street_corner.png"
+            ]
+        },
+
+        {
+            "number":   7,
+            "filename": "07 Design and Build Your Own Website/07 Design and Build Your Own Website.md",
+            "pdf":      "07 Design and Build Your Own Website/07 Design and Build Your Own Website.pdf"
+        },
+
+        {
+            "number":   8,
+            "filename": "08 Audio and Video on Webpages/08 Audio and Video on Webpages.md",
+            "pdf":      "08 Audio and Video on Webpages/08 Audio and Video on Webpages.pdf"
         }
     ],
+
     "extras": [
-        { 
+        {
             "name": "Readme",
             "note": "volunteer-resources/readme.md"
         },
-        { 
+
+        {
             "name": "Meet the browsers",
             "note": "volunteer-resources/meet-the-browsers.md"
         },
-        { 
+
+        {
             "name": "Saving your work",
             "note": "volunteer-resources/saving-your-work.md"
         }
     ]
 }
-
