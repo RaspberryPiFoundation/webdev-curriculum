@@ -5,7 +5,8 @@
     "language": "en-GB",
     "number": 3,
 
-    "projects": [
+    "projects": 
+    [
         {
             "filename": "lesson1/lesson1.md",
             "number": 1,
@@ -89,6 +90,15 @@
         {
             "filename": "lesson8/lesson8.md",
             "number": 8
+        },
+        {
+            "filename": "recipe/recipe.md",
+            "number": 9,
+            "materials":
+            [   
+                "recipe/Resources/banana.jpg",
+                "recipe/Resources/index.html"                    
+            ]
         }
     ],
     "extras": [
