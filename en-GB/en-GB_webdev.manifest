@@ -105,8 +105,8 @@
             "number": 10,
             "materials":
             [   
-                "recipe/Resources/waiter.png",
-                "recipe/Resources/index.html"                    
+                "comic/Resources/waiter.png",
+                "comic/Resources/index.html"                    
             ]
         }
     ],
