@@ -108,6 +108,16 @@
                 "comic/Resources/waiter.png",
                 "comic/Resources/index.html"                    
             ]
+        },
+        {
+            "filename": "cups/cups.md",
+            "number": 11,
+            "materials":
+            [   
+                "cups/Resources/jquery.js",
+                "cups/Resources/underscore.js",
+                "cups/Resources/index.html"                    
+            ]
         }
     ],
     "extras": [
