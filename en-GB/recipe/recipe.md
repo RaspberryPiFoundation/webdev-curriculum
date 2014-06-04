@@ -6,6 +6,7 @@ embeds: "*.png"
 materials: "Resources"
 stylesheet: web
 author: Matteo Menapace
+note: "notes.md"
 ...
 
 
