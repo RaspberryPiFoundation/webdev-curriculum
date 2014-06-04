@@ -99,6 +99,15 @@
                 "recipe/Resources/banana.jpg",
                 "recipe/Resources/index.html"                    
             ]
+        },
+        {
+            "filename": "comic/comic.md",
+            "number": 10,
+            "materials":
+            [   
+                "recipe/Resources/waiter.png",
+                "recipe/Resources/index.html"                    
+            ]
         }
     ],
     "extras": [
