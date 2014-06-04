@@ -1,7 +1,11 @@
+---
+title: Notes for club leaders
+language: en-GB
+stylesheet: web
+author: Matteo Menapace
+...
+
 # (BETA) Coding a recipe
-
-## Notes for club leaders
-
 
 ## Heads up! { .beta}
 
@@ -26,7 +30,7 @@ In this project children write down a recipe for their favourite dish in HTML.
 
 ## Resources
 
-Files included in this project's ***Resources*** folder
+Files included in this project's *__Resources__* folder
 
 * *banana.jpg*
 
