@@ -5,7 +5,8 @@
     "number": 3,
     "title": "HTML & CSS",
 
-    "projects": [
+    "projects":
+    [
         {
             "number":   1,
             "filename": "01 The Web/01 The Web.md",
@@ -105,11 +106,39 @@
             "filename": "07 Design and Build Your Own Website/07 Design and Build Your Own Website.md",
             "pdf":      "07 Design and Build Your Own Website/07 Design and Build Your Own Website.pdf"
         },
-
         {
+
             "number":   8,
             "filename": "08 Audio and Video on Webpages/08 Audio and Video on Webpages.md",
             "pdf":      "08 Audio and Video on Webpages/08 Audio and Video on Webpages.pdf"
+        },
+        {
+            "number": 9,
+            "filename": "recipe/recipe.md",
+            "materials":
+            [
+                "recipe/Resources/banana.jpg",
+                "recipe/Resources/index.html"
+            ]
+        },
+        {
+            "number": 10,
+            "filename": "comic/comic.md",
+            "materials":
+            [
+                "comic/Resources/waiter.png",
+                "comic/Resources/index.html"
+            ]
+        },
+        {
+            "number": 11,
+            "filename": "cups/cups.md",
+            "materials":
+            [
+                "cups/Resources/jquery.js",
+                "cups/Resources/underscore.js",
+                "cups/Resources/index.html"
+            ]
         }
     ],
 

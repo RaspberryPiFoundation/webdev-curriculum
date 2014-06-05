@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Code Club Cups</title>
+		<style type="text/css">
+
+			* { box-sizing: border-box; position: relative; }
+			html, body { height: 100%; }
+			
+			body 
+			{
+				max-width: 600px;
+				margin: 30px auto;
+			}
+
+			.cup
+			{
+				float: left;
+				/*cursor: pointer;*/
+			}
+
+			.cup:active
+			{
+				bottom: 60px;
+			}
+
+			.trapezium 
+			{
+				width: 200px;
+				border-bottom: 300px solid green;
+				border-left: 30px solid transparent;
+				border-right: 30px solid transparent;
+			}
+
+			.ball
+			{
+				width: 60px;
+				height: 60px;
+				background-color: orange;
+
+				border-radius: 30px;
+
+				top: 300px;
+				left: 70px;
+			}
+
+		</style>
+		<script src="underscore.js"></script>
+		<script src="jquery.js"></script>
+	</head>
+	<body>
+		<h1>Hello!</h1>
+		<div class="ball"></div>
+		<div class="trapezium cup"></div>
+		<div class="trapezium cup"></div>
+		<div class="trapezium cup"></div>
+
+		<script>
+    
+	    	// write your JavaScript code under this line
+	    	var randomOffset = _.sample( [ "70px", "270px", "470px" ] )
+	    	// alert(randomOffset)
+	    	$("div.ball").css("left",randomOffset)
+	    
+	    </script>
+	</body>
+</html>
