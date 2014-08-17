@@ -39,19 +39,19 @@ What happened? Since the browser doesn't know what you mean by this tag it can n
 + Change `<d1>` back to `<h1>` and save again.
 + Find one of the `<img>` tags. We've just tried misspelling the tag name and the browser wasn't sure what to do with it. But what if we misspell the attribute?
 
-Inside `<img>` tag we have the `href` and `alt` attributes:
+Inside `<img>` tag we have the `src` and `alt` attributes:
 ```{.language-markup}
-<img href="kitten.jpg" alt="This is a kitten." />
+<img src="kitten.jpg" alt="This is a kitten." />
 ```
 
-+ Try changing `href` to something else. Save the document and refresh in the browser.
++ Try changing `src` to something else. Save the document and refresh in the browser.
 
-Oh no! The kitten is gone! Suddenly, the browser no longer knows where to look for the picture to display - it is looking for the file name inside the `href` attribute, which is no longer there.
+Oh no! The kitten is gone! Suddenly, the browser no longer knows where to look for the picture to display - it is looking for the file name inside the `src` attribute, which is no longer there.
 
-+ Change it back to `href` so we can keep looking at the kitten.
-+ Now remove the second quote (`"`) from `alt` attribute of this image: the one after the text, so you end up with this:
++ Change it back to `src` so we can keep looking at the kitten.
++ Now remove the second quote (`"`) from the `alt` attribute of this image: the one after the text, so you end up with this:
 ```{.language-markup}
-<img href="kitten.jpg" alt="This is a kitten." />
+<img src="kitten.jpg" alt="This is a kitten. />
 ```
 
 + Save it and refresh in the browser.
