@@ -1,10 +1,10 @@
 ---
-titel: Att bygga enkla webbsidor
-nivå: Nivå 1
-Språk: sv-SE
-innehåll: "*.png"
-material: "kod och bilder"
-format: web
+title: Att bygga enkla webbsidor
+level: Nivå 1
+language: sv-SE
+embeds: "*.png"
+materials: "kod och bilder"
+stylesheet: web
 ...
 
 ## Uppgiften { .intro}
@@ -26,19 +26,19 @@ Misstag kan hända ofta. Det är väldigt lätt att göra misstag i HTML för at
 
 ## Checklista { .check}
 
-+ Låt oss ta listan över saker som vi gillar som exempel. Ett misstag som händer ofta är att man glömmer den _avslutande taggen_, så låt oss prova att ta bort '</ul>' för att se hur det påverkar sidan. Spara filen och uppdatera den i webbläsaren.
++ Låt oss ta listan över saker som vi gillar som exempel. Ett misstag som händer ofta är att man glömmer den _avslutande taggen_, så låt oss prova att ta bort `</ul>` för att se hur det påverkar sidan. Spara filen och uppdatera den i webbläsaren.
 
 Vad hände? Vissa saker under listan har flyttats lite åt höger. Om du inspekterar webbsidan kan du se att det som följde på listan nu finns inuti listan, och därför har det flyttats till höger. När vi tog bort den avslutande taggen så vet inte webbläsaren att listan över objekt har upphört.
 
-+ Lägg tillbaka '</ul>' taggen och spara. När du nu uppdaterar sidan så kommer resten av taggarna inte att finnas kvar inuti '<ul>' längre.
++ Lägg tillbaka `</ul>` taggen och spara. När du nu uppdaterar sidan så kommer resten av taggarna inte att finnas kvar inuti `<ul>` längre.
 + Taggarna behöver vara stavande korrekt för att webbläsaren ska förstå dem. Vad skulle hända om vi stavade fel på något?  
-+ Hitta '<h1>' taggen. Låt oss ändra den till '<d1>'. Spara dokumentet och uppdatera det i webbläsaren.
++ Hitta `<h1>` taggen. Låt oss ändra den till `<d1>`. Spara dokumentet och uppdatera det i webbläsaren.
  
 
 Vad hände? Eftersom webbläsaren inte vet vad vi menar med denna tagg så kan den inte längre veta att det är en rubrik och då kommer den inte använda sig av en större text for att visa hur viktigt denna del av texten är. 
 
 + Ändra tillbaka `<d1>` till `<h1>` och spara igen.
-+ Hitta en av '<img>' taggarna. Vi har precis provat att stava fel på taggnamnet och webbläsaren förstod inte vad den skulle göra. Men hur blir det om vi stavar fel på attributet? 
++ Hitta en av `<img>` taggarna. Vi har precis provat att stava fel på taggnamnet och webbläsaren förstod inte vad den skulle göra. Men hur blir det om vi stavar fel på attributet? 
 
 Inuti `<img>` -taggen har vi `href` och `alt` -attributen:
 ```{.language-markup}

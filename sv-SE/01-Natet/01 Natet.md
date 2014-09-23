@@ -43,11 +43,11 @@ HTML är ett __markup__-språk. Det betyder att det används till att beskriva o
 
 För att berätta fär webbläsaren vilka saker vi vill se på sidan använder vi "taggar".
 
-Taggar ser ut såhär: "<p>Här är lite text.</p>
+Taggar ser ut såhär: `<p>Här är lite text.</p>`
 
-<p> betyder __paragraph__ (paragraf eller stycke).
+`<p>` betyder __paragraph__ (paragraf eller stycke).
 
-The finns en öppningstagg som ser ut såhär: <p> och en matchande stängningstagg med ett slash inuti: </p>. Webbläsaren vet om att allting som kommer mellan de två taggarna ska tolkas som ett stycke text.
+The finns en öppningstagg som ser ut såhär: `<p>` och en matchande stängningstagg med ett slash inuti: `</p>`. Webbläsaren vet om att allting som kommer mellan de två taggarna ska tolkas som ett stycke text.
 
 Taggar kan ha attribut, som är små bitar av användbar information om elementet. Vi tittar på en länktagg:
 
@@ -55,7 +55,7 @@ Taggar kan ha attribut, som är små bitar av användbar information om elemente
 
 "<a>" betyder __anchor__, eller "ankare" på svenska, och det kallade man länkar för länge sen.
 
-Ett länkelement har också öppningstaggen <a> och stängningstaggen </a> men vi behöver även ett attribut till öppningstaggen: <a href="http://codeclub.org.uk">
+Ett länkelement har också öppningstaggen `<a>` och stängningstaggen `</a>` men vi behöver även ett attribut till öppningstaggen: `<a href="http://codeclub.org.uk">`
 
 "href" är attributet, och "http://codeclub.org.uk" är dess värde.
 "href" står för _hypertext reference_. En text som länkad till andra texter kallades en gång i tiden för hypertext, för att den kunde ha bilder och ljud och ta en vidare till andra sidor. Det gjorde den lite annorlunda än en vanlig text.

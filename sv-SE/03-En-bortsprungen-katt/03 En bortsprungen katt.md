@@ -1,7 +1,7 @@
 ---
 title: En bortsprungen katt
 level: Nivå 1
-language: se-SWE
+language: sv-SE
 embeds: "*.png"
 materials: "code and images"
 stylesheet: web

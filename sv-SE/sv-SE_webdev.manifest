@@ -1,0 +1,45 @@
+{
+    "id": "webdev",
+    "title": "HTML & CSS",
+    "description":"HTML and CSS.",
+    "language": "sv-SE",
+    "number": 2,
+
+    "projects": [
+        {
+            "filename": "01-Natet/01 Natet.md",
+            "number": 1
+        },
+        {
+            "filename": "02-Att-bygga-enkla-webbsidor/02 Att bygga enkla webbsidor.md",
+            "number": 2
+        },
+        {
+            "filename": "03-En-bortsprungen-katt/03 En bortsprungen katt.md",
+            "number": 3
+        },
+        {
+            "filename": "04-Att-styla-webbsidor/04 Att styla webbsidor.md",
+            "number": 4
+        },
+        {
+            "filename": "05-Att-styla-och-formatera-text/05 Att styla och formatera text.md",
+            "number": 5
+        },
+        {
+            "filename": "06-Gom-ninjorna/06 Gom ninjorna.md",
+            "number": 6
+        },
+        {
+            "filename": "07-Designa-och-bygg-din-egen-webbsida/07 Designa och bygg din egen webbsida.md",
+            "number": 7
+        },
+        {
+            "filename": "08-Ljud-och-video-p-webbsidor/08 Ljud och video pa webbsidor.md",
+            "number": 8
+        }
+
+    ]
+    
+}
+
