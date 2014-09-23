@@ -156,7 +156,7 @@ How can you **help people decide**? What kind of information would they want to 
 * Think of **what extra information you want to add to your recipe**. Then code it!
 
 
-# Step 6: How do you **make things look stylish**? { .activity}
+# Step 6: How do you **make things look stylish**? { .activity .new-page }
 
 ## Activity Checklist { .check}
 

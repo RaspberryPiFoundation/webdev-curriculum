@@ -19,11 +19,7 @@ If you're a **club leader** trying out this project, make sure you [complete thi
 
 # Introduction { .intro}
 
-Do you **like comics**? 
-
-Do you have a **story to tell**?
-
-Can you turn a bunch of images into **your own Web-comic**?
+Do you **like comics**? Do you have a **story to tell**? Can you turn a bunch of images into **your own Web-comic**?
 
 <img class="border-less" src="intro.png" title="Inspirational image, temporarily stolen from http://www.readingwithpictures.org/">
 
@@ -80,7 +76,7 @@ Here is a list of things to check before you dig into your comic.
 * Great! Now you've got your **tools ready**: code editor to write your code, browser to *debug*[^4] your code.
 
 
-# Step 2: How do you **make a panel**? { .activity}
+# Step 2: How do you **make a panel**? { .activity .new-page }
 
 ## Activity Checklist { .check}
 
@@ -135,7 +131,7 @@ You can use CSS[^5] to make it visible.
 <img class="border-less" src="panels.png" title="Can you make another panel under the first one?">
 
 
-# Step 3: How do you **add images**? { .activity}
+# Step 3: How do you **add images**? { .activity .new-page}
 
 ## Activity Checklist { .check}
 
@@ -217,7 +213,7 @@ For example, you can try with `top: 30px;` and then tweak it.
 <img class="border-less" src="speech-bubble.png" title="This is what you should see">
 
 
-# Step 5: How do you make **many speech bubbles**? { .activity}
+# Step 5: How do you make **many speech bubbles**? { .activity .new-page}
 
 ## Activity Checklist { .check}
 
@@ -256,7 +252,7 @@ Do you know your *classes* from your *ids*?
 You can call them whatever you like: **`id` names are entirely up to you**. 
 
 
-# Step 6: How do you get **many panels on the same row**? { .activity}
+# Step 6: How do you get **many panels on the same row**? { .activity .new-page}
 
 ## Activity Checklist { .check}
 

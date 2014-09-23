@@ -219,7 +219,7 @@ With CSS, you can tell your browser to **put all cups next to each other**.
 <img class="border-less" src="floats.png" title="Using float: left; can you put all cups on the same line?">
 
 
-# Step 5: How do you **hide the ball**? { .activity}
+# Step 5: How do you **hide the ball**? { .activity .new-page}
 
 ## Activity Checklist { .check}
 
