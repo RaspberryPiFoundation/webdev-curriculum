@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>Hide the ninjas</title>
+  <style>
+    
+    body {
+      font-size: 20px;
+    }
+      
+    #street_corner {
+      width: 955px;
+      height: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      background: url(street_corner.png);
+      position: relative;
+    }
+    #other_objects {
+      margin-left: auto;
+      margin-right: auto;
+      top: 0px;
+      left: 0px;
+      position: absolute;
+      z-index: 200;
+    }
+    #skip {
+      position: absolute;
+      top: 14%;
+      left: 73%;
+    }
+    #bin {
+      position: absolute;
+      bottom: 190px;
+      left: 460px;
+    }
+    #bicycle {
+      position: relative;
+      bottom: -520px;
+      right: -20em;
+    }
+    #cafe_sign {
+      position: fixed;
+      bottom: 40px;
+      left: 220px;
+    }
+    #manhole_cover {
+      position: fixed;
+      bottom: 400px;
+      left: 520px;
+    }
+    
+    /* Ninjas */
+    
+    #lucy_the_ninja {
+      position: fixed;
+      top: 270px;
+      left: 89px;
+    }
+    #alex_the_ninja {
+      position: absolute;
+      top: 200px;
+      left: 80px;
+    }
+    #katy_the_ninja {
+      position: relative;
+      top: 200px;
+      left: 60px;
+    }
+    #sam_the_ninja {
+      position: static;
+      top: 100px;
+      left: 80px;
+    }
+    #omar_the_ninja {
+      position: fixed;
+      top: 200px;
+      left: 80px;
+    }
+    .ninja {
+      z-index: 1;
+    }
+    
+    /* Other objects (you can't move these) */
+    
+  </style>
+<style id="jsbin-css"></style></head>
+<body>
+  <div id="street_corner">
+    
+    <img id="lucy_the_ninja" class="ninja" src="lucy.png" />
+    <img id="alex_the_ninja" class="ninja" src="alex.png" />
+    <img id="katy_the_ninja" class="ninja" src="katy.png" />
+    <img id="omar_the_ninja" class="ninja" src="omar.png" />
+    <img id="sam_the_ninja" class="ninja" src="sam.png" />
+
+    
+    <img id="manhole_cover" class="movable" src="cover.png" />
+    <img id="skip" class="movable" src="skip.png" />
+    <img id="bin" class="movable" src="bin.png" />
+    <img id="bicycle" class="movable" src="bike.png" />
+    <img id="cafe_sign" class="movable" src="cafe_sign.png" />
+
+    <img id="other_objects" src="other_objects.png" />
+        
+  </div>
+ 
+<script>
+
+</script>
+</body>
+</html>
