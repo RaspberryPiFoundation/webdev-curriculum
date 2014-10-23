@@ -1,5 +1,5 @@
 ---
-title: Design & build your own website
+title: Design and build your own website
 level: Term 2
 language: en-GB
 embeds: "*.png"

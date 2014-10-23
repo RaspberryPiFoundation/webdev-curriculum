@@ -1,5 +1,5 @@
 ---
-title: (BETA) Coding Cups & Balls
+title: (BETA) Coding Cups and Balls
 level: Term 2
 language: en-GB
 embeds: "*.png"
