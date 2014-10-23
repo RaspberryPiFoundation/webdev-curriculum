@@ -1,5 +1,5 @@
 ---
-title: Building simple webpages
+title: Building simple web pages
 level: Term 1
 language: en-GB
 embeds: "*.png"
