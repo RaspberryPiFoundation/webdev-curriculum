@@ -1,6 +1,6 @@
 ---
 title: (BETA) Coding a comic
-level: Lesson 10
+level: Term 2
 language: en-GB
 embeds: "*.png"
 materials: "Resources"

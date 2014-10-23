@@ -1,6 +1,6 @@
 ---
 title: Styling and formatting text
-level: Level 2
+level: Term 1
 language: en-GB
 embeds: "*.png"
 materials: "code and images"

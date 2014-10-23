@@ -1,6 +1,6 @@
 ---
 title: (BETA) Coding Cups & Balls
-level: Lesson 11
+level: Term 2
 language: en-GB
 embeds: "*.png"
 materials: "Resources"

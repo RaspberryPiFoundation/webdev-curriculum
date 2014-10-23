@@ -1,6 +1,6 @@
 ---
 title: (BETA) Coding a recipe
-level: Lesson 9
+level: Term 2
 language: en-GB
 embeds: "*.png"
 materials: "Resources"

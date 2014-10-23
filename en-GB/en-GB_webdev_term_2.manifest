@@ -1,0 +1,67 @@
+{
+    "description": "Learn how to build websites using HTML and CSS.",
+    "id": "webdev",
+    "language": "en-GB",
+    "number": 4,
+    "title": "HTML & CSS Term 2",
+
+    "projects":
+    [
+        {
+            "number":   1,
+            "filename": "07 Design and Build Your Own Website/07 Design and Build Your Own Website.md",
+            "pdf":      "07 Design and Build Your Own Website/07 Design and Build Your Own Website.pdf"
+        },
+        {
+
+            "number":   2,
+            "filename": "08 Audio and Video on Webpages/08 Audio and Video on Webpages.md",
+            "pdf":      "08 Audio and Video on Webpages/08 Audio and Video on Webpages.pdf"
+        },
+        {
+            "number": 3,
+            "filename": "recipe/recipe.md",
+            "materials":
+            [
+                "recipe/Resources/banana.jpg",
+                "recipe/Resources/index.html"
+            ]
+        },
+        {
+            "number": 4,
+            "filename": "comic/comic.md",
+            "materials":
+            [
+                "comic/Resources/waiter.png",
+                "comic/Resources/index.html"
+            ]
+        },
+        {
+            "number": 5,
+            "filename": "cups/cups.md",
+            "materials":
+            [
+                "cups/Resources/jquery.js",
+                "cups/Resources/underscore.js",
+                "cups/Resources/index.html"
+            ]
+        }
+    ],
+
+    "extras": [
+        {
+            "name": "Readme",
+            "note": "volunteer-resources/readme.md"
+        },
+
+        {
+            "name": "Meet the browsers",
+            "note": "volunteer-resources/meet-the-browsers.md"
+        },
+
+        {
+            "name": "Saving your work",
+            "note": "volunteer-resources/saving-your-work.md"
+        }
+    ]
+}
