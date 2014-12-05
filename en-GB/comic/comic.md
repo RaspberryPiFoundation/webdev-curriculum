@@ -1,6 +1,6 @@
 ---
 title: (BETA) Coding a comic
-level: Term 2
+level: HTML&CSS 2
 language: en-GB
 embeds: "*.png"
 materials: "Resources"

@@ -1,6 +1,6 @@
 ---
 title: Design and build your own website
-level: Term 2
+level: HTML&CSS 2
 language: en-GB
 embeds: "*.png"
 stylesheet: web
