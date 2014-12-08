@@ -10,7 +10,6 @@
         {
             "number":   1,
             "filename": "01 The Web/01 The Web.md",
-            "pdf":      "01 The Web/01 The Web.pdf",
             "materials": [
                 "01 The Web/code and images/about_me_page_2.html",
                 "01 The Web/code and images/about_me.html",
@@ -30,7 +29,6 @@
         {
             "number":   2,
             "filename": "02 Building Simple Webpages/02 Building Simple Webpages.md",
-            "pdf":      "02 Building Simple Webpages/02 Building Simple Webpages.pdf",
             "materials": [
                 "02 Building Simple Webpages/code and images/about_me_page_2.html",
                 "02 Building Simple Webpages/code and images/about_me.html",
@@ -51,7 +49,6 @@
         {
             "number":   3,
             "filename": "03 Missing Cat Website/03 Missing Cat Website.md",
-            "pdf":      "03 Missing Cat Website/03 Missing Cat Website.pdf",
             "materials": [
                 "03 Missing Cat Website/code and images/catswithhats.gif",
                 "03 Missing Cat Website/code and images/felix.jpg",
@@ -62,7 +59,6 @@
         {
             "number":   4,
             "filename": "04 Styling Webpages/04 Styling Webpages.md",
-            "pdf":      "04 Styling Webpages/04 Styling Webpages.pdf",
             "materials": [
                 "04 Styling Webpages/code and images/felix.jpg",
                 "04 Styling Webpages/code and images/felixcss.html"
@@ -72,7 +68,6 @@
         {
             "number":   5,
             "filename": "05 Styling and Formatting Text/05 Styling and Formatting Text.md",
-            "pdf":      "05 Styling and Formatting Text/05 Styling and Formatting Text.pdf",
             "materials": [
                 "05 Styling and Formatting Text/code and images/felix.jpg",
                 "05 Styling and Formatting Text/code and images/felixcss.html"
@@ -82,7 +77,6 @@
         {
             "number":   6,
             "filename": "06 Hide the Ninjas/06 Hide the Ninjas.md",
-            "pdf":      "06 Hide the Ninjas/06 Hide the Ninjas.pdf",
             "materials": [
                 "06 Hide the Ninjas/code and images/alex.png",
                 "06 Hide the Ninjas/code and images/bike.png",
