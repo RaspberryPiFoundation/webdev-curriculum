@@ -131,10 +131,6 @@ Now try making the heading capital letters only by using `text-transform:upperca
 
 It’s much more noticeable now right?
 
-### If you have Firefox or Chrome web-browser only.
-
-Actually, there is another value for text-decoration called blink. I’m not going to tell you what it does. You have to try it. `text-decoration: blink;` (it get’s a bit annoying after a while, you can go back to underline if you prefer).
-
 # Step 6. Centering text (and images) horizontally { .activity}
 
 All our text is all the way over on the left. We can change that using `text-align:center` (it also takes ‘right’, ‘left’ is the default).
