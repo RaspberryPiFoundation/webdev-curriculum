@@ -110,7 +110,7 @@ Congratulations! You have made your own website.
 
 Now you have made your own site, you want to show it off, am I right?
 
-If you simply copied the address of the web page from your browser and then sent it to someone, they wouldn't see it. That's because this address describes a place on your computer, and your friends don't have access to it. Even of they did, what if they wanted to look at it when your computer wasn't turned on?
+If you simply copied the address of the web page from your browser and then sent it to someone, they wouldn't see it. That's because this address describes a place on your computer, and your friends don't have access to it. Even if they did, what if they wanted to look at it when your computer wasn't turned on?
 
 Remember servers from the first session? Servers are computers that are always on and connected to the internet, and they are set up so people can visit websites that live on those computers.
 
