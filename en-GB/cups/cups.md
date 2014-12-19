@@ -1,5 +1,5 @@
 ---
-title: (BETA) Coding Cups and Balls
+title: Coding Cups and Balls
 level: HTML&CSS 2
 language: en-GB
 embeds: "*.png"
@@ -7,15 +7,8 @@ materials: "Resources"
 stylesheet: web
 author: Matteo Menapace
 note: "notes.md"
+beta: true
 ...
-
-
-## Heads up! { .beta}
-
-This project is in **Beta**. This means we're still testing it, and there's a small chance there could be some bugs or typos. 
-
-If you're a **club leader** trying out this project, make sure you [complete this short questionnaire](https://docs.google.com/forms/d/1eMCfpYe3v7eYu5M8rSqLKlmq7cczLCLHx66csgyUyVU/viewform) (or email projects@codeclub.org.uk) to let us know how it went! 
-
 
 # Introduction { .intro}
 
