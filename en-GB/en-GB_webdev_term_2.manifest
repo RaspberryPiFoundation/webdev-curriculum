@@ -19,7 +19,7 @@
         {
             "number": 3,
             "filename": "recipe/recipe.md",
-            beta: true,
+            "beta":     true,
             "materials":
             [
                 "recipe/Resources/banana.jpg",
@@ -29,7 +29,7 @@
         {
             "number": 4,
             "filename": "comic/comic.md",
-            beta: true,
+            "beta":     true,
             "materials":
             [
                 "comic/Resources/waiter.png",
@@ -39,7 +39,7 @@
         {
             "number": 5,
             "filename": "cups/cups.md",
-            beta: true,
+            "beta":     true,
             "materials":
             [
                 "cups/Resources/jquery.js",
