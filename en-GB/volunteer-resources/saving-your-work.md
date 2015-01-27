@@ -7,13 +7,13 @@ __Introduction:__ It’s important to __save__ your work regularly, so you don�
 
 # Previewing the changes you make
 
-When you make changes in the __text editor__, you have to __save__ them before you can __preview__ them in the __browser__. Once you’ve saved them, you have to __refresh__ the browser. If you’re on Windows, often you can use a keyboard shortcut like __CTRL+S__ to save the file you’re editing, and many browsers will allow you to refresh the page with __CTRL+R__ shortcut or __F5__ key (if using Internet Explorer). On the Mac these shortcuts are similar, command+S to save document you’re editing and command+R to refresh the page in the browser.
+When you make changes in the __text editor__, you have to __save__ them before you can __preview__ them in the __browser__. Once you’ve saved them, you have to __refresh__ the browser. If you’re on Windows, often you can use a keyboard shortcut like __CTRL+S__ to save the file you’re editing, and many browsers will allow you to refresh the page with the __CTRL+R__ shortcut or the __F5__ key (if using Internet Explorer). On the Mac these shortcuts are similar, command+S to save the document you’re editing and command+R to refresh the page in the browser.
 
 # Editing pages as you go
 But what if you want to try something really quickly without switching between the editor and the browser? If you have used developer tools before, then forgive us explaining how to do it again, but if not, prepare to be amazed!
 
 + Go to your __web browser__.
-+ Right click anything interesting, and then click __Inspect element__. A panel (let’s call it the developer panel) will open up. It will show you the page’s code as the same time as showing you the page.
++ Right click anything interesting, and then click __Inspect element__. A panel (let’s call it the developer panel) will open up. It will show you the page’s code at the same time as showing you the page.
 + Move your mouse over different pieces of code. The corresponding things on the page will be highlighted, so you can see which bit does what.
 + On the left, the panel shows you the __HTML structure__ of your document. If you click on any __element__, on the right you will see which bits of __CSS__ this element uses. This is useful when you want to focus on one thing without having to read all the CSS you’ve written.
 + __Double-clicking__ on the __HTML__ or __single-clicking__ on __CSS__ allows you to edit the code. Any changes are applied immediately, so you can clearly see their effect.
@@ -25,7 +25,7 @@ When your site needs only one file – the HTML document – then your job is ea
 
 ## Case #1 – all files live in the same directory
 
-Let’s say you have your page.html on the desktop, and it includes a picture of a kitty, like this: `<img src=”kitty.jpg” alt=”A kitty playing with some wool.”>`
+Let’s say you have your page.html on the desktop, and it includes a picture of a kitty, like this: `<img src="kitty.jpg" alt="A kitty playing with some wool.">`
 
 The browser will look for the kitty.jpg file in the same directory as the page, in our case the desktop (desktop is just a directory like any other, only a little bit special).
 
@@ -54,9 +54,9 @@ my_kitty_site
   \ kitty_and_puppy.jpg
 ```
 
-Now we we open up the page in the browser, the image doesn’t show up! This is because the browser can’t find it. Let’s help it by adding what we call a path – a route through the directories it has to take to find the files, starting at the page. In our case we would have to go into images directory before we get to the picture, like this: `<img src=”images/kitty.jpg” alt=”A kitty playing with some wool.”>`
+Now when we open up the page in the browser, the image doesn’t show up! This is because the browser can’t find it. Let’s help it by adding what we call a path – a route through the directories it has to take to find the files, starting at the page. In our case we would have to go into the images directory before we get to the picture, like this: `<img src="images/kitty.jpg" alt="A kitty playing with some wool.">`
 
-The images/ bit before the name of the kitty image file tells the browser to go into the images directory first. Save, refresh, and the kitty is back
+The images/ bit before the name of the kitty image file tells the browser to go into the images directory first. Save, refresh, and the kitty is back.
 
 ## Case #3 - coming out of directories
 
@@ -78,9 +78,9 @@ my_kitty_site
   \ kitty_and_puppy.jpg
 ```
 
-Again, when we open up the page.html our images don’t work. This is because the browser looks for files in relation to the page you’re looking at. When we said: `<img src=”images/kitty.jpg” alt=”A kitty playing with some wool.”>`
+Again, when we open up the page.html our images don’t work. This is because the browser looks for files in relation to the page you’re looking at. When we said: `<img src="images/kitty.jpg" alt="A kitty playing with some wool.">`
 
-We meant: “from page.html go into directory called images where you will find kitty. jpg”. But there are no images inside pages directory, where page.html lives! What we wanted to say was: “from page.html go one directory up, then go into directory called images where you will find kitty.jpg”. So how can we say it? `<img src=”../images/kitty.jpg”alt=”A kitty playing with some wool.”>`
+We meant: “from page.html go into the directory called images where you will find kitty.jpg”. But there are no images inside the pages directory, where page.html lives! What we wanted to say was: “from page.html go one directory up, then go into the directory called images where you will find kitty.jpg”. So how can we say it? `<img src="../images/kitty.jpg" alt="A kitty playing with some wool.">`
 
 The value of the whole src attribute can then be broken down into these parts:
 
