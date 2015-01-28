@@ -9,7 +9,7 @@ stylesheet: web
 
 # Introduction { .intro}
 
-Have you ever wondered how the worldwide web works? Of course you have! Today you will learn how to make web sites so you too can contribute to building it. Websites are written using __HTML__, which stands for __HyperText Markup Language__. You will find out more about it as you build your page.
+Have you ever wondered how the world wide web works? Of course you have! Today you will learn how to make websites so you too can contribute to building it. Websites are written using __HTML__, which stands for __HyperText Markup Language__. You will find out more about it as you build your page.
 
 # Step 1: What are web pages? { .activity}
 
@@ -29,7 +29,7 @@ This is very useful: even when a website contains errors, the browser will try t
 
 __How can we view these files?__
 
-When you type in the address in your browser, your request gets passed along to a computer which is always turned on and configured to allow you to see the pages that live inside it. This computer is called a server. When it receives a request from your computer, it looks for all the necessary files: the `.html` file and sends you that with anything else that the page needs, like images and videos.
+When you type in the address in your browser, your request gets passed along to a computer which is always turned on and configured to allow you to see the pages that live inside it. This computer is called a server. When it receives a request from your computer, it looks for all the necessary files, like the `.html` file, and sends you that with anything else that the page needs, like images and videos.
 
 ### Can I have this page please?
 ![screenshot](diagram_screenshot.png)
@@ -41,13 +41,13 @@ HTML is a __markup__ language - it means that it is used to describe what things
 
 Even though the browser will try to display things as best as it can, it helps it to know what these things are.
 
-To tell browser that, we use `tags`.
+To tell the browser that, we use `tags`.
 
 Tags look like this: `<p>This is some text.</p>`
 
 `<p>` is short for __paragraph__.
 
-There is an opening tag which is this: `<p>` and a matching closing one with a forward slash: `</p>`. The browser knows that anything in between the two tags is a paragraph of text.
+There is an opening tag, like this: `<p>`, and a matching closing one with a forward slash: `</p>`. The browser knows that anything in between the two tags is a paragraph of text.
 
 Tags can have attributes, which are bits of useful information about the element. Let's have a look at the link tag:
 
@@ -64,7 +64,7 @@ It also has the opening tag: `<a>` and the closing tag: `</a>` but we added an a
 ## Activity Checklist { .check}
 
 + Open the `page.html` file.
-+ Ask the volunteer whether you can use X-Ray Goggles or developer tools to look at the code (developer is someone who makes things with code).
++ Ask the volunteer whether you can use X-Ray Goggles or developer tools to look at the code (a developer is someone who makes things with code).
 
 
 ### If you can use X-Ray Goggles:
@@ -74,7 +74,7 @@ It also has the opening tag: `<a>` and the closing tag: `</a>` but we added an a
 
 ### If you are using developer tools:
 
-+ Move around the page. Right click anything interesting, and then click `Inspect element`. A panel will open up which will show you the page's code as the same time as the page.
++ Move around the page. Right click anything interesting, and then click `Inspect element`. A panel will open up which will show you the page's code at the same time as the page.
 + Move your mouse over different pieces of code. The corresponding things on the page will be highlighted, so you can see which bit does what.
 + Try to inspect all parts of the page. Can you figure out what the different tag names stand for?
 
@@ -90,7 +90,7 @@ We already know `<p>` and `<a>`.
 
 There are also some tags that we will always use in HTML documents, and they are:
 
-`<html>` - tells the browser where we put out code
+`<html>` - tells the browser where we put our code
 `<head>` - inside `<head>` we put things which may be useful to the browser, but which don't appear as text on the page. In this example we put a `<title>` there, which then shows up at the top of the browser window.
 `<body>` - that's where we put the things we want to appear on the page
 
@@ -115,7 +115,7 @@ Now copy it and move it somewhere else. Save the page and refresh it in the brow
 ## Things to try { .try}
 
 * Create your own paragraph of text.
-* Make a link that points to another part of page (hint: it is something to do with id - look out for a link that takes you to the kitten).
+* Make a link that points to another part of the page (hint: it is something to do with id - look out for a link that takes you to the kitten).
 * Add your own headings where you think they might be useful. What happens if you change the heading numbers, for example from `<h3>` to `<h4>`?
 * What would you have to do to link to a different page?
 * If you are using developer tools, once you bring up the panel with the code try double-clicking on the code that looks interesting. See if you can change it. Now you get a live preview without having to move between the browser and the code editor. Cool, huh? Now refresh the page. What happened? When you edit code like this it doesn't get saved, so you can preview what would happen if you did, but don't mess up your file, so you can experiment lots and always go back.

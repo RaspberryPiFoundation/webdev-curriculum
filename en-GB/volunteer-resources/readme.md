@@ -10,7 +10,7 @@ Please go through each session yourself to make sure you understand it before yo
 
 ##1) Internet
 
-Does your primary school have internet? Does it have a decent capacity that would let all the children in your code club to be online at the same time? Are certain websites blocked? Can you use [X-Ray Goggles?](http://goggles.webmaker.org/) If you can't use goggles, make sure the browser has some web developer tools you can use instead (like firebug for Firefox or dragonfly for Opera)
+Does your primary school have internet access? Does it have a decent capacity that would let all the children in your code club be online at the same time? Are certain websites blocked? Can you use [X-Ray Goggles?](http://goggles.webmaker.org/) If you can't use goggles, make sure the browser has some web developer tools you can use instead (like firebug for Firefox or dragonfly for Opera)
 
 
 
@@ -18,7 +18,7 @@ Does your primary school have internet? Does it have a decent capacity that woul
 
 Are you allowed to install software on the computers at the venue? If you are then we recommend installing the excellent [Sublime Text 3](http://www.sublimetext.com/3) which can be downloaded free for evaluation  and is available for PC/Mac/Linux. The Sublime team has given us written permission to use Sublime Text in Code Clubs without paying for the license. 
 
-If you're not allowed to install software than use Notepad for PC or TextEdit for Mac, but these do not have syntax highlighting. 
+If you're not allowed to install software then use Notepad for PC or TextEdit for Mac, but these do not have syntax highlighting.
 
 
 
