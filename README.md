@@ -5,6 +5,8 @@ This repository contains the HTML and CSS curriculum. It consists of lesson note
 This material is openly available for everyone to use and contribute to.
 See 'contributing' below to find out how you can take part.
 
+__More information on our curriculum can be found [here](https://github.com/CodeClub/curriculum_documentation/blob/master/README.md).__
+
 # New Projects
 
 If you're a club leader trying out new projects, please complete <a href="https://docs.google.com/forms/d/1eMCfpYe3v7eYu5M8rSqLKlmq7cczLCLHx66csgyUyVU/viewform?usp=send_form" target="_blank">this short questionnaire</a> (or email projects@codeclub.org.uk) to let us know how it went!
