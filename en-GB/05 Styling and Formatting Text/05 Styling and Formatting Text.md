@@ -129,7 +129,7 @@ An ID is unique and can only be used once per page. So what if we wanted to make
 
 ```{.language-markup}
 <p class="large">He went missing from the garden yesterday.</p>
-<p class="large"><strong>Thank you!</strong><p>
+<p class="large"><strong>Thank you!</strong></p>
 ```
 we style a class like this (with a `.` instead of a `#`):
 
