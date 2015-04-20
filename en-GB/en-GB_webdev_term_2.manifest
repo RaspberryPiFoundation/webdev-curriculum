@@ -14,7 +14,16 @@
         {
 
             "number":   2,
-            "filename": "08 Audio and Video on Webpages/08 Audio and Video on Webpages.md"
+            "filename": "08 Audio and Video on Webpages/08 Audio and Video on Webpages.md",
+            "materials":
+            [
+                "08 Audio and Video on Webpages/code and images/audio_and_video_examples.html",
+                "08 Audio and Video on Webpages/code and images/spaceship_landing.jpg",
+                "08 Audio and Video on Webpages/code and images/spaceship_landing.mp4",
+                "08 Audio and Video on Webpages/code and images/spaceship_landing.ogv",
+                "08 Audio and Video on Webpages/code and images/spaceship.mp3",
+                "08 Audio and Video on Webpages/code and images/spaceship.ogg"
+            ]
         },
         {
             "number": 3,
