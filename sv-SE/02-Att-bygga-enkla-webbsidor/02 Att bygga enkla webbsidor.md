@@ -41,7 +41,7 @@ Vad hände? Eftersom webbläsaren inte vet vad vi menar med denna tagg så kan d
 + Hitta en av `<img>` taggarna. Vi har precis provat att stava fel på taggnamnet och webbläsaren förstod inte vad den skulle göra. Men hur blir det om vi stavar fel på attributet? 
 
 Inuti `<img>` -taggen har vi `href` och `alt` -attributen:
-```{.language-markup}
+```html
 <img href="kitten.jpg" alt="Det här är en kattunge." />
 ```
 
@@ -52,7 +52,7 @@ Inuti `<img>` -taggen har vi `href` och `alt` -attributen:
 + Ändra tillbaka till `href` så att vi kan fortsätta titta på kattungen.
 + Ta nu bort det andra citatet (`" `) från` alt `-attributet på denna bild: den efter texten, så att du ser följande: 
 
-```{.language-markup}
+```html
 <img href="kitten.jpg" alt="Det här är en kattunge" />
 ```
 
@@ -79,13 +79,13 @@ __Är du klar? Toppen! Låt oss nu länka dessa två sidor som du har skapat.__
 
 När vi har att länkat till delar av samma sida, kan vi peka länkar till ett specifikt id på en sida, som det här:
 
-```{.language-markup}
+```html
 <a href="#kitten">Klicka för att se kattungen</a>
 ```
 
 Som sedan visade något som det här: 
 
-```{.language-markup}
+```html
 <div id="kitten">
 	<img src="kitten.jpg" alt="Det här är en kattunge." />
 </div>
@@ -95,7 +95,7 @@ För att länka till en annan sida behöver vi inte inkludera hash-symbolen (`#`
 
 Att länka från `about_me_page_2.html` till `about_me.html` skriv då följande: 
 
-```{.language-markup}
+```html
 <a href="about_me.html">Gå till sidan om mig</a>
 ```
 
@@ -103,7 +103,7 @@ Du kan ändra texten till något annat, som till exempel titeln på sidan om du 
 
 För att länka tillbaka från `about_me.html` till `about_me_page_2.html` behöver du skriva följande: 
 
-```{.language-markup}
+```html
 <a href="about_me_page_2.html">Gå till min andra sida</a>
 ```
 

@@ -29,7 +29,7 @@ Alla typsnitt finns inte på alla datorer, så vi måste även tillhandahålla _
 
 Vi testar att ändra typsnitt på rubriken genom att använda `font-family´-egenskapen. 
 
-```{.language-css}
+```css
 h1 {
 	color: red;
 	background-color: black;
@@ -41,7 +41,7 @@ h1 {
 ```
 Och typsnittet för styckena...
 
-```{.language-css}
+```css
 p {
 	font-family: Georgia, 'Times New Roman', serif;
 }
@@ -61,7 +61,7 @@ Hitta ett som du gillar och prova det på websidan!
 
 Du kan göra  texten __fet__(bold), *kursiv* (italic) eller både och med font-style-egenskapen. Låt oss ändra emailtexten (kom ihåg att den är inom en `<a>`-tagg).
  
-```{.language-css}
+```css
 a {
 	font-style: bold;
 }
@@ -71,7 +71,7 @@ a {
 
 Eller så kan vi göra den kursiv. 
 
-```{.language-css}
+```css
 a {
 	font-style: italic;
 }
@@ -83,7 +83,7 @@ Det finns även ett font-stylevärde som kallas `oblique`. Hur ser det ut?
 Vi kan även bestämma hur fet (bold) viss text ska vara genom att använda egenskapen `font-weight`. Den tar värdena `normal`, `bold`, `bolder`, `lighter`. Du kan även använda siffror, 100, 200, 300, 400, 500, 600, 700, 800, och 900, där 100 är den tunnaste texten och 900 är den tjockaste (fetaste texten). Normal text är samma som 400, bold(fet) är samma som 700. Hur som helst, alla typsnitt har inte alla dessa, så det är säkrare att bara använda normal och bold. Rubriker är vanligtvis bold (feta) som standard. Om vi vill att vår `h2` inte ska vara bold (fet), måste vi skriva:
  
 
-```{.language-css}
+```css
 h2 {
 	font-weight: normal;
 }
@@ -95,7 +95,7 @@ Prova!
 
 Vi lägger till en border (ram) runt bilden.
 
-```{.language-css}
+```css
 img {
 	border-color: green;
 	border-style: solid;
@@ -112,13 +112,13 @@ Du kan sätta ramar runt alla delar, varför inte prova några till?
 
 Vi vill göra stycket med kontaktuppgifterna __highlighted__ (markerad). Vi kan inte använda `<p>`-taggen eftersom det skulle ändra alla stycken. För att göra så att ett typsnitt bara gäller för en del, använder vi något som kallas ID. Vi behöver ändra i html:en så det blir såhär:
 
-```{.language-markup}
+```html
 <p id ="highlight">Har du sett Felix? <em>Vänligen</em> kontakta hans ägare på <a href="mailto:felixowners@email.com">felixowners@email.com</a></p>
 ```
 
 Sen kan vi styla ID:t såhär:
 
-```{.language-css}
+```css
 #highlight {
 	color: red;
 }
@@ -128,13 +128,13 @@ Sen kan vi styla ID:t såhär:
 
 Ett ID är unikt och kan bara användas en gång per sida. Så om vi vill att två av styckena ska ha större font-size (typsnittsstorlek) kan vi göra det genom att använda klasser. Först behöver vi ge klassnamn till de stycken som vi vill ändra. 
 
-```{.language-markup}
+```html
 <p class="large">Han försvann från trädgården igår.</p>
 <p class="large"><strong>Tack!</strong><p>
 ```
 vi stylar en klass såhär (med ett `.`istället för ett `#`):
 
-```{.language-css}
+```css
 .large {
 	font-size:24px;
 }

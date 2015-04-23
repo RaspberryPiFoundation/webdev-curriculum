@@ -40,7 +40,7 @@ What happened? Since the browser doesn't know what you mean by this tag it can n
 + Find one of the `<img>` tags. We've just tried misspelling the tag name and the browser wasn't sure what to do with it. But what if we misspell the attribute?
 
 Inside the `<img>` tag we have the `src` and `alt` attributes:
-```{.language-markup}
+```html
 <img src="kitten.jpg" alt="This is a kitten." />
 ```
 
@@ -50,7 +50,7 @@ Oh no! The kitten is gone! Suddenly, the browser no longer knows where to look f
 
 + Change it back to `src` so we can keep looking at the kitten.
 + Now remove the second quote (`"`) from the `alt` attribute of this image, the one after the text, so you end up with this:
-```{.language-markup}
+```html
 <img src="kitten.jpg" alt="This is a kitten. />
 ```
 
@@ -76,13 +76,13 @@ __Are you done? Great! Let's now link the two pages you have created together.__
 
 When we've been linking to parts of the same page, we could just point links to a specific id within a page, like this:
 
-```{.language-markup}
+```html
 <a href="#kitten">Click to see a kitten</a>
 ```
 
 Which then took you to something like this:
 
-```{.language-markup}
+```html
 <div id="kitten">
 	<img src="kitten.jpg" alt="This is a kitten." />
 </div>
@@ -92,7 +92,7 @@ To link to another page, we don't need to include the hash symbol (`#`), but ins
 
 So to link from `about_me_page_2.html` to `about_me.html` write it like this:
 
-```{.language-markup}
+```html
 <a href="about_me.html">Go to About Me page</a>
 ```
 
@@ -100,7 +100,7 @@ You can change the link text to something else, like the page title if you have 
 
 To link back from `about_me.html` to `about_me_page_2.html` you would have to write it like so:
 
-```{.language-markup}
+```html
 <a href="about_me_page_2.html">Go to my second page</a>
 ```
 

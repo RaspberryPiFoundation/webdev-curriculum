@@ -21,13 +21,13 @@ Det er mange måter å legge til stiler på: inline, i `<head>`-elementet, eller
 + Åpne index.html i Felix mappen vi lagde i siste økt.
 
 + I "hodet" (det vil si `head` delen) trenger vi en __style tagg__.
-```{.language-css}
+```css
   <style>
   </style>
 ```
 Alle stilene våre vil bli puttet mellom disse to elementene. Generelt ser CSS-kode ut som dette:
 
-```{.language-css}
+```css
 elementnavn {
 	egenskap: verdi;
 }
@@ -42,7 +42,7 @@ La oss legge til litt farge med color-egenskapen! Color er engelsk for farge. De
 
 La oss endre `h1` til å være rød i stedet for svart.
 
-```{.language-markup}
+```html
 <style>
 	h1 {
   		color:red;
@@ -74,7 +74,7 @@ En måte å gjøre det på er å sette `<span>`-tagger rundt ordet, slik:
 
 Så kan vi style `span`-taggen i 'hodet' på dokumentet vårt.
 
-```{.language-css}
+```css
 span {
 	color:orange;
 }
@@ -86,7 +86,7 @@ span {
 
 Vi kan legge til farger i bakgrunnen også, ikke bare i selve teksten. For eksempel:
 
-```{.language-css}
+```css
 body {
 	background-color:#D2FAFC;
 }
@@ -95,14 +95,14 @@ Dette gjør hele bakgrunnen lys blå. Du kan bruke hvilken som helst farge fra [
 
 Nå prøv:
 
-```{.language-css}
+```css
 h1 {
 	background-color:black;
 }
 ```
 Siden vi allerede hadde en `h1`-erklæring der, kunne vi bare legge til bakgrunnsfargen sammen med fargen, vi trenger ikke å skrive alt på nytt.
 
-```{.language-css}
+```css
 h1 {
 	color:red;
 	background-color: black;
@@ -115,7 +115,7 @@ h1 {
 Kanskje 'mistet' overskriften bør være __større__ og også ha store bokstaver. Vi kan angi størrelsen på teksten ved hjelp av `font-size`. Verdiene kan være masse forskjellig, men de mest vanlige er 12, 14, 16, 32, 48 og 72 piksler.
 For nå kan du prøve 72px. (px betyr piksel).
 
-```{.language-css}
+```css
 h1 {
     color:red;
     background-color:black;
@@ -136,7 +136,7 @@ Faktisk finnes det også en annen verdi for `text-decoration` kalt `blink`. Jeg 
 All teksten vår er helt over til venstre. Vi kan endre det ved hjelp av `text-align:center` (du kan også bruke verdien "right" som betyr høyre eller "left" som betyr venstre og er standard).
 1. Vi vil at all teksten skal være sentrert, så vi kan skrive:
 
-```{.language-css}
+```css
 body {
     background-color: #F8FAF4;
     text-align: center;
@@ -144,7 +144,7 @@ body {
 ```
 La du merke til at alt på siden ble plassert på midten når vi la til `text-align:center` på body-elementet? Det er fordi alt inne i body-elementet arver stilen. Dette skjer når et element ligger inni en annet element, slik som her:
 
-```{.language-markup}
+```html
 <p>Har du sett Felix? <em>Vennligst</em> kontakt eieren hans</p>
 ```
 

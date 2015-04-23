@@ -46,7 +46,7 @@ Bytt `<d1>` tilbake til `<h1>` og lagre igjen.
 
 Inne i `<img>` taggen har vi `href` og `alt` attributter:
 
-```{.language-markup}
+```html
 <img href = "kattunge.jpg" alt = "Dette er en kattunge." />
 ```
 
@@ -60,7 +60,7 @@ Endre det tilbake til `href` så vi kan fortsette å se på kattungen.
 
 + Nå fjern det andre anførselstegnet (`" `) fra `alt` attributtet av dette bildet: den etter teksten, slik at du ender opp med dette:
 
-```{.language-markup}
+```html
 <img href="kattunge.jpg" alt="Dette er en kattunge. />
 ```
 
@@ -87,13 +87,13 @@ __Er du ferdig? Flott! La oss nå linke de to sidene du har laget sammen.__
 
 Når vi har linket til deler av den samme siden, kunne vi bare peke linken til en bestemt id på siden, som dette:
 
-```{.language-markup}
+```html
 <a href="#kattunge"> Klikk for å se en kattunge </ a>
 ```
 
 Som da tok deg til noe sånt som dette:
 
-```{.language-markup}
+```html
 <div id="kattunge">
 <img src = "kattunge.jpg" alt = "Dette er en kattunge." />
 </ div>
@@ -102,7 +102,7 @@ Hvis du vil koble til en annen side, trenger vi ikke å inkludere hashsymbolet (
 
 Så for å linke fra `om_meg_side_2.html` til `om_meg.html` skriver vi slik:
 
-```{.language-markup}
+```html
 <a href="om_meg.html"> Gå til Om Meg siden </ a>
 ```
 
@@ -110,7 +110,7 @@ Du kan endre anker teksten til noe annet, som tittelen på siden hvis du har end
 
 For å linke tilbake fra `om_meg.html` til `om_meg_side_2.html` må du skrive det slik:
 
-```{.language-markup}
+```html
 <a href="om_meg_side_2.html"> Gå til min andre side </ a>
 ```
 

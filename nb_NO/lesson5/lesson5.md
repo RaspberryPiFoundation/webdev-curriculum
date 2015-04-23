@@ -29,7 +29,7 @@ Ikke alle skrifttyper finnes på alle datamaskiner, så vi trenger å oppgi en  
 
 La oss prøve å endre skrifttype på overskriften ved hjelp av `font-family`-egenskapen.
 
-```{.language-css}
+```css
 h1 {
 	color: red;
 	background-color:black;
@@ -42,7 +42,7 @@ h1 {
 ```
 Og skriften i avsnittene...
 
-```{.language-css}
+```css
 p {
 	font-family:georgia, 'times new roman', serif;
 }
@@ -62,7 +62,7 @@ Finn en skrifttype du liker og prøv den på websiden!
 
 Du kan gjøre teksten __fet__, *kursiv* eller begge deler med `font-style`. La oss endre email teksten (husk den er inni en `<a>`-tag).
 
-```{.language-css}
+```css
 a {
 	font-style:bold;
 }
@@ -72,7 +72,7 @@ a {
 
 Teksten har blitt fet! La oss se hvordan den ser ut i kursiv. Kursiv på engelsk er `italic`.
 
-```{.language-css}
+```css
 a {
 	font-style:italic;
 }
@@ -83,7 +83,7 @@ Det finnes også en `font-style`-verdi som heter ‘oblique’. Hvordan ser den 
 
 Vi kan til og med si hvor fet en tekst skal være ved å bruke egenskapen `font-weight`. Den tar verdiene `normal`, `bold`, `bolder` og `lighter`. Du kan også bruke tall, 100, 200, 300, 400, 500, 600, 700, 800 og 900, hvor 100 er den tynneste teksten og 900 er den tykkeste. Normal tekst er det samme som 400 og "bold" er det samme som 700. Men ikke alle skrifttypene har alle disse, så det er tryggere å bare bruke normal og bold. Overskrifter er normalt bold som standard. Hvis vi ikke ønsker at `h2`-overskiften vår skal være fet, må vi skrive:
 
-```{.language-css}
+```css
 h2 {
 	font-weight:normal;
 }
@@ -95,7 +95,7 @@ Prøv da vel!
 
 La oss legge til en ramme rundt bildet:
 
-```{.language-css}
+```css
 img {
 	border-color:green;
 	border-width:5px;
@@ -112,12 +112,12 @@ Du kan sette kanter rundt alle typer elementer, hvorfor ikke prøve noen flere.
 
 Vi ønsker å __utheve__ kontakt-avsnittet. Vi kan ikke bruke `<p>`-taggen fordi det vil endre alle avsnittene. For å gjøre slik at en stil gjelder bare for ett element, bruker vi noe som kalles ID. Vi trenger å redigere HTML-filen slik:
 
-```{.language-markup}
+```html
 <p id ="uthevet">Har du sett Felix? <em>Vennligst</em> kontakt eieren hans på <a href="mailto:eierentilfelix@email.com">eierentilfelix@email.com</a</p>
 ```
 så kan vi style den IDen som så:
 
-```{.language-css}
+```css
 #uthevet {
 	color:red;
 }
@@ -125,13 +125,13 @@ så kan vi style den IDen som så:
 ## __LAGRE__ filen og se på den i nettlerseren {.save}
 En ID er unik og kan bare brukes én gang per side. Så hva hvis vi ønsket at to av avsnittene skal ha en større tekststørrelse? Vi kan gjøre det ved hjelp av klasser. Først må vi gi klassenavn til de avsnittene vi ønsker å endre.
 
-```{.language-markup}
+```html
 <p class="stor">Han forvant fra hagen i går.</p>
 <p class="stor"><strong>Takk!</strong><p>
 ```
 Vi styler en klasse sånn (med en `.` i stedet for `#`):
 
-```{.language-css}
+```css
 .stor {
 	font-size:24px;
 }

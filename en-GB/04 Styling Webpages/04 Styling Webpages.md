@@ -21,13 +21,13 @@ There are many ways to add styles to your HTML: inline, in the head, or as a sep
 
 + Open the index.html from the Felix folder we did last session.
 + In the head section, we need a __style tag__.
-```{.language-markup}
+```html
 <style>
 </style>
 ```
 All our styles will go between these two elements. Simplez. In general, css code looks like this:
 
-```{.language-css}
+```css
 selector {
 	property: value;
 }
@@ -44,7 +44,7 @@ Let’s add some colour with the color property! It’s color without the u. Yes
 
 Let’s change the `h1` to be red instead of black.
 
-```{.language-css}
+```css
 h1 {
 	color: red;
 }
@@ -72,7 +72,7 @@ One way of doing that is putting `<span>` tags around the word, like so:
 
 Then in the head, we can style the span.
 
-```{.language-css}
+```css
 span {
 	color: orange;
 }
@@ -84,7 +84,7 @@ span {
 
 We can add colours to the background too, not just text. For instance:
 
-```{.language-css}
+```css
 body {
 	background-color: #D2FAFC;
 }
@@ -94,7 +94,7 @@ This will make the entire background light blue. You can choose any colour you l
 
 Now try:
 
-```{.language-css}
+```css
 h1 {
 	background-color: black;
 }
@@ -102,7 +102,7 @@ h1 {
 
 Since we already had a `h1` declaration in there, we could just put in the background-color with the color, no need to write it all out again.
 
-```{.language-css}
+```css
 h1 {
 	background-color: black;
 	color: red;
@@ -117,7 +117,7 @@ h1 {
 
 Maybe the ‘Missing’ header should be __bigger__ and also all capital letters. We can specify the size of the text using `font-size`. The values can be many things, but the most common are 12, 14, 16, 32, 48 and 72 pixels. For now lets try 72px. (px means pixel).
 
-```{.language-css}
+```css
 h1 {
     background-color: black;
     color: red;
@@ -137,7 +137,7 @@ All our text is all the way over on the left. We can change that using `text-ali
 
 + We want all our text to be centered for this particular webpage, so we can write: Note the American spelling of the word centre is center.
 
-```{.language-css}
+```css
 body {
     background-color: #F8FAF4;
     text-align: center;
@@ -145,7 +145,7 @@ body {
 ```
 Did you notice that everything in the page went to the centre when we put ‘text-align: center’ in the body section? That’s because everything inside the body element inherits the style. This happens whenever one element is inside another, like here:
 
-```{.language-markup}
+```html
 <p>Have you seen Felix? <em>Please</em> contact his owner</p>
 ```
 
