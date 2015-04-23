@@ -21,13 +21,13 @@ Det finns många sätt att styla din HTML: i texten, i head-taggen eller som ett
 
 + Öppna index.html från Felix-mappen som vi gjorde förra lektionen.
 + I head-taggen behöver vi ha en __style-tagg__.
-```{.language-markup}
+```html
 <style>
 </style>
 ```
 Alla våra stylingar kommer att ligga mellan dessa två delar. Enkelt. Generellt så ser css-kod ut så här:
 
-```{.language-css}
+```css
 selector {
 	property: value;
 }
@@ -44,7 +44,7 @@ Nu lägger vi till lite färg med hjälp av färgpaletten! På engelska heter f�
 
 Låt oss göra så att`h1` blir röd istället för svart.
 
-```{.language-css}
+```css
 h1 {
 	color: red;
 }
@@ -72,7 +72,7 @@ Ett sätt att göra det är att sätta `<span>` taggar på båda sidor om ordet,
 
 Sedan kan vi styla span-taggen i head-taggen.
 
-```{.language-css}
+```css
 span {
 	color: orange;
 }
@@ -84,7 +84,7 @@ span {
 
 Vi kan lägga till färger till bakgrunden också, inte bara till texten. Till exempel:
 
-```{.language-css}
+```css
 body {
 	background-color: #D2FAFC;
 }
@@ -94,7 +94,7 @@ Det här gör hela bakgrunden ljusblå. Du kan välja vilken färg du vill från
 
 Försök med:
 
-```{.language-css}
+```css
 h1 {
 	background-color: black;
 }
@@ -102,7 +102,7 @@ h1 {
 
 Eftersom att vi redan definierat, eller förklarat, `h1` kan vi bara skriva in färgen tillsammans med background-color, vi behöver alltså inte skriva ut allt igen.
 
-```{.language-css}
+```css
 h1 {
 	background-color: black;
 	color: red;
@@ -117,7 +117,7 @@ h1 {
 
 Kanske ska den ‘försvunna’ rubriken vara __större__ och alla ord inledas med stora bokstäver? Vi kan bestämma storleken på texten genom att använda `font-size`. Värdena kan variera men de vanligaste är 12, 14, 16, 32, 48 och 72 pixlar. Just nu kan vi prova 72px. (px betyder pixel).
 
-```{.language-css}
+```css
 h1 {
     background-color: black;
     color: red;
@@ -141,7 +141,7 @@ All vår text ligger åt vänster. Vi kan ändra det genom att använda `text-al
 
 + Vi vill att all vår text på just den här webbsidan ska vara centrerad, därför skriver vi som i rutan här nedanför. Lägg dock märke till att vi använder den amerikanska stavningen för ordet center.
 
-```{.language-css}
+```css
 body {
     background-color: #F8FAF4;
     text-align: center;
@@ -149,7 +149,7 @@ body {
 ```
 Lade du märke till att allt på sidan flyttade sig åt mitten när du skrev ‘text-align: center’ i body-sektionen? Anledningen är att allt inne i body-sektionen får samma stil. Det här händer när ett element ligger inuti ett annat, som i det här exemplet:
 
-```{.language-markup}
+```html
 <p>Har du sett Felix? <em>snälla</em> kontakta hans ägare</p>
 ```
 

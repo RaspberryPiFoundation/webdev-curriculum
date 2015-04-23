@@ -29,7 +29,7 @@ Not all fonts exist on all computers, so we need to provide __fall-back fonts__ 
 
 Let’s try changing the font of the headline using the `font-family` property.
 
-```{.language-css}
+```css
 h1 {
 	color: red;
 	background-color: black;
@@ -41,7 +41,7 @@ h1 {
 ```
 And the font of the paragraphs...
 
-```{.language-css}
+```css
 p {
 	font-family: Georgia, 'Times New Roman', serif;
 }
@@ -61,7 +61,7 @@ Find one you like and try it out on the website!
 
 You can make text __bold__, *italic* or both with the font-style property. Let’s change the email text (remember it’s inside an `<a>` tag).
 
-```{.language-css}
+```css
 a {
 	font-style: bold;
 }
@@ -71,7 +71,7 @@ a {
 
 Or we could make it italic.
 
-```{.language-css}
+```css
 a {
 	font-style: italic;
 }
@@ -82,7 +82,7 @@ There’s also a font-style value called ‘oblique’. What does that look like
 
 We can even say how bold some text should be using the property `font-weight`. It takes the values `normal`, `bold`, `bolder`, `lighter`. You can also use numbers, 100, 200, 300, 400, 500, 600, 700, 800, and 900, where 100 is the thinnest text and 900 is the thickest (boldest text). Normal text is the same as 400, bold is the same as 700. However, not all the fonts have all these, so it’s safer to just use normal and bold. Headlines are normally bold by default. If we wanted our `h2` to not be bold, we need to write:
 
-```{.language-css}
+```css
 h2 {
 	font-weight: normal;
 }
@@ -94,7 +94,7 @@ Try it!
 
 Let’s add a border around the image
 
-```{.language-css}
+```css
 img {
 	border-color: green;
 	border-style: solid;
@@ -111,13 +111,13 @@ You can put borders around all kinds of elements, why not try a few more.
 
 We want to make the contact paragraph __highlighted__.  We can’t use the `<p>` tag because that would change all the paragraphs. To make a style apply only to one element, we use something called IDs. We need to edit the html to this:
 
-```{.language-markup}
+```html
 <p id ="highlight">Have you seen Felix? <em>Please</em> contact his owners at <a href="mailto:felixowners@email.com">felixowners@email.com</a></p>
 ```
 
 Then we can style the ID like so:
 
-```{.language-css}
+```css
 #highlight {
 	color: red;
 }
@@ -127,13 +127,13 @@ Then we can style the ID like so:
 
 An ID is unique and can only be used once per page. So what if we wanted to make two of the paragraphs have a larger font-size? We can do that by using classes. First we need to give class names to the paragraphs we want changing.
 
-```{.language-markup}
+```html
 <p class="large">He went missing from the garden yesterday.</p>
 <p class="large"><strong>Thank you!</strong></p>
 ```
 we style a class like this (with a `.` instead of a `#`):
 
-```{.language-css}
+```css
 .large {
 	font-size:24px;
 }

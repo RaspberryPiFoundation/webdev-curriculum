@@ -19,7 +19,7 @@ Katten Felix har försvunnit. Hans ägare har gjort en plansch för att sätta u
 + Gör ett nytt dokument som heter 'index.html' och spara det i mappen **Felix**
 + Starta upp ditt dokument så som du lärt dig under tidigare lektioner
 
-```{.language-markup}
+```html
 <!DOCTYPE html>
 <html>
 	<head>
@@ -31,7 +31,7 @@ Katten Felix har försvunnit. Hans ägare har gjort en plansch för att sätta u
 
 + Gör en titel och en rubrik. Kom ihåg att titeln ska skrivas i head-taggen och rubriken ska skrivas i body-taggen. Använd "En bortsprungen katt" som titel, och bortsprungen som h1. Precis under `<h1>` kan vi göra en `<h2>` där det står “Katten Felix”.
 
-```{.language-markup}
+```html
 <!DOCTYPE html>
 <html>
 	<head>
@@ -50,7 +50,7 @@ Vi behöver också en bild på Felix så att folk vet vad de ska leta efter. Vi 
 
 + Skriv nu taggen `<img>` som du normalt gör, men istället för att skriva bildens URL i src-attributet så skriver vi bara `felix.jpg`. Glöm inte att skriva in ett alt-attribut!
 
-```{.language-markup}
+```html
 <img src="felix.jpg" alt="Bild på Felix">
 ```
 
@@ -58,7 +58,7 @@ Vi behöver också en bild på Felix så att folk vet vad de ska leta efter. Vi 
 
 + Bilden är ganska stor så vi vill göra den lite mindre. Det kan vi göra genom att använda attributen höjd (height) och bredd (width). Vi specificerar inte bredden i centimeter, meter, tum eller fot utan i något som kallas för *pixlar*. Jag ska köra på 400 pixlar för den här bilden.
 
-```{.language-markup}
+```html
 <img src="felix.jpg" alt="bild på Felix" width="400">
 ```
 
@@ -66,20 +66,20 @@ Vi behöver också en bild på Felix så att folk vet vad de ska leta efter. Vi 
 
 Under bilden ska vi skriva in en beskrivning av Felix och uppge ett par detaljer om var och när han försvann. För att göra detta räcker det att skriva några meningar.
 
-```{.language-markup}
+```html
 <p>Felix är en väldigt snäll katt. Han gillar att kela, sitta framför tv:n och sin leksaksmus. Han har orange päls. </p>
 <p>Han försvann från trädgården under gårdagen.</p>
 ```
 
 Vi behöver också information om hur man kan kontakta ägaren om någon har sett eller hittar Felix. 
 
-```{.language-markup}
+```html
 <p>Har du sett Felix? Snälla kontakta hans ägare på felixägare@email.com</p>
 ```
 
 Det här är bara en låtsasemailadress men låt oss göra så att om någon klickar på den så öppnas deras mailklient. Vi gör det här på nästan samma sätt som vi gör en länk men istället för ett __url__ läger vi in ett `mailto` så här:
 
-```{.language-markup}
+```html
 <p>Har du sett Felix? Snälla kontakta hans ägare på <a href="mailto:felixägare@email.com">felixägare@email.com</a></p>
 ```
 
@@ -89,13 +89,13 @@ Det här är bara en låtsasemailadress men låt oss göra så att om någon kli
 
 Vi vill verkligen att någon ska hitta Felix, därför vill vi lägga till *betoning* på ‘snälla’. Vi gör det med hjälp av en em-tag.
 
-```{.language-markup}
+```html
 <p>Har du sett Felix? <em>Snälla</em> kontakta hans ägare på felixägare@email.com</p>
 ```
 
 Vi vill också att ‘tack’ ska stå ut, det kan vi göra genom att lägga till fet stil. 
 
-```{.language-markup}
+```html
 <p><strong>Tack!</strong><p>
 ```
 
@@ -107,13 +107,13 @@ Har du lagt märke till hur 'snälla' nu är i *kursiv stil* och tack är **fet 
 
 Ibland är det användbart att skriva kommentarer i själv html-filen. När vi säger kommentarer så menar vi saker som kan vara användbart för andra människor som läser filen, och inget som webbläsaren ska kunna förstå och visa. Vi gör det genom att använda en speciell kod:
 
-```{.language-markup}
+```html
 <!-- Skriv vad som helst här -->
 ```
 
 Allt som står mellan pilarna är kommentaren. Låt oss lägga in kommentaren i vår fil och säga att det här är ett Code Club-projekt och att Felix inte finns på riktigt.
 
-```{.language-markup}
+```html
 <!-- Det här är ett Code Club-projekt. Felix finns egentligen inte på riktigt och är inte bortsprungen -->
 ```
 
@@ -121,13 +121,13 @@ Allt som står mellan pilarna är kommentaren. Låt oss lägga in kommentaren i 
 
 + Nu lägger vi till vem det var som skrev webbsidan, så att alla som tittar på filen vet att det är du som gjort den.
 
-```{.language-markup}
+```html
 <meta name="author" content="#">
 ```
 
 + Byt ut # mot ditt namn. Det är också vanligt att man skriver till vilket språk som webbsidan är på. Vi gör det genom att lägga till ett attribut till `<html>`-taggen.
 
-```{.language-markup}
+```html
 <html lang="sv">
 ```
 
@@ -135,19 +135,19 @@ Allt som står mellan pilarna är kommentaren. Låt oss lägga in kommentaren i 
 
 Det är också en bra övning att lägga till teckenuppsättningen (eller alfabetet) som du har använt för att skriva dokumentet. Vi använder oftast __UTF-8__.
 
-```{.language-markup}
+```html
 <meta charset="UTF-8">
 ```
 
 Vi kan också lägga till en beskrivning av webbsidan.
 
-```{.language-markup}
+```html
 	<meta name="beskrivning" content="en sida till för att hitta den bortsprungna katten Felix">
 ```
 
 Och ett par nyckelord, separerade med ett komma
 
-```{.language-markup}
+```html
 <meta name="nyckelord" content="Felix, katt, bortsprungen">
 ```
 

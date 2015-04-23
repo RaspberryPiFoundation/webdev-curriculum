@@ -21,7 +21,7 @@ Att lägga till filmer från YouTube är jättelätt.
 
 Det kommer se ut ungefär såhär:
 
-```{.langauge-markup}
+```html
 <iframe width="560" height="315" src="http://www.youtube.com/embed/FxhGIajRsq4"
    frameborder="0" allowfullscreen></iframe>
 ```
@@ -36,7 +36,7 @@ Lägg märke till attributen `width` och `height`. De gör så att du kan bestä
 + Klicka på `Share`-knappen på filmspelaren.
 + På höger sida finns en Embed-ruta. Klicka på den för att markera koden och kopiera den sedan. Det kommer se ut ungefär såhär:
 
-```{.langauge-markup}
+```html
 <iframe src="http://player.vimeo.com/video/44738167" width="600" height="338"
    frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 ```
@@ -49,7 +49,7 @@ Om du har en film som du själv har spelat in kan du lägga upp den på din hems
 
 + För att lägga upp en film på din sida behöver du lägga till en `video`-tagg. Precis som `<img>`-taggen har den ett `src`-attribut som pekar mot filen:
 
-```{.langauge-markup}
+```html
 	<video src="spaceship_landing.mp4">
 	</video>
 ```
@@ -58,7 +58,7 @@ Tyvärr är det irriterande med att lägga upp en film att inte alla webbläsare
 
 För att se till att webbläsaren förstår att det finns mer än ett videoformat tillgängligt, skriv så här:
 
-```{.langauge-markup}
+```html
 	<video>
 		<source src="spaceship_landing.ogv" type="video/ogg">
 		<source src="spaceship_landing.mp4" type="video/mp4">
@@ -67,7 +67,7 @@ För att se till att webbläsaren förstår att det finns mer än ett videoforma
 
 + För att lägga till en bild som visas innan filmen spelas upp kan du använda dig av ett `poster`-attribut:
 
-```{.langauge-markup}
+```html
 	<video poster="spaceship_landing.jpg">
 		<source src="spaceship_landing.ogv" type="video/ogg">
 		<source src="spaceship_landing.mp4" type="video/mp4">
@@ -76,7 +76,7 @@ För att se till att webbläsaren förstår att det finns mer än ett videoforma
 
 + Om du vill att filmen spelas automatiskt kan du lägga till nyckelordet `autoplay`, såhär:
 
-```{.langauge-markup}
+```html
 	<video poster="spaceship_landing.jpg" autoplay>
 		<source src="spaceship_landing.ogv" type="video/ogg">
 		<source src="spaceship_landing.mp4" type="video/mp4">
@@ -85,7 +85,7 @@ För att se till att webbläsaren förstår att det finns mer än ett videoforma
 
 + För att visa filmreglagen, som till exempel knapparna för play och volym kan du lägga till nyckelordet `controls`:
 
-```{.langauge-markup}
+```html
 	<video poster="spaceship_landing.jpg" controls>
 		<source src="spaceship_landing.ogv" type="video/ogg">
 		<source src="spaceship_landing.mp4" type="video/mp4">
@@ -94,7 +94,7 @@ För att se till att webbläsaren förstår att det finns mer än ett videoforma
 
 + Du kan också bestämma storleken på filmen genom att använda `width` och `height` attributen. Skriv såhär:
 
-```{.langauge-markup}
+```html
 	<video poster="spaceship_landing.jpg" width="600" height="400">
 		<source src="spaceship_landing.ogv" type="video/ogg">
 		<source src="spaceship_landing.mp4" type="video/mp4">
@@ -107,7 +107,7 @@ Så som du lägger upp ljudfiler på din webbsida från din dator är liknande d
 
 + För att lägga upp ljudet på en sida, skriv såhär:
 
-```{.langauge-markup}
+```html
 	<audio src="spaceship.mp3">
 	</audio>
 ```
@@ -116,7 +116,7 @@ Lägg märke till `src`-attributet som pekar mot filen.
 
 Precis som med filmfiler så kan inte alla webbläsare spela upp alla typer av ljudfiler, så för att se till att så många som möjligt ska kunna höra ljudet måste du lägga upp ljudfilen i så många olika format som möjligt, du bör åtminstone lägga upp `.mp3` och `.oga`.
 
-```{.langauge-markup}
+```html
 	<audio>
  		<source src="spaceship.mp3" type='audio/mp3'>
  		<source src="spaceship.ogg" type='audio/ogg; codecs=vorbis'>
@@ -125,7 +125,7 @@ Precis som med filmfiler så kan inte alla webbläsare spela upp alla typer av l
 
 + För att lägga till reglagen använd dig av nyckelordet `controls`:
 
-```{.langauge-markup}
+```html
 	<audio controls>
  		<source src="spaceship.mp3" type='audio/mp3'>
  		<source src="spaceship.ogg" type='audio/ogg; codecs=vorbis'>
@@ -134,7 +134,7 @@ Precis som med filmfiler så kan inte alla webbläsare spela upp alla typer av l
 
 + Om du vill att ljudet ska spelas så fort webbsidan har laddat kan du använda nyckelordet `autoplay`, så här:
 
-```{.langauge-markup}
+```html
 	<audio controls autoplay>
  		<source src="spaceship.mp3" type='audio/mp3'>
  		<source src="spaceship.ogg" type='audio/ogg; codecs=vorbis'>

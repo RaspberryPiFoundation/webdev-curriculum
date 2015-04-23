@@ -101,7 +101,7 @@ There are also some tags that we will always use in HTML documents, and they are
 + Ids are used to mark unique items on your page. See if you can spot the `div` tag with an `id` of `kitten` in the page.
 + What will happen if you move things around? Let's go back to the code editor. Find an `<ol>` tag in the code and select it with all its got inside, like so:
 
-```{.language-markup}
+```html
 <ol>
 	<li>Kittens</li>
 	<li>Cake</li>

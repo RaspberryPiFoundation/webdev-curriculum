@@ -93,7 +93,7 @@ Det finns också några taggar som vi alltid använder i HTML-dokument, och de �
 +Id:n används för att markera unika element på din sida. Kolla om du kan hitta någon <div>-tagg med id:t "kitten" på sidan.
 + Vad händer om du flyttar runt grejer? Vi går tillbaka till kodredigeraren. Leta upp en `<ol>`-tagg i koden och markera den med allt som finns inuti, såhär:
 
-```{.language-markup}
+```html
 <ol>
 	<li>Kittens</li>
 	<li>Cake</li>
