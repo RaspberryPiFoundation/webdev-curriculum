@@ -2,9 +2,9 @@
     "description": "Learn how to build websites using HTML and CSS.",
     "id": "webdev",
     "language": "en-GB",
-    "number": 4,
+    "number": 6,
     "title": "HTML & CSS 2",
-    "category": "cat-official",
+    "category": "cat-html",
     "projects":
     [
         {
