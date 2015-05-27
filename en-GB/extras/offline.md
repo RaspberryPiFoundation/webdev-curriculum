@@ -38,13 +38,13 @@ Here's a _very_ simple HTML example:
 
 After writing your HTML, save your file - making sure that the file has a `.html` file extension.
 
-![screenshot](offline-save.png)
+![screenshot](01/offline-save.png)
 
 ####Viewing
 
 To view a webpage, double-click the file to open it in a browser.
 
-![screenshot](offline-view.png)
+![screenshot](01/offline-view.png)
 
 If your file opens in a text editor, make sure that it has a `.html` file extension.
 
@@ -52,8 +52,8 @@ If your file opens in a text editor, make sure that it has a `.html` file extens
 
 To edit your webpage, right-click the `.html` file and select a text editor to open the file with.
 
-![screenshot](offline-open.png)
+![screenshot](01/offline-open.png)
 
 The easiest way to make changes is to open the file in a browser _and_ a text editor. You can then make changes in the text editor, save the file and then click refresh in the browser to see your changes.
 
-![screenshot](offline-edit.png)
+![screenshot](01/offline-edit.png)
