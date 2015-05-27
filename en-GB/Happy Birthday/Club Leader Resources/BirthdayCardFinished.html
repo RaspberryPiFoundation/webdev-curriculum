@@ -1,0 +1,110 @@
+<html>
+
+  <head>
+  
+    <style>
+      #outside {
+        z-index: 1;
+        position: absolute;
+        background: lightgreen;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: 1s;
+        transform-origin: 0%;
+        -webkit-transform-origin: 0%;
+        -ms-transform-origin: 0%;
+        -o-transform-origin: 0%;
+        -moz-transform-origin: 0%;
+      }
+      #outside:hover {
+        transform: rotateY(90deg);
+        -webkit-transform: rotateY(90deg);
+        -ms-transform: rotateY(90deg);
+        -o-transform: rotateY(90deg);
+        -moz-transform: rotateY(90deg);
+      }
+      #outside-title {
+        color: blue;
+        font-family: Arial;
+        font-size: 30pt;
+        text-align: center;
+      }
+      #outside-pic {
+        text-align: center;
+      }
+      #outside-pic {
+        width: 300px;
+        height: 150px;
+      }
+      #outside-help {
+        color: green;
+        font-family: Arial;
+        font-size: 10pt;
+        text-align: right;
+        padding: 20px;
+      }  
+      #inside {
+        z-index: 0;
+        position: absolute;
+        background: lightyellow;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+      }
+      #inside-title {
+        color: blue;
+        font-family: Arial;
+        font-size: 22pt;
+        text-align: center;
+      }
+      #inside-pic {
+        text-align: center;
+      }
+      #inside-pic {
+        width: 150px;
+        height: 100px;
+      }
+      #message {
+        color: green;
+        font-family: Arial;
+        font-size: 14pt;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+  
+    <div id="outside">
+    
+      <p id="outside-title">
+        Happy Birthday!
+      </p>  
+      
+      <img id="outside-pic" src="rainbow.png">
+
+
+      <p id="outside-help">
+        (Hover to open >)
+      </p>  
+      
+    </div>
+  
+    <div id="inside">
+    
+      <p id="inside-title">
+        Happy 11th Birthday, Ellie!
+      </p>
+      
+      <img id="inside-pic" src="dinosaur.png">
+      
+      <p id="message">
+        I hope you have a great day! See you on Saturday for your party!! :) Love Viktoria xx
+      </p>
+      
+    </div>
+    
+  </body>
+  
+</html>
