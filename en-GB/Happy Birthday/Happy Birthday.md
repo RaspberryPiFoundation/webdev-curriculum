@@ -15,7 +15,7 @@ In this project, you'll be introduced to HTML & CSS by learning how to make your
 
 # Step 1: What is HTML? { .activity}
 
-HTML stands for __H__yper __T__ext __M__arkup __L__anguage, and is the language used to make webpages. Let's have a look at an example!
+HTML stands for __HyperText Markup Language__, and is the language used to make webpages. Let's have a look at an example!
 
 ## Activity Checklist { .check}
 
@@ -80,7 +80,7 @@ Can you add __bold__ and <u>underlined</u> text to your new paragraph? You shoul
 
 # Step 2: What is CSS? { .activity}
 
-CSS stands for __C__ascading __S__tyle __S__heets, and is the language used to style webpages and make them look nice. CSS is put in the `<head>` of an HTML document, inside `<style>` and `</style>` tags. 
+CSS stands for __Cascading Style Sheets__, and is the language used to style webpages and make them look nice. CSS is put in the `<head>` of an HTML document, inside `<style>` and `</style>` tags. 
 
 ## Activity Checklist { .check}
 
