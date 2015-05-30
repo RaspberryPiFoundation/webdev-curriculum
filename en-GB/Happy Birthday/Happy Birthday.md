@@ -59,13 +59,14 @@ HTML stands for __HyperText Markup Language__, and is the language used to make 
 	![screenshot](birthday-reset.png)
 
 ## Save Your Project {.save}
-To save your webpage, click the down arrow and then click 'Link'. This will give you a link that you can save and come back to later. You'll need to do this every time you make changes, as the link will change!
 
-![screenshot](birthday-link.png)
-
-If you have a Trinket account, another way to save your webpage is to click the 'Remix' button on the top of the Trinket. This will save a copy of the Trinket on your profile.
+If you have a free Trinket account, the easiest way to save your webpage is to click the 'Remix' button on the top of the Trinket. This will save a copy of the Trinket on your profile.
 
 ![screenshot](birthday-remix.png)
+
+If you don't have a Trinket account, click the down arrow and then click 'Link'. This will give you a link that you can save and come back to later. You'll need to do this every time you make changes, as the link will change!
+
+![screenshot](birthday-link.png)
 
 ##Challenge: Add another paragraph {.challenge}
 Can you add a 3rd paragraph of text to your webpage, below the other 2? Remember that your new paragraph should start with a `<p>` tag, and end with `</p>`.
@@ -161,6 +162,6 @@ Here's an example:
 
 ## Save Your Project {.save}
 
-Now that you've made a card, you can click the menu bar to share the link or email the card to someone.
+Now that you've finished your card, you can share or email it to someone.
 
 ![screenshot](birthday-share.png)

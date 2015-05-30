@@ -137,7 +137,7 @@ Can you give your image a background colour? Or a rounded border?
 
 ## Save Your Project {.save}
 
-# Step 3: Styling headings { .activity}
+# Step 3: Styling headings { .activity .new-page }
 
 Let's improve the style of the `<h1>` heading.
 
