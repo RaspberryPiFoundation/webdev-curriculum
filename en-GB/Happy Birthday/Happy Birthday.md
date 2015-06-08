@@ -60,13 +60,15 @@ HTML stands for __HyperText Markup Language__, and is the language used to make 
 
 ## Save Your Project {.save}
 
-If you have a free Trinket account, the easiest way to save your webpage is to click the 'Remix' button on the top of the Trinket. This will save a copy of the Trinket on your profile.
-
-![screenshot](birthday-remix.png)
+__You don't need a Trinket account to save your projects!__ 
 
 If you don't have a Trinket account, click the down arrow and then click 'Link'. This will give you a link that you can save and come back to later. You'll need to do this every time you make changes, as the link will change!
 
 ![screenshot](birthday-link.png)
+
+If you have a Trinket account, the easiest way to save your webpage is to click the 'Remix' button on the top of the Trinket. This will save a copy of the Trinket on your profile.
+
+![screenshot](birthday-remix.png)
 
 ##Challenge: Add another paragraph {.challenge}
 Can you add a 3rd paragraph of text to your webpage, below the other 2? Remember that your new paragraph should start with a `<p>` tag, and end with `</p>`.
