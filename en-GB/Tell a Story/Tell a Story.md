@@ -99,7 +99,7 @@ Let's add a second part to your story.
 
 	![screenshot](story-image.png)
 
-+ You can also upload your own images to your webpage! To do this, click the image icon at the top of your trinket and then click 'upload'.
++ __If you have a Trinket account__, you can also upload your own images to your webpage! To do this, click the image icon at the top of your trinket and then click 'upload'.
 
 	![screenshot](story-upload.png)
 
