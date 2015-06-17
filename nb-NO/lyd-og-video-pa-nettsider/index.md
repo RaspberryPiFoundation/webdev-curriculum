@@ -1,5 +1,5 @@
 ---
-title: Lyd og  video på nettsider 
+title: Lyd og video på nettsider
 level: Lesson 8
 language: nb_NO
 embeds: "*.png"
@@ -15,9 +15,9 @@ Det finnes flere måter å legge til video eller lyd til sidene dine. La oss ta 
 
 Å legge til videoer fra YouTube er egentlig ganske enkelt.
 
-+ Gå til siden på YouTube hvor videoen er. 
-+ Under videospiller kan du finne `Dele`-knappen. Klikk på den. 
-+ For å få koden du kan bruke på nettsiden din, klikk `Innbygg`. 
++ Gå til siden på YouTube hvor videoen er.
++ Under videospiller kan du finne `Dele`-knappen. Klikk på den.
++ For å få koden du kan bruke på nettsiden din, klikk `Innbygg`.
 
 Det vil se omtrent slik ut:
 
@@ -26,27 +26,27 @@ Det vil se omtrent slik ut:
    frameborder="0" allowfullscreen></iframe>
 ```
 
-Denne spesifikke kodefragment ville legge en CodeClub video til din side. Bare kopier og lim inn koden der du ønsker at videoen skal vises. 
+Denne spesifikke kodefragment ville legge en CodeClub video til din side. Bare kopier og lim inn koden der du ønsker at videoen skal vises.
 
 Legg merke til `width` (bredde) og `height` (høyde) attributtene. De lar deg kontrollere hvor stor videoen vil være på siden, så du kan gjerne endre dem.
 
 
 # Add a video from Vimeo. { .activity}
 
-+ Gå til en videoside på Vimeo. 
-+ Klikk på `Dele`-knappen på videospilleren. 
++ Gå til en videoside på Vimeo.
++ Klikk på `Dele`-knappen på videospilleren.
 + På høyre side er det en `embedd` boks. Klikk på den for å velge koden og kopiere den. Det vil se litt ut som dette:
 
 ```
-<iframe src="http://player.vimeo.com/video/44738167" width="600" height="338" 
+<iframe src="http://player.vimeo.com/video/44738167" width="600" height="338"
    frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 ```
 
 + Bare kopier og lim inn koden der du ønsker at videoen skal vises. Legg merke til `width` (bredde) og `height` (høyde) attributtene. De lar deg kontrollere hvor stor videoen vil være på siden, så du kan gjerne endre dem.
 
-# Legg til en videofil fra datamaskinen {.activity} 
+# Legg til en videofil fra datamaskinen {.activity}
 
-Hvis du har en video du har laget, kan du legge den på siden din uten å måtte laste det opp til YouTube eller Vimeo. 
+Hvis du har en video du har laget, kan du legge den på siden din uten å måtte laste det opp til YouTube eller Vimeo.
 
 + For å plassere en video på siden din må du legge til en `video` tag. Akkurat som `<img>` taggen peker `src` attributtet til filen:
 
@@ -55,7 +55,7 @@ Hvis du har en video du har laget, kan du legge den på siden din uten å måtte
 	</video>
 ```
 
-Dessverre kan ikke alle nettlesere spille alle videoformater. Du blir nødt til å lagre den i minst `.mp4` og `.ogv` formater, som vil fungere i de fleste nettlesere. 
+Dessverre kan ikke alle nettlesere spille alle videoformater. Du blir nødt til å lagre den i minst `.mp4` og `.ogv` formater, som vil fungere i de fleste nettlesere.
 
 For å la nettleseren vite at vi har mer enn ett format av video klar, skriver vi slik:
 
@@ -102,9 +102,9 @@ For å la nettleseren vite at vi har mer enn ett format av video klar, skriver v
 	</video>
 ```
 
-# Legg til en lydfil fra datamaskinen {.activity} 
+# Legg til en lydfil fra datamaskinen {.activity}
 
-Måten å legge lydfiler til siden din fra datamaskinen din er omtrent som med videofil. 
+Måten å legge lydfiler til siden din fra datamaskinen din er omtrent som med videofil.
 
 + For å plassere lyden på siden, skirv dette:
 
