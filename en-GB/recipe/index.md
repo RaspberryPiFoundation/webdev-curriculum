@@ -7,7 +7,7 @@ materials: "Resources"
 stylesheet: web
 author: Matteo Menapace
 note: "notes.md"
-...
+---
 
 # Introduction { .intro}
 

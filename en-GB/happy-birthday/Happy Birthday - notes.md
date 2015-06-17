@@ -3,7 +3,7 @@ title: Happy Birthday — Notes for Club Leaders
 language: en-GB
 embeds: "*.png"
 materials: [""]
-...
+---
 
 #Introduction:
 In this project, children will be introduced to HTML tags & CSS properties. They will also edit tags and properties to make their own customised greeting card.

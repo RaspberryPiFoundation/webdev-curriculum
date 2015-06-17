@@ -5,7 +5,7 @@ language: en-GB
 embeds: "*.png"
 materials: "code and images"
 stylesheet: web
-...
+---
 
 ## __Uppgiften:__ {.intro } 
 I den här lektionen ska vi lära oss hur man stylar text med olika typsnitt(fonts), färger och storlekar. Vi kommer också att lära oss hur man lägger till bakgrundsfärger och ramar. Vi kommer att använda samma projekt som du arbetade på sist, så se till att du öppnar index.html från Felix-mappen. 

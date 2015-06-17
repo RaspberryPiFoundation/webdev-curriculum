@@ -4,7 +4,7 @@ level: Lesson 7
 language: nb_NO
 embeds: "*.png"
 stylesheet: web
-...
+---
 
 ## __Introduksjon:__ {.intro}
 I dette prosjektet vil du designe og kode din egen hjemmeside! Du må planlegge hva hjemmesiden din skal handle om, og lage innholdet (tekst, informasjon, bilder, video etc.) som skal være på den.

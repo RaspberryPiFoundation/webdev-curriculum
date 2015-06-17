@@ -5,7 +5,7 @@ language: sv-SE
 embeds: "*.png"
 materials: "code and images"
 stylesheet: web
-...
+---
 
 # Uppgiften { .intro}
 

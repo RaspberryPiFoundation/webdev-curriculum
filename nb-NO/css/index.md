@@ -5,7 +5,7 @@ language: nb_NO
 embeds: "*.png"
 materials: "ressurser"
 stylesheet: web
-...
+---
 
 ## Introduksjon { .intro}
 La oss gjøre nettsiden vår bedre med noen stiler.

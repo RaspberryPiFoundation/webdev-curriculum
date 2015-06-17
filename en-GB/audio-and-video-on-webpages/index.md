@@ -5,7 +5,7 @@ language: en-GB
 embeds: "*.png"
 materials: "code and images"
 stylesheet: web
-...
+---
 
 # Introduction {.intro}
 

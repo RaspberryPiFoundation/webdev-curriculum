@@ -5,7 +5,7 @@ language: en-GB
 embeds: "*.png"
 materials: "code and images"
 stylesheet: web
-...
+---
 
 ## __Introduction:__ {.intro }
 In this session we are going to learn how to style text with different fonts, colours and sizes. We'll also learn how to add background colours and borders. We will be using the same project you worked on last time, so make sure you open the index.html from the Felix folder.

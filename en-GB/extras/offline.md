@@ -3,7 +3,7 @@ title: Working Offline
 language: en-GB
 embeds: "*.png"
 materials: [""]
-...
+---
 
 When completing our HTML & CSS projects, we recommend using [trinket](https://trinket.io) to build webpages online. Trinket offers several advantages over using a text editor offline:
 

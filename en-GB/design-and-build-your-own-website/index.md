@@ -4,7 +4,7 @@ level: HTML&CSS 2
 language: en-GB
 embeds: "*.png"
 stylesheet: web
-...
+---
 
 ## __Introduction:__ { .intro}
 In this project you will design and code your very own website! You’ll need to plan what your website is going to be about, and create the content (text, information, pictures, video etc.) that should go on it.

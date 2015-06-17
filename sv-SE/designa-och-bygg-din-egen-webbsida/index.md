@@ -4,7 +4,7 @@ level: Nivå 3
 language: sv-SE
 embeds: "*.png"
 stylesheet: web
-...
+---
 
 ## __Uppgiften:__ { .intro}
 I det här projektet ska du designa och koda din helt egna webbsida! Du ska få planera vad din webbsida ska handla om och skapa innehållet (text, information, bilder, filmer m.m.) som ska finnas på sidan.

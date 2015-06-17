@@ -5,7 +5,7 @@ language: en-GB
 embeds: "*.png"
 materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 stylesheet: web
-...
+---
 
 # Introduction { .intro}
 

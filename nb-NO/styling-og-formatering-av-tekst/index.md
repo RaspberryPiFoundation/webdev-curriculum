@@ -5,7 +5,7 @@ language: nb-NO
 embeds: "*.png"
 materials: "ressurser"
 stylesheet: web
-...
+---
 
 ## __Introduksjon:__ { .intro }
 I denne seksjonen skal vi lære hvordan man kan style tekst med forskjellige skrifttyper, farger og størrelser. Vi vil også lære hvordan du legger til bakgrunnsfarger og pyntekanter. Vi skal bruke det samme prosjektet du jobbet med sist gang, så sørg for at du åpner index.html i Felix mappen.

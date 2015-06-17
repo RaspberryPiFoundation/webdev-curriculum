@@ -3,7 +3,7 @@ title: Wanted! — Notes for Club Leaders
 language: en-GB
 embeds: "*.png"
 materials: [""]
-...
+---
 
 #Introduction:
 In this project, children will will have an opportunity to write their own CSS. They will also edit and write CSS properties and selectors to make their own poster.

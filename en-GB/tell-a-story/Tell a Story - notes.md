@@ -3,7 +3,7 @@ title: Tell a Story — Notes for Club Leaders
 language: en-GB
 embeds: "*.png"
 materials: [""]
-...
+---
 
 #Introduction:
 In this project, children will have an opportunity to write their own HTML. They will create their own story, adding panels, images and captions to a comic book style webpage.

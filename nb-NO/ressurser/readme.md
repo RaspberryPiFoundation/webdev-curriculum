@@ -1,7 +1,7 @@
 ---
 title: Hei ! Velkommen til termin 3 av Kodeklubben!
 language: nb_NO
-...
+---
 
 I denne terminen skal vi lære om HTML og CSS. Dette er byggesteinene for verdensveven!
 

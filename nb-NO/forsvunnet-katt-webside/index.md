@@ -5,7 +5,7 @@ language: nb_NO
 embeds: "*.png"
 materials: "kode og bilder"
 stylesheet: web
-...
+---
 
 ## __Oppdraget:__ { .intro}
 
