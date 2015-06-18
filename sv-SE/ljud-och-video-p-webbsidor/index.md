@@ -1,10 +1,7 @@
 ---
 title: Ljud och video på webbsidor 
 level: Nivå 3
-language: sv-SE
-embeds: "*.png"
 materials: "code and images"
-stylesheet: web
 ---
 
 # Uppgiften {.intro}

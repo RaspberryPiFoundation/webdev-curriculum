@@ -1,10 +1,9 @@
 ---
 title: Wanted!
 level: HTML & CSS 1
-language: en-GB
-embeds: "*.png"
 materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
-stylesheet: web
+beta: true
+notes: "Wanted - notes.md"
 ---
 
 # Introduction { .intro}

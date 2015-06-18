@@ -1,10 +1,7 @@
 ---
 title: en hjemmeside
 level: Lesson 2
-language: nb_NO
-embeds: "*.png"
 materials: "ressurser"
-stylesheet: web
 ---
 
 ## Introduksjon { .intro}

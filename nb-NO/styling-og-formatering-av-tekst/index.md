@@ -1,10 +1,7 @@
 ---
 title: Styling og formatering av tekst
 level: Lesson 5
-language: nb-NO
-embeds: "*.png"
 materials: "ressurser"
-stylesheet: web
 ---
 
 ## __Introduksjon:__ { .intro }

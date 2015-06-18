@@ -1,7 +1,5 @@
 ---
 title: Notes for club leaders
-language: en-GB
-stylesheet: web
 author: Matteo Menapace
 ---
 

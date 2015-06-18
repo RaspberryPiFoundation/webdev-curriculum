@@ -1,9 +1,6 @@
 ---
 title: Design and build your own website
 level: HTML&CSS 2
-language: en-GB
-embeds: "*.png"
-stylesheet: web
 ---
 
 ## __Introduction:__ { .intro}

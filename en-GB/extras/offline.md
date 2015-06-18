@@ -1,7 +1,5 @@
 ---
 title: Working Offline
-language: en-GB
-embeds: "*.png"
 materials: [""]
 ---
 

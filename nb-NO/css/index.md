@@ -1,10 +1,7 @@
 ---
 title: CSS
 level: Lesson 4
-language: nb_NO
-embeds: "*.png"
 materials: "ressurser"
-stylesheet: web
 ---
 
 ## Introduksjon { .intro}

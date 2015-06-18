@@ -1,10 +1,7 @@
 ---
 title: Missing cat website
 level: HTML&CSS 1
-language: en-GB
-embeds: "*.png"
-materials: "code and images"
-stylesheet: web
+materials: "code and images/*"
 ---
 
 ## __The Mission:__ { .intro}

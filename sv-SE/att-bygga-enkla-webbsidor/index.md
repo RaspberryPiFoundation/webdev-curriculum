@@ -1,10 +1,7 @@
 ---
 title: Att bygga enkla webbsidor
 level: Nivå 1
-language: sv-SE
-embeds: "*.png"
 materials: "kod och bilder"
-stylesheet: web
 ---
 
 ## Uppgiften { .intro}

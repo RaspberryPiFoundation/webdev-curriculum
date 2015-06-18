@@ -1,10 +1,9 @@
 ---
 title: Tell a Story
 level: HTML & CSS 1
-language: en-GB
-embeds: "*.png"
 materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
-stylesheet: web
+beta: true
+notes: "Tell a Story - notes.md"
 ---
 
 # Introduction { .intro}

@@ -1,9 +1,6 @@
 ---
 title: Designa & bygg din egen webbsida
 level: Nivå 3
-language: sv-SE
-embeds: "*.png"
-stylesheet: web
 ---
 
 ## __Uppgiften:__ { .intro}

@@ -1,6 +1,5 @@
 ---
 title: Saving your work
-language: en
 ---
 
 __Introduction:__ It’s important to __save__ your work regularly, so you don’t lose any of the brilliant ideas you’ve come up with. Let’s have a look at where to save your code and various other things you might need (like images) so that the browser can find them correctly.

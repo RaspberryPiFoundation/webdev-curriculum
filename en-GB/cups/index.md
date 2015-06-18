@@ -1,12 +1,9 @@
 ---
 title: Coding Cups and Balls
 level: HTML&CSS 2
-language: en-GB
-embeds: "*.png"
-materials: "Resources"
-stylesheet: web
+materials: "Resources/*"
 author: Matteo Menapace
-note: "notes.md"
+notes: "notes.md"
 ---
 
 # Introduction { .intro}

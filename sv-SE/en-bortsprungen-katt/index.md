@@ -1,10 +1,7 @@
 ---
 title: En bortsprungen katt
 level: Nivå 1
-language: sv-SE
-embeds: "*.png"
 materials: "code and images"
-stylesheet: web
 ---
 
 ## __Uppdraget__ { .intro}

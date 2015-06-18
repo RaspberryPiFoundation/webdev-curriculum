@@ -1,7 +1,5 @@
 ---
 title: Happy Birthday — Notes for Club Leaders
-language: en-GB
-embeds: "*.png"
 materials: [""]
 ---
 

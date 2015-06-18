@@ -1,10 +1,7 @@
 ---
 title: Lyd og video på nettsider
 level: Lesson 8
-language: nb_NO
-embeds: "*.png"
 materials: "ressurser"
-stylesheet: web
 ---
 
 # Introduksjon { .intro}

@@ -1,6 +1,5 @@
 ---
 title: Hvorfor er det så mange nettlesere?
-language: nb-NO
 ---
 
 __Introduksjon:__ Du har allerede lært at en nettleser er bare et fancy program som tar __HTML filer__ (som er rene tekstfiler som bruker HTML-tagger), __CSS filer__ og tilhørende medier, som bilder eller videoer, og viser dem i henhold til instruksjoner skrevet i koden. Men det er så mange å velge mellom! Hva gjør de annerledes? Tross alt, bør de ikke alle gjør hva koden din forteller dem?

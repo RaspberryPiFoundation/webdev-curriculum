@@ -1,9 +1,6 @@
 ---
 title: Design og bygg din egen hjemmeside
 level: Lesson 7
-language: nb_NO
-embeds: "*.png"
-stylesheet: web
 ---
 
 ## __Introduksjon:__ {.intro}

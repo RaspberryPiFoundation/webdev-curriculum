@@ -1,10 +1,7 @@
 ---
 title: Styla och formatera text
 level: Nivå 2
-language: en-GB
-embeds: "*.png"
 materials: "code and images"
-stylesheet: web
 ---
 
 ## __Uppgiften:__ {.intro } 

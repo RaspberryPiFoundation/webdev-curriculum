@@ -1,10 +1,7 @@
 ---
 title: Göm ninjorna
 level: Nivå 2
-language: sv-SE
-embeds: "*.png"
 materials: "code and images"
-stylesheet: web
 ---
 
 ## Uppgiften { .intro}

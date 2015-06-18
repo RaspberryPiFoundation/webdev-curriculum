@@ -1,10 +1,7 @@
 ---
 title: Att styla webbsidor
 level: Nivå 2
-language: se-SW
-embeds: "*.png"
 materials: "kod och material"
-stylesheet: webb
 ---
 
 ## Uppgiften { .intro}
