@@ -2,6 +2,7 @@
 title: Missing cat website
 level: HTML&CSS 1
 materials: "code and images/*"
+layout: project
 ---
 
 ## __The Mission:__ { .intro}

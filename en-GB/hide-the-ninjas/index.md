@@ -2,6 +2,7 @@
 title: Hide the ninjas
 level: HTML&CSS 1
 materials: "code and images/*"
+layout: project
 ---
 
 ## Introduction { .intro}

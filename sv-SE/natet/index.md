@@ -2,6 +2,7 @@
 title: Nätet
 level: Nivå 1
 materials: "code and images"
+layout: project
 ---
 
 # Uppgiften { .intro}

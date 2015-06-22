@@ -2,6 +2,7 @@
 title: Styling and formatting text
 level: HTML&CSS 1
 materials: "code and images/*"
+layout: project
 ---
 
 ## __Introduction:__ {.intro }

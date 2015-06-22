@@ -2,6 +2,7 @@
 title: En bortsprungen katt
 level: Nivå 1
 materials: "code and images"
+layout: project
 ---
 
 ## __Uppdraget__ { .intro}

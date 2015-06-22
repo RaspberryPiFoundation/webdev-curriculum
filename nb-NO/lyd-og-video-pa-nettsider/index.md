@@ -2,6 +2,7 @@
 title: Lyd og video på nettsider
 level: Lesson 8
 materials: "ressurser"
+layout: project
 ---
 
 # Introduksjon { .intro}

@@ -4,6 +4,7 @@ level: HTML & CSS 1
 materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 beta: true
 notes: "Wanted - notes.md"
+layout: project
 ---
 
 # Introduction { .intro}

@@ -1,6 +1,7 @@
 ---
 title: Design and build your own website
 level: HTML&CSS 2
+layout: project
 ---
 
 ## __Introduction:__ { .intro}

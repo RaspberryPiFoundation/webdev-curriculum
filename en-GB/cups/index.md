@@ -4,6 +4,7 @@ level: HTML&CSS 2
 materials: "Resources/*"
 author: Matteo Menapace
 notes: "notes.md"
+layout: project
 ---
 
 # Introduction { .intro}

@@ -1,6 +1,7 @@
 ---
 title: Designa & bygg din egen webbsida
 level: Nivå 3
+layout: project
 ---
 
 ## __Uppgiften:__ { .intro}

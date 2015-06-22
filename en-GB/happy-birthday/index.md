@@ -4,6 +4,7 @@ level: HTML & CSS 1
 materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 beta: true
 notes: "Happy Birthday - notes.md"
+layout: project
 ---
 
 # Introduction { .intro}

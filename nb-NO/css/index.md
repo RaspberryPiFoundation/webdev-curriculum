@@ -2,6 +2,7 @@
 title: CSS
 level: Lesson 4
 materials: "ressurser"
+layout: project
 ---
 
 ## Introduksjon { .intro}
