@@ -1,6 +1,5 @@
 ---
 title: The Web
-level: HTML&CSS 1
 materials: "code and images/*"
 layout: project
 ---

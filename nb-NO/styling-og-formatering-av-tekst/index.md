@@ -1,6 +1,5 @@
 ---
 title: Styling og formatering av tekst
-level: Lesson 5
 materials: "ressurser"
 layout: project
 ---

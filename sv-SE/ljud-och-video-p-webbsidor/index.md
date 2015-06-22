@@ -1,6 +1,5 @@
 ---
 title: Ljud och video på webbsidor 
-level: Nivå 3
 materials: "code and images"
 layout: project
 ---

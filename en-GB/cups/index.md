@@ -1,6 +1,5 @@
 ---
 title: Coding Cups and Balls
-level: HTML&CSS 2
 materials: "Resources/*"
 author: Matteo Menapace
 notes: "notes.md"

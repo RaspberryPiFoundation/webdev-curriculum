@@ -1,6 +1,5 @@
 ---
 title: Att bygga enkla webbsidor
-level: Nivå 1
 materials: "kod och bilder"
 layout: project
 ---

@@ -1,6 +1,5 @@
 ---
 title: Forsvunnet katt webside
-level: Lesson 3
 materials: "kode og bilder"
 layout: project
 ---

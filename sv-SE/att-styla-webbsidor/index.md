@@ -1,6 +1,5 @@
 ---
 title: Att styla webbsidor
-level: Nivå 2
 materials: "kod och material"
 layout: project
 ---

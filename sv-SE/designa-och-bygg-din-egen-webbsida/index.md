@@ -1,6 +1,5 @@
 ---
 title: Designa & bygg din egen webbsida
-level: Nivå 3
 layout: project
 ---
 

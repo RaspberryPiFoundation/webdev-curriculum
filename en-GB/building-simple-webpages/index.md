@@ -1,6 +1,5 @@
 ---
 title: Building simple web pages
-level: HTML&CSS 1
 materials: "code and images/*"
 layout: project
 ---

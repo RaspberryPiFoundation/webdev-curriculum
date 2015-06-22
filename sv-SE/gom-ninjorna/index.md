@@ -1,6 +1,5 @@
 ---
 title: Göm ninjorna
-level: Nivå 2
 materials: "code and images"
 layout: project
 ---

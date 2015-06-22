@@ -1,6 +1,5 @@
 ---
 title: Design og bygg din egen hjemmeside
-level: Lesson 7
 layout: project
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Audio and video on web pages
-level: HTML&CSS 2
 materials: "code and images/*"
 layout: project
 ---

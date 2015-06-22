@@ -1,6 +1,5 @@
 ---
 title: Coding a comic
-level: HTML&CSS 2
 materials: "Resources/*"
 author: Matteo Menapace
 notes: "notes.md"

@@ -1,6 +1,5 @@
 ---
 title: en hjemmeside
-level: Lesson 2
 materials: "ressurser"
 layout: project
 ---

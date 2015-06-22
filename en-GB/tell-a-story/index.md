@@ -1,6 +1,5 @@
 ---
 title: Tell a Story
-level: HTML & CSS 1
 materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 beta: true
 notes: "Tell a Story - notes.md"

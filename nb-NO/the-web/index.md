@@ -1,6 +1,5 @@
 ---
 title: the web
-level: Lesson 1
 materials: "ressurser"
 layout: project
 ---
