@@ -125,29 +125,29 @@ Let's use what you've learnt about HTML and CSS to make your own custom birthday
 
 Don't worry if you don't understand all of the code. This birthday card looks pretty boring, so you're going to make some changes to this HTML and CSS.
 
-+ Hover over the webpage on the right side of the Trinket, and you should see the card open to reveal the inside.
++ Click the button on the front of the card, and you should see it open to reveal the inside.
 
-	![screenshot](birthday-hover.png)
+	![screenshot](birthday-click.png)
 
-+ Scroll down to line 75 of the code. Just like in the earlier example, you can edit any of the text in the HTML to customise the card.
++ Go to line 13 of the code. Just like in the earlier example, you can edit any of the text in the HTML to customise the card.
 
 	![screenshot](birthday-card-html.png)
 
-+ Can you find the HTML for the robot image? (Hint: it's on line 78!) Change the word `robot` to `sun`, and you'll see the image change! 
++ Can you find the HTML for the robot image? (Hint: it's on line 16!) Change the word `robot` to `sun`, and you'll see the image change!
 
 	![screenshot](birthday-card-sun.png)
 
 	You can use any of the words `boy`, `diamond`, `dinosaur`, `flowers`, `girl`, `rainbow`, `robot`, `spaceship`, `sun`, `tea`, or `trophy`.
 
-+ You can also edit the CSS of the birthday card. For example, go to line 5 of the code and you'll see all of the CSS for the `outside` of the card. Change the `background` to `lightgreen`.
++ You can also edit the CSS of the birthday card. Click on the tab for “style.css”. It begins with all of the CSS for the `outside` of the card. Change the `background-color` to `lightgreen`.
 
 	![screenshot](birthday-card-outside.png)
 
-+ You can also change the size of an image. Go to line 33 of the code, and change the `width` and `height` of the outside image to `200px` (`px` stands for pixels).
++ You can also change the size of an image. Go to line 29 of the CSS, and change the `width` and `height` of the outside image to `200px` (`px` stands for pixels).
 
 	![screenshot](birthday-card-size.png)	
 
-+ The font can be changed too. Go to line 28 and change the `font-family` to `Comic Sans MS` and the `font-size` to `16pt`. 
++ The font can be changed too. Go to line 24 and change the `font-family` to `Comic Sans MS` and the `font-size` to `16pt`.
 
 	![screenshot](birthday-card-font.png)
 
