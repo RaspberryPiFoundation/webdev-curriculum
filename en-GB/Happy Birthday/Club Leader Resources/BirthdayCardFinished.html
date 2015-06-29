@@ -1,28 +1,28 @@
 <html>
 
   <head>
-  
+
     <style>
       #outside {
         z-index: 1;
         position: absolute;
-        background: lightgreen;
+        background-color: lightgreen;
         width: 100%;
         height: 100%;
         text-align: center;
         transition: 1s;
-        transform-origin: 0%;
-        -webkit-transform-origin: 0%;
-        -ms-transform-origin: 0%;
-        -o-transform-origin: 0%;
-        -moz-transform-origin: 0%;
+        -webkit-transform-origin: 0;
+        -ms-transform-origin: 0;
+        -o-transform-origin: 0;
+        -moz-transform-origin: 0;
+        transform-origin: 0;
       }
-      #outside:hover {
-        transform: rotateY(90deg);
+      .open-card {
         -webkit-transform: rotateY(90deg);
         -ms-transform: rotateY(90deg);
         -o-transform: rotateY(90deg);
         -moz-transform: rotateY(90deg);
+        transform: rotateY(90deg);
       }
       #outside-title {
         color: blue;
@@ -43,11 +43,11 @@
         font-size: 10pt;
         text-align: right;
         padding: 20px;
-      }  
+      }
       #inside {
         z-index: 0;
         position: absolute;
-        background: lightyellow;
+        background-color: lightyellow;
         width: 100%;
         height: 100%;
         text-align: center;
@@ -75,36 +75,49 @@
   </head>
 
   <body>
-  
+
     <div id="outside">
-    
+
       <p id="outside-title">
         Happy Birthday!
-      </p>  
-      
+      </p>
+
       <img id="outside-pic" src="rainbow.png">
 
+      <p>
+        <button onclick="open_card()">Open card</button>
+      </p>
 
-      <p id="outside-help">
-        (Hover to open >)
-      </p>  
-      
     </div>
-  
+
     <div id="inside">
-    
+
       <p id="inside-title">
         Happy 11th Birthday, Ellie!
       </p>
-      
+
       <img id="inside-pic" src="dinosaur.png">
-      
+
       <p id="message">
         I hope you have a great day! See you on Saturday for your party!! :) Love Viktoria xx
       </p>
-      
+
+      <p>
+        <button onclick="close_card()">Close card</button>
+      </p>
+
     </div>
-    
+
+    <script type="text/javascript">
+      function open_card() {
+        document.getElementById('outside').className = 'open-card';
+      }
+
+      function close_card() {
+        document.getElementById('outside').className = '';
+      }
+    </script>
+
   </body>
-  
+
 </html>
