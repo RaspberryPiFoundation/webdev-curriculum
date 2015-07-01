@@ -27,7 +27,7 @@ This project can be [completed offline](../offline.html) if preferred. You can a
 + Template/style.css
 + Wanted/Wanted.html
 + Wanted/style.css
-+ robot.png
++ Wanted/robot.png
 
 You can also find a completed version of this project's challenges in the 'Club Leader Resources' folder, which contains:
 

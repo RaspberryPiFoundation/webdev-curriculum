@@ -27,8 +27,8 @@ This project can be [completed offline](../offline.html) if preferred. You can a
 + Template/style.css
 + Tell a Story/Story.html
 + Tell a Story/style.css
-+ buildings.png
-+ sun.png
++ Tell a Story/buildings.png
++ Tell a Story/sun.png
 
 You can also find a completed version of this project's challenges in the 'Club Leader Resources' folder, which contains:
 

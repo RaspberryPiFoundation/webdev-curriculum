@@ -27,10 +27,10 @@ This project can be [completed offline](../offline.html) if preferred. You can a
 + Intro.html
 + Template/template.html
 + Template/style.css
-+ BirthdayCard.html
-+ style.css
-+ script.js
-+ 10 x .png images
++ Birthday Card/BirthdayCard.html
++ Birthday Card/style.css
++ Birthday Card/script.js
++ Birthday Card/10 x .png images
 
 You can also find a completed version of this project's challenges in the 'Club Leader Resources' folder, which contains:
 
