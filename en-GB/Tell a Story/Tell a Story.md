@@ -41,7 +41,7 @@ Let's start by editing the HTML content and CSS style of the story webpage.
 
 + You might remember from the 'Happy Birthday' project that webpage content goes in the `<body>` of the HTML document.
 
-	Scroll to line 41 of the code, and you should see the webpage content, which is inside `<body>` and `</body>` tags. 
+	Go to line 7 of the code, and you should see the webpage content, which is inside `<body>` and `</body>` tags.
 
 	![screenshot](story-html.png)
 
@@ -71,7 +71,7 @@ Let's add a second part to your story.
 
 ## Activity Checklist { .check}
 
-+ Go to line 50 of the code, and add in another set of `<div>` and `</div>` start and end tags. This will create a new box for the next part of your story.  
++ Go to line 17 of the code, and add in another set of `<div>` and `</div>` start and end tags. This will create a new box for the next part of your story.
 
 	![screenshot](story-div.png)
 
