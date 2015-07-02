@@ -1,7 +1,9 @@
 ---
 title: Working Offline
+language: en-GB
+embeds: "*.png"
 materials: [""]
----
+...
 
 When completing our HTML & CSS projects, we recommend using [trinket](https://trinket.io) to build webpages online. Trinket offers several advantages over using a text editor offline:
 
@@ -13,42 +15,32 @@ However, there may be times when children in your club will need to write HTML &
 
 ####Writing
 
-Open a text editor. We recommend [Sublime Text 3](http://www.sublimetext.com/3), but there are loads of other good editors available. If you don't want to write your own HTML from scratch, you can download a template HTML document in the 'Project Resources' for each HTML project.
+Each project's downloadable resources includes the following files:
 
-Here's a _very_ simple HTML example:
++ Example.html
++ style.css
 
-```
-<html>
-  <head>
-    <style>
-      p {
-        color: red;  
-      }
-    </style>
-  </head>
-  <body>
-    <p>This is a paragraph of text.</p>
-  </body>
-</html>
-```
+Open both of these files in a text editor. We recommend [Sublime Text 3](http://www.sublimetext.com/3), but there are loads of other good editors available.
+
+If you want to write your own HTML, you can download template webpage document in the 'Project Resources' for each HTML project.
 
 ####Saving
 
-After writing your HTML, save your file - making sure that the file has a `.html` file extension.
+After writing your HTML & CSS, save your files - making sure that the files have `.html` and `.css` file extensions.
 
 ![screenshot](01/offline-save.png)
 
 ####Viewing
 
-To view a webpage, double-click the file to open it in a browser.
+To view a webpage, double-click the `Example.html` file to open it in a browser.
 
 ![screenshot](01/offline-view.png)
 
-If your file opens in a text editor, make sure that it has a `.html` file extension.
+If your HTML file opens in a text editor, make sure that it has a `.html` file extension.
 
 ####Editing
 
-To edit your webpage, right-click the `.html` file and select a text editor to open the file with.
+To edit your webpage, highlight both the `.html` and `.css` files and right-click to open them in a text editor.
 
 ![screenshot](01/offline-open.png)
 

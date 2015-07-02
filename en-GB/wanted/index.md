@@ -1,10 +1,9 @@
 ---
 title: Wanted!
 materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
-beta: true
 notes: "Wanted - notes.md"
 layout: project
----
+...
 
 # Introduction { .intro}
 
@@ -25,7 +24,7 @@ Let's start by editing the CSS code for the poster.
 	</iframe>
 </div>
 
-+ If you go to line 7, you'll notice that there are already CSS properties for the `div` containing the different parts of the poster.
++ Click on the "style.css" tab. You'll notice that there are already CSS properties for the `div` containing the different parts of the poster.
 
 	```
 	div {
@@ -54,7 +53,7 @@ Let's start by editing the CSS code for the poster.
 
 + Change the `width` of the poster to `400px`. What happens to the poster?
 
-+ Let's add some CSS to set the background colour of the poster. Go to the end of line 11 of your code and press return, so that you have a new blank line.
++ Let's add some CSS to set the background colour of the poster. Go to the end of line 5 of your code and press return, so that you have a new blank line.
 
 	![screenshot](wanted-newline.png)
 
