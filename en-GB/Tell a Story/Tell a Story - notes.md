@@ -23,14 +23,17 @@ There is also a trinket containing a sample solution to the challenges:
 #Offline Resources
 This project can be [completed offline](../offline.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
 
-+ Template.html
-+ Story.html
-+ buildings.png
-+ sun.png
++ Template/Template.html
++ Template/style.css
++ Tell a Story/Story.html
++ Tell a Story/style.css
++ Tell a Story/buildings.png
++ Tell a Story/sun.png
 
 You can also find a completed version of this project's challenges in the 'Club Leader Resources' folder, which contains:
 
 + StoryFinished.html
++ style.css
 + boy.png
 + girl.png
 

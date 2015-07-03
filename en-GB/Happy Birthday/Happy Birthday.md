@@ -28,18 +28,18 @@ HTML stands for __HyperText Markup Language__, and is the language used to make 
 
 + The code that you can see on the left of the Trinket is HTML. On the right of the Trinket you can see the webpage that the HTML code has made.
 
-	HTML uses __tags__ to build webpages. Can you see this HTML at line 15 of your code?
+	HTML uses __tags__ to build webpages. Can you see this HTML at line 8 of your code?
 
 	```
-	<p>This is a paragraph of text.</p>
+	<p>Hi. My name is Andy.</p>
 	```
 
 	`<p>` is an example of a tag, and is short for __paragraph__. You can start a paragraph with `<p>` and end a paragraph with `</p>`.
 
-+ Can you spot any other tags? One other tag you might have spotted on line 16 is `<b>`, which stands for __bold__:
++ Can you spot any other tags? One other tag you might have spotted on line 9 is `<b>`, which stands for __bold__:
 
 	```
-	<b>bold</b>
+	<b>running</b>
 	```
 
 	Here are some more:
@@ -83,11 +83,17 @@ Can you add __bold__ and <u>underlined</u> text to your new paragraph? You shoul
 
 # Step 2: What is CSS? { .activity}
 
-CSS stands for __Cascading Style Sheets__, and is the language used to style webpages and make them look nice. CSS is put in the `<head>` of an HTML document, inside `<style>` and `</style>` tags. 
+CSS stands for __Cascading Style Sheets__, and is the language used to style webpages and make them look nice. You can link your webpage to a CSS file in the `<head>` of an HTML document like this:
+
+![screenshot](birthday-css-link.png)
 
 ## Activity Checklist { .check}
 
-+ CSS lists all of the __properties__ for a particular tag. Find this code, which starts on line 8:
++ CSS lists all of the __properties__ for a particular tag. Click the 'style.css' tab to see the CSS for your webpage.
+
+	![screenshot](birthday-css-tab.png)
+
++ Find this code:
 
 	```
 	p {
@@ -99,7 +105,7 @@ CSS stands for __Cascading Style Sheets__, and is the language used to style web
 
 + Change the word 'black' in the CSS to 'blue'. You should see the text colour of all paragraphs change to blue.
 
-![screenshot](birthday-edit-css.png)
+	![screenshot](birthday-edit-css.png)
 
 ## Save Your Project {.save}
 
@@ -125,29 +131,29 @@ Let's use what you've learnt about HTML and CSS to make your own custom birthday
 
 Don't worry if you don't understand all of the code. This birthday card looks pretty boring, so you're going to make some changes to this HTML and CSS.
 
-+ Hover over the webpage on the right side of the Trinket, and you should see the card open to reveal the inside.
++ Click the button on the front of the card, and you should see it open to reveal the inside.
 
-	![screenshot](birthday-hover.png)
+	![screenshot](birthday-click.png)
 
-+ Scroll down to line 75 of the code. Just like in the earlier example, you can edit any of the text in the HTML to customise the card.
++ Go to line 13 of the code. Just like in the earlier example, you can edit any of the text in the HTML to customise the card.
 
 	![screenshot](birthday-card-html.png)
 
-+ Can you find the HTML for the robot image? (Hint: it's on line 78!) Change the word `robot` to `sun`, and you'll see the image change! 
++ Can you find the HTML for the robot image? (Hint: it's on line 16!) Change the word `robot` to `sun`, and you'll see the image change!
 
 	![screenshot](birthday-card-sun.png)
 
 	You can use any of the words `boy`, `diamond`, `dinosaur`, `flowers`, `girl`, `rainbow`, `robot`, `spaceship`, `sun`, `tea`, or `trophy`.
 
-+ You can also edit the CSS of the birthday card. For example, go to line 5 of the code and you'll see all of the CSS for the `outside` of the card. Change the `background` to `lightgreen`.
++ You can also edit the CSS of the birthday card. Click on the tab for “style.css”. It begins with all of the CSS for the `outside` of the card. Change the `background-color` to `lightgreen`.
 
 	![screenshot](birthday-card-outside.png)
 
-+ You can also change the size of an image. Go to line 33 of the code, and change the `width` and `height` of the outside image to `200px` (`px` stands for pixels).
++ You can also change the size of an image. Go to line 29 of the CSS, and change the `width` and `height` of the outside image to `200px` (`px` stands for pixels).
 
 	![screenshot](birthday-card-size.png)	
 
-+ The font can be changed too. Go to line 28 and change the `font-family` to `Comic Sans MS` and the `font-size` to `16pt`. 
++ The font can be changed too. Go to line 24 and change the `font-family` to `Comic Sans MS` and the `font-size` to `16pt`.
 
 	![screenshot](birthday-card-font.png)
 
