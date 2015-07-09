@@ -32,8 +32,8 @@
 
     "extras": [
         {
-            "name": "Working Offline",
-            "note": "extras/offline.md"
+            "name": "Introduction to HTML & CSS",
+            "note": "extras/html-css.md"
         }
     ]
 }
