@@ -106,7 +106,7 @@ Let's improve the style of the image in the poster.
 	width: 100px;
 	```
 
-	You'll see that the size of the image changes, so that it's width is 100 pixels.
+	You'll see that the size of the image changes, so that its width is 100 pixels.
 
 	![screenshot](wanted-img-width.png)
 
@@ -126,7 +126,7 @@ Let's improve the style of the image in the poster.
 	padding: 10px;
 	```
 
-	Padding is the space between the content (in this case an image) and it's border.
+	Padding is the space between the content (in this case an image) and its border.
 
 	![screenshot](wanted-img-padding.png)
 
