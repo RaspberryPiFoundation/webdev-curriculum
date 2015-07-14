@@ -89,7 +89,7 @@ Let's add a second part to your story.
 
 + For HTML images, you need to add the __source__ of the image, inside the speech marks. Let's find an image to add to your story.
 
-	Go to <a href="http://jumpto.cc/cc-web-images" target="_blank">jumpto.cc/cc-web-images</a>, and find an image that you want to include in your story.
+	Go to <a href="http://jumpto.cc/web-images" target="_blank">jumpto.cc/web-images</a>, and find an image that you want to include in your story.
 
 + Right-click the image, and click 'Copy image URL'. The URL is the address of the image.
 
