@@ -9,23 +9,13 @@ materials: [""]
 
 HyperText Markup Language (HTML) is a language for describing and structuring web pages. HTML documents can include things like text, images, sound and video, using ‘tags’ to organise the content. Here’s a very simple HTML example, including a heading (`<h1>`), a paragraph of text (`<p>`) and an image (`<img>`):
 
-```
-<html>
-  <h1>Here is my cat:</h1>
-  <img src="cat.jpg">
-  <p>He's called 'fluffy' because he is fluffy.</p>
-</html>
-```
+![screenshot](01/html-example.png)
 
 ### What is CSS?
 
 Cascading Style Sheets (CSS) is another language, used to format and style HTML documents. For example, you could make the paragraph of text above blue with this CSS code:
 
-```
-p {
-  color: blue;
-}
-```
+![screenshot](01/css-example.png)
 
 ### Using Trinket
 
