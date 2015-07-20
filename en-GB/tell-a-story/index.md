@@ -4,6 +4,7 @@ materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 beta: true
 notes: "Tell a Story - notes.md"
 layout: project
+project-type: sample
 ---
 
 # Introduction { .intro}
