@@ -20,8 +20,8 @@ Let's start by editing the CSS code for the poster.
 + Open this trinket: <a href="http://jumpto.cc/web-wanted" target="_blank">jumpto.cc/web-wanted</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
 <div class="trinket">
-	<iframe src="https://trinket.io/embed/html/58318bee1f" width="100%" height="550" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-	</iframe>
+  <iframe src="https://trinket.io/embed/html/58318bee1f" width="100%" height="550" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
 </div>
 
 + Click on the "style.css" tab. You'll notice that there are already CSS properties for the `div` containing the different parts of the poster.

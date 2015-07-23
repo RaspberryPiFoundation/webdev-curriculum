@@ -22,8 +22,8 @@ HTML stands for __HyperText Markup Language__, and is the language used to make 
 + You'll be using a website called Trinket to write HTML. Open this Trinket: <a href="http://jumpto.cc/web-intro" target="_blank">jumpto.cc/web-intro</a>. If you're reading this online, you can also use the embedded version of this Trinket below.
 
 <div class="trinket">
-	<iframe src="https://trinket.io/embed/html/850a678202" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-	</iframe>
+  <iframe src="https://trinket.io/embed/html/850a678202" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
 </div>
 
 + The code that you can see on the left of the Trinket is HTML. On the right of the Trinket you can see the webpage that the HTML code has made.
@@ -125,8 +125,8 @@ Let's use what you've learnt about HTML and CSS to make your own custom birthday
 + Open this Trinket: <a href="http://jumpto.cc/web-card" target="_blank">jumpto.cc/web-card</a>, or use the embedded version below if you're reading this online.
 
 <div class="trinket">
-	<iframe src="https://trinket.io/embed/html/90506676c9" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-	</iframe>
+  <iframe src="https://trinket.io/embed/html/90506676c9" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
 </div>
 
 Don't worry if you don't understand all of the code. This birthday card looks pretty boring, so you're going to make some changes to this HTML and CSS.
