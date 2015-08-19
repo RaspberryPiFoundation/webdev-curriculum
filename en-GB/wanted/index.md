@@ -1,15 +1,16 @@
 ---
 title: Wanted!
-materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
-notes: "Wanted - notes.md"
+description: Learn how to make your own poster.
 layout: project
-...
+notes: "Wanted - notes.md"
+new: true
+---
 
 # Introduction { .intro}
 
 In this project, you'll learn how to make your own poster.
 
-![screenshot](wanted-final.png)
+![screenshot](images/wanted-final.png)
 
 # Step 1: Styling your poster { .activity}
 
@@ -55,7 +56,7 @@ Let's start by editing the CSS code for the poster.
 
 + Let's add some CSS to set the background colour of the poster. Go to the end of line 5 of your code and press return, so that you have a new blank line.
 
-	![screenshot](wanted-newline.png)
+	![screenshot](images/wanted-newline.png)
 
 	Type the following code on your new blank line:
 
@@ -65,7 +66,7 @@ Let's start by editing the CSS code for the poster.
 
 	Make sure that you type in the code _exactly_ as it is above. You should notice that the background of the `<div>` is now yellow.
 
-	![screenshot](wanted-background.png)
+	![screenshot](images/wanted-background.png)
 
 ##Challenge: Improving your poster {.challenge}
 Add the following CSS property to your `div` style:
@@ -94,7 +95,7 @@ Let's improve the style of the image in the poster.
 	}
 	```
 
-	![screenshot](wanted-img-css.png)
+	![screenshot](images/wanted-img-css.png)
 
 + We can now add CSS properties for images between the `{` and `}` curly brackets.
 
@@ -106,7 +107,7 @@ Let's improve the style of the image in the poster.
 
 	You'll see that the size of the image changes, so that it's width is 100 pixels.
 
-	![screenshot](wanted-img-width.png)
+	![screenshot](images/wanted-img-width.png)
 
 + You can also add a border around the image with this code:
 
@@ -116,7 +117,7 @@ Let's improve the style of the image in the poster.
 
 + Have you noticed that there's not much space between the image and the border?
 
-	![screenshot](wanted-img-border.png)
+	![screenshot](images/wanted-img-border.png)
 
 	You can fix this by adding some padding around the image:
 
@@ -126,7 +127,7 @@ Let's improve the style of the image in the poster.
 
 	Padding is the space between the content (in this case an image) and it's border.
 
-	![screenshot](wanted-img-padding.png)
+	![screenshot](images/wanted-img-padding.png)
 
 	What do you think would happen if you changed the padding to `50px`?
 
@@ -165,7 +166,7 @@ Let's improve the style of the `<h1>` heading.
 
 + 	Have you noticed that there's a big space between the `<h1>` heading and the stuff around it?
 
-	![screenshot](wanted-h1-margin.png)
+	![screenshot](images/wanted-h1-margin.png)
 
 	This is because there's a margin around the heading. A margin is the space between the element (in this case a heading) and the other stuff around it.
 
@@ -175,7 +176,7 @@ Let's improve the style of the `<h1>` heading.
 	margin: 10px;
 	```
 
-	![screenshot](wanted-h1-margin-small.png)
+	![screenshot](images/wanted-h1-margin-small.png)
 
 + You can also underline your heading:
 
@@ -186,7 +187,7 @@ Let's improve the style of the `<h1>` heading.
 ##Challenge: Make your poster awesome! {.challenge}
 Add more CSS code to style your `<h3>` headings and your paragraphs. 
 
-![screenshot](wanted-final.png)
+![screenshot](images/wanted-final.png)
 
 Here's a list of some CSS properties you can use:
 

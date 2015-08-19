@@ -1,9 +1,9 @@
 ---
 title: Tell a Story
-materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
-beta: true
-notes: "Tell a Story - notes.md"
+description: Learn how to create your own webpage to tell a story, joke or poem.
 layout: project
+notes: "Tell a Story - notes.md"
+new: true
 project-type: sample
 ---
 
@@ -11,7 +11,7 @@ project-type: sample
 
 In this project, you'll learn how to create your own webpage to tell a story, joke or poem.
 
-![screenshot](story-final.png)
+![screenshot](images/story-final.png)
 
 # Step 1: Decide on a story { .activity}
 
@@ -43,11 +43,11 @@ Let's start by editing the HTML content and CSS style of the story webpage.
 
 	Go to line 7 of the code, and you should see the webpage content, which is inside `<body>` and `</body>` tags.
 
-	![screenshot](story-html.png)
+	![screenshot](images/story-html.png)
 
 + Can you tell which tags are used to create the different parts of the webpage?
 
-	![screenshot](story-elements.png)
+	![screenshot](images/story-elements.png)
 
 	+ `<h1>` is a __heading__. You can use the numbers 1 to 6 to create headings of different sizes;
 	+ `<div>` is short for __division__, and is a way of grouping stuff together. In this webpage, you'll use it to group together all the stuff for each part of your story;
@@ -57,7 +57,7 @@ Let's start by editing the HTML content and CSS style of the story webpage.
 ##Challenge: Make some changes {.challenge}
 Edit the HTML and the CSS code to customise your webpage.
 
-![screenshot](story-changes.png)
+![screenshot](images/story-changes.png)
 
 You can alter the colours used in the webpage, and you can also use fonts like <span style="font-family: Arial;">Arial</span>, <span style="font-family: Comic Sans MS;">Comic Sans MS</span>, <span style="font-family: Impact;">Impact</span> and <span style="font-family: Tahoma;">Tahoma</span>.
 
@@ -73,11 +73,11 @@ Let's add a second part to your story.
 
 + Go to line 17 of the code, and add in another set of `<div>` and `</div>` start and end tags. This will create a new box for the next part of your story.
 
-	![screenshot](story-div.png)
+	![screenshot](images/story-div.png)
 
 + Add a paragraph of text inside your new `<div>` tag.
 
-	![screenshot](story-paragraph.png)
+	![screenshot](images/story-paragraph.png)
 
 + Finally, you can add an image to your new box, by adding this code inside your `<div>` tag:
 
@@ -93,19 +93,19 @@ Let's add a second part to your story.
 
 + Right-click the image, and click 'Copy image URL'. The URL is the address of the image.
 
-	![screenshot](story-url.png)
+	![screenshot](images/story-url.png)
 
 + Paste the URL between the speech marks in your `<img>` tag. You should see your image appear!
 
-	![screenshot](story-image.png)
+	![screenshot](images/story-image.png)
 
 + __If you have a Trinket account__, you can also upload your own images to your webpage! To do this, click the image icon at the top of your trinket and then click 'upload'.
 
-	![screenshot](story-upload.png)
+	![screenshot](images/story-upload.png)
 
 + Find your image on your computer, and drag it into your trinket.
 
-	![screenshot](story-drag.png)
+	![screenshot](images/story-drag.png)
 
 + You can then just add the name of your new image between the speech marks in your `<img>` tag, like this:
 
@@ -118,6 +118,6 @@ Let's add a second part to your story.
 ##Challenge: Keep going! {.challenge}
 Use what you've learnt in this project to finish telling your story! Here's an example:
 
-![screenshot](story-final.png)
+![screenshot](images/story-final.png)
 
 ## Save Your Project {.save}

@@ -1,6 +1,5 @@
 ---
-title: Tell a Story — Notes for Club Leaders
-materials: [""]
+title: Tell a Story — Volunteer Notes
 ---
 
 #Introduction:
@@ -19,7 +18,7 @@ There is also a trinket containing a sample solution to the challenges:
 + ['Tell a Story' Finished](https://trinket.io/html/c8afdef912)
 
 #Offline Resources
-This project can be [completed offline](../offline.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
+This project can be [completed offline](../offline.html) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
 
 + Template/Template.html
 + Template/style.css
