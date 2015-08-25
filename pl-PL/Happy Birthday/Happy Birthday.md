@@ -143,7 +143,7 @@ Nie przejmuj się jeśli nie rozumiesz całego kodu. Ta kartka na razie jest tro
 
 	![screenshot](birthday-card-sun.png)
 
-	Możesz użyć dowolnego z tych angielskich słów: `boy`, `diamond`, `dinosaur`, `flowers`, `girl`, `rainbow`, `robot`, `spaceship`, `sun`, `tea`, or `trophy`.
+	Możesz użyć dowolnego z tych angielskich słów: `boy`, `diamond`, `dinosaur`, `flowers`, `girl`, `rainbow`, `robot`, `spaceship`, `sun`, `tea`, lub `trophy`.
 
 + Możesz też zmienić CSS swojej kartki urodzinowej. Kliknij w zakładkę "style.css". Zaczyna się od wszystkich CSS-ów dla zewnętrznej strony (ang. `outside`) kartki. Zmień `background-color` na `lightgreen` (jasnozielony).
 
