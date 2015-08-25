@@ -66,7 +66,7 @@ Jeśli nie masz konta w Trinket kliknij na strzałkę w dół, a następnie 'Lin
 
 ![screenshot](birthday-link.png)
 
-Jeśli masz konto w Trinket najprościej zapiszesz swoją stronę klikajac na przycisk 'Remix' na górze Trinketu. W ten sposób zapisujesz kopię Trinketu na swoim koncie.
+Jeśli masz konto w Trinket najprościej zapiszesz swoją stronę klikając na przycisk 'Remix' na górze Trinketu. W ten sposób zapisujesz kopię Trinketu na swoim koncie.
 
 ![screenshot](birthday-remix.png)
 
@@ -93,7 +93,7 @@ CSS to skrót od __Cascading Style Sheets__, czyli kaskadowe arkusze stylów. To
 
 	![screenshot](birthday-css-tab.png)
 
-+ Znajć poniższy kod:
++ Znajdź poniższy kod:
 
 	```
 	p {
@@ -149,7 +149,7 @@ Nie przejmuj się jeśli nie rozumiesz całego kodu. Ta kartka na razie jest tro
 
 	![screenshot](birthday-card-outside.png)
 
-+ Możesz także zmienić rozmiar zdjęcia. Przejć do linii 29 w CSS i zmień `width` (szerokość) i `height` (wysokość) obrazków na `200px` (`px` to skrót od piksel).
++ Możesz także zmienić rozmiar zdjęcia. Przejść do linii 29 w CSS i zmień `width` (szerokość) i `height` (wysokość) obrazków na `200px` (`px` to skrót od piksel).
 
 	![screenshot](birthday-card-size.png)	
 
