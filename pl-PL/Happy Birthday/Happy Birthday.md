@@ -1,23 +1,23 @@
 ---
 title: Happy Birthday
 level: HTML & CSS 1
-language: en-GB
+language: pl-PL
 embeds: "*.png"
 materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 stylesheet: web
 ...
 
-# Introduction { .intro}
+# Wstęp {.intro}
 
 In this project, you'll be introduced to HTML & CSS by learning how to make your own customised birthday card.
 
 ![screenshot](birthday-final.png)
 
-# Step 1: What is HTML? { .activity}
+# Krok 1: What is HTML? {.activity}
 
 HTML stands for __HyperText Markup Language__, and is the language used to make webpages. Let's have a look at an example!
 
-## Activity Checklist { .check}
+## Zadania do wykonania {.check}
 
 + You'll be using a website called Trinket to write HTML. Open this Trinket: <a href="http://jumpto.cc/web-intro" target="_blank">jumpto.cc/web-intro</a>. If you're reading this online, you can also use the embedded version of this Trinket below.
 
@@ -58,7 +58,7 @@ HTML stands for __HyperText Markup Language__, and is the language used to make 
 
 	![screenshot](birthday-reset.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
 __You don't need a Trinket account to save your projects!__ 
 
@@ -70,7 +70,7 @@ If you have a Trinket account, the easiest way to save your webpage is to click 
 
 ![screenshot](birthday-remix.png)
 
-##Challenge: Add another paragraph {.challenge}
+## Wyzwanie: Add another paragraph {.challenge}
 Can you add a 3rd paragraph of text to your webpage, below the other 2? Remember that your new paragraph should start with a `<p>` tag, and end with `</p>`.
 
 Here's how your webpage should look:
@@ -79,15 +79,15 @@ Here's how your webpage should look:
 
 Can you add __bold__ and <u>underlined</u> text to your new paragraph? You should use `<u>` and `</u>` for underlined text.
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-# Step 2: What is CSS? { .activity}
+# Krok 2: What is CSS? {.activity}
 
 CSS stands for __Cascading Style Sheets__, and is the language used to style webpages and make them look nice. You can link your webpage to a CSS file in the `<head>` of an HTML document like this:
 
 ![screenshot](birthday-css-link.png)
 
-## Activity Checklist { .check}
+## Zadania do wykonania {.check}
 
 + CSS lists all of the __properties__ for a particular tag. Click the 'style.css' tab to see the CSS for your webpage.
 
@@ -107,20 +107,20 @@ CSS stands for __Cascading Style Sheets__, and is the language used to style web
 
 	![screenshot](birthday-edit-css.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-##Challenge: Add more style {.challenge}
+## Wyzwanie: Add more style {.challenge}
 Can you make the paragraphs of text orange? Or the background grey?
 
 ![screenshot](birthday-more-style.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-# Step 3: Making a birthday card { .activity}
+# Krok 3: Making a birthday card {.activity}
 
 Let's use what you've learnt about HTML and CSS to make your own custom birthday card.
 
-## Activity Checklist { .check}
+## Zadania do wykonania {.check}
 
 + Open this Trinket: <a href="http://jumpto.cc/web-card" target="_blank">jumpto.cc/web-card</a>, or use the embedded version below if you're reading this online.
 
@@ -159,16 +159,16 @@ Don't worry if you don't understand all of the code. This birthday card looks pr
 
 	You can use other fonts like <span style="font-family: Arial;">arial</span>, <span style="font-family: impact;">Impact</span> and <span style="font-family: tahoma;">Tahoma</span>. 
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-##Challenge: Create a personalised card {.challenge}
+## Wyzwanie: Create a personalised card {.challenge}
 Use everything you've learnt about HTML and CSS to finish making a personalised card. It doesn't even have to be a birthday card, it could be for any occasion!
 
 Here's an example:
 
 ![screenshot](birthday-final.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
 Now that you've finished your card, you can share or email it to someone.
 

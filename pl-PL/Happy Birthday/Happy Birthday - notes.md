@@ -1,14 +1,14 @@
 ---
-title: Happy Birthday — Notes for Club Leaders
-language: en-GB
+title: Happy Birthday — Informacje dla prowadzącego
+language: pl-PL
 embeds: "*.png"
 materials: [""]
 ...
 
-#Introduction:
+# Wstęp
 In this project, children will be introduced to HTML tags & CSS properties. They will also edit tags and properties to make their own customised greeting card.
 
-#Online Resources
+# Materiały dostępne online
 
 We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
 
@@ -21,7 +21,7 @@ There is also a trinket containing a sample solution to the challenges:
 
 + ['Birthday Card' Finished](https://trinket.io/html/e996dc0380)
 
-#Offline Resources
+# Materiały dostępne offline
 This project can be [completed offline](../html-css.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
 
 + Intro.html
@@ -40,10 +40,10 @@ You can also find a completed version of this project's challenges in the 'Club 
 + rainbow.png
 + dinosaur.png
 
-#Learning Objectives
+# Cele nauczania
 + This project introduces HTML tags and CSS properties, and allows children to edit content and styling.
 
-#Challenges
+# Wyzwania
 + "Add another paragraph" - adding an HTML tag to a document;
 + "Add more style" - editing CSS styles;
 + "Create a personalised card" - editing HTML and CSS to make a greetings card.

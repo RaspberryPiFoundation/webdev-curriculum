@@ -7,17 +7,17 @@ materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 stylesheet: web
 ...
 
-# Introduction { .intro}
+# Wstęp {.intro}
 
 In this project, you'll learn how to use CSS to create an animation of a Sunrise.
 
 ![screenshot](sunrise-final.png)
 
-# Step 1: Adding the sun { .activity}
+# Krok 1: Adding the sun {.activity}
 
 Let's start by adding a `div` element for the sun and styling it with some CSS.
 
-## Activity Checklist { .check}
+## Zadania do wykonania {.check}
 
 + Open this trinket: <a href="https://trinket.io/html/cb6495c040" target="_blank">https://trinket.io/html/cb6495c040</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
@@ -65,16 +65,16 @@ Let's start by adding a `div` element for the sun and styling it with some CSS.
 + Change the `top` of the Sun to `200px`. What happens to the Sun?
     The Sun is hidden behind the sea `div` element. This will come in useful later as the starting point for our Sunrise animation. To see the Sun again change `top` back to 0px.
 
-##Challenge: Making the Sun round {.challenge}
+## Wyzwanie: Making the Sun round {.challenge}
 Our Sun isn't very realistic! Can you think of a CSS property we could use to round off those square edges? Hint: use the Wanted project to help you.
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-# Step 2: Animating the Sunrise { .activity}
+# Krok 2: Animating the Sunrise {.activity}
 
 To animate our Sunrise we need to define how the Sun moves and how long it takes to rise. In CSS we can use the `@keyframes` rule to control the movement of the Sun and the `animation-duration` property to set the time to rise.
 
-## Activity Checklist { .check}
+## Zadania do wykonania {.check}
 
 + Let's add the `@keyframes` rule that will control our animation.
 
@@ -115,10 +115,10 @@ To animate our Sunrise we need to define how the Sun moves and how long it takes
 
     Click the Run button again. Did you see a Sunrise now?
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-##Challenge: Make the Sun set {.challenge}
+## Wyzwanie: Make the Sun set {.challenge}
 Can you think of a way to change the animation to make the Sun set?
 Hint: You'll need to change the `@keyframes` rule so that the the animation starts with the Sun in the sky and finishes with the Sun hidden behind the sea 'div'.
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
