@@ -122,10 +122,10 @@ Teraz użyjemy tego, czego dowiedzieliśmy się o HTML i CSS, aby wykonać włas
 
 ## Zadania do wykonania {.check}
 
-+ Otwórz ten Trinket: <a href="http://jumpto.cc/web-card" target="_blank">jumpto.cc/web-card</a> lub użyj poniższej wersji, jeśli czytasz to w Internecie.
++ Otwórz ten Trinket: <a href="http://jumpto.cc/web-card-pl" target="_blank">jumpto.cc/web-card-pl</a> lub użyj poniższej wersji, jeśli czytasz to w Internecie.
 
 <div class="trinket">
-	<iframe src="https://trinket.io/embed/html/90506676c9" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+	<iframe src="https://trinket.io/embed/html/0220902ffd" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 	</iframe>
 </div>
 
