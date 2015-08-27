@@ -6,25 +6,26 @@ materials: [""]
 ...
 
 # Wstęp
-In this project, children will be introduced to HTML tags & CSS properties. They will also edit tags and properties to make their own customised greeting card.
+Wykonując ten projekt dzieci poznają tagi HTML i właściwości CSS. Podczas zajęć będą także zmieniać tagi i właściwości, aby stworzyć swoją własną kartkę okolicznościową.
 
 # Materiały dostępne online
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
+Do pisania kodu HTML i CSS online polecamy serwis [trinket](https://trinket.io/). Ten projekt zawiera następujące trinkety (fragmenty kodu):
 
-+ ['Intro to HTML and CSS' starting point](https://trinket.io/html/850a678202)
-+ ['Birthday Card' starting point  -- jumpto.cc/web-card](http://jumpto.cc/web-card)
++ ['Wstęp do HTML i CSS' - punkt początkowy](https://jumpto.cc/html-wstep)
++ ['Kartka urodzinowa' - punkt początkowy -- jumpto.cc/kartka-urodzinowa](http://jumpto.cc/kartka-urodzinowa)
 
-Children can also make use of this blank trinket [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
+Do pisania swojego kodu HTML i CSS dzieci mogą też skorzystać z pustego trinketu [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) lub skorzystać szablonu: [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
 
-There is also a trinket containing a sample solution to the challenges:
+Dostępny jest także trinket, który zawiera przykładowe rozwiązanie zadań:
 
-+ ['Birthday Card' Finished](https://trinket.io/html/e996dc0380)
++ [Skończona 'Kartka urodzinowa'](https://trinket.io/html/e996dc0380)
 
 # Materiały dostępne offline
-This project can be [completed offline](../html-css.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
+Projekt można także [wykonać offline](../html-css.html). Materiały do projektu można pobrać klikając w link "Pobierz materiały" na stronie z listą projektów. Pobrany plik zawiera katalog "Project Resources", który zawiera zasoby, których będą potrzebować dzieci by wykonać ten projekt offline. Upewnij się, że każde dziecko ma dostęp do tych materiałów. Katalog zawiera następujące pliki:
 
-+ Intro.html
++ Intro/Intro.html
++ Intro/style.css
 + Template/template.html
 + Template/style.css
 + Birthday Card/BirthdayCard.html
@@ -32,7 +33,7 @@ This project can be [completed offline](../html-css.html) if preferred. You can 
 + Birthday Card/script.js
 + Birthday Card/10 x .png images
 
-You can also find a completed version of this project's challenges in the 'Club Leader Resources' folder, which contains:
+Ukończona wersja zadań z tego projektu znajduje się w katalogu "Club Leader Resources", który zawiera:
 
 + BirthdayCardFinished.html
 + style.css
@@ -41,9 +42,9 @@ You can also find a completed version of this project's challenges in the 'Club 
 + dinosaur.png
 
 # Cele nauczania
-+ This project introduces HTML tags and CSS properties, and allows children to edit content and styling.
++ Projekt zapoznaje dzieci z tagami języka HTML oraz właściwościami CSS. Dzieci uczą się także jak zmieniać zawartość i wygląd strony internetowej.
 
 # Wyzwania
-+ "Add another paragraph" - adding an HTML tag to a document;
-+ "Add more style" - editing CSS styles;
-+ "Create a personalised card" - editing HTML and CSS to make a greetings card.
++ "Dodaj kolejny akapit" - dodawanie tagu HTML do dokumentu,
++ "Dodaj więcej stylów" - zmiana stylów CSS,
++ "Stwórz spersonalizowaną kartkę" - wykonanie kartki poprzez edycję kodu HTML i CSS.

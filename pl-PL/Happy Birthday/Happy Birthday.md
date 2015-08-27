@@ -143,21 +143,21 @@ Nie przejmuj się jeśli nie rozumiesz całego kodu. Ta kartka na razie jest tro
 
 	![screenshot](birthday-card-sun.png)
 
-	Możesz użyć dowolnego z tych angielskich słów: `boy`, `diamond`, `dinosaur`, `flowers`, `girl`, `rainbow`, `robot`, `spaceship`, `sun`, `tea`, lub `trophy`.
+	Możesz użyć dowolnego z tych angielskich słów: `boy`, `diamond`, `dinosaur`, `flowers`, `girl`, `rainbow`, `robot`, `spaceship`, `sun`, `tea` lub `trophy`.
 
 + Możesz też zmienić CSS swojej kartki urodzinowej. Kliknij w zakładkę "style.css". Zaczyna się od wszystkich CSS-ów dla zewnętrznej strony (ang. `outside`) kartki. Zmień `background-color` na `lightgreen` (jasnozielony).
 
 	![screenshot](birthday-card-outside.png)
 
-+ Możesz także zmienić rozmiar zdjęcia. Przejść do linii 29 w CSS i zmień `width` (szerokość) i `height` (wysokość) obrazków na `200px` (`px` to skrót od piksel).
++ Możesz także zmienić rozmiar zdjęcia. Przejdź do linii 29 w CSS i zmień `width` (szerokość) i `height` (wysokość) obrazków na `200px` (`px` to skrót od piksel).
 
 	![screenshot](birthday-card-size.png)	
 
-+ The font can be changed too. Go to line 24 and change the `font-family` to `Comic Sans MS` and the `font-size` to `16pt`.
++ Możesz również zmienić font. Przejdź do linii 24 i zmień `font-family` na `Comic Sans MS` oraz `font-size` na `16pt`.
 
 	![screenshot](birthday-card-font.png)
 
-	Możesz użyć też innych fontów <span style="font-family: Arial;">arial</span>, <span style="font-family: impact;">Impact</span> and <span style="font-family: tahoma;">Tahoma</span>.
+	Możesz użyć też innych fontów <span style="font-family: Arial;">arial</span>, <span style="font-family: impact;">Impact</span> lub <span style="font-family: tahoma;">Tahoma</span>.
 
 ## Zapisz swój projekt {.save}
 
