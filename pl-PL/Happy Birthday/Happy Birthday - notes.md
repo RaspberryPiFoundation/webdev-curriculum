@@ -6,7 +6,7 @@ materials: [""]
 ...
 
 # Wstęp
-Wykonując ten projekt dzieci poznają tagi HTML i właściwości CSS. Podczas zajęć będą także zmieniać tagi i właściwości, aby stworzyć swoją własną kartkę okolicznościową.
+Wykonując ten projekt dzieci zapoznają się z tagami HTML i właściwości CSS. Podczas zajęć będą także zmieniać tagi i właściwości, aby stworzyć swoją własną kartkę okolicznościową.
 
 # Materiały dostępne online
 
@@ -15,14 +15,14 @@ Do pisania kodu HTML i CSS online polecamy serwis [trinket](https://trinket.io/)
 + ['Wstęp do HTML i CSS' - punkt początkowy](https://jumpto.cc/html-wstep)
 + ['Kartka urodzinowa' - punkt początkowy -- jumpto.cc/kartka-urodzinowa](http://jumpto.cc/kartka-urodzinowa)
 
-Do pisania swojego kodu HTML i CSS dzieci mogą też skorzystać z pustego trinketu [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) lub skorzystać szablonu: [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
+Do pisania swojego kodu HTML i CSS dzieci mogą też skorzystać z pustego trinketu [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) lub skorzystać z szablonu: [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
 
 Dostępny jest także trinket, który zawiera przykładowe rozwiązanie zadań:
 
 + [Skończona 'Kartka urodzinowa'](https://trinket.io/html/e996dc0380)
 
 # Materiały dostępne offline
-Projekt można także [wykonać offline](../html-css.html). Materiały do projektu można pobrać klikając w link "Pobierz materiały" na stronie z listą projektów. Pobrany plik zawiera katalog "Project Resources", który zawiera zasoby, których będą potrzebować dzieci by wykonać ten projekt offline. Upewnij się, że każde dziecko ma dostęp do tych materiałów. Katalog zawiera następujące pliki:
+Projekt można także [wykonać offline](../html-css.html). Materiały do projektu można pobrać klikając w link "Pobierz materiały" na stronie z listą projektów. Pobrany plik zawiera katalog "Project Resources", w którym znajdują się zasoby potrzebne do wykonania tego projektu w trybie offline. Upewnij się, że każde dziecko ma dostęp do tych materiałów. Katalog zawiera następujące pliki:
 
 + Intro/Intro.html
 + Intro/style.css
