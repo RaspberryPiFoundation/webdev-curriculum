@@ -19,13 +19,13 @@ HTML to hipertekstowy język znaczników (po angielsku: __HiperText Markup Langu
 
 ## Zadania do wykonania {.check}
 
-+ Do pisania w HTML-u będziemy używać strony, która nazywa się Trinket. Otwórz ten Trinket: <a href="http://jumpto.cc/web-intro-pl" target="_blank">jumpto.cc/web-intro-pl</a>. Jeśli czytasz to w Internecie, możesz także użyć wersji wyświetlonej poniżej.
++ Do pisania w HTML-u będziemy używać edytora na stronie Trinket.io. Otwórz edytor: <a href="http://jumpto.cc/web-intro-pl" target="_blank">jumpto.cc/html-wstep</a>. Jeśli czytasz to w Internecie, możesz także użyć wersji wyświetlonej poniżej.
 
 <div class="trinket">
     <iframe src="https://trinket.io/embed/html/4f957e888f" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
-+ Kod, który widzisz po lewej stronie tego Trinketu to HTML. Po prawej stronie widać stronę internetową, która powstała z tego kodu HTML.
++ Kod, który widzisz po lewej stronie tego edytora to HTML. Po prawej stronie widać stronę internetową, która powstała z tego kodu HTML.
 
 	W języku HTML używamy __tagów__ do budowania stron internetowych. Spójrz na HTML w 8 linii twojego kodu.
 
@@ -66,7 +66,7 @@ Jeśli nie masz konta w Trinket kliknij na strzałkę w dół, a następnie 'Lin
 
 ![screenshot](birthday-link.png)
 
-Jeśli masz konto w Trinket najprościej zapiszesz swoją stronę klikając na przycisk 'Remix' na górze Trinketu. W ten sposób zapisujesz kopię Trinketu na swoim koncie.
+Jeśli masz konto w Trinket najprościej zapiszesz swoją stronę klikając na przycisk 'Remix' na górze edytora. W ten sposób zapisujesz kopię kodu na swoim koncie.
 
 ![screenshot](birthday-remix.png)
 
@@ -122,7 +122,7 @@ Teraz użyjemy tego, czego dowiedzieliśmy się o HTML i CSS, aby wykonać włas
 
 ## Zadania do wykonania {.check}
 
-+ Otwórz ten Trinket: <a href="http://jumpto.cc/web-card-pl" target="_blank">jumpto.cc/web-card-pl</a> lub użyj poniższej wersji, jeśli czytasz to w Internecie.
++ Otwórz ten edytor: <a href="http://jumpto.cc/web-card-pl" target="_blank">jumpto.cc/kartka-urodzinowa</a> lub użyj poniższej wersji, jeśli czytasz to w Internecie.
 
 <div class="trinket">
 	<iframe src="https://trinket.io/embed/html/0220902ffd" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
