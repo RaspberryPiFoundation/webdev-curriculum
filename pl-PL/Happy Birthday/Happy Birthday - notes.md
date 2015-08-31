@@ -10,14 +10,14 @@ Wykonując ten projekt dzieci zapoznają się z tagami HTML i właściwości CSS
 
 # Materiały dostępne online
 
-Do pisania kodu HTML i CSS online polecamy serwis [trinket](https://trinket.io/). Ten projekt zawiera następujące trinkety (fragmenty kodu):
+Do pisania kodu HTML i CSS online polecamy serwis [trinket](https://trinket.io/). Ten projekt korzysta z następujących fragmentów kodu:
 
 + ['Wstęp do HTML i CSS' - punkt początkowy](https://jumpto.cc/html-wstep)
 + ['Kartka urodzinowa' - punkt początkowy -- jumpto.cc/kartka-urodzinowa](http://jumpto.cc/kartka-urodzinowa)
 
-Do pisania swojego kodu HTML i CSS dzieci mogą też skorzystać z pustego trinketu [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) lub skorzystać z szablonu: [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
+Do pisania swojego kodu HTML i CSS dzieci mogą też skorzystać z pustego edytora [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) lub z szablonu: [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
 
-Dostępny jest także trinket, który zawiera przykładowe rozwiązanie zadań:
+Dostępny jest także edytor, który zawiera kod z przykładowymi rozwiązaniami zadań:
 
 + [Skończona 'Kartka urodzinowa'](https://trinket.io/html/e996dc0380)
 
