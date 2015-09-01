@@ -42,7 +42,7 @@ Ukończona wersja zadań z tego projektu znajduje się w katalogu "Club Leader R
 + dinosaur.png
 
 # Cele nauczania
-+ Projekt zapoznaje dzieci z tagami języka HTML oraz właściwościami CSS. Dzieci uczą się także jak zmieniać zawartość i wygląd strony internetowej.
++ Projekt zapoznaje dzieci z tagami języka HTML oraz właściwościami CSS. Dzieci uczą się także, jak zmieniać zawartość i wygląd strony internetowej.
 
 # Wyzwania
 + "Dodaj kolejny akapit" - dodawanie tagu HTML do dokumentu,
