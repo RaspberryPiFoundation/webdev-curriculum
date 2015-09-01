@@ -1,14 +1,14 @@
 ---
-title: Tell a Story — Notes for Club Leaders
+title: Tell a Story — Informacje dla prowadzącego
 language: en-GB
 embeds: "*.png"
 materials: [""]
 ...
 
-#Introduction:
+# Wstęp
 In this project, children will have an opportunity to write their own HTML. They will create their own story, adding panels, images and captions to a comic book style webpage.
 
-#Online Resources
+# Materiały dostępne online
 
 We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
 
@@ -20,7 +20,7 @@ There is also a trinket containing a sample solution to the challenges:
 
 + ['Tell a Story' Finished](https://trinket.io/html/c8afdef912)
 
-#Offline Resources
+# Materiały dostępne offline
 This project can be [completed offline](../html-css.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
 
 + Template/Template.html
@@ -37,13 +37,13 @@ You can also find a completed version of this project's challenges in the 'Club 
 + boy.png
 + girl.png
 
-#Learning Objectives
+# Cele nauczania
 + Writing HTML:
 	+ `<div>` tag and element grouping;
 	+ `<img>` tag and image URLs;
 	+ `<h1>` - `<h6>` headings.
 
-#Challenges
+# Wyzwania
 + "Make some changes" - editing HTML content and CSS style;
 + "Keep going!" - applying tags and styling to create a finished story.
 

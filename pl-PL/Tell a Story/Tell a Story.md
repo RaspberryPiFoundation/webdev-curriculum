@@ -7,17 +7,17 @@ materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 stylesheet: web
 ...
 
-# Introduction { .intro}
+# Wstęp {.intro}
 
 In this project, you'll learn how to create your own webpage to tell a story, joke or poem.
 
 ![screenshot](story-final.png)
 
-# Step 1: Decide on a story { .activity}
+# Krok 1: Decide on a story {.activity}
 
 Before you get coding, you'll need to decide on a story to tell.
 
-## Activity Checklist { .check}
+## Zadania do wykonania {.check}
 
 + Think about the story you want to tell. It could be:
 	+ A famous story;
@@ -26,11 +26,11 @@ Before you get coding, you'll need to decide on a story to tell.
 
 	It doesn't even have to be a story. It could be a joke, a poem, or anything else you want!
 
-# Step 2: Editing your story { .activity}
+# Krok 2: Editing your story {.activity}
 
 Let's start by editing the HTML content and CSS style of the story webpage.
 
-## Activity Checklist { .check}
+## Zadania do wykonania {.check}
 
 + Open this trinket: <a href="http://jumpto.cc/web-story" target="_blank">jumpto.cc/web-story</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
@@ -54,7 +54,7 @@ Let's start by editing the HTML content and CSS style of the story webpage.
 	+ `<img>` is an __image__;
 	+ `<p>` is a __paragraph__ of text.
 
-##Challenge: Make some changes {.challenge}
+## Wyzwanie: Make some changes {.challenge}
 Edit the HTML and the CSS code to customise your webpage.
 
 ![screenshot](story-changes.png)
@@ -63,13 +63,13 @@ You can alter the colours used in the webpage, and you can also use fonts like <
 
 If you need more help, you can use the 'Happy Birthday' project to help you.
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-# Step 3: Telling your story { .activity}
+# Krok 3: Telling your story {.activity}
 
 Let's add a second part to your story.
 
-## Activity Checklist { .check}
+## Zadania do wykonania {.check}
 
 + Go to line 17 of the code, and add in another set of `<div>` and `</div>` start and end tags. This will create a new box for the next part of your story.
 
@@ -113,11 +113,11 @@ Let's add a second part to your story.
 	<img src="buildings.png">
 	```
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-##Challenge: Keep going! {.challenge}
+## Wyzwanie: Keep going! {.challenge}
 Use what you've learnt in this project to finish telling your story! Here's an example:
 
 ![screenshot](story-final.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}

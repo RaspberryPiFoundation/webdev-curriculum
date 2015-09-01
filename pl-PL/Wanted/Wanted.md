@@ -7,17 +7,17 @@ materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 stylesheet: web
 ...
 
-# Introduction { .intro}
+# Wstęp {.intro}
 
 In this project, you'll learn how to make your own poster.
 
 ![screenshot](wanted-final.png)
 
-# Step 1: Styling your poster { .activity}
+# Krok 1: Styling your poster {.activity}
 
 Let's start by editing the CSS code for the poster.
 
-## Activity Checklist { .check}
+## Zadania do wykonania {.check}
 
 + Open this trinket: <a href="http://jumpto.cc/web-wanted" target="_blank">jumpto.cc/web-wanted</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
@@ -69,7 +69,7 @@ Let's start by editing the CSS code for the poster.
 
 	![screenshot](wanted-background.png)
 
-##Challenge: Improving your poster {.challenge}
+## Wyzwanie: Improving your poster {.challenge}
 Add the following CSS property to your `div` style:
 
 ```
@@ -78,13 +78,13 @@ border-radius: 40px;
 
 What does this property do? What happens if you change the number in the code above?
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-# Step 2: Styling images { .activity}
+# Krok 2: Styling images {.activity}
 
 Let's improve the style of the image in the poster.
 
-## Activity Checklist { .check}
+## Zadania do wykonania {.check}
 
 + At the moment, there aren't any CSS properties for your `<img>` tag, so let's add some!
 
@@ -132,16 +132,16 @@ Let's improve the style of the image in the poster.
 
 	What do you think would happen if you changed the padding to `50px`?
 
-##Challenge: Improving your image {.challenge}
+## Wyzwanie: Improving your image {.challenge}
 Can you give your image a background colour? Or a rounded border?
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
 # Step 3: Styling headings { .activity .new-page }
 
 Let's improve the style of the `<h1>` heading.
 
-## Activity Checklist { .check}
+## Zadania do wykonania {.check}
 
 + Add the following code underneath your image's CSS:
 
@@ -185,7 +185,7 @@ Let's improve the style of the `<h1>` heading.
 	text-decoration: underline;
 	```
 
-##Challenge: Make your poster awesome! {.challenge}
+## Wyzwanie: Make your poster awesome! {.challenge}
 Add more CSS code to style your `<h3>` headings and your paragraphs. 
 
 ![screenshot](wanted-final.png)
@@ -205,9 +205,9 @@ width: 100px;
 height: 100px;
 ```
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-##Challenge: Advertise an event! {.challenge}
+## Wyzwanie: Advertise an event! {.challenge}
 Can you make a poster for an event happening at your school? It could be a play, a sporting event, or even a poster advertising your Code Club!
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}

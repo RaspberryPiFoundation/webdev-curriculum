@@ -1,30 +1,31 @@
 ---
-title: Happy Birthday — Notes for Club Leaders
-language: en-GB
+title: Happy Birthday — Informacje dla prowadzącego
+language: pl-PL
 embeds: "*.png"
 materials: [""]
 ...
 
-#Introduction:
-In this project, children will be introduced to HTML tags & CSS properties. They will also edit tags and properties to make their own customised greeting card.
+# Wstęp
+Wykonując ten projekt dzieci zapoznają się z tagami HTML i właściwości CSS. Podczas zajęć będą także zmieniać tagi i właściwości, aby stworzyć swoją własną kartkę okolicznościową.
 
-#Online Resources
+# Materiały dostępne online
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
+Do pisania kodu HTML i CSS online polecamy serwis [trinket](https://trinket.io/). Ten projekt korzysta z następujących fragmentów kodu:
 
-+ ['Intro to HTML and CSS' starting point](https://trinket.io/html/850a678202)
-+ ['Birthday Card' starting point  -- jumpto.cc/web-card](http://jumpto.cc/web-card)
++ ['Wstęp do HTML i CSS' - punkt początkowy](https://jumpto.cc/html-wstep)
++ ['Kartka urodzinowa' - punkt początkowy -- jumpto.cc/kartka-urodzinowa](http://jumpto.cc/kartka-urodzinowa)
 
-Children can also make use of this blank trinket [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
+Do pisania swojego kodu HTML i CSS dzieci mogą też skorzystać z pustego edytora [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) lub z szablonu: [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
 
-There is also a trinket containing a sample solution to the challenges:
+Dostępny jest także edytor, który zawiera kod z przykładowymi rozwiązaniami zadań:
 
-+ ['Birthday Card' Finished](https://trinket.io/html/e996dc0380)
++ [Skończona 'Kartka urodzinowa'](https://trinket.io/html/e996dc0380)
 
-#Offline Resources
-This project can be [completed offline](../html-css.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
+# Materiały dostępne offline
+Projekt można także [wykonać offline](../html-css.html). Materiały do projektu można pobrać klikając w link "Pobierz materiały" na stronie z listą projektów. Pobrany plik zawiera katalog "Project Resources", w którym znajdują się zasoby potrzebne do wykonania tego projektu w trybie offline. Upewnij się, że każde dziecko ma dostęp do tych materiałów. Katalog zawiera następujące pliki:
 
-+ Intro.html
++ Intro/Intro.html
++ Intro/style.css
 + Template/template.html
 + Template/style.css
 + Birthday Card/BirthdayCard.html
@@ -32,7 +33,7 @@ This project can be [completed offline](../html-css.html) if preferred. You can 
 + Birthday Card/script.js
 + Birthday Card/10 x .png images
 
-You can also find a completed version of this project's challenges in the 'Club Leader Resources' folder, which contains:
+Ukończona wersja zadań z tego projektu znajduje się w katalogu "Club Leader Resources", który zawiera:
 
 + BirthdayCardFinished.html
 + style.css
@@ -40,10 +41,10 @@ You can also find a completed version of this project's challenges in the 'Club 
 + rainbow.png
 + dinosaur.png
 
-#Learning Objectives
-+ This project introduces HTML tags and CSS properties, and allows children to edit content and styling.
+# Cele nauczania
++ Projekt zapoznaje dzieci z tagami języka HTML oraz właściwościami CSS. Dzieci uczą się także, jak zmieniać zawartość i wygląd strony internetowej.
 
-#Challenges
-+ "Add another paragraph" - adding an HTML tag to a document;
-+ "Add more style" - editing CSS styles;
-+ "Create a personalised card" - editing HTML and CSS to make a greetings card.
+# Wyzwania
++ "Dodaj kolejny akapit" - dodawanie tagu HTML do dokumentu,
++ "Dodaj więcej stylów" - zmiana stylów CSS,
++ "Stwórz spersonalizowaną kartkę" - wykonanie kartki poprzez edycję kodu HTML i CSS.

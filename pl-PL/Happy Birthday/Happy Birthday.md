@@ -1,99 +1,99 @@
 ---
 title: Happy Birthday
 level: HTML & CSS 1
-language: en-GB
+language: pl-PL
 embeds: "*.png"
 materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 stylesheet: web
 ...
 
-# Introduction { .intro}
+# Wstęp {.intro}
 
-In this project, you'll be introduced to HTML & CSS by learning how to make your own customised birthday card.
+Wykonując ten projekt poznasz HTML i CSS robiąc swoją własną kartkę urodzinową.
 
 ![screenshot](birthday-final.png)
 
-# Step 1: What is HTML? { .activity}
+# Krok 1: Co to HTML? {.activity}
 
-HTML stands for __HyperText Markup Language__, and is the language used to make webpages. Let's have a look at an example!
+HTML to hipertekstowy język znaczników (po angielsku: __HiperText Markup Language__). To język używany do budowania stron internetowych. Zobaczmy przykład! 
 
-## Activity Checklist { .check}
+## Zadania do wykonania {.check}
 
-+ You'll be using a website called Trinket to write HTML. Open this Trinket: <a href="http://jumpto.cc/web-intro" target="_blank">jumpto.cc/web-intro</a>. If you're reading this online, you can also use the embedded version of this Trinket below.
++ Do pisania w HTML-u będziemy używać edytora na stronie Trinket.io. Otwórz edytor: <a href="http://jumpto.cc/web-intro-pl" target="_blank">jumpto.cc/html-wstep</a>. Jeśli czytasz to w Internecie, możesz także użyć wersji wyświetlonej poniżej.
 
 <div class="trinket">
-	<iframe src="https://trinket.io/embed/html/850a678202" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-	</iframe>
+    <iframe src="https://trinket.io/embed/html/4f957e888f" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
-+ The code that you can see on the left of the Trinket is HTML. On the right of the Trinket you can see the webpage that the HTML code has made.
++ Kod, który widzisz po lewej stronie tego edytora to HTML. Po prawej stronie widać stronę internetową, która powstała z tego kodu HTML.
 
-	HTML uses __tags__ to build webpages. Can you see this HTML at line 8 of your code?
-
-	```
-	<p>Hi. My name is Andy.</p>
-	```
-
-	`<p>` is an example of a tag, and is short for __paragraph__. You can start a paragraph with `<p>` and end a paragraph with `</p>`.
-
-+ Can you spot any other tags? One other tag you might have spotted on line 9 is `<b>`, which stands for __bold__:
+	W języku HTML używamy __tagów__ do budowania stron internetowych. Spójrz na HTML w 8 linii twojego kodu.
 
 	```
-	<b>running</b>
+	<p>Cześć! Mam na imię Andrzej.</p>
 	```
 
-	Here are some more:
+	`<p>` jest takim tagiem. To skrót od angielskiego słowa __paragraph__, czyli akapit. Nowy akapit zaczynamy od `<p>`, a kończymy `</p>`.
 
-	+ `<html>` and `</html>` mark the start and end of the HTML document;
-	+ `<head>` and `</head>` is where stuff like CSS goes (we'll get to that later!);
-	+ `<body>` and `</body>` is where your website content goes.
+
++ Widzisz jakieś inne tagi? Kolejny tag, który możesz zauważyć w linii 9 to `<b>`, który oznacza __bold__, czyli pogrubienie:
+
+	```
+	<b>biegać</b>
+	```
+
+	I jeszcze kilka:
+
+	+ `<html>` i `</html>` oznacza początek i koniec dokumentu HTML;
+	+ `<head>` i `</head>` to miejsce, gdzie trafiają takie rzeczy jak CSS (wrócimy do tego później!);
+	+ `<body>` i `</body>` to miejsce, gdzie trafia zawartość twojej strony.
 
 	![screenshot](birthday-head-body.png)
 
-+ Make a change to one of the paragraphs of text in the HTML (on the left). Click 'Run' and you should see your webpage change (on the right)!
++ Zmień jeden akapit w HTML-u (po lewej). Kliknij 'Run' (uruchom), a zobaczysz zmiany na swojej stronie (po prawej).
 
 	![screenshot](birthday-edit-html.png)
 
-+ If you have made a mistake and want to undo your changes, you can click the menu button and then click 'Reset'. Try it!
++ Jeśli popełnisz błąd i chcesz cofnąć zmiany, możesz kliknąć na przycisk menu a następnie 'Reset'. Spróbuj!
 
 	![screenshot](birthday-reset.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-__You don't need a Trinket account to save your projects!__ 
+__Nie potrzebujesz konta w Trinket aby zapisywać swoje projekty!__
 
-If you don't have a Trinket account, click the down arrow and then click 'Link'. This will give you a link that you can save and come back to later. You'll need to do this every time you make changes, as the link will change!
+Jeśli nie masz konta w Trinket kliknij na strzałkę w dół, a następnie 'Link'. W ten sposób dostaniesz link, który możesz zapisać, by później kontynuować pracę. Pamiętaj, aby robić to za każdym razem, gdy coś zmienisz - link też się wtedy zmienia!
 
 ![screenshot](birthday-link.png)
 
-If you have a Trinket account, the easiest way to save your webpage is to click the 'Remix' button on the top of the Trinket. This will save a copy of the Trinket on your profile.
+Jeśli masz konto w Trinket najprościej zapiszesz swoją stronę klikając na przycisk 'Remix' na górze edytora. W ten sposób zapisujesz kopię kodu na swoim koncie.
 
 ![screenshot](birthday-remix.png)
 
-##Challenge: Add another paragraph {.challenge}
-Can you add a 3rd paragraph of text to your webpage, below the other 2? Remember that your new paragraph should start with a `<p>` tag, and end with `</p>`.
+## Wyzwanie: Dodaj kolejny akapit {.challenge}
+Czy potrafisz dodać trzeci akapit na swojej stronie pod poprzednimi dwoma? Pamiętaj, że nowy akapit powinien zaczynać się od tagu `<p>`, a kończyć tagiem `</p>`. 
 
-Here's how your webpage should look:
+Twoja strona powinna wyglądać mniej więcej tak:
 
 ![screenshot](birthday-paragraph.png)
 
-Can you add __bold__ and <u>underlined</u> text to your new paragraph? You should use `<u>` and `</u>` for underlined text.
+Dodaj też pogrubiony i <u>podkreślony</u> tekst w swoim akapicie. Aby podkreślić tekst użyj tagów `<u>` i `</u>`.
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-# Step 2: What is CSS? { .activity}
+# Krok 2: Co to CSS? {.activity}
 
-CSS stands for __Cascading Style Sheets__, and is the language used to style webpages and make them look nice. You can link your webpage to a CSS file in the `<head>` of an HTML document like this:
+CSS to skrót od __Cascading Style Sheets__, czyli kaskadowe arkusze stylów. To język używany do formowania strony internetowej tak, by ładnie wyglądała. Możesz połączyć swoją stronę z plikiem CSS w części `<head>` swojego dokumentu HTML w taki sposób:
 
 ![screenshot](birthday-css-link.png)
 
-## Activity Checklist { .check}
+## Zadania do wykonania {.check}
 
-+ CSS lists all of the __properties__ for a particular tag. Click the 'style.css' tab to see the CSS for your webpage.
++ CSS zawiera wszystkie __właściwości__ dla poszczególnych tagów. Kliknij w zakładkę 'style.css', a zobaczysz CSS swojej strony.
 
 	![screenshot](birthday-css-tab.png)
 
-+ Find this code:
++ Znajdź poniższy kod:
 
 	```
 	p {
@@ -101,75 +101,75 @@ CSS stands for __Cascading Style Sheets__, and is the language used to style web
 	}
 	```
 
-	This CSS code has one property for paragraphs, which is that the text colour should be black.
+	Ten kod CSS ma jedną właściwość dla akapitów, która mówi, że kolor tekstu powinien być czarny.
 
-+ Change the word 'black' in the CSS to 'blue'. You should see the text colour of all paragraphs change to blue.
++ Zmień słowo 'black' w CSS-ie na 'blue'. Kolor tekstu we wszystkich akapitach powinien zmienić się na niebieski.
 
 	![screenshot](birthday-edit-css.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-##Challenge: Add more style {.challenge}
-Can you make the paragraphs of text orange? Or the background grey?
+## Wyzwanie: Dodaj więcej stylów {.challenge}
+Czy potrafisz zmienić tekst w akapitach na pomarańczowy (ang. orange)? Albo kolor tła na szary (ang. grey)?
 
 ![screenshot](birthday-more-style.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-# Step 3: Making a birthday card { .activity}
+# Krok 3: Przygotowanie kartki urodzinowej {.activity}
 
-Let's use what you've learnt about HTML and CSS to make your own custom birthday card.
+Teraz użyjemy tego, czego dowiedzieliśmy się o HTML i CSS, aby wykonać własną kartkę na urodziny.
 
-## Activity Checklist { .check}
+## Zadania do wykonania {.check}
 
-+ Open this Trinket: <a href="http://jumpto.cc/web-card" target="_blank">jumpto.cc/web-card</a>, or use the embedded version below if you're reading this online.
++ Otwórz ten edytor: <a href="http://jumpto.cc/web-card-pl" target="_blank">jumpto.cc/kartka-urodzinowa</a> lub użyj poniższej wersji, jeśli czytasz to w Internecie.
 
 <div class="trinket">
-	<iframe src="https://trinket.io/embed/html/90506676c9" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+	<iframe src="https://trinket.io/embed/html/0220902ffd" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 	</iframe>
 </div>
 
-Don't worry if you don't understand all of the code. This birthday card looks pretty boring, so you're going to make some changes to this HTML and CSS.
+Nie przejmuj się jeśli nie rozumiesz całego kodu. Ta kartka na razie jest trochę nudna, więc zaraz wprowadzisz kilka zmian w HTML i CSS.
 
-+ Click the button on the front of the card, and you should see it open to reveal the inside.
++ Kliknij w przycisk na kartce. Kartka powinna się otworzyć i pokazać, co jest w środku.
 
 	![screenshot](birthday-click.png)
 
-+ Go to line 13 of the code. Just like in the earlier example, you can edit any of the text in the HTML to customise the card.
++ Przejdź w kodzie do linii 13. Tak jak na wcześniejszym przykładzie możesz zmieniać każdy tekst w HTML-u, aby dostosować kartkę do swoich pomysłów.
 
 	![screenshot](birthday-card-html.png)
 
-+ Can you find the HTML for the robot image? (Hint: it's on line 16!) Change the word `robot` to `sun`, and you'll see the image change!
++ Znajdź HTML, w którym jest obrazek z robotem. (Podpowiedź: jest w linii 16!). Zmień słowo `robot` na `sun` (słońce) i sprawdź czy obrazek się zmienił!
 
 	![screenshot](birthday-card-sun.png)
 
-	You can use any of the words `boy`, `diamond`, `dinosaur`, `flowers`, `girl`, `rainbow`, `robot`, `spaceship`, `sun`, `tea`, or `trophy`.
+	Możesz użyć dowolnego z tych angielskich słów: `boy`, `diamond`, `dinosaur`, `flowers`, `girl`, `rainbow`, `robot`, `spaceship`, `sun`, `tea` lub `trophy`.
 
-+ You can also edit the CSS of the birthday card. Click on the tab for “style.css”. It begins with all of the CSS for the `outside` of the card. Change the `background-color` to `lightgreen`.
++ Możesz też zmienić CSS swojej kartki urodzinowej. Kliknij w zakładkę "style.css". Zaczyna się od wszystkich CSS-ów dla zewnętrznej strony (ang. `outside`) kartki. Zmień `background-color` na `lightgreen` (jasnozielony).
 
 	![screenshot](birthday-card-outside.png)
 
-+ You can also change the size of an image. Go to line 29 of the CSS, and change the `width` and `height` of the outside image to `200px` (`px` stands for pixels).
++ Możesz także zmienić rozmiar zdjęcia. Przejdź do linii 29 w CSS i zmień `width` (szerokość) i `height` (wysokość) obrazków na `200px` (`px` to skrót od piksel).
 
 	![screenshot](birthday-card-size.png)	
 
-+ The font can be changed too. Go to line 24 and change the `font-family` to `Comic Sans MS` and the `font-size` to `16pt`.
++ Możesz również zmienić czcionkę. Przejdź do linii 24 i zmień `font-family` na `Comic Sans MS` oraz `font-size` na `16pt`.
 
 	![screenshot](birthday-card-font.png)
 
-	You can use other fonts like <span style="font-family: Arial;">arial</span>, <span style="font-family: impact;">Impact</span> and <span style="font-family: tahoma;">Tahoma</span>. 
+	Możesz użyć też innych fontów <span style="font-family: Arial;">arial</span>, <span style="font-family: impact;">Impact</span> lub <span style="font-family: tahoma;">Tahoma</span>.
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-##Challenge: Create a personalised card {.challenge}
-Use everything you've learnt about HTML and CSS to finish making a personalised card. It doesn't even have to be a birthday card, it could be for any occasion!
+## Wyzwanie: Stwórz spersonalizowaną kartkę {.challenge}
+Użyj wszystkiego, czego się nauczyłeś o HTML i CSS, aby zrobić spersonalizowaną kartkę. Nie musi to być kartka urodzinowa, możesz wymyślić dowolną okazję!
 
-Here's an example:
+Przykład:
 
 ![screenshot](birthday-final.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-Now that you've finished your card, you can share or email it to someone.
+Gdy skończysz swoją kartkę możesz ją komuś udostępnić lub wysłać mailem.
 
 ![screenshot](birthday-share.png)
