@@ -33,7 +33,7 @@ HTML to hipertekstowy język znaczników (po angielsku: __HiperText Markup Langu
 	<p>Cześć! Mam na imię Andrzej.</p>
 	```
 
-	`<p>` jest takim tagiem. To skrót od angielskiego słowa __paragraph__, czyli akapit. Nowy akapit zaczynamy od `<p>` a kończymy `</p>`.
+	`<p>` jest takim tagiem. To skrót od angielskiego słowa __paragraph__, czyli akapit. Nowy akapit zaczynamy od `<p>`, a kończymy `</p>`.
 
 
 + Widzisz jakieś inne tagi? Kolejny tag, który możesz zauważyć w linii 9 to `<b>`, który oznacza __bold__, czyli pogrubienie:
@@ -54,7 +54,7 @@ HTML to hipertekstowy język znaczników (po angielsku: __HiperText Markup Langu
 
 	![screenshot](birthday-edit-html.png)
 
-+ Jeśli popełnisz błąd i chcesz cofnąć zmiany możesz kliknąć na przycisk menu a następnie 'Reset'. Spróbuj!
++ Jeśli popełnisz błąd i chcesz cofnąć zmiany, możesz kliknąć na przycisk menu a następnie 'Reset'. Spróbuj!
 
 	![screenshot](birthday-reset.png)
 
@@ -153,7 +153,7 @@ Nie przejmuj się jeśli nie rozumiesz całego kodu. Ta kartka na razie jest tro
 
 	![screenshot](birthday-card-size.png)	
 
-+ Możesz również zmienić font. Przejdź do linii 24 i zmień `font-family` na `Comic Sans MS` oraz `font-size` na `16pt`.
++ Możesz również zmienić czcionkę. Przejdź do linii 24 i zmień `font-family` na `Comic Sans MS` oraz `font-size` na `16pt`.
 
 	![screenshot](birthday-card-font.png)
 
