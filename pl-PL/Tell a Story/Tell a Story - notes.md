@@ -1,27 +1,24 @@
 ---
 title: Tell a Story — Informacje dla prowadzącego
-language: en-GB
+language: pl-PL
 embeds: "*.png"
 materials: [""]
 ...
 
 # Wstęp
-In this project, children will have an opportunity to write their own HTML. They will create their own story, adding panels, images and captions to a comic book style webpage.
+W niniejszym projekcie dzieci zyskają okazję napisania własnego kodu HTML. Stworzą własną historię, będą dodawać panele, obrazy i podpisy na stronie internetowej stylizowanej na komiks. 
 
 # Materiały dostępne online
+Polecamy użycie serwisu [trinket](https://trinket.io/) do pisania kodu HTML i CSS online. Projekt ten korzysta z następujących fragmentów kodu: + ['Tell a Story' starting point -- jumpto.cc/web-story](http://jumpto.cc/web-story)
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
+Dzieci mogą również posłużyć się pustym edytorem [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank), by pisać własny kod HTML i CSS, bądź skorzystać z szablonu [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
 
-+ ['Tell a Story' starting point -- jumpto.cc/web-story](http://jumpto.cc/web-story)
-
-Children can also make use of this blank trinket [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
-
-There is also a trinket containing a sample solution to the challenges:
+Dostępny jest także edytor, który zawiera kod z przykładowymi rozwiązaniami zadań:
 
 + ['Tell a Story' Finished](https://trinket.io/html/c8afdef912)
 
 # Materiały dostępne offline
-This project can be [completed offline](../html-css.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
+Projekt można także, wedle uznania, wykonać offline (../html-css.html). Materiały do projektu można pobrać, klikając w link "Pobierz materiały" na stronie z listą projektów. Pobrany plik zawiera katalog "Project Resources", w którym znajdują się zasoby potrzebne do wykonania tego projektu w trybie offline. Upewnij się, ze każde dziecko ma dostęp do tych materiałów. Katalog zawiera następujące pliki:
 
 + Template/Template.html
 + Template/style.css
@@ -30,7 +27,7 @@ This project can be [completed offline](../html-css.html) if preferred. You can 
 + Tell a Story/buildings.png
 + Tell a Story/sun.png
 
-You can also find a completed version of this project's challenges in the 'Club Leader Resources' folder, which contains:
+Ukończona wersja zadań z tego projektu znajduje się w katalogu "Club Leader Resources", który zawiera:
 
 + StoryFinished.html
 + style.css
@@ -38,20 +35,20 @@ You can also find a completed version of this project's challenges in the 'Club 
 + girl.png
 
 # Cele nauczania
-+ Writing HTML:
-	+ `<div>` tag and element grouping;
-	+ `<img>` tag and image URLs;
-	+ `<h1>` - `<h6>` headings.
++ Pisanie w HTML:
+	+ tag `<div>` i grupowanie elementów;
+	+ tag `<img>` i odnośniki do obrazów;
+	+ nagłówki `<h1>` - `<h6>.
 
 # Wyzwania
-+ "Make some changes" - editing HTML content and CSS style;
-+ "Keep going!" - applying tags and styling to create a finished story.
++ "Dokonaj zmian" - edycja treści HTML i stylów CSS;
++ "Nie zatrzymuj się!" - stosowanie tagów i stylowania celem stworzenia skończonej historii.
 
-#Using this project offline
-+ If children are completing this project offline, they'll need to save images they intend to use in the same folder as their `Story.html` file.
+# Używanie projektu offline
++ O ile dzieci wykonują projekt offline, potrzebne będą im zapisane obrazy, których użyją w tym samym folderze, w którym znajduje się ich plik `Story.html`
 
-	They can then just add the name of the file in their `<img>` tags:
+Można po prostu dodać nazwę pliku w tagu `<img>`:
 
-	```
-		<img src="house.png" />
-	``` 
+```
+    <img src="house.png" />
+```
