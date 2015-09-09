@@ -18,7 +18,7 @@ There is also a trinket containing a sample solution to the challenges:
 + ['Wanted' Finished](https://trinket.io/html/ebeb56398a)
 
 #Offline Resources
-This project can be [completed offline](../offline.html) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
+This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
 + Template/Template.html
 + Template/style.css
@@ -26,7 +26,7 @@ This project can be [completed offline](../offline.html) if preferred. You can a
 + Wanted/style.css
 + Wanted/robot.png
 
-You can also find a completed version of this project's challenges in the 'Club Leader Resources' folder, which contains:
+You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
 + WantedFinished.html
 + style.css
