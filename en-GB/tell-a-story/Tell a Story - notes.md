@@ -44,7 +44,7 @@ You can also find a completed version of this project's challenges in the 'Volun
 + "Make some changes" - editing HTML content and CSS style;
 + "Keep going!" - applying tags and styling to create a finished story.
 
-#Using this project offline
+#Completing this project offline
 + If children are completing this project offline, they'll need to save images they intend to use in the same folder as their `Story.html` file.
 
 	They can then just add the name of the file in their `<img>` tags:

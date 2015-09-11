@@ -207,7 +207,7 @@ ul {
 ![screenshot](images/recipe-ul-css.png)
 
 ##Challenge: More colours! {.challenge}
-Change the colours in your code by using colour names, `rgb()` values and hex codes. There’s a list of loads of colours at: [jumpto.cc/web-colours](http://jumpto.cc/web-colours).
+Change the colours in your code by using colour names, `rgb()` values and hex codes. There’s a list of loads of colours at <a href="http://jumpto.cc/web-colours" target="_blank">jumpto.cc/web-colours</a>.
 
 Here are some example colours:
 
