@@ -37,6 +37,8 @@ You can also find a completed version of this project's challenges in the 'Club 
 + rainbow.png
 + dinosaur.png
 
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+
 #Learning Objectives
 + This project introduces HTML tags and CSS properties, and allows children to edit content and styling.
 

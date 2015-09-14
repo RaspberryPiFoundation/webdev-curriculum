@@ -34,6 +34,8 @@ You can also find a completed version of this project's challenges in the 'Volun
 + boy.png
 + girl.png
 
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+
 #Learning Objectives
 + Writing HTML:
 	+ `<div>` tag and element grouping;

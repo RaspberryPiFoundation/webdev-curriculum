@@ -32,6 +32,8 @@ You can also find a completed version of this project's challenges in the 'Volun
 + style.css
 + robot.png
 
+(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+
 #Learning Objectives
 + This project gives children the opportunity to write their own CSS to style a webpage.
 
