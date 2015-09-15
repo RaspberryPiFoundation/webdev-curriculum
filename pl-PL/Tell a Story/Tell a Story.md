@@ -20,9 +20,9 @@ Zanim zaczniesz kodować, potrzebna Ci będzie historyjka, którą można opowie
 ## Zadania do wykonania {.check}
 
 + Zastanów się nad historyjką, którą chcesz opowiedzieć. Może to być na przykład: 
-	+ Znana opowieść;
-	+ Wymyślona historia;
-	+ Historia, która przytrafiła się Tobie albo Twojemu znajomemu.
+	+ znana opowieść,
+	+ wymyślona historia,
+	+ historia, która przytrafiła się Tobie albo Twojemu znajomemu.
 
 	To nawet nie musi być historia. Równie dobrze sprawdzi się żart, wiersz lub cokolwiek, na co masz ochotę!
 
@@ -35,11 +35,11 @@ Zacznijmy od edycji treści HTML i stylów CSS na stronie z historyjką.
 + Otwórz edytor: <a href="http://jumpto.cc/html-historyjka" target="_blank">jumpto.cc/html-historyjka</a>. Jeśli pracujesz online, możesz również posłużyć się wersją wyświetloną poniżej.
 
 <div class="trinket">
-	<iframe src="https://trinket.io/embed/html/8083cfebb3" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+	<iframe src="https://trinket.io/embed/html/c5815d0eb4" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 	</iframe>
 </div>
 
-+ Może pamiętasz z projektu 'Happy Birthday', że zawartość strony internetowej zawiera się w `<body>` dokumentu HTML. 
++ Może pamiętasz z projektu "Happy Birthday", że zawartość strony internetowej zawiera się w `<body>` dokumentu HTML.
 
 	Przejdź do 7. linii kodu, gdzie znajdziesz treść strony, która jest pomiędzy tagami `<body>`.
 
@@ -50,18 +50,18 @@ Zacznijmy od edycji treści HTML i stylów CSS na stronie z historyjką.
 	![screenshot](story-elements.png)
 
 	+ `<h1>` to __heading__ (nagłówek). Możesz użyć cyfr od 1 do 6, by stworzyć nagłówki różnych rozmiarów;
-	+ `<div>` to skrót od __division__ (podział), co służy grupowaniu treści razem. Na tej stronie użyjesz tego taga do grupowania treści w każdej części Twojej historyjki; 
+	+ `<div>` to skrót od __division__ (sekcja) - służy grupowaniu treści razem. Na tej stronie użyjesz tego taga do grupowania treści w każdej części Twojej historyjki;
 	+ `<img>` to __image__ (obraz);
 	+ `<p>` to __paragraph__ (akapit) tekstu. 
 
 ## Wyzwanie: Wprowadź zmiany {.challenge}
-Wyedytuj kod HTML i CSS, by dostosować swoją stronę do konkretnych potrzeb.  
+Wyedytuj kod HTML i CSS, by dostosować swoją stronę do swoich potrzeb.
 
 ![screenshot](story-changes.png)
 
 Możesz modyfikować kolorystykę i używać czcionek takich jak <span style="font-family: Arial;">Arial</span>, <span style="font-family: Comic Sans MS;">Comic Sans MS</span>, <span style="font-family: Impact;">Impact</span> oraz <span style="font-family: Tahoma;">Tahoma</span>.
 
-Jeśli potrzebujesz pomocy, możesz skorzystać z projektu 'Happy Birthday'.
+Jeśli potrzebujesz pomocy, możesz skorzystać z projektu "Happy Birthday".
 
 ## Zapisz swój projekt {.save}
 
@@ -98,7 +98,7 @@ Dodajmy do Twojej historii część drugą.
 
 	![screenshot](story-image.png)
 
-+ __Jeśli masz konto w serwisie Trinket__, możesz również załadować Twoje własne zdjęcia na swoją stronę internetową! By to zrobić, kliknij na ikonę obrazu na górze edytora, a następnie kliknij ‘upload’.
++ __Jeśli masz konto w serwisie Trinket__, możesz również załadować Twoje własne zdjęcia na swoją stronę internetową! By to zrobić, kliknij na ikonę obrazu na górze edytora, a następnie kliknij "upload".
 
 	![screenshot](story-upload.png)
 
