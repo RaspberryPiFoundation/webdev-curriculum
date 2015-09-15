@@ -32,7 +32,7 @@ Zacznijmy od edycji treści HTML i stylów CSS na stronie z historyjką.
 
 ## Zadania do wykonania {.check}
 
-+ Otwórz edytor: <a href="http://jumpto.cc/web-story" target="_blank">jumpto.cc/web-story</a>. Jeśli pracujesz online, możesz również posłużyć się wersją wyświetloną poniżej. 
++ Otwórz edytor: <a href="http://jumpto.cc/html-historyjka" target="_blank">jumpto.cc/html-historyjka</a>. Jeśli pracujesz online, możesz również posłużyć się wersją wyświetloną poniżej.
 
 <div class="trinket">
 	<iframe src="https://trinket.io/embed/html/8083cfebb3" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -89,7 +89,7 @@ Dodajmy do Twojej historii część drugą.
 
 + Dla obrazów HTML niezbędne będzie dodanie __source__ (źródła) obrazu pomiędzy cudzysłowami. Znajdźmy obraz do dodania do historii. 
 
-	Przejdź do: <a href="http://jumpto.cc/web-images" target="_blank">jumpto.cc/web-images</a> i znajdź obraz, który chciałbyś zamieścić w historii.
+	Przejdź do: <a href="http://jumpto.cc/html-obrazki" target="_blank">jumpto.cc/html-obrazki</a> i znajdź obraz, który chciałbyś zamieścić w historii.
 + Kliknij prawym przyciskiem myszy na obraz, a następnie wybierz ‘skopiuj adres obrazu’. 
 
 	![screenshot](story-url.png)
