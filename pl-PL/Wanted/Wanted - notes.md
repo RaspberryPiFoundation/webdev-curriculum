@@ -9,10 +9,10 @@ W niniejszym projekcie dzieci zyskają okazję napisania własnego kodu CSS. Bę
 
 # Materiały dostępne online
 Polecamy użycie serwisu [trinket](https://trinket.io/) do pisania kodu HTML i CSS online. Projekt ten korzysta z następujących fragmentów kodu: 
-+ ['Wanted' punkt początkowy -- jumpto.cc/web-wanted](http://jumpto.cc/web-wanted)
++ ['Wanted' punkt początkowy -- jumpto.cc/html-poszukiwany](http://jumpto.cc/html-poszukiwany)
 Dzieci mogą również posłużyć się pustym edytorem [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank), by pisać własny kod HTML i CSS, bądź skorzystać z szablonu [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
 Dostępny jest także edytor, który zawiera kod z przykładowymi rozwiązaniami zadań:
-+ ['Wanted' Finished](https://trinket.io/html/ebeb56398a)
++ ['Wanted' Finished](https://trinket.io/html/dcbb8e428d)
 
 # Materiały dostępne offline
 Projekt można także, wedle uznania, wykonać offline (../html-css.html). Materiały do projektu można pobrać, klikając w link "Pobierz materiały" na stronie z listą projektów. Pobrany plik zawiera katalog "Project Resources", w którym znajdują się zasoby potrzebne do wykonania tego projektu w trybie offline. Upewnij się, ze każde dziecko ma dostęp do tych materiałów. Katalog zawiera następujące pliki:
