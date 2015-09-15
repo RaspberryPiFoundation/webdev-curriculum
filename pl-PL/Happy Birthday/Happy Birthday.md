@@ -19,7 +19,7 @@ HTML to hipertekstowy język znaczników (po angielsku: __HiperText Markup Langu
 
 ## Zadania do wykonania {.check}
 
-+ Do pisania w HTML-u będziemy używać edytora na stronie Trinket.io. Otwórz edytor: <a href="http://jumpto.cc/web-intro-pl" target="_blank">jumpto.cc/html-wstep</a>. Jeśli czytasz to w Internecie, możesz także użyć wersji wyświetlonej poniżej.
++ Do pisania w HTML-u będziemy używać edytora na stronie Trinket.io. Otwórz edytor: <a href="http://jumpto.cc/html-wstep" target="_blank">jumpto.cc/html-wstep</a>. Jeśli czytasz to w Internecie, możesz także użyć wersji wyświetlonej poniżej.
 
 <div class="trinket">
     <iframe src="https://trinket.io/embed/html/4f957e888f" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -122,7 +122,7 @@ Teraz użyjemy tego, czego dowiedzieliśmy się o HTML i CSS, aby wykonać włas
 
 ## Zadania do wykonania {.check}
 
-+ Otwórz ten edytor: <a href="http://jumpto.cc/web-card-pl" target="_blank">jumpto.cc/kartka-urodzinowa</a> lub użyj poniższej wersji, jeśli czytasz to w Internecie.
++ Otwórz ten edytor: <a href="http://jumpto.cc/kartka-urodzinowa" target="_blank">jumpto.cc/kartka-urodzinowa</a> lub użyj poniższej wersji, jeśli czytasz to w Internecie.
 
 <div class="trinket">
 	<iframe src="https://trinket.io/embed/html/0220902ffd" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
