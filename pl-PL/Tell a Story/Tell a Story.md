@@ -1,7 +1,7 @@
 ---
 title: Tell a Story
 level: HTML & CSS 1
-language: en-GB
+language: pl-PL
 embeds: "*.png"
 materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 stylesheet: web
@@ -9,105 +9,103 @@ stylesheet: web
 
 # Wstęp {.intro}
 
-In this project, you'll learn how to create your own webpage to tell a story, joke or poem.
+W tym projekcie nauczycie się, jak stworzyć własną stronę internetową, by opowiedzieć historyjkę, dowcip albo wiersz. 
 
 ![screenshot](story-final.png)
 
-# Krok 1: Decide on a story {.activity}
+# Krok 1: Wybierz historyjkę {.activity}
 
-Before you get coding, you'll need to decide on a story to tell.
-
-## Zadania do wykonania {.check}
-
-+ Think about the story you want to tell. It could be:
-	+ A famous story;
-	+ A story you have made up;
-	+ Something that has happened to you or someone you know.
-
-	It doesn't even have to be a story. It could be a joke, a poem, or anything else you want!
-
-# Krok 2: Editing your story {.activity}
-
-Let's start by editing the HTML content and CSS style of the story webpage.
+Zanim zaczniesz kodować, potrzebna Ci będzie historyjka, którą można opowiedzieć. 
 
 ## Zadania do wykonania {.check}
 
-+ Open this trinket: <a href="http://jumpto.cc/web-story" target="_blank">jumpto.cc/web-story</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Zastanów się nad historyjką, którą chcesz opowiedzieć. Może to być na przykład: 
+	+ znana opowieść,
+	+ wymyślona historia,
+	+ historia, która przytrafiła się Tobie albo Twojemu znajomemu.
+
+	To nawet nie musi być historia. Równie dobrze sprawdzi się żart, wiersz lub cokolwiek, na co masz ochotę!
+
+# Krok 2: Edytowanie historii {.activity}
+
+Zacznijmy od edycji treści HTML i stylów CSS na stronie z historyjką. 
+
+## Zadania do wykonania {.check}
+
++ Otwórz edytor: <a href="http://jumpto.cc/html-historyjka" target="_blank">jumpto.cc/html-historyjka</a>. Jeśli pracujesz online, możesz również posłużyć się wersją wyświetloną poniżej.
 
 <div class="trinket">
-	<iframe src="https://trinket.io/embed/html/8083cfebb3" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+	<iframe src="https://trinket.io/embed/html/c5815d0eb4" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 	</iframe>
 </div>
 
-+ You might remember from the 'Happy Birthday' project that webpage content goes in the `<body>` of the HTML document.
++ Może pamiętasz z projektu "Happy Birthday", że zawartość strony internetowej zawiera się w `<body>` dokumentu HTML.
 
-	Go to line 7 of the code, and you should see the webpage content, which is inside `<body>` and `</body>` tags.
+	Przejdź do 7. linii kodu, gdzie znajdziesz treść strony, która jest pomiędzy tagami `<body>`.
 
 	![screenshot](story-html.png)
 
-+ Can you tell which tags are used to create the different parts of the webpage?
++ Czy potrafisz wskazać, które tagi użyte są do stworzenia poszczególnych części strony?
 
 	![screenshot](story-elements.png)
 
-	+ `<h1>` is a __heading__. You can use the numbers 1 to 6 to create headings of different sizes;
-	+ `<div>` is short for __division__, and is a way of grouping stuff together. In this webpage, you'll use it to group together all the stuff for each part of your story;
-	+ `<img>` is an __image__;
-	+ `<p>` is a __paragraph__ of text.
+	+ `<h1>` to __heading__ (nagłówek). Możesz użyć cyfr od 1 do 6, by stworzyć nagłówki różnych rozmiarów;
+	+ `<div>` to skrót od __division__ (sekcja) - służy grupowaniu treści razem. Na tej stronie użyjesz tego taga do grupowania treści w każdej części Twojej historyjki;
+	+ `<img>` to __image__ (obraz);
+	+ `<p>` to __paragraph__ (akapit) tekstu. 
 
-## Wyzwanie: Make some changes {.challenge}
-Edit the HTML and the CSS code to customise your webpage.
+## Wyzwanie: Wprowadź zmiany {.challenge}
+Wyedytuj kod HTML i CSS, by dostosować swoją stronę do swoich potrzeb.
 
 ![screenshot](story-changes.png)
 
-You can alter the colours used in the webpage, and you can also use fonts like <span style="font-family: Arial;">Arial</span>, <span style="font-family: Comic Sans MS;">Comic Sans MS</span>, <span style="font-family: Impact;">Impact</span> and <span style="font-family: Tahoma;">Tahoma</span>.
+Możesz modyfikować kolorystykę i używać czcionek takich jak <span style="font-family: Arial;">Arial</span>, <span style="font-family: Comic Sans MS;">Comic Sans MS</span>, <span style="font-family: Impact;">Impact</span> oraz <span style="font-family: Tahoma;">Tahoma</span>.
 
-If you need more help, you can use the 'Happy Birthday' project to help you.
+Jeśli potrzebujesz pomocy, możesz skorzystać z projektu "Happy Birthday".
 
 ## Zapisz swój projekt {.save}
 
-# Krok 3: Telling your story {.activity}
+# Krok 3: Opowiadanie historii {.activity}
 
-Let's add a second part to your story.
+Dodajmy do Twojej historii część drugą. 
 
 ## Zadania do wykonania {.check}
 
-+ Go to line 17 of the code, and add in another set of `<div>` and `</div>` start and end tags. This will create a new box for the next part of your story.
++ Przejdź do 17. linii kodu i dodaj jeszcze jeden zestaw tagów `<div>` jako początek i koniec. W ten sposób powstanie wydzielona przestrzeń do następnej części Twojej historii. 
 
 	![screenshot](story-div.png)
 
-+ Add a paragraph of text inside your new `<div>` tag.
++ Dodaj akapit tekstu pomiędzy tagami `<div>`.
 
 	![screenshot](story-paragraph.png)
 
-+ Finally, you can add an image to your new box, by adding this code inside your `<div>` tag:
++ Możesz dodać obraz poprzez wprowadzenie poniższego kodu pomiędzy tagami `<div>`:
 
 	```
 	<img src="">
 	```
 
-	Notice that `<img>` tags are a bit different to other tags, as they don't have an end tag.
+	Zauważ, ze tagi `<img>` nieco różnią się od pozostałych, ponieważ nie posiadają zakończenia. 
 
-+ For HTML images, you need to add the __source__ of the image, inside the speech marks. Let's find an image to add to your story.
++ Dla obrazów HTML niezbędne będzie dodanie __source__ (źródła) obrazu pomiędzy cudzysłowami. Znajdźmy obraz do dodania do historii. 
 
-	Go to <a href="http://jumpto.cc/web-images" target="_blank">jumpto.cc/web-images</a>, and find an image that you want to include in your story.
-
-+ Right-click the image, and click 'Copy image URL'. The URL is the address of the image.
+	Przejdź do: <a href="http://jumpto.cc/html-obrazki" target="_blank">jumpto.cc/html-obrazki</a> i znajdź obraz, który chciałbyś zamieścić w historii.
++ Kliknij prawym przyciskiem myszy na obraz, a następnie wybierz ‘skopiuj adres obrazu’. 
 
 	![screenshot](story-url.png)
 
-+ Paste the URL between the speech marks in your `<img>` tag. You should see your image appear!
++ Wklej adres pomiędzy cudzysłowami w tagu `<img>`. Powinieneś móc zobaczyć swój obraz! 
 
 	![screenshot](story-image.png)
 
-+ __If you have a Trinket account__, you can also upload your own images to your webpage! To do this, click the image icon at the top of your trinket and then click 'upload'.
++ __Jeśli masz konto w serwisie Trinket__, możesz również załadować Twoje własne zdjęcia na swoją stronę internetową! By to zrobić, kliknij na ikonę obrazu na górze edytora, a następnie kliknij "upload".
 
 	![screenshot](story-upload.png)
 
-+ Find your image on your computer, and drag it into your trinket.
-
++ Znajdź na komputerze wybrane zdjęcie i przeciągnij je do edytora.
 	![screenshot](story-drag.png)
 
-+ You can then just add the name of your new image between the speech marks in your `<img>` tag, like this:
++ Później możesz po prostu dodać nazwę swojego nowego obrazu pomiędzy cudzysłowami w tagu `<img>` , tak jak poniżej:
 
 	```
 	<img src="buildings.png">
@@ -115,9 +113,8 @@ Let's add a second part to your story.
 
 ## Zapisz swój projekt {.save}
 
-## Wyzwanie: Keep going! {.challenge}
-Use what you've learnt in this project to finish telling your story! Here's an example:
-
+## Wyzwanie: Nie zatrzymuj się! {.challenge}
+Wykorzystaj to, czego się nauczyłeś, by zakończyć opowiadanie swojej historii! Poniżej znajdziesz przykład: 
 ![screenshot](story-final.png)
 
 ## Zapisz swój projekt {.save}
