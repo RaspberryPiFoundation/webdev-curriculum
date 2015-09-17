@@ -20,10 +20,10 @@ Zacznijmy od edycji kodu CSS na potrzeby plakatu.
 
 ## Zadania do wykonania {.check}
 
-+ Otwórz edytor: <a href="http://jumpto.cc/web-wanted" target="_blank">jumpto.cc/web-wanted</a>. Jeśli pracujesz online, możesz również posłużyć się wersją wyświetloną poniżej. 
++ Otwórz edytor: <a href="http://jumpto.cc/html-poszukiwany" target="_blank">jumpto.cc/html-poszukiwany</a>. Jeśli pracujesz online, możesz również posłużyć się wersją wyświetloną poniżej.
 
 <div class="trinket">
-	<iframe src="https://trinket.io/embed/html/58318bee1f" width="100%" height="550" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+	<iframe src="https://trinket.io/html/aa8cd3c9f4" width="100%" height="550" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 	</iframe>
 </div>
 
@@ -56,7 +56,7 @@ Zacznijmy od edycji kodu CSS na potrzeby plakatu.
 
 + Zmień `width` plakatu na wartość `400px`. Co dzieje się z plakatem?
 
-+ Dodajmy CSS, by ustawić kolor tła plakatu. Przejdź do końca 5. linii kodu i naciśnij return, by otrzymać nową pustą linię.  
++ Dodajmy CSS, by ustawić kolor tła plakatu. Przejdź do końca 5. linii kodu i naciśnij enter, by otrzymać nową pustą linię.
 
 	![screenshot](wanted-newline.png)
 
