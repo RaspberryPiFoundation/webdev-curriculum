@@ -1,7 +1,7 @@
 ---
 title: Wanted!
 level: HTML & CSS 1
-language: en-GB
+language: pl-PL
 embeds: "*.png"
 materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 stylesheet: web
@@ -9,24 +9,25 @@ stylesheet: web
 
 # Wstęp {.intro}
 
-In this project, you'll learn how to make your own poster.
+W tym projekcie nauczycie się, jak stworzyć własny plakat. 
 
 ![screenshot](wanted-final.png)
 
-# Krok 1: Styling your poster {.activity}
+# Krok 1: Stylizowanie plakatu {.activity}
 
-Let's start by editing the CSS code for the poster.
+Zacznijmy od edycji kodu CSS na potrzeby plakatu. 
+
 
 ## Zadania do wykonania {.check}
 
-+ Open this trinket: <a href="http://jumpto.cc/web-wanted" target="_blank">jumpto.cc/web-wanted</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Otwórz edytor: <a href="http://jumpto.cc/html-poszukiwany" target="_blank">jumpto.cc/html-poszukiwany</a>. Jeśli pracujesz online, możesz również posłużyć się wersją wyświetloną poniżej.
 
 <div class="trinket">
-	<iframe src="https://trinket.io/embed/html/58318bee1f" width="100%" height="550" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+	<iframe src="https://trinket.io/html/aa8cd3c9f4" width="100%" height="550" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 	</iframe>
 </div>
 
-+ Click on the "style.css" tab. You'll notice that there are already CSS properties for the `div` containing the different parts of the poster.
++ Kliknij w zakładkę "style.css". Zauważysz, że znajdują się tam już właściwości CSS dla `div`, które zawierają różne części plakatu. 
 
 	```
 	div {
@@ -37,58 +38,57 @@ Let's start by editing the CSS code for the poster.
     }	
 	```
 
-+ Let's start by altering the `text-align` property:
++ Zacznijmy od modyfikacji właściwości `text-align`:
 
 	```
 	text-align: center;
 	```
 	
-	What happens when you change the word `center` to `left` or `right`?
+	Co się stanie, gdy zamienisz słowo `center` słowem `left` albo `right`?
 
-+ How about the `border` property?
++ A co z właściwością `border`?
 
 	```
 	border: 2px solid black;
 	```
 
-	`2px` in the code above means 2 pixels. What happens when you change `2px solid black` to `4px dotted red`?
+	`2px` w powyższym kodzie oznacza 2 piksele. Co się stanie, jeśli zamienisz frazę `2px solid black` frazą `4px dotted red`?
 
-+ Change the `width` of the poster to `400px`. What happens to the poster?
++ Zmień `width` plakatu na wartość `400px`. Co dzieje się z plakatem?
 
-+ Let's add some CSS to set the background colour of the poster. Go to the end of line 5 of your code and press return, so that you have a new blank line.
++ Dodajmy CSS, by ustawić kolor tła plakatu. Przejdź do końca 5. linii kodu i naciśnij enter, by otrzymać nową pustą linię.
 
 	![screenshot](wanted-newline.png)
 
-	Type the following code on your new blank line:
+	Wprowadź poniższy kod do nowej pustej linii:
 
 	```
 	background: yellow;
 	```
 
-	Make sure that you type in the code _exactly_ as it is above. You should notice that the background of the `<div>` is now yellow.
-
+	Upewniej się, by wprowadzić kod w _dokładnie_ takiej formie jak powyżej. Powinieneś zauważyć, że tło `<div>` jest teraz żółte. 
 	![screenshot](wanted-background.png)
 
-## Wyzwanie: Improving your poster {.challenge}
-Add the following CSS property to your `div` style:
+## Wyzwanie: Polepszanie plakatu {.challenge}
+Dodaj poniższą właściwość CSS do stylu `div`: 
 
 ```
 border-radius: 40px;
 ```
 
-What does this property do? What happens if you change the number in the code above?
+Co ta właściwość oznacza? Co się stanie, jeśli zmienisz liczbę w powyższym kodzie? 
 
 ## Zapisz swój projekt {.save}
 
-# Krok 2: Styling images {.activity}
+# Krok 2: Stylizowanie obrazów {.activity}
 
-Let's improve the style of the image in the poster.
+Ulepszmy styl obrazu na plakacie. 
 
 ## Zadania do wykonania {.check}
 
-+ At the moment, there aren't any CSS properties for your `<img>` tag, so let's add some!
++ W tej chwili nie ma żadnych właściwości w tagu `<img>`, więć dodajmy jakieś! 
 
-	Firstly, add the following code underneath the CSS for your div:
+	Po pierwsze, dodaj następujący kod pod CSSem twojego div:
 
 	```
 	img {
@@ -98,52 +98,51 @@ Let's improve the style of the image in the poster.
 
 	![screenshot](wanted-img-css.png)
 
-+ We can now add CSS properties for images between the `{` and `}` curly brackets.
++ Możemy teraz dodawać właściwości CSS dla obrazów pomiędzy nawiasami klamrowymi - tym: `{` a tym: `}`.
 
-	For example, add this code between the curly brackets to set the width of the image:
-
+	W ramach przykładu dodaj następujący kod pomiędzy nawiasami klamrowymi, by ustawić szerokość obrazu:
 	```
 	width: 100px;
 	```
 
-	You'll see that the size of the image changes, so that its width is 100 pixels.
+	Zobaczysz, że rozmiar obrazu zmienia się, a jego szerokość wynosi 100 pikseli. 
 
 	![screenshot](wanted-img-width.png)
 
-+ You can also add a border around the image with this code:
++ Możesz ponadto dodać obwódkę dookoła obrazu za pomocą tego kodu: 
 
 	```
 	border: 1px solid black;
 	```
 
-+ Have you noticed that there's not much space between the image and the border?
++ Czy zauważyłeś, że pomiędzy obrazem a obwódką nie ma zbyt wiele miejsca? 
 
 	![screenshot](wanted-img-border.png)
 
-	You can fix this by adding some padding around the image:
+	Możesz to naprawić poprzez dodanie wypełnienia wokół obrazu: 
 
 	```
 	padding: 10px;
 	```
 
-	Padding is the space between the content (in this case an image) and its border.
+	Wypełnienie to przestrzeń pomiędzy zawartością (w tym wypadku - obrazem) a jej obwódką. 
 
 	![screenshot](wanted-img-padding.png)
 
-	What do you think would happen if you changed the padding to `50px`?
+	Jak myślisz - co zaszłoby, gdybyś zmienił wartość wypełnienia na `50px`?
 
-## Wyzwanie: Improving your image {.challenge}
-Can you give your image a background colour? Or a rounded border?
+## Wyzwanie: Polepszanie obrazu {.challenge}
+Czy potrafisz wzbogacić swój obraz o kolor tła? Albo o zaokrągloną obwódkę? 
 
 ## Zapisz swój projekt {.save}
 
-# Step 3: Styling headings { .activity .new-page }
+# Krok 3: Stylizowanie nagłówków { .activity .new-page }
 
-Let's improve the style of the `<h1>` heading.
+Ulepszmy styl nagłówka `<h1>`.
 
 ## Zadania do wykonania {.check}
 
-+ Add the following code underneath your image's CSS:
++ Dodaj poniższy kod pod CSSem obrazu: 
 
 	```
 	h1 {
@@ -151,27 +150,26 @@ Let's improve the style of the `<h1>` heading.
 	}
 	```
 
-	This is where you'll add CSS properties for your main `<h1>` heading.
+	To właśnie tu dodasz właściwości CSS dla twojego głównego nagłówka `<h1>`.
 
-+ To change the font of your `<h1>` headings, add the following code between the curly brackets:
-
++ Aby zmienić czcionkę twojego nagłówka `<h1>`, dodaj następujący kod pomiędzy nawiasami klamrowymi: 
 	```
 	font-family: Impact;
 	```
 
-+ You can also change the size of the heading:
++ Możesz również zmienić rozmiar nagłówka: 
 
 	```
 	font-size: 50pt;
 	```
 
-+ 	Have you noticed that there's a big space between the `<h1>` heading and the stuff around it?
++ 	Czy zauwazyłeś, że pomiędzy nagłówkiem `<h1>` i jego otoczeniem znajduje się duża przestrzeń? 
 
 	![screenshot](wanted-h1-margin.png)
 
-	This is because there's a margin around the heading. A margin is the space between the element (in this case a heading) and the other stuff around it.
+	To dlatego, że dookoła nagłówka znajduje się margines. Margines to przestrzeń pomiędzy elementem (w tym wypadku - nagłówkiem) a jego otoczeniem. 
 
-	You can make the margin smaller with this code:
+	Można zmniejszyć margines za pomocą tego kodu: 
 
 	```
 	margin: 10px;
@@ -179,18 +177,18 @@ Let's improve the style of the `<h1>` heading.
 
 	![screenshot](wanted-h1-margin-small.png)
 
-+ You can also underline your heading:
++ Można ponadto podkreślić nagłówek: 
 
 	```
 	text-decoration: underline;
 	```
 
-## Wyzwanie: Make your poster awesome! {.challenge}
-Add more CSS code to style your `<h3>` headings and your paragraphs. 
+## Wyzwanie: Spraw, aby plakat rządził! {.challenge}
+Dodaj więcej kodu CSS, by wystylizować swój nagłówek `<h3>` oraz akapity. 
 
 ![screenshot](wanted-final.png)
 
-Here's a list of some CSS properties you can use:
+Oto lista właściwości CSS, którymi możesz się posłużyć:
 
 ```
 color: black;
@@ -207,7 +205,7 @@ height: 100px;
 
 ## Zapisz swój projekt {.save}
 
-## Wyzwanie: Advertise an event! {.challenge}
-Can you make a poster for an event happening at your school? It could be a play, a sporting event, or even a poster advertising your Code Club!
+## Wyzwanie: Zareklamuj wydarzenie! {.challenge}
+Czy potrafisz stworzyć plakat reklamujący imprezę w twojej szkole? Może to być przedstawienie teatralne, wydarzenie sportowe, a nawet reklama dla spotkania Code Clubu! 
 
 ## Zapisz swój projekt {.save}
