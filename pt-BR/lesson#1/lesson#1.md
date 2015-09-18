@@ -44,7 +44,7 @@ e ela termina quando ao final a escrevemos com uma barra:
 `</p>`
 Dessa forma o navegador sabe que qualquer coisa entre duas tags é um parágrafo de texto.
 
-As tagas podem ter atributos, que são pequenas informações úteis sobre o elemento.
+As tags podem ter atributos, que são pequenas informações úteis sobre o elemento.
 Vamos dar uma olhada na tag de link:
 <a href="http://codeclubbrasil.org">Visite o site do Code Club</a>
 `<a>` significa __âncora__, o que é como os links são chamados.
@@ -59,64 +59,61 @@ mas nós adicionamos um atributo na tag de abertura:
 `href` significa _referência de hipertexto_. Quando um text tem links (ligações) com outro texto dizemos que ele é _hipertexto_, por causa disso ele pode conter imagens, sons e podem estarem linkados com outros textos. O que são feitos de modo um pouco diferente que um texto comum.
 `href` diz ao navegador para onde os links devem levar você, e o texto entre as tags será a parte visível do link.
 
-1. Open the `page.html` file.
-2. Ask the volunteer whether you can use X-Ray Goggles or developer tools to look at the code (developer is someone who makes things with code).
+1. Abra o arquivo `page.html`
+2. Pergunte a um voluntário se você pode usar o Óculos de Raio X (X-Ray Googles) ou o Inspetor Web para olhar o código (desenvolvedor é alguém que faz coisas com código).
 
+#### Se você preferir usar o Óculos de Raio X:
+3. Clique no bookmark X-Ray Googles.
+4. Mova seu mouse sob a página. Você pode ver as partes da página acendendo, e ver também com quais tags elas são feitas. Você também pode clicar em cada elemento para ver o seu trecho do código.
 
-#### If you can use X-Ray Goggles:
-3. Click on the X-Ray Goggles bookmarklet. 
-4. Move your mouse around the page. You can see the parts of the page light up, and see what tags they are made of. You can click on each box to see the snippet of code the box is made of.
+#### Se você preferir o Inspetor Web:
+3. Mova o cursor sobre a página. Clique com botão direito em algum local interessante, e então escolha a opção `Inspecionar elemento`. Um painel será aberto e lhe mostrará a página e o seu código.
+4. Mova o mouse por diferentes pedaçõs do código. As áreas correspondentes irão acender, então você pode ver do que ela é feita.
 
-#### If you are using developer tools:
-3. Move around the page. Right click anything interesting, and then click `Inspect element`. A panel will open up which will show you the page's code as the same time as the page.
-4. Move your mouse over different pieces of code. The corresponding things on the page will be highlighted, so you can see which bit does what.
+5. Tente inspecionar todas as partes de uma página. Voce pode descobrir o que os diferentes nomes de tags representam?
 
- 
-5. Try to inspect all parts of the page. Can you figure out what the different tag names stand for?
+Nós já conhecemos `<p>` e `<a>`.
+`<ol>` - lista ordenada 
+`<ul>` - lista não ordenada
+`<li>` - item da lista
+`<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>` - títulos
+`<hr>` - linha horizontal
+`<div>` - uma caixa para agrupar as coisas
+`<img>` - um elemento especial, que diferente das outras tags não possui tag de fechamento. Serve para carregar imagens na página.
 
-We already know `<p>` and `<a>`.
-`<ol>` - ordered list 
-`<ul>` - unordered list
-`<li>` - list item
-`<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>` - headings
-`<hr>` - horizontal rule
-`<div>` - a box for grouping things
-`<img>` - a special element, which unlike others doesn't have a closing tag. We use it for putting the images in.
+Também existem algumas tags que serão sempre usadas em documentos HTML, são elas:
+`<html>` - fala para o navegador onde ele vai pegar o código
+`<head>` - dentro do `<head>` é onde nós colocaremos as coisas úteis para o navegador, mas não serão visíveis para na página. Como exemplo disso temos o `<title>` aqui, que será o título da aba na janela do navegador.
+`<body>` - É onde nós colocaremos todas as coisas que desejaremos que apareça na página.
 
-There are also some tags that we will always use in HTML documents, and they are:
-`<html>` - tells the browser where we put out code
-`<head>` - inside `<head>` we put things which may be useful to the browser, but which don't appear as text on the page. In this example we put a `<title>` there, which then shows up at the top of the browser window.
-`<body>` - that's where we put the things we want to appear on the page
+6. Atenção como as tags podem __aninhar__ umas com as outras. Nós temos a tag `<a>`, que está dentro de um `<p>`, que está por sua vez dentro de um `<div>`, posicionado dentro do `<body>`.
 
-6. Notice how tags can __nest__ within one another. We have the `<a>` tag, which is inside a `<p>` tag, which in turn is inside `<div>`, which is placed inside `<body>`.
+Sempre que isso acontece, nós dizemos que a tag que está sendo envolvida é a _filha_ do elemento _pai_ que está o envolvendo. É bem parecido com uma árvore geneológica!
 
-Whenever this happens, we say that the tag that is being wrapped is the _child_ and the tag that does the wrapping is the __parent__ element. It's a little bit like a family tree!
+7. Para o navegador todas as tags do mesmo tipo são a mesma, mas você pode diferenciá-las usando classes (class) e ids (pronuncia-se ai-dís)
+Por exemplo, alguns dos seus parágrafos devem ser introduções, então você pode atribuir a ele a classe `introducao`. Veja se consegue identificar algumas classes dentro do arquivo `page.html`.
 
-7. To the browser all tags of the same kind are the same, but you can mark them out using classes and ids (pronounced aye-dees). 
-For example, some of your paragraphs might be introductions, so you could give them a class `introduction`. See if you can spot some classes inside `page.html` .
+8. Ids são usados para marcar itens únicos em sua página. Veja se consegue identificar a tag `div` com um `id` de `gatinho` na página.
 
-8. Ids are used to mark unique items on your page. See if you can spot the `div` tag with an `id` of `kitten` in the page.
-
-9. What will happen if you move things around? Let's go back to the code editor. Find an `<ol>` tag in the code and select it with all its got inside, like so:
+9. O que acontecerá se você trocar as coisas de lugar? Vamos voltar para o editor de código. Encontre uma tag `<ol>` no código e selecione com tudo que estiver dentro, desse modo:
 
 ```HTML
 <ol>
-	<li>Kittens</li>
-	<li>Cake</li>
-	<li>Lie-ins</li>
-	<li>Playing games</li>
+	<li>Gatinhos</li>
+	<li>Bolo</li>
+	<li>Descansos</li>
+	<li>Jogando</li>
 </ol>
 ```
+Agora copie e mova as coisas de lugar. Salve a página e atualize o navegador. Como a ordem do seu código afetou a ordem das coisas que estão sendo exibidas no navegador?
 
-Now copy it and move it somewhere else. Save the page and refresh it in the browser. How does the order of your code affect the order in which things are displayed in the browser?
+## Experimente
 
-## Things to try
-
-* Create your own paragraph of text.
-* Make a link that points to another part of page (hint: it is something to do with id - look out for a link that takes you to the kitten).
-* Add your own headings where you think they might be useful. What happens if you change the heading numbers, for example from `<h3>` to `<h4>`?
-* What would you have to do to link to a different page?
-* If you are using developer tools, once you bring up the panel with the code try double-clicking on the code that looks interesting. See if you can change it. Now you get a live preview without having to move between the browser and the code editor. Cool, huh? Now refresh the page. What happened? When you edit code like this it doesn't get saved, so you can preview what would happen if you did, but don't mess up your file, so you can experiment lots and always go back.
+* Criar seu próprio parágrafo.
+* Fazer um link que aponte para outra parte da página (dica: é algo com id - procure por um link que leve você ao gatinho).
+* Adicione seus títulos onde você acha que vão ser uteis. O que acontece se você mudar o número do título, por exmeplo de um `<h3>` para um `<h4>`?
+* O que teria que fazer para fazer um link para uma página diferente?
+* Se você estiver usando Inspetor Web, uma vez que você abri-lo tente clicar duas vezes em um código que parece interessante. Veja se você consegue mudá-lo. Agora você tem uma prévia do que irá acontecer sem alternar entre o navegador e o editor de códigos. Maneiro, né? Agora, atualize a página. O que aconteceu? Quando você editar o código dessa maneira ele não é salvo, então você pode visualizar o que aconteceria, mas sem não atrapalhar seu arquivo, então você pode experimentar muitas e sempre voltar.
 
 
 
