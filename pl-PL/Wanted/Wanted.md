@@ -23,7 +23,7 @@ Zacznijmy od edycji kodu CSS na potrzeby plakatu.
 + Otwórz edytor: <a href="http://jumpto.cc/html-poszukiwany" target="_blank">jumpto.cc/html-poszukiwany</a>. Jeśli pracujesz online, możesz również posłużyć się wersją wyświetloną poniżej.
 
 <div class="trinket">
-	<iframe src="https://trinket.io/html/aa8cd3c9f4" width="100%" height="550" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+	<iframe src="https://trinket.io/embed/html/aa8cd3c9f4" width="100%" height="550" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 	</iframe>
 </div>
 
