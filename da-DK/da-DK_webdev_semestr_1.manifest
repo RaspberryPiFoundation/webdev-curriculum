@@ -1,10 +1,9 @@
 {
-    "description": “HTML & CSS”,
+    "description": "HTML & CSS",
     "id": "html_01",
-    "language": “da-DK”,
+    "language": "da-DK",
     "number": 5,
     "title": "HTML & CSS 1",
-    "category": "cat-html",
     "projects":
     [
         {

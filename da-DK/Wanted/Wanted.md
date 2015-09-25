@@ -1,7 +1,7 @@
 ---
 title: Efterlyst!
 level: HTML & CSS 1
-language: dk-DK
+language: da-DK
 embeds: "*.png"
 materials: ["Klubleder Ressourcer/*.*","Projekt Ressourcer/*.*"]
 stylesheet: web
