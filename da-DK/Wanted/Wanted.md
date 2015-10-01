@@ -19,7 +19,7 @@ Lad os begynde med at redigere CSS koden til din plakat.
 
 ## Arbejdsliste { .check}
 
-+ Åbn denne trinket: <a href="https://trinket.io/html/a9a3ec7e23" target="_blank">web-efterlyst</a>. Hvis du læser dette online, så kan du også benytte den indlejrede version af denne trinket nedenfor. 
++ Åbn denne trinket: <a href="https://trinket.io/html/a9a3ec7e23" target="_blank">web-efterlyst</a>. Hvis du læser dette online, så kan du også benytte den indlejrede trinket nedenfor. 
 
 <div class="trinket">
 	<iframe src="https://trinket.io/embed/html/0f66cb6386" width="100%" height="550" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
