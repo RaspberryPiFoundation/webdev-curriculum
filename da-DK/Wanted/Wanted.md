@@ -43,7 +43,7 @@ Lad os begynde med at redigere CSS koden til din plakat.
 	text-align: center;
 ``` 
 	
-	Hvad sker der, hvis du ændrer ordet `center` til `left` eller `right`?
+Hvad sker der, hvis du ændrer ordet `center` til `left` eller `right`?
 
 + Hvad med `border` egenskaben?
 
@@ -51,23 +51,23 @@ Lad os begynde med at redigere CSS koden til din plakat.
 	border: 2px solid black;
 ``` 
 
-	`2px` i ovenstående kode betyder 2 pixels. Hvad sker der, hvis du ændrer `2px solid black` til `4px dotted red`? 
+`2px` i ovenstående kode betyder 2 pixels. Hvad sker der, hvis du ændrer `2px solid black` til `4px dotted red`? 
 
 + Ændr plakatens `width` til `400px`. Hvad sker der med plakaten?
 
 + Lad os tilføje noget CSS for at lave en baggrundsfarve til plakaten. Gå til linje 5 i din kode og tryk enter, så du får en ny tom linje.
 
-	![screenshot](wanted-newline.png)
+![screenshot](wanted-newline.png)
 
-	Indtast følgende kode i din nye tomme linje:
+Indtast følgende kode i din nye tomme linje:
 
 ``` 
 	background: yellow;
 ``` 
 
-	Sørg for at indtaste koden _nøjagtigt_ som den ser ud ovenfor. Nu skulle baggrunden af din `<div>` gerne være gul. 
+Sørg for at indtaste koden _nøjagtigt_ som den ser ud ovenfor. Nu skulle baggrunden af din `<div>` gerne være gul. 
 
-	![screenshot](wanted-background.png)
+![screenshot](wanted-background.png)
 
 ##Udfordring: Forbedr din plakat {.challenge}
 Tilføj følgende CSS egenskab til din `div` style: 
@@ -88,7 +88,7 @@ Lad os forbedre stylen af billedet på din plakat.
 
 + Ligenu er der ingen CSS egenskaber for dit `<img>` tag, så lad os tilføje nogle!
 
-	Først, tilføj følgende kode under CSS'en for din div:
+Først, tilføj følgende kode under CSS'en for din div:
 
 ``` 
 	img {
@@ -96,19 +96,19 @@ Lad os forbedre stylen af billedet på din plakat.
 	}
 ``` 
 
-	![screenshot](wanted-img-css.png)
+![screenshot](wanted-img-css.png)
 
 + Nu kan vi tilføje CSS egenskaber til billeder mellem `{` og `}` parenteserne.
 
-	For eksempel, tilføj denne kode mellem de krøllede paranteser til at definere bredden på billedet:
+For eksempel, tilføj denne kode mellem de krøllede paranteser til at definere bredden på billedet:
 
 ``` 
 	width: 100px;
 ``` 
 
-	Du kan se at størrelsen på billedet ændrer sig, sådan at bredden nu er 100 pixels.
+Du kan se at størrelsen på billedet ændrer sig, sådan at bredden nu er 100 pixels.
 
-	![screenshot](wanted-img-width.png)
+![screenshot](wanted-img-width.png)
 
 + Du kan også tilføje en _border_ (kant) til dit billede med denne kode:
 
@@ -118,19 +118,19 @@ Lad os forbedre stylen af billedet på din plakat.
 
 + Har du lagt mærke til, at der ikke så meget afstand mellem billedet og kanten?
 
-	![screenshot](wanted-img-border.png)
+![screenshot](wanted-img-border.png)
 
-	Dette kan du løse ved at tilføje noget _padding_ (luft) rundt om billedet:
+Dette kan du løse ved at tilføje noget _padding_ (luft) rundt om billedet:
 
 ``` 
 	padding: 10px;
 ``` 
 
-	Padding er afstanden mellem indholdet (i dette tilfælde et billede) og dets kant.
+Padding er afstanden mellem indholdet (i dette tilfælde et billede) og dets kant.
 
-	![screenshot](wanted-img-padding.png)
+![screenshot](wanted-img-padding.png)
 
-	Hvad tror du der sker, hvis du ændrer padding til `50px`? 
+Hvad tror du der sker, hvis du ændrer padding til `50px`? 
 
 ##Udfordring: Forbedr dit billede {.challenge}
 Kan du tilføje en baggrundsfarve til dit billede? Eller en rund kant?  
@@ -151,7 +151,7 @@ Lad os forbedre stylingen af `<h1>` overskriften.
 	}
 ``` 
 
-	Det er så her du tilføjer CSS egenskaber til din `<h1>` hovedoverskrift.
+Det er så her du tilføjer CSS egenskaber til din `<h1>` hovedoverskrift.
 
 + For at ændre fonten på din `<h1>` overskrift, så tilføj følgende kode mellem de krøllede paranteser:
 
@@ -167,17 +167,17 @@ Lad os forbedre stylingen af `<h1>` overskriften.
 
 + 	Har du lagt mærke til, at der er ganske stor afstand mellem `<h1>` overskriften og det der ligger rundt om?
 
-	![screenshot](wanted-h1-margin.png)
+![screenshot](wanted-h1-margin.png)
 
-	Det er fordi der er en margin omkring overskriften. En margin er afstanden mellem et element (i dette tilfælde en overskrift) og alt det andet. 
+Det er fordi der er en margin omkring overskriften. En margin er afstanden mellem et element (i dette tilfælde en overskrift) og alt det andet. 
 
-	Du kan lave din margin mindre med denne kode:
+Du kan lave din margin mindre med denne kode:
 
 ``` 
 	margin: 10px;
 ``` 
 
-	![screenshot](wanted-h1-margin-small.png)
+![screenshot](wanted-h1-margin-small.png)
 
 + Du kan også understrege din overskrift:
 
