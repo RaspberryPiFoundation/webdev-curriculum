@@ -25,3 +25,8 @@ https://plus.google.com/communities/107429287353708601653
 
 See [LICENSE.md](LICENSE.md)
 
+***
+
+Cross browser testing of our projects site is supported by our friends at BrowserStack
+
+[![BrowserStack Logo](http://codeclub-assets.s3.amazonaws.com/public/browserstack-logo-black.png?bs)](https://www.browserstack.com/)
