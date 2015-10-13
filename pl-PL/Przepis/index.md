@@ -75,7 +75,7 @@ Twoja strona powinna wyglądać mniej więcej tak:
 
 ## Zapisz swój projekt {.save}
 
-# Krok 3: Instrukcja { .activity }
+# Krok 3: Sposób przygotowania { .activity }
 
 Następnie wyjaśnijmy, jak przygotować potrawę.
 
@@ -88,7 +88,7 @@ Lista uporządkowana to lista numerowana - używa się jej, gdy kolejność ma z
 Dodaj poniższy kod pod listą składników, upewniając się, że wciąż znajduje się on wewnątrz taga `<body>`:
 
 ```
-<h3>Instrukcja:</h3>
+<h3>Sposób przygotowania:</h3>
 
 <ol>
 
@@ -110,7 +110,7 @@ Zauważ, że elementy listy są automatycznie numerowane!
 ## Wyzwanie: Kolejne kroki {.challenge}
 Czy potrafisz dodać wszystkie kroki przygotowania potrawy?
 
-Twoja instrukcja powinna wyglądać mniej więcej tak:
+Twój przepis powinien wyglądać mniej więcej tak:
 
 ![screenshot](recipe-more-method.png)
 
@@ -208,19 +208,19 @@ ul {
 ![screenshot](recipe-ul-css.png)
 
 ## Wyzwanie: Więcej kolorów! {.challenge}
-Zmień kolory w twoim kodzie poprzez użycie nazw kolorów, wartości `rgb()` i hex kodu. Listę całego mnóstwa kolorów znajdziesz tu: <a href="http://jumpto.cc/web-colours" target="_blank">jumpto.cc/web-colours</a>.
+Zmień kolory w twoim kodzie poprzez użycie nazw kolorów, wartości `rgb()` i hex kodu. Listę całego mnóstwa kolorów znajdziesz tu: <a href="http://jumpto.cc/web-colours" target="_blank">jumpto.cc/web-colours</a>
 
 Oto kilka przykładów kolorów:
 
-+ Czerwony można zapisać jako:
-	+ `red` (no jasne!)
-	+ `rgb(255,0,0)` (mnóstwo czerwieni, bez zieleni i niebieskiego)
-	+ `#ff0000`
+Czerwony można zapisać jako:
++ `red` (no jasne!)
++ `rgb(255,0,0)` (dużo czerwieni, bez zieleni i niebieskiego)
++ `#ff0000`
 
-+ Oliwkowy można zapisać jako:
-	+ `olive`
-	+ `rgb(128, 128, 0)` (odrobina czerwieni i zieleni, bez niebieskiego)
-	+ `#808000`
+Oliwkowy można zapisać jako:
++ `olive`
++ `rgb(128, 128, 0)` (trochę czerwieni i zieleni, bez niebieskiego)
++ `#808000`
 
 Upewnij się, że użyte kolory pasują do twojego przepisu!
 
@@ -245,7 +245,7 @@ font-family: Arial / Comic Sans MS / Courier / Impact / Tahoma;
 font-size: 12pt;
 font-weight: bold;
 
-<img src="image-link-goes-here">
+<img src="tutaj-wpisz-adres-url-obrazka">
 ```
 
 ## Zachowaj swój projekt {.save}
