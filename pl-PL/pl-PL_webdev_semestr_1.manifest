@@ -25,6 +25,12 @@
             "beta": true,
             "filename": "Wanted/Wanted.md",
             "note": "Wanted/Wanted - notes.md"
+        },
+        {
+            "number": 4,
+            "beta": true,
+            "filename": "Przepis/index.md",
+            "note": "Przepis/Przepis - informacje.md"
         }
 
     ],
