@@ -1,0 +1,89 @@
+span
+{
+	display: inline-block; /* Allows us to use transforms on our spans */
+	margin: 8px; /* Leave space around our spans */
+	box-shadow: 1px 2px 2px grey; /* Make the words look like they are stuck on the page. */
+}
+
+body {
+  background-color: white;
+  /* Make sure that our message is in the middle of the page with some space around it. */
+	padding: 30px;
+	max-width: 450px;
+	margin: auto;
+}
+
+.newspaper {
+	background-color: antiquewhite;
+	font-family: "Times New Roman";
+	font-weight: bold;
+}
+
+.magazine1, .magazine2 { /* Notice that we can use a comma-separated list of classes instead of repeating ourselves */
+	font-family: Verdana;
+	font-weight: 900; /* What happens if you change this number? */
+	color:white;
+}
+
+.magazine1  {
+	background-color: teal;
+	text-transform: uppercase; /* Turn all letters to capitals */
+}
+
+.magazine2 {
+	background-image: url('pink-pattern.png');
+  color: fuchsia;
+}
+
+.comic {
+  background-color: yellow;
+  color: red;
+	font-family: 'Bangers', cursive;
+	font-weight: bolder;
+	text-transform: uppercase; /* Turn all letters to capitals */
+}
+
+.manuscript {
+	background-image: url('rough-paper.png');
+	color: saddlebrown;
+	font-family: 'Italianno', cursive;
+	font-style: italic;
+}
+
+.printout {
+	background-image: url('computer-printout-paper.png');
+	color: black;
+	font-family: 'VT323', sans-serif;
+	font-size: larger;
+}
+
+.medium {
+	font-size: 15px;
+	padding: 6px;
+}
+
+.big {
+	font-size: 20px;
+	padding: 8px;
+}
+
+.reallybig {
+	font-size: 30px;
+	padding: 10px;
+}
+
+.rotateleft {
+	transform: rotate(-5deg);
+}
+
+.rotateright {
+	transform: rotate(5deg);
+}
+
+.skewleft {
+	transform: skewX(10deg);
+}
+
+.skewright {
+	transform: skewX(-10deg);
+}

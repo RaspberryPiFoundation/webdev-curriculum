@@ -1,0 +1,67 @@
+span
+{
+	display: inline-block; /* Allows us to use transforms on our spans */
+	margin: 8px; /* Leave space around our spans */
+	box-shadow: 1px 2px 2px grey; /* Make the words look like they are stuck on the page. */
+}
+
+body {
+  background-color: white;
+  /* Make sure that our message is in the middle of the page with some space around it. */
+	padding: 30px;
+	max-width: 350px;
+	margin: auto;
+}
+
+.newspaper {
+	background-color: antiquewhite;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+.magazine1, .magazine2 { /* Notice that we can use a comma-separated list of classes instead of repeating ourselves */
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: 900;
+	color:white;
+}
+
+.magazine1  {
+	background-color: teal;
+	text-transform: uppercase; /* Turn all letters to capitals */
+}
+
+.magazine2 {
+	background-image: url('pink-pattern.png');
+  color: fuchsia;
+}
+
+.medium {
+	font-size: 20px;
+	padding: 8px;
+}
+
+.big {
+	font-size: 30px;
+	padding: 10px;
+}
+
+.reallybig {
+	font-size: 40px;
+	padding: 15px;
+}
+
+.rotateleft {
+	transform: rotate(-5deg);
+}
+
+.rotateright {
+	transform: rotate(5deg);
+}
+
+.skewleft {
+	transform: skewX(10deg);
+}
+
+.skewright {
+	transform: skewX(-10deg);
+}
