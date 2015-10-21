@@ -31,8 +31,13 @@
             "beta": true,
             "filename": "Przepis/index.md",
             "note": "Przepis/Przepis - informacje.md"
+        },
+        {
+            "number": 5,
+            "beta": true,
+            "filename": "Zbuduj Robota/index.md",
+            "note": "Zbuduj Robota/Zbuduj Robota - informacje.md"
         }
-
     ],
 
     "extras": [
