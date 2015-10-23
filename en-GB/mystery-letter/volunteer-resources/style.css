@@ -1,13 +1,12 @@
 span
 {
-	display: inline-block; /* Allows us to use transforms on our spans */
-	margin: 8px; /* Leave space around our spans */
-	box-shadow: 1px 2px 2px grey; /* Make the words look like they are stuck on the page. */
+	display: inline-block; 
+	margin: 8px; 
+	box-shadow: 1px 2px 2px grey; 
 }
 
 body {
-  background-color: white;
-  /* Make sure that our message is in the middle of the page with some space around it. */
+ 	background-color: white;
 	padding: 30px;
 	max-width: 450px;
 	margin: auto;
@@ -19,28 +18,25 @@ body {
 	font-weight: bold;
 }
 
-.magazine1, .magazine2 { /* Notice that we can use a comma-separated list of classes instead of repeating ourselves */
-	font-family: Verdana;
-	font-weight: 900; /* What happens if you change this number? */
-	color:white;
-}
-
 .magazine1  {
-	background-color: teal;
-	text-transform: uppercase; /* Turn all letters to capitals */
+ 	background-color: teal;
+ 	color:white;
+ 	font-family: Verdana;
+	font-weight: 900;
+	text-transform: uppercase; 
 }
 
 .magazine2 {
 	background-image: url('pink-pattern.png');
-  color: fuchsia;
+  	color: fuchsia;
+  	font-family: Verdana;
+	font-weight: 900;
 }
 
 .comic {
-  background-color: yellow;
-  color: red;
-	font-family: 'Bangers', cursive;
-	font-weight: bolder;
-	text-transform: uppercase; /* Turn all letters to capitals */
+ 	background-color: yellow;
+  	color: red;
+  	font-weight: bold;
 }
 
 .manuscript {
