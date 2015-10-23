@@ -51,30 +51,30 @@ Her er nogle flere tags:
 
 + Prøv at ændre en af dine tekstparagrafer i din HTML (til venstre). Klik på 'Run'. Nu bør du se, at din webside ændrer sig (i højre side)! 
 
-	![screenshot](birthday-edit-html.png) SKIFT
+	![screenshot](birthday-edit-html.png)  
 
 + Hvis du har lavet en fejl og har lyst til at fortryde dine ændringer, så kan du klikke på menuknappen og derefter 'Reset'. Prøv det selv! 
 
-	![screenshot](birthday-reset.png) SKIFT
+	![screenshot](birthday-reset.png)  
 
 ## Gem dit projekt {.save}
 
 __Du behøver ikke have en Trinket konto for at kunne gemme dine projekter!__  
 
-Hvis du ikke har en Trinket konto, så klik på pil-ikonet, der vender nedad, og klik så på 'Link'. Så vil du få et link, som du kan gemme og vende tilbage til senere. Dette skal du gøre hver gang, du laver ændringer, du gerne vil gemme for linket ændrer sig tilsvarende! 
+Hvis du ikke har en Trinket konto, så klik på pil-ikonet, der vender nedad, og klik så på 'Link'. Så vil du få et link, som du kan gemme og vende tilbage til senere. Dette skal du gøre hver gang du laver ændringer, som du gerne vil gemme, for linket ændrer sig tilsvarende! 
 
-![screenshot](birthday-link.png) SKIFT
+![screenshot](birthday-link.png)  
 
 Hvis du har en Trinket konto, så er den letteste måde at gemme din webside på ved at klikke på 'Remix' knappen øverst til højre. Så gemmer du en kopi af din Trinket på din profil. 
 
-![screenshot](birthday-remix.png) SKIFT
+![screenshot](birthday-remix.png)  
 
 ##Udfordring: Tilføj en ny paragraf {.challenge}
-Kan du tilføje en tredje tekstparagraf til din webside nedenunder dine 2 øvrige paragrafer? Husk at din nye paragraf skal starte med et `<p>` tag og slutte med et `</p>`.
+Kan du tilføje en tredje tekstparagraf til din webside under dine 2 øvrige paragrafer? Husk at din nye paragraf skal starte med et `<p>` tag og slutte med et `</p>`.
  
 Din webside bør se således ud: 
 
-![screenshot](birthday-paragraph.png) SKIFT
+![screenshot](birthday-paragraph.png)  
 
 Kan du tilføje __fed__ (bold) og <u>understreget</u> tekst til din nye paragraf? Du skal bruge `<u>` og `</u>` for at understrege din tekst.  
 
@@ -151,11 +151,11 @@ Du kan bruge andre ord som `boy`, `diamond`, `dinosaur`, `flowers`, `girl`, `rai
 
 	![screenshot](birthday-card-size.png)	
 
-+ Fonten kan også ændres. Gå til linje 24 og ændr `font-family` til `Comic Sans MS` og `font-size` til `16pt`.
++ Skrifttypen (font) kan også ændres. Gå til linje 24 og ændr `font-family` til `Comic Sans MS` og `font-size` til `16pt`.
 
 	![screenshot](birthday-card-font.png)
 
-Du kan benytte andre fonts som fx <span style="font-family: Arial;">arial</span>, <span style="font-family: impact;">Impact</span> og <span style="font-family: tahoma;">Tahoma</span>.  
+Du kan benytte andre skrifttyper som fx <span style="font-family: Arial;">arial</span>, <span style="font-family: impact;">Impact</span> og <span style="font-family: tahoma;">Tahoma</span>.  
 
 ## Gem dit projekt {.save}
 
@@ -171,7 +171,3 @@ Her er et eksempel:
 Nu hvor du har lavet dit kort færdigt, så kan du dele eller e-maile det til nogen. 
 
 ![screenshot](birthday-share.png)
-
-## Community Contributed Translation { .challenge .pdf-hidden }
-
-This project was translated by Kathrine Arens from Centre for Digital Youth Care. Our amazing translation volunteers help us give children around the world the chance to learn to code.  You can help us reach more children by translating a Code Club project via [Github](https://github.com/CodeClub/curriculum_documentation/blob/master/contributing.md) or by getting in touch with us at hello@codeclubworld.
