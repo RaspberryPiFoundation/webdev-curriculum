@@ -33,7 +33,7 @@ Let's get your message onto a webpage.
 + Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>. If you're reading this online, you can also use the embedded version of this trinket below.
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/html/b5fbcf112e" width="100%" height="550" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/html/b5fbcf112e" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
