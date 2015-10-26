@@ -1,315 +1,251 @@
 ---
-title: Coding a recipe
-level: HTML&CSS 2
+title: Recipe
+level: HTML & CSS 1
 language: en-GB
 embeds: "*.png"
-materials: "Resources"
+materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 stylesheet: web
-author: Matteo Menapace
-note: "notes.md"
 ...
 
 # Introduction { .intro}
 
-Hey, what's **your favourite dish**? 
+In this project, you’ll learn how to create a webpage for your favourite recipe.
 
-Can you **write down your recipe** for it in HTML[^1] so that anyone on the Web can enjoy making it too?
+![screenshot](recipe-final.png)
 
-<img class="border-less" src="intro.png" title="Inspirational image of someone else using this Web recipe to make a dish">
+# Step 1: Decide on a recipe { .activity}
 
-# Step 1: Are you ready? { .activity}
+Before you get coding, you’ll need to decide on a recipe.
 
 ## Activity Checklist { .check}
 
-Here is a list of things to check before you dig into your recipe.
++ Think about a recipe you want to share with your friends. It could be:
+	+ A recipe you found online;
+	+ Your favourite meal;
+	+ Something you made up!
 
-* **Open your code editor**. Do you have an app on your computer to write your code? 
-	* NO. Talk to your teacher or volunteer about installing a code editor: we recommend [Sublime Text 2](http://www.sublimetext.com/2).
-	* YES. Great, move on.
-* **Create a new file**. 
+The example recipe you’ll see in this project is for a banana milkshake. You can copy this recipe if you can’t find one of your own.
 
-* Here is the bare skeleton of an HTML document, **copy-paste it** into your new file. 
+# Step 2: Ingredients { .activity}
 
-Does it look familiar?
+Let’s list the ingredients that are needed for your recipe.
 
-```HTML
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Code Club recipe</title>
-	</head>
-	<body>
-		HELLO!
-	</body>
-</html>	
+## Activity Checklist { .check}
+
++ Open this template trinket: [jumpto.cc/trinket-template](http://jumpto.cc/trinket-template). If you’re reading this online, you can also use the embedded version of this trinket below.
+
+<div class="trinket">
+  <iframe src="https://trinket.io/embed/html/ef4c882ae6" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+</div>
+
++ For your list of ingredients, you’re going to use an __unordered list__, using the `<ul>` tag. Go to line 8 of the template and add this HTML, replacing the text in the `<h1>` title with the name of your own recipe:
+
 ```
-     
-* **Save your file**. You can save it as whatever you want to call it. Just remember to end your file name with `.html` so that your computer knows it's an HTML file. For instance, you could call your file `recipe.html`. Can you think of a less boring name?
-* Do you know where your HTML file has gone? 
-	* NO. Ok, it's somewhere on your computer. Can you find it?
-	* YES. Good, let's move on.
-	
-* **Open your browser**[^2]. 
-* From your browser, **open your HTML file** . Does it say `HELLO!`? 
-* Go **back to the code editor**. Can you change the `HELLO!` text to something else? 
-* **Save** your HTML file.
-* **Back to your browser**, can you refresh[^3] the page where you opened your HTML file?
-* Great! Now you've got your **tools ready**: code editor to write your code, browser to *debug*[^4] your code.
+<h1>Banana Milkshake</h1>
 
+<h3>Ingredients:</h3>
 
-# Step 2: How do you **make a list**? { .activity}
-
-## Activity Checklist { .check}
-
-**Do you make lists?** For instance, a list of things to do for a party, or a playlist of your favourite videos... you know what we're talking about.
-
-You can **make lists in HTML** too! Here's a code example:
-
-```HTML
 <ul>
-	<li>this is a bullet point</li>
-	<li>this is another point</li>
-	<li>...you get the point</li>
-</ul>	
-```
-	
-* Copy-paste the code above in your HTML file. Where? After the `<body>` *opening tag*, and before the `</body>` *closing tag*.
 
-* Save, go to your browser and refresh the page. What do you see?
-
-<img class="border-less" src="ul.png" title="This is what you should see">
-	 
-## Challenge { .try}
-
-* Can you **make a list of ingredients for your recipe**?
-
-
-# Step 3: How do you **order your lists**? { .activity}
-
-## Activity Checklist { .check}
-
-Not all lists are the same. In some lists, the order of things doesn't matter.
-
-HTML calls these lists `<ul>` which stands for **U**n-ordered **L**ist. In these kind of lists, you put **L**ist **I**tems `<li>` in no particular order, a bit like in your bedroom :)
-
-Now, can you guess what `<ol>` stands for?
-
-Exactly.
-
-## Challenge { .try}
-
-In a recipe, it's quite important to list the steps in a particular order. Because you can't bake a cake, if you haven't prepared the mix first.
-
-* Can you **list the steps to make your favourite dish**, from start to finish?
-
-
-# Step 4: How do you **add images**? { .activity}
-
-## Activity Checklist { .check}
-
-So far, you have the basics for your recipe:
-
-1.  A `<ul>` list of ingredients
-2.  A `<ol>` list of steps, to turn these ingredients into a tasty dish
-
-Some people like to see what a dish will look like once it's made, to decide if they want to make it or not. 
-
-Why not **add an image** or two to whet their appetite?
-
-HTML calls images `<img>` and wants you to write down exactly where to find an image's *source*, or `src`.
-
-* Copy-paste the `banana.jpg` image, from this project's *Resources* folder into the folder where you saved your HTML file.
-
-<!-- this may change if we use Thimble -->
-
-* Add `<img src="banana.jpg">` to your HTML document. Save, go to your browser and refresh your page, you should see some freshly chopped banana slices. Yummy?
-
-
-## Challenge { .try}
-
-* Can you make some images of your ingredients? 
-* Can you **add these images to your recipe's HTML file**?
-
-
-# Step 5: How do you add **extra info**? { .activity}
-
-## Activity Checklist { .check}
-
-Your recipe looks much better now, don't you think?
-
-Still, some people want to know how long it would take them to make this recipe, whether it's an easy or difficult one, how many people it serves, what to call this recipe, and so on.
-
-For a *starter*, you could **add the name of your recipe** at the top of your HTML document, using a `<h1>`, which stands for **H**eading **1** and it's what HTML calls the most important piece of information in a document. What is your recipe called?
-
-## Challenge { .try}
-
-How can you **help people decide**? What kind of information would they want to find in your recipe?
-
-* Think of **what extra information you want to add to your recipe**. Then code it!
-
-
-# Step 6: How do you **make things look stylish**? { .activity .new-page }
-
-## Activity Checklist { .check}
-
-Now your recipe contains all the information one may want.
-
-Should we try and make it look as nice as it tastes?
-
-Ok, have you heard of CSS[^5]? You can use this language to **style your recipe**.
-
-You can write your CSS inside a `<style>` tag, placed in the `<head>` of your HTML document, like in the code example below.
-
-```HTML
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Code Club recipe</title>
-		<style>
-			
-			/* WRITE YOUR CSS UNDER HERE */
-			
-			
-		</style>
-	</head>
-	...
-</html>	
+</ul>
 ```
 
-Just like HTML, CSS needs to be written in a particular way for your browser to make sense of it.
++ View your webpage, and you should see your two headings.
 
-```CSS
-body 
-{
-	max-width: 600px;
-	margin: 30px auto; 
+![screenshot](recipe-headings.png)
+
+You won’t see your list yet though, because you haven’t added any list items to it!
+
++ The next step is to add list items into your list, by using the `<li>` tag. Add the following code inside your `<ul>` tag:
+
+```
+<li>1 banana</li>
+```
+![screenshot](recipe-ul.png)
+
+As your list is unordered, there are no numbers next to the list items, just bullet points.
+
+##Challenge: More ingredients {.challenge}
+Can you add all of the ingredients for __your__ recipe?
+
+Your webpage should look something like this:
+
+![screenshot](recipe-more-ingredients.png)
+
+## Save Your Project {.save}
+
+# Step 3: Method { .activity }
+
+Next, let’s explain how to make your recipe.
+
+## Activity Checklist { .check}
+
++ You’re going to use another list to write your method, but this time you’ll be using an __ordered list__, by using the `<ol>` tag.
+
+An ordered list is a numbered list, which you should use when the order of the steps is important.
+
+Add this code underneath your ingredients list, making sure that it’s still inside your `<body>` tag:
+
+```
+<h3>Method:</h3>
+
+<ol>
+
+</ol>
+```
+
+![screenshot](recipe-method.png)
+
++ Now you just need to add list items into your new ordered list:
+
+```
+<li>Peel the banana and add to a blender</li>
+```
+
+![screenshot](recipe-ol.png)
+
+Notice that the list items are automatically numbered!
+
+##Challenge: More steps {.challenge}
+Can you add all of the steps for making __your__ recipe?
+
+Your method should look something like this:
+
+![screenshot](recipe-more-method.png)
+
+## Save Your Project {.save}
+
+# Step 4: Colours! { .activity}
+
+Let’s add some colour to your recipe webpage.
+
+## Activity Checklist { .check}
+
++ You’ve already learnt how to add coloured text to a webpage. Add this code inside your `style.css` file, to make all of the text in the website body blue:
+
+```
+body {
+    color: blue;
 }
 ```
-	
-## Challenge { .try}	
 
-* Copy-paste the code above into your HTML document. Where? Anywhere between the `<style>` *opening tag* and the `</style>` *closing tag*.
+![screenshot](recipe-blue.png)
 
-* Using your browser's Inspector[^6], can you work out what the `max-width: 600px;` and `margin: 30px auto;` rules do?
++ Your browser knows colours like `blue`, `yellow` and even `lightgreen`, but did you know that your browser actually knows the __names__ of over 500 different colours?
+
+There’s a list of all the colour names you can use: [jumpto.cc/web-colours](http://jumpto.cc/web-colours), which includes colour names like `tomato`, `firebrick` and `peachpuff`.
+
+Change the text colour from `blue` to `tomato`.
+
+![screenshot](recipe-tomato.png)
+
++ Your browser knows the names of 140 colours, but actually knows the __colour values__ of more than 16 million colours!
 
 
-# Step 7: How do you **make things easier to read**? { .activity}
+As you may know, all colours can be made from the primary colours: red, green and blue. To tell the browser which colour to display, you just need to let it know how much of each primary colour to use.
 
-## Activity Checklist { .check}
+The amounts of red, green and blue to use are written as a number between `0` and `255`.
 
-Now your recipe should sit in the middle of the page, instead of sticking to the left. 
+![screenshot](recipe-rgb-img.png)
 
-Using CSS, you can **tell your browser how to display your text**, for example:
+Add this code to the CSS for the body of the webpage, to display a light yellow background:
 
-* Use `font-size` to make text *xx-large*, *xx-small* or anything in between[^7]
-* Use `text-align` to make text stick to the *left*, *right* or *center*
-* Use `font-weight` to make text *bold*, *bolder* or *lighter* 
-* Use `line-height` to squish text lines together, or to give them more room
-* Use `font-family` to choose the font[^8] for your text
-
-## Challenge { .try}
-
-* Play around with the CSS properties above.
-
-* Can you **make your recipe easier to read**, so that even a granny can read it?
-
-You can start from this code example. Place it inside the CSS rule for `body`.
-
-```CSS
-font-family: courier, monospace;
-font-size: 20px;
-line-height: 1.5;
 ```
-    
-<img class="border-less" src="centred.png" title="This is what you should see">
-    
-    
-# Step 8: How do you **add colours**? { .activity}
-  
-## Activity Checklist { .check}
-
-Using CSS, you can **get creative with colours**. Do you want your text to look like <span style="color:tomato;">tomatoes</span> on <span style="background:peachpuff;padding:2px 4px">peachpuff</span>? No problem.
-
-* Copy-paste the code example below into your HTML document. Place it inside the CSS rule for `body`.
- 
-```CSS    
-color: tomato;
-background-color: peachpuff;
+background: rgb(250,250,210);
 ```
-    
-* Save, go to your browser and refresh your page. What do you see?
 
-<img class="border-less" src="peachpuff.png" title="This is what you should see">
+![screenshot](recipe-rgb.png)
 
-Now, how many colours do you know? Your browser knows more than **16 million colours**. Pretty impressive, isn't it? 
++ If you prefer, you can tell the browser which colour to display by using a hexadecimal code (or __hex code__). This works in a similar way to the `rgb()` code above, except that hex codes always start with a `#`, and use hexadecimal ‘numbers’ between `00` and `ff` for the amount of red, green and blue.
 
-The good thing is that you can choose between those millions, and tell your browser exactly which colours you want. 
+![screenshot](recipe-hex-img.png)
 
-Also, there's no need for you to remember any of those colours, because you can use your browser's Inspector to **pick the colours you like**.    
-   
-## Challenge { .try}
+Replace the `rgb()` code in your CSS with this hex code:
 
-* With your HTML page open in your browser, right-click anywhere on your page.
-* Choose **Inspect Element** from the menu that will pop up. 
-* Click on the `<body>` element on the left panel (where your HTML is) and its *Styles* will show up in the right panel.
+```
+background: #fafad2;
+```
 
-You should see something similar to the image below.
+![screenshot](recipe-hex.png)
 
-<img class="border-less" src="inspect-body.png" title="Click on the body element on the left panel and its Styles will show up in the right panel">
+You should see the same light yellow as before!
 
-* Click on the red box next to the word *tomato*. 
+## Save Your Project {.save}
 
-<img class="border-less" src="pick-colour.png" title="When you click on one of these coloured boxes, you can play around with 16 millions colours">
+# Step 5: Finishing touches { .activity}
 
-When you click on one of these coloured boxes, you can play around with 16 millions colours! 
-
-* Use this *colour picker* tool to **change your recipe's colours**, then copy-paste them into your HTML document.
-
-
-# EXTRA How do you **make specific styles**? { .activity}
+Let’s add a little more HTML and CSS to improve your webpage.
 
 ## Activity Checklist { .check}
 
-What if you want to make only *some* parts of your HTML a certain colour?
++ You can add a horizontal line at the end of your recipe, by using the <hr> tag.
 
-CSS and HTML use **different ways to call the same things**. In HTML you say `<body> ... </body>` and in CSS you say `body { ... } ` 
+![screenshot](recipe-hr.png)
 
-* To change the colour of your `<h1>` HTML element, add this CSS. 
+Notice that this tag doesn’t have an end tag, just like the `<img>` tag.
 
-```CSS
-h1 
-{
-	color: maroon;
++ The line you’ve just added doesn’t match the style of the rest of your webpage. Let’s fix that by adding some CSS code:
+
+```
+hr {
+    height: 2px;
+    border: none;
+    background-color: tomato;
 }
-```	
+```
 
-* Save, go to your browser and refresh your page. What do you see?
+![screenshot](recipe-hr-css.png)
 
-Now `<h1>` has a new `color`, while the rest of your page *inherits* the `color` you gave to the `<body>`.
++ You can even change how your bullet points look with this CSS code:
 
-The `h1` `color` takes precedence over the `body` one, because the *selector* `h1` is **more specific** than `body`. CSS likes *specificity*.
+```
+ul {
+    list-style-type: square;
+}
+```
 
-## Challenge { .try}
+![screenshot](recipe-ul-css.png)
 
-* Can you make the ingredients a **different colour** than the steps?
+##Challenge: More colours! {.challenge}
+Change the colours in your code by using colour names, `rgb()` values and hex codes. There’s a list of loads of colours at <a href="http://jumpto.cc/web-colours" target="_blank">jumpto.cc/web-colours</a>.
 
-* What else can you make, using **specific CSS rules**?
+Here are some example colours:
 
-<!-- Footnotes -->
++ Red can be written as:
+	+ `red` (obviously!)
+	+ `rgb(255,0,0)` (loads of red, no green and no blue)
+	+ `#ff0000`
 
-[^1]: **HTML** stands for **H**ow **T**o **M**ake **L**unch... well, no. HTML stands for **H**yper**T**ext **M**arkup **L**anguage, which is the language that every website in the World "speaks". To make a website, you teach your computer how to "translate" your ideas into HTML.
++ Olive can be written as:
+	+ `olive`
+	+ `rgb(128, 128, 0)` (a bit of red and green, and no blue)
+	+ `#808000`
 
+Try to make sure that the colours you use match your recipe!
 
-[^2]: **What's a browser?** A web browser is a special app that knows how to interpret text files written in HTML. The most popular browsers are Internet Explorer, Google Chrome and Mozilla Firefox.
+## Save Your Project {.save}
 
-[^3]: **How do you refresh a page in the browser?** If you're on a Windows computer, use the keyboard shortcut **CTRL+R** (that is, hold the *CTRL* key down and press the *R* key once). On a Mac, use **⌘+R**.
+##Challenge: Reviews {.challenge}
+Ask a few of your friends to leave a review for your recipe. You’ll need to make another list to do this.
 
-[^4]: **What's debugging?** Debugging means to find and correct glitches in your code. It takes both patience and speed, just like catching a flying bug. Luckily, debugging HTML code in your browser is easy: right-click anywhere on a page and choose **Inspect Element**. This will pop open your browser's **Inspector**, where you can see every page's *source code* and much more. When you hover over the source code with your mouse, the corresponding HTML element on the page will light up. 
+![screenshot](recipe-reviews.png)
 
-[^5]: **CSS** deals with how we **C**ook, **S**tyle and **S**erve food... well, no. CSS stands for **C**ascading **S**tyle **S**heets and it's the language you can use to tell your browser to change colours, sizes and many other *stylistic* aspects of your HTML documents.
+## Save Your Project {.save}
 
-[^6]: **What's a browser's Inspector?** In your browser, right-click anywhere on a page and choose **Inspect Element**. This will pop open your browser's **Inspector**, where you can see every page's *source code*, *styles* and much more. When you hover over the source code with your mouse, the corresponding HTML element on the page will light up. When you click on an HTML tag in the source code (left panel), you'll see all its CSS styles (on the right panel).
+##Challenge: More styling {.challenge}
+Can you add an image into your webpage? Or change the font? Here’s how your webpage could look:
 
-[^7]: **How can you control the size of things in CSS?** Using `px`, which stands for *pixel*. Try to go really close to your computer screen: do you see little dots? Every little dot on your computer screen is a *pixel*. So, `20px` means 20 of those little dots.
+![screenshot](recipe-final.png)
 
-[^8]: **What's a font?** You can think of a font as the "dress code" for the letters of the alphabet, numbers and punctuation. You can use fonts to "dress" the same text in many different ways, and express certain moods or feelings, for example <span style="font-family:monospace;font-size: 125%;">this</span>, <span style="font-family:Times,serif;font-size: 125%;">this</span>, <span style="font-family:Helvetica,Arial,sans-serif;font-size: 125%;">this</span>, <span style="font-family:cursive;font-size: 125%;">this</span> or <span style="font-family:Impact,Charcoal,sans-serif;font-size: 115%;">this</span>. You can explore and use hundreds of free fonts on [Google Fonts](https://www.google.com/fonts).  
+Here’s some code that will help you:
+
+```
+font-family: Arial / Comic Sans MS / Courier / Impact / Tahoma;
+font-size: 12pt;
+font-weight: bold;
+
+<img src="image-link-goes-here">
+```
+
+## Save Your Project {.save}

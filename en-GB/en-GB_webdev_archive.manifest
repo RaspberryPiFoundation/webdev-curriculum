@@ -116,11 +116,11 @@
         },
         {
             "number": 9,
-            "filename": "recipe/recipe.md",
+            "filename": "recipe-old/recipe.md",
             "materials":
             [
-                "recipe/Resources/banana.jpg",
-                "recipe/Resources/index.html"
+                "recipe-old/Resources/banana.jpg",
+                "recipe-old/Resources/index.html"
             ]
         },
         {

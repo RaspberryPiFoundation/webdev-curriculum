@@ -26,8 +26,19 @@
             "beta": true,
             "filename": "Wanted/Wanted.md",
             "note": "Wanted/Wanted - notes.md"
+        },
+        {
+            "number": 4,
+            "beta": true,
+            "filename": "Recipe/Recipe.md",
+            "note": "Recipe/Recipe - notes.md"
+        },
+        {
+            "number": 5,
+            "beta": true,
+            "filename": "Build a Robot/Build a Robot.md",
+            "note": "Build a Robot/Build a Robot - notes.md"
         }
-
     ],
 
     "extras": [
