@@ -20,17 +20,17 @@ There is also a trinket containing a sample solution to the challenges:
 #Offline Resources
 This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
-+ Template/Template.html
-+ Template/style.css
-+ robot/Robot.html
-+ Robot/style.css
++ template/index.html
++ template/style.css
++ robot/index.html
++ robot/style.css
 + Lots of .png images
 
 You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
-+ RobotFinished.html
-+ style.css
-+ Lots of .png images
++ robot-finished/index.html
++ robot-finished/style.css
++ robot-finished/Lots of .png images
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 

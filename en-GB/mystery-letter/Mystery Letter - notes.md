@@ -31,11 +31,11 @@ This project can be [completed offline](https://www.codeclubprojects.org/en-GB/r
 
 You can also find a completed version of this project's challenges in the 'Club Leader Resources' folder, which contains:
 
-+ index.html
-+ style.css
-+ script.js
-+ prefixfree.js
-+ 4 x .png images
++ mystery-letter-finished/index.html
++ mystery-letter-finished/style.css
++ mystery-letter-finished/script.js
++ mystery-letter-finished/prefixfree.js
++ mystery-letter-finished/4 x .png images
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 

@@ -20,19 +20,19 @@ There is also a trinket containing a sample solution to the challenges:
 #Offline Resources
 This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
-+ Template/Template.html
-+ Template/style.css
-+ Tell a Story/Story.html
-+ Tell a Story/style.css
-+ Tell a Story/buildings.png
-+ Tell a Story/sun.png
++ template/index.html
++ template/style.css
++ tell-a-story/index.html
++ tell-a-story/style.css
++ tell-a-story/buildings.png
++ tell-a-story/sun.png
 
 You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
-+ StoryFinished.html
-+ style.css
-+ boy.png
-+ girl.png
++ tell-a-story-finished/index.html
++ tell-a-story-finished/style.css
++ tell-a-story-finished/boy.png
++ tell-a-story-finished/girl.png
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 

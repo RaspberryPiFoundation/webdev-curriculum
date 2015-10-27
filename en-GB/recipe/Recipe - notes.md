@@ -19,14 +19,14 @@ There is also a trinket containing a sample solution to the challenges:
 #Offline Resources
 This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
-+ Template/Template.html
-+ Template/style.css
++ template/index.html
++ template/style.css
 
 You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
-+ RecipeFinished.html
-+ style.css
-+ banana.jpg
++ recipe-finished/index.html
++ recipe-finished/style.css
++ recipe-finished/banana.jpg
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 

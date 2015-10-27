@@ -28,8 +28,8 @@ This project can be [completed offline](https://www.codeclubprojects.org/en-GB/r
 
 You can also find a completed version of this project's challenges in the 'Club Leader Resources' folder, which contains:
 
-+ index.html
-+ style.css
++ project-showcse-finished/index.html
++ project-showcse-finished/style.css
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 

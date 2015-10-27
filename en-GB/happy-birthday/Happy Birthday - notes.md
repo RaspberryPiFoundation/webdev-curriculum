@@ -21,21 +21,21 @@ There is also a trinket containing a sample solution to the challenges:
 #Offline Resources
 This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
-+ Intro.html
-+ Template/template.html
-+ Template/style.css
-+ Birthday Card/BirthdayCard.html
-+ Birthday Card/style.css
-+ Birthday Card/script.js
-+ Birthday Card/10 x .png images
++ intro/index.html
++ template/template.html
++ template/style.css
++ birthday-card/index.html
++ birthday-card/style.css
++ birthday-card/script.js
++ birthday-card/10 x .png images
 
 You can also find a completed version of this project's challenges in the 'Club Leader Resources' folder, which contains:
 
-+ BirthdayCardFinished.html
-+ style.css
-+ script.js
-+ rainbow.png
-+ dinosaur.png
++ birthday-card-finished/index.html
++ birthday-card-finished/style.css
++ birthday-card-finished/script.js
++ birthday-card-finished/rainbow.png
++ birthday-card-finished/dinosaur.png
 
 (All of the resources above are also downloadable as project and volunteer `.zip` files.)
 
