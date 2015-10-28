@@ -37,7 +37,14 @@
             "beta": true,
             "filename": "Zbuduj Robota/index.md",
             "note": "Zbuduj Robota/Zbuduj Robota - informacje.md"
+        },
+        {
+            "number": 6,
+            "beta": true,
+            "filename": "Tajemniczy List/index.md",
+            "note": "Tajemniczy List/Tajemniczy List - informacje.md"
         }
+
     ],
 
     "extras": [
