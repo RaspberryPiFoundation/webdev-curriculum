@@ -13,7 +13,7 @@ For this project, children can make use of this blank trinket ([jumpto.cc/trinke
 
 There is also a trinket containing a sample solution to the challenges:
 
-+ [‘Recipe’ Finished](https://trinket.io/html/c0fd9b40cd)
++ [‘Recipe’ Finished -- trinket.io/html/c0fd9b40cd](https://trinket.io/html/c0fd9b40cd)
 
 
 #Offline Resources
