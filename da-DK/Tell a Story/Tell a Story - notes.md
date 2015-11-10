@@ -44,7 +44,7 @@ Du kan også finde en færdig version af projektets udfordringer i 'Klubleder Re
 
 #Udfordringer
 + "Lav nogle ændringer" - redigere HTML indhold og CSS style; 
-+ "Bliv ved!" - anvende tags og styling til at lave en færdig fortælling. 
++ "Fortsæt!" - anvende tags og styling til at lave en færdig fortælling. 
 
 #Benytte projektet offline
 + Hvis børnene laver projektet færdig offline, så skal de gemme de billeder, som de ønsker at bruge, i samme mappe, hvor deres `Story.html` fil ligger.
