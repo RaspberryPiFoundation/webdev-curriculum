@@ -7,7 +7,6 @@
     "category": "cat-html",
     "projects":
     [
-
         {
             "number": 1,
             "beta": true,
@@ -37,6 +36,12 @@
             "beta": true,
             "filename": "Zbuduj Robota/index.md",
             "note": "Zbuduj Robota/Zbuduj Robota - informacje.md"
+        },
+        {
+            "number": 6,
+            "beta": true,
+            "filename": "Moje Projekty/index.md",
+            "note": "Moje Projekty/Project Showcase - notes.md"
         }
     ],
 
