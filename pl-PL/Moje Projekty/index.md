@@ -19,10 +19,10 @@ Linki tekstowe pozwalają ci klikać w słowa, by przejść na inną stronę, za
 
 ## Lista zadań {.check}
 
-+ Otwórz edytor: <a href="https://trinket.io/html/9ad31460f0">https://trinket.io/html/9ad31460f0</a>. Jeśli pracujesz online, możesz również posłużyć się wersją wyświetloną poniżej.
++ Otwórz edytor: <a href="https://trinket.io/html/0bd798be1b">https://trinket.io/html/0bd798be1b</a>. Jeśli pracujesz online, możesz również posłużyć się wersją wyświetloną poniżej.
 
     <div class="trinket">
-      <iframe src="https://trinket.io/embed/html/9ad31460f0" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+      <iframe src="https://trinket.io/embed/html/0bd798be1b" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
       </iframe>
     </div>
 
