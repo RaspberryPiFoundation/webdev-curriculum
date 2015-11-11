@@ -11,7 +11,7 @@ Wykonując ten projekt dzieci poznają klasy CSS. Użyją wielu klas CSS do osty
 #Źródła online
 Polecamy użycie edytora (https://trinket.io/) do pisania HTML i CSS online. Ten projekt obejmuje następujące elementy:
 
-+ ['Tajemniczy List' początek  -- jumpto.cc/html-list](jumpto.cc/html-list)
++ ['Tajemniczy List' początek  -- jumpto.cc/html-list](http://jumpto.cc/html-list)
 
 W tym projekcie dzieci mogą skorzystać również z pustego edytora [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank), by pisać własny kod HTML i CSS, bądź skorzystać z szablonu [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
 
