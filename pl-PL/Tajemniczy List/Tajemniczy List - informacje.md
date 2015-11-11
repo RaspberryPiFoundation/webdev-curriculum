@@ -1,50 +1,50 @@
 ---
-title: Mystery Letter — Volunteer Notes
----
+title: Tajemniczy List - informacje
+language: pl-PL
+embeds: "*.*"
+materials: [""]
+...
 
-#Introduction:
-In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images free Google fonts in their projects. 
+#Wstęp
+Wykonując ten projekt dzieci poznają klasy CSS. Użyją wielu klas CSS do ostylowania tekstu, a także nauczą się jak ustawić obrazek jako tło oraz jak wykorzystać darmowe fonty z Google Fonts w swoim projekcie.
 
+#Źródła online
+Polecamy użycie edytora (https://trinket.io/) do pisania HTML i CSS online. Ten projekt obejmuje następujące elementy:
 
-#Online Resources
++ ['Tajemniczy List' początek  -- jumpto.cc/html-list](jumpto.cc/html-list)
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinket:
+W tym projekcie dzieci mogą skorzystać również z pustego edytora [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank), by pisać własny kod HTML i CSS, bądź skorzystać z szablonu [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
 
-+ ['Mystery Letter' starting point  -- jumpto.cc/web-letter](jumpto.cc/web-letter)
+Dostępny jest także projekt, który zawiera kod z przykładowymi rozwiązaniami zadań:
 
-Children can also make use of this blank trinket [(jumpto.cc/trinket-blank)](jumpto.cc/trinket-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/trinket-template)](jumpto.cc/trinket-template).
++ ['Tajemniczy List' skończony -- https://trinket.io/html/cdd14bc10b](https://trinket.io/html/cdd14bc10b)
 
-There is also a trinket containing a sample solution to the challenges:
+#Źródła offline
+Projekt można również ukończyć offline. Materiały do projektu można pobrać, klikając w link "Pobierz materiały" na stronie z listą projektów. Pobrany plik zawiera katalog "Project Resources", w którym znajdują się zasoby potrzebne do wykonania tego projektu w trybie offline. Upewnij się, ze każde dziecko ma dostęp do tych materiałów. Katalog zawiera nastepujące pliki:
 
-+ ['Mystery Letter Finished' -- https://trinket.io/html/trinkets/1d4d4c5ce1](https://trinket.io/html/trinkets/1d4d4c5ce1)
-
-#Offline Resources
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
-
-+ mystery-letter/index.html
-+ mystery-letter/style.css
-+ mystery-letter/script.js
-+ mystery-letter/prefixfree.js
-+ mystery-letter/4 x .png images
++ tajemniczy-list/index.html
++ tajemniczy-list/style.css
++ tajemniczy-list/script.js
++ tajemniczy-list/prefixfree.js
++ tajemniczy-list/4 x .png images
 + template/template.html
 + template/style.css
 
-You can also find a completed version of this project's challenges in the 'Club Leader Resources' folder, which contains:
+Ukończona wersja zadań z tego projektu znajduje się w sekcji "Volunteer Resources", która zawiera:
 
-+ mystery-letter-finished/index.html
-+ mystery-letter-finished/style.css
-+ mystery-letter-finished/script.js
-+ mystery-letter-finished/prefixfree.js
-+ mystery-letter-finished/4 x .png images
++ tajemniczy-list-skonczony/index.html
++ tajemniczy-list-skonczony/style.css
++ tajemniczy-list-skonczony/script.js
++ tajemniczy-list-skonczony/prefixfree.js
++ tajemniczy-list-skonczony/4 x .png images
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Wszystkie wspomniane wyżej materiały można również pobrać jako katalog `.zip`)
 
-#Learning Objectives
-+ This project introduces CSS classes and the ability to style HTML elements with multiple classes.
-+ Background images and Google fonts are also introduced. 
+#Cele dydaktyczne
++ Ten projekt wprowadza klasy CSS i umiejętność ostylowania elementów HTML przy użyciu wielu klas.
++ Wprowadzone jest także użycie obrazków jako tła oraz fonty z Google Fonts.
 
-#Challenges
-+ “Style your message” - Apply provided CSS class styles;
-+ “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
-+ “Create your own styles” - Use CSS to create new styles.
-
+#Wyzwania
++ "Ostyluj wiadomość" - Użycie dostępnej klasy CSS;
++ "Nowy styl - wydruk komputerowy" - Użycie CSS do przerobienia istniejącej klasy używając w niej obrazka jako tła oraz fontu z Google Fonts.
++ "Stwórz własny styl" - Użycie CSS do stworzenia własnych stylów.
