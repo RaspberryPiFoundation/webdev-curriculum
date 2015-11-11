@@ -7,7 +7,6 @@
     "category": "cat-html",
     "projects":
     [
-
         {
             "number": 1,
             "beta": true,
@@ -43,8 +42,13 @@
             "beta": true,
             "filename": "Tajemniczy List/index.md",
             "note": "Tajemniczy List/Tajemniczy List - informacje.md"
+        },
+        {
+            "number": 7,
+            "beta": true,
+            "filename": "Moje Projekty/index.md",
+            "note": "Moje Projekty/Moje Projekty - informacje.md"
         }
-
     ],
 
     "extras": [
