@@ -17,6 +17,12 @@
             "beta": true,
             "filename": "Tell a Story/Tell a Story.md",
             "note": "Tell a Story/Tell a Story - notes.md"
+        },
+	{
+            "number": 3,
+            "beta": true,
+            "filename": "recipe/recipe.md",
+            "note": "recipe/recipe - notes.md"
         }
     ]
 }
