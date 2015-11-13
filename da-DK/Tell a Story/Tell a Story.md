@@ -20,7 +20,7 @@ Før du begynder at kode, så skal du beslutte dig for hvilken slags historie, d
 ## Arbejdsliste { .check}
 
 + Tænk på en historie, som du kunne have lyst til at fortælle. Det kunne fx være: 
-	+ En berømt historie;
+	+ En kendt historie;
 	+ En historie som du selv finder på;
 	+ Noget som er sket for dig, eller en du kender.
 
@@ -42,11 +42,11 @@ Lad os starte med at redigere HTML indholdet og CSS stylingen af fortællingen p
 
 Gå til linje 7 i din kode. Her bør du se indholdet på din webside, og at det er placeret mellem vores `<body>` og `</body>` tags.
 
-	![screenshot](story-html.png)
+![screenshot](story-html.png)
 
-+ Kan du finde ud af, hvilke tags der er brugt til at lave de forskellige dele af websiden? 
++ Kan du finde ud af, hvilke tags der er brugt til at lave de forskellige dele af websiden?
 
-	![screenshot](story-elements.png)  
+![screenshot](story-elements.png)  
 
 + `<h1>` er en __heading__ (overskrift). Du kan bruge tallene 1 - 6 for at lave overskrifterne forskellig størrelse; 
 + `<div>` er en forkortelse af __division__, og er en måde man kan gruppere ting sammen. Du skal du bruge det på din egen webside, når du skal gruppere dine elementer ud fra hvor de hører til i din historie;  
@@ -58,7 +58,7 @@ Redigér HTML og CSS koden for at gøre din webside helt din egen.
 
 ![screenshot](story-changes.png)
 
-Du kan forandre farverne, som du bruger på din webside, og du kan også benytte skrifttyper (fonte) såsom <span style="font-family: Arial;">Arial</span>, <span style="font-family: Comic Sans MS;">Comic Sans MS</span>, <span style="font-family: Impact;">Impact</span> og <span style="font-family: Tahoma;">Tahoma</span>.
+Du kan ændre farverne, som du bruger på din webside, og du kan også benytte skrifttyper (fonte) såsom <span style="font-family: Arial;">Arial</span>, <span style="font-family: Comic Sans MS;">Comic Sans MS</span>, <span style="font-family: Impact;">Impact</span> og <span style="font-family: Tahoma;">Tahoma</span>.
 
 Hvis du har brug for mere hjælp, så tag et kig på 'Tillykke Med Fødselsdagen' projektet - det kan hjælpe dig.
 
@@ -72,11 +72,11 @@ Lad os tilføje en 'del 2' til din historie.
 
 + Gå til linje 17 i din kode, og tilføj endnu et `<div>` start -og `</div>` slut tag. Så får du en ny boks til næste del af din historie. 
 
-	![screenshot](story-div.png)
+![screenshot](story-div.png)
   
 + Tilføj en tekstparagraf indeni dit nye `<div>` tag.  
 
-	![screenshot](story-paragraph.png)
+![screenshot](story-paragraph.png)
 
 + Endelig kan du tilføje et billede til din nye boks ved at indsætte følgende kode i dit `<div>` tag:  
 
@@ -92,19 +92,19 @@ Gå til <a href="http://jumpto.cc/web-images" target="_blank">jumpto.cc/web-imag
 
 + Højreklik på billedet og klik dernæst 'Kopier billedets webadresse'. Webadressen (URL) er adressen på dit billede.
  
-	![screenshot](story-url.png)
+![screenshot](story-url.png)
 
 + Indsæt adressen imellem anførselstegnene i dit `<img>` tag. Nu bør du se, at dit billede vises!
 
-	![screenshot](story-image.png)
+![screenshot](story-image.png)
 
 + __Hvis du har en Trinket konto__, så kan du også uploade dine egne billeder til din webside. Klik på billedikonet øverst i din trinket, og klik så på 'upload'. 
 
-	![screenshot](story-upload.png)  
+![screenshot](story-upload.png)  
 
 + Find dit billede på din computer, og slæb det ind i din trinket.
 
-	![screenshot](story-drag.png)
+![screenshot](story-drag.png)
 
 + Nu kan du så tilføje navnet på dit nye billede imellem anførselstegnene i dit `<img>` tag på denne måde:
 
@@ -114,8 +114,8 @@ Gå til <a href="http://jumpto.cc/web-images" target="_blank">jumpto.cc/web-imag
 
 ## Gem dit projekt {.save}
 
-##Udfordring: Bliv ved! {.challenge}
-Brug hvad du har lært i dette projekt til at færdiggøre din fortælling! Her er et eksempel:
+##Udfordring: Fortsæt! {.challenge}
+Brug det du har lært i dette projekt til at færdiggøre din fortælling! Her er et eksempel:
 
 ![screenshot](story-final.png)  
 
