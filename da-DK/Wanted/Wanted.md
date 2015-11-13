@@ -9,7 +9,7 @@ stylesheet: web
 
 # Introduktion { .intro}
 
-I dette projekt vil du lære, hvordan du laver din egen plakat.
+I dette projekt skal du lære, hvordan du laver din egen plakat.
 
 ![screenshot](wanted-final.png)
 
@@ -19,7 +19,7 @@ Lad os begynde med at redigere CSS koden til din plakat.
 
 ## Arbejdsliste { .check}
 
-+ Åbn denne trinket: <a href="https://trinket.io/html/a9a3ec7e23" target="_blank">web-efterlyst</a>. Hvis du læser dette online, så kan du også benytte den indlejrede version af denne trinket nedenfor. 
++ Åbn denne trinket: <a href="https://trinket.io/html/a9a3ec7e23" target="_blank">web-efterlyst</a>. Hvis du læser dette online, så kan du også benytte den indlejrede Trinket nedenfor. 
 
 <div class="trinket">
 	<iframe src="https://trinket.io/embed/html/0f66cb6386" width="100%" height="550" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -86,7 +86,7 @@ Lad os forbedre stylen af billedet på din plakat.
 
 ## Arbejdsliste { .check}
 
-+ Ligenu er der ingen CSS egenskaber for dit `<img>` tag, så lad os tilføje nogle!
++ Ligenu er der ingen CSS egenskaber for dit `<img>` tag, så lad os tilføje et par stykker!
 
 Først, tilføj følgende kode under CSS'en for din div:
 
@@ -153,7 +153,7 @@ Lad os forbedre stylingen af `<h1>` overskriften.
 
 Det er så her du tilføjer CSS egenskaber til din `<h1>` hovedoverskrift.
 
-+ For at ændre fonten på din `<h1>` overskrift, så tilføj følgende kode mellem de krøllede paranteser:
++ For at ændre skrifttypen på din `<h1>` overskrift, så tilføj følgende kode mellem de krøllede paranteser:
 
 ``` 
 	font-family: Impact;
@@ -185,7 +185,7 @@ Du kan lave din margin mindre med denne kode:
 	text-decoration: underline;
 ``` 
 
-##Udfordring: Lav en fed plakat! {.challenge}
+##Udfordring: Lav en sej plakat! {.challenge}
 Tilføj noget mere CSS til at style din `<h3>` overskrift og dine paragrafer. 
 
 ![screenshot](wanted-final.png)
