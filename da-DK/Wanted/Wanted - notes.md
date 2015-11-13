@@ -41,5 +41,5 @@ Du kan også finde en færdig version af projektets udfordringer i 'Klubleder Re
 #Udfordringer
 + "Forbedr din plakat" - tilføje nye CSS egenskaber til `div` selectoren;
 + "Forbedr dit billede" - tilføje nye CSS egenskaber til `img` selectoren;
-+ "Lav en fed plakat" - tilføje nye CSS egenskaber og nye `h3` og `p` selectors;
++ "Lav en sej plakat" - tilføje nye CSS egenskaber og nye `h3` og `p` selectors;
 + "Markedsfør en begivenhed" - skrive og redigere HTML og CSS kode.
