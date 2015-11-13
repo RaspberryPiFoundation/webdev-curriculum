@@ -15,7 +15,7 @@ I dette projekt bliver du introduceret til HTML & CSS ved at lære, hvordan du l
 
 # Trin 1: Hvad er HTML? { .activity}
 
-HTML står for __HyperText Markup Language__, hvilket er det sprog, som man bruger til at lave websider. Lad os tage et kig på et eksempel!
+HTML står for __HyperText Markup Language__, hvilket er det sprog, som man bruger til at lave websider. Lad os se på et eksempel!
 
 ## Arbejdsliste { .check}
 
@@ -43,12 +43,14 @@ HTML bruger __tags__ til at opbygge websider. Prøv at lægge mærke til følgen
 
 Her er nogle flere tags:
 
-	+ `<html>` og `</html>` markerer begyndelsen og slutningen af dit HTML dokument;
-	+ `<head>` og `</head>` omringer fx din CSS (det kommer vi ind på senere!);
-	+ `<body>` og `</body>` indeholder dit website indhold. 
+```
+<html> og </html> markerer begyndelsen og slutningen af dit HTML dokument;
+<head> og </head> omringer fx din CSS (det kommer vi ind på senere!);
+<body> og </body> indeholder dit website indhold. 
 
-	![screenshot](birthday-head-body.png)
+![screenshot](birthday-head-body.png)
 
+```
 + Prøv at ændre en af dine tekstparagrafer i din HTML (til venstre). Klik på 'Run'. Nu bør du se, at din webside ændrer sig (i højre side)! 
 
 	![screenshot](birthday-edit-html.png)  
@@ -76,7 +78,7 @@ Din webside bør se således ud:
 
 ![screenshot](birthday-paragraph.png)  
 
-Kan du tilføje __fed__ (bold) og <u>understreget</u> tekst til din nye paragraf? Du skal bruge `<u>` og `</u>` for at understrege din tekst.  
+Kan du tilføje <b>fed</b> (bold) og <u>understreget</u> tekst til din nye paragraf? Du skal bruge `<u>` og `</u>` for at understrege din tekst.  
 
 ## Gem dit projekt {.save}
 
@@ -88,7 +90,7 @@ CSS står for __Cascading Style Sheets__, og er det sprog man bruger til at styl
 
 ## Arbejdsliste { .check}
 
-+ CSS definerer __egenskaberne__ for et givent tag. Klik på 'style.css' fanen for at CSS'en til din webside.  
++ CSS definerer __egenskaberne__ for et givent tag. Klik på 'style.css' fanen for CSS'en til din webside.  
  
 	![screenshot](birthday-css-tab.png)
 
@@ -127,7 +129,7 @@ Lad os bruge hvad du har lært indtil videre omkring HTML og CSS og gå igang me
 	<iframe src="https://trinket.io/embed/html/f7a6270b15" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
 </div> 
 
-Bare rolig hvis du ikke forstår al koden. Fødselsdagskort ser lidt kedeligt ud, så nu skal du lave nogle ændringer i HTML- og CSS'en. 
+Bare rolig hvis du ikke forstår al koden. Fødselsdagskortet ser lidt kedeligt ud, så nu skal du lave nogle ændringer i HTML- og CSS'en. 
 
 + Hvis du klikker på knappen på forsiden af kortet, så bør du se at det åbner sig.
 
@@ -137,7 +139,7 @@ Bare rolig hvis du ikke forstår al koden. Fødselsdagskort ser lidt kedeligt ud
 
 	![screenshot](birthday-card-html.png)
 
-+ Kan du finde HTML'en for dit robotbillede? (Hint: den er på linje 16!) Ændr ordet `robot` til `sun`, og du vil så se at billedet ændrer sig!
++ Kan du finde HTML'en for dit robotbillede? (Hint: den er på linje 16!) Ændr ordet `robot` til `sun` - så vil du se at billedet ændrer sig!
 
 	![screenshot](birthday-card-sun.png)
 
@@ -168,6 +170,6 @@ Her er et eksempel:
 
 ## Gem dit projekt {.save}
 
-Nu hvor du har lavet dit kort færdigt, så kan du dele eller e-maile det til nogen. 
+Nu hvor du har lavet dit kort færdigt, så kan du dele, eller e-maile, det til nogen. 
 
 ![screenshot](birthday-share.png)
