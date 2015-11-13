@@ -21,8 +21,8 @@
 	{
             "number": 3,
             "beta": true,
-            "filename": "recipe/recipe.md",
-            "note": "recipe/recipe - notes.md"
+            "filename": "Recipe/Recipe.md",
+            "note": "Recipe/Recipe - notes.md"
         }
     ]
 }
