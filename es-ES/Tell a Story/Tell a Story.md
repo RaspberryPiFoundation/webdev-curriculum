@@ -15,7 +15,7 @@ En este proyecto tu aprenderás a crear tu propia página web para contar una hi
 
 # Paso 1: Decide que quieres contar { .activity}
 
-Before you get coding, you'll need to decide on a story to tell.
+Antes de empezar a codificar tienes que decidir que historia quieres contar.
 
 ## Lista de tareas de la actividad { .check}
 
