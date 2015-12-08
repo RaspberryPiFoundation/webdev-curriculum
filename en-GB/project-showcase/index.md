@@ -5,7 +5,6 @@ layout: project
 notes: "Project Showcase - notes.md"
 new: true
 beta: true
-project-type: new
 ---
 
 # Introduction {.activity}

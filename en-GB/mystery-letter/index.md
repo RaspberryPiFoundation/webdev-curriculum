@@ -5,7 +5,6 @@ layout: project
 notes: "Mystery Letter - notes.md"
 new: true
 beta: true
-project-type: new
 ---
 
 # Introduction {.intro}
