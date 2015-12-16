@@ -10,7 +10,7 @@ project-type: new
 
 # Introduction {.intro}
 
-In this project, you'll create a web project with a set of linked rooms where each room is a different web page. 
+In this project, you'll create a set of linked rooms where each room is a different web page. 
 
 ![screenshot](images/rooms-hall-finished.png)
 
