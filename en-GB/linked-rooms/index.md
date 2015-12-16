@@ -178,7 +178,7 @@ Can you decorate the games room with a background image?
 
 You can use:
 
-- The space-invader.png background image
+- The `space-invader.png` background image
 
 The decorated room should look like this:
 
@@ -210,6 +210,6 @@ Add more rooms to your project.
 
 You can use the following images to decorate if you like:
 
-+ tiles.png
++ `tiles.png`
 
 ## Save Your Project {.save}
