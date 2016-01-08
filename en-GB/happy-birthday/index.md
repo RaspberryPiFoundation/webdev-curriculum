@@ -3,7 +3,6 @@ title: Happy Birthday
 description: Learn how to make a customised birthday card.
 layout: project
 notes: "Happy Birthday - notes.md"
-new: true
 project-type: sample
 ---
 
