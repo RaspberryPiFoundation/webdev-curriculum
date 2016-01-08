@@ -3,7 +3,6 @@ title: Wanted!
 description: Learn how to make your own poster.
 layout: project
 notes: "Wanted - notes.md"
-new: true
 ---
 
 # Introduction { .intro}
