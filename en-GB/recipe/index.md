@@ -3,7 +3,6 @@ title: Recipe
 description: Create a webpage of your favourite recipe, so that your friends can make it!
 layout: project
 notes: "Recipe - notes.md"
-new: true
 ---
 
 # Introduction { .intro}
