@@ -21,7 +21,7 @@ Der findes også en trinket, som indeholder nogle løsningsforslag til udfordrin
 + ['Wanted' Finished](https://trinket.io/html/23cd83c52a)
 
 #Offline Ressourcer
-Projektet kan også [udføres offline](../html-css.html). Du kan tilgå projektets ressourcer ved at klikke på 'Download Project Materials' linket under dette projekt. Linket henviser til en 'Projekt Ressourcer' mappe, som børnene får brug for, så de kan fuldføre projektet offline. Sørg for at hver enkelt barn har adgang til en kopi af disse ressourcer. Mappen indeholder følgende filer:
+Projektet kan også [udføres offline](../html-css.html). Du kan tilgå projektets ressourcer ved at klikke på 'Download Projektmateriale' linket under dette projekt. Linket henviser til en 'Projekt Ressourcer' mappe, som børnene får brug for, så de kan fuldføre projektet offline. Sørg for at hver enkelt barn har adgang til en kopi af disse ressourcer. Mappen indeholder følgende filer:
 
 + Template/Template.html
 + Template/style.css
