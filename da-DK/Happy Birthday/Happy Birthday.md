@@ -35,7 +35,7 @@ HTML bruger __tags__ til at opbygge websider. Prøv at lægge mærke til følgen
 
 `<p>` er et eksempel på et tag, og er en forkortelse af __paragraph__. Du kan begynde en paragraf med `<p>` og afslutte en paragraf med `</p>`.
 
-+ Kan du få øje på andre tags? Måske du har lagt mærke til et tag på linje 9, som er `<b>`, hvilket står for __bold__ (fed):
++ Kan du få øje på andre tags? Måske du har lagt mærke til et tag på linje 9, som er `<b>`, hvilket står for <b>bold</b> (fed):
 
 ``` 
 	<b>løbe</b>
@@ -46,18 +46,17 @@ Her er nogle flere tags:
 ```
 <html> og </html> markerer begyndelsen og slutningen af dit HTML dokument;
 <head> og </head> omringer fx din CSS (det kommer vi ind på senere!);
-<body> og </body> indeholder dit website indhold. 
-
+<body> og </body> indeholder dit website indhold.
+```
 ![screenshot](birthday-head-body.png)
 
-```
 + Prøv at ændre en af dine tekstparagrafer i din HTML (til venstre). Klik på 'Run'. Nu bør du se, at din webside ændrer sig (i højre side)! 
 
-	![screenshot](birthday-edit-html.png)  
+![screenshot](birthday-edit-html.png)  
 
 + Hvis du har lavet en fejl og har lyst til at fortryde dine ændringer, så kan du klikke på menuknappen og derefter 'Reset'. Prøv det selv! 
 
-	![screenshot](birthday-reset.png)  
+![screenshot](birthday-reset.png)  
 
 ## Gem dit projekt {.save}
 
@@ -92,7 +91,7 @@ CSS står for __Cascading Style Sheets__, og er det sprog man bruger til at styl
 
 + CSS definerer __egenskaberne__ for et givent tag. Klik på 'style.css' fanen for CSS'en til din webside.  
  
-	![screenshot](birthday-css-tab.png)
+![screenshot](birthday-css-tab.png)
 
 + Find denne kode:
 
