@@ -3,7 +3,6 @@ title: Build a Robot
 description: Learn how to position images to make your own robot.
 layout: project
 notes: "Build a Robot - notes.md"
-new: true
 ---
 
 # Introduction { .intro}
