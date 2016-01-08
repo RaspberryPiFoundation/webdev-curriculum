@@ -3,7 +3,6 @@ title: Tell a Story
 description: Create a webpage to tell a story, joke or poem.
 layout: project
 notes: "Tell a Story - notes.md"
-new: true
 project-type: sample
 ---
 
