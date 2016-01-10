@@ -4,12 +4,13 @@ description: Create a web project with several 'rooms' linked together.
 layout: project
 notes: "Linked Rooms - notes.md"
 new: true
+project-type: new
 project-type: beta
 ---
 
 # Introduction {.intro}
 
-In this project, you'll create a set of linked rooms where each room is a different web page. 
+In this project, you'll create a set of linked rooms where each room is a different web page which you can decorate with HTML. 
 
 ![screenshot](images/rooms-hall-finished.png)
 
@@ -26,34 +27,40 @@ Web projects can be made up of lots of HTML files linked together.
   </iframe>
 </div>
 
-+ Run the trinket and you should find yourself in the Hall:
++ The trinket should autorun and you will find yourself in the Hall:
 
 	![screenshot](images/rooms-hall-start.png)
 
-+ Look at the list of file tabs for this trinket. Can you see `tvroom.html`? 
++ Look at the list of file tabs for this trinket. Can you see `tvroom.html`? Click on it.
 
 	![screenshot](images/rooms-tvroom-html.png)
 
 	This is another html file in the same project. 
 
-	It also has its own linked `tvroom.css` style file.
 
-+ To get to `tvroom.html` you need to add a link in `index.html` 
++ To get to `tvroom.html` you need to add a link in `index.html`. 
+
+	Add the highlighted code inside the `<div>` with the class `room`: 
 
 	![screenshot](images/rooms-link-tvroom.png)
 
-	Test your trinket by clicking on the __TV Room__ link to see the `tvroom.html` webpage:
++ Test your trinket by clicking on the __TV Room__ link to see the `tvroom.html` webpage.
+
+	Note that `tvroom.html` also has its own `tvroom.css` style file which defines the layout for this page. 
 
 	![screenshot](images/rooms-tvroom-unstyled.png)
 
-
+	
 ##Challenge: Add another link {.challenge}
 
-Add a link to the `tvroom.html` webpage to get you back to the Hall webpage which is called `index.html`.
+Add an `<a>` link to the `tvroom.html` webpage to get you back to the Hall webpage which is called `index.html`. The link text should be 'Hall'.
 
-The TV Room webpage should have a clickable link like this:
+The TV Room webpage should then have a clickable link like this:
 
 ![screenshot](images/rooms-hall-link.png)
+
+Make sure you test your code. You should be able to move from the Hall to the TV Room and back again by clicking on links.  
+
 
 ## Save Your Project {.save}
 
@@ -69,23 +76,24 @@ Now let's add another room, a __Games Room__.
 
   	![screenshot](images/rooms-games-html.png)
 
-+ The HTML for the __Games Room__ is very similar to `tvroom.html` so copy that and paste it into `gamesroom.html`.
++ The HTML for the __Games Room__ is very similar to `tvroom.html` so __copy__ that and __paste__ it into `gamesroom.html`.
 	
 	Edit the highlighted items so they say Games not TV:
 
 	![screenshot](images/rooms-games-html2.png)	
 
-+ Your `gamesroom.html` now uses `gamesroom.css`. 
++ Your `gamesroom.html` now uses `gamesroom.css` which doesn't exist yet. 
 
 	Create `gamesroom.css` by clicking on the add page __+__ button. 
 
-	![screenshot](images/rooms-add-games-css.png)
 
-+ The CSS for the __Games Room__ is very similar to `tvroom.css` so copy that and paste it into `gamesroom.css`.
++ The CSS for the __Games Room__ is very similar to `tvroom.css` so __copy__ that and __paste__ it into `gamesroom.css`.
+
+	![screenshot](images/rooms-add-games-css.png)
 
 + Add a link from the Hall to the Games room:
 
-	![screenshot](images/rooms-add-games-css.png)
+	![screenshot](images/rooms-hall-games.png)
 
 + Test your project by clicking on the Games Room link
 
@@ -103,7 +111,9 @@ Edit the HTML and CSS for the __Games Room__ so that the webpage looks like this
 
 ![screenshot](images/rooms-games-challenge.png)
 
-Hint: The bright green colour is called `chartreuse`.
+Hint: You'll need to change the background colour, font colour and border colour in `gamesroom.css`. The bright green colour is called `chartreuse`.  
+
+Hint: You'll need to add an `<a>` link in `gamesroom.html` which links to `hall.html`.
 
 ## Save Your Project {.save}
 
@@ -115,15 +125,13 @@ Links don't just have to be text. Let's make a clickable door using a `<div>`.
 
 + Open `index.html` and add a `<div>` around the __TV Room__ link text. It needs to be inside the `<a>` to make it clickable.
 
-  Include `class="door"` so that you can add CSS to make it look like a door.
-
-  And include `id="hall2tvroom"` so that you can position it. 
+  Add `id="hall2tv"` to label it as the door from the Hall to the TV Room so that you can style the door. 
 
   ![screenshot](images/rooms-tvroom-div.png)  
 
-+ Click on the `style.css` tab and add the following CSS to change the size and colour of the door:
++ Click on the `style.css` tab, go to the bottom and add the following CSS to change the size and colour of the door:
 
-	![screenshot](images/<css1 class="png"></css1>)
+	![screenshot](images/rooms-door-css1.png)
 
 + Test your webpage by clicking anywhere on the door, not just on the text.
 
@@ -135,7 +143,7 @@ Links don't just have to be text. Let's make a clickable door using a `<div>`.
 
 	![screenshot](images/rooms-door-css3.png)
 
-+ You've probably noticed that the door is floating in the air. Let's fix that by positioning the door using its `id`.
++ You've probably noticed that the door is floating in the air. Let's fix that by positioning the door inside the room.
 
 	![screenshot](images/rooms-door-position.png)	
 
@@ -145,14 +153,28 @@ Links don't just have to be text. Let's make a clickable door using a `<div>`.
 
 ##Challenge: Add more doors! {.challenge}
 
-Turn the rest of the links in your project into doors in the same way. 
+Turn the other links in your project into doors in the same way. 
 
-The rooms have their own css files so don't forget to add the door style to them. 
+For each door you'll need to:
+
++ Edit the door link to use a `<div>` with an id such as `hall2games` so that you can style it. 
+
+	For example: 
+
+	`<a href="gamesroom.html"><div id="hall2games">Games Room</div></a>`
+
++ Add CSS for the door id to the `.css` file for its room. Use _copy_ and _paste_ to save time. You can make each door look different if you like. 
+
++ Position the door using `bottom:` and `left:` or `right:`.
+
+The Hall might look like this:
+
+![screenshot](images/rooms-hall-doors.png)
 
 The TV Room should look something like this:
 
 ![screenshot](images/rooms-tvroom-door.png)	
-	
+
 
 # Step 4: Adding a background image {.activity}
 
@@ -167,7 +189,6 @@ Let's decorate the hall with a background image.
 
 	The image will be repeated to fill the whole room. 
 
-+ Test your project. 
 
 ## Save Your Project {.save}
 
@@ -175,9 +196,11 @@ Let's decorate the hall with a background image.
 
 Can you decorate the games room with a background image?
 
-You can use:
+You can use the `space-invader.png` background image which is included in your project. 
 
-- The `space-invader.png` background image
+You'll need to:
+
++ Add a `background-image:` to the `.room` CSS for the Games Room. 
 
 The decorated room should look like this:
 
@@ -185,30 +208,19 @@ The decorated room should look like this:
 
 ## Save Your Project {.save}
 
-# Step 5: Adding a key cursor
-
-## Activity Checklist { .check}
-
-+ Another fun thing to do is add an image cursor. Open `style.css` and add a custom cursor to the `.door` class so that the cursor turns into a key when the mouse moves over a door. 
-
-	![screenshot](images/rooms-key-cursor.png)
-
-	The `key.png` image is included in your project.
-
-	The `, auto` means that the usual cursor will be used if the image can't be displayed.
-
-+ Add the key cursor to the `tvroom.css` and `gamesroom.css` files. 
-
-+ Test your project. You should see the cursor turn into a key whenever the mouse moves over a door in any of the rooms. 
-
-## Save Your Project {.save}
-
 ##Challenge: Make it yours! {.challenge}
 
-Add more rooms to your project. 
+Add more rooms to your project. Remember that you can use __copy__ and __paste__ to save time and then just change the things that need to be different. 
 
-You can use the following images to decorate if you like:
+For each room you will need to:
 
-+ `tiles.png`
++ Create a `.html` file
++ Add door links to and from the new 'room'
++ Create a `.css` file with the styles for your new room and its doors
+
+You can change the `background-color:` for each room. Click on the images icon to see the background images you can choose from:
+
+![screenshot](images/rooms-images.png)	
 
 ## Save Your Project {.save}
+
