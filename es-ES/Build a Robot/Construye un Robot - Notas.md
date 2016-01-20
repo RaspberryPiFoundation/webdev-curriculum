@@ -27,23 +27,23 @@ Este proyecto puede ser [completado offline](https://www.codeclubprojects.org/en
 + Template/style.css
 + robot/Robot.html
 + Robot/style.css
-+ Lots of .png images
++ Muchas imágenes .png
 
 También puedes encontrar una versión terminada de los ejercicios de ste proyecto en la sección 'Recursos para el Voluntario', que contiene los siguientes archivos:
 
 + RobotFinished.html
 + style.css
-+ Lots of .png images
++ Muchas imágenes .png
 
 (Todos los recursos mencionados arriba también pueden descargarse como archivos comprimidos `.zip` para el proyecto y para el voluntario.)
 
 #Objetivos de aprendizaje
 + Entender el atributo HTML id;
-+ Escribir los siguientes selectores CSS:
++ Escribir los siguientes selectores y atributos CSS:
 	+ selector de id `#`;
-	+ position;
-	+ top;
-	+ left.
+	+ atributo de posición `position`;
+	+ atributo de posición `top`;
+	+ atributo de posición `left`.
 
 #Retos
 + "Diseña tu propio robot" - crear un robot usando posicionamiento CSS;

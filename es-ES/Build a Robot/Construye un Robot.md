@@ -34,13 +34,13 @@ En este proyecto, aprenderás a cómo posicionar imágenes para crear tu propio 
 <img id="eyes2" ...>
 ```
 
-+ You can use an image’s id to give it it’s own style, by using the `#` symbol. This allows you to style each image separately.
++ Puedes utilizar el _id_ de cada imagen para darle su propio estilo utilizando el símbolo `#`, conocido como almohadilla. Esto te permitirá dar un estilo distinto a cada imagen.
 
-Click on the `style.css` file. Notice how the size of the robot’s face and the other images are different?
+Haz clic en el archivo `style.css`. ¿Notas que el tamaño de la cara del robot y las demás imágenes son distintos?
 
 ![screenshot](robot-id.png)
 
-+ Add this CSS code to style the robot’s eyes:
++ Añade este código CSS para cambiar la apariencia de los ojos del robot:
 
 ```
 #eyes1 {
@@ -48,13 +48,13 @@ Click on the `style.css` file. Notice how the size of the robot’s face and the
 }
 ```
 
-Notice that you’re styling just the `eyes1` image, by using `#eyes1` in your CSS. If you prefer, you can use `#eyes2` or `#eyes3` instead!
+Fíjate que sólo estás cambiando el estilo de la imagen `eyes1` ya que has usado el selector `#eyes1` en tu CSS. Si lo prefieres puedes probar qué pasa si usas `#eyes2` o `#eyes3` en vez de `#eyes1` en tu CSS.
 
 ![screenshot](robot-eyes-width.png)
 
-+ Notice how each image is displayed one after the other? This is called __relative__ positioning. If you want to tell the browser exactly where to place your robot’s eyes, you’ll need to use __absolute__ positioning instead.
++ ¿Ves cómo cada imagen se muestra una después de la otra? Esto es lo que llamamos posicionamiento relativo, y para definirlo usaremos el atributo CSS __position: relative__. Si quieres indicar al explorador exactamente dónde quieres poner los ojos del robot, deberás usar posicionamiento absoluto, para ello tendrás que usar la propiedad __position: absolute__ en vez de __relative__.
 
-Add these 3 lines of code to the CSS for your `eyes1` image:
+Añade estas tres líneas de código al CSS que utilizamos para definir las propiedades de la imagen `eyes1`:
 
 ```
 position: absolute;
@@ -62,23 +62,23 @@ top: 200px;
 left: 100px;
 ```
 
-You should see that your robot’s eyes move to the correct place on your robot.
+Una vez hayas añadido estas líneas deberías ver cómo los ojos del robot se mueven al lugar correcto.
 
 ![screenshot](robot-eyes-position.png)
 
-This CSS code tells the browser how far from the top / left of the webpage to display the image.
+Este código CSS dice al explorador a qué distancia desde arriba (top) o desde la izquierda (left) de la página web tiene que estar la imagen.
 
 ![screenshot](robot-eyes-position2.png)
 
-You can use `bottom` instead of `top` to tell the browser how far from the bottom of the screen to show the image, as well as using `right` instead of `left`.
+Puedes usar `bottom`, debajo en inglés, en vez de `top` para decirle al explorador a qué distancia desde debajo de la web tiene que estar la imágen. De la misma manera puedes usar `right` para indicar la distancia desde la derecha en vez de `left`.
 
-# Step 2: Giving your robot a mouth { .activity}
+# Paso 2: Poniendo boca a tu robot { .activity}
 
-Let’s give your robot a mouth!
+¡Hagamos que el robot tenga boca!
 
-## Activity Checklist { .check}
+## Lista de Tareas de la Actividad { .check}
 
-+ Add the following CSS code to style your `mouth1` image:
++ Añade el siguiente código CSS para empezar a cambiar el estilo de la imagen con id `mouth1`:
 
 ```
 #mouth1 {
@@ -89,26 +89,26 @@ Let’s give your robot a mouth!
 }
 ```
 
-+ Your robot’s mouth looks quite small, and isn’t in the right place.
++ La boca del robot parece demasiado pequeña, y no está donde debería estar.
 
 ![screenshot](robot-mouth.png)
 
-Can you fix this, by making changes to your CSS?
+¿Puedes arreglarlo cambiando el código CSS?
 
-## Save Your Project {.save}
+## Guarda tu Proyecto {.save}
 
-##Challenge: Design your own robot {.challenge}
-Use what you’ve learnt to finish designing your own robot. Here are some examples of how your robot might look:
+##Reto: Diseña tu propio robot {.challenge}
+Utiliza lo que has aprendido para terminar de diseñar tu propio robot. Aquí hay algunos ejemplos de cómo puede ser tu robot:
 
 ![screenshot](robot-examples.png)
 
-## Save Your Project {.save}
+## Guarda tu Proyecto {.save}
 
-##Challenge: Add your own images {.challenge}
-Can you find extra images to add to your robot, and position them on your webpage? You could even replace the robot face with your own!
+##Reto: Añade tus propias imágenes {.challenge}
+¿Eres capaz de encontrar imágenes adicionales que añadir al robot y posicionarlas en la página? ¡Puedes incluso cambiar la cara del robot con la tuya propia!
 
 ```
-<img id="face" src="myFace.png">
+<img id="cara" src="miCara.png">
 ```
 
-## Save Your Project {.save}
+## Guarda tu Proyecto {.save}
