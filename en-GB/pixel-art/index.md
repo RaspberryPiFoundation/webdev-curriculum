@@ -4,7 +4,6 @@ description: Create a pixel art editor.
 layout: project
 notes: "Pixel Art - notes.md"
 new: true
-project-type: new
 project-type: beta
 ---
 
@@ -12,7 +11,11 @@ project-type: beta
 
 In this project, you'll create a pixel art editor. As well as using HTML and CSS you'll learn how to add JavaScript to your project.
 
-![screenshot](images/pixel-art-final.png)
+<div class="trinket">
+  <iframe src="https://trinket.io/embed/html/0e102a306b?outputOnly=true&start=result" width="600" height="450" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+  <img src="images/pixel-art-final.png">
+</div>
 
 __How to use the editor__: Click on a colour from the palette to choose your pen colour then click on pixels to change their colour.
 
@@ -31,13 +34,11 @@ Tables contain rows which contain cells. You are going to create a table with a 
   </iframe>
 </div>
 
-+ 
++ Add the following html into the `<body>` of your `index.html` file to create a `<div>` as a container for your pixel art and give it an `art` id so you can style it:
 
- 	Add the following html into the `<body>` of your `index.html` file to create a `<div>` as a container for your pixel art and give it an `art` id so you can style it:
+	![screenshot](images/pixel-art-art.png)
 
- 	![screenshot](images/pixel-art-art.png)
-
- 	Now go to your `style.css` file and add the table styling for the art `<div>`:
+ 	Now go to your `style.css` file and add the table styling for the art `<div>`. Notice that the three pixel lines are the same. Type the first one and then use copy and paste to create the others. 
 
 	![screenshot](images/pixel-art-style.png)
 
@@ -47,9 +48,9 @@ Tables contain rows which contain cells. You are going to create a table with a 
 
  + Now go back to your `index.html` file and add a row of 3 pixels inside the art `<div>`:
 
- 	![screenshot](images/pixel-art-row.png)
+	![screenshot](images/pixel-art-row.png)
 
- 	This time you're using classes to style the `<div>`s as there will be lots of them. 
+ 	This time you're using classes to style the divs as there will be lots of them. 
 
  	Then add the following style for the rows and cells:
 
@@ -57,7 +58,7 @@ Tables contain rows which contain cells. You are going to create a table with a 
 
  	Now your pixels will line up in a grid with black lines around them. 
 
- + Now add another two rows of pixels to create a 3 x 3 grid. 
+ + Now add another two rows of pixels to create a 3 x 3 grid. Remember to use copy and paste to save time. 
 
 	![screenshot](images/pixel-art-grid-3.png)
 	
@@ -74,9 +75,9 @@ Try using cut and paste rather than typing everything out.
 
 # Step 2: Colour the pixels {.activity}
 
-You could use HTML and CSS to set the background colour of individual pixels, but that would be a slow way to work! Instead you're going to add some JavaScript code to colour pixels automatically. 
+You could use HTML and CSS to set the background colour of individual pixels, but that would be a slow way to work! Instead you're going to add some JavaScript code to colour pixels automatically when you click on them. 
 
-+ In JavaScript, code is placed in `function`s that can be called when we want to run that code. 
++ In JavaScript, code is placed in a `function` that can be called when we want to run that code. 
 
 	You're going to create a function called `setPixelColour`
 
@@ -85,6 +86,8 @@ You could use HTML and CSS to set the background colour of individual pixels, bu
 	Add the following code to the `script.js` file to set the background colour of a pixel:
 
 	![screenshot](images/pixel-art-set-pixel-colour.png)
+
+	Notice that `backgroundColor` uses the American spelling of colour. 
 
 + Now we need to call that function when a pixel is clicked on.
 
@@ -101,13 +104,15 @@ You could use HTML and CSS to set the background colour of individual pixels, bu
 	You only added `onclick` code to the first pixel so this won't work for the other pixels yet. 
 
 
-##Challenge: Make all the pixels clickable {.challenge}
+##Challenge: Make all pixels clickable {.challenge}
 
 Can you make all the pixels clickable? Use cut and paste to make it quicker. 
 
 Create a quick piece of pixel art. 
 
 ![screenshot](images/pixel-art-black-example.png)
+
+Tip: You can click __Autorun__ to clear all of the pixels. 
 
 # Step 3: Add a colour palette {.activity}
 
@@ -125,7 +130,9 @@ Did you find it annoying that you couldn't change a pixel colour back to white i
 
 	![screenshot](images/pixel-art-palette.png)
 
-+ You want to be able to change the pen colour when a pen colour is clicked on. 
+	`style=` allows you to add CSS inside your HTML which is convient here. 
+
++ You want to be able to change the pen colour when a palette colour is clicked on. 
 
 	Variables are used to store information. Let's create a penColour variable in `script.js`.
 
@@ -158,13 +165,13 @@ Did you find it annoying that you couldn't change a pixel colour back to white i
 
 Can you add more colours to the palette? Choose the colours that you want to create pixel art with. 
 
-The create some cool pixel art.
+Then create some cool pixel art.
 
 Hint: The bright green colour is called `chartreuse`.
 
 ![screenshot](images/pixel-art-final.png)
 
-Ask a volunteer if you can use the Windows Snipping Tool or an alternative to create copies of your pixel art. 
+Ask a volunteer if you can use the Windows Snipping Tool or an alternative to save a copy of your pixel art as an image. 
 
 ## Save Your Project {.save}
 
