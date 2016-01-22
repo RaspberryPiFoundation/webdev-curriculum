@@ -6,7 +6,7 @@ materials: [""]
 ...
 
 #Introducción:
-En este proyecto, los niños construirán un robot para aprender cómo posicionar usando CSS.
+En este proyecto, los niños construirán un robot para aprender como posicionar usando CSS.
 
 #Recursos Online
 
@@ -23,16 +23,16 @@ También hay disponible un *trinket* que contiene una solución de ejemplo a los
 #Recursos Offline
 Este proyecto puede ser [completado offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) si se prefiere o no se dispone de una conexión a Internet. Puedes acceder a los recursos del proyecto haciendo clic en el enlace 'Materiales del Proyecto'. Este enlace contiene una sección de 'Recursos del Proyecto', la cual incluye los recursos que el niño necesitará para complar este proyecto aunque no disponga de conexión a Internet. Asegúrese de que cada niño tiene acceso a una copia de estos recursos. Esta sección contiene los siguientes archivos:
 
-+ Template/Template.html
-+ Template/style.css
++ plantilla/plantilla.html
++ plantilla/style.css
 + robot/Robot.html
-+ Robot/style.css
++ robot/estilo.css
 + Muchas imágenes .png
 
 También puedes encontrar una versión terminada de los ejercicios de ste proyecto en la sección 'Recursos para el Voluntario', que contiene los siguientes archivos:
 
-+ RobotFinished.html
-+ style.css
++ RobotTerminado.html
++ estilo.css
 + Muchas imágenes .png
 
 (Todos los recursos mencionados arriba también pueden descargarse como archivos comprimidos `.zip` para el proyecto y para el voluntario.)

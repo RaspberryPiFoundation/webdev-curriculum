@@ -26,35 +26,35 @@ En este proyecto, aprenderás a cómo posicionar imágenes para crear tu propio 
   </iframe>
 </div>
 
-+ Cada imagen en este proyecto tiene su propio nombre (o __id__). Por ejemplo, el código HTML para las imágenes de la cara y los ojos (‘face’, ‘eyes1’ y ‘eyes2’, a partir de la línea 8 del código) es como se muestra a continuación:
++ Cada imagen en este proyecto tiene su propio nombre (o __id__). Por ejemplo, el código HTML para las imágenes de la cara y los ojos (‘cara’, ‘ojos1’ y ‘ojos2’, a partir de la línea 8 del código) es como se muestra a continuación:
 
 ```
-<img id="face" ...>
-<img id="eyes1" ...>
-<img id="eyes2" ...>
+<img id="cara" ...>
+<img id="ojos1" ...>
+<img id="ojos2" ...>
 ```
 
 + Puedes utilizar el _id_ de cada imagen para darle su propio estilo utilizando el símbolo `#`, conocido como almohadilla. Esto te permitirá dar un estilo distinto a cada imagen.
 
-Haz clic en el archivo `style.css`. ¿Notas que el tamaño de la cara del robot y las demás imágenes son distintos?
+Haz clic en el archivo `estilo.css`. ¿Notas que el tamaño de la cara del robot y las demás imágenes son distintos?
 
 ![screenshot](robot-id.png)
 
 + Añade este código CSS para cambiar la apariencia de los ojos del robot:
 
 ```
-#eyes1 {
+#ojos1 {
     width: 200px;
 }
 ```
 
-Fíjate que sólo estás cambiando el estilo de la imagen `eyes1` ya que has usado el selector `#eyes1` en tu CSS. Si lo prefieres puedes probar qué pasa si usas `#eyes2` o `#eyes3` en vez de `#eyes1` en tu CSS.
+Fíjate que sólo estás cambiando el estilo de la imagen `ojos1` ya que has usado el selector `#ojos1` en tu CSS. Si lo prefieres puedes probar qué pasa si usas `#ojos2` u `#ojos3` en vez de `#ojos1` en tu CSS.
 
 ![screenshot](robot-eyes-width.png)
 
 + ¿Ves cómo cada imagen se muestra una después de la otra? Esto es lo que llamamos posicionamiento relativo, y para definirlo usaremos el atributo CSS __position: relative__. Si quieres indicar al explorador exactamente dónde quieres poner los ojos del robot, deberás usar posicionamiento absoluto, para ello tendrás que usar la propiedad __position: absolute__ en vez de __relative__.
 
-Añade estas tres líneas de código al CSS que utilizamos para definir las propiedades de la imagen `eyes1`:
+Añade estas tres líneas de código al CSS que utilizamos para definir las propiedades de la imagen `ojos1`:
 
 ```
 position: absolute;
@@ -81,7 +81,7 @@ Puedes usar `bottom`, debajo en inglés, en vez de `top` para decirle al explora
 + Añade el siguiente código CSS para empezar a cambiar el estilo de la imagen con id `mouth1`:
 
 ```
-#mouth1 {
+#boca1 {
     width: 50px;
     position: absolute;
     top: 200px;
