@@ -204,14 +204,14 @@ You can also create diagonal gradients that run from corner to corner.
 
 	![screenshot](images/stickers-fire-html.png)
 
-+ With a diagonal gradient you give two directions. The example uses 'to bottom left'.
++ With a diagonal gradient you give two directions. The example uses `to bottom left`.
 
 	Add this style to `style.css` to give your new robot sticker a diagonal gradient and a fancy border:
 
 	![screenshot](images/stickers-fire-gradient.png)
 
 	Note that you can use `outline` to create another border outside the usual one. 
-	'outline-offset' gives the gap between the border and the outline. 
+	`outline-offset` gives the gap between the border and the outline. 
 
 + Let's add some text to this sticker. 
 
