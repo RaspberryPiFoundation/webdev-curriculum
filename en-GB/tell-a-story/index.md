@@ -70,11 +70,15 @@ Let's add a second part to your story.
 
 ## Activity Checklist { .check}
 
-+ Go to line 17 of the code, and add in another set of `<div>` and `</div>` start and end tags. This will create a new box for the next part of your story.
++ Go to line 15 of the code, and add in another set of `<div>` and `</div>` start and end tags. This will create a new box for the next part of your story.
 
 	![screenshot](images/story-div.png)
 
 + Add a paragraph of text inside your new `<div>` tag.
+
+	```
+	<p>More text here!</p>
+	```
 
 	![screenshot](images/story-paragraph.png)
 
@@ -84,13 +88,37 @@ Let's add a second part to your story.
 	<img src="">
 	```
 
+	![screenshot](images/story-img-tag.png)
+
 	Notice that `<img>` tags are a bit different to other tags, as they don't have an end tag.
 
-+ For HTML images, you need to add the __source__ of the image, inside the speech marks. Let's find an image to add to your story.
++ For HTML images, you need to add the __source__ of the image, inside the speech marks. 
 
-	Go to <a href="http://jumpto.cc/web-images" target="_blank">jumpto.cc/web-images</a>, and find an image that you want to include in your story.
+	Click the image icon to see the images available for your story.
 
-+ Right-click the image, and click 'Copy image URL'. The URL is the address of the image.
+	![screenshot](images/story-see-images.png)
+
++ Find the name of an image you want to add, for example `buildings.png`. You can then click `index.html` to get back to your code.
+
+	![screenshot](images/story-image-name.png)
+
++ You can then add the name of the image between the speech marks in your `<img>` tag.
+
+	```
+	<img src="buildings.png">
+	```
+
+	![screenshot](images/story-image-name-add.png)
+
+# Step 4: Finding your own images { .activity}
+
+Let's find an image from the web to add to your story.
+
+## Activity Checklist { .check}
+
++ Go to <a href="http://jumpto.cc/web-images" target="_blank">jumpto.cc/web-images</a> and find an image that you want to include in your story.
+
++ Right-click the image, and click 'Copy image URL'. The __URL__ is the address of the image.
 
 	![screenshot](images/story-url.png)
 
@@ -98,7 +126,15 @@ Let's add a second part to your story.
 
 	![screenshot](images/story-image.png)
 
-+ __If you have a Trinket account__, you can also upload your own images to your webpage! To do this, click the image icon at the top of your trinket and then click 'upload'.
+## Save Your Project {.save}
+
+# Step 5: Uploading images { .activity}
+
+__If you have a Trinket account__, you can also upload your own images to your webpage!
+
+## Activity Checklist { .check}
+
++ Click the image icon at the top of your trinket and then click 'Add Image'.
 
 	![screenshot](images/story-upload.png)
 
