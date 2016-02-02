@@ -12,7 +12,7 @@ project-type: beta
 In this project, you'll learn how to use CSS to create an animated sunrise.
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/html/5085f92143?outputOnly=true&start=result" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/html/abcc0284a3?outputOnly=true&start=result" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/sunrise-final.png">
 </div>
