@@ -137,7 +137,7 @@ Let's make the animation keep repeating forever.
 
 ## Save Your Project {.save}
 
-# Step 3: Animating the sky { .activity}
+# Step 4: Animating the sky { .activity}
 
 Animation isn't just for movement. Let's animate the sky to turn dark at night.
 
