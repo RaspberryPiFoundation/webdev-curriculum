@@ -1,9 +1,9 @@
 ---
-titulo: Feliz Aniversário
-Nível: HTML & CSS 1
-linguagem: pt-BR
-embutidos: "*.png"
-materiais: ["Club Leader Resources/*.*","Project Resources/*.*"]
+title: Feliz Aniversário
+level: HTML & CSS 1
+language: pt-BR
+embeds: "*.png"
+materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 stylesheet: web
 ...
  
