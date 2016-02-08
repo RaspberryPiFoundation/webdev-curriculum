@@ -1,0 +1,44 @@
+{
+    "description": "-~- Mais projetos aqui em breve! -~-",
+    "warning": "O currículo de HTML & CSS está sendo atualizado no momento, assim como a sua tradução ainda está corrente. Em breve teremos todo o material traduzido aqui.",
+    "id": "html_01",
+    "language": "pt-BR",
+    "number": 5,
+    "title": "HTML & CSS 1",
+    "category": "cat-html",
+    "projects":
+    [
+
+        {
+            "number": 1,
+            "beta": true,
+            "filename": "Happy Birthday/Happy Birthday.md",
+            "note": "Happy Birthday/Happy Birthday - notes.md"
+        },
+        {
+            "number": 2,
+            "beta": true,
+            "filename": "Tell a Story/Tell a Story.md",
+            "note": "Tell a Story/Tell a Story - notes.md"
+        },
+        {
+            "number": 3,
+            "beta": true,
+            "filename": "Wanted/Wanted.md",
+            "note": "Wanted/Wanted - notes.md"
+        },
+        {
+            "number": 4,
+            "beta": true,
+            "filename": "Recipe/Recipe.md",
+            "note": "Recipe/Recipe - notes.md"
+        },
+        {
+            "number": 5,
+            "beta": true,
+            "filename": "Build a Robot/Build a Robot.md",
+            "note": "Build a Robot/Build a Robot - notes.md"
+        }
+    ],
+
+}
