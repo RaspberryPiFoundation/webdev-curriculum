@@ -52,7 +52,7 @@ Tables contain rows which contain cells. You are going to create a table with a 
 
  	This time you're using classes to style the divs as there will be lots of them. 
 
- 	Then add the following style for the rows and cells:
+ 	Add the following style for the rows and cells:
 
 	![screenshot](images/pixel-art-row-style.png)
 
@@ -171,7 +171,7 @@ Hint: The bright green colour is called `chartreuse`.
 
 ![screenshot](images/pixel-art-final.png)
 
-Ask a volunteer if you can use the Windows Snipping Tool or an alternative to save a copy of your pixel art as an image. 
+Ask your club leader if you can use the Windows Snipping Tool or an alternative to save a copy of your pixel art as an image. 
 
 ## Save Your Project {.save}
 
