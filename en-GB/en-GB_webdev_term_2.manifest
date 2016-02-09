@@ -1,7 +1,6 @@
 {
-    "description": "-~- More projects coming soon! -~-",
-    "warning": "The HTML & CSS curriculum is currently being updated. If you can't find a project here, it may have been moved to the 'Archived HTML & CSS Projects' section.",
-    "id": "html_01",
+    "description": false,
+    "id": "html_02",
     "language": "en-GB",
     "number": 6,
     "title": "HTML & CSS 2",
