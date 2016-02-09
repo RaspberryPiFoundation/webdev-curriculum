@@ -1,0 +1,25 @@
+{
+    "description": "-~- More projects coming soon! -~-",
+    "warning": "The HTML & CSS curriculum is currently being updated. If you can't find a project here, it may have been moved to the 'Archived HTML & CSS Projects' section.",
+    "id": "html_01",
+    "language": "en-GB",
+    "number": 6,
+    "title": "HTML & CSS 2",
+    "category": "cat-html",
+    "projects":
+    [
+        {
+            "number": 1,
+            "beta": true,
+            "filename": "Build a Robot/Build a Robot.md",
+            "note": "Build a Robot/Build a Robot - notes.md"
+        }
+    ],
+
+    "extras": [
+        {
+            "name": "Introduction to HTML & CSS",
+            "note": "extras/html-css.md"
+        }
+    ]
+}

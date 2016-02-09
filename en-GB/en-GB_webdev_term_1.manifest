@@ -36,8 +36,14 @@
         {
             "number": 5,
             "beta": true,
-            "filename": "Build a Robot/Build a Robot.md",
-            "note": "Build a Robot/Build a Robot - notes.md"
+            "filename": "Mystery Letter/Mystery Letter.md",
+            "note": "Mystery Letter/Mystery Letter - notes.md"
+        },
+        {
+            "number": 6,
+            "beta": true,
+            "filename": "Project Showcase/Project Showcase.md",
+            "note": "Project Showcase/Project Showcase - notes.md"
         }
     ],
 
