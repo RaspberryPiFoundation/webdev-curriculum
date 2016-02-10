@@ -141,9 +141,9 @@ Change the text colour from `blue` to `tomato`.
 + Your browser knows the names of 140 colours, but actually knows the __colour values__ of more than 16 million colours!
 
 
-As you may know, all colours can be made from the primary colours: red, green and blue. To tell the browser which colour to display, you just need to let it know how much of each primary colour to use.
+To tell the browser which colour to display, you just need to let it know how much red, green and blue to use.
 
-The amounts of red, green and blue to use are written as a number between `0` and `255`.
+The amounts of red, green and blue are written as a number between `0` and `255`.
 
 ![screenshot](images/recipe-rgb-img.png)
 
