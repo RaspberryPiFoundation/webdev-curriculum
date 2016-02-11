@@ -3,7 +3,7 @@ title: Pixel Art — Notes for Club Leaders
 ---
 
 #Introduction:
-In this project, children will be introduced to JavaScript to change the colour of the pixels. They will also learn how to use HTML tables to create a grid of pixels.
+In this project, children create a pixel art editor. They will be introduced to JavaScript to change the colour of the pixels. They will also learn how to use HTML tables to create a grid of pixels.
 
 #Online Resources
 
@@ -13,7 +13,7 @@ We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. Th
 
 There is also a trinket containing a sample solution to the challenges:
 
-+ ['Pixel Art' Finished](https://trinket.io/html/abcc0284a3)
++ ['Pixel Art' Finished](https://trinket.io/html/0e102a306b)
 
 #Offline Resources
 This project can be [completed offline](../offline.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
