@@ -3,7 +3,7 @@ title: Stickers — Volunteer Notes
 ---
 
 #Introduction:
-In this project, children will be introduced to linear and radial gradients in HTML. They will also learn more about borders and positioning. 
+In this project, children will be introduced to linear and radial gradients in CSS. They will also learn more about borders and positioning. 
 
 #Online Resources
 
