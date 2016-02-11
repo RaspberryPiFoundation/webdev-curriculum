@@ -44,5 +44,4 @@ You can also find a completed version of this project's challenges in the 'Volun
 
 #Challenges
 + "Create your own gradient sticker" - adding linear and radial gradients to text;
-+ "Make your own image sticker" - make stickers by using a gradient with an image with a transparent background;
 + "Make more stickers!" - Combine gradients with images and text to create more stickers.
