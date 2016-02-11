@@ -4,7 +4,6 @@ description: Create a pixel art editor.
 layout: project
 notes: "Pixel Art - notes.md"
 new: true
-project-type: beta
 ---
 
 # Introduction {.intro}

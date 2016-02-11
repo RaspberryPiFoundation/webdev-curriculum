@@ -4,7 +4,6 @@ description: Create fun robot stickers to decorate your web pages.
 layout: project
 notes: "Stickers - notes.md"
 new: true
-project-type: beta
 ---
 
 # Introduction {.intro}

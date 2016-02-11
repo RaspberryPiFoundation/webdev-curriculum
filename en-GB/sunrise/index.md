@@ -4,7 +4,6 @@ description: Create an animated sunrise.
 layout: project
 notes: "Sunrise - notes.md"
 new: true
-project-type: beta
 ...
 
 # Introduction { .intro}

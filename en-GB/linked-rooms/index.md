@@ -4,7 +4,6 @@ description: Create a web project with several 'rooms' linked together.
 layout: project
 notes: "Linked Rooms - notes.md"
 new: true
-project-type: beta
 ---
 
 # Introduction {.intro}
