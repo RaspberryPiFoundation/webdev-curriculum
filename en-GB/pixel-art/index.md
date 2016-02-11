@@ -9,7 +9,7 @@ project-type: beta
 
 # Introduction {.intro}
 
-In this project, you'll create a pixel art editor. As well as using HTML and CSS you'll learn how to add JavaScript to your project.
+In this project, you'll create a pixel art editor. As well as using HTML and CSS you'll learn how to use JavaScript to add interactivity to your project.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/0e102a306b?outputOnly=true&start=result" width="600" height="450" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -74,6 +74,8 @@ Try using cut and paste rather than typing everything out.
 ## Save Your Project {.save}
 
 # Step 2: Colour the pixels {.activity}
+
+HTML is used to organise your content and CSS to style it. JavaScript is a programming language that can be used to change a web page as you interact with it. 
 
 You could use HTML and CSS to set the background colour of individual pixels, but that would be a slow way to work! Instead you're going to add some JavaScript code to colour pixels automatically when you click on them. 
 
