@@ -3,7 +3,7 @@ title: Mystery Letter — Volunteer Notes
 ---
 
 #Introduction:
-In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images free Google fonts in their projects. 
+In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images and free Google fonts in their projects. 
 
 
 #Online Resources
