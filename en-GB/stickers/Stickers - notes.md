@@ -29,7 +29,7 @@ This project can be [completed offline](https://www.codeclubprojects.org/en-GB/r
 + stickers/script.js
 + stickers/robot .png images
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' folder, which contains:
+You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
 + stickers-finished/index.html
 + stickers-finished/style.css
