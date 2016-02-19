@@ -29,7 +29,7 @@ This project can be [completed offline](https://www.codeclubprojects.org/en-GB/r
 + magazine/script.js
 + magazine/mutliple .png images
 
-You can also find a completed version of this project's challenges in the 'Club Leader Resources' folder, which contains:
+You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
 + magazine-finished/index.html
 + magazine-finished/style.css
