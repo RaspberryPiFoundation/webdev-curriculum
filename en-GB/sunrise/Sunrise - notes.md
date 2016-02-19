@@ -30,7 +30,7 @@ This project can be [completed offline](../offline.html) if preferred. You can a
 + sunrise/rainbow.png
 + sunrise/sun.png
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' folder, which contains:
+You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
 + index.html
 + style.css
