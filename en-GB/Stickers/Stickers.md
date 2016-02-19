@@ -11,11 +11,7 @@ stylesheet: web
 
 In this project, you'll create lots of fun stickers that you can use to decorate web pages. You'll learn about using gradients to make your stickers look cool. 
 
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/html/bb4e538e0a?outputOnly=true&start=result" width="600" height="450" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-  <img src="stickers-finished.png">
-</div>
+![screenshot](stickers-finished.png)
 
 # Step 1: Make a linear gradient sticker {.activity}
 
