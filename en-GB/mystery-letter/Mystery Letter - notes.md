@@ -29,7 +29,7 @@ This project can be [completed offline](https://www.codeclubprojects.org/en-GB/r
 + template/template.html
 + template/style.css
 
-You can also find a completed version of this project's challenges in the 'Club Leader Resources' folder, which contains:
+You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
 + mystery-letter-finished/index.html
 + mystery-letter-finished/style.css
