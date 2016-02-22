@@ -13,7 +13,7 @@ In this project, you'll create a set of linked rooms where each room is a differ
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/ba5d27ec68?outputOnly=true&start=result" width="600" height="450" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
-  <img src="rooms-hall-finished.png">
+  <img src="images/rooms-hall-finished.png">
 </div>
 
 __Instructions__: Click the doors to move between rooms.
