@@ -10,7 +10,11 @@ project-type: sample
 
 In this project, you'll be introduced to HTML & CSS by learning how to make your own customised birthday card.
 
-![screenshot](images/birthday-final.png)
+<div class="trinket">
+  <iframe src="https://trinket.io/embed/html/e996dc0380?outputOnly=true&start=result" width="600" height="450" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+  <img src="images/birthday-final.png">
+</div>
 
 # Step 1: What is HTML? { .activity}
 
