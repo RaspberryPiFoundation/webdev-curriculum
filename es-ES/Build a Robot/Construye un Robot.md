@@ -19,10 +19,10 @@ En este proyecto, aprenderás a cómo posicionar imágenes para crear tu propio 
 
 ## Lista de Tareas de la Actividad { .check}
 
-+ Abre este *trinket*: <a href="https://trinket.io/html/c14fcb3f4c" target="\_blank">jumpto.cc/web-robot</a>. Si dispones de conexión a Internet también puedes utilizar la versión insertada a continuación.
++ Abre este *trinket*: <a href="https://trinket.io/html/c14fcb3f4c" target="\_blank">trinket.io/html/c14fcb3f4c</a>. Si dispones de conexión a Internet también puedes utilizar la versión insertada a continuación.
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/html/b29b50e571" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/html/c14fcb3f4c" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 

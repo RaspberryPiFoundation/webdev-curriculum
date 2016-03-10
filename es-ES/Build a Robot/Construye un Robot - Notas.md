@@ -12,9 +12,9 @@ En este proyecto, los niños construirán un robot para aprender como posicionar
 
 Recomendamos usar [trinket](https://trinket.io/) para realizar páginas online usando HTML y CSS. Este proyecto contiene los siguientes *trinkets*:
 
-+ ['Construye un robot', punto de partida -- jumpto.cc/web-robot](https://trinket.io/html/c14fcb3f4c)
++ ['Construye un robot', punto de partida -- trinket.io/html/c14fcb3f4c](https://trinket.io/html/c14fcb3f4c)
 
-Los niños también pueden usar este *trinket* en blanco [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) para escribir su propio HTML y CSS. También pueden utilizar la siguiente plantilla [(jumpto.cc/trinket-template)](https://trinket.io/html/8a85751bb8).
+Los niños también pueden usar este *trinket* en blanco [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) para escribir su propio HTML y CSS. También pueden utilizar la siguiente plantilla [(trinket.io/html/8a85751bb8)](https://trinket.io/html/8a85751bb8).
 
 También hay disponible un *trinket* que contiene una solución de ejemplo a los ejercicios:
 
