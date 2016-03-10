@@ -146,7 +146,7 @@ Don't worry if you get a warning saying that 'The Rule is empty', you'll fix tha
 
 + Click on the Quick-use button:
 
-![screenshot](images/letter-fonts2.png)
+![screenshot](letter-fonts2.png)
 
 + A new page will load. Scroll down until you see:
 
