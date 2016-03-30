@@ -10,7 +10,7 @@ new: true
 
 In this project, you'll create lots of fun stickers that you can use to decorate web pages. You'll learn about using gradients that gradually change from one colour to another to make your stickers look cool. 
 
-![screenshot](stickers-finished.png)
+![screenshot](images/stickers-finished.png)
 
 # Step 1: Colourful coding sticker {.activity}
 
