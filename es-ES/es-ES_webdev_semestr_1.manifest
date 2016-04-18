@@ -18,14 +18,20 @@
             "filename": "Tell a Story/Tell a Story.md",
             "note": "Tell a Story/Tell a Story - notes.md"
         },
-	{
+    {
             "number": 3,
+            "beta": true,
+            "filename": "Wanted/Wanted.md",
+            "note": "Wanted/Wanted - notes.md"
+        },
+	{
+            "number": 4,
             "beta": true,
             "filename": "Recipe/Recipe.md",
             "note": "Recipe/Recipe - notes.md"
         },
 	{
-            "number": 4,
+            "number": 5,
             "beta": true,
             "filename": "Mystery Letter/Mystery Letter.md",
             "note": "Mystery Letter/Mystery Letter - notes.md"
