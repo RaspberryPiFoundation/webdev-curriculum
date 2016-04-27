@@ -9,10 +9,9 @@ In this project, children will learn how to create a two-column layout. They wil
 
 We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
 
-+ ['Intro to HTML and CSS' starting point -- jumpto.cc/web-intro](http://jumpto.cc/web-intro)
 + ['Magazine' starting point  -- jumpto.cc/web-magazine](http://jumpto.cc/web-magazine)
 
-Children can also make use of this blank trinket [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
+Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
 There is also a trinket containing a sample solution to the challenges:
 

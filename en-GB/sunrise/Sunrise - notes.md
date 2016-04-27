@@ -11,6 +11,8 @@ We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. Th
 
 + ['Sunrise' starting point](https://trinket.io/html/web-sunrise)
 
+Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+
 There is also a trinket containing a sample solution to the challenges:
 
 + ['Sunrise' Finished](https://trinket.io/html/abcc0284a3)

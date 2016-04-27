@@ -30,7 +30,7 @@ Let’s list the ingredients that are needed for your recipe.
 
 ## Activity Checklist { .check}
 
-+ Open this template trinket: [jumpto.cc/trinket-template](http://jumpto.cc/trinket-template). If you’re reading this online, you can also use the embedded version of this trinket below.
++ Open this template trinket: [jumpto.cc/html-template](http://jumpto.cc/html-template). If you’re reading this online, you can also use the embedded version of this trinket below.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/ef4c882ae6" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>

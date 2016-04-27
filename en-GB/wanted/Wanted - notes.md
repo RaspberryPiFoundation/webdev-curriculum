@@ -11,7 +11,7 @@ We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. Th
 
 + ['Wanted' starting point -- jumpto.cc/web-wanted](http://jumpto.cc/web-wanted)
 
-Children can also make use of this blank trinket [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
+Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
 There is also a trinket containing a sample solution to the challenges:
 
