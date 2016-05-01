@@ -8,11 +8,13 @@ materials: [""]
 #Introdução:
 Neste projeto as crianças aprenderão sobre listas do HTML e cores do CSS. Eles criarão suas próprias receitas, acrescentando ingredientes e modos de preparo.
 
+Caso tenha problemas com acentuação das palavras, adicione "<meta charset="utf-8">" ao código HTML.
+
 #Recursos Online 
 
 Recomendamos o uso de [trinket](https://trinket.io/) para escrever códigos HTML & CSS online.
 
-Para este projeto, as crianças podem utilizar este trinket em branco ([jumpto.cc/trinket-blank](http:/jumpto.cc/trinket-blank)) para escrever seus próprios HTML & CSS, ou eles tem a alternativa de usar este template trinket ([jumpto.cc/trinket-template](http://jumpto.cc/trinket-template)).
+Para este projeto, as crianças podem utilizar este trinket em branco ([jumpto.cc/trinket-blank](http:/jumpto.cc/trinket-blank)) para escrever seus próprios HTML & CSS, ou eles tem a alternativa de usar este template trinket ([http://bit.ly/codeclub-template](http://bit.ly/codeclub-template)).
 
 Exite também um trinket contendo uma solução simples dos desafios:
 
@@ -20,6 +22,7 @@ Exite também um trinket contendo uma solução simples dos desafios:
 
 
 #Recursos Offline 
+(Estes recursos podem não estar prontos ainda, tente usar a versão online!)
 Este projeto pode ser [completado offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) se você preferir. Você pode acessar os recursos de projeto clicando  the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
 + Template/Template.html

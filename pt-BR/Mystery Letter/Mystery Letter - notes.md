@@ -14,13 +14,13 @@ Caso tenha problemas com palavras acentuadas, adicione "<meta charset="utf-8">" 
 
 Nós recomendamos o uso do [trinket](https://trinket.io/) para escrever HTML & CSS online. Este projeto contém este trinket :
 
-+ ['Mystery Letter' starting point  -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
++ ['Carta Misteriosa' ponto de partida  -- bit.ly/carta-misteriosa](http://bit.ly/carta-misteriosa)
 
-Os alunos também farão uso deste trinket em branco [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) para escrever seus próprios HTML & CSS. Outra alternativa é eles utilizarem este template trinket [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
+Os alunos também farão uso deste trinket em branco [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) para escrever seus próprios HTML & CSS. Outra alternativa é eles utilizarem este template trinket [(bit.ly/codeclub-template)](http://bit.ly/codeclub-template).
 
 Existe também um trinket contendo uma amostra da solução dos desafios:
 
-+ ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
++ ['Carta Misteriosa Finalizada' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
 # Recursos Offline 
 (Ainda ajustaremos a versão offline!)

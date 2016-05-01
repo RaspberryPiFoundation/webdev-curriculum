@@ -32,7 +32,7 @@ Vamos colocar sua mensagem em uma página da internet.
 https://trinket.io/html/4051cefec5" target="_blank">www.bit.ly/carta-misteriosa</a>. Se você estiver estiver lendo estas instruções online, você também pode usar a versão embutida do trinket abaixo.
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/html/b5fbcf112e" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/html/4051cefec5" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 

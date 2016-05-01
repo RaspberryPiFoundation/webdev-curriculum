@@ -32,10 +32,10 @@ Vamos listar os ingredientes que são necessários para sua receita.
 
 ## Lista de Atividades { .check}
 
-+ Abra este template trinket: [jumpto.cc/trinket-template](http://jumpto.cc/trinket-template). Se você estiver lendo online, você pode usar a versão embutida do trinket abaixo.
++ Abra este template trinket: [http://bit.ly/codeclub-template](http://bit.ly/codeclub-template). Se você estiver lendo online, você pode usar a versão embutida do trinket abaixo.
 
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/html/ef4c882ae6" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/html/a4fa944734" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
