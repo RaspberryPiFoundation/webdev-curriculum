@@ -1,0 +1,85 @@
+span
+{
+	display: inline-block; 
+	margin: 8px; 
+	box-shadow: 1px 2px 2px grey; 
+}
+
+body {
+ 	background-color: white;
+	padding: 30px;
+	max-width: 450px;
+	margin: auto;
+}
+
+.jornal {
+	background-color: antiquewhite;
+	font-family: "Times New Roman";
+	font-weight: bold;
+}
+
+.revista1  {
+ 	background-color: teal;
+ 	color:white;
+ 	font-family: Verdana;
+	font-weight: 900;
+	text-transform: uppercase; 
+}
+
+.revista2 {
+	background-image: url('pink-pattern.png');
+  	color: fuchsia;
+  	font-family: Verdana;
+	font-weight: 900;
+}
+
+.gibi {
+ 	background-color: yellow;
+  	color: red;
+  	font-weight: bold;
+}
+
+.manuscrito {
+	background-image: url('rough-paper.png');
+	color: saddlebrown;
+	font-family: 'Italianno', cursive;
+	font-style: italic;
+}
+
+.impressao {
+	background-image: url('computer-printout-paper.png');
+	color: black;
+	font-family: 'VT323', sans-serif;
+	font-size: larger;
+}
+
+.medio {
+	font-size: 15px;
+	padding: 6px;
+}
+
+.grande {
+	font-size: 20px;
+	padding: 8px;
+}
+
+.realmentegrande {
+	font-size: 30px;
+	padding: 10px;
+}
+
+.rotacionarAEsquerda {
+	transform: rotate(-5deg);
+}
+
+.rotacionarADireita {
+	transform: rotate(5deg);
+}
+
+.inclinarAEsquerda {
+	transform: skewX(10deg);
+}
+
+.inclinarADireita {
+	transform: skewX(-10deg);
+}

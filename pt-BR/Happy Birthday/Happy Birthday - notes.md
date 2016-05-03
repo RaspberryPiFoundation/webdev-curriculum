@@ -8,12 +8,14 @@ materials: [""]
 #Introdução:
 Neste projeto, as crianças serão introduzidas a tags HTML e propriedades CSS. Elas também irão editar tags e propriedades e criar seu próprio cartão de saudações personalizado.
 
+Caso tenha problemas com palavras acentuadas, coloque "<meta charset="utf-8">" no início do código HTML.
+
 #Recursos Online
 
 Nós recomendamos usar o [trinket](https://trinket.io/) para escrever HTML e CSS online. Este projeto contém os seguintes trinkets:
 
-+ ['Introdução a HTML e CSS' ponto de partida](https://trinket.io/html/850a678202)
-+ ['Cartão de Aniversário' ponto de partida  -- jumpto.cc/web-card](http://jumpto.cc/web-card)
++ ['Introdução a HTML e CSS' ponto de partida](http://bit.ly/html-introducao)
++ ['Cartão de Aniversário' ponto de partida  -- jumpto.cc/web-card](http://bit.ly/cartao-aniversario)
 
 As crianças também podem fazer uso deste trinket em branco [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) para escrever seu próprio HTML e CSS, ou como alternativa eles poderão usar esse trinket como modelo [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
 

@@ -1,13 +1,13 @@
 ---
-title: Feliz Aniversário
-level: HTML & CSS 1
-language: pt-BR
-embeds: "*.png"
-materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
+titulo: Feliz Aniversário
+Nível: HTML & CSS 1
+linguagem: pt-BR
+embutidos: "*.png"
+materiais: ["Club Leader Resources/*.*","Project Resources/*.*"]
 stylesheet: web
 ...
  
-# introdução { .intro}
+# Introdução { .intro}
 
 Neste projeto, você começará a sua jornada pelo HTML e CSS aprendendo a fazer seu próprio cartão de aniversário customizado.
 
@@ -19,10 +19,10 @@ HTML significa __Linguagem de Marcação de Hipertexto_ (Hyper Text Markdown Lan
 
 ## Lista de verificação de atividade { .check}
 
-+ Você utilizará um website chamado Trinket para escrever HTML. Abra o Trinket: <a href="http://jumpto.cc/web-intro" target="_blank">jumpto.cc/web-intro</a>. Se você estiver lendo isso online, você também poderá usar a versão embutida do Trinket, abaixo.
++ Você utilizará um website chamado Trinket para escrever HTML. Abra o Trinket: <a href="http://bit.ly/html-introducao" target="_blank">bit.ly/html-introducao</a>. Se você estiver lendo isso online, você também poderá usar a versão embutida do Trinket, abaixo.
 
 <div class="trinket">
-	<iframe src="https://trinket.io/embed/html/850a678202" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+	<iframe src="https://trinket.io/embed/html/61ade91dfa" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 	</iframe>
 </div>
 
@@ -122,10 +122,10 @@ Vamos usar o que você aprendeu sobre HTML e CSS para fazer seu próprio cartão
 
 ## Lista de verificação de atividade { .check}
 
-+ Abra esse Trinket: <a href="http://jumpto.cc/web-card" target="_blank">jumpto.cc/web-card</a>, ou use a versão embutida abaixo, se você está lendo online.
++ Abra esse Trinket: <a href="http://bit.ly/cartao-aniversario" target="_blank">bit.ly/cartao-aniversario</a>, ou use a versão embutida abaixo, se você está lendo online.
 
 <div class="trinket">
-	<iframe src="https://trinket.io/embed/html/90506676c9" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+	<iframe src="https://trinket.io/embed/html/2a1de0299b" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 	</iframe>
 </div>
 
@@ -139,7 +139,7 @@ Não se prepcupe se você não entender todo o código. Esse cartão de anivers�
 
 	![screenshot](birthday-card-html.png)
 
-+ Você pode encontrar o código HTML da imagem do robô? (DIca: está na linha 16!) Mude a palavra `robot` para `sun`, e você verá a imagem mudar!
++ Você pode encontrar o código HTML da imagem do robô? (Dica: está na linha 16!) Mude a palavra `robot` para `sun`, e você verá a imagem mudar!
 
 	![screenshot](birthday-card-sun.png)
 
@@ -157,7 +157,7 @@ Não se prepcupe se você não entender todo o código. Esse cartão de anivers�
 
 	![screenshot](birthday-card-font.png)
 
-	Você pode usar outras fontes, como <span style="font-family: Arial;">arial</span>, <span style="font-family: impact;">Impact</span> and <span style="font-family: tahoma;">Tahoma</span>. 
+	Você pode usar outras fontes, como <span style="font-family: Arial;">arial</span>, <span style="font-family: impact;">Impact</span> e <span style="font-family: tahoma;">Tahoma</span>. 
 
 ## Salve seu projeto {.save}
 

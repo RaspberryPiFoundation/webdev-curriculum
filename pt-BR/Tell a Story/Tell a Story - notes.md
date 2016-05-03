@@ -8,13 +8,17 @@ materials: [""]
 #Introdução:
 Neste projeto, as crianças terão a oportunidade de escrever seu próprio HTML. Elas irão criar suas próprias histórias, adicionando paineis, imagens e legendas para uma história no estilo de uma história em quadrinhos.
 
+Sobre a tradução de Story para "história" e não "estória", citamos o Dicionário Aurélio: "[Recomenda-se apenas a grafia história, tanto no sentido de ciência histórica, quanto no de narrativa de ficção, conto popular, e demais acepções.]"
+
+Caso tenha problemas com palavras acentuadas, adicione "<meta charset="utf-8">" ao inicio do código HTML!
+
 #Recursos Online
 
 Recomendamos usar o [trinket](https://trinket.io/) para escrever HTML e CSS online. Este projeto contém os seguintes trinkets:
 
-+ ['Tell a Story' starting point -- jumpto.cc/web-story](http://jumpto.cc/web-story)
++ ['Conte uma história' Ponto de partida -- bit.ly/conte-uma-historia](http://bit.ly/conte-uma-historia)
 
-Crianças também podem fazer uso desse trinket em branco [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) para escrever seus próprios HTML & CSS ou, alternativamente, elas podem usar este template do trinket [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
+Crianças também podem fazer uso desse trinket em branco [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) para escrever seus próprios HTML & CSS ou, alternativamente, elas podem usar este template do trinket [(bit.ly/codeclub-template)](http://bit.ly/codeclub-template).
 
 Há também um trinket contendo um exemplo de solução para os desafios:
 
