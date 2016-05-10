@@ -132,7 +132,7 @@ body {
 
 + Your browser knows colours like `blue`, `yellow` and even `lightgreen`, but did you know that your browser actually knows the __names__ of over 500 different colours?
 
-There’s a list of all the colour names you can use: [jumpto.cc/web-colours](http://jumpto.cc/web-colours), which includes colour names like `tomato`, `firebrick` and `peachpuff`.
+There’s a list of all the colour names you can use: [jumpto.cc/colour-names](http://jumpto.cc/colour-names), which includes colour names like `tomato`, `firebrick` and `peachpuff`.
 
 Change the text colour from `blue` to `tomato`.
 
