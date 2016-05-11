@@ -116,7 +116,7 @@ Let's find an image from the web to add to your story.
 
 ## Activity Checklist { .check}
 
-+ Go to <a href="http://jumpto.cc/web-images" target="_blank">jumpto.cc/web-images</a> and find an image that you want to include in your story.
++ Go to <a href="http://jumpto.cc/html-images" target="_blank">jumpto.cc/html-images</a> and find an image that you want to include in your story.
 
 + Right-click the image, and click 'Copy image URL'. The __URL__ is the address of the image.
 
