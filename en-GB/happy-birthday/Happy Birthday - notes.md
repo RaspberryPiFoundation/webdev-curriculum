@@ -46,3 +46,15 @@ You can also find a completed version of this project's challenges in the 'Volun
 + "Add another paragraph" - adding an HTML tag to a document;
 + "Add more style" - editing CSS styles;
 + "Create a personalised card" - editing HTML and CSS to make a greetings card.
+
+#Frequently Asked Questions
+
++ This project makes use of the javascript `prefixfree.js` library, to allow animation compatibility between browsers. If this library isn't used, then children using older browsers will instead need to declare an animation for their browser, for example:
+
+```
+animation: sky 10s infinite; 		  	//for all newer browsers
+-webkit-animation: sky 10s infinite;  	// For Webkit browsers(Chrome, Safari...)
+-moz-animation: sky 10s infinite;     	// For Mozilla browsers
+-o-animation: sky 10s infinite;       	// For Opera browsers
+-ms-animation: sky 10s infinite;		// For Microsoft browsers 
+```

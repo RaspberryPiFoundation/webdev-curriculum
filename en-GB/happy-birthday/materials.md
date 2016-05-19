@@ -35,6 +35,8 @@ project-resources:
     type: file
   - url: birthday-card/script.js
     type: file
+  - url: birthday-card/prefixfree.js
+    type: file
   - url: birthday-card/boy.png
     type: image
   - url: birthday-card/diamond.png
@@ -70,6 +72,8 @@ volunteer-resources:
   - url: birthday-card-finished/style.css
     type: flie
   - url: birthday-card-finished/script.js
+    type: file
+  - url: birthday-card-finished/prefixfree.js
     type: file
   - url: birthday-card/dinosaur.png
     type: image
