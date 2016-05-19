@@ -39,7 +39,7 @@ HTML stands for __HyperText Markup Language__, and is the language used to make 
 
 	`<p>` is an example of a tag, and is short for __paragraph__. You can start a paragraph with `<p>` and end a paragraph with `</p>`.
 
-+ Can you spot any other tags? One other tag you might have spotted on line 9 is `<b>`, which stands for __bold__:
++ Can you spot any other tags? One other tag you might have spotted is `<b>`, which stands for __bold__:
 
 	```
 	<b>running</b>
@@ -138,11 +138,11 @@ Don't worry if you don't understand all of the code. This birthday card looks pr
 
 	![screenshot](images/birthday-click.png)
 
-+ Go to line 13 of the code. Just like in the earlier example, you can edit any of the text in the HTML to customise the card.
++ Go to line 14 of your code. Just like in the earlier example, you can edit any of the text in the HTML to customise the card.
 
 	![screenshot](images/birthday-card-html.png)
 
-+ Can you find the HTML for the robot image? (Hint: it's on line 16!) Change the word `robot` to `sun`, and you'll see the image change!
++ Can you find the HTML for the robot image? (Hint: it's on line 17!) Change the word `robot` to `sun`, and you'll see the image change!
 
 	![screenshot](images/birthday-card-sun.png)
 
@@ -152,11 +152,11 @@ Don't worry if you don't understand all of the code. This birthday card looks pr
 
 	![screenshot](images/birthday-card-outside.png)
 
-+ You can also change the size of an image. Go to line 29 of the CSS, and change the `width` and `height` of the outside image to `200px` (`px` stands for pixels).
++ You can also change the size of an image. Go to the `#outside-pic` CSS, and change the `width` and `height` of the outside image to `200px` (`px` stands for pixels).
 
 	![screenshot](images/birthday-card-size.png)	
 
-+ The font can be changed too. Go to line 24 and change the `font-family` to `Comic Sans MS` and the `font-size` to `16pt`.
++ The font can be changed too. Go to the `#outside-title` CSS and change the `font-family` to `Comic Sans MS` and the `font-size` to `16pt`.
 
 	![screenshot](images/birthday-card-font.png)
 
