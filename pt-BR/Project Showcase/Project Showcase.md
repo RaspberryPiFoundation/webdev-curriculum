@@ -1,8 +1,8 @@
 ---
-título: Projeto Mostruário
-nível: HTML & CSS 1
-idioma: pt-BR
-embutidos: "*.png"
+title: Projeto Mostruário
+level: HTML & CSS 1
+language: pt-BR
+embeds: "*.png"
 materiais: ["Club Leader Resources/*.*","Project Resources/*.*"]
 stylesheet: web
 ...
