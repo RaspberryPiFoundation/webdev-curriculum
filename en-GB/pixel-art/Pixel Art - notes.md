@@ -43,5 +43,3 @@ You can also find a completed version of this project's challenges in the 'Volun
 + "Make all pixels clickable" - add onclick code to all pixels.
 + "Add more colours to the palette" - add more colour to the palette and have them change the pen colour when clicked. 
 
-#Frequently Asked Questions
-
