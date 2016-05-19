@@ -29,7 +29,7 @@ project-resources:
     type: file
   - url: sunrise/style.css
     type: file
-  - url: sunrise/script.js
+  - url: sunrise/prefixfree.js
     type: file
   - url: sunrise/sun.png
     type: image
@@ -53,7 +53,7 @@ volunteer-resources:
     type: file
   - url: sunrise-finished/style.css
     type: flie
-  - url: sunrise-finished/script.js
+  - url: sunrise-finished/prefixfree.js
     type: file
   - url: sunrise/sun.png
     type: image
