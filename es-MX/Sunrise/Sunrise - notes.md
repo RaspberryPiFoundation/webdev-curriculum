@@ -1,6 +1,6 @@
 ---
 title: Amanecer — Notas para los líderes del Club
-language: es-ES
+language: es-MX
 embeds: "*.png"
 materials: [""]
 ...
