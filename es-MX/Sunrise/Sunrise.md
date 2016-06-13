@@ -1,7 +1,7 @@
 ---
 title: Sunrise
 level: HTML & CSS 2
-language: en-GB
+language: es-MX
 embeds: "*.png"
 materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 stylesheet: web
