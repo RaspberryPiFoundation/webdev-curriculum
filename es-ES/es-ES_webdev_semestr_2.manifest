@@ -1,0 +1,16 @@
+{
+    "description": "HTML & CSS 2",
+    "id": "html_02",
+    "language": "es-ES",
+    "number": 6,
+    "title": "HTML & CSS 2",
+    "projects":
+    [
+        {
+            "number": 1,
+            "beta": true,
+            "filename": "Sunrise/Sunrise.md",
+            "note": "Sunrise/Sunrise.md"
+        }
+    ]
+}
