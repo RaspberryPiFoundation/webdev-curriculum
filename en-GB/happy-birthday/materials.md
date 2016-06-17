@@ -75,8 +75,8 @@ volunteer-resources:
     type: file
   - url: birthday-card-finished/prefixfree.js
     type: file
-  - url: birthday-card/dinosaur.png
+  - url: birthday-card-finished/dinosaur.png
     type: image
-  - url: birthday-card/rainbow.png
+  - url: birthday-card-finished/rainbow.png
     type: image
 ---
