@@ -35,6 +35,12 @@
             "beta": true,
             "filename": "Mystery Letter/Mystery Letter.md",
             "note": "Mystery Letter/Mystery Letter - notes.md"
+        },
+    {
+            "number": 6,
+            "beta": true,
+            "filename": "Project Showcase/Project Showcase.md",
+            "note": "Project Showcase/Project Showcase - notes.md"
         }
     ]
 }
