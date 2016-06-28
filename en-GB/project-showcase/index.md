@@ -198,7 +198,7 @@ Create an ordered list of links to your projects. (Ordered lists are introduced 
 
 ## Save Your Project {.save}
 
-# Step 4: Getting Back to the Top {.activity}
+# Step 5: Getting Back to the Top {.activity}
 
 ## Activity Checklist { .check}
 
