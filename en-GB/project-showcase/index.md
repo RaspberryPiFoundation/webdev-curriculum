@@ -3,7 +3,6 @@ title: Project Showcase
 description: Create a showcase of your web projects.
 layout: project
 notes: "Project Showcase - notes.md"
-new: true
 ---
 
 # Introduction {.activity}

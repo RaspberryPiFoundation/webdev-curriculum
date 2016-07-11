@@ -3,7 +3,6 @@ title: Stickers!
 description: Create fun robot stickers to decorate your web pages.  
 layout: project
 notes: "Stickers - notes.md"
-new: true
 ---
 
 # Introduction {.intro}

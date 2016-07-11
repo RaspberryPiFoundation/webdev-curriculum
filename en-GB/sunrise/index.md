@@ -3,7 +3,6 @@ title: Sunrise
 description: Create an animated sunrise. 
 layout: project
 notes: "Sunrise - notes.md"
-new: true
 ...
 
 # Introduction { .intro}

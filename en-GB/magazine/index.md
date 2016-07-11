@@ -3,8 +3,6 @@ title: Magazine
 description: Create a multi-page magazine website. 
 layout: project
 notes: "Magazine - notes.md"
-new: true
-project-type: beta
 ...
 
 # Introduction { .intro}

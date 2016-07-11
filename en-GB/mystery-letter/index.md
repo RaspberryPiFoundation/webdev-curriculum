@@ -3,7 +3,6 @@ title: Mystery Letter
 description: Create a mystery letter with lots of different styles.
 layout: project
 notes: "Mystery Letter - notes.md"
-new: true
 ---
 
 # Introduction {.intro}
