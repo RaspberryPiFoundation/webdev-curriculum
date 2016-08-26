@@ -34,12 +34,12 @@ This project can be [completed offline](../offline.html) if preferred. You can a
 
 You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
 
-+ index.html
-+ style.css
-+ prefixfree.js
-+ boat.png
-+ sun.png
-+ rainbow.png
++ sunrise-finished/index.html
++ sunrise-finished/style.css
++ sunrise-finished/prefixfree.js
++ sunrise-finished/boat.png
++ sunrise-finished/sun.png
++ sunrise-finished/rainbow.png
 
 #Learning Objectives
 + Styling and animation with CSS:
