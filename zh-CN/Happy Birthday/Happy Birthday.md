@@ -5,7 +5,7 @@ language: zh-CN
 embeds: "*.png"
 materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 stylesheet: web
-..。
+...
 
 # 简介 { .intro}
 
