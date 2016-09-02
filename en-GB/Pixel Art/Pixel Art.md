@@ -3,7 +3,7 @@ title: Pixel Art
 level: HTML & CSS 2
 language: en-GB
 embeds: "*.png"
-materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
+materials: ["Club Leader Resources/pixel-finished/*.*", "Project Resources/pixel/*.*", "Project Resources/template/*.*"]
 stylesheet: web
 ...
 

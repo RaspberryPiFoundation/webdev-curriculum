@@ -3,7 +3,7 @@ title: Mystery Letter
 level: HTML & CSS 1
 language: en-GB
 embeds: "*.png"
-materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
+materials: ["Club Leader Resources/mystery-letter-finished/*.*", "Project Resources/mystery-letter/*.*", "Project Resources/template/*.*"]
 stylesheet: web
 ...
 

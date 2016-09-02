@@ -3,7 +3,7 @@ title: Happy Birthday
 level: HTML & CSS 1
 language: en-GB
 embeds: "*.png"
-materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
+materials: ["Club Leader Resources/birthday-finished/*.*", "Project Resources/birthday/*.*", "Project Resources/intro/*.*", "Project Resources/template/*.*"]
 stylesheet: web
 ...
 

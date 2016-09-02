@@ -3,7 +3,7 @@ title: Project Showcase
 level: HTML & CSS 1
 language: en-GB
 embeds: "*.png"
-materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
+materials: ["Club Leader Resources/project-showcse-finished/*.*", "Project Resources/project-showcse/*.*", "Project Resources/template/*.*"]
 stylesheet: web
 ...
 

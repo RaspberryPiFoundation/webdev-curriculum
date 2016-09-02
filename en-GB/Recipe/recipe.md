@@ -3,7 +3,7 @@ title: Recipe
 level: HTML & CSS 1
 language: en-GB
 embeds: "*.png"
-materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
+materials: ["Club Leader Resources/recipe-finished/*.*", "Project Resources/template/*.*"]
 stylesheet: web
 ...
 

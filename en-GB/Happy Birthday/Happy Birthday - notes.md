@@ -24,21 +24,21 @@ There is also a trinket containing a sample solution to the challenges:
 #Offline Resources
 This project can be [completed offline](../html-css.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
 
-+ Intro.html
-+ Template/template.html
-+ Template/style.css
-+ Birthday Card/BirthdayCard.html
-+ Birthday Card/style.css
-+ Birthday Card/script.js
-+ Birthday Card/10 x .png images
++ intro.html
++ template/template.html
++ template/style.css
++ birthday/BirthdayCard.html
++ birthday/style.css
++ birthday/script.js
++ birthday/10 x .png images
 
 You can also find a completed version of this project's challenges in the 'Club Leader Resources' folder, which contains:
 
-+ BirthdayCardFinished.html
-+ style.css
-+ script.js
-+ rainbow.png
-+ dinosaur.png
++ birthday-finished/BirthdayCardFinished.html
++ birthday-finished/style.css
++ birthday-finished/script.js
++ birthday-finished/rainbow.png
++ birthday-finished/dinosaur.png
 
 #Learning Objectives
 + This project introduces HTML tags and CSS properties, and allows children to edit content and styling.
