@@ -23,6 +23,12 @@
             "beta": true,
             "filename": "Pegatinas/Pegatinas.md",
             "note": "Pegatinas/Pegatinas - notas.md"
+        },
+        {
+            "number": 4,
+            "beta": true,
+            "filename": "Linked Rooms/Salas enlazadas.md",
+            "note": "Linked Rooms/Salas enlazadas - notas.md"
         }
     ]
 }
