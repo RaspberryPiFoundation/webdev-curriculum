@@ -29,6 +29,14 @@
             "beta": true,
             "filename": "Linked Rooms/Salas enlazadas.md",
             "note": "Linked Rooms/Salas enlazadas - notas.md"
+        },
+        {
+            "number": 5,
+            "beta": true,
+            "filename": "Revista.md",
+            "note": "Revista - notas.md"
         }
+
+
     ]
 }
