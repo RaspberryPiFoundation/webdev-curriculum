@@ -1,6 +1,6 @@
 # Code Club HTML & CSS Curriculum
 
-This repository contains the HTML and CSS curriculum. It consists of lesson notes and plans in markdown format and project assets (HTML files, CSS files, images).
+This repository contains the materials for the [Code Club HTML & CSS projects](https://codeclubprojects.org/en-GB/webdev/). It consists of lesson notes and plans in markdown format and project assets (HTML files, CSS files, images).
 
 This material is openly available for everyone to use and contribute to.
 See 'contributing' below to find out how you can take part.
