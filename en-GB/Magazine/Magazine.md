@@ -3,7 +3,7 @@ title: Magazine
 level: HTML & CSS 2
 language: en-GB
 embeds: "*.png"
-materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
+materials: ["Club Leader Resources/magazine-finished/*.*", "Project Resources/magazine/*.*", "Project Resources/template/*.*"]
 stylesheet: web
 ...
 
@@ -172,6 +172,7 @@ Can you add a link to `page2.html` so that you can click on it to get back to th
 
 Hint: Look at the HTML you used to create a link to page 2. 
 
+![screenshot](magazine-page1-link.png)
 
 ##Challenge: Fill in your second page {.challenge}
 
@@ -181,7 +182,7 @@ Here's the code for the examples, but you can change the `div`s or come up with 
 
 Click the images icon to see the images that are available to use:
 
-![screenshot](magazine-animation-image.png)
+![screenshot](magazine-images.png)
 
 Remember that you can upload your own images to use. Make sure you have permission to use any images that you upload. 
 

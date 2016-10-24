@@ -31,9 +31,9 @@ This project can be [completed offline](../offline.html) if preferred. You can a
 
 You can also find a completed version of this project's challenges in the 'Volunteer Resources' folder, which contains:
 
-+ index.html
-+ style.css
-+ script.js
++ pixel-finished/index.html
++ pixel-finished/style.css
++ pixel-finished/script.js
 
 #Learning Objectives
 + Introduction to using JavaScript to create interactive web pages. 

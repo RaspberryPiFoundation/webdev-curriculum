@@ -3,7 +3,7 @@ title: Sunrise
 level: HTML & CSS 2
 language: en-GB
 embeds: "*.png"
-materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
+materials: ["Club Leader Resources/sunrise-finished/*.*", "Project Resources/sunrise/*.*", "Project Resources/template/*.*"]
 stylesheet: web
 ...
 

@@ -3,7 +3,7 @@ title: Wanted!
 level: HTML & CSS 1
 language: en-GB
 embeds: "*.png"
-materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
+materials: ["Club Leader Resources/wanted-finished/*.*", "Project Resources/wanted/*.*", "Project Resources/template/*.*"]
 stylesheet: web
 ...
 

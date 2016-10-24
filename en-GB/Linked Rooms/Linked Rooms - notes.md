@@ -52,5 +52,4 @@ You can also find a completed version of this project's challenges in the 'Club 
 + “Add more doors!” - Use <div>s as clickable links
 + "Add wallpaper to the Games Room" - Add a background image
 + "Make it yours!" - Add more rooms using the skills learned
-+ "Add a key cursor" - A fun optional extra for those who complete the project
 

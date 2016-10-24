@@ -3,7 +3,7 @@ title: Tell a Story
 level: HTML & CSS 1
 language: en-GB
 embeds: "*.png"
-materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
+materials: ["Club Leader Resources/story-finished/*.*", "Project Resources/story/*.*", "Project Resources/template/*.*"]
 stylesheet: web
 ...
 

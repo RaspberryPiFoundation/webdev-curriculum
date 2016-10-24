@@ -3,7 +3,7 @@ title: Linked Rooms
 level: HTML & CSS 2
 language: en-GB
 embeds: "*.png"
-materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
+materials: ["Club Leader Resources/linked-rooms-finished/*.*", "Project Resources/linked-rooms/*.*", "Project Resources/template/*.*"]
 stylesheet: web
 ...
 
@@ -85,7 +85,7 @@ Now let's add another room, a __Games Room__.
 	
 	Edit the highlighted items so they say Games not TV:
 
-	![screenshot](images/rooms-games-html2.png)	
+	![screenshot](rooms-games-html2.png)	
 
 + Your `gamesroom.html` now uses `gamesroom.css` which doesn't exist yet. 
 
@@ -146,7 +146,7 @@ Links don't just have to be text. Let's make a clickable door using a `<div>`.
 
 + And let's add some CSS to make the text on the door look better:
 
-	![screenshot](images/rooms-door-css3.png)
+	![screenshot](rooms-door-css3.png)
 
 + You've probably noticed that the door is floating in the air. Let's fix that by positioning the door inside the room.
 

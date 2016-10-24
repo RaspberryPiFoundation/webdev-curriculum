@@ -3,7 +3,7 @@ title: Project Showcase
 level: HTML & CSS 1
 language: en-GB
 embeds: "*.png"
-materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
+materials: ["Club Leader Resources/project-showcse-finished/*.*", "Project Resources/project-showcse/*.*", "Project Resources/template/*.*"]
 stylesheet: web
 ...
 
@@ -199,7 +199,7 @@ Create an ordered list of links to your projects. (Ordered lists are introduced 
 
 ## Save Your Project {.save}
 
-# Step 4: Getting Back to the Top {.activity}
+# Step 5: Getting Back to the Top {.activity}
 
 ## Activity Checklist { .check}
 
