@@ -36,7 +36,7 @@ Tables contain rows which contain cells. You are going to create a table with a 
 
 	![screenshot](images/pixel-art-art.png)
 
- + Now go to your `style.css` file and add the table styling for the art `<div>`.
++ Now go to your `style.css` file and add the table styling for the art `<div>`.
 
 	![screenshot](images/pixel-art-style.png)
 
