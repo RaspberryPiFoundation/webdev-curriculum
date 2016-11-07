@@ -4,6 +4,7 @@
     "language": "pt-BR",
     "number": 6,
     "title": "HTML & CSS 2",
+    "category": "cat-html",
     "projects":
     [
         {
@@ -13,5 +14,4 @@
             "note": "Build a Robot/Build a Robot - notes.md"
         }
     ]
-
 }
