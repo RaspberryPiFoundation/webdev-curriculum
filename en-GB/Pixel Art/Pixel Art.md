@@ -38,7 +38,7 @@ Tables contain rows which contain cells. You are going to create a table with a 
 
 	![screenshot](pixel-art-art.png)
 
- 	Now go to your `style.css` file and add the table styling for the art `<div>`. Notice that the three pixel lines are the same. Type the first one and then use copy and paste to create the others. 
+ 	Now go to your `style.css` file and add the table styling for the art `<div>`.
 
 	![screenshot](pixel-art-style.png)
 
@@ -49,10 +49,12 @@ Tables contain rows which contain cells. You are going to create a table with a 
  + Now go back to your `index.html` file and add a row of 3 pixels inside the art `<div>`:
 
 	![screenshot](pixel-art-row.png)
+	
+	Notice that the three pixel lines are the same. Type the first one and then use copy and paste to create the others. 
 
  	This time you're using classes to style the divs as there will be lots of them. 
 
- 	Add the following style for the rows and cells:
+ + Add the following style for the rows and cells:
 
 	![screenshot](pixel-art-row-style.png)
 
