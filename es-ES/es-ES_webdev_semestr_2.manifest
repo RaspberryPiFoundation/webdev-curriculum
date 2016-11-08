@@ -35,6 +35,12 @@
             "beta": true,
             "filename": "Revista.md",
             "note": "Revista - notas.md"
+        },
+        {
+            "number": 6,
+            "beta": true,
+            "filename": "Pixel Art.md",
+            "note": "Pixel Art - notas.md"
         }
 
 
