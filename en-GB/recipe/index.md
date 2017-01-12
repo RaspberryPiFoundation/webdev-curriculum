@@ -132,7 +132,7 @@ body {
 
 + Your browser knows colours like `blue`, `yellow` and even `lightgreen`, but did you know that your browser actually knows the __names__ of over 500 different colours?
 
-There’s a list of all the colour names you can use: [jumpto.cc/colour-names](http://jumpto.cc/colour-names), which includes colour names like `tomato`, `firebrick` and `peachpuff`.
+There’s a list of all the colour names you can use: [jumpto.cc/colours](http://jumpto.cc/colours), which includes colour names like `tomato`, `firebrick` and `peachpuff`.
 
 Change the text colour from `blue` to `tomato`.
 
@@ -206,7 +206,7 @@ ul {
 ![screenshot](images/recipe-ul-css.png)
 
 ##Challenge: More colours! {.challenge}
-Change the colours in your code by using colour names, `rgb()` values and hex codes. There’s a list of loads of colours at <a href="http://jumpto.cc/web-colours" target="_blank">jumpto.cc/web-colours</a>, or you can go to <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> and create your own colours!
+Change the colours in your code by using colour names, `rgb()` values and hex codes. There’s a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>, or you can go to <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> and create your own colours!
 
 Here are some example colours:
 
