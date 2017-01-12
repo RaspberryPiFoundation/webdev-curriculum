@@ -104,7 +104,7 @@ Let's improve the style of the image in the poster.
 	width: 100px;
 	```
 
-	You'll see that the size of the image changes, so that it's width is 100 pixels.
+	You'll see that the size of the image changes, so that its width is 100 pixels.
 
 	![screenshot](images/wanted-img-width.png)
 
@@ -124,7 +124,7 @@ Let's improve the style of the image in the poster.
 	padding: 10px;
 	```
 
-	Padding is the space between the content (in this case an image) and it's border.
+	Padding is the space between the content (in this case an image) and its border.
 
 	![screenshot](images/wanted-img-padding.png)
 
@@ -132,6 +132,8 @@ Let's improve the style of the image in the poster.
 
 ##Challenge: Improving your image {.challenge}
 Can you give your image a background colour? Or a rounded border?
+
+You can find more CSS colour names at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
 ## Save Your Project {.save}
 
