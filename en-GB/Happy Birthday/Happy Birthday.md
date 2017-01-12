@@ -172,6 +172,8 @@ Here's an example:
 
 ![screenshot](birthday-final.png)
 
+You can find more CSS colour names at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>
+
 ## Save Your Project {.save}
 
 Now that you've finished your card, you can share or email it to someone.
