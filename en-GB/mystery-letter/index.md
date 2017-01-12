@@ -130,7 +130,7 @@ Let's create a style that looks like it has been cut from a Comic. <a href="http
 
 Don't worry if you get a warning saying that 'The Rule is empty', you'll fix that next. 
 
-+ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/web-colours" target="_blank">jumpto.cc/web-colours</a>.
++ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
 ![screenshot](images/letter-comic2.png)
 
