@@ -15,9 +15,9 @@ Neste projeto, você começará a sua jornada pelo HTML e CSS aprendendo a fazer
 
 # Passo 1: O que é HTML? { .activity}
 
-HTML significa __Linguagem de Marcação de Hipertexto_ (Hyper Text Markdown Language), e é a linguagem usada para criar as páginas da web. Vamos dar uma olhada em um exemplo!
+HTML significa _Linguagem de Marcação de Hipertexto_ (Hyper Text Markdown Language), essa linguagem é usada para criar páginas da web. Vamos dar uma olhada em um exemplo!
 
-## Lista de verificação de atividade { .check}
+## Lista de atividades { .check}
 
 + Você utilizará um website chamado Trinket para escrever HTML. Abra o Trinket: <a href="http://bit.ly/html-introducao" target="_blank">bit.ly/html-introducao</a>. Se você estiver lendo isso online, você também poderá usar a versão embutida do Trinket, abaixo.
 
@@ -26,17 +26,17 @@ HTML significa __Linguagem de Marcação de Hipertexto_ (Hyper Text Markdown Lan
 	</iframe>
 </div>
 
-+ O código que você vê à esquerda do Trinket é HTML. À direita do Trinket você pode ver a página web que o código HTML criou.
++ O código que você vê à esquerda do Trinket é HTML. À direita, voce pode ver a página web que o código HTML criou.
 
-	HTML usa __tags__ para construir páginas web. Você pode ver esse código HTML na linha 8 do seu código?
+	HTML usa _tags_para construir páginas da web. Você pode ver esse código HTML na linha 8 do seu código?
 
 	```
 	<p>Oi. Meu nome é Andy.</p>
 	```
 
-	`<p>` é um exemplo de uma tag, e é utilizada para __parágrafo__. Você pode começar um parágrafo com `<p>` e finalizar o parágrafo com `</p>`.
+	`<p>` é um exemplo de uma tag, e é utilizada para *parágrafo*. Você pode começar um parágrafo com `<p>`; e finalizar com o `</p>`.
 
-+ Você consegue detectar alguma outra tag? Uma outra tag, que pode ser detectada na linha 9, é a `<b>`, que quer dizer __bold__ (negrito em inglês):
++ Você consegue detectar alguma outra tag? Uma outra tag, que pode ser detectada na linha 9, é a `<b>`, que quer dizer *bold* (negrito em inglês):
 
 	```
 	<b>correr</b>
@@ -48,21 +48,27 @@ HTML significa __Linguagem de Marcação de Hipertexto_ (Hyper Text Markdown Lan
 	+ `<head>` e `</head>` é onde coisas como CSS são colocadas (nós vamos chegar a isso mais tarde!);
 	+ `<body>` e `</body>` é onde o conteúdo de sua página web é colocada.
 
-	![screenshot](birthday-head-body.png)
 
-+Faça uma mudança em um dos parágrafos do texto, no HTML (à esquerda). Clique em 'Run' e você deve ver sua página web mudar (à direita)!
+![screenshot](birthday-head-body.png)
 
-	![screenshot](birthday-edit-html.png)
+
++ Faça uma mudança em um dos parágrafos do texto, no HTML (à esquerda). Clique em 'Run' e você deve ver sua página web mudar (à direita)!
+
+
+![screenshot](birthday-edit-html.png)
+
 
 + Se você cometeu um erro e quer desfazer as mudanças, você pode ir até o menu e clicar em 'Reset'. Tente!
 
-	![screenshot](birthday-reset.png)
+
+![screenshot](birthday-reset.png)
+
 
 ## Salve seu projeto {.save}
 
-__Você não precisa de uma conta no Trinket para salvar seus projetos!__ 
+Você não precisa de uma conta no Trinket para salvar seus projetos!
 
-Se você não tem uma conta no Trinket, clique na seta para baixo e depois clique em 'Link'. Isso te dará um link que você pode salvar e acessar depois. Você precisará fazer isso todas as vezes que fizer alguma mudança, porque o link muda!
+Se você não tem uma conta, clique na seta e depois em ‘Link’. Você será direcionado a um Link, onde você pode salvar seus arquivos e acessar depois. Toda vez que você fizer alguma alteração/mudança precisará salvar, pois o Link muda.
 
 ![screenshot](birthday-link.png)
 
@@ -70,7 +76,7 @@ Se você tem uma conta no Trinket, a maneira mais fácil de salvar sua página w
 
 ![screenshot](birthday-remix.png)
 
-##Desafio: Adicionar outro parágrafo {.challenge}
+## Desafio: Adicionar outro parágrafo {.challenge}
 Você pode adicionar um 3º parágrafo de texto na sua página web abaixo dos outros dois? Lembre-se que seu parágrafo deve iniciar com a tag `<p>`, e terminar com `</p>`.
 
 Aqui está como sua página web deve parecer:
@@ -83,11 +89,11 @@ Você pode adicionar __negrito__ e <u>sublinhado</u> ao seu novo parágrafo? Voc
 
 # Passo 2: O que é CSS? { .activity}
 
-CSS significa __Folha de Estilos em Cascata__, e é a linguagem utilizada para estilizar páginas web e torná-las mais legais. Você pode linkar sua página web a um arquivo CSS no `<head>` de um documento HTML, assim:
+CSS significa Folha de Estilos em Cascata, e é a linguagem utilizada para estilizar páginas web e torná-las mais legais. Você pode linkar sua página web a um arquivo CSS no `<head>` de um documento HTML, assim:
 
 ![screenshot](birthday-css-link.png)
 
-## Lista de verificação de atividade { .check}
+## Lista de atividades { .check}
 
 + CSS lista todas as __propriedades__ por uma tag particular. Clique na aba 'style.css' para ver o CSS de sua página web.
 
@@ -120,7 +126,7 @@ Você pode deixar os parágrafos do texto na cor laranja? Ou o fundo cinza?
 
 Vamos usar o que você aprendeu sobre HTML e CSS para fazer seu próprio cartão de aniversário customizado.
 
-## Lista de verificação de atividade { .check}
+## Lista de atividades { .check}
 
 + Abra esse Trinket: <a href="http://bit.ly/cartao-aniversario" target="_blank">bit.ly/cartao-aniversario</a>, ou use a versão embutida abaixo, se você está lendo online.
 
@@ -129,7 +135,7 @@ Vamos usar o que você aprendeu sobre HTML e CSS para fazer seu próprio cartão
 	</iframe>
 </div>
 
-Não se prepcupe se você não entender todo o código. Esse cartão de aniversário parece muito chato, então você fará algumas mudanças nesse HTML e CSS.
+Não se preocupe se você não entender todo o código. Esse cartão de aniversário parece muito chato, então você fará algumas mudanças nesse HTML e CSS.
 
 + Clique no botão em frente ao cartão, e você deve ver ele se abrir e revelar seu interior.
 

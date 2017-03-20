@@ -50,7 +50,7 @@ Vamos começar editando o conteúdo em HTML e a folha de estilos CSS da página 
 	![screenshot](story-elements.png)
 
 	+ `<h1>` é o __heading__ (cabeçalho). Você pode usar dos números 1 ao 6 para criar cabeçalhos de diferentes tamanhos; 
-	+ `<div>` é a abreviação de __division__ (divisão), e é uma maneira de agrupar coisas junto. Nessa página, você vai utilizá-la para agrupar todas as coisas para cada parte da sua história;
+	+ `<div>` é a abreviação de __division__ (divisão), e é uma maneira de agrupar coisas juntas. Nessa página, você vai utilizá-la para agrupar todas as coisas para cada parte da sua história;
 	+ `<img>` é uma __image__ (imagem);
 	+ `<p>` é um __paragraph__, ou seja, um parágrafo de texto.
 
@@ -71,7 +71,7 @@ Vamos adicionar uma segunda parte à sua história.
 
 ## Lista de Atividades { .check}
 
-+ Vá até a linha 17 do código, e adicione e adicione outro conjunto de `<div>` e `</div>`, ou seja, começo e fim da tag (marcação). Isso criará uma nova caixa para a próxima parte da sua história. 
++ Vá até a linha 17 do código, e adicione outro conjunto de `<div>` e `</div>`, ou seja, começo e fim da tag (marcação). Isso criará uma nova caixa para a próxima parte da sua história. 
 
 	![screenshot](story-div.png)
 
@@ -87,7 +87,7 @@ Vamos adicionar uma segunda parte à sua história.
 
 	Repare que a tag `<img>` é um pouco diferente das outras tags, pois ela não possui uma tag de fechamento! 
 
-+ Para as images no HTML, você precisa adicionar a __source__ (origem, fonte) da sua imagem entre as aspas. Vamos encontrar uma imagem para adicionar à sua história.
++ Para as imagens no HTML, você precisa adicionar a __source__ (origem, fonte) da sua imagem entre as aspas. Vamos encontrar uma imagem para adicionar à sua história.
 
 	Vá para <a href="http://jumpto.cc/web-images" target="_blank">jumpto.cc/web-images</a>, e encontre uma imagem que você queira incluir na sua história. 
 
