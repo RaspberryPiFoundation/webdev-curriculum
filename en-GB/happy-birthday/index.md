@@ -20,14 +20,14 @@ In this project, you'll be introduced to HTML & CSS by learning how to make your
 
 HTML stands for __HyperText Markup Language__, and is the language used to make webpages. Let's have a look at an example!
 
+
 ## Activity Checklist { .check}
 
-+ You'll be using a website called Trinket to write HTML. Open this Trinket: <a href="http://jumpto.cc/web-intro" target="_blank">jumpto.cc/web-intro</a>. If you're reading this online, you can also use the embedded version of this Trinket below.
++ You'll be using a website called Trinket to write HTML. Open this Trinket: <a href="http://jumpto.cc/web-intro" target="_blank">jumpto.cc/web-intro</a>. 
 
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/html/850a678202" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+	The project should look like this:
+
+	![screenshot](images/birthday-starter.png)
 
 + The code that you can see on the left of the Trinket is HTML. On the right of the Trinket you can see the webpage that the HTML code has made.
 

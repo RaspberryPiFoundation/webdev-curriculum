@@ -23,12 +23,11 @@ Web projects can be made up of lots of HTML files linked together.
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/web-rooms" target="_blank">jumpto.cc/web-rooms</a>. If you're reading this online, you can also use the embedded trinket below. 
++ Open this trinket: <a href="http://jumpto.cc/web-rooms" target="_blank">jumpto.cc/web-rooms</a>. 
 
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/html/ef608f0733" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+	The project should look like this:
+
+	![screenshot](images/rooms-starter.png)
 
 + The trinket should autorun and you will find yourself in the Hall:
 

@@ -17,12 +17,11 @@ Text links allow you to click on words to go to another web page, they are usual
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="https://jumpto.cc/web-showcase">jumpto.cc/web-showcase</a>. If you're reading this online then that's a link, you can also use the embedded trinket below. 
++ Open this trinket: <a href="https://jumpto.cc/web-showcase">jumpto.cc/web-showcase</a>. 
 
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/html/9ad31460f0" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+	The project should look like this:
+
+	![screenshot](images/showcase-starter.png)
 
 + HTML uses the `<a>` tag for links. 
 

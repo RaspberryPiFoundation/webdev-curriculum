@@ -17,12 +17,11 @@ Let’s give your robot some eyes!
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/web-robot" target="_blank">jumpto.cc/web-robot</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Open this trinket: <a href="http://jumpto.cc/web-robot" target="_blank">jumpto.cc/web-robot</a>.
 
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/html/b29b50e571" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+    The project should look like this:
+
+	![screenshot](images/robot-starter.png)
 
 + Each image in this project has it’s own name (or __id__). For example, the HTML for the face and eye images (‘face’, ‘eyes1’ and ‘eyes2’ starting on line 8 of your code) looks like this:
 
