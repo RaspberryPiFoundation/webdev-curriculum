@@ -42,6 +42,10 @@ You can also find a completed version of this project's challenges in the 'Volun
 	+ `<img>` tag and image URLs;
 	+ `<h1>` - `<h6>` headings.
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+
 #Challenges
 + "Make some changes" - editing HTML content and CSS style;
 + "Keep going!" - applying tags and styling to create a finished story.

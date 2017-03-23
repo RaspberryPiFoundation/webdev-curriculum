@@ -38,6 +38,12 @@ You can also find a completed version of this project's challenges in the 'Volun
 + Introduction to using JavaScript to create interactive web pages. 
 + Also introduces the use of table layout. 
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+
 #Challenges
 + "Resize your grid" - adding more rows and cells to a table;
 + "Make all pixels clickable" - add onclick code to all pixels.

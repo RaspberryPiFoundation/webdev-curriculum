@@ -43,6 +43,10 @@ You can also find a completed version of this project's challenges in the 'Volun
 + This project introduces projects with multiple html pages linked together
 + Multiple CSS files are also introduced
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+
 #Challenges
 + “Add another link” - Add a link between pages in the same project;
 + “Style and link the Games Room” - Add a link and style a page with its own CSS file. 

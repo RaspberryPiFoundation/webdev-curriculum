@@ -43,6 +43,10 @@ You can also find a completed version of this project's challenges in the 'Volun
 + This project introduces CSS classes and the ability to style HTML elements with multiple classes.
 + Background images and Google fonts are also introduced. 
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+
 #Challenges
 + “Style your message” - Apply provided CSS class styles;
 + “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 

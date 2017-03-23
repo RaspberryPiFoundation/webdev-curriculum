@@ -30,9 +30,10 @@ You can also find a completed version of this project's challenges in the 'Volun
 
 #Learning Objectives
 List the skills taught in this project, for example:
-
 + Variables;
 + Lists.
+
+Link to Digital Making Curriculum.
 
 #Challenges
 + "Challenge name" - explain the aim of each challenge - what skills will be used, and what is the outcome?

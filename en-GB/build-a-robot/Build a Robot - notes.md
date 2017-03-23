@@ -42,6 +42,10 @@ You can also find a completed version of this project's challenges in the 'Volun
 	+ top;
 	+ left.
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+
 #Challenges
 + "Design your own robot" - applying CSS positioning to create a robot;
 + "Add your own images" - adding more images, with an HTML id attribute and associated CSS.

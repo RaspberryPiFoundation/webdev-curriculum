@@ -41,6 +41,10 @@ You can also find a completed version of this project's challenges in the 'Volun
 #Learning Objectives
 + This project introduces the use of CSS gradients to create interesting effects. Students will also extend their knowledge of CSS borders and positioning. 
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+
 #Challenges
 + "Create your own gradient sticker" - adding linear and radial gradients to text;
 + "Make more stickers!" - Combine gradients with images and text to create more stickers.

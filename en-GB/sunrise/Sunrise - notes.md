@@ -46,6 +46,10 @@ You can also find a completed version of this project's challenges in the 'Volun
 	+ Introducing `@keyframes` rule for defining steps in an animation.
 	+ Reinforcing the use of properties to define the size, shape, position and colour of elements on a webpage.
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+
 #Challenges
 + "Diagonal animation" - editing animation `@keyframe` properties to use left:;
 + "Improve the sky" - add more keyframes and setting background:.

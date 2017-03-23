@@ -38,6 +38,10 @@ Note that if the children have completed their other projects offline then they 
 #Learning Objectives
 + This project introduces text links to other webpages and to named ids within a page. It also introduces embedding trinkets and Scratch projects into a webpage.  
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+
 #Challenges
 + “Add another link” - Add links to more webpages;
 + “Create a List of Your Projects” - Create links to previous web projects;

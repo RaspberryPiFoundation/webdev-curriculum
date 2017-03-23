@@ -43,6 +43,10 @@ You can also find a completed version of this project's challenges in the 'Volun
 #Learning Objectives
 + This project teaches children how to create a two-column magazine style layout using `float:`. It also recaps lots of the HTML & CSS that is covered in more detail in other projects. Examples are given so children will be able to complete this project even if they have not completed some of the earlier projects. 
 
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+
 #Challenges
 + "Add items to the left column" - placing items inside a floated element;
 + "Add a link back to the first page" - creating links between pages in a project;
