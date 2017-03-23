@@ -25,12 +25,11 @@ Tables contain rows which contain cells. You are going to create a table with a 
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/web-pixel" target="_blank">jumpto.cc/web-pixel</a>. If you're reading this online then  you can also use the embedded trinket below. 
++ Open this trinket: <a href="http://jumpto.cc/web-pixel" target="_blank">jumpto.cc/web-pixel</a>. 
 
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/html/705f264f59" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+	The project should look like this:
+
+	![screenshot](images/pixel-starter.png)
 
 + Add the following html into the `<body>` of your `index.html` file to create a `<div>` as a container for your pixel art and give it an `art` id so you can style it:
 

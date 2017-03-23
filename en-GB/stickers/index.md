@@ -15,12 +15,11 @@ In this project, you'll create lots of fun stickers that you can use to decorate
 
 A gradient is a gradual change from one colour to another. Gradients can be used to create cool effects. You're going to use them to create stickers that you can use on your web pages. 
 
-+ Open this trinket: <a href="http://jumpto.cc/web-stickers" target="_blank">jumpto.cc/web-stickers</a>. If you're reading this online, you can also use the embedded trinket below. 
++ Open this trinket: <a href="http://jumpto.cc/web-stickers" target="_blank">jumpto.cc/web-stickers</a>. 
 
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/html/af0ea6fa35" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+	The project should look like this:
+
+	![screenshot](images/stickers-starter.png)
 
 + Let's make an 'I <3 Coding' sticker. 
 

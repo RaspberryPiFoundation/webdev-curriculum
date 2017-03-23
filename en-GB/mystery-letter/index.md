@@ -27,12 +27,11 @@ Let's get your message onto a webpage.
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>. 
 
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/html/b5fbcf112e" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+	The project should look like this:
+
+	![screenshot](images/letter-starter.png)
 
 + The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them. 
 
@@ -130,7 +129,7 @@ Let's create a style that looks like it has been cut from a Comic. <a href="http
 
 Don't worry if you get a warning saying that 'The Rule is empty', you'll fix that next. 
 
-+ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/web-colours" target="_blank">jumpto.cc/web-colours</a>.
++ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
 ![screenshot](images/letter-comic2.png)
 

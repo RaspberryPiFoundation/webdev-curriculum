@@ -30,12 +30,11 @@ Let’s list the ingredients that are needed for your recipe.
 
 ## Activity Checklist { .check}
 
-+ Open this template trinket: [jumpto.cc/html-template](http://jumpto.cc/html-template). If you’re reading this online, you can also use the embedded version of this trinket below.
++ Open this template trinket: [jumpto.cc/html-template](http://jumpto.cc/html-template).
 
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/html/ef4c882ae6" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+	The project should look like this:
+
+	![screenshot](images/recipe-starter.png)
 
 + For your list of ingredients, you’re going to use an __unordered list__, using the `<ul>` tag. Go to line 8 of the template and add this HTML, replacing the text in the `<h1>` title with the name of your own recipe:
 
@@ -132,7 +131,7 @@ body {
 
 + Your browser knows colours like `blue`, `yellow` and even `lightgreen`, but did you know that your browser actually knows the __names__ of over 500 different colours?
 
-There’s a list of all the colour names you can use: [jumpto.cc/colour-names](http://jumpto.cc/colour-names), which includes colour names like `tomato`, `firebrick` and `peachpuff`.
+There’s a list of all the colour names you can use: [jumpto.cc/colours](http://jumpto.cc/colours), which includes colour names like `tomato`, `firebrick` and `peachpuff`.
 
 Change the text colour from `blue` to `tomato`.
 
@@ -206,7 +205,7 @@ ul {
 ![screenshot](images/recipe-ul-css.png)
 
 ##Challenge: More colours! {.challenge}
-Change the colours in your code by using colour names, `rgb()` values and hex codes. There’s a list of loads of colours at <a href="http://jumpto.cc/web-colours" target="_blank">jumpto.cc/web-colours</a>, or you can go to <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> and create your own colours!
+Change the colours in your code by using colour names, `rgb()` values and hex codes. There’s a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>, or you can go to <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> and create your own colours!
 
 Here are some example colours:
 

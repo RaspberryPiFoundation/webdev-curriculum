@@ -21,12 +21,11 @@ Let's start by adding an image for the sun and positioning it with some CSS.
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Open this trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>. 
 
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/html/5085f92143" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+    The project should look like this:
+
+	![screenshot](images/sunrise-starter.png)
 
 + Look inside the `body` of your `index.html` file and you'll find the the `div` elements for the sky and the sea.
 

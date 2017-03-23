@@ -22,12 +22,11 @@ Magazine-style websites often have lots of small items on a page. First you're g
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/web-magazine" target="_blank">jumpto.cc/web-magazine</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Open this trinket: <a href="http://jumpto.cc/web-magazine" target="_blank">jumpto.cc/web-magazine</a>. 
 
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/html/cef5e64bc0" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+	The project should look like this:
+
+	![screenshot](images/magazine-starter.png)
 
 + Let's add a heading. 
 

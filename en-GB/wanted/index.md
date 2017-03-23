@@ -17,12 +17,11 @@ Let's start by editing the CSS code for the poster.
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/web-wanted" target="_blank">jumpto.cc/web-wanted</a>. If you're reading this online, you can also use the embedded version of this trinket below.
++ Open this trinket: <a href="http://jumpto.cc/web-wanted" target="_blank">jumpto.cc/web-wanted</a>. 
 
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/html/58318bee1f" width="100%" height="550" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
+	The project should look like this:
+	
+	![screenshot](images/wanted-starter.png)
 
 + Click on the "style.css" tab. You'll notice that there are already CSS properties for the `div` containing the different parts of the poster.
 
@@ -104,7 +103,7 @@ Let's improve the style of the image in the poster.
 	width: 100px;
 	```
 
-	You'll see that the size of the image changes, so that it's width is 100 pixels.
+	You'll see that the size of the image changes, so that its width is 100 pixels.
 
 	![screenshot](images/wanted-img-width.png)
 
@@ -124,7 +123,7 @@ Let's improve the style of the image in the poster.
 	padding: 10px;
 	```
 
-	Padding is the space between the content (in this case an image) and it's border.
+	Padding is the space between the content (in this case an image) and its border.
 
 	![screenshot](images/wanted-img-padding.png)
 
@@ -132,6 +131,8 @@ Let's improve the style of the image in the poster.
 
 ##Challenge: Improving your image {.challenge}
 Can you give your image a background colour? Or a rounded border?
+
+You can find more CSS colour names at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
 ## Save Your Project {.save}
 
