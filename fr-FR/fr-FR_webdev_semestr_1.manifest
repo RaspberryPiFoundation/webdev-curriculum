@@ -18,5 +18,11 @@
 			"filename": "Raconte une Histoire/Raconte une Histoire.md",
 			"note": "Raconte une Histoire/Raconte une Histoire - notes.md"
 		}
+		{
+			"number": 3,
+			"beta": true,
+			"filename": "Wanted/Wanted.md",
+			"note": "Wanted/Wanted - notes.md"
+		}
 	]
 }
