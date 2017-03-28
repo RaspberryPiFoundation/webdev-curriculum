@@ -19,20 +19,20 @@ Dans ce projet, tu vas apprendre les bases d'HTML et CSS en fabriquant ta propre
 
 # Step 1: C'est quoi HTML? { .activity}
 
-HTML veux dire __HyperText Markup Language__, et c'est le langage utilisé pour faire des sites internet. Regardons un example!
+HTML veux dire __HyperText Markup Language__, et c'est le langage utilisé pour faire des sites internet. Prenons un example!
 
-## Liste d'activité { .check}
+## Liste d'activités { .check}
 
-+ Tu vas utiliser un site internet qui s'appelle Trinket pour ecrire du HTML. Ouvre ce Trinket: <a href="http://jumpto.cc/web-intro" target="_blank">jumpto.cc/web-intro</a>. Si tu lis ce cours en ligne, tu peux aussi utiliser la version incorporé de ce Trinket ci-dessous.
++ Tu vas utiliser un site internet qui s'appelle Trinket pour écrire du HTML. Ouvre ce Trinket: <a href="http://jumpto.cc/web-intro" target="_blank">jumpto.cc/web-intro</a>. Si tu lis ce cours en ligne, tu peux aussi utiliser la version incorporé de ce Trinket ci-dessous.
 
 <div class="trinket">
 	<iframe src="https://trinket.io/embed/html/850a678202" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 	</iframe>
 </div>
 
-+ Le code que tu vois a gauche du Trinket est du HTML. A droite tu peux voir la page internet que le code HTML a crée.
++ Le code que tu vois à gauche du Trinket, c'est du HTML. A droite tu peux voir la page internet que le code HTML a créé.
 
-	HTML utilises des __tags__ pour fabriqué des pages internet. Peut-tu voir ce code HTML a la ligne 8 de ton code ?
+	HTML utilise des __tags__ pour fabriquer des pages internet. Peut-tu voir ce code HTML à la ligne 8 de ton code ?
 
 	```
 	<p>Salut. Mon nom est Andy.</p>
@@ -40,7 +40,7 @@ HTML veux dire __HyperText Markup Language__, et c'est le langage utilisé pour 
 
 	`<p>` est un exemple de tag, cela veux dire __paragraphe__. Tu peux commencer un paragraphe par `<p>` et le terminer par `</p>`.
 
-+ Peut-tu voir un autre tag ? Un autre tag que tu a peut-etre remarqué a la ligne 9 est le `<b>`, qui veux dire __bold__ (traduit par 'gras' en Francais):
++ Peut-tu voir un autre tag ? Un autre tag que tu a peut-etre remarqué à la ligne 9 est le `<b>`, qui veux dire __bold__ (traduit par 'gras' en Francais):
 
 	```
 	<b>courrir</b>
@@ -54,11 +54,11 @@ HTML veux dire __HyperText Markup Language__, et c'est le langage utilisé pour 
 
 	![screenshot](birthday-head-body.png)
 
-+ Fait un chagement sur un des paragraphes dans le code HTML (sur la gauche). Appuie sur 'Run' et tu devrais voir ta page internet changer (sur la droite)!
++ Fait un changement sur un des paragraphes dans le code HTML (sur la gauche). Appuie sur 'Run' et tu devrais voir ta page internet changer (sur la droite)!
 
 	![screenshot](birthday-edit-html.png)
 
-+ Si tu as fait une erreur tu veux revenir en arriere, tu peux cliquer sur le bouton du menu et cliquer sur 'Reset'. Essaye le!
++ Si tu as fait une erreur et que tu veux revenir en arrière, tu peux cliquer sur le bouton du menu et cliquer sur 'Reset'. Essaye-le!
 
 	![screenshot](birthday-reset.png)
 
@@ -66,15 +66,15 @@ HTML veux dire __HyperText Markup Language__, et c'est le langage utilisé pour 
 
 __Tu n'as pas besoin d'un compte Trinket pour enregistrer tes projets!__ 
 
-Si tu n'as pas de compte Trinket, clique sur la fleche descendante et clique sur 'Link'. Ceci devrais te donner un lien qui te permettra de revenir plu tard sur ta page. Tu dois faire ceci a chaque fois que tu changes ton projet, le lien sera different a chaque fois.
+Si tu n'as pas de compte Trinket, clique sur la flèche descendante et clique sur 'Link'. Ceci devrais te donner un lien qui te permettra de revenir plu tard sur ta page. Tu dois faire ceci à chaque fois que tu changes ton projet, le lien sera different à chaque fois.
 
 ![screenshot](birthday-link.png)
 
-Si tu as un compte Trinket, la facon la plus simple est de sauvegardé ta page en cliquant sur le bouton 'Remix' en haut de ton Trinket. Ceci enregistera ton projet dans ton profil.
+Si tu as un compte Trinket, la facon la plus simple est de sauvegarder ta page en cliquant sur le bouton 'Remix' en haut de ton Trinket. Ceci enregistera ton projet dans ton profil.
 
 ![screenshot](birthday-remix.png)
 
-##Challenge: Ajoute un autre paragraphe {.challenge}
+##Défi: Ajoute un autre paragraphe {.challenge}
 Peut tu ajouter un 3e paragraphe de texte a ta page, en dessous des deux autres? n'oublie pas qu'un paragraphe dois commencer par un tag `<p>`, et finir avec un tag `</p>`.
 
 Voici a quoi ta page devrais ressembler maintenant:	
@@ -87,11 +87,11 @@ Peut-tu ajouter un tag __bold__ et un texte <u>souligné</u> a ton nouveau parag
 
 # Step 2: CSS, c'est quoi? { .activity}
 
-CSS veux dire __Cascading Style Sheets__ (En Francais, page de style en cascade), et c'est le langage utilisé pour rendre les page internet plus jolies. Tu peux lier ta page internet avec ton fichier CSS dans le `<head>` de ton document HTML comme ceci:
+CSS veux dire __Cascading Style Sheets__ (En Francais, page de style en cascade), et c'est le language utilisé pour rendre les page internet plus jolies. Tu peux lier ta page internet avec ton fichier CSS dans le `<head>` de ton document HTML comme ceci:
 
 ![screenshot](birthday-css-link.png)
 
-## Liste d'activité { .check}
+## Liste d'activités { .check}
 
 + CSS liste toutes les __propriétés__ pour un tag en particulier. Clique sur l'onglet 'style.css' pour voir le CSS de ta page.
 
@@ -113,8 +113,8 @@ CSS veux dire __Cascading Style Sheets__ (En Francais, page de style en cascade)
 
 ## Enregistre ton projet {.save}
 
-##Challenge: Encore plus de styles! {.challenge}
-Peux-tu changer la couleur des pragraphe en orange ? et le background (couleur du fond de la page) en gris?
+##Défi: Encore plus de styles! {.challenge}
+Peux-tu changer la couleur des pragraphes en orange ? et le background (couleur du fond de la page) en gris?
 
 ![screenshot](birthday-more-style.png)
 
@@ -133,31 +133,31 @@ Aller, maintenant nous allons utiliser ce qu'on a appris en HTML et CSS pour fab
 	</iframe>
 </div>
 
-Ne t'inquiete pas si tu ne comprend pas tout le code. Cette carte d'anniversaire a l'air plutot ennuyante, du coup, nous allons faire quelques changement en HTML et CSS
+Ne t'inquietes pas si tu ne comprends pas tout le code. Cette carte d'anniversaire à l'air plutot ennuyante, du coup, nous allons faire quelques changement en HTML et CSS
 
-+ Appuie sur le bouton sur la face recto de la carte, et tu devrais voir l'interieur de la carte apparaitre.
++ Appuie sur le bouton sur la face recto de la carte, et tu devrais voir l'intérieur de la carte apparaitre.
 
 	![screenshot](birthday-click.png)
 
-+ Va a la ligne 13 de ce code. Comme dans le dernier exemple, essaye de changer le tete en HTML pour customiser ta carte.
++ Va à la ligne 13 de ce code. Comme dans le dernier exemple, essaye de changer le texte en HTML pour customiser ta carte.
 
 	![screenshot](birthday-card-html.png)
 
-+ Peut-tu trouver le code HTML de l'image du robot? (Indice: c'est a la ligne 16!) Change le mot `robot` par `sun` (soleil en Francais), et tu verras l'image changer!
++ Peut-tu trouver le code HTML de l'image du robot? (Indice: c'est à la ligne 16!) Change le mot `robot` par `sun` (soleil en Francais), et tu verras l'image changer!
 
 	![screenshot](birthday-card-sun.png)
 
-	Tu peux utiliser les mots `boy`, `diamond`, `dinosaur`, `flowers`, `girl`, `rainbow`, `robot`, `spaceship`, `sun`, `tea`, or `trophy`.
+	Tu peux utiliser les mots `boy`, `diamond`, `dinosaur`, `flowers`, `girl`, `rainbow`, `robot`, `spaceship`, `sun`, `tea`, ou `trophy`.
 
 + Tu peux aussi changer le CSS de ta carte d'anniversaire. Clique sur l'onglet “style.css”. Le code commence avec le style pour le coté `recto` de la carte. Change le `background-color` (Couleur de fond) en `lightgreen` (Vert clair en Francais).
 
 	![screenshot](birthday-card-outside.png)
 
-+ Tu peux aussi changer la taille de ton image. Va a la ligne 29 de ton code CSS, et change `width` (longueur) et `height` (hauteur) de ton image en `200px` (`px` veux dire pixels).
++ Tu peux aussi changer la taille de ton image. Va à la ligne 29 de ton code CSS, et change `width` (longueur) et `height` (hauteur) de ton image en `200px` (`px` veux dire pixels).
 
 	![screenshot](birthday-card-size.png)	
 
-+ Tu peux aussi changer la typography. Va a la ligne 24 et change `font-family` en `Comic Sans MS` et `font-size` (taille de texte) en `16pt`.
++ Tu peux aussi changer la typographie. Va à la ligne 24 et change `font-family` en `Comic Sans MS` et `font-size` (taille de texte) en `16pt`.
 
 	![screenshot](birthday-card-font.png)
 
@@ -165,8 +165,8 @@ Ne t'inquiete pas si tu ne comprend pas tout le code. Cette carte d'anniversaire
 
 ## Enregistre ton Projet {.save}
 
-##Challenge: Crée une carte personalisé {.challenge}
-Utilise tout ce que tu as appris en HTML et CSS pour finir ta carte d'anniversaire. Tu peux meme transformer ta carte d'anniversaire par une autre carte si tu veux! 
+##Défi: Crée une carte personalisé {.challenge}
+Utilise tout ce que tu as appris en HTML et CSS pour finir ta carte d'anniversaire. Tu peux même transformer ta carte d'anniversaire par une autre carte si tu veux! 
 
 Voici un exemple:
 
