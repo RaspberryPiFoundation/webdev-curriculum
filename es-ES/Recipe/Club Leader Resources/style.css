@@ -1,0 +1,17 @@
+body {
+  background: #fafad2;
+  font-family: courier;
+  color: tomato;
+}
+img {
+  width: 400px;
+  border: 4px solid tomato;
+}
+ul {
+  list-style-type: square;
+}
+hr {
+  height: 2px;
+  border: none;
+  background-color: tomato;
+}

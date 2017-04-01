@@ -1,0 +1,17 @@
+{
+    "description": false,
+    "id": "html_02",
+    "language": "pt-BR",
+    "number": 6,
+    "title": "HTML & CSS 2",
+    "category": "cat-html",
+    "projects":
+    [
+        {
+            "number": 1,
+            "beta": true,
+            "filename": "Build a Robot/Build a Robot.md",
+            "note": "Build a Robot/Build a Robot - notes.md"
+        }
+    ]
+}

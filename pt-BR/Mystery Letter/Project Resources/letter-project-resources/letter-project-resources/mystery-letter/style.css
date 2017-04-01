@@ -1,0 +1,65 @@
+span
+{
+	display: inline-block; 
+	margin: 8px; 
+	box-shadow: 1px 2px 2px grey; 
+}
+
+body {
+ 	background-color: white;
+	padding: 30px;
+	max-width: 350px;
+	margin: auto;
+}
+
+.jornal {
+	background-color: antiquewhite;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+.revista1  {
+ 	background-color: teal;
+ 	color:white;
+ 	font-family: Verdana;
+	font-weight: 900;
+	text-transform: uppercase; 
+}
+
+.revista2 {
+	background-image: url('pink-pattern.png');
+  	color: fuchsia;
+  	font-family: Verdana;
+	font-weight: 900;
+}
+
+.medio {
+	font-size: 20px;
+	padding: 8px;
+}
+
+.grande {
+	font-size: 30px;
+	padding: 10px;
+}
+
+.realmentegrande {
+	font-size: 40px;
+	padding: 15px;
+}
+
+.rotacionarAEsquerda {
+	transform: rotate(-5deg);
+}
+
+.rotacionarADireita {
+	transform: rotate(5deg);
+}
+
+.inclinarAEsquerda {
+	transform: skewX(10deg);
+}
+
+.inclinarADireita {
+	transform: skewX(-10deg);
+}

@@ -1,0 +1,18 @@
+{
+    "description": false,
+    "id": "html_01",
+    "language": "de-DE",
+    "number": 5,
+    "title": "HTML & CSS 1",
+    "category": "cat-html",
+    "projects":
+    [
+
+        {
+            "number": 1,
+            "beta": true,
+            "filename": "Happy Birthday/Happy Birthday.md",
+            "note": "Happy Birthday/Happy Birthday - notes.md"
+        }
+    ]
+}

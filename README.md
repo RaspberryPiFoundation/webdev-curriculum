@@ -1,24 +1,22 @@
-webdev-curriculum
-=================
+# Code Club HTML & CSS Curriculum
 
-This repository contains all the material for Term 3 of [Code Club][codeclub], learning HTML and CSS.
-It consists of lesson notes and plans in [Markdown][markdown] format, project assets (HTML files, CSS files, images), and a few PDFS.
+This repository contains the HTML and CSS curriculum. It consists of lesson notes and plans in markdown format and project assets (HTML files, CSS files, images).
 
 This material is openly available for everyone to use and contribute to.
 See 'contributing' below to find out how you can take part.
 
+__More information on our curriculum can be found [here](https://github.com/CodeClub/curriculum_documentation/blob/master/README.md).__
+
+# New Projects
+
+If you're a club leader trying out new projects, please complete <a href="https://docs.google.com/forms/d/1eMCfpYe3v7eYu5M8rSqLKlmq7cczLCLHx66csgyUyVU/viewform?usp=send_form" target="_blank">this short questionnaire</a> (or email projects@codeclub.org.uk) to let us know how it went!
+
 ## Contributing
 
-To contribute:
+This material is openly available for everyone to use and contribute to. Right now, we’re receiving translations from all over the world.
 
-1. Fork the repo
-2. Add your new translation in its own folder *or*
-   Add to one of the existing translations
-3. Send us a pull request
-4. Ask another native speaker to read through and comment with :+1:
-   if they like your work
+Instructions on how to contribute to our curriculum can be found [here](https://github.com/CodeClub/curriculum_documentation/blob/master/contributing.md).
 
-See [CONTRIBUTING.md](https://github.com/CodeClub/scratch-curriculum/blob/master/CONTRIBUTING.md) for more details.
 ## Discuss
 Ask questions and share your experiences with other Code Clube World local teams in our community:
 https://plus.google.com/communities/107429287353708601653
@@ -27,6 +25,8 @@ https://plus.google.com/communities/107429287353708601653
 
 See [LICENSE.md](LICENSE.md)
 
-[codeclub]: http://codeclubworld.org/
-[markdown]: http://daringfireball.net/projects/markdown/
-[scratch]: http://scratch.mit.edu/
+***
+
+Cross browser testing of our projects site is supported by our friends at BrowserStack
+
+[![BrowserStack Logo](http://codeclub-assets.s3.amazonaws.com/public/browserstack-logo-black.png?bs)](https://www.browserstack.com/)

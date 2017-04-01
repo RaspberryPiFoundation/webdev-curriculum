@@ -1,0 +1,42 @@
+img {
+  width: 50px;
+}
+#cara {
+  width: 400px;
+}
+#ojos1 {
+  width: 200px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+#nariz1 {
+  width: 50px;
+  position: absolute;
+  top: 250px;
+  left: 170px;
+}
+#boca1 {
+  width: 100px;
+  position: absolute;
+  top: 330px;
+  left: 150px;
+}
+#gorro {
+  width: 300px;
+  position: absolute;
+  top: 0px;
+  left: 60px;
+}
+#pajarita {
+  width: 150px;
+  position: absolute;
+  top: 380px;
+  left: 120px;
+}
+#pajaro {
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  left: 240px;
+}

@@ -1,0 +1,28 @@
+{
+	"description": "-~- HTML & CSS -~-",
+	"id": "html_01",
+	"language": "fr-FR",
+	"number": 5,
+	"title": "HTML & CSS 1",
+	"projects":
+	[
+		{
+			"number": 1,
+			"beta": true,
+			"filename": "Joyeux Anniversaire/Joyeux Anniversaire.md",
+			"note": "Joyeux Anniversaire/Joyeux Anniversaire - notes.md"
+		},
+		{
+			"number": 2,
+			"beta": true,
+			"filename": "Raconte une Histoire/Raconte une Histoire.md",
+			"note": "Raconte une Histoire/Raconte une Histoire - notes.md"
+		},
+		{
+			"number": 3,
+			"beta": true,
+			"filename": "Wanted/Wanted.md",
+			"note": "Wanted/Wanted - notes.md"
+		}
+	]
+}

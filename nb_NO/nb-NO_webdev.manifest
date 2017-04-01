@@ -1,0 +1,45 @@
+{
+    "id": "webdev",
+    "title": "HTML & CSS",
+    "description":"Lær hvordan man lager nettsider med HTML and CSS.",
+    "language": "nb-NO",
+    "number": 3,
+
+    "projects": [
+        {
+            "filename": "lesson1/lesson1.md",
+            "number": 1
+        },
+        {
+            "filename": "lesson2/lesson2.md",
+            "number": 2
+        },
+        {
+            "filename": "lesson3/lesson3.md",
+            "number": 3
+        }
+        ,
+        {
+            "filename": "lesson4/lesson4.md",
+            "number": 4
+        }
+        ,
+        {
+            "filename": "lesson5/lesson5.md",
+            "number": 5
+        }
+        ,
+        {
+            "filename": "lesson7/lesson7.md",
+            "number": 7
+        }
+        ,
+        {
+            "filename": "lesson8/lesson8.md",
+            "number": 8
+        }
+
+    ]
+    
+}
+

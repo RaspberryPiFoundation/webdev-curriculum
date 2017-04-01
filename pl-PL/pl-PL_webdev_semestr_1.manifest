@@ -1,0 +1,65 @@
+{
+    "description": "-~- Kolejne projekty wkrótce! -~-",
+    "id": "html_01",
+    "language": "pl-PL",
+    "number": 5,
+    "title": "HTML & CSS 1",
+    "category": "cat-html",
+    "projects":
+    [
+        {
+            "number": 1,
+            "beta": true,
+            "filename": "Happy Birthday/Happy Birthday.md",
+            "note": "Happy Birthday/Happy Birthday - notes.md"
+        },
+        {
+            "number": 2,
+            "beta": true,
+            "filename": "Tell a Story/Tell a Story.md",
+            "note": "Tell a Story/Tell a Story - notes.md"
+        },
+        {
+            "number": 3,
+            "beta": true,
+            "filename": "Wanted/Wanted.md",
+            "note": "Wanted/Wanted - notes.md"
+        },
+        {
+            "number": 4,
+            "beta": true,
+            "filename": "Przepis/index.md",
+            "note": "Przepis/Przepis - informacje.md"
+        },
+        {
+            "number": 5,
+            "beta": true,
+            "filename": "Zbuduj Robota/index.md",
+            "note": "Zbuduj Robota/Zbuduj Robota - informacje.md"
+        },
+        {
+            "number": 6,
+            "beta": true,
+            "filename": "Tajemniczy List/index.md",
+            "note": "Tajemniczy List/Tajemniczy List - informacje.md"
+        },
+        {
+            "number": 7,
+            "beta": true,
+            "filename": "Moje Projekty/index.md",
+            "note": "Moje Projekty/Moje Projekty - informacje.md"
+        },
+        {
+            "number": 8,
+            "beta": true,
+            "filename": "Pokoje/index.md"
+        }
+    ],
+
+    "extras": [
+        {
+            "name": "Introduction to HTML & CSS",
+            "note": "extras/html-css.md"
+        }
+    ]
+}
