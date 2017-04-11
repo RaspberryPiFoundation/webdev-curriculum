@@ -55,10 +55,10 @@ volunteer-resources:
     type: flie
   - url: sunrise-finished/prefixfree.js
     type: file
-  - url: sunrise/sun.png
+  - url: sunrise-finished/sun.png
     type: image
-  - url: sunrise/boat.png
+  - url: sunrise-finished/boat.png
     type: image
-  - url: sunrise/rainbow.png
+  - url: sunrise-finished/rainbow.png
     type: image
 ---
