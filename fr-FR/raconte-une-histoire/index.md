@@ -22,7 +22,7 @@ Avant de commencer à coder, il faut trouver une histoire à raconter.
 	+ Une histoire célèbre
 	+ Une histoire que tu as inventée
 	+ Quelque chose qui t'est arrivé ou à quelqu'un que tu connais
-	
+
 	Ce n'est pas forcément une histoire. Ça peut être une blague, un poème ou ce que tu veux!
 
 # Etape 2: Edite ton histoire { .activity}
@@ -31,12 +31,12 @@ Commençons par éditer le contenu HTML et le style CSS de la page web de l'hist
 
 ## A faire { .check}
 
-+ Ouvrir ce lien Trinket : <a href="http://jumpto.cc/web-story" target="_blank">jumpto.cc/web-story</a>. 
++ Ouvrir ce lien Trinket : <a href="http://jumpto.cc/web-story" target="_blank">jumpto.cc/web-story</a>.
 
 Si tu es sur la version en ligne, tu peux aussi utiliser la version embarquée de Trinket:
 <div class="trinket">
-	<iframe src="https://trinket.io/embed/html/8083cfebb3" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-	</iframe>
+ <iframe src="https://trinket.io/embed/html/8083cfebb3" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+ </iframe>
 </div>
 
 + Comme tu l'as vu dans le project 'Bon anniversaire', le contenu de la page web doit être  entre les balises (ou 'tag') `<body>` et `</body>` (regarde la ligne 7 du code).
@@ -46,7 +46,7 @@ Si tu es sur la version en ligne, tu peux aussi utiliser la version embarquée d
 + Peux tu citer les balises qui sont utilisées pour créer les différentes sections de la page web?
 
 	![screenshot](images/story-elements.png)
-	
+
 	+ `<h1>` est un __titre__. Tu peux utiliser les niveaux 1 à 6 pour créer des titres de tailles différentes;
 	+ `<div>` est un raccourci pour __division__. C'est une façon de regrouper des éléments ensemble. Dans cette page web, tu l'utiliseras pour grouper les éléments de chaque partie de ton histoire;
 	+ `<img>` est une __image__;
@@ -69,7 +69,7 @@ Ajoutons une partie à ton histoire.
 
 ## A faire { .check}
 
-+ Va à la ligne 17 du code, et ajoute une balise ouvrante `<div>`, puis une balise fermante `</div>` 
++ Va à la ligne 17 du code, et ajoute une balise ouvrante `<div>`, puis une balise fermante `</div>`
 
 	![screenshot](images/story-div.png)
 
@@ -87,7 +87,7 @@ Ajoutons une partie à ton histoire.
 
 + Pour utiliser une image d'internet, il faut que tu ajoutes entre guillemets dans ta balise sa __source__, c'est à dire son adresse (on dit aussi URL).
 	Suis ce lien <a href="http://jumpto.cc/web-images" target="_blank">jumpto.cc/web-images</a>, et choisis une image que tu aimerais ajouter à ton histoire.
- 
+
 + Fais un clic droit sur l'image, et choisis 'copier l'adresse de l'image'.
 	![screenshot](images/story-url.png)
 
@@ -95,7 +95,7 @@ Ajoutons une partie à ton histoire.
 
 	![screenshot](images/story-image.png)
 
-+ __Si tu as un compte Trinket__, tu peux aussi ajouter tes propres images à ta page! Il te suffit de cliquer sur l'icône image dans trinket et ensuite cliquer sur 'télécharger' (ou 'upload') 
++ __Si tu as un compte Trinket__, tu peux aussi ajouter tes propres images à ta page! Il te suffit de cliquer sur l'icône image dans trinket et ensuite cliquer sur 'télécharger' (ou 'upload')
 
 	![screenshot](images/story-upload.png)
 
