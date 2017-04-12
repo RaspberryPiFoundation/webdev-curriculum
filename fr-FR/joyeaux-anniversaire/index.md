@@ -25,8 +25,8 @@ HTML veux dire __HyperText Markup Language__, et c'est le langage utilisé pour 
 + Tu vas utiliser un site internet qui s'appelle Trinket pour écrire du HTML. Ouvre ce Trinket: <a href="http://jumpto.cc/web-intro" target="_blank">jumpto.cc/web-intro</a>. Si tu lis ce cours en ligne, tu peux aussi utiliser la version incorporé de ce Trinket ci-dessous.
 
 <div class="trinket">
-	<iframe src="https://trinket.io/embed/html/850a678202" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-	</iframe>
+ <iframe src="https://trinket.io/embed/html/850a678202" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+ </iframe>
 </div>
 
 + Le code que tu vois à gauche du Trinket, c'est du HTML. A droite tu peux voir la page internet que le code HTML a créé.
@@ -55,7 +55,7 @@ HTML veux dire __HyperText Markup Language__, et c'est le langage utilisé pour 
 
 + Fait un changement sur un des paragraphes dans le code HTML (sur la gauche). Appuie sur 'Run' et tu devrais voir ta page internet changer (sur la droite)!
 
-	![screenshot](birthday-edit-html.png)
+	![screenshot](images/birthday-edit-html.png)
 
 + Si tu as fait une erreur et que tu veux revenir en arrière, tu peux cliquer sur le bouton du menu et cliquer sur 'Reset'. Essaye-le!
 
@@ -63,7 +63,7 @@ HTML veux dire __HyperText Markup Language__, et c'est le langage utilisé pour 
 
 ## Enregistre ton Projet {.save}
 
-__Tu n'as pas besoin d'un compte Trinket pour enregistrer tes projets!__ 
+__Tu n'as pas besoin d'un compte Trinket pour enregistrer tes projets!__
 
 Si tu n'as pas de compte Trinket, clique sur la flèche descendante et clique sur 'Link'. Ceci devrais te donner un lien qui te permettra de revenir plu tard sur ta page. Tu dois faire ceci à chaque fois que tu changes ton projet, le lien sera different à chaque fois.
 
@@ -76,7 +76,7 @@ Si tu as un compte Trinket, la facon la plus simple est de sauvegarder ta page e
 ##Défi: Ajoute un autre paragraphe {.challenge}
 Peut tu ajouter un 3e paragraphe de texte a ta page, en dessous des deux autres? n'oublie pas qu'un paragraphe dois commencer par un tag `<p>`, et finir avec un tag `</p>`.
 
-Voici a quoi ta page devrais ressembler maintenant:	
+Voici a quoi ta page devrais ressembler maintenant:
 
 ![screenshot](images/birthday-paragraph.png)
 
@@ -128,8 +128,8 @@ Aller, maintenant nous allons utiliser ce qu'on a appris en HTML et CSS pour fab
 + Ouvre ce Trinket: <a href="http://jumpto.cc/web-card" target="_blank">jumpto.cc/web-card</a>, ou utilise la version incorporé si tu utilises la version en ligne.
 
 <div class="trinket">
-	<iframe src="https://trinket.io/embed/html/90506676c9" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-	</iframe>
+ <iframe src="https://trinket.io/embed/html/90506676c9" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+ </iframe>
 </div>
 
 Ne t'inquietes pas si tu ne comprends pas tout le code. Cette carte d'anniversaire à l'air plutot ennuyante, du coup, nous allons faire quelques changement en HTML et CSS
@@ -154,18 +154,18 @@ Ne t'inquietes pas si tu ne comprends pas tout le code. Cette carte d'anniversai
 
 + Tu peux aussi changer la taille de ton image. Va à la ligne 29 de ton code CSS, et change `width` (longueur) et `height` (hauteur) de ton image en `200px` (`px` veux dire pixels).
 
-	![screenshot](images/birthday-card-size.png)	
+	![screenshot](images/birthday-card-size.png)
 
 + Tu peux aussi changer la typographie. Va à la ligne 24 et change `font-family` en `Comic Sans MS` et `font-size` (taille de texte) en `16pt`.
 
 	![screenshot](images/birthday-card-font.png)
 
-	Tu peux utiliser une typographie comme <span style="font-family: Arial;">arial</span>, <span style="font-family: impact;">Impact</span> ou encore <span style="font-family: tahoma;">Tahoma</span>. 
+	Tu peux utiliser une typographie comme <span style="font-family: Arial;">arial</span>, <span style="font-family: impact;">Impact</span> ou encore <span style="font-family: tahoma;">Tahoma</span>.
 
 ## Enregistre ton Projet {.save}
 
 ##Défi: Crée une carte personalisé {.challenge}
-Utilise tout ce que tu as appris en HTML et CSS pour finir ta carte d'anniversaire. Tu peux même transformer ta carte d'anniversaire par une autre carte si tu veux! 
+Utilise tout ce que tu as appris en HTML et CSS pour finir ta carte d'anniversaire. Tu peux même transformer ta carte d'anniversaire par une autre carte si tu veux!
 
 Voici un exemple:
 
