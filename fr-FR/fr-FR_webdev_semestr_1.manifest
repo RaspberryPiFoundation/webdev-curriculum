@@ -23,6 +23,12 @@
 			"beta": true,
 			"filename": "Wanted/Wanted.md",
 			"note": "Wanted/Wanted - notes.md"
+		},
+		{
+			"number": 4,
+			"beta": true,
+			"filename": "Recette de cuisine/Recette de cuisine.md",
+			"note": "Recette de cuisine/Recette de cuisine - notes.md"
 		}
 	]
 }
