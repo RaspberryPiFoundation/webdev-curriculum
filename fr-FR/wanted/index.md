@@ -1,6 +1,6 @@
 ---
-title: Wanted!
-description: Learn how to make your own poster.
+title: Avis de recherche !
+description: Apprendre à créer votre propre affiche.
 layout: project
 notes: "Wanted - notes.md"
 ---

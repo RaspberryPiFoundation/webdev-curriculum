@@ -1,6 +1,6 @@
 ---
 title: Joyeux Anniversaire
-description: Learn how to make a customised birthday card.
+description: Apprendre à créer une carte de vœux customisée.
 layout: project
 notes: "Joyeux Anniversaire - notes.md"
 project-type: sample
