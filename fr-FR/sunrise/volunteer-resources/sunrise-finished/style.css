@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+}
+
+html {
+  overflow: hidden;
+}
+
+
+#sky {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50%;
+  background: lightblue;
+  animation: sky 10s infinite;
+}
+
+@keyframes sky {
+  0%   {background:black;}
+  33%  {background:lightblue;}
+  66%  {background:lightblue;}
+  100%  {background:black;}
+}
+
+#sea {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  background: blue;
+}
+
+#sun {
+  position: absolute;
+  left: 0;
+  top: 120%;
+  width: 100px;
+  height: 100px;
+  animation: sunrise 10s infinite;
+}
+
+@keyframes sunrise {
+  0%   {left:0; top:120%;}
+  33%  {left:40%; top:0;}
+  66%  {left:40%; top:0;}
+  100%  {left:80%; top:120%;}
+}
+
+#boat {
+  position: absolute;
+  left: -50%;
+  top: 30%;
+  width: 200px;
+  height: 80px;
+  animation: left-right 20s infinite;
+}
+
+@keyframes left-right {
+  0%    {left:-50%;}
+  100%  {left:200%;}
+}
+
+#rainbow {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  animation: fade 10s infinite;
+}
+
+@keyframes fade {
+  0%   {opacity: 0;}
+  50%  {opacity: 100;}
+  66%  {opacity: 0;}
+  100%   {opacity: 0;}
+}
+
