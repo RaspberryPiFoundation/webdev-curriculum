@@ -29,6 +29,12 @@
 			"beta": true,
 			"filename": "Recette de cuisine/Recette de cuisine.md",
 			"note": "Recette de cuisine/Recette de cuisine - notes.md"
+		},
+		{
+			"number": 5,
+			"beta": true,
+			"filename": "Lettre mystere/Lettre mystere.md",
+			"note": "Lettre mystere/Lettre mystere - notes.md"
 		}
 	]
 }
