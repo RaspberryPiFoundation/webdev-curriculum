@@ -132,7 +132,7 @@ body {
 
 ![screenshot](recipe-blue.png)
 
-+ Your browser knows colours like `blue`, `yellow` and even `lightgreen`, but did you know that your browser actually knows the __names__ of over 500 different colours?
++ Your browser knows colours like `blue`, `yellow` and even `lightgreen`, but did you know that your browser actually knows the __names__ of over 140 different colours?
 
 There’s a list of all the colour names you can use: [jumpto.cc/web-colours](http://jumpto.cc/web-colours), which includes colour names like `tomato`, `firebrick` and `peachpuff`.
 
@@ -179,7 +179,7 @@ Let’s add a little more HTML and CSS to improve your webpage.
 
 ## Activity Checklist { .check}
 
-+ You can add a horizontal line at the end of your recipe, by using the <hr> tag.
++ You can add a horizontal line at the end of your recipe, by using the `<hr>` tag.
 
 ![screenshot](recipe-hr.png)
 
