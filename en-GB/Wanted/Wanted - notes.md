@@ -6,7 +6,7 @@ materials: [""]
 ...
 
 #Introduction:
-In this project, children will will have an opportunity to write their own CSS. They will also edit and write CSS properties and selectors to make their own poster.
+In this project, children will have an opportunity to write their own CSS. They will also edit and write CSS properties and selectors to make their own poster.
 
 #Online Resources
 
