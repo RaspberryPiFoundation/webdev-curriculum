@@ -1,6 +1,6 @@
 ---
 title: Projet vitrine
-description: Créer une vitrine virtuelle de vos projets web.
+description: "Créer une vitrine virtuelle de vos projets web."
 layout: project
 notes: "Project Showcase - notes.md"
 ---

@@ -1,6 +1,6 @@
 ---
-title: Une lettre mystérieuse
-description: Créer une lettre mystérieuse avec plein de styles différents.
+title: "Une lettre mystérieuse"
+description: "Créer une lettre mystérieuse avec plein de styles différents."
 layout: project
 notes: "Mystery Letter - notes.md"
 ---

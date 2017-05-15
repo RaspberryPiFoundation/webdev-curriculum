@@ -1,6 +1,6 @@
 ---
 title: Pixel Art
-description: Créer un éditeur "Pixel Art". 
+description: "Créer un éditeur Pixel Art". 
 layout: project
 notes: "Pixel Art - notes.md"
 ---

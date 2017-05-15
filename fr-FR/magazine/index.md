@@ -1,6 +1,6 @@
 ---
 title: Magazine
-description: Créer un magazine multipages en ligne. 
+description: "Créer un magazine multipages en ligne." 
 layout: project
 notes: "Magazine - notes.md"
 ...

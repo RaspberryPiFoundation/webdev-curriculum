@@ -1,6 +1,6 @@
 ---
-title: Des pièces reliées
-description: Créer un projet web avec plusieurs "pièces" reliées les unes aux autres. 
+title: "Des pièces reliées"
+description: "Créer un projet web avec plusieurs pièces reliées les unes aux autres."
 layout: project
 notes: "Linked Rooms - notes.md"
 ---

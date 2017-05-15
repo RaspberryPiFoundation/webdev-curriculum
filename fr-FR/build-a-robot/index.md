@@ -1,6 +1,6 @@
 ---
 title: Construire un Robot
-description: Apprendre à positionner des images pour faire votre robot.
+description: "Apprendre à positionner des images pour faire votre robot."
 layout: project
 notes: "Build a Robot - notes.md"
 ---

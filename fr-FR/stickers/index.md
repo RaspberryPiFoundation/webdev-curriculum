@@ -1,6 +1,6 @@
 ---
 title: Stickers !
-description: Créer des stickers rigolos avec des robots pour décorer vos pages web.  
+description: "Créer des stickers rigolos avec des robots pour décorer vos pages web.  "
 layout: project
 notes: "Stickers - notes.md"
 ---
