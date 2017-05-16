@@ -1,13 +1,13 @@
 ---
 title: Magazine
-description: Create a multi-page magazine website. 
+description: Create a multi-page magazine website.
 layout: project
 notes: "Magazine - notes.md"
 ...
 
 # Introduction { .intro}
 
-In this project, you'll learn how to use HTML and CSS to create a multi-page magazine website with a two page layout. You'll also revisit lots of HTML and CSS techiques from other projects. 
+In this project, you'll learn how to use HTML and CSS to create a multi-page magazine website with a two page layout. You'll also revisit lots of HTML and CSS techiques from other projects.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/a41e4e1c5c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -18,19 +18,19 @@ In this project, you'll learn how to use HTML and CSS to create a multi-page mag
 
 # Step 1: Heading and Background
 
-Magazine-style websites often have lots of small items on a page. First you're going to create a heading and background for your magazine. 
+Magazine-style websites often have lots of small items on a page. First you're going to create a heading and background for your magazine.
 
 ## Activity Checklist { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/web-magazine" target="_blank">jumpto.cc/web-magazine</a>. 
++ Open this trinket: <a href="http://jumpto.cc/web-magazine" target="_blank">jumpto.cc/web-magazine</a>.
 
 	The project should look like this:
 
 	![screenshot](images/magazine-starter.png)
 
-+ Let's add a heading. 
++ Let's add a heading.
 
-	You can think of a better title for your magazine. 
+	You can think of a better title for your magazine.
 
 	![screenshot](images/magazine-heading.png)
 
@@ -40,9 +40,9 @@ Magazine-style websites often have lots of small items on a page. First you're g
 
 	![screenshot](images/magazine-heading-style.png)
 
-+ Now let's create an interesting background using a gradient and choose a font for the magazine. 
++ Now let's create an interesting background using a gradient and choose a font for the magazine.
 
-	Here's some example style as a reminder of how to create a gradient: 
+	Here's some example style as a reminder of how to create a gradient:
 
 	![screenshot](images/magazine-background.png)
 
@@ -50,7 +50,7 @@ Magazine-style websites often have lots of small items on a page. First you're g
 
 # Step 2: Creating Columns
 
-Websites often use multiple columns. Let's create a two column layout for your magazine. 
+Websites often use multiple columns. Let's create a two column layout for your magazine.
 
 ## Activity Checklist { .check}
 
@@ -60,23 +60,23 @@ Websites often use multiple columns. Let's create a two column layout for your m
 
 	![screenshot](images/magazine-columns.png)
 
-+ Now style the column divs so that one floats to the left and the other floats to the right. 
++ Now style the column divs so that one floats to the left and the other floats to the right.
 
 	![screenshot](images/magazine-columns-style.png)
 
-	Each column is less than 50% so there's room for padding. 
+	Each column is less than 50% so there's room for padding.
 
-	You'll need to add something to a column to see the effect. 
+	You'll need to add something to a column to see the effect.
 
-+ Let's add a kitten picture to the top of column 2. 
++ Let's add a kitten picture to the top of column 2.
 
 	![screenshot](images/magazine-kitten.png)
 
-	Notice that the kitten image is positioned about half-way across the page, in the second column. 
+	Notice that the kitten image is positioned about half-way across the page, in the second column.
 
 	It's a bit big though!
 
-+ Let's use `max-width: ` to make images fit within their container. 
++ Let's use `max-width: ` to make images fit within their container.
 
 	Add the following style to `style.css`.
 
@@ -92,12 +92,12 @@ Websites often use multiple columns. Let's create a two column layout for your m
 
 	![screenshot](images/magazine-photo-style.png)
 
-	Make some changes until you like the result. 
+	Make some changes until you like the result.
 
 
 # Step 3: Style magazine items
 
-Let's make the layout a bit more interesting. 
+Let's make the layout a bit more interesting.
 
 ## Activity Checklist { .check}
 
@@ -105,7 +105,7 @@ Let's make the layout a bit more interesting.
 
 	![screenshot](images/magazine-item.png)
 
-+ Now style the item and heading. 
++ Now style the item and heading.
 
 	Here's an example, but you can make changes:
 
@@ -115,7 +115,7 @@ Let's make the layout a bit more interesting.
 
 ##Challenge: Add items to the left column {.challenge}
 
-Can you add a ordered list and a gradient text sticker to the left column? 
+Can you add a ordered list and a gradient text sticker to the left column?
 
 Here's an example:
 
@@ -137,7 +137,7 @@ CSS:
 
 # Step 4: Add a second page
 
-Let's add another page to your magazine website. 
+Let's add another page to your magazine website.
 
 ## Activity Checklist {.check}
 
@@ -149,27 +149,27 @@ Let's add another page to your magazine website.
 
 ![screenshot](images/magazine-page2-html.png)
 
-Notice that both pages use the same `style.css` so they will share styles. 
+Notice that both pages use the same `style.css` so they will share styles.
 
-+ Change the `<h1>` title for page2: 
++ Change the `<h1>` title for page2:
 
 ![screenshot](images/magazine-page2-h1.png)
 
-+ Now you'll need links between your pages to you can get to page 2 and back to the front page. 
++ Now you'll need links between your pages to you can get to page 2 and back to the front page.
 
 Go back to `index.html`. Add a link inside a div in column 2 in `index.html`:
 
 ![screenshot](images/magazine-page2-link.png)
 
-+ Test that you can click on your new link and move to page 2 of your magazine. 
++ Test that you can click on your new link and move to page 2 of your magazine.
 
 ##Challenge: Add a link back to the first page {.challenge}
 
 Can you add a link to `page2.html` so that you can click on it to get back to the first page?
 
-Hint: Look at the HTML you used to create a link to page 2. 
+Hint: Look at the HTML you used to create a link to page 2.
 
-![screenshot](magazine-page1-link.png)
+![screenshot](images/magazine-page1-link.png)
 
 ##Challenge: Fill in your second page {.challenge}
 
@@ -181,18 +181,18 @@ Click the images icon to see the images that are available to use:
 
 ![screenshot](images/magazine-images.png)
 
-Remember that you can upload your own images to use. Make sure you have permission to use any images that you upload. 
+Remember that you can upload your own images to use. Make sure you have permission to use any images that you upload.
 
 ![screenshot](images/magazine-upload-images.png)
 
 # Step 5: Add an animation
 
-Let's add a fun animation to your magazine. 
+Let's add a fun animation to your magazine.
 
 
 ## Activity Checklist {.check}
 
-+ Go to `index.html` and include the `greenrobot.png` image at the top of your page. 
++ Go to `index.html` and include the `greenrobot.png` image at the top of your page.
 
 ![screenshot](images/magazine-animation-image.png)
 
@@ -203,8 +203,6 @@ Let's add a fun animation to your magazine.
 
 ##Challenge: Add another animation {.challenge}
 
-Can you add an animation to the second page of your magazine? 
+Can you add an animation to the second page of your magazine?
 
 ![screenshot](images/magazine-animation-challenge.png)
-
-
