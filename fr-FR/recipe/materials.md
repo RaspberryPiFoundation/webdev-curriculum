@@ -1,5 +1,5 @@
 ---
-title: Recipe - Materials
+title: Recette de cuisine - Matériaux du projet
 layout: project-materials
 project-resources:
   - url: recipe-project-resources.zip

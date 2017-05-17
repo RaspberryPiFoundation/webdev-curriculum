@@ -1,58 +1,55 @@
 ---
-title: Recipe — Volunteer Notes
-...
+title: Recette de cuisine — Notes pour Club Leaders
+---
 
 #Introduction:
-In this project, children will learn about HTML lists and CSS colours. They will create their own recipe, adding ingredient and method lists.
+Dans ce projet, les enfants vont apprendre à utiliser les listes HTML et les couleurs en CSS. Ils vont créer leur propre recette, ajouter des ingrédients et un liste d'instructions.
 
-#Online Resources
+#Ressources en ligne
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online.
+Nous recommandons l'usage de [trinket](https://trinket.io/) pour écrire du HTML et CSS en ligne.
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Pour ce projet, les enfants peuvent utiliser un trinket vide ([jumpto.cc/trinket-blank](http:/jumpto.cc/trinket-blank)) pour écrire leur HTML et CSS, ou bien il peuvent se servir de cet exemple ([jumpto.cc/trinket-template](http://jumpto.cc/trinket-template)).
 
-There is also a trinket containing a sample solution to the challenges:
+Il y a également un trinket contenant la solution des défis:
 
-+ [‘Recipe’ Finished -- trinket.io/html/c0fd9b40cd](https://trinket.io/html/c0fd9b40cd)
++ [‘Recipe’ Finished](https://trinket.io/html/c0fd9b40cd)
 
-#Offline Resources
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
 
-+ template/index.html
+#Ressources hors-ligne
+Ce projet peux etre [completé hors-ligne](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) si vous voulez. Vous pouvez accéder au ressources du projet en cliquant sur le lien 'Project Materials' pour ce projet. Ce lien contient une section 'Project Resources', qui contient les ressources dont auront besoin les enfants pour réaliser ce projet hors-ligne. Vérifiez que chaque enfant à accès à une copie de ces ressources. Ce dossier contient les fichiers suivants:
+
++ template/Template.html
 + template/style.css
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+Vous pouvez aussi y trouver une version complète des défis de ce projet dans la section 'Volunteer Resources', contenant:
 
-+ recipe-finished/index.html
++ recipe-finished/RecipeFinished.html
 + recipe-finished/style.css
 + recipe-finished/banana.jpg
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Toutes les resources sont aussi téléchargeable dans le fichier `.zip`.)
 
-#Learning Objectives
-+ Writing HTML:
-	+ `<ul>`, `<ol>` and `<li>` list tags;
-	+ `<hr/>` tag;
-	+ Consolidating the use of nested tags.
+#Objectifs de lesson
++ écrire du HTML:
+	+ `<ul>`, `<ol>` et les tags `<li>`;
+	+ Le tag `<hr/>`;
+	+ Renforcer l'utilisation des tags imbriqués.
 
-+ Writing CSS:
-	+ Colours (names & hexadecimal codes).
++ écrire du CSS:
+	+ Couleurs (Noms et codes hexadécimal).
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+#Défis
+"Plus d'ingrédients" - ajouter plus d'ingrédients a une liste désordonné;
+"Plus d'étapes" - ajouter plus d'étapes a une liste ordonné;
+"Plus de couleurs" - ajouter le nom de couleurs, valeurs rgb et codes hexadécimal;
+"Commentaires" - ahouter une autre liste désordonné;
+"Plus de style" - ajouter des images et des typographies.
 
-+ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
+#Completer ce projet hors-ligne
+Si les enfants complètent ce projet hors-ligne, ils devront sauvegarder les images qu'ils veulent utiliser dans le même dossier que le fichier Template.html.
 
-#Challenges
-"More ingredients" - adding more items to an unordered list;
-"More steps" - adding more items to an ordered list;
-"More colours" - adding colour names, rgb values and hex codes;
-"Reviews" - adding another unordered list;
-"More styling" - adding images and fonts.
-
-#Completing this project offline
-If children are completing this project offline, they’ll need to save images they intend to use in the same folder as their Template.html file.
-
-They can then just add the name of the file in their `<img>` tags:
+Ils peuvent ensuite juste changer le nom du fichier dans leurs tag `<img>`:
 
 ```
 <img src="banana.jpg" />

@@ -3,23 +3,23 @@ title: Mystery Letter — Volunteer Notes
 ---
 
 #Introduction:
-In this project, children are introduced to CSS classes. They use multiple CSS classes to style text and also learn how to use background images and free Google fonts in their projects. 
+Dans ce projet, les enfants sont introduits aux classes CSS. Ils utilise plusieurs classes CSS pour stylisé du texte et aussi apprendre a utiliser les images de fond (background images) et aussi les typographies gratuite de Google.
 
 
-#Online Resources
+#Ressources en ligne
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinket:
+Nous recommandons l'usage de [trinket](https://trinket.io/) pour écrire du HTML et du CSS. Ce projet contient les trinkets suivants:
 
-+ ['Mystery Letter' starting point  -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
++ ['Lettre Mystére point de départ  -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Les enfants peuvent aussi utiliser ce trinket vide [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) pour écrire leurs propre HTML et CSS, ou bien ils peuvent utiliser ce trinket [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
 
-There is also a trinket containing a sample solution to the challenges:
+Il y a aussi un trinket contenant les solutions au défis:
 
-+ ['Mystery Letter Finished' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
++ ['Lettre mystére terminé' -- trinket.io/html/1d4d4c5ce1](https://trinket.io/html/1d4d4c5ce1)
 
-#Offline Resources
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+#Ressource hors-ligne
+Ce projet peuvent être [terminé hors-ligne](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) si souhaité. Vous pouvez accéder aux ressources du projet en cliquant sur le lien 'Project Materials' pour ce projet. Ce lien contient une section 'Project Resources', qui inclut les ressources que les enfants auront besoin pour terminé le projet hors-ligne. Cette section inclus les fichiers suivants.
 
 + mystery-letter/index.html
 + mystery-letter/style.css
@@ -29,7 +29,7 @@ This project can be [completed offline](https://www.codeclubprojects.org/en-GB/r
 + template/template.html
 + template/style.css
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+Vous pouvez aussi trouver une version compléte des défis de ce projet dans le dossier 'Club Leader Resources' qui contiens:
 
 + mystery-letter-finished/index.html
 + mystery-letter-finished/style.css
@@ -37,18 +37,14 @@ You can also find a completed version of this project's challenges in the 'Volun
 + mystery-letter-finished/prefixfree.js
 + mystery-letter-finished/4 x .png images
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Toutes les ressources ci-dessus sont également téléchargeable en tant fichier `.zip` project et volontaire)
 
-#Learning Objectives
-+ This project introduces CSS classes and the ability to style HTML elements with multiple classes.
-+ Background images and Google fonts are also introduced. 
+#Objectifs de la lesson
++ Ce projet introduit les classes CSS et la possibilité de styliser des éléments HTML avec plusieurs classes.
++ Les images de fond et les typographies Google sont aussi enseignés.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
-
-#Challenges
-+ “Style your message” - Apply provided CSS class styles;
-+ “Create a computer printout style” - Use CSS to recreate an example class using a background image and Google font. 
-+ “Create your own styles” - Use CSS to create new styles.
+#Défis
++ "Style ton message" - Applique les styles des classes CSS
++ "Créer un style écran d'ordinateur" - Utilisation de CSS pour récréer un exemple de classes utilisant des images de fond et des typographies Google
++ "Créer ton prore style" - Utilise CSS pour créer des nouveaux styles.
 

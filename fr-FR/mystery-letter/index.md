@@ -1,77 +1,79 @@
 ---
-title: "Une lettre mystérieuse"
-description: "Créer une lettre mystérieuse avec plein de styles différents."
+title: "Lettre Mystère"
+description: "CCréer une lettre mystérieuse avec plein de styles différents."
 layout: project
 notes: "Mystery Letter - notes.md"
 ---
+...
 
 # Introduction {.intro}
 
-In this project, you'll create a mystery letter that looks like each word has been cut from a different newspaper, magazine, comic or other source.
+Dans ce projet, tu va créer une lettre mystère avec chaque mots découpé de différents morceaux de journal, magazine, bande-desinnée ou encore autre chose.
 
 ![screenshot](images/letter-final.png)
 
-# Step 1: Choose Your Message {.activity}
+# Step 1: Choisi ton message {.activity}
 
-Mystery letters are used in films and books to send secret messages.
+Les lettres mystère sont utilisé dans les films et les livres pour envoyer des messages secrets.
 
-## Activity Checklist { .check}
+## Liste d'activité { .check}
 
-+ Think of a mystery message, 12 words is about the right length. If you can't think of a message you can use the example: 'Your next clue is in the safe. The code is 65536.'
++ Réflechi a ton message mystère, 12 mots est à peu pres la bonne longueur. Si tu ne trouves pas de message, utilise celui ci: 'Ton prochain indice est dans le coffre. Le code est 65536'.
 
-+ Either make a note of your message or remember it.
++ Écrit le quelque part pour que tu puisses t'en rappeler.
 
-# Step 2: Editing Your Message {.activity}
+# Step 2: Édite ton message {.activity}
 
-Let's get your message onto a webpage.
+C'est parti, écrit ton message dans ta page web.
 
-## Activity Checklist { .check}
+## Liste d'activités { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>.
++ Ouvre ce trinket: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>. Si tu lis ce projet en ligne, tu peux aussi utiliser la version embarquée de ce trinket ci-dessous.
 
-	The project should look like this:
+<div class="trinket">
+  <iframe src="https://trinket.io/embed/html/b5fbcf112e" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+</div>
 
-	![screenshot](images/letter-starter.png)
-
-+ The `<p>` paragraph tag is introduced in the 'Happy Birthday' project. The `<span>` tag is used to group smaller pieces of text inside a paragraph so that we can style them.
++ l'Élément paragraphe `<p>` a été introduit dans le projet 'Joyeux Anniversaire'. l'Élement `<span>` peut être utiliser pour rassembler plusieurs élément de texte a l'intérieur d'un paragraphe pour qu'on puisse le stylé.
 
 ![screenshot](images/letter-placeholder.png)
 
-## Activity Checklist { .check}
+## Liste d'activités { .check}
 
-+ Change the words to your message by putting one word in each `<span>`. You will need to add or remove `<span>` tags if your message is a different length.
++ Change les mots de ton message en ajoutant un mot par element `<span>`. Tu devras ajouter ou enlever des élements `<span>` si ton message a une longueur différente.
 
 ![screenshot](images/letter-message.png)
 
-## Activity Checklist { .check}
+## Liste d'activités { .check}
 
-+ Click the Run button to test your trinket.
++ Appuie sur le bouton 'Run' pour tester ton trinket.
 
-	If you look at the words, you can see that they’ve been styled to look like they’ve been stuck onto the page.
+	Si tu regardes les mots de plus pres, tu peux voir que les mots on été stylé et qu'on dirais qu'ils sont collés a la page.
 
-# Step 3: Using Class Styles {.activity}
+# Step 3: Utilisation des classes CSS {.activity}
 
-## Activity Checklist { .check}
+## Liste d'activités { .check}
 
-+ Did you notice the `class=""` in the `<span>` tags? You can use this to style more than one thing in the same way.
++ As-tu remarqué la propriété `class=""` dans les éléments `<span>` ? Tu peux utiliser ceci pour stylé plusieurs choses d'une seule facon.
 
-+ Add the `magazine1` class to a few of your `<span>` tags and test your webpage.
++ Ajoute la classe `magazine1` à quelques elements `<span>` et test ta page web.
 
 ![screenshot](images/letter-magazine1.png)
 
-## Activity Checklist { .check}
+## Liste d'activités { .check}
 
-+ You can add more than one class to an element. Just leave a space in between. Add the `big` class to one of your `<span>` tags. Test your page.
++ Tu peux ajouter plus d'une classe un élément. Laisse juste un espace entre chaque classes. Ajoute la class `big` à un de tes éléments`<span>`. Test ta page.
 
 ![screenshot](images/letter-big.png)
 
-## Save Your Project {.save}
+## Enregistre ton projet {.save}
 
-## Challenge: Style Your Message {.challenge}
+## Défi: Style ton message {.challenge}
 
-Use the provided styles to make your message look like a mystery letter.
+Utilise les styles deja présent pour tourner ton message en lettre mystère.
 
-Add these classes to your `<span>` tags:
+Ajoute ces classes à tes élements `<span>`:
 
 + `newspaper`, `magazine1`, `magazine2`
 
@@ -81,125 +83,125 @@ Add these classes to your `<span>` tags:
 
 + `skewleft`, `skewright`
 
-Don't add more than one from each line to a particular `<span>`.
+N'ajoute pas plus d'une classe par ligne à un élément `<span>` en particulier.
 
-This is how your letter could look:
+Voici à quoi ta lettre devrais ressembler:
 
 ![screenshot](images/letter-challenge1.png)
 
-## Save Your Project {.save}
+## Enregistre ton projet {.save}
 
-# Step 4: Editing Classes  {.activity}
+# Step 4: Édite tes classes  {.activity}
 
-## Activity Checklist { .check}
+## Liste d'activités { .check}
 
-+ Click on the __'style.css'__ tab. Find the style for the `newspaper` CSS class that you have been using.
++ Clique sur l'onglet __'style.css'__. Trouve le style pour la classe `newspaper` que tu viens d'utiliser.
 
 ![screenshot](images/letter-newspaper.png)
 
-+ Notice that there's a dot (full stop) '.' before the name of the class in the CSS file but not in the `<span>` tag in your HTML document.
++ Remarque qu'il y a un point '.' avant chaque nom de tes classes dans ton fichier CSS mais pas sur tes éléments `<span>` dans ton document HTML.
 
-+ Now look at the other CSS classes that you used to style your mystery letter. Can you find:
++ Maintenant regarde les autres classes CSS que tu as utiliser pour stylé ta lettre mystère. Peut tu trouver:
 
-	+ How the `magazine1` style changes the text to all uppercase (capital) letters.
+	+ Comment la classe `magazine1` change le texte en le rendant tout en majuscules.
 
-	+ How the `magazine2` style puts an image behind the text.
+	+ Comment la classe `magazine2` ajoute une image derrière le texte.
 
 ![screenshot](images/letter-magazines.png)
 
-+ What happens if you change the `background-image` for `magazine2` to `canvas.png`? If you prefer `pink-pattern.png` you can change it back.
++ Que se passe-t-il si tu change la propriété `background-image` de la classe `magazine2` en `canvas.png`? Si tu préferes l'image `pink-pattern.png` tu peux toujours la remettre.
 
-You can also change the colours in the magazine styles if you like.
+Tu peux aussi changer les couleurs dans tes styles de magazine si tu veux.
 
-+ Find the CSS used to rotate and skew (tilt) your words:
++ Trouve le code CSS utilisé pour tourner (`rotate` en anglais) ou incliner (`skew` en anglais) tes mots:
 
 ![screenshot](images/letter-rotate-skew.png)
 
-Try changing the numbers to create different effects and then testing your page.
+Essaye de changer les nombres pour créer differents effets et ensuite les tester sur ta page.
 
-# Step 5: Create a New Class  {.activity}
+# Step 5: Créer une nouvelle classe  {.activity}
 
-Let's create a style that looks like it has been cut from a Comic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> provides loads of fonts that are free to use.
+On va maintenant créer un nouveau style qui ressemble à une page de bande-dessinnée. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> te donneras plein d'exemples que tu peux utiliser gratuitement.
 
-## Activity Checklist { .check}
+## Liste d'activités { .check}
 
-+ Add a `comic` class in the __style.css__ file. After `magazine2` is a good place. Don't forget the dot in front of the class name.
++ Ajoute la classe `comic` dans ton fichier __style.css__. A la suite de `magazine2` est une bonne idée. N'oublie pas le point au debut de ta classe.
 
 ![screenshot](images/letter-comic1.png)
 
-Don't worry if you get a warning saying that 'The Rule is empty', you'll fix that next.
+Ne t'inquiètes pas si tu vois une erreur comme 'The Rule is empty' (la règle est vide), on va fixer cela plutard.
 
-+ Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ Maintenant, ajouter plus de CSS à ta nouvelle classe. Tu peux utiliser différentes couleurs si tu veux. Il y a plein de couleurs derrière ce lien <a href="http://jumpto.cc/web-colours" target="_blank">jumpto.cc/web-colours</a>
 
 ![screenshot](images/letter-comic2.png)
 
-+ Use the comic style in some of the `<span>` tags in your HTML document and test your page:
++ Utilise les styles de la classe comic sur quelques éléments `<span>` dans ton document HTML et teste ta page:
 
-![screenshot](images/letter-comic-output.png)
+![screenshot](letter-comic-output.png)
 
-+ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for __'bangers'__:
++ Maintenant tu peux ajouter une police un peu plus rigolote. Ouvre un nouvel onglet dans ton navigateur. Va sur la page <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> et recherche le mot __'bangers'__:
 
 ![screenshot](images/letter-fonts1.png)
 
-+ Click on the Quick-use button:
++ Clique sur le bouton 'Quick-use' (demande l'aide de ton professeur si tu as besoin):
 
 ![screenshot](images/letter-fonts2.png)
 
-+ A new page will load. Scroll down until you see:
++ Une nouvelle page va se charger. Fait défiler ta page jusqu'a ce que tu vois:
 
 ![screenshot](images/letter-fonts-link.png)
 
-and copy the highlighted code.
+Et copie le texte souligné.
 
-+ Paste the `<link>` code that you just copied from Google fonts into the `<head>` of your webpage:
++ Copie le code `<link>` que tu viens de copier depuis Google fonts dans ton élément `<head>` de ta page.
 
 ![screenshot](images/letter-fonts-head.png)
 
-This allows you to use the Bangers font in your webpage.
+Ceci va te permettre d'utiliser la police Bangers dans ta page.
 
-+ Return to Google fonts and scroll further down the page and copy the font-family code:
++ Retourne sur ta page Google fonts et fait défiler ta liste encore plus et copie le code `font-family`:
 
 ![screenshot](images/letter-fonts-bangers.png)
 
-+ Now go back to your __'style.css'__ file in trinket and paste the font-family code into the comic style:
++ Maintenant, retourne sur ton fichier __'style.css'__ dans trinket et colle le code `font-family` dans ta classe comic:
 
 ![screenshot](images/letter-fonts-comic.png)
 
-+ Test your webpage. The result should look something like this:
++ Test ta page web. Le resultat devrais ressembler à ceci:
 
 ![screenshot](images/letter-fonts-output.png)
 
-## Save Your Project {.save}
+## Enregistre ton projet {.save}
 
-## Challenge: Create A Computer Printout Style {.challenge}
+## Défi:  Créer un style écran d'ordinateur {.challenge}
 
-Create an old-fashioned computer printout style and apply it to some of the words:
+Créer un style écran d'ordinateur à l'ancienne et applique ce style sur quelques-uns de tes mots:
 
 ![screenshot](images/letter-fonts-printout.png)
 
-You will need:
+Tu auras besoin de :
 
-+ The `VT323` font family from <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Look back at Step 5 if you need a reminder on using Google fonts.
++ La police `VT323` que tu peux trouver ici <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Retourne à l'étape 5 si tu as besoin de revoir comment ajouter une police Google.
 
-+ The `computer-printout-paper.png` background image. Look back at Step 4 if you need a reminder on using background images. 	
++ De l'image de fond `computer-printout-paper.png`. Retourne à l'étape 4 si tu as besoin de revoir comment utiliser les images de fonds.
 
-## Challenge: Create Your Own Styles {.challenge}
+## Défi: Créer ton prore style {.challenge}
 
-Now create your own class styles and make your mystery letter even more interesting. Use the CSS that you have learnt in previous projects and look at the examples in __style.css__ for ideas.
+Maintenant crée ta propre classes et rend ta lettre mystère encore plus mysterieuse. Utilise le CSS que tu as appris dans tes projets précédents et regarde les exemples dans ton fichier __style.css__ pour avoir plus d'idées.
 
-Here's an example:
+Voila un exemple:
 
 ![screenshot](images/letter-fonts-challenge3.png)
 
-You can see the images that are available to use by clicking on the Images tab in trinket.
-Try setting image backgrounds using one of the included images:
+Tu peux voir les images qui sont disponible en cliquant sur l'onglet Images dans trinket.
+Essaie de mettre une image de fond en utilisant une de ces images:
 
 + `rough-paper.png`
 
 + `canvas.png`
 
-If you have a trinket account, you can upload images of your own as you did in the 'Tell a Story' Project.
+Si tu as un compte trinket, tu peux télécharger des images de ton ordinateur comme tu l'as fait dans le projet 'Raconte une histoire'.
 
-Find fonts that you like on <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and copy their `<link>` and CSS code into your trinket to use them.
+Cherche une police que tu aimes sur la page on <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> et copie le lien `<link>` et ajoute le code CSS a ton trinket pour les utiliser.
 
-## Save Your Project {.save}
+## Enregistre ton projet {.save}
