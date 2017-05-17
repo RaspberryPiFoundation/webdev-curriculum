@@ -4,7 +4,6 @@ description: "CCréer une lettre mystérieuse avec plein de styles différents."
 layout: project
 notes: "Mystery Letter - notes.md"
 ---
-...
 
 # Introduction {.intro}
 
