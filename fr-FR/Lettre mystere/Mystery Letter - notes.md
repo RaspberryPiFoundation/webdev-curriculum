@@ -8,7 +8,6 @@ materials: [""]
 #Introduction:
 Dans ce projet, les enfants sont introduits aux classes CSS. Ils utilise plusieurs classes CSS pour stylisé du texte et aussi apprendre a utiliser les images de fond (background images) et aussi les typographies gratuite de Google.
 
-
 #Ressources en ligne
 
 Nous recommandons l'usage de [trinket](https://trinket.io/) pour écrire du HTML et du CSS. Ce projet contient les trinkets suivants:
@@ -32,7 +31,7 @@ Ce projet peuvent être [terminé hors-ligne](https://www.codeclubprojects.org/e
 + template/template.html
 + template/style.css
 
-Vous pouvez aussi trouver une version compléte des défis de ce projet dans le dossier 'Club Leader Resources' qui contiens:
+Vous pouvez aussi trouver une version complète des défis de ce projet dans le dossier 'Club Leader Resources' qui contiens:
 
 + mystery-letter-finished/index.html
 + mystery-letter-finished/style.css
@@ -40,7 +39,7 @@ Vous pouvez aussi trouver une version compléte des défis de ce projet dans le 
 + mystery-letter-finished/prefixfree.js
 + mystery-letter-finished/4 x .png images
 
-(Toutes les ressources ci-dessus sont également téléchargeable en tant fichier `.zip` project et volontaire)
+(Toutes les ressources ci-dessus sont également téléchargeable en tant que fichier `.zip` projet et volontaire)
 
 #Objectifs de la lesson
 + Ce projet introduit les classes CSS et la possibilité de styliser des éléments HTML avec plusieurs classes.
