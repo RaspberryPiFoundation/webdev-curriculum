@@ -3,47 +3,42 @@ title: Project Showcase — Volunteer Notes
 ---
 
 #Introduction:
-In this project, children are introduced to hyperlinks and embedding trinkets and Scratch projects within a webpage. 
+Dans ce projet, les enfants vont apprendre a utiliser les liens hypertexte et incorporer leurs trinket et leur projects Scratch dans une page web.
 
+#Ressources en-ligne
 
-#Online Resources
+Nous recommandons l'utilisation de [trinket](https://trinket.io/) pour écrire du HTML et CSS. Ce projet contient les trinkets suivants:
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinket:
++ ['Portfolio' point de départ  -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
 
-+ ['Project Showcase' starting point  -- jumpto.cc/web-letter](http://jumpto.cc/web-letter)
+Les enfants peuvent aussi utiliser ce trinket vide [(jumpto.cc/trinket-blank)](http://jumpto.cctrinket-blank) pour écrire leur propre HTML et CSS, ou altertivement ils peuvent utiliser ce trinket [(jumpto.cc/trinket-template)](http://jumpto.cc/trinket-template).
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Il y a aussi un trinket qui contient les solutions aux défis:
 
-There is also a trinket containing a sample solution to the challenges:
++ ['Projet Portfolio terminé' -- trinket.io/html/5b815ab120](https://trinket.io/html/5b815ab120)
 
-+ ['Project Showcase Finished' -- trinket.io/html/5b815ab120](https://trinket.io/html/5b815ab120)
-
-#Offline Resources
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+#Ressource hors-ligne
+Ce projet peut être [terminé hors-ligne](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) si souhaité. Vous pouvez accéder aux ressources du projet en cliquant sur le lien 'Project Materials' pour ce projet. Ce lien contient une section 'Project Resources', qui inclut les ressources que les enfants auront besoin pour terminé le projet hors-ligne. Cette section inclus les fichiers suivants.
 
 + project-showcase/index.html
 + project-showcase/style.css
 + template/template.html
 + template/style.css
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+#Objectives de la lesson
++ Ce projet introduit les liens hypertexte qui mènent vers d'autre page web ainsi que nommer des IDs dans une page. L'ont y apprends aussi à embarquer des trinkets et des projets Scratch dans une page web.
+
+Vous pouvez aussi trouver une version complète des défis de ce projet dans le dossier 'Club Leader Resources' qui contiens:
 
 + project-showcse-finished/index.html
 + project-showcse-finished/style.css
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
-
-Note that if the children have completed their other projects offline then they won't be able to embed them but they will still be able to link to them. 
-
-#Learning Objectives
-+ This project introduces text links to other webpages and to named ids within a page. It also introduces embedding trinkets and Scratch projects into a webpage.  
-
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ce projet contient des éléments du programme [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 + [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
 
-#Challenges
-+ “Add another link” - Add links to more webpages;
-+ “Create a List of Your Projects” - Create links to previous web projects;
-+ “Embed More Projects” - Use CSS to create new styles.
+#Défis
++ "Ajouter un autre lien" - Ajouter plusieurs liens vers d'autres page web;
++ "Créer une liste de tes projets" - Créer plusieurs liens vers tes projets précédents;
++ "Embarque encore plus de projets" - Utilise le CSS pour créer de nouveaux styles;
 
