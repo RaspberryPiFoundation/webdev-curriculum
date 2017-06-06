@@ -15,7 +15,7 @@ In this project, you will create a showcase of your HTML projects and learn abou
 
 # Step 1: Adding Links to Webpages {.activity}
 
-Text links allow you to click on words to go to another web page, they are usually underlined.
+Text links allow you to click on words to go to another web page; they are usually underlined.
 
 ## Activity Checklist { .check}
 
@@ -69,7 +69,7 @@ Add a sentence with a link to a website that has been helpful for creating web p
 
 ![screenshot](showcase-link-challenge.png)
 
-# Save {.activity}
+## Save Your Project {.save}
 
 # Step 2: Link to A Trinket {.activity}
 
@@ -95,7 +95,7 @@ If you opened the trinket from your account then look for the Share option below
 
 ![screenshot](showcase-link-trinket.png)
 
-Test your webpage, it should look something like this:
+Test your webpage; it should look something like this:
 
 ![screenshot](showcase-link-output.png)
 
@@ -105,7 +105,7 @@ Click the Happy Birthday link to test that it takes you to the trinket.
 
 ## Challenge: Create a List of Your Projects {.challenge}
 
-Add some of the other HTML &amp; CSS projects that you have created at Code Club. Use `<h2>` headings to organize your webpage. 
+Add some of the other HTML &amp; CSS projects that you have created at Code Club. Use `<h2>` headings to organise your webpage.
 
 If you don't have links to the projects you created then you can use the Code Club examples:
 
@@ -217,7 +217,7 @@ Create an ordered list of links to your projects. (Ordered lists are introduced 
 
 ## Challenge: Improve Your Showcase {.challenge}
 
-Use the CSS you have learnt to make your page more interesting. Try changing the background color of the page or the font used for the headings. 
+Use the CSS you have learnt to make your page more interesting. Try changing the background colour of the page or the font used for the headings.
 
 You can also add some information about each project and what you liked about making it. 
 
