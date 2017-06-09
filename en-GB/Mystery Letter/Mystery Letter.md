@@ -19,7 +19,7 @@ Mystery letters are used in films and books to send secret messages.
 
 ## Activity Checklist { .check}
 
-+ Think of a mystery message, 12 words is about the right length. If you can't think of a message you can use the example: 'Your next clue is in the safe. The code is 65536.'
++ Think of a mystery message; 12 words is about the right length. If you can't think of a message you can use the example: 'Your next clue is in the safe. The code is 65536.'
 
 + Either make a note of your message or remember it. 
 
@@ -130,7 +130,7 @@ Let's create a style that looks like it has been cut from a Comic. <a href="http
 
 ![screenshot](letter-comic1.png)
 
-Don't worry if you get a warning saying that 'The Rule is empty', you'll fix that next. 
+Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix that next.
 
 + Now add some CSS to the comic CSS class. You can use different colours if you like. There's a list of loads of colours at <a href="http://jumpto.cc/web-colours" target="_blank">jumpto.cc/web-colours</a>.
 
