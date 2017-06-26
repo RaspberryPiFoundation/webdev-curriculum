@@ -140,15 +140,20 @@ Don't worry if you get a warning saying that 'The Rule is empty'; you'll fix tha
 
 ![screenshot](letter-comic-output.png)
 
-+ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> and search for __'bangers'__:
++ Now you can add a fun font. Open a new browser tab or window. Go to <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>, click on the search icon, and search for __'bangers'__:
 
 ![screenshot](letter-fonts1.png)
 
-+ Click on the Quick-use button:
++ Click on the Bangers font Select button:
 
 ![screenshot](letter-fonts2.png)
 
-+ A new page will load. Scroll down until you see:
++ A new header will appear at the bottom of the page:
+
+![screenshot](letter-fonts3.png)
+
++ Click on the box header to bring up information
+about how to use your fonts:
 
 ![screenshot](letter-fonts-link.png)
 
