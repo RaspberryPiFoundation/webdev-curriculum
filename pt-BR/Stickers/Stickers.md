@@ -24,12 +24,11 @@ Um gradiente é uma mudança gradual de uma cor para outra. Gradientes podem ser
   </iframe>
 </div>
 
-+ Vamos fazer um adesivo 'Eu <3 Programar'. 
++ Vamos fazer um adesivo 'Eu &lt;3 Programar'.
 
-	Use uma `<div>` com uma classe `sticker` (adesivo) e um id `coding` (programação) para que você possa estilizá-la: 
+  Use uma `<div>` com uma classe `adesivo` e um id `programar` para que você possa estilizá-la:
 
 	![screenshot](stickers-coding-error.png)
-
 
 + Hmm, você percebeu que ocorreu um erro? Isso aconteceu porque '<' é um caractere especial em HTML. Ao invés de '<', você precisa usar o código especial `&lt;`. 
 
@@ -41,15 +40,15 @@ Um gradiente é uma mudança gradual de uma cor para outra. Gradientes podem ser
 
 + Agora vamos deixar o adesivo interessante. 
 
-	Acesse o arquivo `style.css`. Você vai ver que a classe `.sticker` foi fornecida. Ela vai fazer o layout dos adesivos na página e centralizar seu conteúdo. 
+	Acesse o arquivo `style.css`. Você vai ver que a classe `.adesivo` foi fornecida. Ela vai fazer o layout dos adesivos na página e centralizar seu conteúdo. 
 
-	Lembre-se de que você adicionou o id `coding` ao seu adesivo. No final de `style.css`, adicione o seguinte código para estilizar o texto:
+	Lembre-se de que você adicionou o id `programar` ao seu adesivo. No final de `style.css`, adicione o seguinte código para estilizar o texto:
 
 	![screenshot](stickers-coding-font.png)
 
 + Agora você pode adicionar um gradiente para o fundo do adesivo. Um gradiente linear muda de uma cor para outra ao longo de uma linha reta.
 
-	Este gradiente vai mudar de vermelho para magenta na parte inferior. Adicione o código do gradiente ao estilo `coding`:
+	Este gradiente vai mudar de vermelho para magenta na parte inferior. Adicione o código do gradiente ao estilo `programar`:
 
 	![screenshot](stickers-coding-gradient.png)
 
@@ -95,13 +94,13 @@ Gradientes também podem mudar de cor do centro para as bordas, o que chamamos d
 
 ## Salve seu projeto {.save}
 
-##Desafio: Crie seu próprio adesivo em gradiente {.challenge}
+## Desafio: Crie seu próprio adesivo em gradiente {.challenge}
 
 Agora, crie seu próprio adesivo em gradiente. Experimente gradientes lineares e radiais usando várias cores HTML. 
 
 Você vai precisar:
 
-+ Adicionar uma `<div>` com o texto do seu adesivo em `index.html` e dar a ela a classe `sticker` e um novo `id`.
++ Adicionar uma `<div>` com o texto do seu adesivo em `index.html` e dar a ela a classe `adesivo` e um novo `id`.
 + Adicionar um estilo para `id` que pode ser escolhido em `style.css`. Você pode copiar e editar um dos estilos de adesivo que você já fez. 
 
 Há uma lista de todos os nomes de cores que você pode usar: [jumpto.cc/web-colours](http://jumpto.cc/web-colours), que inclui nomes como `tomato`, `firebrick` e `peachpuff`.
@@ -135,14 +134,14 @@ Você também pode fazer um adesivo em gradiente usando uma imagem. Se você usa
 
 ## Salve seu projeto {.save}
 
-##Desafio: Faça seu próprio adesivo com imagem {.challenge}
+## Desafio: Faça seu próprio adesivo com imagem {.challenge}
 
 Agora, faça seu próprio adesivo com uma imagem em gradiente. 
 
 Você vai precisar:
 
 + Adicionar uma nova `<div>` de adesivo ao arquivo `index.html`, a qual inclui uma imagem. 
-+ Adicione a classe `sticker` e um novo id à div de adesivo.
++ Adicione a classe `adesivo` e um novo id à div de adesivo.
 + Crie um estilo para seu novo id com um gradiente e espaçamento. 
 
 Seu projeto já inclui um conjunto de imagens de robôs. Clique no ícone das imagens para ver quais estão disponíveis. 
@@ -228,7 +227,7 @@ Você também pode criar gradientes diagonais que vão de canto a canto.
 
 ## Salve seu projeto {.save}
 
-##Desafio: Faça mais adesivos {.challenge}
+## Desafio: Faça mais adesivos {.challenge}
 
 Agora, experimente fazer mais adesivos usando direções diferentes de gradiente e adicionando imagens e textos usando bordas e contornos. 
 
