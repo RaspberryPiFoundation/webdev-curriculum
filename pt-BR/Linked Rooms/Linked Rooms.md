@@ -23,9 +23,9 @@ __Instruções__: Clique nas portas para se mover pelos cômodos.
 
 Projetos web podem ser compostos de vários arquivos HTML interligados. 
 
-## Lista de verificação da atividade { .check}
+## Lista de atividades { .check}
 
-+ Abra este link de trinket: <a href="http://jumpto.cc/web-rooms" target="_blank">jumpto.cc/web-rooms</a>. Se você está lendo isso on-line, você também pode usar o link incorporado abaixo.
++ Abra este link de trinket: <a href="http://jumpto.cc/web-rooms" target="_blank">jumpto.cc/web-rooms</a>. Se você está lendo isso on-line, você também pode usar o link embutido abaixo.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/ef608f0733" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -73,7 +73,7 @@ Lembre-se de testar seu código. Você deve conseguir se deslocar do Saguão par
 
 Agora, vamos adicionar outro cômodo, uma __Sala de Jogos__. 
 
-+ Clique no botão de adicionar páginas __+__:
++ Clique no botão de adicionar páginas **+**:
 
 	![screenshot](rooms-add-page.png)
 
@@ -85,14 +85,14 @@ Agora, vamos adicionar outro cômodo, uma __Sala de Jogos__.
 	
 	Edite os itens em destaque para que eles digam Jogos, não TV:
 
-	![screenshot](images/rooms-games-html2.png)	
+	![screenshot](rooms-games-html2.png)	
 
 + Sua Sala de Jogos `gamesroom.html` agora usa `gamesroom.css`, que ainda não existe. 
 
-	Crie `gamesroom.css` clicando no botão de adicionar páginas __+__. 
+	Crie `gamesroom.css` clicando no botão de adicionar páginas **+**. 
 
 
-+ O código CSS para a __Sala de Jogos__ é muito parecido com o `tvroom.html`, então __copie__ o código e __cole-o__ em `gamesroom.css`.
++ O código CSS para a __Sala de Jogos__ `gamesroom.css` é muito parecido com o `tvroom.html`, então __copie__ o código e __cole-o__ em `gamesroom.css`.
 
 	![screenshot](rooms-add-games-css.png)
 
@@ -126,7 +126,7 @@ Dica: Você precisa adicionar um link `<a>` em `gamesroom.html` que leva até `h
 
 Os links não precisam ser textos. Vamos fazer uma porta na qual podemos clicar usando uma `<div>`.
 
-## Lista de verificação da atividade { .check}
+## Lista de atividades { .check}
 
 + Abra `index.html` e adicione uma `<div>` que englobe o texto do link de __Sala de TV__. Ela precisa ficar dentro de `<a>` para que possa ser clicada.
 
@@ -146,7 +146,7 @@ Os links não precisam ser textos. Vamos fazer uma porta na qual podemos clicar 
 
 + E vamos adicionar um código CSS para melhorar a aparência do texto da porta:
 
-	![screenshot](images/rooms-door-css3.png)
+	![screenshot](rooms-door-css3.png)
 
 + Você provavelmente notou que a porta está flutuando no ar. Vamos consertar isso posicionando a porta dentro do cômodo.
 
@@ -185,7 +185,7 @@ A Sala de TV deve ficar mais ou menos assim:
 
 Vamos decorar o saguão com uma imagem de fundo.
 
-## Lista de verificação da atividade { .check}
+## Lista de atividades { .check}
 
 
 +  Edite o arquivo `style.css` para adicionar uma imagem de fundo ao Saguão:
@@ -215,7 +215,7 @@ O cômodo decorado deve ficar mais ou menos assim:
 
 ##Desafio: Aproprie-se! {.challenge}
 
-Adicione mais cômodos ao seu projeto. Lembre-se de que você pode usar __copiar__ e  __colar__ para ganhar tempo e alterar apenas o que precisa ser diferente. 
+Adicione mais cômodos ao seu projeto. Lembre-se de que você pode usar __copiar__ (`ctrl` + `c`) e  __colar__ (`ctrl` + `v`) para ganhar tempo e alterar apenas o que precisa ser diferente. 
 
 Para cada cômodo, você vai precisar:
 
