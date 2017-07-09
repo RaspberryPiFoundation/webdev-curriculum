@@ -17,9 +17,9 @@ Neste projeto, você aprenderá como fazer seu próprio cartaz.
 
 Vamos começar editando o código CSS para o cartaz.
 
-## Checklist da Atividade { .check}
+## Lista de atividades { .check}
 
-+ Abra este trinket: <a href="http://jumpto.cc/web-wanted" target="_blank">jumpto.cc/web-wanted</a>. Se você está lendo isto online, você pode também usar a versão embedded desse trinket abaixo.
++ Abra este trinket: <a href="http://jumpto.cc/web-wanted" target="_blank">jumpto.cc/web-wanted</a>. Se você está lendo isto online, você pode também usar a versão embutido desse trinket abaixo.
 
 <div class="trinket">
 	<iframe src="https://trinket.io/embed/html/58318bee1f" width="100%" height="550" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -31,13 +31,13 @@ Vamos começar editando o código CSS para o cartaz.
 	```
 	div {
 		text-align: center;
-	    overflow: hidden;
-	    border: 2px solid black;
-	    width: 300px;
-    }
+		overflow: hidden;
+	 	border: 2px solid black;
+	 	width: 300px;
+    	}
 	```
 
-+ Vamos começar alterar a propriedade `text-align`:
++ Vamos começar alterarando a propriedade `text-align`:
 
 	```
 	text-align: center;
@@ -55,22 +55,22 @@ Vamos começar editando o código CSS para o cartaz.
 
 + Mude o `width` do cartaz para `400px`. O que acontece com o cartaz?
 
-+ Vamos adicionar algum CSS para colocar uma cor de fundo no cartaz. Vá para o final da linha 5 do seu código e aperte return, assim você tem uma nova linha vazia.
++ Vamos adicionar algum CSS para colocar uma cor de fundo no cartaz. Vá para o final da linha 5 do seu código e aperte **Enter**, assim você tem uma nova linha vazia.
 
 	![screenshot](wanted-newline.png)
 
-	Type the following code on your new blank line:
+	Digite o código a seguir nessa linha vazia
 
 	```
 	background: yellow;
 	```
 
-	Certifique-se de digitar _exatamente_ como acima. Você deverá notar que a cor de fundo da `<div>` agora é amarelo.
+	Certifique-se de digitar _exatamente_ como acima. Você notará que a cor de fundo da `<div>` agora é amarela.
 
 	![screenshot](wanted-background.png)
 
-##Desafio: melhorando seu cartaz {.challenge}
-Adicione a seguinte propriedade CSS para estilo da sua `div`:
+##Desafio: Melhorando seu cartaz {.challenge}
+Adicione a seguinte propriedade CSS na sua `div`:
 
 ```
 border-radius: 40px;
@@ -84,11 +84,11 @@ O que essa propriedade faz? O que acontece se você mudar o número do código a
 
 Vamos melhorar da imagem no cartaz.
 
-## Checklist da Atividade { .check}
+## Lista de atividades { .check}
 
-+ No momento, não há nenhuma propriedade CSS para sua tag `<img>`, então vamos adicionar alguma!
++ No momento, não há nenhuma propriedade CSS para sua __tag__ `<img>`, então vamos adicionar alguma!
 
-	Primeiramente, adicione o seguinte código embaixo do CSS para sua div:
+	Primeiramente, adicione o seguinte código embaixo do CSS para sua `div`:
 
 	```
 	img {
@@ -120,17 +120,17 @@ Vamos melhorar da imagem no cartaz.
 
 	![screenshot](wanted-img-border.png)
 
-	Você pode consertar isso adicionando um pouco de padding em torno da imagem:
+	Você pode consertar isso adicionando um pouco de espaço em torno da imagem:
 
 	```
 	padding: 10px;
 	```
 
-	Padding é o espaço entre o conteúdo (nesse caso a imagem) e sua borda.
+	__padding__ é o espaço entre o conteúdo (nesse caso a imagem) e sua borda.
 
 	![screenshot](wanted-img-padding.png)
 
-	O que você acha que aconteceria se você mudar o padding para `50px`?
+	O que você acha que aconteceria se você mudar o __padding__ para `50px`?
 
 ##Desafio: Melhorando sua imagem {.challenge}
 Você pode dar a sua imagem uma cor de fundo? Ou uma borda arredondada?
@@ -141,7 +141,7 @@ Você pode dar a sua imagem uma cor de fundo? Ou uma borda arredondada?
 
 Vamos melhorar o estilo do cabeçalho `<h1>`.
 
-## Checklist da Atividade { .check}
+## Lista de atividades { .check}
 
 + Adicione o seguinte código embaixo do CSS da sua imagem:
 
@@ -153,7 +153,7 @@ Vamos melhorar o estilo do cabeçalho `<h1>`.
 
 	Este é o lugar onde você vai adicionar propriedades CSS para seu principal cabeçalho `<h1>`.
 
-+ Para mudar a fonte do seu cabeçalho `<h1>`, adicione o seguiten código entre os colchetes:
++ Para mudar a fonte do seu cabeçalho `<h1>`, adicione o seguinte código entre os colchetes:
 
 	```
 	font-family: Impact;
@@ -169,7 +169,7 @@ Vamos melhorar o estilo do cabeçalho `<h1>`.
 
 	![screenshot](wanted-h1-margin.png)
 
-	Isso ocorre porque há uma margem em torno do cabeçalho. A margem é o espaço entre o elemento (nesse caso o cabeçalho) e as outras coisas em torno dele.
+	Isso ocorre porque há uma margem em torno do cabeçalho. A margem é o espaço entre o elemento (nesse caso o cabeçalho `h1`) e as outras coisas em torno dele.
 
 	Você pode deixar a margem menor com este código:
 
@@ -208,6 +208,6 @@ height: 100px;
 ## Salve Seu Projeto {.save}
 
 ##Desafio: Anuncie um evento! {.challenge}
-Você é capaz de fazer um cartaz para um evento acontecendo em sua escola? Poderia ser uma peça de teatro, um evento esportivo, ou até mesmo um cartaz anunciando o seu Code Club
+Você é capaz de fazer um cartaz para um evento acontecendo em sua escola? Poderia ser uma peça de teatro, um evento esportivo, ou até mesmo um cartaz anunciando o seu Code Club!
 
 ## Salve Seu Projeto {.save}
