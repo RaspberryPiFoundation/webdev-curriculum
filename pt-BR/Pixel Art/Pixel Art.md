@@ -25,7 +25,7 @@ Vamos criar uma malha quadriculada de pixels que pode ser usada para criar arte 
 
 As tabelas contêm linhas que contêm células. Você vai criar uma tabela com fundo preto e então colocar pixels brancos nela. 
 
-## Lista de verificação da atividade { .check}
+## Lista de atividades { .check}
 
 + Abra este link de trinket: <a href="http://jumpto.cc/web-pixel" target="_blank">jumpto.cc/web-pixel</a>. Se você está lendo isso on-line, você também pode usar o link incorporado abaixo. 
 

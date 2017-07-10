@@ -17,16 +17,16 @@ Neste projeto, você aprenderá como posicionar imagens para criar seu próprio 
 
 Vamos dar ao seu robô alguns olhos!
 
-## Checklist da Atividade { .check}
+## Lista de atividades { .check}
 
-+ Abra este trinket: <a href="http://jumpto.cc/web-robot" target="_blank">jumpto.cc/web-robot</a>. Se você está lendo isto online, você pode também usar a versão embedded desse trinket abaixo.
++ Abra este trinket: <a href="http://jumpto.cc/web-robot" target="_blank">jumpto.cc/web-robot</a>. Se você está lendo isto online, você pode também usar a versão embutida desse trinket abaixo.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/b29b50e571" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-+ Cada imagem deste projeto tem seu próprio nome (ou __id__). Por exemplo, o HTML para as imagens do rosto e dos olhos (‘face’, ‘eyes1’ and ‘eyes2’ começando na linha 8 do seu código) se parece com isto:
++ Cada imagem deste projeto tem seu próprio nome (ou __id__). Por exemplo, o HTML para as imagens do rosto e dos olhos (‘rosto’, ‘olhos1’ e ‘olhos2’ começando na linha 8 do seu código) se parece com isto:
 
 ```
 <img id="rosto" ...>
@@ -52,9 +52,9 @@ Perceba que você está estilizando apenas a imagem `olhos1`, usando `#olhos1` e
 
 ![screenshot](robot-eyes-width.png)
 
-+ Observou como cada imagem é exibida uma após a outra? Isso é chamado de posicionamento __relativo__. Se você quer contar para o navegador exatamente onde posicionar o olho do robô, você precisará usar posicionamento __absoluto__.
++ Observou como cada imagem é exibida uma após a outra? Isso é chamado de posicionamento __relativo__. Se você quiser dizer para o navegador exatamente onde posicionar o olho do robô, você precisará usar posicionamento __absoluto__.
 
-Adicione estás 3 linhas de cógigo no CSS para sua imagem `olhos1`
+Adicione estás 3 linhas de código no CSS para sua imagem `olhos1`
 
 ```
 position: absolute;
@@ -70,13 +70,13 @@ Este código CSS diz ao navegador o quão distante do topo / esquerda da sua pá
 
 ![screenshot](robot-eyes-position2.png)
 
-Você pode usar `bottom` ao invés de `top` para dizer ao navegador o quão distante do bottom da tela a imagem deverá ser mostrada, assim como `right` ao invés de `left`.
+Você pode usar `bottom` ao invés de `top` para dizer ao navegador o quão distante da borda da tela a imagem deverá ser mostrada, assim como `right` ao invés de `left`.
 
 # Passo 2: Dando uma boca ao seu robô { .activity}
 
 Vamos dar uma boca ao seu robô!
 
-## Checklist da Atividade { .check}
+## Lista de atividades { .check}
 
 + Adicione o seguinte código CSS para estilizar sua imagem `boca1`:
 

@@ -21,9 +21,9 @@ Neste projeto, você vai aprender a usar CSS para criar um nascer do sol animado
 
 Vamos começar adicionando uma imagem para o sol e posicionando-a com CSS.
 
-## Lista de verificação da atividade { .check}
+## Lista de atividades { .check}
 
-+ Abra este link de trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>. Se você está lendo isso on-line, você também pode usar o link incorporado abaixo.
++ Abra este link de trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>. Se você está lendo isso on-line, você também pode usar o link embutido abaixo.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/5085f92143" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -42,7 +42,7 @@ Vamos começar adicionando uma imagem para o sol e posicionando-a com CSS.
 
 + Uma imagem para o sol já está inclusa em seu projeto. 
 
-    Adicione a imagem dentro da sua `div` que representa o sol incluindo um id para estilizá-la:
+    Adicione a imagem dentro da sua `div` que representa o sol incluindo um `id` para estilizá-la:
 
     ![screenshot](sunrise-sun-image.png)
 
@@ -61,11 +61,11 @@ Vamos começar adicionando uma imagem para o sol e posicionando-a com CSS.
 
 # Etapa 2: Animando o nascer do sol { .activity}
 
-Para animar sue nascer do sol, você precisa definir como o sol se move e quanto tempo ele leva para nascer.
+Para animar seu nascer do sol, você precisa definir como o sol se move e quanto tempo ele leva para nascer.
 
 Para fazer isso, você deve definir uma lista de __quadros-chave__. Cada quadro-chave define as propriedades CSS de um elemento em um ponto específico em uma animação. 
 
-## Lista de verificação da atividade  { .check}
+## Lista de atividades  { .check}
 
 + Primeiro, você precisa usar `@keyframes` (quadros-chave) para criar uma nova animação chamada sunrise (nascer do sol). 
 
@@ -113,7 +113,7 @@ left: 40%;
 
 Vamos fazer com que a animação se repita para sempre.
 
-## Lista de verificação da atividade { .check}
+## Lista de atividades { .check}
 
 + Se você quer que o sol nasça e se ponha, basta adicionar mais quadros-chave à animação:
 
@@ -141,7 +141,7 @@ Vamos fazer com que a animação se repita para sempre.
 
 A animação não serve apenas para movimento. Vamos animar o céu para que fique noite.
 
-## Lista de verificação da atividade { .check}
+## Lista de atividades { .check}
 
 + Adicione uma animação chamada `sky` (céu) ao seu CSS:
 
@@ -193,7 +193,7 @@ Não se esqueça de que você também pode colocar itens no mar, assim como no c
 
 ![screenshot](sunrise-boat.png)
 
-No exemplo, o arco-íris usa opacidade para um efeito de desvanecimento:
+No exemplo, o arco-íris usa opacidade para dissolver a imagem:
 
 ```
 @keyframes fade {
@@ -204,7 +204,7 @@ No exemplo, o arco-íris usa opacidade para um efeito de desvanecimento:
 }
 ```
 
-O barco usa uma posição inicial negativa para que você não possa vê-lo em parte da animação:
+O barco usa uma posição inicial negativa e uma posição positiva acima dos 100% para que você não possa vê-lo em parte da animação:
 
 ```
  @keyframes left-right {
