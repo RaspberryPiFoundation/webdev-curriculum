@@ -1,4 +1,4 @@
---
+---
 title: Carta Misteriosa
 description: Create a mystery letter with lots of different styles.
 layout: project
@@ -7,19 +7,19 @@ notes: "Mystery Letter - notes.md"
 
 # Introducción {.intro}
 
-En este proyecto vas a crear una carta misteriosa, en la que parezca que cada palabra se ha recortado de diferentes periódicos, revistas, cómics u otras fuentes. 
+En este proyecto vas a crear una carta misteriosa, en la que parezca que cada palabra se ha recortado de diferentes periódicos, revistas, cómics u otras fuentes.
 
 ![screenshot](letter-final.png)
 
 # Paso 1: Escoge tu mensaje {.activity}
 
-Las cartas misteriosas se usan en películas y libros para enviar mensajes secretos. 
+Las cartas misteriosas se usan en películas y libros para enviar mensajes secretos.
 
 ## Lista de tareas de la actividad { .check}
 
 + Piensa un mensaje misterioso. Una longitud adecuada para el mensaje sería de 12 palabras. Si no se te ocurre ningún mensaje, puedes usar este ejemplo: 'Tu próxima pista está en la caja fuerte. El código es 65536.'
 
-+ Apunta el mensaje o recuérdalo. 
++ Apunta el mensaje o recuérdalo.
 
 # Paso 2: Editar tu mensaje {.activity}
 
@@ -34,13 +34,13 @@ Vamos a publicar tu mensaje en una página web.
   </iframe>
 </div>
 
-+ La etiqueta de párrafo `<p>` se explica en el proyecto 'Feliz cumpleaños'. La etiqueta `<span>` se usa para agrupar unidades más pequeñas de texto dentro de un párrafo y poderles dar estilo. 
++ La etiqueta de párrafo `<p>` se explica en el proyecto 'Feliz cumpleaños'. La etiqueta `<span>` se usa para agrupar unidades más pequeñas de texto dentro de un párrafo y poderles dar estilo.
 
 ![screenshot](letter-placeholder.png)
 
 ## Lista de tareas de la actividad { .check}
 
-+ Cambia las palabras por las de tu mensaje, poniendo una palabra en cada `<span>`. Tendrás que añadir o eliminar etiquetas de `<span>` si tu mensaje tiene una longitud diferente. 
++ Cambia las palabras por las de tu mensaje, poniendo una palabra en cada `<span>`. Tendrás que añadir o eliminar etiquetas de `<span>` si tu mensaje tiene una longitud diferente.
 
 ![screenshot](letter-message.png)
 
@@ -54,7 +54,7 @@ Vamos a publicar tu mensaje en una página web.
 
 ## Lista de tareas de la actividad { .check}
 
-+ ¿Te has fijado en el texto `class=""` (significa "categoría") que está en las etiquetas `<span>`? Puedes usarlo para dar el mismo estilo a más de una cosa. 
++ ¿Te has fijado en el texto `class=""` (significa "categoría") que está en las etiquetas `<span>`? Puedes usarlo para dar el mismo estilo a más de una cosa.
 
 + Añade la categoría `magazine1` a algunas de tus etiquetas `<span>` y prueba tu página web.
 
@@ -62,7 +62,7 @@ Vamos a publicar tu mensaje en una página web.
 
 ## Lista de tareas de la actividad { .check}
 
-+ Puedes añadir más de una categoría a un elemento. Sólo tienes que dejar un espacio entre las dos. Añade la categoría `big` a una de tus etiquetas `<span>`. Prueba tu página web. 
++ Puedes añadir más de una categoría a un elemento. Sólo tienes que dejar un espacio entre las dos. Añade la categoría `big` a una de tus etiquetas `<span>`. Prueba tu página web.
 
 ![screenshot](letter-big.png)
 
@@ -70,9 +70,9 @@ Vamos a publicar tu mensaje en una página web.
 
 ## Reto: Cambiar el estilo de tu mensaje {.challenge}
 
-Usa los estilos que te indicamos a continuación para hacer que tu mensaje parezca una carta misteriosa. 
+Usa los estilos que te indicamos a continuación para hacer que tu mensaje parezca una carta misteriosa.
 
-Añade estas categorías a tus etiquetas `<span>`: 
+Añade estas categorías a tus etiquetas `<span>`:
 
 + `newspaper` (periódico), `magazine1` (revista1), `magazine2` (revista2)
 
@@ -104,11 +104,11 @@ Tu carta debería de parecerse a ésta:
 
 	+ Cómo el estilo `magazine1` cambia todo el texto a mayúsculas ("text-transform" significa transformar texto).
 
-	+ Cómo el estilo `magazine2` coloca una imagen por detrás del texto ("background-image" significa imagen de fondo). 
+	+ Cómo el estilo `magazine2` coloca una imagen por detrás del texto ("background-image" significa imagen de fondo).
 
 ![screenshot](letter-magazines.png)
 
-+ ¿Qué pasa si cambias la imagen de fondo (`background-image`) de `magazine2` a `canvas.png`? Si te gusta más `pink-pattern.png`, puedes volver a dejarlo como estaba. 
++ ¿Qué pasa si cambias la imagen de fondo (`background-image`) de `magazine2` a `canvas.png`? Si te gusta más `pink-pattern.png`, puedes volver a dejarlo como estaba.
 
 También puedes cambiar los colores en los estilos magazine, si quieres.
 
@@ -116,19 +116,19 @@ También puedes cambiar los colores en los estilos magazine, si quieres.
 
 ![screenshot](letter-rotate-skew.png)
 
-Intenta cambiar los valores para crear diferentes efectos y después prueba tu página. 
+Intenta cambiar los valores para crear diferentes efectos y después prueba tu página.
 
 # Paso 5: Crear una nueva categoría {.activity}
 
-Vamos a crear un estilo que parezca que ha sido recortado de un cómic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> ofrece un montón de fuentes que son de uso libre. 
+Vamos a crear un estilo que parezca que ha sido recortado de un cómic. <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> ofrece un montón de fuentes que son de uso libre.
 
 ## Lista de tareas de la actividad { .check}
 
-+ Añade una categoría de `comic` en el archivo __style.css__. Después de `magazine2` es un buen sitio. No te olvides de poner un punto delante del nombre de la categoría. 
++ Añade una categoría de `comic` en el archivo __style.css__. Después de `magazine2` es un buen sitio. No te olvides de poner un punto delante del nombre de la categoría.
 
 ![screenshot](letter-comic1.png)
 
-No te preocupes si te aparece un mensaje diciendo 'The Rule is empty' (La regla está vacía), arreglaremos eso enseguida. 
+No te preocupes si te aparece un mensaje diciendo 'The Rule is empty' (La regla está vacía), arreglaremos eso enseguida.
 
 + Ahora añade algo de CSS a la categoría de CSS comic. Si quieres, puedes usar diferentes colores. Puedes encontrar una lista con un montón de colores en <a href="http://jumpto.cc/web-colours" target="_blank">jumpto.cc/web-colours</a>.
 
@@ -150,14 +150,14 @@ No te preocupes si te aparece un mensaje diciendo 'The Rule is empty' (La regla 
 
 ![screenshot](letter-fonts-link.png)
 
-y copia el código marcado. 
+y copia el código marcado.
 
 + Pega el código del `<enlace>` que acabas de copiar de Google fonts en la `<cabecera>` de tu página web:
 
 ![screenshot](letter-fonts-head.png)
 
 
-Esto te permitirá usar el tipo de letra Bangers en tu página web. 
+Esto te permitirá usar el tipo de letra Bangers en tu página web.
 
 + Vuelve a Google fonts, desplázate aún más hacia abajo en la pantalla, y copia el código del tipo de letra ("font-family"):
 
@@ -167,7 +167,7 @@ Esto te permitirá usar el tipo de letra Bangers en tu página web.
 
 ![screenshot](letter-fonts-comic.png)
 
-+ Prueba tu página web. El resultado debería de parecerse a éste: 
++ Prueba tu página web. El resultado debería de parecerse a éste:
 
 ![screenshot](letter-fonts-output.png)
 
@@ -181,32 +181,31 @@ Crea un estilo que imite una impresión de ordenador a la antigua, y aplícalo a
 
 Necesitarás:
 
-+ El tipo de letra `VT323` de <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Revisa el paso 5 si no recuerdas cómo usar Google fonts. 
++ El tipo de letra `VT323` de <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Revisa el paso 5 si no recuerdas cómo usar Google fonts.
 
 + La imagen de fondo `computer-printout-paper.png`. Revisa el paso 4 si necesitas recordar cómo usar las imágenes de fondo. 	
 
 ## Reto: Crear tus propios estilos {.challenge}
 
-Crea tus propios estilos de categoría y haz que tu carta misteriosa sea aún más interesante. Usa el CSS que has aprendido en proyectos anteriores y fíjate en los ejemplos que hay en __style.css__, como nuevas ideas. 
+Crea tus propios estilos de categoría y haz que tu carta misteriosa sea aún más interesante. Usa el CSS que has aprendido en proyectos anteriores y fíjate en los ejemplos que hay en __style.css__, como nuevas ideas.
 
 Aquí tienes un ejemplo:
 
 ![screenshot](letter-fonts-challenge3.png)
 
 Puedes ver las imágenes que hay disponibles en trinket, si haces clic en la pestaña "Images".
-Intenta establecer fondos de imagen usando una de las imágenes incluidas: 
+Intenta establecer fondos de imagen usando una de las imágenes incluidas:
 
 + `rough-paper.png`
 
 + `canvas.png`
 
-Si tienes una cuenta de trinket, puedes cargar tus propias imágenes, como hiciste en el proyecto 'Cuenta una historia'. 
+Si tienes una cuenta de trinket, puedes cargar tus propias imágenes, como hiciste en el proyecto 'Cuenta una historia'.
 
-Busca tipos de letra que te gusten en <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> y copia su `<enlace>` y código CSS en tu trinket para poder usarlos. 
+Busca tipos de letra que te gusten en <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> y copia su `<enlace>` y código CSS en tu trinket para poder usarlos.
 
 ## Guarda tu proyecto {.save}
 
 ## Community Contributed Translation { .challenge .pdf-hidden }
 
 This project was translated by Montse Verdaguer. Our amazing translation volunteers help us give children around the world the chance to learn to code.  You can help us reach more children by translating a Code Club project via [Github](https://github.com/CodeClub/curriculum_documentation/blob/master/contributing.md) or by getting in touch with us at hello@codeclubworld.
-
