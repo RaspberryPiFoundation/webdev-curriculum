@@ -1,0 +1,82 @@
+body {		
+	background: linear-gradient(to bottom right, lemonchiffon, white);
+	padding: 15px;
+	font-family: Verdana;
+}
+	
+h1 {
+	text-align: center;
+	color: white;
+	background: teal;
+	padding: 5px;
+}
+
+.column1{
+	width: 48%;
+	float: left;
+}
+
+.column2 {
+	width: 48%;
+	float: right;
+}
+
+img {
+	max-width: 100%;
+}
+
+h2 {
+	color: white;
+	background: teal;
+	padding: 5px;
+	margin: 0px 0px 10px 0px;
+	box-shadow: 2px 2px 2px gray;
+	text-align: center;
+	
+}
+
+.item  {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 3px dashed teal;
+}
+
+.photo {
+	box-shadow: 4px 4px 4px gray;
+	transform: rotate(10deg);
+}
+
+#robots {
+  font-size: 30px;
+  color: white;
+  background: linear-gradient(green, yellow, orange, red, purple, blue);
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#greenrobot {
+  height: 100px;
+  position: absolute;
+  left: -200px;
+  animation: slide 10s infinite;
+}
+
+@keyframes slide {
+  0% { left: -200px }
+  50% { left: 0 }
+  100% { left: -200px }
+}
+
+#spacerobot {
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  animation: across 5s infinite alternate;
+}
+
+@keyframes across {
+  0% { left: 0 }
+  100% { left: 90% }
+}
+
