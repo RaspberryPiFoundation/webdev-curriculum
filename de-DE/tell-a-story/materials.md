@@ -4,11 +4,11 @@ layout: project-materials
 Projekt-Ressourcen:
   - url: story-project-resources.zip 
     type: file
-    description: .zip Datei, die alle Projekt-Ressourcen enth‰lt
+    description: .zip Datei, die alle Projekt-Ressourcen enth√§lt
   - url: http://jumpto.cc/web-story
     type: link
     text: jumpto.cc/web-story
-    description: Online Trinket, das alle 'Tell a Story' (Erz‰hle eine Geschichte) Projekt Ressourcen enth‰lt
+    description: Online Trinket, das alle 'Tell a Story' (Erz√§hle eine Geschichte) Projekt Ressourcen enth√§lt
   - url: http://jumpto.cc/trinket-template
     type: link
     text: jumpto.cc/trinket-template
@@ -32,7 +32,7 @@ Projekt-Ressourcen:
 Helfer-Ressourcen:
   - url: story-volunteer-resources.zip
     type: file
-    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enth‰lt
+    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enth√§lt
   - url: https://trinket.io/html/c8afdef912
     type: link
     text: trinket.io/html/c8afdef912

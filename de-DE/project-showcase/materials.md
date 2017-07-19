@@ -4,11 +4,11 @@ layout: project-materials
 Projekt-Ressourcen:
   - url: showcase-project-resources.zip
     type: file
-    description: .zip Datei, die alle Projekt-Ressourcen enth‰lt
+    description: .zip Datei, die alle Projekt-Ressourcen enth√§lt
   - url: http://jumpto.cc/web-showcase
     type: link
     text: jumpto.cc/web-showcase
-    description: Online Trinket, das alle 'Project Showcase' Projekt-Ressourcen enth‰lt.
+    description: Online Trinket, das alle 'Project Showcase' Projekt-Ressourcen enth√§lt.
   - url: http://jumpto.cc/trinket-template
     type: link
     text: jumpto.cc/trinket-template
@@ -28,7 +28,7 @@ Projekt-Ressourcen:
 Helfer-Ressourcen:
   - url: showcase-volunteer-resources.zip
     type: file
-    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enth‰lt
+    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enth√§lt
   - url: https://trinket.io/html/1d4d4c5ce1
     type: link
     text: trinket.io/html/1d4d4c5ce1

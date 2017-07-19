@@ -4,11 +4,11 @@ layout: project-materials
 Projekt-Ressourcen:
   - url: pixel-project-resources.zip
     type: file
-    description: .zip Datei, die alle Projekt-Ressourcen enth‰lt
+    description: .zip Datei, die alle Projekt-Ressourcen enth√§lt
   - url: http://jumpto.cc/web-pixel
     type: link
     text: jumpto.cc/web-pixel
-    description: Online Trinket, das alle 'Pixel Art' Projektressourcen enth‰lt
+    description: Online Trinket, das alle 'Pixel Art' Projektressourcen enth√§lt
   - url: http://jumpto.cc/trinket-template
     type: link
     text: jumpto.cc/trinket-template
@@ -35,7 +35,7 @@ Projekt-Ressourcen:
 Helfer-Ressourcen:
   - url: pixel-volunteer-resources.zip
     type: file
-    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enth‰lt
+    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enth√§lt
   - url: https://trinket.io/html/0e102a306b
     type: link
     text: trinket.io/html/0e102a306b

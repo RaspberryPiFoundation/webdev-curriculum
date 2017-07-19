@@ -4,15 +4,15 @@ layout: project-materials
 Projekt-Ressourcen:
   - url: stickers-project-resources.zip
     type: file
-    description: .zip Datei, die alle Projekt-Ressourcen enth‰lt
+    description: .zip Datei, die alle Projekt-Ressourcen enth√§lt
   - url: http://jumpto.cc/web-intro
     type: link
     text: jumpto.cc/web-intro
-    description: Online Trinket, das alle 'Intro' (Einf¸hrung) Projektressourcen enth‰lt
+    description: Online Trinket, das alle 'Intro' (Einf√ºhrung) Projektressourcen enth√§lt
   - url: http://jumpto.cc/web-stickers
     type: link
     text: jumpto.cc/web-stickers
-    description: Online Trinket, das alle 'Stickers' (Aufkleber) Projektressourcen enth‰lt
+    description: Online Trinket, das alle 'Stickers' (Aufkleber) Projektressourcen enth√§lt
   - url: http://jumpto.cc/trinket-template
     type: link
     text: jumpto.cc/trinket-template
@@ -50,7 +50,7 @@ Projekt-Ressourcen:
 Helfer-Ressourcen:
   - url: stickers-volunteer-resources.zip
     type: file
-    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enth‰lt
+    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enth√§lt
   - url: https://trinket.io/html/bb4e538e0a
     type: link
     text: trinket.io/html/bb4e538e0a

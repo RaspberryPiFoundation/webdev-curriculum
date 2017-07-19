@@ -4,11 +4,11 @@ layout: project-materials
 Projekt-Ressourcen:
   - url: letter-project-resources.zip
     type: file
-    description: .zip Datei, die alle Projekt-Ressourcen enth‰lt
+    description: .zip Datei, die alle Projekt-Ressourcen enth√§lt
   - url: http://jumpto.cc/web-letter
     type: link
     text: jumpto.cc/web-letter
-    description: Online Trinket, das alle 'Mystery Letter' (geheimnisvoller Brief) Projekt-Ressourcen enth‰lt
+    description: Online Trinket, das alle 'Mystery Letter' (geheimnisvoller Brief) Projekt-Ressourcen enth√§lt
   - url: http://jumpto.cc/trinket-template
     type: link
     text: jumpto.cc/trinket-template
@@ -38,7 +38,7 @@ Projekt-Ressourcen:
 Helfer-Ressourcen:
   - url: letter-volunteer-resources.zip
     type: file
-    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enth‰lt
+    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enth√§lt
   - url: https://trinket.io/html/1d4d4c5ce1
     type: link
     text: trinket.io/html/1d4d4c5ce1

@@ -1,14 +1,14 @@
 ---
-title: Magazine ñ Materials
+title: Magazine ‚Äì Materials
 layout: project-materials
 Projekt-Ressourcen:
   - url: magazine-project-resources.zip
     type: file
-    description: .zip Datei, die alle Projekt-Ressourcen enth‰lt
+    description: .zip Datei, die alle Projekt-Ressourcen enth√§lt
   - url: http://jumpto.cc/web-magazine
     type: link
     text: jumpto.cc/web-magazine
-    description: Online Trinket, das alle 'Magazine' (Zeitschrift) Projektressourcen enth‰lt
+    description: Online Trinket, das alle 'Magazine' (Zeitschrift) Projektressourcen enth√§lt
   - url: http://jumpto.cc/trinket-template
     type: link
     text: jumpto.cc/trinket-template
@@ -46,7 +46,7 @@ Projekt-Ressourcen:
 Helfer-Ressourcen:
   - url: magazine-volunteer-resources.zip
     type: file
-    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enth‰lt
+    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enth√§lt
   - url: https://trinket.io/html/a41e4e1c5c
     type: link
     text: trinket.io/html/a41e4e1c5c

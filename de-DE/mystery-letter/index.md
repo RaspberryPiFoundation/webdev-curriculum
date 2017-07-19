@@ -5,19 +5,19 @@ layout: project
 notes: "Mystery Letter - notes.md"
 ---
 
-# Einführung {.intro}
+# EinfÃ¼hrung {.intro}
 
-In diesem Projekt wirst du einen geheimnisvollen Brief produzieren, der so aussehen wird, als ob jedes einzelne Wort aus einer anderen Zeitung / Zeitschrift, bzw. aus einem Comic oder aus einer anderen Art von Broschüre ausgeschnitten worden ist. 
+In diesem Projekt wirst du einen geheimnisvollen Brief produzieren, der so aussehen wird, als ob jedes einzelne Wort aus einer anderen Zeitung / Zeitschrift, bzw. aus einem Comic oder aus einer anderen Art von BroschÃ¼re ausgeschnitten worden ist. 
 
 ![screenshot](images/letter-final.png)
 
-# Schritt 1: Wähle deine Mitteilung aus {.activity}
+# Schritt 1: WÃ¤hle deine Mitteilung aus {.activity}
 
-In Filmen und Büchern werden geheimnisvolle Briefe dazu benutzt, um geheime Mitteilungen zu verschicken. 
+In Filmen und BÃ¼chern werden geheimnisvolle Briefe dazu benutzt, um geheime Mitteilungen zu verschicken. 
 
 ## Aufgaben-Checkliste { .check}
 
-+ Denk dir eine geheimnisvolle Botschaft aus. 12 Wörter sind hierfür ungefähr die richtige Länge. Wenn dir gerade keine konkrete Botschaft einfallen sollte, kannst du dieses Beispiel hier benutzen: 'Your next clue is in the safe. The code is 65536.' (Dein nächster Hinweis liegt im Safe. Der Code ist 65536.)
++ Denk dir eine geheimnisvolle Botschaft aus. 12 WÃ¶rter sind hierfÃ¼r ungefÃ¤hr die richtige LÃ¤nge. Wenn dir gerade keine konkrete Botschaft einfallen sollte, kannst du dieses Beispiel hier benutzen: 'Your next clue is in the safe. The code is 65536.' (Dein nÃ¤chster Hinweis liegt im Safe. Der Code ist 65536.)
 
 + Mache dir entweder eine Notiz von dieser Botschaft oder lerne sie auswendig. 
 
@@ -27,25 +27,25 @@ Lass uns deine Botschaft auf der Webseite platzieren.
 
 ## Aufgaben-Checkliste { .check}
 
-+ Dieses Trinket öffnen: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>. 
++ Dieses Trinket Ã¶ffnen: <a href="http://jumpto.cc/web-letter" target="_blank">jumpto.cc/web-letter</a>. 
 
 	Das Projekt sollte so aussehen:
 
 	![screenshot](images/letter-starter.png)
 
-+ Das `<p>` “Paragraph” (Absatz) Tag wird im 'Happy Birthday' Projekt eingeführt. Das `<span>` (umspannen) Tag wird benutzt, um kleinere Textstücke in einem Absatz zusammen zu gruppieren, damit wir sie grafisch bearbeiten können, bzw. den Stil ändern können. 
++ Das `<p>` â€œParagraphâ€ (Absatz) Tag wird im 'Happy Birthday' Projekt eingefÃ¼hrt. Das `<span>` (umspannen) Tag wird benutzt, um kleinere TextstÃ¼cke in einem Absatz zusammen zu gruppieren, damit wir sie grafisch bearbeiten kÃ¶nnen, bzw. den Stil Ã¤ndern kÃ¶nnen. 
 
 ![screenshot](images/letter-placeholder.png)
 
 ## Aufgaben-Checkliste { .check}
 
-+ Ändere die Worte in deiner Botschaft, indem du ein Wort in jedes `<span>` Tag setzt. Du wirst die `<span>` Tags entweder hinzufügen oder entfernen müssen, wenn deine Botschaft unterschiedlich lang ist. 
++ Ã„ndere die Worte in deiner Botschaft, indem du ein Wort in jedes `<span>` Tag setzt. Du wirst die `<span>` Tags entweder hinzufÃ¼gen oder entfernen mÃ¼ssen, wenn deine Botschaft unterschiedlich lang ist. 
 
 ![screenshot](images/letter-message.png)
 
 ## Aufgaben-Checkliste { .check}
 
-+ Klicke auf die “Run” (laufen lassen) Taste, um dein Trinket zu testen.
++ Klicke auf die â€œRunâ€ (laufen lassen) Taste, um dein Trinket zu testen.
 
 	Wenn du dir die Worte ansiehst, kannst du sehen, dass sie grafisch so dargestellt wurden, als ob sie auf die Seite geklebt worden sind.
 
@@ -55,13 +55,13 @@ Lass uns deine Botschaft auf der Webseite platzieren.
 
 + Hast du die `class=""` (Klasse) in den `<span>` Tags bemerkt? Du kannst dies benutzen, um mehr als eine Sache auf die gleiche Art und Weise zu stylen, bzw. grafisch darzustellen. 
 
-+ Füge die `magazine1` (Zeitschrift 1) Klasse zu ein paar deiner `<span>` Tags hinzu und teste deine Webseite.
++ FÃ¼ge die `magazine1` (Zeitschrift 1) Klasse zu ein paar deiner `<span>` Tags hinzu und teste deine Webseite.
 
 ![screenshot](images/letter-magazine1.png)
 
 ## Aufgaben-Checkliste { .check}
 
-+ Du kannst mehr als eine Klasse zu einem Element hinzufügen. Du musst dazwischen nur einen Freiraum lassen. Füge die `big` (große) Klasse zu einer deiner `<span>` Tags hinzu. Teste deine Seite. 
++ Du kannst mehr als eine Klasse zu einem Element hinzufÃ¼gen. Du musst dazwischen nur einen Freiraum lassen. FÃ¼ge die `big` (groÃŸe) Klasse zu einer deiner `<span>` Tags hinzu. Teste deine Seite. 
 
 ![screenshot](images/letter-big.png)
 
@@ -71,19 +71,19 @@ Lass uns deine Botschaft auf der Webseite platzieren.
 
 Benutze die vorgegebenen Stilrichtungen, damit deine Botschaft wie ein geheimnisvoller Brief aussieht. 
 
-Füge diese Klassen zu deinen `<span>` Tags hinzu: 
+FÃ¼ge diese Klassen zu deinen `<span>` Tags hinzu: 
 
 + `newspaper` (Zeitung), `magazine1` (Zeitschrift 1), `magazine2` (Zeitschrift 2)
 
-+ `medium` (mittel), `big` (groß), `reallybig` (riesig groß)
++ `medium` (mittel), `big` (groÃŸ), `reallybig` (riesig groÃŸ)
 
 + `rotateleft` (nach links drehen), `rotateright` (nach rechts drehen)
 
-+ `skewleft` (schräg nach links kippen), `skewright` (schräg nach rechts kippen)
++ `skewleft` (schrÃ¤g nach links kippen), `skewright` (schrÃ¤g nach rechts kippen)
 
-Füge nicht mehr als eins von jeder Zeile zu einem spezifischen `<span>` Tag hinzu.
+FÃ¼ge nicht mehr als eins von jeder Zeile zu einem spezifischen `<span>` Tag hinzu.
 
-So könnte dein Brief u. U. aussehen:
+So kÃ¶nnte dein Brief u. U. aussehen:
 
 ![screenshot](images/letter-challenge1.png)
 
@@ -93,7 +93,7 @@ So könnte dein Brief u. U. aussehen:
 
 ## Aufgaben-Checkliste { .check}
 
-+ Klicke auf den __'style.css'__ Reiter. Finde den Stil für die `newspaper` (Zeitung) CSS Klasse, die du benutzt hast.
++ Klicke auf den __'style.css'__ Reiter. Finde den Stil fÃ¼r die `newspaper` (Zeitung) CSS Klasse, die du benutzt hast.
 
 ![screenshot](images/letter-newspaper.png)
 
@@ -101,21 +101,21 @@ So könnte dein Brief u. U. aussehen:
 
 + Schau dir jetzt die anderen CSS Klassen an, die du benutzt hast, um deinen geheimnisvollen Brief grafisch zu gestalten. Kannst du Folgendes finden:
 
-	+ Wie der `magazine1` (Zeitschrift 1) Stil den Text zu „durchgehend in Großbuchstaben“ ändert?.
+	+ Wie der `magazine1` (Zeitschrift 1) Stil den Text zu â€durchgehend in GroÃŸbuchstabenâ€œ Ã¤ndert?.
 
 	+ Wie der `magazine2` (Zeitschrift 2) Stil ein Bild hinter den Text legt?
 
 ![screenshot](images/letter-magazines.png)
 
-+ Was passiert, wenn du das `background-image` (Hintergrundbild) für `magazine2` (Zeitschrift 2) zu `canvas.png` (Leinwand) änderst? Wenn du das `pink-pattern.png` (rosa Muster) lieber magst, kannst du es wieder dahin zurückverwandeln. 
++ Was passiert, wenn du das `background-image` (Hintergrundbild) fÃ¼r `magazine2` (Zeitschrift 2) zu `canvas.png` (Leinwand) Ã¤nderst? Wenn du das `pink-pattern.png` (rosa Muster) lieber magst, kannst du es wieder dahin zurÃ¼ckverwandeln. 
 
-Du kannst auch die Farben in den Zeitschriftstilen ändern, wenn du magst.
+Du kannst auch die Farben in den Zeitschriftstilen Ã¤ndern, wenn du magst.
 
-+ Finde den CSS-Code, der benutzt wird, um deine Worte zu drehen und in die Schräglage (ins Kippen) zu bringen:
++ Finde den CSS-Code, der benutzt wird, um deine Worte zu drehen und in die SchrÃ¤glage (ins Kippen) zu bringen:
 
 ![screenshot](images/letter-rotate-skew.png)
 
-Probiere mal, die Zahlen zu ändern, um verschiedene Effekte herzustellen und teste dann jedes Mal deine Seite aus. 
+Probiere mal, die Zahlen zu Ã¤ndern, um verschiedene Effekte herzustellen und teste dann jedes Mal deine Seite aus. 
 
 # Schritt 5: Eine neue Klasse erzeugen  {.activity}
 
@@ -123,13 +123,13 @@ Lass uns einen Stil erzeugen, der aussieht, als ob er aus einem Comic ausgeschni
 
 ## Aufgaben-Checkliste { .check}
 
-+ Füge eine `comic` Klasse zur __style.css__ Datei hinzu. Nach `magazine2` (Zeitschrift 2) ist ein günstiger Platz. Vergiss nicht den Punkt for dem Klassennamen! 
++ FÃ¼ge eine `comic` Klasse zur __style.css__ Datei hinzu. Nach `magazine2` (Zeitschrift 2) ist ein gÃ¼nstiger Platz. Vergiss nicht den Punkt for dem Klassennamen! 
 
 ![screenshot](images/letter-comic1.png)
 
-Keine Bange, falls du eine Warnmeldung erhältst, in der steht: 'The Rule is empty' (Der Maßstab ist leer.), du wirst dies als nächstes beheben. 
+Keine Bange, falls du eine Warnmeldung erhÃ¤ltst, in der steht: 'The Rule is empty' (Der MaÃŸstab ist leer.), du wirst dies als nÃ¤chstes beheben. 
 
-+ Füge jetzt den CSS-Code zur Comic CSS Klasse hinzu. Du kannst die verschiedenen Farben benutzen, wenn du willst. Es gibt eine Liste mit jeder Menge an Farben unter <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
++ FÃ¼ge jetzt den CSS-Code zur Comic CSS Klasse hinzu. Du kannst die verschiedenen Farben benutzen, wenn du willst. Es gibt eine Liste mit jeder Menge an Farben unter <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>.
 
 ![screenshot](images/letter-comic2.png)
 
@@ -137,11 +137,11 @@ Keine Bange, falls du eine Warnmeldung erhältst, in der steht: 'The Rule is empt
 
 ![screenshot](images/letter-comic-output.png)
 
-+ Jetzt kannst du eine tolle Schriftart hinzufügen. Öffne einen neuen Browser-Reiter, bzw. Fenster. Gehe zu <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> und suche nach __'bangers'__:
++ Jetzt kannst du eine tolle Schriftart hinzufÃ¼gen. Ã–ffne einen neuen Browser-Reiter, bzw. Fenster. Gehe zu <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> und suche nach __'bangers'__:
 
 ![screenshot](images/letter-fonts1.png)
 
-+ Klicke auf den “Quick-use” (Schnellnutzung) Knopf:
++ Klicke auf den â€œQuick-useâ€ (Schnellnutzung) Knopf:
 
 ![screenshot](images/letter-fonts2.png)
 
@@ -151,17 +151,17 @@ Keine Bange, falls du eine Warnmeldung erhältst, in der steht: 'The Rule is empt
 
 und kopiere den markierten Code. 
 
-+ Füge den `<link>` Code ein, den du soeben von Google-Schriftarten in den `<head>` (Titel) deiner Webseite kopiert hast:
++ FÃ¼ge den `<link>` Code ein, den du soeben von Google-Schriftarten in den `<head>` (Titel) deiner Webseite kopiert hast:
 
 ![screenshot](images/letter-fonts-head.png)
 
-Dies ermöglicht dir, die Bangers-Schriftart auf deiner Webseite zu benutzen. 
+Dies ermÃ¶glicht dir, die Bangers-Schriftart auf deiner Webseite zu benutzen. 
 
-+ Gehe zurück zu Google-Schriftarten und Scroll-Down weiter die Seite runter, kopiere dann den Schriftfamilien-Code:
++ Gehe zurÃ¼ck zu Google-Schriftarten und Scroll-Down weiter die Seite runter, kopiere dann den Schriftfamilien-Code:
 
 ![screenshot](images/letter-fonts-bangers.png)
 
-+ Gehe jetzt zu deiner __'style.css'__ Datei in Trinket zurück und füge den Schriftfamilien-Code in deinen Comic-Stil ein:
++ Gehe jetzt zu deiner __'style.css'__ Datei in Trinket zurÃ¼ck und fÃ¼ge den Schriftfamilien-Code in deinen Comic-Stil ein:
 
 ![screenshot](images/letter-fonts-comic.png)
 
@@ -177,11 +177,11 @@ Erstelle einen altmodischen, wie vom Computer ausgedruckten Stil und wende diese
 
 ![screenshot](images/letter-fonts-printout.png)
 
-Du wirst Folgendes benötigen:
+Du wirst Folgendes benÃ¶tigen:
 
-+ Die `VT323` Schriftfamilie von <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Schau zurück zu Schritt Nr. 5, falls du eine Erinnerungshilfe benötigst, wie man Google-Schriftarten benutzt. 
++ Die `VT323` Schriftfamilie von <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Schau zurÃ¼ck zu Schritt Nr. 5, falls du eine Erinnerungshilfe benÃ¶tigst, wie man Google-Schriftarten benutzt. 
 
-+ Das `computer-printout-paper.png` (wie vom Computer ausgedruckte) Hintergrundbild. Schau zurück zu Schritt Nr. 4, falls du eine Erinnerungshilfe benötigst, wie man Hintergrundbilder benutzt. 	
++ Das `computer-printout-paper.png` (wie vom Computer ausgedruckte) Hintergrundbild. Schau zurÃ¼ck zu Schritt Nr. 4, falls du eine Erinnerungshilfe benÃ¶tigst, wie man Hintergrundbilder benutzt. 	
 
 ## Aufgabe: Erstelle deinen eigenen Stil {.challenge}
 
@@ -191,15 +191,15 @@ Hier ist ein Beispiel:
 
 ![screenshot](images/letter-fonts-challenge3.png)
 
-Du kannst die Bilder, die zur Nutzung zur Verfügung stehen, sehen, wenn du in Trinket auf den Bilder-Reiter klickst. 
-Probiere mal die Hintergrundbilder mit Hilfe eines der beigefügten Bilder einzustellen: 
+Du kannst die Bilder, die zur Nutzung zur VerfÃ¼gung stehen, sehen, wenn du in Trinket auf den Bilder-Reiter klickst. 
+Probiere mal die Hintergrundbilder mit Hilfe eines der beigefÃ¼gten Bilder einzustellen: 
 
 + `rough-paper.png` (rauhes Papier)
 
 + `canvas.png` (Leinwand)
 
-Falls du ein Trinket Konto hast, kannst du auch eigene Bilder hochladen, wie du es bereits im 'Tell a Story' (Erzähle eine Geschichte) Projekt getan hast. 
+Falls du ein Trinket Konto hast, kannst du auch eigene Bilder hochladen, wie du es bereits im 'Tell a Story' (ErzÃ¤hle eine Geschichte) Projekt getan hast. 
 
-Finde die Schriftarten, die dir gefallen unter <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> und kopiere ihren `<link>` (Link) sowie den CSS-Code in dein Trinket, um sie benutzen zu können. 
+Finde die Schriftarten, die dir gefallen unter <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> und kopiere ihren `<link>` (Link) sowie den CSS-Code in dein Trinket, um sie benutzen zu kÃ¶nnen. 
 
 ## Projekt speichern {.save}

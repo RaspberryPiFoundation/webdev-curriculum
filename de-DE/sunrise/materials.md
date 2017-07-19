@@ -4,11 +4,11 @@ layout: project-materials
 Projekt-Ressourcen:
   - url: sunrise-project-resources.zip
     type: file
-    description: .zip Datei, die alle Projekt-Ressourcen enth‰lt
+    description: .zip Datei, die alle Projekt-Ressourcen enth√§lt
   - url: http://jumpto.cc/web-sunrise
     type: link
     text: jumpto.cc/web-sunrise
-    description: Online Trinket, das alle 'Sunrise' (Sonnenaufgang) Projektressourcen enth‰lt
+    description: Online Trinket, das alle 'Sunrise' (Sonnenaufgang) Projektressourcen enth√§lt
   - url: http://jumpto.cc/trinket-template
     type: link
     text: jumpto.cc/trinket-template
@@ -44,7 +44,7 @@ Projekt-Ressourcen:
 Helfer-Ressourcen:
   - url: sunrise-volunteer-resources.zip
     type: file
-    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enth‰lt
+    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enth√§lt
   - url: https://trinket.io/html/abcc0284a3
     type: link
     text: trinket.io/html/abcc0284a3

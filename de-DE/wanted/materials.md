@@ -4,11 +4,11 @@ layout: project-materials
 Projekt-Ressourcen:
   - url: wanted-project-resources.zip
     type: file
-    description: .zip Datei, die alle Projekt-Ressourcen enth‰lt
+    description: .zip Datei, die alle Projekt-Ressourcen enth√§lt
   - url: http://jumpto.cc/web-wanted
     type: link
     text: jumpto.cc/web-wanted
-    description: Online Trinket, welches alle 'Wanted!' (Gesucht!) Projekt-Ressourcen enth‰lt
+    description: Online Trinket, welches alle 'Wanted!' (Gesucht!) Projekt-Ressourcen enth√§lt
   - url: http://jumpto.cc/trinket-template
     type: link
     text: jumpto.cc/trinket-template
@@ -30,7 +30,7 @@ Projekt-Ressourcen:
 Helfer-Ressourcen:
   - url: wanted-volunteer-resources.zip
     type: file
-    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enth‰lt
+    description: .zip Datei, die alle abgeschlossenen und fertigen Projekt-Ressourcen enth√§lt
   - url: https://trinket.io/html/ebeb56398a
     type: link
     text: trinket.io/html/ebeb56398a
