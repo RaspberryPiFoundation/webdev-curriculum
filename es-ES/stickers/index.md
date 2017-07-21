@@ -1,6 +1,6 @@
 ---
 title: ¡Pegatinas!
-description: Create fun robot stickers to decorate your web pages.  
+description: Crea pegatinas robóticas divertidas para decorar tus páginas web. 
 layout: project
 notes: "Stickers - notes.md"
 ---

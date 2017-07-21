@@ -1,6 +1,6 @@
 ---
 title: Presentación de Proyectos
-description: Create a showcase of your web projects.
+description: Crea una exhibición de tus proyectos web.
 layout: project
 notes: "Project Showcase - notes.md"
 ---
