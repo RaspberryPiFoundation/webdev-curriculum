@@ -1,6 +1,6 @@
 ---
 title: ¡Se busca!
-description: Learn how to make your own poster.
+description: Aprende a crear tu propio póster.
 layout: project
 notes: "Wanted - notes.md"
 ---

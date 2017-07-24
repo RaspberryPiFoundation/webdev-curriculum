@@ -1,6 +1,6 @@
 ---
 title: Cuenta una Historia
-description: Create a webpage to tell a story, joke or poem.
+description: Crea una página web que narre una historia, broma o poema.
 layout: project
 notes: "Tell a Story - notes.md"
 project-type: sample

@@ -1,6 +1,6 @@
 ---
 title: Feliz Cumpleaños
-description: Learn how to make a customised birthday card.
+description: Aprende a crear una tarjeta de cumpleaños personalizada.
 layout: project
 notes: "Happy Birthday - notes.md"
 project-type: sample

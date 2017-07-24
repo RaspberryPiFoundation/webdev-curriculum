@@ -1,6 +1,6 @@
 ---
 title: Revista
-description: Create a multi-page magazine website.
+description: Crea un sitio web con una revista de varias páginas.
 layout: project
 notes: "Magazine - notes.md"
 ---

@@ -1,6 +1,6 @@
 ---
 title: Carta Misteriosa
-description: Create a mystery letter with lots of different styles.
+description: Crea una carta misteriosa con muchos estilos distintos.
 layout: project
 notes: "Mystery Letter - notes.md"
 ---

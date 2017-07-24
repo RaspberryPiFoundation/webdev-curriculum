@@ -1,6 +1,6 @@
 ---
 title: Amanecer
-description: Create an animated sunrise. 
+description: Crea un amanecer animado.
 layout: project
 notes: "Sunrise - notes.md"
 ...

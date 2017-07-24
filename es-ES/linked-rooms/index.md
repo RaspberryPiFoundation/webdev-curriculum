@@ -1,6 +1,6 @@
 ---
 title: Salas Enlazadas
-description: Create a web project with several 'rooms' linked together.
+description: Crea un nuevo proyecto web con varias “habitaciones” unidas.
 layout: project
 notes: "Linked Rooms - notes.md"
 ---
