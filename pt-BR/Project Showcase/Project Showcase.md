@@ -15,9 +15,9 @@ Nesse projeto, você irá criar um mostruário de seus projetos HTML e aprender 
 
 # Passo 1: Adicionando Links a Páginas Web {.activity}
 
-Links de texto permitem que você clique em palavras para ir a uma outra página web, eles são normalmente sublinhados.
+Links de texto permitem que você clique em palavras para ir a uma outra página web, e eles são normalmente sublinhados.
 
-## Lista de verificação de atividade { .check}
+## Lista de atividades { .check}
 
 + Abra esse trinket: <a href="https://trinket.io/html/9ad31460f0">https://trinket.io/html/9ad31460f0</a>. Se você estiver lendo isso online então isso é um link, você também pode usar a versão embutida do Trinket, abaixo.
 
@@ -55,7 +55,7 @@ Links de texto permitem que você clique em palavras para ir a uma outra página
 
 	+ Clicar com o botão direito do mouse e escolher a opção Back. 
 
-## Lista de verificação de atividade { .check}
+## Lista de atividades { .check}
 
 + Agora coloque o seu link em uma sentença dentro de um parágrafo:
 
@@ -65,19 +65,19 @@ Teste a sua página web.
 
 ## Desafio: Adicionar outro link {.challenge}
 
-Adicione uma sentença com um link a um website que tenha sido útil na criação de projetos web. Por exemplo: <a href="https://trinket.io">https://trinket.io</a> ou <a href="http://colours.neilorangepeel.com">http://colours.neilorangepeel.com</a>.
+Adicione uma sentença com um link a um website que seja útil na criação de projetos web. Por exemplo: <a href="https://trinket.io">https://trinket.io</a> ou <a href="http://colours.neilorangepeel.com">http://colours.neilorangepeel.com</a>.
 
 ![screenshot](showcase-link-challenge.png)
 
-# Salve {.activity}
+# Salve o seu projeto {.save}
 
 # Passo 2: Link para um Trinket {.activity}
 
 Você pode criar um link para a página web criada com o trinket. 
 
-## Lista de verificação de atividade { .check}
+## Lista de atividades { .check}
 
-+ Você guardou um link para o seu trinket de Feliz Aniversário? Se você guardou abra o trinket em outra aba ou janela do navegador. Caso contrário abra o trinket de exemplo pronto: <a href="https://trinket.io/html/e996dc0380">https://trinket.io/html/e996dc0380</a>
++ Você guardou um link para o seu trinket de "Feliz Aniversário"? Se você guardou abra o trinket em outra aba ou janela do navegador. Caso contrário abra o trinket de exemplo pronto: <a href="https://trinket.io/html/e996dc0380">https://trinket.io/html/e996dc0380</a>
 
 + Clique no menu Share (Compartilhar) acima do seu trinket e escolha Link:
 
@@ -91,7 +91,7 @@ Se você abriu o trinket a partir da sua conta então procure pela opção Share
 
 ![screenshot](showcase-get-link.png)
 
-+ Volte para o seu trinket do Projeto Mostruário e adicione um cabeçalho `<h2>` e um link para o seu Projeto Feliz Aniversário.
++ Volte para o seu trinket do Projeto Mostruário e adicione um cabeçalho `<h2>` e um link para o seu projeto "Feliz Aniversário".
 
 ![screenshot](showcase-link-trinket.png)
 
@@ -101,13 +101,13 @@ Teste a sua página web, ela deve se parecer mais ou menos assim:
 
 Clique no link Feliz Aniverśario para testar se ele o leva ao trinket.
 
-## Salve o Seu projeto {.save}
+## Salve o seu projeto {.save}
 
-## Desafio: Crie uma Lista dos Seus Projetos {.challenge}
+## Desafio: Crie uma lista dos seus projetos {.challenge}
 
 Adicione alguns dos outros projetos HTML &amp; CSS que você tenha criado no Code Club. Use cabeçalhos `<h2>` para organizar a sua página. 
 
-Se você não tem possui os links para os projetos que você criou então você pode usar os exemplos do Code Club:
+Se você não possui os links para os projetos que você criou então você pode usar os exemplos do Code Club:
 
 + Feliz Aniversário: <a href="https://trinket.io/html/e996dc0380">https://trinket.io/html/e996dc0380</a>
 
@@ -123,15 +123,15 @@ A sua página pronta deve se parecer mais ou menos assim:
 
 ![screenshot](showcase-h2-projects.png)
 
-## Salve Seu Projeto {.save}
+## Salve o seu projeto {.save}
 
 # Passo 3: Embutindo Projetos {.activity}
 
 Assim como criar links para trinkets como páginas web nós podemos também embutí-las em uma página web.
 
-## Lista de Verificação de Atividade { .check}
+## Lista de atividades { .check}
 
-+ Você pode querer tentar trabalhar no modo Tela Cheia para que você tenha mais espaço:
++ Você pode trabalhar no modo Tela Cheia para ter mais espaço:
 
 ![screenshot](showcase-fullscreen.png)
 
@@ -143,7 +143,7 @@ Pressione Esc para sair do modo Tela Cheia.
 
 ![screenshot](showcase-embed-code.png)
 
-## Lista de Verificação de Atividade { .check}
+## Lista de atividades { .check}
 
 + Escolha 'Only show code or result (let users toggle between them)' [Mostrar apenas código ou resultado (deixar usuários alternarem entre eles)] e __copie__ o código embutido para o trinket. 
 
@@ -163,11 +163,11 @@ Pressione Esc para sair do modo Tela Cheia.
 
 ![screenshot](showcase-embed-height.png)
 
-Estabeleça a altura em __400__. Se você fez mudanças no projeto Feliz Aniversário você pode precisar escolher um valor diferente.
+Estabeleça a altura(height) em __400__. Se você fez mudanças no projeto Feliz Aniversário você pode precisar escolher um valor diferente.
 
 ![screenshot](showcase-embed-fixed.png)
 
-## Salve Seu Projeto {.save}
+## Salve o seu projeto {.save}
 
 ## Desafio: Embutir Mais Projetos {.challenge}
 
@@ -177,17 +177,17 @@ Adicione dessa mesma forma outros de seus projetos no Mostruário. Lembre-se que
 
 Vamos adicionar uma Tabela de Conteúdo para que possamos facilmente chegar a cada projeto. 
 
-## Activity Checklist { .check}
+## Lista de atividades { .check}
 
 + Assim como ser capaz de criar links para outras páginas web, nós podemos também criar links para partes de uma página se nós dermos a ela uma identificação.
 
-Adicione uma id ao cabeçalho `<h2>` para o projeto Feliz Aniversário:
+Adicione um `id` ao cabeçalho `<h2>` para o projeto Feliz Aniversário:
 
 ![screenshot](showcase-id.png)
 
 + Adicione ids para cada um de seus projetos e dê a eles nomes curtos: historia, procurado, receita e carta.
 
-+ Você pode criar um link para um elemento com um id colocando um símbolo de hash ‘#’ na frente de seu nome. Por exemplo, `#aniversario`. 
++ Você pode criar um link para um elemento com um `id` colocando um símbolo de hash ‘#’ na frente de seu nome. Por exemplo, `#aniversario`. 
 
 Crie uma lista ordenada de links para os seus projetos. (Listas ordenadas são introduzidas no projeto Receita.)
 
@@ -197,11 +197,11 @@ Crie uma lista ordenada de links para os seus projetos. (Listas ordenadas são i
 
 ![screenshot](showcase-list-output.png)
 
-## Salve Seu Projeto {.save}
+## Salve o seu projeto {.save}
 
 # Passo 4: Voltando ao Topo {.activity}
 
-## Lista de Verificação de Atividade { .check}
+## Lista de atividades { .check}
 
 + Também é útil ser capaz de navegar de volta para o topo da página. HTML tem `#top` para esse propósito. 
 
@@ -213,7 +213,7 @@ Crie uma lista ordenada de links para os seus projetos. (Listas ordenadas são i
 
 + Teste seus links clicando em Top para voltar ao topo da página. 
 
-## Salve Seu Projeto {.save}
+## Salve o seu projeto {.save}
 
 ## Desafio: Melhore Seu Mostruário {.challenge}
 
@@ -241,4 +241,4 @@ Faça uma cópia do código `<iframe>` no exemplo Embutir Scratch e mude o núme
 
 ![screenshot](scratch-iframe.png)
 
-## Salve Seu Projeto {.save}
+## Salve o seu projeto {.save}

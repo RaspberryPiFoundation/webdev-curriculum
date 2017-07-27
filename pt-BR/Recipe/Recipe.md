@@ -132,7 +132,7 @@ body {
 
 ![screenshot](recipe-blue.png)
 
-+ O seu browser conhece cores como `blue` (azul), `yellow` (amarelo) e até mesmo `lightgreen` (verde claro), mas você sabia que seu browser sabe os __nomes__ de mais de 500 cores diferentes?
++ O seu browser conhece cores como `blue` (azul), `yellow` (amarelo) e até mesmo `lightgreen` (verde claro), mas você sabia que seu browser sabe os __nomes__ de mais de 140 cores diferentes?
 
 Aqui você pode encontrar uma lista com todos os nomes de cores que você pode usar: [jumpto.cc/web-colours](http://jumpto.cc/web-colours), isto inclui nomes de cores como `tomato` (tomate), `firebrick` (tijolo de fogo) e `peachpuff` (sopro de pêssego).
 
@@ -140,7 +140,7 @@ Mude a cor de seu texto de `blue` (azul) para `tomato` (tomate).
 
 ![screenshot](recipe-tomato.png)
 
-+ O seu browser sabe o nome de 140 cores, mas ele conhecer o __valor__ de mais de 16 milhões de cores!
++ O seu browser sabe o nome exato de 140 cores e sabe o __valor__ de mais de 16 milhões de cores!
 
 
 Como você talvez saiba, todas as cores podem ser criadas a partir das cores primárias: red (vermelho), green (verde) and blue (azul). Para dizer para o browser qual cor mostrar, você pode simplesmente dizer quanto de cada cor primária ele deve usar.
@@ -179,7 +179,7 @@ Vamos acrescentar um pouco mais de HTML e CSS para melhorar sua página.
 
 ## Lista de Atividades { .check}
 
-+ Você pode acrescentar uma linha horizontal no final da sua receita, utilizando a tag <hr>.
++ Você pode acrescentar uma linha horizontal no final da sua receita, utilizando a tag `<hr>`.
 
 ![screenshot](recipe-hr.png)
 

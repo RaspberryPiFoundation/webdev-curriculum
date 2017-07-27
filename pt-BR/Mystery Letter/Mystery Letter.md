@@ -85,7 +85,7 @@ Adicione estas classes às suas tags `<span>`:
 
 + `inclinarAEsquerda`, `inclinarADireita`
 
-Não adicione mais que uma classe que esteja na linha nas quatro linhas acima a uma tag  `<span>` específica. Por exemplo, se você escolheu `rotacionarAEsquerda` para uma span, não use `rotacionarADireita` na mesma span. Não faz sentido!
+Não adicione mais que uma classe que esteja na mesma linha acima a uma tag  `<span>` específica. Por exemplo, se você escolheu `rotacionarAEsquerda` para uma span, não use `rotacionarADireita` na mesma span. Não faz sentido!
 
 Veja como sua carta pode ficar:
 
@@ -141,7 +141,7 @@ Não se preocupe se você receber uma mensagem dizendo 'The Rule is empty' (Sua 
 
 ![screenshot](letter-comic-output.png)
 
-+ Agora você pode acrescentar um fonte mais divertido. Abra uma nova janela ou tab no browser. Vá para <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> e procure por __'bangers'__:
++ Agora você pode acrescentar um fonte mais divertida. Abra uma nova janela ou tab no browser. Vá para <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> e procure por __'bangers'__:
 
 ![screenshot](letter-fonts1.png)
 
@@ -177,15 +177,15 @@ Os passos acima permitiram que você usasse a fonte Bangers na sua página.
 
 ## Desafio: Crie um estilo parecido com impressão de computador {.challenge}
 
-Crie um estilo que se pareça com impressão antiga de computadores e aplique-o à algumas das usas palavras:
+Crie um estilo que se pareça com impressão antiga de computadores e aplique-o à algumas de suas palavras:
 
 ![screenshot](letter-fonts-printout.png)
 
 Você precisará:
 
-+ da font family `VT323` que você encontra aqui <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Olhe no Passo 5 se você precisar se lembrar como utilizar Google fonts. 
++ da font family `VT323` que você encontra aqui: <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a>. Olhe no 'Passo 5' se você precisar se lembrar como utilizar Google fonts. 
 
-+ da imagem de fundo `computer-printout-paper.png`. Olhe no Passo 4 se você precisar recordar como usar imagens de fundo. 	
++ da imagem de fundo `computer-printout-paper.png`. Olhe no 'Passo 4' se você precisar recordar como usar imagens de fundo. 	
 
 ## Desafio: Crie seus próprios estilos {.challenge}
 
@@ -196,7 +196,7 @@ Aqui você tem um exemplo:
 ![screenshot](letter-fonts-challenge3.png)
 
 Você pode ver as imagens disponíveis clicando na tab Images do trinket.
-Tente modificar os planos de fundo usando alguma detas imagens disponíveis: 
+Tente modificar os planos de fundo usando alguma destas imagens disponíveis: 
 
 + `rough-paper.png`
 
@@ -204,6 +204,6 @@ Tente modificar os planos de fundo usando alguma detas imagens disponíveis:
 
 Se você tiver uma conta trinket, você pode carregar imagens suas como você fez no projeto 'Conte uma história'. 
 
-Procure fontes que te agradem em <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> e copie seus `<link>` e seus códigos CSS para seu trinket para utilizá-los. 
+Procure fontes que te agradem em <a href="http://jumpto.cc/web-fonts" target="_blank">jumpto.cc/web-fonts</a> e copie seus `<link>` e seus códigos CSS para seu trinket utilizá-los. 
 
 ## Salve seu projeto {.save}

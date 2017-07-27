@@ -9,7 +9,7 @@ stylesheet: web
 
 # Introdução { .intro}
 
-Neste projeto, você vai aprender a usar HTML e CSS para criar um website em formato de revista com várias páginas, com um layout de duas páginas. Você também vai rever várias técnicas de HTML e CSS de outros projetos. 
+Neste projeto, você vai aprender a usar HTML e CSS para criar um website em formato de revista, com um layout de duas páginas. Você também vai rever várias técnicas de HTML e CSS de outros projetos. 
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/a41e4e1c5c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -18,11 +18,11 @@ Neste projeto, você vai aprender a usar HTML e CSS para criar um website em for
 </div>
 
 
-# Etapa 1: Título e pano de fundo
+# Etapa 1: Título e plano de fundo
 
-Websites em forma de revista geralmente têm vários itens pequenos em uma página. Primeiro, você vai criar um título e um pano de fundo para a sua revista. 
+Websites em forma de revista geralmente têm vários itens pequenos em uma página. Primeiro, você vai criar um título e um plano de fundo para a sua revista. 
 
-## Lista de verificação da atividade { .check}
+## Lista de atividades { .check}
 
 + Abra este link de trinket: <a href="http://jumpto.cc/web-magazine" target="_blank">jumpto.cc/web-magazine</a>. Se você está lendo isso on-line, você também pode usar o link incorporado abaixo.
 
@@ -43,7 +43,7 @@ Websites em forma de revista geralmente têm vários itens pequenos em uma pági
 
 	![screenshot](magazine-heading-style.png)
 
-+ Agora, vamos criar um pano de fundo interessante usando um gradiente e escolher uma fonte para a revista. 
++ Agora, vamos criar um plano de fundo interessante usando um gradiente e escolher uma fonte para a revista. 
 
 	Temos aqui alguns exemplos de estilo para lembrar como criar um gradiente: 
 
@@ -55,7 +55,7 @@ Websites em forma de revista geralmente têm vários itens pequenos em uma pági
 
 Websites geralmente usam várias colunas. Vamos criar um layout de duas colunas para a sua revista. 
 
-## Lista de verificação da atividade { .check}
+## Lista de atividades { .check}
 
 + Primeiro, crie duas `div`s de coluna.
 
@@ -87,7 +87,7 @@ Websites geralmente usam várias colunas. Vamos criar um layout de duas colunas 
 
 	Isso se aplica a todas as imagens usadas em sua revista, não apenas ao gatinho.
 
-+ Agora, adicione uma classe `photo` à imagem para que você possa estilizá-la:
++ Agora, adicione uma classe `foto` à imagem para que você possa estilizá-la:
 
 	![screenshot](magazine-photo.png)
 
@@ -102,7 +102,7 @@ Websites geralmente usam várias colunas. Vamos criar um layout de duas colunas 
 
 Vamos deixar o layout um pouco mais interessante. 
 
-## Lista de verificação da atividade { .check}
+## Lista de atividades { .check}
 
 + Adicione uma `div` ao redor da sua imagem com uma classe `class` e adicione um título `h2`:
 
@@ -116,7 +116,7 @@ Vamos deixar o layout um pouco mais interessante.
 
 ## Salve seu projeto {.save}
 
-##Desafio: Adicione itens à coluna da esquerda {.challenge}
+## Desafio: Adicione itens à coluna da esquerda {.challenge}
 
 Você consegue adicionar uma lista ordenada e um adesivo gradiente com texto à coluna da esquerda? 
 
@@ -142,19 +142,19 @@ CSS:
 
 Vamos adicionar outra página ao seu website em forma de revista. 
 
-## Lista de verificação da atividade {.check}
+## Lista de atividades {.check}
 
-+ Adicione uma nova página ao seu projeto e chame-a de `page2.html`:
++ Adicione uma nova página ao seu projeto e chame-a de `pagina2.html`:
 
 ![screenshot](magazine-page2.png)
 
-+ A página 2 será parecida com a primeira página da sua revista, então você pode copiar o html de `index.html` e colar em `page2.html`.
++ A página 2 será parecida com a primeira página da sua revista, então você pode copiar o html de `index.html` e colar em `pagina2.html`.
 
 ![screenshot](magazine-page2-html.png)
 
 Observe que as duas páginas usam o mesmo arquivo `style.css`, então elas compartilham os estilos. 
 
-+ Altere o título `<h1>` da página page2: 
++ Altere o título `<h1>` da página `pagina2.html`: 
 
 ![screenshot](magazine-page2-h1.png)
 
@@ -166,14 +166,14 @@ Volte para o arquivo `index.html`. Adicione um link dentro de uma div na coluna 
 
 + Teste para verificar se você consegue clicar em seu novo link e ir para a página 2 de sua revista. 
 
-##Desafio: Adicione um link que leva de volta à primeira página {.challenge}
+## Desafio: Adicione um link que leva de volta à primeira página {.challenge}
 
 Você consegue adicionar um link à página 2 `page2.html` para levar de volta à página 1 ao ser clicado?
 
 Dica: Dê uma olhada no código HTML usado para criar um link para a página 2. 
 
 
-##Desafio: Preencha a segunda página {.challenge}
+## Desafio: Preencha a segunda página {.challenge}
 
 Temos aqui o código para os exemplos, mas você pode alterar as `div`s ou usar suas próprias ideias.  
 
@@ -181,9 +181,9 @@ Temos aqui o código para os exemplos, mas você pode alterar as `div`s ou usar 
 
 Clique no ícone das imagens para ver quais estão disponíveis para uso:
 
-![screenshot](magazine-animation-image.png)
+![screenshot](magazine-images.png) 
 
-Lembre-se de que você pode fazer o upload de suas próprias imagens. Verifique se você tem permissão para usar suas imagens. 
+Lembre-se de que você pode fazer o upload de suas próprias imagens. Verifique se você tem permissão para usar essas imagens. 
 
 ![screenshot](magazine-upload-images.png)
 
@@ -192,7 +192,7 @@ Lembre-se de que você pode fazer o upload de suas próprias imagens. Verifique 
 Vamos adicionar uma animação divertida à revista. 
 
 
-## Lista de verificação da atividade {.check}
+## Lista de atividades {.check}
 
 + Vá para `index.html` e inclua a imagem `greenrobot.png` no topo de sua página. 
 
@@ -203,7 +203,7 @@ Vamos adicionar uma animação divertida à revista.
 ![screenshot](magazine-animation-css.png)
 
 
-##Desafio: Adicione outra animação {.challenge}
+## Desafio: Adicione outra animação {.challenge}
 
 Você consegue adicionar uma animação à segunda página de sua revista? 
 
