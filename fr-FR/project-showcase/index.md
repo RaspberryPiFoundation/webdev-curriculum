@@ -1,5 +1,5 @@
 ---
-title: Projet vitrine
+title: Portfolio
 description: "Créer une vitrine virtuelle de vos projets web."
 layout: project
 notes: "Project Showcase - notes.md"
@@ -7,235 +7,234 @@ notes: "Project Showcase - notes.md"
 
 # Introduction {.activity}
 
-In this project, you will create a showcase of your HTML projects and learn about links and embedding resources.
+Dans ce projet, tu va créer un portfolio de tes projets HTML et apprendre comment faire des liens et embarquer des ressources dans tes pages web.
 
 ![screenshot](images/showcase-intro.png)
 
-# Step 1: Adding Links to Webpages {.activity}
+# Étape 1: Ajouter des liens à ta page {.activity}
 
 Text links allow you to click on words to go to another web page, they are usually underlined.
 
-## Activity Checklist { .check}
+## Liste d'activités { .check}
 
-+ Open this trinket: <a href="https://jumpto.cc/web-showcase">jumpto.cc/web-showcase</a>.
++ Ouvre ce trinket : <a href="https://trinket.io/html/9ad31460f0">https://trinket.io/html/9ad31460f0</a>. Si tu lis ceci en ligne, choisi ce lien. tu peux aussi utiliser le trinket ci-dessous.
 
-	The project should look like this:
+![screenshot](images/showcase-starter.png)
 
-	![screenshot](images/showcase-starter.png)
-
-+ HTML uses the `<a>` tag for links.
++ HTML utilise l'élément `<a>` pour les liens.
 
 ![screenshot](images/showcase-link.png)
 
-+ Find the `<a>` tag in your project.
++ Cherche l'élément `<a>` dans ton projet.
 
 ![screenshot](images/showcase-a-template.png)
 
-
-+ Add the Code Club website address <a href="https://www.codeclub.org.uk">`https://www.codeclub.org.uk`</a> and link text:
++ Ajoute l'addresse du site web de Code Club <a href="https://www.codeclub.org.uk">`https://www.codeclub.org.uk`</a> ainsi que son texte:
 
 ![screenshot](images/showcase-code-club.png)
 
-+ Click Run to test your trinket.
++ Clique Run pour tester ton trinket.
 
 ![screenshot](images/showcase-cc-output.png)
 
-+ Click on the Code Club link to test your webpage. Your trinket will now show the Code Club webpage: 	
++ Clique sur le lien Code Club pour tester ta page web. Ton trinket devrais maintenant afficher le site web de Code Club
 
 ![screenshot](images/showcase-cc-website.png)
 
-+ To get back to your page you can either:
++ Pour retourner sur ta page, tu peux:
 
-	+ Run your trinket again,
+	+ Cliquer à nouveau sur Run,
 
-	+ Tap the Backspace key on the keyboard, or
+	+ Appuyer sur la touche 'Retour' de ton clavier, ou:
 
-	+ Right-click and choose Back.
+	+ Clique-droit et choisir Retour
 
-## Activity Checklist { .check}
+## Liste d'activités { .check}
 
-+ Now put your link into a sentence inside a paragraph:
++ Maintenant mets ton lien dans une phrase à l'intérieur d'un paragraphe.
 
 ![screenshot](images/showcase-paragraph.png)
 
-Test your webpage.
+Test ta page web.
 
-## Challenge: Add another link {.challenge}
+## Défi: Ajouter un autre lien {.challenge}
 
-Add a sentence with a link to a website that has been helpful for creating web projects. For example: <a href="https://trinket.io">https://trinket.io</a> or <a href="https://trinket.io/docs/colors">https://trinket.io/docs/colors</a>.
+Ajoute une phrase avec un lien qui t'as aider pour créer tes projets web. Par exemple: <a href="https://trinket.io">https://trinket.io</a> ou <a href="http://colours.neilorangepeel.com">http://colours.neilorangepeel.com</a>.
 
 ![screenshot](images/showcase-link-challenge.png)
 
-# Save {.activity}
+# Enregistre {.activity}
 
-# Step 2: Link to A Trinket {.activity}
+# Étape 2: Lien vers un trinket {.activity}
 
-You can link to the web page for a trinket.
+Tu peux créer un lien vers un trinket.
 
-## Activity Checklist { .check}
+## Liste d'activités { .check}
 
-+ Did you keep a link to your Happy Birthday trinket? If you did then open that trinket in another browser tab or window. Otherwise open the finished example trinket: <a href="https://trinket.io/html/e996dc0380">https://trinket.io/html/e996dc0380</a>
++ As-tu gardé un lien de ton projet Joyeux Anniversaire? Si oui, ouvre le trinket dans un autre navigateur ou un autre onglet. Sinon, ouvre le trinket suivants: <a href="https://trinket.io/html/e996dc0380">https://trinket.io/html/e996dc0380</a>
 
-+ Click on the Share menu above your trinket and choose Link:
++ Clique sur le menu Partage en haut de ton trinket et choisi Lien:
 
 ![screenshot](images/showcase-share1.png)
 
-If you opened the trinket from your account then look for the Share option below your trinket instead:
+Si tu ouvres ton trinket depuis ton compte, cherches l'option 'Partage' ('Share' en anglais) en dessous de ton trinket:
 
 ![screenshot](images/showcase-share2.png)
 
-+ Choose 'Only show code or result (let users toggle between them)' and copy the link to the trinket.
++ Choisi l'option 'Only show code or result (let users toggle between them)' (Montre seulement lecode ou le résultat) et copie le lien dans ton trinket.
 
 ![screenshot](images/showcase-get-link.png)
 
++ Return sur ton trinket Portfolio et ajoute un titre `<h2>` et un lien vers ton projet Joyeux Anniversaire.
 + Go back to your Project Showcase trinket and add an `<h2>` heading and a link to your Happy Birthday Project.
 
 ![screenshot](images/showcase-link-trinket.png)
 
-Test your webpage, it should look something like this:
+Test ta page web, ça devrais ressembler a cela:
 
 ![screenshot](images/showcase-link-output.png)
 
-Click the Happy Birthday link to test that it takes you to the trinket.
+Clique sur le lien Joyeux Anniversaire pour tester qu'il te mène au trinket.
 
-## Save Your Project {.save}
+## Enregistre ton projet {.save}
 
-## Challenge: Create a List of Your Projects {.challenge}
+## Défi: Créer une liste de tes projets {.challenge}
 
-Add some of the other HTML &amp; CSS projects that you have created at Code Club. Use `<h2>` headings to organize your webpage.
+Ajoute un peu plus de code que tu as déjà crée pendant Code Club. Utilise les titres `<h2>` pour organiser ta page web.
 
-If you don't have links to the projects you created then you can use the Code Club examples:
+Si tu n'as pas de liens vers les projets que tu as crée avant, tu peux utiliser ces exemples Code Club:
 
-+ Happy Birthday: <a href="https://trinket.io/html/e996dc0380">https://trinket.io/html/e996dc0380</a>
++ Joyeux Anniversaire: <a href="https://trinket.io/html/e996dc0380">https://trinket.io/html/e996dc0380</a>
 
-+ Tell a Story: <a href="https://trinket.io/html/c8afdef912">https://trinket.io/html/c8afdef912</a>
++ Raconte une histoire: <a href="https://trinket.io/html/c8afdef912">https://trinket.io/html/c8afdef912</a>
 
 + Wanted: <a href="https://trinket.io/html/ebeb56398a">https://trinket.io/html/ebeb56398a</a>
 
-+ Recipe: <a href="https://trinket.io/html/c0fd9b40cd">https://trinket.io/html/c0fd9b40cd</a>
++ Recette de cuisine: <a href="https://trinket.io/html/c0fd9b40cd">https://trinket.io/html/c0fd9b40cd</a>
 
-+ Mystery Letter: <a href="https://trinket.io/html/1d4d4c5ce1">https://trinket.io/html/1d4d4c5ce1</a>
++ Lettre mystère: <a href="https://trinket.io/html/1d4d4c5ce1">https://trinket.io/html/1d4d4c5ce1</a>
 
-Your finished page should look something like this:
+Ta page terminé devrais ressembler à ceci:
 
 ![screenshot](images/showcase-h2-projects.png)
 
-## Save Your Project {.save}
+## Enregistre ton projet {.save}
 
-# Step 3: Embedding Projects {.activity}
+# Étape 3: Embarque encore plus de projets {.activity}
 
-As well as linking to trinkets as webpages we can also embed them in a web page.
+En plus de lié des trinkets tes pages web, tu peux aussi embarqué tes trinkets dans ta page web.
 
-## Activity Checklist { .check}
+## Liste d'activités { .check}
 
-+ You might want to try working in Fullscreen mode so you have more space:
++ Tu peux essayer de travailler en mode plein-écran comme ça tu auras plus de place:
 
 ![screenshot](images/showcase-fullscreen.png)
 
-Press Esc to exit Fullscreen mode.
+Appuye sur Esc pour quitter le mode plein-écran
 
-+ Run your trinket and click on the Happy Birthday link.
++ Lance ton trinket et clique sur le lien Joyeux Anniversaire
 
-+ Click on the trinket menu and select __embed__. If you're not in Fullscreen mode you may have to scroll. Use the scroll bar on the right or the down arrow on the keyboard.
++ Clique sur le menu trinket et choisi __embed__. Si tu n'es pas en plein-écran tu devras peut être faire défiler ta page web. Utilise la barre de défilement a droite ou la flêche du bas.
 
 ![screenshot](images/showcase-embed-code.png)
 
 ## Activity Checklist { .check}
 
-+ Choose 'Only show code or result (let users toggle between them)' and __copy__ the embed code for the trinket.
++ Choisi 'Only show code or result (let users toggle between them)' et __copie__ le code embarqué pour ce trinket.
 
 ![screenshot](images/showcase-embed.png)
 
-+ Trinket has created some HTML for you to include in your webpage. It uses an `<iframe>` tag which allows content to be embedded within a page.
++ Trinket a crée un peu de HTML pour toi pour ajouter a ta page web. En utilisant un élément `<iframe>` qui te permet d'embarquer du contenu dans ta page.
 
-+ Now paste that code under the link to the Happy Birthday trinket:
++ Maintenant colle ce code sous le lien de ton trinket Joyeux Anniversaire:
 
 ![screenshot](images/showcase-paste-embed.png)
 
-+ Run your trinket to test it and you should see your Happy Birthday project embedded in the webpage.
++ Lance ton trinket pour le tester et regarde si tu peux voir ton project Joyeux Anniversaire dans ta page web.
 
 ![screenshot](images/showcase-embed-output.png)
 
-+ You may find that the bottom of your trinket isn't displayed. You can fix that by changing the height value on the `<iframe>`.
++ Tu verras que le bas de ton trinket ne s'affiche pas. Tu peux changer cela en changeant la hauteur de l'élément `<iframe>`.
 
 ![screenshot](images/showcase-embed-height.png)
 
-Set the height to __400__. If you made changes to the Happy Birthday project you might need to choose a different value.
+Défini la hauteur a __400__. Si tu changes le projet Joyeux Anniversaire tu devras peut etre utiliser une valeur différentes.
 
 ![screenshot](images/showcase-embed-fixed.png)
 
-## Save Your Project {.save}
+## Enregistre ton projet {.save}
 
-## Challenge: Embed More Projects {.challenge}
+## Défi: Embarque encore plus de projets {.challenge}
 
-Embed more of your projects into the Showcase. Remember that you can easily find their trinket pages by clicking on the links on your webpage.
+Implémente encore plus de projets dans ton portfolio. Rappelle toi que tu peux facilement trouver leur page trinket en cliquant sur les liens sur ta page web.
 
-# Step 4: Create a Table of Contents {.activity}
+# Étape 4: Crée un sommaire {.activity}
 
-Let's add a Table of Contents so we can easily get to each project.
+Maintenant ajoutons un sommaire pour facilement trouver chaque projet.
 
-## Activity Checklist { .check}
+## Liste d'activités { .check}
 
-+ As well as being able to link to other webpages, we can link to parts of a webpage if we give them an id.
++ EN plus d'être capable de créer des liens vers d'autres page, on peux créer un lien qui mène a un endroit d'une page si on lui donne un id.
 
-Add an id to the `<h2>` heading for the Happy Birthday project:
+Ajoute un id au titre `<h2>` pour le projet Joyeux Anniversaire:
 
 ![screenshot](images/showcase-id.png)
 
-+ Add ids to each of your projects and give them short names: story, wanted, recipe and letter.
++ Ajoute un id pour chaque projets et donne leur un nom court: histoire, wanted, recette et lettre.
 
-+ You can link to an element with an id by putting a hash ‘#’ symbol in front of its name. For example, `#birthday`.
++ Tu peux crée un lien vers un élément avec un id en ajoutant un symbole dièse (hashtag) au debut de son nom, `#anniversaire`. 
 
-Create an ordered list of links to your projects. (Ordered lists are introduced in the Recipe project.)
+Créer une liste de liens vers tes projets. (Tu as appris les listes ordonnées dans le projet recette de cuisine).
 
 ![screenshot](images/showcase-list.png)
 
-+ Run your project and test it by clicking on the links to move to your projects.
++ Lance ton projet et test le en cliquant sur les liens pour faire défiller ta page vers tes projets
 
 ![screenshot](images/showcase-list-output.png)
 
-## Save Your Project {.save}
+## Enregistre ton projet {.save}
 
-# Step 5: Getting Back to the Top {.activity}
+# Étape 5: Revenir en haut {.activity}
 
-## Activity Checklist { .check}
+## Liste d'activités { .check}
 
-+ It's also useful to be able to navigate back to the top of the page. HTML has `#top` for this purpose.
++ C'est aussi pratique d'etre capable de revenir au début de ta page en un clique. HTML peux faire ca avec `#top`.
 
-+ Add a link to `#top` after each embedded project in your webpage:
++ Ajoute un lien `#top` après chqaue projet de ta page web.
 
 ![screenshot](images/showcase-top-code.png)
 
 ![screenshot](images/showcase-top-output.png)
 
-+ Test your links by clicking on Top to get back to the top of the page.
++ Test tes liens en cliquant sur ton lien Top pour revenir en haut de ta page.
 
-## Save Your Project {.save}
+## Enregistre ton projet {.save}
 
-## Challenge: Improve Your Showcase {.challenge}
+## Défi: Améliore ton portfolio {.challenge}
 
-Use the CSS you have learnt to make your page more interesting. Try changing the background color of the page or the font used for the headings.
+Utilise le CSS que tu as appris pour rendre ta page encore plus cool! Essaye de changer la couleur de fond de ta page et la police pour les titres.
 
-You can also add some information about each project and what you liked about making it.
+Tu peux aussi trouver des informations a propos de chaque projets que tu as aimé faire.
 
-## Challenge: Create a New Showcase {.challenge}
+## Défi: Crée un nouveau showcase {.challenge}
 
-Trinkets aren't the only thing you can embed in a webpage. You can embed videos, widgets (such as a weather widget) or Scratch projects.
+Trinkets n'est pas la seule chose que tu peux embarquer dans une page web. Tu peux incorporer des videos, gadgets ou des projets Scratch.
 
-Open the Embed Scratch Example trinket and Run it: <a href="https://trinket.io/html/9f7212b8fe">https://trinket.io/html/9f7212b8fe</a>
+Ouvre le Trinket Exemple Scratch et lance le: <a href="https://trinket.io/html/9f7212b8fe">https://trinket.io/html/9f7212b8fe</a>
 
-Go to the Scratch website and find a project that you like. It can be one of your own or one you've found.
+Va sur le site web de Scratch et trouve un projet que tu aimes bien. Ca peut etre un des tiens ou un que tu as trouvé.
 
-If you are logged in you can click the 'Embed' button below the project to get the HTML embed code.
+Si tu es enregistré tu peux cliquer sur le bouton 'Embed' en dessous du projet que tu as choisi pour recupérer le code HTML et l'incorporer à ton projet.
 
 ![screenshot](images/scratch-embed.png)
 
-If you are not logged in then look for the Scratch project number in its web address.
+Si tu n'es pas enregistré, cherche un numero de projet Scratch dans son addresse web.
 
 ![screenshot](images/scratch-project-number.png)
 
+Créer une copie de ton exemple Scratch `<iframe>` et change le numero pour importer le projet que tu veux ajouter à ta page.
 Make a copy of the `<iframe>` code in the Scratch Embed example and change the project number to the one for the project you want to embed:
 
 ![screenshot](images/scratch-iframe.png)
 
-## Save Your Project {.save}
+## Enregistre ton projet {.save}
