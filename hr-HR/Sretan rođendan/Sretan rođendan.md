@@ -35,7 +35,7 @@ HTML je  __HyperText Markup Language__, a njime se koristimo za izradu web stran
 	HTML koristi oznake (tags) za izradu web stranica. Vidiš li HTML u osmom redu kôda?
 
 	```
-	<p>Pozdrav. Moje ime je Ivan.</p>
+	<p>Hi. My name is Andy.</p>
 	```
 
 	`<p>` je primjer oznake, skraćeno od paragraph (odlomak). Odlomak započinje oznakom `<p>` i završava oznakom `</p>`.
@@ -43,7 +43,7 @@ HTML je  __HyperText Markup Language__, a njime se koristimo za izradu web stran
 + Možeš li uočiti neku drugu oznaku? Jedna od oznaka koju možeš uočiti je oznaka `<b>` u devetom redu. Ona znači __bold__ i koristi se za podebljavanje teksta:
 
 	```
-	<b>trčati</b>
+	<b>running</b>
 	```
 
 	Još neki:
@@ -54,10 +54,15 @@ HTML je  __HyperText Markup Language__, a njime se koristimo za izradu web stran
 
 	![screenshot](birthday-head-body.png)
 
+
 + Napravi promjenu jednog odlomka u HTML-u (lijevo). Klikni 'Run' i trebala bi se vidjeti promjena na web stranici (desno)!
 	Ako je uključena mogućnost Autorun, promjene na stranici će se prikazati odmah. 
 
 	![screenshot](birthday-edit-html.png)
+
++ Zamijeni tekst prvog odlomka Hi. My name is Andy s Pozdrav. Moje ime je Marko.
++ Zamijeni tekst drugog odlomka I like running and riding my bike s Volim trčati i voziti bicikl.
+	Slobodno ime Marko zamijeni svojim imenom. Također zamijeni trčanje i vožnju biciklom aktivnosima koje voliš.
 
 + U slučaju pogreške promjene je moguće poništiti naredbom 'Reset' do koje se dolazi pomoću gumba s izbornicima (menu). Pokušaj!
 
