@@ -31,7 +31,7 @@ Pobrinite se da svako djete ima pristup kopiji sljedećih datoteka:
 + Tell a Story/buildings.png
 + Tell a Story/sun.png
 
-Gotova verzija izazova ovoga projekta nalazi se u mapi 'Club Leader Resources' mapi koja sadrži datoteke:
+Gotova verzija izazova ovoga projekta nalazi se u mapi 'Club Leader Resources' koja sadrži datoteke:
 
 + StoryFinished.html
 + style.css

@@ -31,7 +31,7 @@ Započnimo s uređivanjem HTML sadržaja i CSS stila naše stranice.
 
 ## Zadatci { .check}
 
-+ Otvori Trinket sučelje klikom na poveznicu <a href="http://jumpto.cc/web-story" target="_blank">jumpto.cc/web-story</a>. Možeš koristiti i prozor koji se nalazi ispod ovog teksta. 
++ Otvori Trinket sučelje klikom na poveznicu <a href="http://jumpto.cc/web-story" target="_blank">jumpto.cc/web-story</a>. Čitaš li ovaj dokument online, možeš koristiti i prozor koji se nalazi ispod ovog teksta. 
 <div class="trinket">
 	<iframe src="https://trinket.io/embed/html/8083cfebb3" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 	</iframe>
