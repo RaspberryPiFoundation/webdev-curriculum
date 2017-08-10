@@ -12,7 +12,7 @@ stylesheet: web
 U ovom projektu naučit ćeš napraviti web stranicu za pričanje priče, vica ili pjesme.
 ![screenshot](story-final.png)
 
-# Korak 1: Odluči što ćeš pisati { .activity}
+# Korak 1: Odluči o čemu ćeš pisati { .activity}
 
 Prije nego što započneš s pisanjem kôda odluči o čemu ćeš pisati.
 
@@ -68,7 +68,7 @@ Dodajmo drugi dio priče.
 
 ## Zadatci { .check}
 
-+ Idi u 17. red kôda i dodaj drugi komplet oznaka `<div>` i `</div>`. To će stvoriti novi odjeljak za slijedeći dio tvoje priče.
++ Idi u 17. red kôda i dodaj novi komplet `<div>` oznaka. To će stvoriti novi odjeljak za slijedeći dio tvoje priče.
 
 	![screenshot](story-div.png)
 
