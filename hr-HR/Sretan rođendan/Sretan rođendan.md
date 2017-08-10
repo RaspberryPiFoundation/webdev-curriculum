@@ -60,8 +60,8 @@ HTML je  __HyperText Markup Language__, a njime se koristimo za izradu web stran
 
 	![screenshot](birthday-edit-html.png)
 
-+ Zamijeni tekst prvog odlomka Hi. My name is Andy s Pozdrav. Moje ime je Marko.
-+ Zamijeni tekst drugog odlomka I like running and riding my bike s Volim trčati i voziti bicikl.
++ Zamijeni tekst prvog odlomka 'Hi. My name is Andy' s 'Pozdrav. Moje ime je Marko'
++ Zamijeni tekst drugog odlomka 'I like running and riding my bike' s 'Volim trčati i voziti bicikl'.
 	Slobodno ime Marko zamijeni svojim imenom. Također zamijeni trčanje i vožnju biciklom aktivnosima koje voliš.
 
 + U slučaju pogreške promjene je moguće poništiti naredbom 'Reset' do koje se dolazi pomoću gumba s izbornicima (menu). Pokušaj!
