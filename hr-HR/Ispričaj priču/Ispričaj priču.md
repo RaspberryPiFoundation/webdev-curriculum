@@ -9,7 +9,7 @@ stylesheet: web
 
 # Uvod { .intro}
 
-U ovom projektu naučit ćeš napraviti internet stranicu za pričanje priče, vica ili pjesme.
+U ovom projektu naučit ćeš napraviti web stranicu za pričanje priče, vica ili pjesme.
 ![screenshot](story-final.png)
 
 # Korak 1: Odluči što ćeš pisati { .activity}
