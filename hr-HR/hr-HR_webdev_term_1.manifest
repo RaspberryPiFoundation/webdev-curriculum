@@ -26,14 +26,14 @@
         {
             "number": 3,
             "beta": true,
-            "filename": "Wanted/Wanted.md",
-            "note": "Wanted/Wanted - notes.md"
+            "filename": "Tražen/Tražen.md",
+            "note": "Tražen/Tražen - bilješke.md"
         },
         {
             "number": 4,
             "beta": true,
-            "filename": "Recipe/Recipe.md",
-            "note": "Recipe/Recipe - notes.md"
+            "filename": "Recept/Recept.md",
+            "note": "Recept/Recept-notes.md"
         },
         {
             "number": 5,
