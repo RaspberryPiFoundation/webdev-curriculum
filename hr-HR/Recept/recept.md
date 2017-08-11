@@ -9,13 +9,13 @@ stylesheet: web
 
 # Uvod { .intro}
 
-U ovom projektu ćemo nauciti napraviti stranicu najdražih recepata.
+U ovom projektu napravit ćemo stranicu najdražih recepata.
 
 ![screenshot](recipe-final.png)
 
 # Korak 1: Pripremi recept { .activity}
 
-Prije nego počneš kodirati morat češ odabrati jedan od svojih najdražih recepata.
+Prije nego krenemo s pisanjem kôda odaberi jedan od svojih najdražih recepata.
 
 ## Zadatci { .check}
 
@@ -24,7 +24,7 @@ Prije nego počneš kodirati morat češ odabrati jedan od svojih najdražih rec
 	+ Tvoje omiljeno jelo ili
 	+ Nešto izmišljeno!
 
-Recept koji ćemo, kao primjer, koristiti u ovom projektu je za frape od banana. Nemaš li svoj recept, slobodno koristi ovaj.
+Recept koji ćemo koristiti u ovom projektu kao primjer je recept za frape od banana. Nemaš li svoj recept, slobodno koristi ovaj.
 
 # Korak 2: Sastojci { .activity}
 
@@ -32,14 +32,14 @@ Popišimo najprije sve potrebne sastojke.
 
 ## Zadatci { .check}
 
-+ Otvori predložak na poveznici: [jumpto.cc/trinket-template](http://jumpto.cc/trinket-template). Ako čitaš ovaj dokument na internetu ožeš koristiti i prozor koji se nalazi ispod ovog teksta. 
++ Otvori predložak na poveznici: [jumpto.cc/trinket-template](http://jumpto.cc/trinket-template). Ako čitaš ovaj dokument na internetu možeš koristiti i prozor koji se nalazi ispod ovog teksta. 
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/ef4c882ae6" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-+ Za popis sastojaka korsitit ćeš __neporedanu listu__. Za definiranje neporedane liste koristi se oznaka `<ul>`. Odi u osmi red predloška i zamijeni tekst koji se nalazi unutar `<h1>` oznaka s naslovom svog odabranog recepta. Također možeš engleski tekst 'Ingredients:' zamijeniti tekstom 'Sastojci:'.
++ Za popis sastojaka korsitit ćemo __neporedanu listu__. Za definiranje neporedane liste koristi se oznaka `<ul>`. Odi u osmi red predloška i dodaj sljedeći HTML kôd. Tekst koji se nalazi unutar `<h1>` oznaka zamijeni s naslovom svog odabranog recepta. 
 
 ```
 <h1>Frape od banana</h1>
@@ -77,13 +77,13 @@ Web stranica bi trebala izgledati poput ove:
 
 # Korak 3: Priprema { .activity }
 
-Objasnimo sada način preipreme recepta:
+Objasnimo sada način pripreme recepta:
 
 ## Zadatci { .check}
 
-+ Za opis načuna pripreme recepta koristit ćeš novu listu. Ovaj puta to će biti __poredana lista__. Ona se definira oznakom `<ol>`.
++ Za opis načina pripreme recepta koristit ćeš novu listu. Ovaj puta to će biti __poredana lista__. Ona se definira oznakom `<ol>`.
 
-Poredana lista je brojčana lista koja se koristi kada je redosljed koraka bitan.
+Poredana lista je brojčana lista koja se koristi kada je redoslijed koraka bitan.
 
 Dodaj ovaj kôd ispod liste sa sastojcima. Svakako pazi da ga upišeš unutar oznake `<body>`:
 
@@ -133,7 +133,7 @@ body {
 
 ![screenshot](recipe-blue.png)
 
-+ Preglednik poznaje boje kao što su `blue`(plava), `yellow`(žuta) i čak `lightgreen`(svijetlo zelena). Je li ti poznato da preglednik ustvari prepoznaje više od 140 imena različitih boja?
++ Preglednik prepoznaje boje kao što su `blue`(plava), `yellow`(žuta) i čak `lightgreen`(svijetlo zelena). Je li ti poznato da preglednik ustvari prepoznaje više od 140 imena različitih boja?
 
 Na sljedećoj poveznici se nalazi popis boja koje se mogu koristiti: [jumpto.cc/web-colours](http://jumpto.cc/web-colours). Primjeti da ovaj popis uključuje imena kao što su `tomato`(rajčica), `firebrick`(cigla) ili `peachpuff`(breskva).
 
@@ -158,11 +158,11 @@ background: rgb(250,250,210);
 
 ![screenshot](recipe-rgb.png)
 
-+ Ako ti se više sviđa, boje možeš prikazati koristeći heksadecimalni kod (ili hex code). On funkcionira na sličan način kao rgb() kod iznad, osim što svaki hex code počinje znakom '#' i koristi heksadecimalne brojeve između '00' i 'ff' za količinu crvene, zelene i plave.
++ Ako ti se više sviđa, boje možeš prikazati koristeći heksadecimalni kod (ili hex code). On funkcionira na sličan način kao rgb() kod iznad, osim što svaki hex code počinje znakom '#' i za određivanje količine crvene, zelene i plave boje koristi heksadecimalne brojeve između '00' i 'ff'.
 
 ![screenshot](recipe-hex-img.png)
 
-Zamijeni 'rgb()' kôd CSS datoteci heksadekadskim kodom:
+Zamijeni 'rgb()' kôd u CSS datoteci heksadecimalnim kodom:
 
 ```
 background: #fafad2;
@@ -180,11 +180,11 @@ Dodajmo još malo HTML i CSS kôda i poboljšajmo web stranicu!
 
 ## Zadatci { .check}
 
-+ Oznakom '<hr>' dodaj vodoravnu liniju na kraj recepta. 
++ Oznakom `<hr>` dodaj vodoravnu liniju na kraj recepta. 
 
 ![screenshot](recipe-hr.png)
 
-Primjeti da i ova oznaka nema završnu oznaku. Jednako kao oznaka '<img>'.
+Primjeti da i ova oznaka nema završnu oznaku. Jednako kao oznaka `<img>`.
 
 + Dodana linija ne podudara se sa stilom ostatka web stranice. Popravimo to sljedećim CSS kôdom: 
 
@@ -238,7 +238,7 @@ Pitaj nekoliko prijatelja da ostave svoj osvrt i ocjenu recepta. Za prikaz osvrt
 
 ##Izazov: Više uređivanja {.challenge}
 
-Možeš li na svoju stranicu dodati sliku? Ili promjeniti font? Evo primjera kako bi tvoja web stranica mogla izgledati:
+Možeš li na svoju stranicu dodati sliku? Ili promjeniti font? Pogledaj primjer: 
 
 ![screenshot](recipe-final.png)
 
