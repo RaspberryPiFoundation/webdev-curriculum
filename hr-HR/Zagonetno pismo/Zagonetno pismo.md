@@ -9,7 +9,7 @@ stylesheet: web
 
 # Uvod {.intro}
 
-U ovom projektu kreirati ćeš zagonetno pismo koje izgleda kao da je svako slovo izrezano iz različitih novina, magazina, stripa ili nekog drugog izvora.  
+U ovom projektu napravit ćeš zagonetno pismo koje izgleda kao da je svako slovo izrezano iz različitih novina, magazina, stripa ili nekog drugog izvora.  
 
 ![screenshot](letter-final.png)
 
@@ -19,7 +19,7 @@ Zagonetna pisma koriste se u filmovima i knjigama za slanje tajnih poruka.
 
 ## Zadatci { .check}
 
-+ Razmisli o tajnoj poruci dužiine oko 12 riječi. Ako se ne možeš dosjetiti poruke, iskoristi ovu iz primjera: 'Your next clue is in the safe. The code is 65536.'
++ Razmisli o tajnoj poruci dužine 11 do 12 riječi. Ako se ne možeš dosjetiti poruke, iskoristi ovu iz primjera: 'Sljedeći trag je u sefu. Kod za otvaranje sefa je 6553.'
 
 + Zapiši ili upamti odabranu poruku.  
 
@@ -36,7 +36,7 @@ Postavimo poruku na web stranicu.
   </iframe>
 </div>
 
-+ S oznakom  za odlomak `<p>` smo se upoznali u projektu 'Sretan rođendan'. Oznaka `<span>` se koristi za grupiranje manjih dijelova teksta unutar odlomka, kako bi ih mogli različito oblikovati. 
++ S oznakom  za odlomak `<p>` smo se upoznali u projektu 'Sretan rođendan'. Oznaku `<span>` koristimo za grupiranje manjih dijelova teksta unutar odlomka, kako bi ih mogli različito oblikovati. 
 
 ![screenshot](letter-placeholder.png)
 
