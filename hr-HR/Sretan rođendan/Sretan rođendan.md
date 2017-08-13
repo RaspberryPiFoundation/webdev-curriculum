@@ -49,7 +49,7 @@ HTML je  __HyperText Markup Language__, a njime se koristimo za izradu web stran
 	Još neki:
 
 	+ `<html>` i `</html>` označavaju početak i kraj HTML dokumenta;
-	+ `<head>` i `</head>` jest dio gdje pišemo CSS (Više o tome ćemo kasnije!);
+	+ `<head>` i `</head>` jest dio u kojem pišemo CSS (Više o tome ćemo kasnije!);
 	+ `<body>` i `</body>` je mjesto za sadržaj web stranice.
 
 	![screenshot](birthday-head-body.png)
@@ -60,7 +60,7 @@ HTML je  __HyperText Markup Language__, a njime se koristimo za izradu web stran
 
 	![screenshot](birthday-edit-html.png)
 
-+ Zamijeni tekst prvog odlomka 'Hi. My name is Andy' s 'Pozdrav. Moje ime je Marko'
++ Zamijeni tekst prvog odlomka 'Hi. My name is Andy' s 'Pozdrav. Moje ime je Ivan'
 + Zamijeni tekst drugog odlomka 'I like running and riding my bike' s 'Volim trčati i voziti bicikl'.
 	Slobodno ime Marko zamijeni svojim imenom. Također zamijeni trčanje i vožnju biciklom aktivnosima koje voliš.
 
@@ -93,13 +93,13 @@ Možeš li podebljati i podvući tekst novog odlomka? Koristi `<u>` i `</u>` za 
 
 # Korak 2: Što je CSS? { .activity}
 
-CSS znači __Cascading Style Sheets__. To je jezik kojim se koristimo za dizajn i uljepšavanje web stranice. Web stranica se sa CSS dokumentom može povezati u zaglavlju `<head>` HTML dokumenta:
+CSS znači __Cascading Style Sheets__. To je jezik kojim se koristimo za dizajn i uljepšavanje web stranice. Web stranica se s CSS dokumentom može povezati u zaglavlju `<head>` HTML dokumenta:
 
 ![screenshot](birthday-css-link.png)
 
 ## Zadatci { .check}
 
-+ CSS lista svih svojstava za pojedinu oznaku. Klikni na 'style.css' karticu za pregled CSS kôda svoje stranice.
++ CSS navodi sva svojstva za pojedinu oznaku. Klikni na 'style.css' karticu za pregled CSS kôda svoje stranice.
 
 	![screenshot](birthday-css-tab.png)
 
@@ -132,7 +132,7 @@ Provjeri naučeno o HTML i CSS-u i napravi rođendansku čestitku.
 
 ## Zadatci { .check}
 
-+ Otvori dokument: <a href="http://jumpto.cc/web-card" target="_blank">jumpto.cc/web-card</a> ili koristi ugrađenu verziju ispod teksta ako radiš na internetu.
++ Otvori dokument: <a href="http://jumpto.cc/web-card" target="_blank">jumpto.cc/web-card</a> ili koristi ugrađenu verziju ispod teksta ako ovo čitaš na internetu.
 
 <div class="trinket">
 	<iframe src="https://trinket.io/embed/html/90506676c9" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -145,11 +145,11 @@ Ne brini ako ne razumiješ cijeli kôd. Ova rođendanska čestitka izgleda dosad
 
 	![screenshot](birthday-click.png)
 
-+ Idi na 13. red kôda. Baš kao u prethodnom primjeru, možeš mijenjati tekst prilagođavajući ga svojim željama.
++ Odi do 14. reda kôda. Baš kao u prethodnom primjeru, možeš mijenjati tekst prilagođavajući ga svojim željama.
 
 	![screenshot](birthday-card-html.png)
 
-+ Možeš li pronaći HTML kôd za sliku robota? (Pomoć: Nalazi se u redu 16!) Promjeni riječ `robot` u `sun`, i vidjet ćeš promjenu slike!
++ Možeš li pronaći HTML kôd za sliku robota? (Pomoć: Nalazi se u redu 17!) Promjeni riječ `robot` u `sun`, i vidjet ćeš promjenu slike!
 
 	![screenshot](birthday-card-sun.png)
 
@@ -159,11 +159,11 @@ Ne brini ako ne razumiješ cijeli kôd. Ova rođendanska čestitka izgleda dosad
 
 	![screenshot](birthday-card-outside.png)
 
-+ Možeš promjeniti i veličinu slike. Idi u 29. red i promijeni širinu i visinu vanjske slike na `200px` (`px` piksel).
++ Možeš promjeniti i veličinu slike. Idi u 24. red i promijeni širinu i visinu vanjske slike na `200px` (`px` piksel).
 
 	![screenshot](birthday-card-size.png)	
 
-+ Možeš mijenjati i font. Idi u 24. red i promjeni `font-family` u `Comic Sans MS` i veličinu fonta na `16pt`.
++ Možeš mijenjati i font. Odi u 18. red i promjeni `font-family` u `Comic Sans MS` i veličinu fonta na `16pt`.
 
 	![screenshot](birthday-card-font.png)
 
