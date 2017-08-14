@@ -26,11 +26,11 @@ Započnimo uređivanjem CSS koda za plakat.
 	</iframe>
 </div>
 
-+ Odaberi karticu "style.css". Primijeti  a već postoje neka CSS svojstva za oznaku `div` koju sadrže različiti dijelovi plakata.
++ Odaberi karticu "style.css". Primijeti  da već postoje neka CSS svojstva za oznaku `div` koju sadrže različiti dijelovi plakata.
 
 	```
 	div {
-		text-align: center;
+	    text-align: center;
 	    overflow: hidden;
 	    border: 2px solid black;
 	    width: 300px;
@@ -65,7 +65,7 @@ Započnimo uređivanjem CSS koda za plakat.
 	background: yellow;
 	```
 
-	Provjerite je li upisani kôd _jednak_ kôdu iznad. Primijeti da je pozadina dijela stranice koji se nalazi unutar oznake `<div>` sada žuta.
+	Provjeri je li upisani kôd _jednak_ kôdu iznad. Primijeti da je pozadina dijela stranice koji se nalazi unutar oznake `<div>` sada žuta.
 
 	![screenshot](wanted-background.png)
 
@@ -170,7 +170,7 @@ Poboljšajmo sada izgled `<h1>` naslova.
 
 	![screenshot](wanted-h1-margin.png)
 
-	To se događa zbog toga što oko naslova postoji margina. Margina je razmak između elemenata (u ovom slučaju naslova) i ostalih elemenata oko njega.
+	To se događa zbog toga što oko naslova postoji margina. Margina je razmak između elementa (u ovom slučaju naslova) i ostalih stvari oko njega.
 
 	Marginu smanji sljedećim kôdom:
 
@@ -187,7 +187,7 @@ Poboljšajmo sada izgled `<h1>` naslova.
 
 ##Izazov: Napravite zakon plakat! {.challenge}
 
-Dodajte više CSS kôda i uredi naslov `<h3>` i odlomke. 
+Dodaj više CSS kôda i uredi naslov `<h3>` i odlomke. 
 
 ![screenshot](wanted-final.png)
 
