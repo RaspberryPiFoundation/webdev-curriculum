@@ -58,7 +58,7 @@ Tekstualne poveznice omogućuju da posjetimo drugu web stranicu jednostavnim kli
 
 ## Zadatci { .check}
 
-+ Postavite poveznicu u rečenici unutar odlomka.
++ Postavi poveznicu u rečenici unutar odlomka.
 
 ![screenshot](showcase-paragraph.png)
 
@@ -74,7 +74,7 @@ Dodaj rečenicu s poveznicom neke web stranice korisne za izradu web projekata. 
 
 # Korak 2: Poveznica za Trinket sučelje {.activity}
 
-Možeš se povezati s web stranicom  Trinket sučelja. 
+Povežimo se s web stranicom  Trinket sučelja. 
 
 ## Zadatci { .check}
 
@@ -171,7 +171,7 @@ Postavi visinu na __400__. Ako to nije dovoljno odaberi drugu vrijednost.
 
 Ugradi u stranicu i svoje ostale projekte. Jednostavno ćeš ih pronaći preko već napravljenih poveznica. 
 
-# Korak 4: Izradi tablicu sadržaja {.activity}
+# Korak 4: Tablica sadržaja {.activity}
 
 Kako bi lakše došli do određenog projekta napravimo tablicu sadržaja.  
 
@@ -185,13 +185,13 @@ Dodaj id  `<h2>` oznaci projekta 'Sretan rođendan':
 
 + Dodaj id svakom od svojih projekata i daj im kratka imena : priča, tražen, recept i pismo. 
 
-+ S elementom koji ima id-a povezuje se znakom ‘#’ koji se stavlja ispred njegovog imena. Npr. `#rođendan`. 
++ S elementom koji ima id povezuje se znakom ‘#’ koji se stavlja ispred njegovog imena. Npr. `#rođendan`. 
 
-Kreiraj poredanu listu veza svojih projekata. (S poredanim listama upoznali smo se u projektu Recept)
+Kreiraj poredanu listu veza do svojih projekata. (S poredanim listama upoznali smo se u projektu Recept)
 
 ![screenshot](showcase-list.png)
 
-+ Pokreni projekt i testiraj ga odabiranjem poveznica svojih projekata. 
++ Pokreni projekt i testiraj ga odabiranjem poveznica projekata. 
 
 ![screenshot](showcase-list-output.png)
 
