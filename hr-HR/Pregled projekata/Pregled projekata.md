@@ -20,7 +20,7 @@ Tekstualne poveznice omogućuju da posjetimo drugu web stranicu jednostavnim kli
 
 ## Zadatci { .check}
 
-+ Otvori sučelje za izradu stranice klikom na poveznicu: <a href="https://trinket.io/html/9ad31460f0">https://trinket.io/html/9ad31460f0</a>. Čitaš li ovaj dokument online možeš koristiti i ugrađeni prozor koji se nalazi ispod ovof teksta: 
++ Otvori sučelje za izradu stranice klikom na poveznicu: <a href="https://trinket.io/html/9ad31460f0">https://trinket.io/html/9ad31460f0</a>. Čitaš li ovaj dokument online možeš koristiti i ugrađeni prozor koji se nalazi ispod ovog teksta: 
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/9ad31460f0" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
