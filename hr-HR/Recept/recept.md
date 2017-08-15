@@ -158,7 +158,7 @@ background: rgb(250,250,210);
 
 ![screenshot](recipe-rgb.png)
 
-+ Ako ti se više sviđa, boje možeš prikazati koristeći heksadecimalni kod (ili hex code). On funkcionira na sličan način kao rgb() kod iznad, osim što svaki hex code počinje znakom '#' i za određivanje količine crvene, zelene i plave boje koristi heksadecimalne brojeve između '00' i 'ff'.
++ Ako ti se više sviđa, boje možeš prikazati koristeći heksadecimalni kod (ili hex code). On funkcionira na sličan način kao rgb() kôd iznad, osim što svaki heksadecimalni kôd počinje znakom '#', a za određivanje količine crvene, zelene i plave boje koristi heksadecimalne brojeve između '00' i 'ff'.
 
 ![screenshot](recipe-hex-img.png)
 
@@ -170,7 +170,7 @@ background: #fafad2;
 
 ![screenshot](recipe-hex.png)
 
-Rezultat bi trebala biti jednaka svijetlo žuta boju kao i ranije!
+Rezultat bi trebala biti jednaka svijetlo žuta boja kao i ranije!
 
 ## Spremi promjene u projektu {.save}
 
