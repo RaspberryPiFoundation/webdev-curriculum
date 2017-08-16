@@ -1,0 +1,58 @@
+{
+    "description": false,
+    "id": "html_01",
+    "language": "hr-HR",
+    "number": 5,
+    "title": "HTML & CSS 1",
+    "category": "cat-html",
+    "projects":
+    [
+
+        {
+            "number": 1,
+            "beta": true,
+            "filename": "Sretan rođendan/Sretan rođendan.md",
+            "note": "Sretan rođendan/Sretan rođendan - bilješke.md"
+        },
+        {
+            "number": 2,
+            "beta": true,
+
+            "filename": "Ispričaj priču/Ispričaj priču.md",
+            "note": "Ispričaj priču/Ispričaj priču - bilješke.md"
+            "filename": "Tell a Story/Tell a Story.md",
+            "note": "Tell a Story/Tell a Story - notes.md"
+        },
+        {
+            "number": 3,
+            "beta": true,
+            "filename": "Tražen/Tražen.md",
+            "note": "Tražen/Tražen - bilješke.md"
+        },
+        {
+            "number": 4,
+            "beta": true,
+            "filename": "Recept/Recept.md",
+            "note": "Recept/Recept-notes.md"
+        },
+        {
+            "number": 5,
+            "beta": true,
+            "filename": "Zagonetno pismo/Zagonetno pismo.md",
+            "note": "Zagonetno pismo/Zagonetno pismo - notes.md"
+        },
+        {
+            "number": 6,
+            "beta": true,
+            "filename": "Pregled projekata/Pregled projekata.md",
+            "note": "Pregled projekata/Pregled projekata - bilješke.md"
+        }
+    ],
+
+    "extras": [
+        {
+            "name": "Introduction to HTML & CSS",
+            "note": "extras/html-css.md"
+        }
+    ]
+}
