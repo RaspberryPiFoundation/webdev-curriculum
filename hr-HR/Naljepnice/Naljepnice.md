@@ -155,7 +155,7 @@ Pogledaj primjer naljepnice sa slikom i linearnim prijelazom:
 
 ## Spremi promjene u projektu {.save}
 
-# Korak 4:Horizontalni prijelazi boja  {.activity}
+# Korak 4: Horizontalni prijelazi boja  {.activity}
 
 Prijelaz boja može biti horizontalan ili vertikalan.  
 
