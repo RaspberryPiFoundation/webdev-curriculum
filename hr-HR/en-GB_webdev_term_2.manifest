@@ -22,20 +22,20 @@
         {
             "number": 3,
             "beta": true,
-            "filename": "Sunrise/Sunrise.md",
-            "note": "Sunrise/Sunrise - notes.md"
+            "filename": "Izlazak sunca/Izlazak sunca.md",
+            "note": "Izlazak sunca/Izlazak sunca - bilješke.md"
         },
         {
             "number": 4,
             "beta": true,
-            "filename": "Linked Rooms/Linked Rooms.md",
-            "note": "Linked Rooms/Linked Rooms - notes.md"
+            "filename": "Povezane sobe/Povezane sobe.md",
+            "note": "Povezane sobe/Povezane sobe - bilješke.md"
         },
         {
             "number": 5,
             "beta": true,
-            "filename": "Magazine/Magazine.md",
-            "note": "Magazine/Magazine - notes.md"
+            "filename": "Časopis/Časopis.md",
+            "note": "Časopis/Časopis - bilješke.md"
         },
         {
             "number": 6,
