@@ -31,13 +31,13 @@
             "number": 4,
             "beta": true,
             "filename": "Recept/Recept.md",
-            "note": "Recept/Recept-notes.md"
+            "note": "Recept/Recept - bilješke.md"
         },
         {
             "number": 5,
             "beta": true,
             "filename": "Zagonetno pismo/Zagonetno pismo.md",
-            "note": "Zagonetno pismo/Zagonetno pismo - notes.md"
+            "note": "Zagonetno pismo/Zagonetno pismo - bilješke.md"
         },
         {
             "number": 6,
