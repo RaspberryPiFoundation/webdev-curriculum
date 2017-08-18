@@ -13,12 +13,5 @@
             "filename": "Napravi robota/Napravi robota.md",
             "note": "Napravi robota/Napravi robota - bilješke.md"
         }
-    ],
-
-    "extras": [
-        {
-            "name": "Introduction to HTML & CSS",
-            "note": "extras/html-css.md"
-        }
     ]
 }
