@@ -47,12 +47,5 @@
             "filename": "Pregled projekata/Pregled projekata.md",
             "note": "Pregled projekata/Pregled projekata - bilješke.md"
         }
-    ],
-
-    "extras": [
-        {
-            "name": "Introduction to HTML & CSS",
-            "note": "extras/html-css.md"
-        }
     ]
 }
