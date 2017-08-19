@@ -16,11 +16,11 @@ Za pisanje HTML-a i CSS-a online predlažemo korištenje Trinket sučelja: [trin
 
 Za pisanje kôda djeca se mogu poslužiti praznim dokumentom [(jumpto.cc/trinket-blank)](http://jumpto.cc/trinket-blank) ili  koristiti predložak ([jumpto.cc/trinket-template](http://jumpto.cc/trinket-template)).
 
-Postoji i gotov primjer rješenja izazova::
+Postoji i gotov primjer rješenja izazova:
 
 + ['Build a Robot' Finished](https://trinket.io/html/00736c0e18)
 
-#Offline izvori
+#Offline resursi
 Ovaj projekt moguće je izraditi i [offline] (https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/). Potrebne datoteke je moguće preuzeti klikom na poveznicu projekta 'Download Project Materials'. Tu se nalazi mapa 'Project Resources', koja sadrži datoteke potrebne za izradu projekta offline.
 Pobrinite se da svako djete ima pristup kopiji sljedećih datoteka:
 
@@ -36,7 +36,7 @@ Gotova verzija izazova ovoga projekta nalazi se u mapi 'Club Leader Resources' k
 + style.css
 + Lots of .png images
 
-(Svi navedene izvore moguće je preuzeti kao '.zip' datoteke.)
+(Sve navedene izvore moguće je preuzeti i kao '.zip' datoteke.)
 
 #Ciljevi učenja
 + HTML id atribut;

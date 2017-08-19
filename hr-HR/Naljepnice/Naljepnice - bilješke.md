@@ -1,5 +1,5 @@
 ---
-title: Naljepnice — Notes for Club Leaders
+title: Naljepnice — Bilješke ua volontere
 language: hr-HR
 embeds: "*.png"
 materials: [""]
