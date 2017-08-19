@@ -1,5 +1,5 @@
 ---
-title: Pixel Art
+title: Piksel crteži
 level: HTML & CSS 2
 language: hr-HR
 embeds: "*.png"

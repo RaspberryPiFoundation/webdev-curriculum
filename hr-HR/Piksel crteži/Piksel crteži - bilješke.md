@@ -1,5 +1,5 @@
 ---
-title: Pixel Art — Notes for Club Leaders
+title: Piksel crteži — bilješke za volontere
 language: hr-HR
 embeds: "*.png"
 materials: [""]
