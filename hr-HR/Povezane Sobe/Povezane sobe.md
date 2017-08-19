@@ -32,7 +32,7 @@ Web projekt može biti napravljen od više povezanih HTML datoteka.
   </iframe>
 </div>
 
-+ Projekt bi se trebao pokrenuti sam i smjestiti te u hodnik:
++ Projekt bi se trebao pokrenuti sam i smjestiti te u hodnik (hall):
 
 	![screenshot](rooms-hall-start.png)
 
