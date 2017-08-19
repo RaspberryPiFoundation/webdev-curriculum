@@ -17,7 +17,7 @@ U ovom projektu naučit ćeš kako iskoristiti CSS i napraviti animaciju izlaska
   <img src="sunrise-final.png">
 </div>
 
-# Korak 1: Stvaranje sunca { .activity}
+# Korak 1: Stvaranje Sunca { .activity}
 
 Započnimo s dodavanjem slike Sunca i postavimo ga na početno mjesto pomoću CSS-a.
 
@@ -31,7 +31,7 @@ Započnimo s dodavanjem slike Sunca i postavimo ga na početno mjesto pomoću CS
   </iframe>
 </div>
 
-+ Pogledaj `body` `index.html` datoteke i pronaći ćeše elemente`div` za more (sea) i nebo (sky).
++ Pogledaj u tijelo (`body`) `index.html` datoteke i pronaći ćeš oznake `div` za more (sea) i nebo (sky).
 
     ```
     <div id="sky">
@@ -126,8 +126,7 @@ Napravimo animaciju koja će se beskonačno ponavljati.
         100% {top:90%; left:80%; }
     }
     ```
-
-    Ovo znači da animacija započinje i završava na dnu neba, a na vrhu ostaje od 33% do 66% animacije.
+ Ovo znači da animacija započinje i završava na dnu neba, a na vrhu ostaje od 33% do 66% animacije.
 
 + Sada je potrebno dodati riječ `infinite` u animaciju `#sun` kako bi se ona ponavljala beskonačno: 
 
@@ -169,21 +168,21 @@ Animacija se ne koristi samo za kretanje. Animirajmo nebo tako da postaje tamnij
 
 ##Izazov: Poboljšaj nebo {.challenge}
 
-Možeš li promijeniti animciju neba tako da se podudara sa suncem: ostaje plavo tijekom dana i postaje tamno dok sunce zalazi. Neka se i ova animacija ponavlja beskonačno. 
+Možeš li promijeniti animaciju neba tako da se podudara sa suncem: ostaje plavo tijekom dana i postaje tamno dok sunce zalazi. Neka se i ova animacija ponavlja beskonačno. 
 
 ![screenshot](sunrise-sky-challenge.png)
 
 ##Izazov: Više animacija {.challenge}
 
 Možeš li animirati drugu sliku? Moguće je animirati poziciju, boju, oblik, veličinu, prozirnost ili bilo što drugo. 
-Pokušaj promjeniti i trajanj animacije.
+Pokušaj promjeniti i trajanje animacije.
 
 Za svaki element koji želiš animirati trebat ćeš:
 
 + Uključiti ga u HTML i pridružiti mu id.
-+ Urediti id
-+ Stvorit @keyframes pravilo
-+ Koristiti `animation:` za pokretanje animacije definirane s @keyframes 
++ Urediti id.
++ Stvoriti `@keyframes` pravilo.
++ Koristiti `animation:` za pokretanje animacije definirane s `@keyframes`. 
 
 Klikni na ikonu za umetanje slika i pogledaj koje su sve slike uključene u ovaj projekt:
 
