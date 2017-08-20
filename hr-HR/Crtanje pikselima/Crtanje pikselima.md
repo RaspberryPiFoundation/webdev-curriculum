@@ -1,5 +1,5 @@
 ---
-title: Piksel crteži
+title: Crtanje pikselima
 level: HTML & CSS 2
 language: hr-HR
 embeds: "*.png"

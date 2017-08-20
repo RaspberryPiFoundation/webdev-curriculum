@@ -1,5 +1,5 @@
 ---
-title: Piksel crteži — bilješke za volontere
+title: Crtanje pikselima — bilješke za volontere
 language: hr-HR
 embeds: "*.png"
 materials: [""]
