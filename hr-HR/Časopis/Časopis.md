@@ -181,7 +181,7 @@ Ovo je primjer kôda, ali slobodno uključi svoje ideje i promijeni `div`.
 
 Klikni na ikonu za dodavanje slika i pregledaj dostupne slike:
 
-![screenshot](magazine-image.png)
+![screenshot](magazine-images.png)
 
 Sjeti se da, ako želiš, možeš postaviti i svoje slike. Samo vodi računa o tome da imaš dozvolu za korištenje tih slika.
 
