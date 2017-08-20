@@ -32,7 +32,7 @@ Web projekt može biti napravljen od više povezanih HTML datoteka.
   </iframe>
 </div>
 
-+ Projekt bi se trebao pokrenuti sam i smjestiti te u hodnik (hall):
++ Projekt bi se trebao pokrenuti sam i smjestiti te u hodnik (Hall):
 
 	![screenshot](rooms-hall-start.png)
 
@@ -43,7 +43,7 @@ Web projekt može biti napravljen od više povezanih HTML datoteka.
 	To je druga html datoteka istog projekta. 
 
 
-+ Da bi došli do datoteke `tvroom.html` potrebno je dodati poveznicu(link) u datoteku `index.html`. 
++ Da bi s početne stranice došli do datoteke `tvroom.html` potrebno je dodati poveznicu (link) u datoteku `index.html`. 
 
 	Oznaci `<div>` s klasom `room` dodaj označeni kôd: 
 
@@ -56,43 +56,43 @@ Web projekt može biti napravljen od više povezanih HTML datoteka.
 	![screenshot](rooms-tvroom-unstyled.png)
 
 	
-##Izazov: Dodaj poveznicu {.challenge}
+##Izazov: Dodaj drugu poveznicu {.challenge}
 
-Oznakom `<a>` dodaj poveznicu na stranicu `tvroom.html` koja će te vratiti natrag nicu da biste dosli nazad do web stranice Hodnik koja se zove `index.html`. Tekst poveznice neka bude 'Hall'.
+Oznakom `<a>` dodaj poveznicu na stranicu `tvroom.html` koja će te vratiti natrag u hodnik (Hall), odnosno na stranicu `index.html`. Tekst poveznice neka bude 'Hall' (ili hodnik, želiš li koristiti nazive na hrvatskom jeziku. U tom slučaju promijeni naziv 'Hall' u 'Hodnik' na stranici index.html, te nazive 'TV Room' u 'TV soba' na obje stranice. Također možeš promijeniti tekst 'You are in the' u 'Nalaziš se u').
 
-Stranica TV Room sada treba imati poveznicu kao na slici: 
+Stranica TV Room (TV soba) sada treba imati poveznicu kao na slici: 
 
 ![screenshot](rooms-hall-link.png)
 
-Provjeri kôd. Klikom na poveznice trebaš se pomicati iz hodnika (Hall) u TV sobu (TV Room) i natrag. .
+Provjeri kôd. Klikom na poveznice trebaš se pomicati iz hodnika (Hall) u TV sobu (TV Room) i natrag.
 
 
 ## Spremi projekt {.save}
 
 # Korak 2: Dodaj drugu sobu {.activity}
 
-Dodajmo sada sobu za igru, __Games Room__. 
+Dodajmo sada __Sobu za igru__, (Games Room). 
 
 + Klikni gumb __+__ kako bi se dodala nova stranica:
 
 	![screenshot](rooms-add-page.png)
 
-	Ime stranice neka bude `gamesroom.html`:
+	Ime stranice neka bude `igra.html`:
 
   	![screenshot](rooms-games-html.png)
 
-+ HTML kôd sobe za igru (__Games Room__) je sličan kôdu stranice`tvroom.html` pa __kopiraj__ kôd sa stranice  `tvroom.html` __zalijepi__ ga u datoteku `gamesroom.html`.
++ HTML kôd sobe za igru je sličan kôdu stranice`tvroom.html` pa __kopiraj__ kôd sa stranice  `tvroom.html` __zalijepi__ ga u datoteku `igra.html`.
 	
-	Promijeni istaknute nazive tako da piše Games umjesto TV:
+	Promijeni istaknute nazive tako da piše __Soba za igru__ (Games Room, koristiš li engleske nazive)  umjesto __TV soba__ (TV Room):
 
 	![screenshot](images/rooms-games-html2.png)	
 
-+ Datoteka `gamesroom.html` sada koristi datoteku  `gamesroom.css` koja još ne postoji. 
++ Datoteka `igra.html` sada koristi datoteku  `igra.css` koja još ne postoji. 
 
-	Klikom na gumb __+__ kreiraj datoteku `gamesroom.css` . 
+	Klikom na gumb __+__ kreiraj datoteku `igra.css` . 
 
 
-+ CSS kôd za __Games Room__ je sličan kôdu iz datoteke `tvroom.css`. __Kopiraj__ kôd iz datoteke `tvroom.css` i __zalijepi__  ga u datoteku `gamesroom.css`.
++ CSS kôd za sobu za igru je sličan kôdu iz datoteke `tvroom.css`. __Kopiraj__ kôd iz datoteke `tvroom.css` i __zalijepi__  ga u datoteku `igra.css`.
 
 	![screenshot](rooms-add-games-css.png)
 
