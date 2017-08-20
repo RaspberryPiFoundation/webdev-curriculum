@@ -100,9 +100,9 @@ Dodajmo sada __Sobu za igru__, (Games Room).
 
 	![screenshot](rooms-hall-games.png)
 
-+ Provjeri rezultat klikom na poveznicu Games Room. 
++ Provjeri rezultat klikom na poveznicu Soba za igru (Games Room). 
 
-	Stranica __Games Room__ treba izgledati ovako: 
+	Stranica __Soba za igru__ treba izgledati ovako: 
 
 	![screenshot](rooms-games-before.png)
 
@@ -110,31 +110,31 @@ Dodajmo sada __Sobu za igru__, (Games Room).
 
 ## Spremi promjene u projektu {.save}
 
-##Izazov: Uredi i poveži sobu za igru (Games Room) {.challenge}
+##Izazov: Uredi i poveži Sobu za igru (Games Room) {.challenge}
 
-Uredi HTML i CSS kôd stranice __Games Room__ tako da ona izgleda ovako: 
+Uredi HTML i CSS kôd stranice __Soba za igru__ tako da ona izgleda ovako: 
 
 ![screenshot](rooms-games-challenge.png)
 
-Pomoć: Morat ćeš promijeniti boju pozadine, boju slova i boju obruba u datoteci `gamesroom.css`. Svijetlo zelena se naziva `chartreuse`.  
+Pomoć: Morat ćeš promijeniti boju pozadine, boju slova i boju obruba u datoteci `igra.css`. Svijetlo zelena se naziva `chartreuse`.  
 
-Pomoć: Morat ćeš dodati poveznicu oznakom `<a>` u datoteku `gamesroom.html` koja vodi do datoteke  `index.html`.
+Pomoć: Nemaš li poveznicu na hodnik, dodaj oznaku `<a>` u datoteku `igra.html` koja vodi do datoteke  `index.html`.
 
 ## Spremi promjene u projektu {.save}
 
 # Korak 3: Neka poveznice izgledaju kao vrata {.activity}
 
-Poveznice ne moraju biti samo tekstovi. Pomoću oznake `<div>` napravit ćemo vrata na koja je moguće kliknuti .
+Poveznice ne moraju biti samo tekstovi. Pomoću oznake `<div>` napravit ćemo vrata na koja je moguće kliknuti.
 
 ## Zadatci { .check}
 
-+ Otvori datoteku `index.html` i oko teksta za povezivanje __TV Room__ dodaj oznaku `<div>`. Da bi se na nju moglo kliknuti mora biti unutar oznake `<a>`.
++ Otvori datoteku `index.html` i oko teksta za povezivanje __TV soba__ (TV Room) dodaj oznaku `<div>`. Da bi se na nju moglo kliknuti mora biti unutar oznake `<a>`.
 
-  Dodaj `id="hall2tv"` kako bi ga mogao posebno urediti. 
+  Dodaj `id="hall2tv"` za omogućavanje dodatnog uređivanja. 
 
   ![screenshot](rooms-tvroom-div.png)  
 
-+ Klikom na `style.css` kartica, idi do kraja i dodaj sljedeći CSS kôd kojim ćeš promijeniti boju i veličinu vrata:
++ Klikni na karticu `style.css`, idi na kraj datoteke i dodaj sljedeći CSS kôd kojim ćeš promijeniti boju i veličinu vrata:
 
 	![screenshot](rooms-door-css1.png)
 
@@ -162,13 +162,13 @@ Pretvori ostale poveznice u projektu u vrata na isti način.
 
 Za svaka vrata ćeš morati:
 
-+ Urediti poveznicu vrata da pomoću oznake `<div>` s nazivom (id) kao što je`hall2games` kako bi se naknadno mogla urediti.
++ Urediti poveznicu pomoću oznake `<div>` s nazivom (id) kao što je`hall2games` kako bi se naknadno mogla urediti.
 
 	Na primjer: 
 
-	`<a href="gamesroom.html"><div id="hall2games">Games Room</div></a>`
+	`<a href="igra.html"><div id="hall2games">Soba za igru</div></a>`
 
-+ Dodaj CSS kôd definirani id u `.css` datoteku. Za uštedu vremena slobodno koristi mogućnosti _kopiraj_ i _zaplijepi_. Slobodno svaka vrata uredi drugačije. 
++ Dodati CSS kôd definiranom id-u u `.css` datoteci. Za uštedu vremena slobodno koristi mogućnosti _kopiraj_ i _zaplijepi_. Slobodno svaka vrata uredi drugačije. 
 
 + Promijeni mjesto vrata koristeći `bottom:` i `left:` ili `right:`.
 
@@ -187,7 +187,7 @@ Uredimo hodnik tako što ćemo mu dodati sliku u pozadinu.
 
 ## Zadatci{ .check}
 
-+  Dodaj sljedeći kôd datoteku `style.css`. Njime će se dodati slika u pozadinu hodnika:
++  Dodaj sljedeći kôd u datoteku `style.css`. Njime će se dodati slika u pozadinu hodnika:
 
 	![screenshot](rooms-hall-decorated.png)	
 
@@ -196,7 +196,7 @@ Uredimo hodnik tako što ćemo mu dodati sliku u pozadinu.
 
 ## Spremi projekt {.save}
 
-##Izazov: Dodaj pozadinsku sliku u Games Room {.challenge}
+##Izazov: Dodaj pozadinsku sliku u Sobu za igru (Games Room) {.challenge}
 
 Možeš li urediti sobu za igru s pozadinskom slikom?
 
@@ -204,7 +204,7 @@ Možeš koristiti `space-invader.png`. Ona je već učitana u projekt.
 
 Trebat ćeš:
 
-+ Dodati sliku pomoću `background-image:` u stil `.room` u css datoteku za Games Room. 
++ Dodati sliku pomoću `background-image:` u stil `.room` u css datoteku za sobu za igru. 
 
 Uređena soba bi trebala izgledati ovako :
 
@@ -222,7 +222,7 @@ Za svaku sobu ćeš trebati:
 + Dodati poveznice za vrata __u__ i __iz__ nove 'sobe'
 + Za novu sobu napraviti `.css` datoteku sa stilom. 
 
-Pomoću `background-color:` možeš promijenit boju pozadine svake sobe. Klikni na ikonu za dodavanje slike i provjeri koje pozadinske slike možeš koristiti:
+Pomoću `background-color:` možeš promijeniti boju pozadine svake sobe. Klikni na ikonu za dodavanje slike i provjeri koje pozadinske slike možeš koristiti:
 
 ![screenshot](rooms-images.png)	
 
