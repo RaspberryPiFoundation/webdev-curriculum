@@ -9,7 +9,7 @@ stylesheet: web
 
 # Uvod { .intro}
 
-U ovom projektu ćeš naučiti koristiti  HTML i CSS za izradu web časopisa s više stranica s izgledom od dvije stranice. Također ćeš pregledati puno HTML i CSS stranica iz drugih projekata.
+U ovom projektu ćeš naučiti koristiti  HTML i CSS za izradu web časopisa s više stranica u dva stupca. Također ćeš ponoviti HTML i CSS iz prethodnih projekata.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/a41e4e1c5c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -20,7 +20,7 @@ U ovom projektu ćeš naučiti koristiti  HTML i CSS za izradu web časopisa s v
 
 # Korak 1: Naslov i pozadina
 
-Web-lokacije časopisa često imaju puno sitnih stavki na stranici. Zbog toga ćeš najprije napraviti naslov i pozadinu svog časopisa.
+Web stranice časopisa često imaju puno sitnih stavki na stranici. Zbog toga ćemo najprije napraviti naslov i pozadinu časopisa.
 
 ## Zadatci { .check}
 
@@ -57,13 +57,13 @@ Web stranice često upotrebljavaju više stupaca. Napravimo izgled s dva stupca 
 
 ## Zadatci { .check}
 
-+ Prvo napravi dvije `div` oznake za stupce.
++ Najprije u datoteci `index.html` napravi dvije `div` oznake za stupce.
 
-	Dodaj istaknutu HTML kôd u `index.html` datoteku:
+	Dodaj istaknuti HTML kôd u `index.html` datoteku:
 
 	![screenshot](magazine-columns.png)
 
-+ Sada oblikuj stupce tako da se jedan postavlja lijevo, a drugi desno. 
++ Sada u datoteci `style.css` oblikuj stupce tako da se jedan postavlja lijevo, a drugi desno: 
 
 	![screenshot](magazine-columns-style.png)
 
@@ -71,7 +71,7 @@ Web stranice često upotrebljavaju više stupaca. Napravimo izgled s dva stupca 
 
 	Da bismo vidjeli učinak prethodnog kôda moramo dodati nekakav sadržaj u stupce.  
 
-+ Dodajmo sliku mačića na vrh stupca 2. 
++ Dodajmo sliku mačića u stupac 2. 
 
 	![screenshot](magazine-kitten.png)
 
@@ -79,7 +79,7 @@ Web stranice često upotrebljavaju više stupaca. Napravimo izgled s dva stupca 
 
 	Ipak, malo je velika!
 
-+ Upotrijebimo 'max-width: kako bismo sliku prilagodili mjestu koje je predviđeno za nju. 
++ Upotrijebimo `max-width`: kako bismo sliku prilagodili mjestu koje je predviđeno za nju. 
 
 	Dodaj sljedeći kôd u `style.css` datoteku.
 
