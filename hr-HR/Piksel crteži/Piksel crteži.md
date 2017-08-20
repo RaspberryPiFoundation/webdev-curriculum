@@ -21,7 +21,7 @@ __Kako koristiti editor__: Klikni na boju iz palete i odaberi boju olovke. Zatim
 
 # Korak 1: Stvaranje rešetke piksela {.activity}
 
-Napravimo rešetku piksela koju ćeš upotrijebiti za stvaranje svojih crteža. CSS pruža stilove za rešetke i tablice.
+Napravimo rešetku piksela koju ćeš upotrijebiti za stvaranje svojih crteža. To ćemo postići tablicom koju ćemo oblikovati pomoću CSS-a.
 
 Tablice sadrže retke koji sadrže ćelije. Kreirat ćemo tablicu s crnom pozadinom na koju ćemo staviti bijele piksele.
 
@@ -34,11 +34,13 @@ Tablice sadrže retke koji sadrže ćelije. Kreirat ćemo tablicu s crnom pozadi
   </iframe>
 </div>
 
-+ Dodaj sljedeći html kôd u tijelo `<body>` `index.html` datoteke kako biste kreirali `<div>` kao spremnik za svoje crteže. Pridruži mu naziv (id) `art` čime omogućuješ dodatno oblikovanje:
++ U tijelo `<body>` datoteke `index.html` dodaj sljedeći kôd. 
 
 	![screenshot](pixel-art-art.png)
 
- 	Sada otvori datoteku `style.css` i dodaj oblikovanje za tablicu: 
+ 	Oznakom `<div>` stvorili smo mjesto za crtež, a dodajući joj naziv (`id="art"`) omogućili joj dodatno oblikovanje.
+	
+	Sada otvori datoteku `style.css` i dodaj oblikovanje za tablicu: 
 
 	![screenshot](pixel-art-style.png)
 
@@ -48,11 +50,11 @@ Tablice sadrže retke koji sadrže ćelije. Kreirat ćemo tablicu s crnom pozadi
 	
 	
 
- + Vrati se u datoteku `index.html` i dodajte red s 3 piksela u oznaku `<div>` s nazivom 'art' :
+ + Vrati se u datoteku `index.html` i dodaj red s 3 piksela u oznaku `<div>` naziva (id) `art`:
 
 	![screenshot](pixel-art-row.png)
 
- 	Primijeti da su tri linije s klasom "pixel" jednake. Upiši prvu, a zatim ju kopiraj i zalijepi još dvije.
+ 	Primijeti da su tri linije s klasom "pixel" jednake. Upiši prvu, a zatim ju __kopiraj__ i __zalijepi__ još dvije.
 	
 	Ovaj puta upotrebljavamo klase za oblikovanje oznake `<div>` jer će ih biti puno:
 
@@ -62,7 +64,7 @@ Tablice sadrže retke koji sadrže ćelije. Kreirat ćemo tablicu s crnom pozadi
 
  	Sada su pikseli smješteni u mreži sa crnim linijama oko njih.
 
- + Dodaj još dva retka piksela kako bi se stvorila rešetku 3 x 3. Ne zaboravi koristiti mogućnosti kopiraj i zalijepi i time uštedjeti vrijeme.
+ + Dodaj još dva retka piksela kako bi se stvorila rešetka 3 x 3. Ne zaboravi koristiti mogućnosti __kopiraj__ i __zalijepi__ i time uštedjeti vrijeme.
 
 	![screenshot](pixel-art-grid-3.png)
 	
@@ -94,11 +96,10 @@ Za postavljanje pozadine pojedinačnih piksela moguće je koristiti HTML i CSS, 
 
 	![screenshot](pixel-art-set-pixel-colour.png)
 
-	Primijetite da `backgroundColor` koristi američki način unosa boja.
-
+	
 + Sada je potrebno pozvati funkciju kada se klikne na piksel.
 
-	HTML koristi `onclick` za pozivanje funkcije kada je element kliknut. Morat ćete proći u ovom obliku kao unos, tako da vaša funkcija zna koja piksela mijenja boju.
+	HTML koristi `onclick` za pozivanje funkcije kada je element kliknut. 
 
 	Otvori datoteku `index.html` i dodaj sljedeći kôd prvom pikselu:
 
@@ -108,7 +109,7 @@ Za postavljanje pozadine pojedinačnih piksela moguće je koristiti HTML i CSS, 
 
 	![screenshot](pixel-art-black.png)
 
-	Kako je  `onclick` dodan samo prvom pikselu, još neće funkcionirati za ostale piksele. 
+	Kako je  `onclick` dodan samo prvom pikselu, još neće funkcionirati za ostale. 
 
 ##Izazov: Neka svi pikseli reagiraju na klik mišem {.challenge}
 
@@ -170,15 +171,15 @@ Spremi promjene u projektu {.save}
 
 ## Izazov: Dodaj više boja u paletu {.challenge}
 
-Možeš li dodati više boja na paletu? Odaberi boje s kojima želiš kreirati svoje crteže.
+Možeš li dodati više boja u paletu? Odaberi boje s kojima želiš kreirati svoje crteže.
 
-Zatim izradite neki 'cool' crtež pomoću piksela.
+Zatim izradi neki _cool_ crtež pomoću piksela.
 
 Savjet: Svijetlo zelena boja zove se "chartreuse".
 
 ! [screenshot] (piksel-art-final.png)
 
-Zamoli voditelja radionice da ti dopusti da iskoristiš Alat za izrezivanje (Windows Snipping Tool) ili neki drugi program i spremi kopiju svog crteža u obliku slike.
+Zamoli voditelja radionice da ti dopusti da iskoristiš _Alat za izrezivanje_ (Windows Snipping Tool) ili neki drugi program i spremi kopiju svog crteža u obliku slike.
 
 Spremi projekt {.save}
 
