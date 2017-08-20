@@ -98,7 +98,7 @@ Web stranice često upotrebljavaju više stupaca. Napravimo izgled s dva stupca 
 	Mijenjaj oblikovanja sve dok ne dobiješ izgled koji ti se sviđa. 
 
 
-# Korak 3: Uredi stavke na časopisu.
+# Korak 3: Uredi stavke na časopisu
 
 Napravimo zanimljiviji izgled.
 
@@ -138,7 +138,7 @@ CSS:
 ## Spremi promjene u projektu{.save}
 
 
-# Korak 4: Dodaj drugu stranicu.
+# Korak 4: Dodaj drugu stranicu
 
 Dodajmo drugu stranicu web časopisu. 
 
@@ -152,7 +152,7 @@ Dodajmo drugu stranicu web časopisu.
 
 ![screenshot](magazine-page2-html.png)
 
-Napominjemo da obje stranice upotrebljavaju istu CSS datoteku -  "style.css".
+Napominjemo da obje stranice upotrebljavaju istu CSS datoteku -  `style.css`.
 
 + Promjeni naslov `<h1>` na stranici 2: 
 
@@ -160,7 +160,7 @@ Napominjemo da obje stranice upotrebljavaju istu CSS datoteku -  "style.css".
 
 + Sada će nam trebati poveznice kako bi sa stranice 1 došli na stranicu 2 i vratili se natrag.  
 
-Vrati se u datoteku "index.html". Dodaj poveznicu unutar oznake `<div >` stupca 2:
+Vrati se u datoteku `index.html`. Dodaj poveznicu unutar oznake `<div >` stupca 2:
 
 ![screenshot](magazine-page2-link.png)
 
@@ -175,25 +175,25 @@ Savjet: Pogledaj HTML kôd korišten za izradu poveznice na stranicu 2.
 
 ##Izazov: Ispuni drugu stranicu {.challenge}
 
-Ovo je primjer kôda, ali slobodno uključi svoje ideje i promijeni "div".
+Ovo je primjer kôda, ali slobodno uključi svoje ideje i promijeni `div`.
 
 ![screenshot](magazine-page2-challenge.png)
 
-Klikni na ikonu za dodavanje slika i progledaj dostupne slike:
+Klikni na ikonu za dodavanje slika i pregledaj dostupne slike:
 
-![screenshot](magazine-animation-image.png)
+![screenshot](magazine-image.png)
 
-Sjeti se da ako želiš možeš postaviti i svoje slike. Samo vodi računa o tome da imaš dozvolu za korištenje tih slika.
+Sjeti se da, ako želiš, možeš postaviti i svoje slike. Samo vodi računa o tome da imaš dozvolu za korištenje tih slika.
 
 ![screenshot](magazine-upload-images.png)
 
 # Korak 5: Dodaj animaciju
 
-Dodajte zabavnu animaciju u svoj časopis.
+Dodajmo u časopis zabavnu animaciju.
 
-## zadatci {.check}
+## Zadatci {.check}
 
-+ Odi u datoteku "index.html" i na vrh stranice dodaj sliku "greenrobot.png". 
++ Otvori datoteku `index.html` i na vrh stranice dodaj sliku `greenrobot.png`. 
 
 ![screenshot](magazine-animation-image.png)
 
