@@ -1,29 +1,29 @@
 ---
 title: Construire un Robot
-description: "Apprendre Ã  positionner des images pour faire votre robot."
+description: Apprenez à positionner des images pour fabriquer votre propre robot.
 layout: project
 notes: "Build a Robot - notes.md"
 ---
 
 # Introduction { .intro}
 
-In this project, youâ€™ll learn how to position images to create your own robot!
+Dans ce projet, vous apprendrez à positionner des images pour créer votre propre robot !
 
 ![screenshot](images/robot-final.png)
 
-# Step 1: Giving your robot eyes { .activity}
+# Étape 1 : Donner des yeux à votre robot { .activity}
 
-Letâ€™s give your robot some eyes!
+Donnons des yeux à votre robot !
 
-## Activity Checklist { .check}
+## Liste de contrôle de l'activité { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/web-robot" target="_blank">jumpto.cc/web-robot</a>.
++ Ouvrez ce trinket : <a href="http://jumpto.cc/web-robot" target="_blank">jumpto.cc/web-robot</a>.
 
-    The project should look like this:
+    Le projet doit ressembler à ça :
 
 	![screenshot](images/robot-starter.png)
 
-+ Each image in this project has itâ€™s own name (or __id__). For example, the HTML for the face and eye images (â€˜faceâ€™, â€˜eyes1â€™ and â€˜eyes2â€™ starting on line 8 of your code) looks like this:
++ Chaque image de ce projet possède son propre nom (ou __id__). Par exemple, le lien HTML pour les images des yeux et du visage (â€˜faceâ€™, â€˜eyes1â€™ et â€˜eyes2â€™ commençant à la ligne 8 de votre code) ressemblent à ça :
 
 ```
 <img id="face" ...>
@@ -31,13 +31,13 @@ Letâ€™s give your robot some eyes!
 <img id="eyes2" ...>
 ```
 
-+ You can use an imageâ€™s id to give it itâ€™s own style, by using the `#` symbol. This allows you to style each image separately.
++ Vous pouvez utiliser l'id d'une image pour lui donne son propre style, en utilisant le symbole `#`. Cela vous permet de styliser chaque image séparément.
 
-Click on the `style.css` file. Notice how the size of the robotâ€™s face and the other images are different?
+Cliquez sur le fichier `style.css`. Vous voyez comme la taille du visage du robot et celle des autres images sont différentes ?
 
 ![screenshot](images/robot-id.png)
 
-+ Add this CSS code to style the robotâ€™s eyes:
++ Ajoutez ce code CSS pour donner un style aux yeux du robot :
 
 ```
 #eyes1 {
@@ -45,13 +45,13 @@ Click on the `style.css` file. Notice how the size of the robotâ€™s face and the
 }
 ```
 
-Notice that youâ€™re styling just the `eyes1` image, by using `#eyes1` in your CSS. If you prefer, you can use `#eyes2` or `#eyes3` instead!
+Remarquez que vous stylisez uniquement l'image `eyes1`, en utilisant `#eyes1` dans votre CSS. Si vous préférez, vous pouvez utiliser `#eyes2` ou `#eyes3` à la place !
 
 ![screenshot](images/robot-eyes-width.png)
 
-+ Notice how each image is displayed one after the other? This is called __relative__ positioning. If you want to tell the browser exactly where to place your robotâ€™s eyes, youâ€™ll need to use __absolute__ positioning instead.
++ Vous remarquez comme chaque image est affichée l'une après l'autre ? Il s'agit d'un positionnement __relatif__. Si vous voulez dire au navigateur exactement où placer les yeux de votre robot, il vous faudra utiliser un positionnement __absolu__ à la place.
 
-Add these 3 lines of code to the CSS for your `eyes1` image:
+Ajoutez ces 3 lignes de code au CSS pour votre image `eyes1` :
 
 ```
 position: absolute;
@@ -59,23 +59,23 @@ top: 200px;
 left: 100px;
 ```
 
-You should see that your robotâ€™s eyes move to the correct place on your robot.
+Vous devriez voir les yeux de votre robot se déplacer au bon endroit sur votre robot.
 
 ![screenshot](images/robot-eyes-position.png)
 
-This CSS code tells the browser how far from the top / left of the webpage to display the image.
+Ce code CSS dit au navigateur à quelle distance afficher l'image du sommet/de la gauche de la page Web.
 
 ![screenshot](images/robot-eyes-position2.png)
 
-You can use `bottom` instead of `top` to tell the browser how far from the bottom of the screen to show the image, as well as using `right` instead of `left`.
+Vous pouvez utiliser `bottom` au lieu de `top` pour dire au navigateur à quelle distance du bas de l'écran afficher l'image, et utiliser `right` au lieu de `left`.
 
-# Step 2: Giving your robot a mouth { .activity}
+# Étape 2 : Donner une bouche à votre robot { .activity}
 
-Letâ€™s give your robot a mouth!
+Donnons une bouche à votre robot !
 
-## Activity Checklist { .check}
+## Liste de contrôle de l'activité { .check}
 
-+ Add the following CSS code to style your `mouth1` image:
++ Ajoutez le code CSS suivant pour styliser votre image `mouth1` :
 
 ```
 #mouth1 {
@@ -86,26 +86,26 @@ Letâ€™s give your robot a mouth!
 }
 ```
 
-+ Your robotâ€™s mouth looks quite small, and isnâ€™t in the right place.
++ La bouche de votre robot a l'air très petite, et elle ne se trouve pas au bon endroit.
 
 ![screenshot](images/robot-mouth.png)
 
-Can you fix this, by making changes to your CSS?
+Pouvez-vous modifier cela en effectuant des changements dans votre CSS ?
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-##Challenge: Design your own robot {.challenge}
-Use what youâ€™ve learnt to finish designing your own robot. Here are some examples of how your robot might look:
+##Challenge: Concevez votre propre robot {.challenge}
+Utilisez ce que vous avez appris pour finir la conception de votre propre robot. Voici quelques exemples de ce à quoi votre robot pourrait ressembler :
 
 ![screenshot](images/robot-examples.png)
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-##Challenge: Add your own images {.challenge}
-Can you find extra images to add to your robot, and position them on your webpage? You could even replace the robot face with your own!
+##Challenge: Ajoutez vos propres images {.challenge}
+Pouvez-vous trouver des images supplémentaires à ajouter à votre robot, et les positionner sur votre page Web ? Vous pouvez même remplacer le visage de votre robot par le vôtre !
 
 ```
 <img id="face" src="myFace.png">
 ```
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save} 

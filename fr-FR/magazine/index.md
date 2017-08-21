@@ -1,13 +1,13 @@
 ---
 title: Magazine
-description: "CrÃ©er un magazine multipages en ligne." 
+description: Créer un site Web magazine à plusieurs pages. 
 layout: project
 notes: "Magazine - notes.md"
 ...
 
 # Introduction { .intro}
 
-In this project, you'll learn how to use HTML and CSS to create a multi-page magazine website with a two page layout. You'll also revisit lots of HTML and CSS techiques from other projects.
+Dans ce projet, vous apprendrez à utiliser le HTML et CSS pour créer une site Web magazine à plusieurs pages avec un agencement à deux colonnes. Vous réviserez égament beaucoup de techniques HTML et CSS d'autres projets. 
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/a41e4e1c5c?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -16,193 +16,195 @@ In this project, you'll learn how to use HTML and CSS to create a multi-page mag
 </div>
 
 
-# Step 1: Heading and Background
+# Étape 1 : En-tête et arrière-plan
 
-Magazine-style websites often have lots of small items on a page. First you're going to create a heading and background for your magazine.
+Les sites Web de style magazine ont souvent beaucoup de petits objets sur une page. Tout d'abord, vous allez créer un en-tête et un arrière-plan pour votre magazine. 
 
-## Activity Checklist { .check}
+## Liste de contrôle de l'activité { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/web-magazine" target="_blank">jumpto.cc/web-magazine</a>.
++ Ouvrez ce trinket : <a href="http://jumpto.cc/web-magazine" target="_blank">jumpto.cc/web-magazine</a>. 
 
-	The project should look like this:
+	Le projet doit ressembler à ça :
 
 	![screenshot](images/magazine-starter.png)
 
-+ Let's add a heading.
++ Ajoutons un en-tête. 
 
-	You can think of a better title for your magazine.
+	Vous pouvez trouver un meilleur titre pour votre magazine. 
 
 	![screenshot](images/magazine-heading.png)
 
-+ Can you style the heading?
++ Pouvez-vous appliquer un style à l'en-tête ?
 
-	Here's an example, but you can choose your own style:
+	Voici un exemple, mais vous pouvez choisir votre propre style :
 
 	![screenshot](images/magazine-heading-style.png)
 
-+ Now let's create an interesting background using a gradient and choose a font for the magazine.
++ Maintenant, créons un arrière-plan intéressant en utilisant un dégradé et en choisissant une police pour le magazine. 
 
-	Here's some example style as a reminder of how to create a gradient:
+	Voici quelques exemples de style pour vous rapeller comment créer un dégradé : 
 
 	![screenshot](images/magazine-background.png)
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-# Step 2: Creating Columns
+# Étape 2 : Créer des colonnes
 
-Websites often use multiple columns. Let's create a two column layout for your magazine.
+Les sites Web utilisent souvent plusieurs colonnes. Créons un agencement à deux colonnes pour votre magazine. 
 
-## Activity Checklist { .check}
+## Liste de contrôle de l'activité { .check}
 
-+ First create two column `div`s.
++ D'abord, créez deux colonnes `div`.
 
-	Add the highlighted HTML to `index.html`:
+	Ajoutez le HTML surligné à `index.html` :
 
 	![screenshot](images/magazine-columns.png)
 
-+ Now style the column divs so that one floats to the left and the other floats to the right.
++ Maintenant, stylisez les divisions de colonnes pour que l'une soit flottante vers la gauche et l'autre vers la droite. 
 
 	![screenshot](images/magazine-columns-style.png)
 
-	Each column is less than 50% so there's room for padding.
+	Chaque colonne est inférieure à 50 %, il y a donc de la marge pour un remplissage. 
 
-	You'll need to add something to a column to see the effect.
+	Vous devez ajouter quelque chose à une colonne pour voir l'effet. 
 
-+ Let's add a kitten picture to the top of column 2.
++ Ajoutons une image de chaton au sommet de la colonne 2. 
 
 	![screenshot](images/magazine-kitten.png)
 
-	Notice that the kitten image is positioned about half-way across the page, in the second column.
+	Remarquez sur l'image de chaton est positionnée sur à peu près la moitié de la page, dans la seconde colonne. 
 
-	It's a bit big though!
+	C'est un peu gros !
 
-+ Let's use `max-width: ` to make images fit within their container.
++ Utilisons `max-width: ` pour que les images s'adaptent à leur conteneur. 
 
-	Add the following style to `style.css`.
+	Ajoutez le style suivant à `style.css`.
 
 	![screenshot](images/magazine-img-width.png)
 
-	This will apply to all images you use in your magazine, not just the kitten.
+	Il s'appliquera à toutes les images que vous utilisez dans votre magazine, et pas seulement au chaton.
 
-+ Now add a class `photo` to the image so that you can style it:
++ Maintenant, ajoutez une classe `photo` à l'image pour que vous puissiez y appliquer un style :
 
 	![screenshot](images/magazine-photo.png)
 
-+ And style the image to add a shadow and a twist to make the photo pop out of the page:
++ Puis stylisez l'image pour y ajouter une ombre et une torsion afin que l'image sorte de la page :
 
 	![screenshot](images/magazine-photo-style.png)
 
-	Make some changes until you like the result.
+	Faites quelques changements à moins que vous n'aimiez le résultat. 
 
 
-# Step 3: Style magazine items
+# Étape 3 : Styliser les objets du magazine
 
-Let's make the layout a bit more interesting.
+Appliquons-nous à rendre l'agencement un peu plus intéressant. 
 
-## Activity Checklist { .check}
+## Liste de contrôle de l'activité { .check}
 
-+ Add a `div` around your image with a `class` and add a `h2` heading:
++ Ajoutez une balise `div` autour de votre image avec une `class` et ajoutez un en-tête `h2` :
 
 	![screenshot](images/magazine-item.png)
 
-+ Now style the item and heading.
++ Maintenant, stylisez l'objet et l'en-tête. 
 
-	Here's an example, but you can make changes:
+	Voici un exemple, mais vous pouvez faire quelque changements :
 
 	![screenshot](images/magazine-item-style.png)
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-##Challenge: Add items to the left column {.challenge}
+##Challenge: Ajouter des objets à la colonne de gauche {.challenge}
 
-Can you add a ordered list and a gradient text sticker to the left column?
+Pouvez-vous ajouter une liste ordonnée et un sticker de texte dégradé à la colonne de gauche ? 
 
-Here's an example:
+Voici un exemple :
 
 ![screenshot](images/magazine-challenge1-example.png)
 
-This is the code for the example, but you can change it or come up with your own.
+Voici le code pour l'exemple, mais vous pouvez le changer ou faire le vôtre.
 
-HTML:
+HTML :
 
 ![screenshot](images/magazine-challenge1.png)
 
-CSS:
+CSS :
 
 ![screenshot](images/magazine-challenge1-style.png)
 
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
 
-# Step 4: Add a second page
+# Étape 4 : Ajouter une seconde page
 
-Let's add another page to your magazine website.
+Ajoutons une seconde page à votre site Web magazine. 
 
-## Activity Checklist {.check}
+## Liste de contrôle de l'activité {.check}
 
-+ Add a new page to your project and name it `page2.html`:
++ Ajoutez une nouvelle page à votre projet et nommez-la `page2.html` :
 
 ![screenshot](images/magazine-page2.png)
 
-+ Page 2 will be quite similar to the first page of your magazine so you can copy the html from `index.html` and paste it into `page2.html`.
++ La Page 2 sera trés similaire à la première page de votre magazine pour que vous puissiez copier le html de `index.html` et le coller dans `page2.html`.
 
 ![screenshot](images/magazine-page2-html.png)
 
-Notice that both pages use the same `style.css` so they will share styles.
+Remarquez que les deux pages utilisent le même `style.css`. Elles partageront donc le même style. 
 
-+ Change the `<h1>` title for page2:
++ Modifiez le titre `<h1>` par page2 : 
 
 ![screenshot](images/magazine-page2-h1.png)
 
-+ Now you'll need links between your pages to you can get to page 2 and back to the front page.
++ Maintenant, il vous faudra des liens entre vos pages pour pouvoir accéder à la page 2 et revenir à la première page. 
 
-Go back to `index.html`. Add a link inside a div in column 2 in `index.html`:
+Retourner à `index.html`. Ajoutez un lien dans une div à l'intérieur de la colonne 2 dans `index.html`:
 
 ![screenshot](images/magazine-page2-link.png)
 
-+ Test that you can click on your new link and move to page 2 of your magazine.
++ Testez qu'il est possible de cliquer sur votre nouveau lien et de passer à la page 2 de votre magazine. 
 
-##Challenge: Add a link back to the first page {.challenge}
+##Challenge: Ajouter un lien de retour à la première page {.challenge}
 
-Can you add a link to `page2.html` so that you can click on it to get back to the first page?
+Pouvez-vous ajouter un lien vers la `page2.html` pour pouvoir cliquer et revenir à la première page ?
 
-Hint: Look at the HTML you used to create a link to page 2.
+Indice : Regardez le HTML que vous avez utilisé pour créer un lien vers la page 2. 
 
 ![screenshot](magazine-page1-link.png)
 
-##Challenge: Fill in your second page {.challenge}
+##Challenge: Remplir votre seconde page {.challenge}
 
-Here's the code for the examples, but you can change the `div`s or come up with your own ideas.  
+Voici le code pour les exemples, mais vous pouvez modifier les `div` ou utiliser vos propres idées.  
 
 ![screenshot](images/magazine-page2-challenge.png)
 
-Click the images icon to see the images that are available to use:
+Cliquez sur l'icône images pour voir les images qui sont disponibles à l'utilisation :
 
 ![screenshot](images/magazine-images.png)
 
-Remember that you can upload your own images to use. Make sure you have permission to use any images that you upload.
+Souvenez-vous que vous pouvez mettre en ligne vos propres images pour les utiliser. Assurez-vous d'avoir les autorisations nécessaires pour utiliser les images que vous mettez en ligne. 
 
 ![screenshot](images/magazine-upload-images.png)
 
-# Step 5: Add an animation
+# Étape 5 : Ajouter une animation
 
-Let's add a fun animation to your magazine.
+Ajoutons une animation amusante à votre magazine. 
 
 
-## Activity Checklist {.check}
+## Liste de contrôle de l'activité {.check}
 
-+ Go to `index.html` and include the `greenrobot.png` image at the top of your page.
++ Allez dans `index.html` et incluez l'image `greenrobot.png` au sommet de votre page. 
 
 ![screenshot](images/magazine-animation-image.png)
 
-+ Now add the CSS to animate your robot:
++ Maintenant, ajoutez le CSS pour animer votre robot :
 
 ![screenshot](images/magazine-animation-css.png)
 
 
-##Challenge: Add another animation {.challenge}
+##Challenge: Ajouter une autre animation {.challenge}
 
-Can you add an animation to the second page of your magazine?
+Pouvez-vous ajouter une animation à la seconde page de votre magazine ? 
 
 ![screenshot](images/magazine-animation-challenge.png)
+
+

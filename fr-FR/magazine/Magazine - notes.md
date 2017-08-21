@@ -1,24 +1,24 @@
 ---
-title: Magazine â€” Volunteer Notes
+title: Magazine â€” Notes bénévoles
 ---
 
 #Introduction:
-In this project, children will learn how to create a two-column layout. They will also recap lots of the HTML & CSS that they have learned in other projects. 
+Dans ce projet, les enfants apprendront à créer un agencement à deux colonnes. Ils auront à récapituler beaucoup d'HTML & CSS appris dans d'autres projets. 
 
-#Online Resources
+#Ressources en ligne
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
+Nous recommandons d'utiliser [trinket](https://trinket.io/) pour écrire du HTML & CSS en ligne. Ce projet contient les trinkets suivants :
 
-+ ['Magazine' starting point  -- jumpto.cc/web-magazine](http://jumpto.cc/web-magazine)
++ [Point de départ du 'Magazine'  -- jumpto.cc/web-magazine](http://jumpto.cc/web-magazine)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Des enfants peuvent aussi utiliser ce trinket vide [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) pour écrire leur propre code HTML & CSS, ou ils peuvent utiliser ce trinket modèle [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-There is also a trinket containing a sample solution to the challenges:
+Il y a aussi un trinket contenant une solution d'exemple à tous les challenges :
 
-+ ['Magazine' Finished -- trinket.io/html/a41e4e1c5c](https://trinket.io/html/a41e4e1c5c)
++ ['Magazine' terminé -- trinket.io/html/a41e4e1c5c](https://trinket.io/html/a41e4e1c5c)
 
-#Offline Resources
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+#Ressources hors ligne
+Ce projet peut être [terminé hors ligne](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) si désiré. Vous pouvez accéder aux ressources du projet en cliquant sur le lien 'Matériaux du projet' pour ce projet. Ce lien contient une section 'Ressources du projet', laquelle inclut des ressources dont les enfants auront besoin pour terminer ce projet en mode hors ligne. Assurez-vous que chaque enfant ait accès à une copie de ces ressources. Cette section inclut les fichiers suivants :
 
 + intro/index.html
 + template/template.html
@@ -28,7 +28,7 @@ This project can be [completed offline](https://www.codeclubprojects.org/en-GB/r
 + magazine/script.js
 + magazine/mutliple .png images
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+Vous pouvez aussi trouver une version terminée des challenges de ce projet dans la section 'Ressources bénévoles', qui contient :
 
 + magazine-finished/index.html
 + magazine-finished/style.css
@@ -38,17 +38,17 @@ You can also find a completed version of this project's challenges in the 'Volun
 + magazine-finished/greenrobot.png
 + magazine-finished/spacerobot.png
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Toutes les ressources ci-dessus sont aussi téléchargeables en tant que fichiers `.zip` bénévoles et projet.)
 
-#Learning Objectives
-+ This project teaches children how to create a two-column magazine style layout using `float:`. It also recaps lots of the HTML & CSS that is covered in more detail in other projects. Examples are given so children will be able to complete this project even if they have not completed some of the earlier projects. 
+#Objectifs d'apprentissage
++ Ce projet apprend aux enfants à créer un agencement de type magazine à deux colonnes en utilisant `float:`. Il reprend également beaucoup d'HTML & CSS abordé en détails dans d'autres projets. Des exemples sont donnés pour que les enfants puissent terminer ce projet même s'ils n'ont pas terminés certains projets précédents. 
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ce projet couvre des éléments des composantes suivantes de [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
++ [Conception de ressources 2D et 3D](https://www.raspberrypi.org/curriculum/design/creator).
 
 #Challenges
-+ "Add items to the left column" - placing items inside a floated element;
-+ "Add a link back to the first page" - creating links between pages in a project;
-+ "Fill in your second page" - recapping more HTML & CSS;
-+ "Add another animation" - recapping animations.
++ "Ajoutez des objets à la colonne de gauche" - placer des objets dans un élément flottant ;
++ "Ajoutez un lien de retour vers la première page" - créer des liens entre les pages d'un projet ;
++ "Remplissez votre seconde page" - récapituler plus d'HTML & CSS ;
++ "Ajouter une autre animation" - récapituler les animations.

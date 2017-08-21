@@ -1,24 +1,24 @@
 ---
-title: Pixel Art â€” Notes for Club Leaders
+title: Pixel Art â€” Notes pour les leaders du club
 ---
 
 #Introduction:
-In this project, children create a pixel art editor. They will be introduced to JavaScript to change the colour of the pixels. They will also learn how to use HTML tables to create a grid of pixels.
+Dans ce projet, les enfants créeront un éditeur de pixel art. Ils se familiariseront avec le JavaScript pour modifier la couleur des pixels. Ils apprendront aussi à utiliser les tableaux HTML pour créer une grille de pixels.
 
-#Online Resources
+#Ressources en ligne
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
+Nous recommandons d'utiliser [trinket](https://trinket.io/) pour écrire du HTML & CSS en ligne. Ce projet contient les trinkets suivants :
 
-+ ['Pixel Art' starting point](https://trinket.io/html/web-pixel)
++ [Point de départ 'Pixel Art'](https://trinket.io/html/web-pixel)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Des enfants peuvent aussi utiliser ce trinket vide [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) pour écrire leur propre code HTML & CSS, ou ils peuvent utiliser ce trinket modèle [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-There is also a trinket containing a sample solution to the challenges:
+Il y a aussi un trinket contenant une solution d'exemple à tous les challenges :
 
-+ ['Pixel Art' Finished](https://trinket.io/html/0e102a306b)
++ ['Pixel Art' terminé](https://trinket.io/html/0e102a306b)
 
-#Offline Resources
-This project can be [completed offline](../offline.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
+#Ressources hors ligne
+Ce projet peut être [terminé hors ligne](../offline.html) si désiré. Vous pouvez accéder aux ressources du projet en cliquant sur le lien 'Télécharger matériaux du projet' pour ce projet. Ce lien contient un dossier 'Ressources du projet', laquelle inclut des ressources dont les enfants auront besoin pour terminer ce projet en mode hors ligne. Assurez-vous que chaque enfant ait accès à une copie de ces ressources. Ce dossier inclut les fichiers suivants :
 
 + template/index.html
 + template/script.js
@@ -28,24 +28,24 @@ This project can be [completed offline](../offline.html) if preferred. You can a
 + pixel/script.js
 
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+Vous pouvez aussi trouver une version terminée des challenges de ce projet dans la section 'Ressources bénévoles', qui contient :
 
 + index.html
 + style.css
 + script.js
 
-#Learning Objectives
-+ Introduction to using JavaScript to create interactive web pages. 
-+ Also introduces the use of table layout. 
+#Objectifs d'apprentissage
++ Introduction à l'utilisation de JavaScript pour créer des pages Web interactives. 
++ Présente aussi l'utilisation de l'agencement de tableau. 
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ce projet couvre des éléments des composantes suivantes de [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
++ [Conception de ressources 2D et 3D](https://www.raspberrypi.org/curriculum/design/creator).
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [Combiner des structures de programmation pour résoudre un problème.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 #Challenges
-+ "Resize your grid" - adding more rows and cells to a table;
-+ "Make all pixels clickable" - add onclick code to all pixels.
-+ "Add more colours to the palette" - add more colour to the palette and have them change the pen colour when clicked. 
++ "Redimensionner votre grille" - ajouter plus de lignes et de cellules à un tableau ;
++ "Rendre tous les pixels cliquables" - ajouter un code onclick à tous les pixels.
++ "Ajouter plus de couleurs à la palette" - ajouter plus de couleurs à la palette et modifier la couleur du feutre sur un clic. 
 

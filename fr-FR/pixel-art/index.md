@@ -1,13 +1,13 @@
 ---
 title: Pixel Art
-description: "CrÃ©er un Ã©diteur Pixel Art." 
+description: Créer un éditeur de pixel art. 
 layout: project
 notes: "Pixel Art - notes.md"
 ---
 
-# Introduction {.intro}
+# Introduction { .intro}
 
-In this project, you'll create a pixel art editor. As well as using HTML and CSS you'll learn how to use JavaScript to add interactivity to your project.
+Dans ce projet, vous allez créer un éditeur de pixel art. En plus d'utiliser le HTML et le CSS, vous allez apprendre à utiliser le JavaScript pour ajouter de l'interactivité à votre projet.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/0e102a306b?outputOnly=true&start=result" width="600" height="450" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -15,163 +15,164 @@ In this project, you'll create a pixel art editor. As well as using HTML and CSS
   <img src="images/pixel-art-final.png">
 </div>
 
-__How to use the editor__: Click on a colour from the palette to choose your pen colour then click on pixels to change their colour.
+__Comment utiliser l'éditeur__: Cliquez sur une couleur de la palette pour choisir la couleur de votre feutre puis cliquez sur les pixels pour changer leur couleur.
 
-# Step 1: Creating a grid of pixels {.activity}
+# Étape 1 : Créer une grille de pixels {.activity}
 
-Let's create a grid of pixels that you can use for creating pixel art. CSS provides table styles for grid and table layouts.
+Créons une grille de pixels que vous pouvez utiliser pour créer du pixel art. Le CSS fournit des styles de tableau pour les grilles et des agencements de tableau. 
 
-Tables contain rows which contain cells. You are going to create a table with a black background and then put white pixels into it.
+Les tableaux contiennent des lignes qui contiennent des cellules. Vous allez créer un tableau avec un arrière-plan noir, puis placer des pixels blancs à l'intérieur. 
 
-## Activity Checklist { .check}
+## Liste de contrôle de l'activité { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/web-pixel" target="_blank">jumpto.cc/web-pixel</a>.
++ Ouvrez ce trinket : <a href="http://jumpto.cc/web-pixel" target="_blank">jumpto.cc/web-pixel</a>. 
 
-	The project should look like this:
+	Le projet doit ressembler à ça :
 
 	![screenshot](images/pixel-starter.png)
 
-+ Add the following html into the `<body>` of your `index.html` file to create a `<div>` as a container for your pixel art and give it an `art` id so you can style it:
++ Ajouter le html suivant dans le `<body>` de votre fichier `index.html` pour créer une `<div>` comme conteneur de votre pixel art et donnez-lui un id `art` pour pouvoir y appliquer un style :
 
 	![screenshot](images/pixel-art-art.png)
 
-+ Now go to your `style.css` file and add the table styling for the art `<div>`.
++ Maintenant, allez dans votre fichier `style.css` et ajoutez la stylisation de tableau pour l'art `<div>`.
 
 	![screenshot](images/pixel-art-style.png)
 
-	This creates a table with a border and sets the spacing inside the grid.
+	Cela crée un tableau avec une bordure et définit l'espacement à l'intérieur de la grille. 
 
-	It doesn't look very interesting yet, you need to put rows of pixels inside it.
+	Il n'a pas l'air très intéressant pour l'instant, vous devez placer des lignes de pixels à l'intérieur. 
 
- + Now go back to your `index.html` file and add a row of 3 pixels inside the art `<div>`:
+ + Maintenant, retournez à ton fichier `index.html` et ajoutez une ligne de 3 pixels à l'intérieur de l'art `<div>` :
 
 	![screenshot](images/pixel-art-row.png)
+	
+	 Remarquez que les lignes de trois pixels sont les mêmes. Saisissez la première, puis faites un copier/coller pour créer les autres. 
 
-	 Notice that the three pixel lines are the same. Type the first one and then use copy and paste to create the others.
+ 	Cette fois vous utilisez des classes pour styliser les divisions car il y en aura beaucoup. 
 
- 	This time you're using classes to style the divs as there will be lots of them.
-
- + Add the following style for the rows and cells:
+ + Ajoutez le style suivant pour les lignes et les cellules ;
 
 	![screenshot](images/pixel-art-row-style.png)
 
- 	Now your pixels will line up in a grid with black lines around them.
+ 	Maintenant, vos pixels s'aligneront dans une grille avec des lignes noires autour. 
 
- + Now add another two rows of pixels to create a 3 x 3 grid. Remember to use copy and paste to save time.
+ + Ajoutez maintenant deux autres lignes de pixels pour créer une grille 3 x 3. Souvenez-vous d'utiliser la fonction copier/coller pour gagner du temps. 
 
 	![screenshot](images/pixel-art-grid-3.png)
+	
+    
+##Challenge: Redimensionner votre grille {.challenge}
 
+3 x 3 est une grille plutôt petite pour du pixel art. Pouvez-vous la rendre plus grande ? 8 x 8 est une bonne taille pour du pixel art. 
 
-##Challenge: Resize your grid {.challenge}
-
-3x3 is quite a small grid for pixel art. Can you make the grid bigger? 8x8 is a good size for pixel art.
-
-Try using cut and paste rather than typing everything out.
+Essayez d'utiliser la fonction couper/coller plutôt que de tout saisir. 
 
 ![screenshot](images/pixel-art-grid-8.png)
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-# Step 2: Colour the pixels {.activity}
+# Étape 2 : Colorer les pixels {.activity}
 
-HTML is used to organise your content and CSS to style it. JavaScript is a programming language that can be used to change a web page as you interact with it.
+Le HTML est utilisé pour organiser votre contenu et le CSS pour le styliser. Le JavaScript est un langage de programmation qui peut être utilisé pour modifier une page Web et la façon d'interagir avec. 
 
-You could use HTML and CSS to set the background colour of individual pixels, but that would be a slow way to work! Instead you're going to add some JavaScript code to colour pixels automatically when you click on them.
+Vous pouvez utiliser le HTML et le CSS pour définir la couleur de l'arrière-plan des pixels individuels, mais ce sera très long ! Au lieu de ça, vous allez ajouter un peu de code en JavaScript pour colorer les pixels automatiquement lorsque vous cliquez dessus. 
 
-+ In JavaScript, code is placed in a `function` that can be called when we want to run that code.
++ En JavaScript, le code est placé dans une `function` qui peut être appelée quand nous souhaitons faire appel à ce code. 
 
-	You're going to create a function called `setPixelColour`
+	Vous allez créer une fonction appelée `setPixelColour`
 
-	The `setPixelColour` function needs to know which pixel to change the colour of, this is an `input`.
+	La fonction `setPixelColour` doit savoir de quel pixel il faut modifier la couleur, c'est un `input`.
 
-	Add the following code to the `script.js` file to set the background colour of a pixel:
+	Ajoutez le code suivant au fichier `script.js` pour définir la couleur d'arrière-plan d'un pixel :
 
 	![screenshot](images/pixel-art-set-pixel-colour.png)
 
-	Notice that `backgroundColor` uses the American spelling of colour.
+	Remarquez que `backgroundColor` utilise les dénominations de couleur américaines. 
 
-+ Now we need to call that function when a pixel is clicked on.
++ Nous devons maintenant faire appel à cette fonction pour qu'elle intervienne lorsqu'on clique sur un pixel.
 
-	HTML uses `onclick` to call a function when an element is clicked on. You'll need to pass in 'this' as the input so your function knows which pixel to change the colour of.
+	Le HTML utilise `onclick` pour appeler une fonction lorsqu'un élément est cliqué. Vous allez devoir faire de 'this' l'entrée pour que votre fonction sache de quel pixel il faut modifier la couleur. 
 
-	Go to `index.html` and add the following code to the first pixel:
+	Allez dans `index.html` et ajoutez le code suivant au premier pixel :
 
 	![screenshot](images/pixel-art-onclick.png)
 
-+ Test your code by clicking in the first pixel. It should turn black:
++ Testez votre code en cliquant sur le premier pixel. Il devrait devenir noir :
 
 	![screenshot](images/pixel-art-black.png)
 
-	You only added `onclick` code to the first pixel so this won't work for the other pixels yet.
+	Vous n'avez ajouté que le code `onclick` au premier pixel, donc ça ne fonctionnera pas encore pour les autres pixels. 
 
 
-##Challenge: Make all pixels clickable {.challenge}
+##Challenge: Rendre tous les pixels cliquable {.challenge}
 
-Can you make all the pixels clickable? Use cut and paste to make it quicker.
+Pouvez-vous rendre tous les pixels cliquables ? Utilisez la fonction couper/coller pour aller plus vite. 
 
-Create a quick piece of pixel art.
+Créez un petit morceau de pixel art. 
 
 ![screenshot](images/pixel-art-black-example.png)
 
-Tip: You can click __Autorun__ to clear all of the pixels.
+Astuce : Vous pouvez cliquer sur __Autorun__ pour supprimer tous les pixels. 
 
-# Step 3: Add a colour palette {.activity}
+# Étape 3 : Ajouter une palette de couleur {.activity}
 
-Did you find it annoying that you couldn't change a pixel colour back to white if you made a mistake? Let's fix that by creating a colour palette so that you can click on a colour to change the pen.
+Avez-vous trouvé ennuyeux de ne pas pouvoir modifier la couleur d'un pixel pour la rendre blanche à nouveau en cas d'erreur ? Corrigeons cela en créant une palette de couleurs, pour que vous puissiez cliquer sur une couleur et changer le feutre. 
 
-+ First create a pen style.
++ D'abord, créez un style de feutre. 
 
-	Add the following code at the bottom of your `style.css` file:
+	Ajoutez le code suivant au bas de votre fichier `style.css` :
 
 	![screenshot](images/pixel-art-pen.png)
 
-+ Now create black and white pen colours that use that style.
++ Maintenant, créez des couleurs de feutre noire et blanche qui utilisent ce style. 
 
-	Add the following code to your `index.html` after the `<body>`:
+	Ajoutez le code suivant à votre fichier `index.html` après le `<body>` :
 
 	![screenshot](images/pixel-art-palette.png)
 
-	`style=` allows you to add CSS inside your HTML which is convient here.
+	`style=` vous permet d'ajouter du CSS à l'intérieur de votre HTML, ce qui est pratique ici. 
 
-+ You want to be able to change the pen colour when a palette colour is clicked on.
++ Vous voulez pouvoir modifier la couleur du feutre lorsqu'une couleur de la palette est cliquée. 
 
-	Variables are used to store information. Let's create a penColour variable in `script.js`.
+	Des variables sont utilisées pour stocker les informations. Créons une variable penColour dans `script.js`.
 
-	Add the following code at the top of the file:
+	Ajoutez le code suivant au sommet du fichier :
 
 	![screenshot](images/pixel-art-pencolour.png)
 
-	Then add a function to change the penColour:
+	Puis ajoutez une fonction pour modifier la penColour :
 
 	![screenshot](images/pixel-art-set-pen.png)
 
-+ You'll also need use the pen colour when you change the colour of a pixel.
++ Il vous faudra aussi utiliser la couleur du feutre lorsque vous modifiez la couleur d'un pixel. 
 
-	Change the `setPixelColour` function to use the `penColour` variable instead of `black`:
+	Modifiez la fonction `setPixelColour` pour utiliser la variable `penColour` au lieu de `black` :
 
 	 ![screenshot](images/pixel-art-use-pen.png)
 
-+ Now you need to call the `setPenColour` function when a pen colour gets clicked.
++ Vous devez maintenant faire appel à la fonction `setPenColour` lorsqu'un feutre de couleur est cliqué. 
 
-	Add the highlighted `onclick` code to your pen colours:
+	Ajoutez le code `onclick` en surbrillance à vos couleurs de feutre :
 
 	![screenshot](images/pixel-art-palette-onclick.png)
 
-+ Now test that you can switch the pen colour between black and white to fill in or delete pixels.
++ Maintenant, voyez si vous pouvez faire basculer la couleur du feutre du noir au blanc pour remplir ou supprimer des pixels.
 
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-##Challenge: Add more colours to the palette {.challenge}
+##Challenge: Ajouter plus de couleurs à la palette {.challenge}
 
-Can you add more colours to the palette? Choose the colours that you want to create pixel art with.
+Pouvez-vous ajouter plus de couleurs à la palette ? Choisissez les couleurs avec lesquelles vous voulez créer un pixel art. 
 
-Then create some cool pixel art.
+Puis créez quelques pixels art.
 
-Hint: The bright green colour is called `chartreuse`.
+Indice : La couleur vert clair est appelée `chartreuse`.
 
 ![screenshot](images/pixel-art-final.png)
 
-Ask your club leader if you can use the Windows Snipping Tool or an alternative to save a copy of your pixel art as an image.
+Demandez au leader de votre club si vous pouvez utiliser l'outil de capture d'écran de Windows ou une alternative pour enregistrer une copie de votre pixel art sous forme d'image. 
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
+

@@ -1,24 +1,24 @@
 ---
-title: Stickers â€” Volunteer Notes
+title: Stickers â€” Notes bénévoles
 ---
 
 #Introduction:
-In this project, children will be introduced to linear and radial gradients in CSS. They will also learn more about borders and positioning. 
+Dans ce projet, les dégradés linéaires et radiaux dans CSS seront présentés aux enfants. Ils en apprendront aussi davantage sur les bordures et le positionnement. 
 
-#Online Resources
+#Ressources en ligne
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
+Nous recommandons d'utiliser [trinket](https://trinket.io/) pour écrire du HTML & CSS en ligne. Ce projet contient les trinkets suivants :
 
-+ ['Sunrise' starting point  -- jumpto.cc/web-sunrise](http://jumpto.cc/web-sunrise)
++ [Point de départ 'Sunrise'  -- jumpto.cc/web-sunrise](http://jumpto.cc/web-sunrise)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Des enfants peuvent aussi utiliser ce trinket vide [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) pour écrire leur propre code HTML & CSS, ou ils peuvent utiliser ce trinket modèle [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-There is also a trinket containing a sample solution to the challenges:
+Il y a aussi un trinket contenant une solution d'exemple à tous les challenges :
 
-+ ['Stickers' Finished -- trinket.io/html/bb4e538e0a](https://trinket.io/html/bb4e538e0a)
++ ['Stickers' terminé -- trinket.io/html/bb4e538e0a](https://trinket.io/html/bb4e538e0a)
 
-#Offline Resources
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+#Ressources hors ligne
+Ce projet peut être [terminé hors ligne](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) si désiré. Vous pouvez accéder aux ressources du projet en cliquant sur le lien 'Matériaux du projet' pour ce projet. Ce lien contient une section 'Ressources du projet', laquelle inclut des ressources dont les enfants auront besoin pour terminer ce projet en mode hors ligne. Assurez-vous que chaque enfant ait accès à une copie de ces ressources. Cette section inclut les fichiers suivants :
 
 + intro/index.html
 + template/template.html
@@ -28,7 +28,7 @@ This project can be [completed offline](https://www.codeclubprojects.org/en-GB/r
 + stickers/script.js
 + stickers/robot .png images
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+Vous pouvez aussi trouver une version terminée des challenges de ce projet dans la section 'Ressources bénévoles', qui contient :
 
 + stickers-finished/index.html
 + stickers-finished/style.css
@@ -36,15 +36,15 @@ You can also find a completed version of this project's challenges in the 'Volun
 + stickers-finished/robot .png images
 
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Toutes les ressources ci-dessus sont aussi téléchargeables en tant que fichiers `.zip` bénévoles et projet.)
 
-#Learning Objectives
-+ This project introduces the use of CSS gradients to create interesting effects. Students will also extend their knowledge of CSS borders and positioning. 
+#Objectifs d'apprentissage
++ Ce projet présente l'utilisation des dégradés CSS pour créer des effets intéressants. Les étudiants étendront aussi leur connaissance des bordures et du positionnement dans CSS. 
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ce projet couvre des éléments des composantes suivantes de [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
++ [Conception de ressources 2D et 3D](https://www.raspberrypi.org/curriculum/design/creator).
 
 #Challenges
-+ "Create your own gradient sticker" - adding linear and radial gradients to text;
-+ "Make more stickers!" - Combine gradients with images and text to create more stickers.
++ "Créer votre propre sticker dégradé" - ajouter des dégradés linéaires et radiaux à du texte ;
++ "Faire plus de stickers !" - Combiner des dégradés avec des images et du texte pour créer plus de stickers.

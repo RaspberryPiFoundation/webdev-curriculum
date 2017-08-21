@@ -1,178 +1,178 @@
 ---
-title: Stickers !
-description: "CrÃ©er des stickers rigolos avec des robots pour dÃ©corer vos pages web.  "
+title: Stickers!
+description: Créez des stickers de robot amusants pour décorer vos pages Web.  
 layout: project
 notes: "Stickers - notes.md"
 ---
 
-# Introduction {.intro}
+# Introduction { .intro}
 
-In this project, you'll create lots of fun stickers that you can use to decorate web pages. You'll learn about using gradients that gradually change from one colour to another to make your stickers look cool.
+Dans ce projet, vous allez créer tout un tas de stickers amusants que vous pouvez utiliser pour décorer vos pages Web. Vous allez apprendre à utiliser des dégradés que changent graduellement d'une couleur à une autre pour que vos stickers aient l'air cool. 
 
 ![screenshot](images/stickers-finished.png)
 
-# Step 1: Colourful coding sticker {.activity}
+# Étape 1 : Sticker codage coloré {.activity}
 
-A gradient is a gradual change from one colour to another. Gradients can be used to create cool effects. You're going to use them to create stickers that you can use on your web pages.
+Un dégradé est un changement graduel d'une couleur à une autre. Les dégradés peuvent être utilisés pour créer des effets cool. Vous allez les employer pour créer des stickers que vous pouvez utiliser sur vos pages Web. 
 
-+ Open this trinket: <a href="http://jumpto.cc/web-stickers" target="_blank">jumpto.cc/web-stickers</a>.
++ Ouvrez ce trinket : <a href="http://jumpto.cc/web-stickers" target="_blank">jumpto.cc/web-stickers</a>. 
 
-	The project should look like this:
+	Le projet doit ressembler à ça :
 
 	![screenshot](images/stickers-starter.png)
 
-+ Let's make an 'I <3 Coding' sticker.
++ Faisons un sticker 'I <3 Coding'. 
 
-	Use a `<div>` with a `sticker` class and a `coding` id so that you can style it:
+	Utilisez une `<div>` avec une classe `sticker` et un id `coding` pour que vous puissiez y appliquer un style : 
 
 	![screenshot](images/stickers-coding-error.png)
 
 
-+ Hmm did you notice that you got an error? This is because '<' is a special character in HTML. Instead of '<' you need to use the special code `&lt;`.
++ Hmm vous venez d'avoir une erreur ? C'est parce que '<' est un caractère spécial en HTML. À la place de '<', vous devez utiliser le code spécial `&lt;`. 
 
-	Update your code to use `&lt;` so that the error goes away.
+	Mettez à jour votre code pour utiliser `&lt;` afin que l'erreur disparaisse. 
 
 	![screenshot](images/stickers-coding-fixed.png)
 
-	`<br>` gives a new line.
+	`<br>` donne une nouvelle ligne. 
 
-+ Now let's make the sticker look interesting.
++ Maintenant, rendons le sticker plus intéressant. 
 
-	Switch to the `style.css` file. You'll see that the `.sticker` class has been provided for you. This will layout stickers on the page and centre their content.
+	Passez au fichier `style.css`. Vous allez voir que la classe `.sticker` vous a été fournie. Elle agencera les stickers sur la page et centrera leur contenu. 
 
-	Remember that you added the id `coding` to your sticker. At the bottom of `style.css` add the following code to style the text:
+	Souvenez-vous que vous avez ajouté l'id `coding` à votre sticker. Au bas de `style.css`, ajoutez le code suivant pour styliser le texte :
 
 	![screenshot](images/stickers-coding-font.png)
 
-+ Now you can add a gradient for the background of the sticker. A linear gradient changes from one colour to another along a straight line.
++ Maintenant, vous pouvez ajouter un dégradé à l'arrière-plan du sticker. Un dégradé linéaire passe d'une couleur à une autre le long d'une ligne droite.
 
-	This gradient will change from red at the top to magenta at the bottom. Add the gradient code to your `coding` style:
+	Ce dégradé sera rouge au sommet et magenta en bas. Ajoutez le code dégradé à votre style `coding` :
 
 	![screenshot](images/stickers-coding-gradient.png)
 
-+ You can improve on the result by adding padding and rounded corners.
++ Vous pouvez améliorer le résultat en ajoutant un remplissage et des angles arrondis. 
 
-	Add the highlighted code:
+	Ajoutez le code en surbrillance :
 
 	![screenshot](images/stickers-coding-padding.png)
 
-	The `padding` style adds padding of 50px at the top and bottom and 30px on the left and right.
+	Le style `padding` ajoute un remplissage de 50 px au sommet et au bas et de 30 px à gauche et à droite. 
 
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-# Step 2: HTML & CSS sticker {.activity}
+# Étape 2 : Sticker HTML & CSS {.activity}
 
-Gradients can also change colour from the centre out towards the edges, this is called a radial gradient.
+Les dégradés peuvent aussi changer la couleur du centre vers les bords, c'est ce qu'on appelle un dégradé radial. 
 
-+ Let's create a sticker with the text `HTML & CSS.`  `&` is another character that needs encoding in HTML, the code is `&amp;`.
++ Créons un sticker avec le texte `HTML & CSS.`  `&` est un autre caractère qui nécessite un encodage en HTML, le code est `&amp;`.
 
-	Add the highlighted code to create a new sticker:
+	Ajoutez le code en surbrillance pour créer un nouveau sticker : 
 
 	![screenshot](images/stickers-web-html.png)
 
-+ Now switch to your `style.css` file and add a style for your new sticker:
++ Maintenant, passez à votre fichier `style.css` et ajoutez un style pour votre nouveau sticker.
 
 	![screenshot](images/stickers-web-font.png)
 
-	The `text-shadow` code adds a shadow which extends 2px below and to the right of the text to make it stand out.
+	Le code `text-shadow` ajoute une ombre qui s'étend de 2 px au-dessous et sur la droite du texte pour le faire ressortir. 
 
-+ Now for the gradient. This time let's use a radial gradient. The colour will change from yellow in the centre through to orange and then red.
++ Maintenant passons au dégradé. Cette fois, utilisons un dégradé radial. La couleur variera du jaune au centre au orange puis au rouge. 
 
 	![screenshot](images/stickers-web-gradient.png)
 
-	Notice that gradients can include multiple colours, not just two.
+	Remarquez que les dégradés peuvent inclure de multiples couleurs, et pas seulement deux. 
 
-+ The sticker will look much better with some padding and a rounded border.
++ Le sticker aura une bien meilleure apparence avec un peu de remplissage et une bordure arrondie. 
 
-	Add the highlighted code:
+	Ajoutez le code en surbrillance :
 
 	![screenshot](images/stickers-web-padding.png)
 
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-##Challenge: Create your own gradient sticker {.challenge}
+##Challenge: Créez votre propre sticker dégradé {.challenge}
 
-Now make your own gradient sticker. Try linear and radial gradients using multiple HTML colours.
+Maintenant, créez votre propre sticker dégradé. Essayez des dégradés linéaires et radiaux en utilisant de multiples couleurs HTML. 
 
-You'll need to:
+Il vous faudra :
 
-+ Add a `<div>` with your sticker text to `index.html` and give it the `sticker` class and a new `id`.
-+ Add style for the `id` you chose in `style.css`. You could copy one of the sticker styles you have already made and edit that.
++ Ajouter une `<div>` avec le texte de votre sticker à `index.html` et lui donner la classe `sticker` ainsi qu'un nouvel `id`.
++ Ajouter un style pour l'`id` que vous avez choisi dans `style.css`. Vous pouvez copier l'un des styles de sticker que vous avez déjà réalisé et le modifier. 
 
-Thereâ€™s a list of all the colour names you can use: [jumpto.cc/web-colours](http://jumpto.cc/web-colours), which includes colour names like `tomato`, `firebrick` and `peachpuff`.
+Voici une liste de tous les noms de couleurs que vous pouvez utiliser : [jumpto.cc/web-colours](http://jumpto.cc/web-colours), qui inclut les noms de couleurs comme `tomato`, `firebrick` et `peachpuff`.
 
-If you want to change the text colour you can use `color:`.
+Si vous voulez changer la couleur du texte, vous pouvez utiliser `color:`.
 
-Here's an example of what you can do with multiple colours in a linear gradient:
+Voici un exemple de ce que vous pouvez faire avec de multiples couleurs dans un dégradé linéaire :
 
 ![screenshot](images/stickers-save-robots.png)
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-# Step 3: Fancy robot sticker  {.activity}
+# Étape 3 : Sticker robot fantaisiste {.activity}
 
-You can make a gradient sticker using an image. If you use an image with a transparent background then the gradient will show through.
+Vous pouvez faire un sticker dégradé en utilisant une image. Si vous utilisez une image avec un arrière-plan transparent, alors le dégradé se verra à travers. 
 
-You can also create gradients to run in different directions.
+Vous pouvez aussi créer des dégradés dans plusieurs directions différentes. 
 
-+ Add a sticker to `index.html` using the `firerobot.png` image:
++ Ajoutez un sticker à `index.html` en utilisant l'image `firerobot.png` :
 
 	![screenshot](images/stickers-fire-html.png)
 
-	You can adjust the `height` to resize the image, the width will change automatically.
+	Vous pouvez ajuster la `height` pour redimensionner l'image, la largeur changera automatiquement. 
 
-+ Normally a linear gradient runs from top to bottom, but you can use `to` to change the direction. For example: `to top`, `to left`, or `to right`.
++ Normalement, un dégradé linéaire part du haut vers le bas, mais vous pouvez utiliser `to` pour changer la direction. Par exemple : `to top`, `to left`, ou `to right`.
 
-	For a diagonal gradient you give two directions. This example uses `to bottom left`.
+	Pour un dégradé diagonal, vous avez deux directions. Cet exemple utilise `to bottom left`.
 
-	Add this style to `style.css` to give your new robot sticker a diagonal gradient and a fancy border:
+	Ajoutez ce style à `style.css` pour donner à votre nouveaux stick robot un dégradé diagonal et une bordure fantaisiste :
 
 	![screenshot](images/stickers-fire-gradient.png)
 
-	Note that you can use `outline` to create another border outside the usual one.
-	`outline-offset` gives the gap between the border and the outline.
+	Notez que vous pouvez utiliser `outline` pour créer une autre bordure en dehors de l'habituelle. 
+	`outline-offset` donne l'écart entre la bordure et le contour. 
 
-+ Let's add some text to this sticker.
++ Ajoutons un peu de texte à ce sticker. 
 
-	Add a `<span>` containing the text "ROBOTS" to `index.html` and give it an id.
+	Ajoutez un `<span>` contenant le texte "ROBOTS" à `index.html` et donnez-lui un id. 
 
 	![screenshot](images/stickers-fire-span.png)
 
-+ The text will look better if you make it bigger and position it.
++ Le texte aura une meilleure apparence si vous le grossissez et le positionnez. 
 
-	To position the text you'll need to add `position: relative;` to `#greensticker` and `position: absolute` to `#greentext`. Positioning is covered in more detail in the `Build a Robot` project.
+	Pour positionner le texte, il vous faudra ajouter `position: relative;` à `#greensticker` et `position: absolute` à `#greentext`. Le positionnement est abordé plus en détails dans le projet `Construire un robot`. 
 
-	Add the following code to `style.css`:
+	Ajoutez le code suivant à `style.css`:
 
 	![screenshot](images/stickers-fire-text-style.png)
 
-+ And for a final twist, let's rotate the text using `transform: rotate`.
++ Et pour le twist final, faisons pivoter le texte en utilisant `transform: rotate`.
 
 	![screenshot](images/stickers-fire-rotate.png)
 
-	Try changing the number of degrees that the text is rotated.
+	Essayez de changer le nombre de degrés de rotation du texte. 
 
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-##Challenge: Make more stickers {.challenge}
+##Challenge: Faire plus de stickers {.challenge}
 
-Now try making more stickers using different gradient directions and adding images and text and using borders and outlines.
+Maintenant, essayez de faire plus de stickers en utilisant différentes directions de dégradés et en ajoutant des images, du texte et en utilisant des bordures et des contours. 
 
-Tip: You'll need to add HTML and CSS for each sticker.
+Astuce : Vous allez devoir ajouter du HTML et CSS pour chaque sticker. 
 
-You can copy and edit one of your examples and make changes to create a new sticker.
+Vous pouvez copier et modifier l'un de vos exemples et faire des changements pour créer un nouveau sticker. 
 
-Your project already includes a set of robot images. Click on the images icon to see the available images.
+Votre projet inclut déjà un ensemble d'images de robot. Cliquez sur l'icône images pour voir les images disponibles. 
 
 ![screenshot](images/stickers-images.png)
 
-This example uses a linear gradient with `to right`:
+Cet exemple utilise un dégradé linéaire avec `to right` :
 
 ![screenshot](images/stickers-green-html.png)
 
 ![screenshot](images/stickers-green-style.png)
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
