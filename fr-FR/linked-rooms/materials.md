@@ -1,5 +1,5 @@
 ---
-title: Salons liés - Matériaux
+title: Salons liÃ©s - MatÃ©riaux
 layout: project-materials
 project-resources:
   - url: rooms-project-resources.zip
@@ -8,11 +8,11 @@ project-resources:
   - url: http://jumpto.cc/web-rooms
     type: lien
     texte: jumpto.cc/web-rooms
-    description: Trinket en ligne contenant toutes les ressources du projet 'Salons liés'
+    description: Trinket en ligne contenant toutes les ressources du projet 'Salons liÃ©s'
   - url: robot-project-resources.zip
     type: lien
     texte: jumpto.cc/trinket-template
-    description: Modèle de trinket en ligne
+    description: ModÃ¨le de trinket en ligne
   - url: http://jumpto.cc/trinket-blank
     type: lien
     texte: jumpto.cc/trinket-blank
@@ -42,11 +42,11 @@ project-resources:
 volunteer-resources:
   - url: rooms-volunteer-resources.zip
     type: fichier
-    description: fichier .zip contenant toutes les ressources du projet terminé
+    description: fichier .zip contenant toutes les ressources du projet terminÃ©
   - url: https://trinket.io/html/1d4d4c5ce1
     type: lien
     texte: trinket.io/html/1d4d4c5ce1
-    description: Projet Trinket en ligne terminé
+    description: Projet Trinket en ligne terminÃ©
   - url: linked-rooms-finished/index.html
     type: fichier
   - url: linked-rooms-finished/style.css

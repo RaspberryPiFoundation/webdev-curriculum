@@ -1,5 +1,5 @@
 ---
-title: Stickers - Matériaux
+title: Stickers - MatÃ©riaux
 layout: project-materials
 project-resources:
   - url: stickers-project-resources.zip
@@ -16,7 +16,7 @@ project-resources:
   - url: robot-project-resources.zip
     type: lien
     texte: jumpto.cc/trinket-template
-    description: Modèle de trinket en ligne
+    description: ModÃ¨le de trinket en ligne
   - url: http://jumpto.cc/trinket-blank
     type: lien
     texte: jumpto.cc/trinket-blank
@@ -50,11 +50,11 @@ project-resources:
 volunteer-resources:
   - url: stickers-volunteer-resources.zip
     type: fichier
-    description: fichier .zip contenant toutes les ressources du projet terminé
+    description: fichier .zip contenant toutes les ressources du projet terminÃ©
   - url: https://trinket.io/html/bb4e538e0a
     type: lien
     texte: trinket.io/html/bb4e538e0a
-    description: Projet Trinket en ligne terminé
+    description: Projet Trinket en ligne terminÃ©
   - url: stickers-finished/index.html
     type: fichier
   - url: stickers-finished/style.css

@@ -1,13 +1,13 @@
 ---
-title: Salons Liés
-description: Créer un projet Web avec plusieurs 'salons' liés entre eux 
+title: Salons LiÃ©s
+description: CrÃ©er un projet Web avec plusieurs 'salons' liÃ©s entre eux 
 layout: project
 notes: "Linked Rooms - notes.md"
 ---
 
 # Introduction { .intro}
 
-Dans ce projet, vous allez créer un réseau de salons liés, dans lequel chaque salon est une page Web différente que vous pouvez décorer avec HTML. 
+Dans ce projet, vous allez crÃ©er un rÃ©seau de salons liÃ©s, dans lequel chaque salon est une page Web diffÃ©rente que vous pouvez dÃ©corer avec HTML. 
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/ba5d27ec68?outputOnly=true&start=result" width="600" height="450" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -15,17 +15,17 @@ Dans ce projet, vous allez créer un réseau de salons liés, dans lequel chaque sa
   <img src="images/rooms-hall-finished.png">
 </div>
 
-__Instructions__: Cliquez sur les portes pour vous déplacer entre les salons.
+__Instructions__: Cliquez sur les portes pour vous dÃ©placer entre les salons.
 
-# Étape 1 : Établir un lien avec une autre page Web du même projet {.activity}
+# Ã‰tape 1Â : Ã‰tablir un lien avec une autre page Web du mÃªme projet {.activity}
 
-Les projets Web peuvent être constitués d'un grand nombre de fichiers HTML liés entre eux. 
+Les projets Web peuvent Ãªtre constituÃ©s d'un grand nombre de fichiers HTML liÃ©s entre eux. 
 
-## Liste de contrôle de l'activité { .check}
+## Liste de contrÃ´le de l'activitÃ© { .check}
 
-+ Ouvrez ce trinket : <a href="http://jumpto.cc/web-rooms" target="_blank">jumpto.cc/web-rooms</a>. 
++ Ouvrez ce trinketÂ : <a href="http://jumpto.cc/web-rooms" target="_blank">jumpto.cc/web-rooms</a>. 
 
-	Le projet doit ressembler à ça :
+	Le projet doit ressembler Ã  Ã§aÂ :
 
 	![screenshot](images/rooms-starter.png)
 
@@ -33,40 +33,40 @@ Les projets Web peuvent être constitués d'un grand nombre de fichiers HTML liés 
 
 	![screenshot](images/rooms-hall-start.png)
 
-+ Observez la liste d'onglets de fichier pour ce trinket. Pouvez-vous voir `tvroom.html` ? Cliquez dessus.
++ Observez la liste d'onglets de fichier pour ce trinket. Pouvez-vous voir `tvroom.html`Â ? Cliquez dessus.
 
 	![screenshot](images/rooms-tvroom-html.png)
 
-	Il s'agit d'un autre fichier html dans le même projet. 
+	Il s'agit d'un autre fichier html dans le mÃªme projet. 
 
 
 + Pour aller vers `tvroom.html` vous devez ajouter un lien dans `index.html`. 
 
-	Ajoutez le code surligné à l'intérieur de la balise `<div>` avec la classe `room`: 
+	Ajoutez le code surlignÃ© Ã  l'intÃ©rieur de la balise `<div>` avec la classe `room`: 
 
 	![screenshot](images/rooms-link-tvroom.png)
 
 + Testez votre trinket en cliquant sur le lien __Salon TV__ pour voir la page Web `tvroom.html`.
 
-	Notez que `tvroom.html` possède aussi son propre fichier de style `tvroom.css` qui définit l'agencement de cette page. 
+	Notez que `tvroom.html` possÃ¨de aussi son propre fichier de style `tvroom.css` qui dÃ©finit l'agencement de cette page. 
 
 	![screenshot](images/rooms-tvroom-unstyled.png)
 
 	
 ##Challenge: Ajouter un autre lien {.challenge}
 
-Ajouter un lien `<a>` sur la page Web `tvroom.html` pour revenir à la page Web Hall qui est appelée `index.html`. Le texte du lien doit être 'Hall'.
+Ajouter un lien `<a>` sur la page Web `tvroom.html` pour revenir Ã  la page Web Hall qui est appelÃ©e `index.html`. Le texte du lien doit Ãªtre 'Hall'.
 
-La page Web Salon TV doit avoir un lien cliquable comme suit :
+La page Web Salon TV doit avoir un lien cliquable comme suitÂ :
 
 ![screenshot](images/rooms-hall-link.png)
 
-Assurez-vous de tester votre code. Vous devriez pouvoir vous déplacer du Hall à Salon TV et revenir en cliquant sur les liens.  
+Assurez-vous de tester votre code. Vous devriez pouvoir vous dÃ©placer du Hall Ã  Salon TV et revenir en cliquant sur les liens.  
 
 
 ## Enregistrez votre projet {.save}
 
-# Étape 2 : Ajouter un autre salon {.activity}
+# Ã‰tape 2Â : Ajouter un autre salon {.activity}
 
 Maintenant ajoutons un autre salon, un __Salon de jeux__. 
 
@@ -74,78 +74,78 @@ Maintenant ajoutons un autre salon, un __Salon de jeux__.
 
 	![screenshot](images/rooms-add-page.png)
 
-	Inscrivez `gamesroom.html` comme nom de page :
+	Inscrivez `gamesroom.html` comme nom de pageÂ :
 
   	![screenshot](images/rooms-games-html.png)
 
-+ Le HTML pour le __Salon de jeux__ est très similaire à `tvroom.html` donc __copiez_ ceci et__collez-le__ dans `gamesroom.html`.
++ Le HTML pour le __Salon de jeux__ est trÃ¨s similaire Ã  `tvroom.html` donc __copiez_ ceci et__collez-le__ dans `gamesroom.html`.
 	
-	Modifiez les objets mis en relief pour qu'ils indiquent Jeux et non TV :
+	Modifiez les objets mis en relief pour qu'ils indiquent Jeux et non TVÂ :
 
 	![screenshot](images/rooms-games-html2.png)	
 
 + Votre `gamesroom.html` utilise maintenant `gamesroom.css` qui n'existe pas encore. 
 
-	Créez `gamesroom.css` en cliquant sur le bouton ajouter une page __+__. 
+	CrÃ©ez `gamesroom.css` en cliquant sur le bouton ajouter une page __+__. 
 
 
-+ Le CSS pour le __Salon de jeux__ est très similaire à `tvroom.css` donc __copiez_ ceci et__collez-le__ dans `gamesroom.css`.
++ Le CSS pour le __Salon de jeux__ est trÃ¨s similaire Ã  `tvroom.css` donc __copiez_ ceci et__collez-le__ dans `gamesroom.css`.
 
 	![screenshot](images/rooms-add-games-css.png)
 
-+ Ajoutez un lien du Hall vers le Salon de jeux :
++ Ajoutez un lien du Hall vers le Salon de jeuxÂ :
 
 	![screenshot](images/rooms-hall-games.png)
 
 + Testez votre projet en cliquant sur le lien du Salon de jeux
 
-	Le __Salon de jeux__ doit ressembler à ceci :
+	Le __Salon de jeux__ doit ressembler Ã  ceciÂ :
 
 	![screenshot](images/rooms-games-before.png)
 
-	Pas très excitant, mais vous pouvez corriger cela dans le prochain challenge. 
+	Pas trÃ¨s excitant, mais vous pouvez corriger cela dans le prochain challenge. 
 
 ## Enregistrez votre projet {.save}
 
 ##Challenge: Styliser et lier le Salon de jeux {.challenge}
 
-Modifiez le HTML et le CSS pour le __Salon de jeux__ de manière à ce que la page Web ressemble à ceci : 
+Modifiez le HTML et le CSS pour le __Salon de jeux__ de maniÃ¨re Ã  ce que la page Web ressemble Ã  ceciÂ : 
 
 ![screenshot](images/rooms-games-challenge.png)
 
-Indice : Il vous faudra modifier la couleur de l'arrière-plan, la couleur de la police et la couleur de la bordure dans `gamesroom.css`. La couleur vert clair est appelée `chartreuse`.  
+IndiceÂ : Il vous faudra modifier la couleur de l'arriÃ¨re-plan, la couleur de la police et la couleur de la bordure dans `gamesroom.css`. La couleur vert clair est appelÃ©e `chartreuse`.  
 
-Indice : Il vous faudra ajouter un lien `<a>` dans `gamesroom.html` qui dirigera vers `hall.html`.
+IndiceÂ : Il vous faudra ajouter un lien `<a>` dans `gamesroom.html` qui dirigera vers `hall.html`.
 
 ## Enregistrez votre projet {.save}
 
-# Étape 3 : Faire en sorte que les liens ressemblent à des portes {.activity}
+# Ã‰tape 3Â : Faire en sorte que les liens ressemblent Ã  des portes {.activity}
 
-Les liens ne doivent pas être simplement du texte. Faites une porte cliquable en utilisant une balise `<div>`.
+Les liens ne doivent pas Ãªtre simplement du texte. Faites une porte cliquable en utilisant une balise `<div>`.
 
-## Liste de contrôle de l'activité { .check}
+## Liste de contrÃ´le de l'activitÃ© { .check}
 
-+ Ouvrez `index.html` et ajoutez une balise `<div>` autour du lien textuel __Salon TV__. Cela doit être fait à l'intérieur de la balise `<a>` pour qu'il soit cliquable.
++ Ouvrez `index.html` et ajoutez une balise `<div>` autour du lien textuel __Salon TV__. Cela doit Ãªtre fait Ã  l'intÃ©rieur de la balise `<a>` pour qu'il soit cliquable.
 
-  Ajoutez `id="hall2tv"` pour l'étiqueter comme la porte depuis le Hall vers le Salon TV pour pouvoir appliquer un style à la porte. 
+  Ajoutez `id="hall2tv"` pour l'Ã©tiqueter comme la porte depuis le Hall vers le Salon TV pour pouvoir appliquer un style Ã  la porte. 
 
   ![screenshot](images/rooms-tvroom-div.png)  
 
-+ Cliquez sur l'onglet `style.css`, allez au bas de la page et ajoutez le CSS suivant pour modifier la taille et la couleur de la porte :
++ Cliquez sur l'onglet `style.css`, allez au bas de la page et ajoutez le CSS suivant pour modifier la taille et la couleur de la porteÂ :
 
 	![screenshot](images/rooms-door-css1.png)
 
-+ Testez votre page Web en cliquant n'importe où sur la porte, pas seulement sur le texte.
++ Testez votre page Web en cliquant n'importe oÃ¹ sur la porte, pas seulement sur le texte.
 
-+ Maintenons, essayons d'améliorer l'apparence de porte en ajoutant une bordure autour de trois côtés :
++ Maintenons, essayons d'amÃ©liorer l'apparence de porte en ajoutant une bordure autour de trois cÃ´tÃ©sÂ :
 
 	![screenshot](images/rooms-door-css2.png)
 
-+ Puis ajoutons du CSS pour que le texte sur la porte ait un meilleur rendu :
++ Puis ajoutons du CSS pour que le texte sur la porte ait un meilleur renduÂ :
 
 	![screenshot](images/rooms-door-css3.png)
 
-+ Vous avez probablement remarqué que la porte flotte dans les airs. Corrigeons cela en positionnant la porte à l'intérieur du salon.
++ Vous avez probablement remarquÃ© que la porte flotte dans les airs. Corrigeons cela en positionnant la porte Ã  l'intÃ©rieur du salon.
 
 	![screenshot](images/rooms-door-position.png)	
 
@@ -153,74 +153,74 @@ Les liens ne doivent pas être simplement du texte. Faites une porte cliquable en
 
 ## Enregistrez votre projet {.save}
 
-##Challenge: Ajouter plus de portes ! {.challenge}
+##Challenge: Ajouter plus de portesÂ ! {.challenge}
 
-Transformez les autres liens de votre projet en portes de la même manière. 
+Transformez les autres liens de votre projet en portes de la mÃªme maniÃ¨re. 
 
-Pour chaque porte :
+Pour chaque porteÂ :
 
 + Modifiez le lien de la porte pour utiliser une balise `<div>` avec un id comme `hall2games` pour pouvoir y appliquer un style. 
 
-	Par exemple : 
+	Par exempleÂ : 
 
 	`<a href="gamesroom.html"><div id="hall2games">Games Room</div></a>`
 
-+ Ajoutez du CSS pour l'id de la porte au fichier `.css` pour son salon. Utilisez _copier_ et _coller_ pour gagner du temps. Vous pouvez faire en sorte que chaque porte ait l'air différente si vous le souhaitez. 
++ Ajoutez du CSS pour l'id de la porte au fichier `.css` pour son salon. Utilisez _copier_ et _coller_ pour gagner du temps. Vous pouvez faire en sorte que chaque porte ait l'air diffÃ©rente si vous le souhaitez. 
 
 + Positionnez la porte en utilisant `bottom:` et `left:` ou `right:`.
 
-Le Hall peut ressembler à ça :
+Le Hall peut ressembler Ã  Ã§aÂ :
 
 ![screenshot](images/rooms-hall-doors.png)
 
-Le Salon TV devrait ressembler à quelque chose comme ça :
+Le Salon TV devrait ressembler Ã  quelque chose comme Ã§aÂ :
 
 ![screenshot](images/rooms-tvroom-door.png)	
 
 
-# Étape 4 : Ajouter une image d'arrière-plan {.activity}
+# Ã‰tape 4Â : Ajouter une image d'arriÃ¨re-plan {.activity}
 
-Décorons le hall avec une image d'arrière-plan.
+DÃ©corons le hall avec une image d'arriÃ¨re-plan.
 
-## Liste de contrôle de l'activité { .check}
+## Liste de contrÃ´le de l'activitÃ© { .check}
 
 
-+  Modifiez le `style.css` pour ajouter une image d'arrière-plan au Hall :
++  Modifiez le `style.css` pour ajouter une image d'arriÃ¨re-plan au HallÂ :
 
 	![screenshot](images/rooms-hall-decorated.png)	
 
-	L'image sera répétée pour remplir tout le salon. 
+	L'image sera rÃ©pÃ©tÃ©e pour remplir tout le salon. 
 
 
 ## Enregistrez votre projet {.save}
 
-##Challenge: Ajouter un fond d'écran au Salon de jeux {.challenge}
+##Challenge: Ajouter un fond d'Ã©cran au Salon de jeux {.challenge}
 
-Pouvez-vous décorer le salon de jeux avec une image d'arrière-plan ?
+Pouvez-vous dÃ©corer le salon de jeux avec une image d'arriÃ¨re-planÂ ?
 
-Vous pouvez utiliser l'image d'arrière-plan `space-invader.png` qui est incluse dans votre projet. 
+Vous pouvez utiliser l'image d'arriÃ¨re-plan `space-invader.png` qui est incluse dans votre projet. 
 
-Pour ce faire :
+Pour ce faireÂ :
 
 + Ajoutez une `background-image:` au CSS `.room` pour le Salon de jeux. 
 
-Le salon décoré devrait ressembler à ça :
+Le salon dÃ©corÃ© devrait ressembler Ã  Ã§aÂ :
 
 ![screenshot](images/rooms-games-finished.png)	
 
 ## Enregistrez votre projet {.save}
 
-##Challenge: Personnalisez-le ! {.challenge}
+##Challenge: Personnalisez-leÂ ! {.challenge}
 
-Ajoutez plus de salons à votre projet. Souvenez-vous que vous pouvez utiliser __copier__ et __coller__ pour économiser du temps, puis seulement modifier les choses qui doivent être différentes. 
+Ajoutez plus de salons Ã  votre projet. Souvenez-vous que vous pouvez utiliser __copier__ et __coller__ pour Ã©conomiser du temps, puis seulement modifier les choses qui doivent Ãªtre diffÃ©rentes. 
 
-Pour chaque salon :
+Pour chaque salonÂ :
 
-+ Créez un fichier `.html`
-+ Ajoutez plus de liens vers et à partir du nouveau 'salon'.
-+ Créez un fichier `.css` avec les styles pour votre nouveau salon et ses portes
++ CrÃ©ez un fichier `.html`
++ Ajoutez plus de liens vers et Ã  partir du nouveau 'salon'.
++ CrÃ©ez un fichier `.css` avec les styles pour votre nouveau salon et ses portes
 
-Vous pouvez modifier la `background-color:` pour chaque salon. Cliquez sur l'icône images pour voir les images d'arrière-plan que vous pouvez choisir :
+Vous pouvez modifier la `background-color:` pour chaque salon. Cliquez sur l'icÃ´ne images pour voir les images d'arriÃ¨re-plan que vous pouvez choisirÂ :
 
 ![screenshot](images/rooms-images.png)	
 

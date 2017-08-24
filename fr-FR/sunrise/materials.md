@@ -1,5 +1,5 @@
 ---
-title: Lever de soleil - matériaux
+title: Lever de soleil - matÃ©riaux
 layout: project-materials
 project-resources:
   - url: sunrise-project-resources.zip
@@ -12,7 +12,7 @@ project-resources:
   - url: robot-project-resources.zip
     type: lien
     texte: jumpto.cc/trinket-template
-    description: Modèle de trinket en ligne
+    description: ModÃ¨le de trinket en ligne
   - url: http://jumpto.cc/trinket-blank
     type: lien
     texte: jumpto.cc/trinket-blank
@@ -44,11 +44,11 @@ project-resources:
 volunteer-resources:
   - url: sunrise-volunteer-resources.zip
     type: fichier
-    description: fichier .zip contenant toutes les ressources du projet terminé
+    description: fichier .zip contenant toutes les ressources du projet terminÃ©
   - url: https://trinket.io/html/abcc0284a3
     type: lien
     texte: trinket.io/html/abcc0284a3
-    description: Projet Trinket en ligne terminé
+    description: Projet Trinket en ligne terminÃ©
   - url: sunrise-finished/index.html
     type: fichier
   - url: sunrise-finished/style.css

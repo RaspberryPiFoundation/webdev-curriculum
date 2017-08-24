@@ -1,24 +1,24 @@
 ---
-title: Stickers â€” Notes bénévoles
+title: Stickers - Notes bÃ©nÃ©voles
 ---
 
 #Introduction:
-Dans ce projet, les dégradés linéaires et radiaux dans CSS seront présentés aux enfants. Ils en apprendront aussi davantage sur les bordures et le positionnement. 
+Dans ce projet, les dÃ©gradÃ©s linÃ©aires et radiaux dans CSS seront prÃ©sentÃ©s aux enfants. Ils en apprendront aussi davantage sur les bordures et le positionnement. 
 
 #Ressources en ligne
 
-Nous recommandons d'utiliser [trinket](https://trinket.io/) pour écrire du HTML & CSS en ligne. Ce projet contient les trinkets suivants :
+Nous recommandons d'utiliser [trinket](https://trinket.io/) pour Ã©crire du HTML & CSS en ligne. Ce projet contient les trinkets suivantsÂ :
 
-+ [Point de départ 'Sunrise'  -- jumpto.cc/web-sunrise](http://jumpto.cc/web-sunrise)
++ [Point de dÃ©part 'Sunrise'  -- jumpto.cc/web-sunrise](http://jumpto.cc/web-sunrise)
 
-Des enfants peuvent aussi utiliser ce trinket vide [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) pour écrire leur propre code HTML & CSS, ou ils peuvent utiliser ce trinket modèle [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Des enfants peuvent aussi utiliser ce trinket vide [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) pour Ã©crire leur propre code HTML & CSS, ou ils peuvent utiliser ce trinket modÃ¨le [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-Il y a aussi un trinket contenant une solution d'exemple à tous les challenges :
+Il y a aussi un trinket contenant une solution d'exemple Ã  tous les challengesÂ :
 
-+ ['Stickers' terminé -- trinket.io/html/bb4e538e0a](https://trinket.io/html/bb4e538e0a)
++ ['Stickers' terminÃ© -- trinket.io/html/bb4e538e0a](https://trinket.io/html/bb4e538e0a)
 
 #Ressources hors ligne
-Ce projet peut être [terminé hors ligne](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) si désiré. Vous pouvez accéder aux ressources du projet en cliquant sur le lien 'Matériaux du projet' pour ce projet. Ce lien contient une section 'Ressources du projet', laquelle inclut des ressources dont les enfants auront besoin pour terminer ce projet en mode hors ligne. Assurez-vous que chaque enfant ait accès à une copie de ces ressources. Cette section inclut les fichiers suivants :
+Ce projet peut Ãªtre [terminÃ© hors ligne](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) si dÃ©sirÃ©. Vous pouvez accÃ©der aux ressources du projet en cliquant sur le lien 'MatÃ©riaux du projet' pour ce projet. Ce lien contient une section 'Ressources du projet', laquelle inclut des ressources dont les enfants auront besoin pour terminer ce projet en mode hors ligne. Assurez-vous que chaque enfant ait accÃ¨s Ã  une copie de ces ressources. Cette section inclut les fichiers suivantsÂ :
 
 + intro/index.html
 + template/template.html
@@ -28,7 +28,7 @@ Ce projet peut être [terminé hors ligne](https://www.codeclubprojects.org/en-GB/
 + stickers/script.js
 + stickers/robot .png images
 
-Vous pouvez aussi trouver une version terminée des challenges de ce projet dans la section 'Ressources bénévoles', qui contient :
+Vous pouvez aussi trouver une version terminÃ©e des challenges de ce projet dans la section 'Ressources bÃ©nÃ©voles', qui contientÂ :
 
 + stickers-finished/index.html
 + stickers-finished/style.css
@@ -36,15 +36,15 @@ Vous pouvez aussi trouver une version terminée des challenges de ce projet dans 
 + stickers-finished/robot .png images
 
 
-(Toutes les ressources ci-dessus sont aussi téléchargeables en tant que fichiers `.zip` bénévoles et projet.)
+(Toutes les ressources ci-dessus sont aussi tÃ©lÃ©chargeables en tant que fichiers `.zip` bÃ©nÃ©voles et projet.)
 
 #Objectifs d'apprentissage
-+ Ce projet présente l'utilisation des dégradés CSS pour créer des effets intéressants. Les étudiants étendront aussi leur connaissance des bordures et du positionnement dans CSS. 
++ Ce projet prÃ©sente l'utilisation des dÃ©gradÃ©s CSS pour crÃ©er des effets intÃ©ressants. Les Ã©tudiants Ã©tendront aussi leur connaissance des bordures et du positionnement dans CSS. 
 
-Ce projet couvre des éléments des composantes suivantes de [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ce projet couvre des Ã©lÃ©ments des composantes suivantes de [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 + [Conception de ressources 2D et 3D](https://www.raspberrypi.org/curriculum/design/creator).
 
 #Challenges
-+ "Créer votre propre sticker dégradé" - ajouter des dégradés linéaires et radiaux à du texte ;
-+ "Faire plus de stickers !" - Combiner des dégradés avec des images et du texte pour créer plus de stickers.
++ "CrÃ©er votre propre sticker dÃ©gradÃ©" - ajouter des dÃ©gradÃ©s linÃ©aires et radiaux Ã  du texteÂ ;
++ "Faire plus de stickersÂ !" - Combiner des dÃ©gradÃ©s avec des images et du texte pour crÃ©er plus de stickers.

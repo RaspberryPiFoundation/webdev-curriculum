@@ -1,29 +1,29 @@
 ---
 title: Construire un Robot
-description: Apprenez à positionner des images pour fabriquer votre propre robot.
+description: Apprenez Ã  positionner des images pour fabriquer votre propre robot.
 layout: project
 notes: "Build a Robot - notes.md"
 ---
 
 # Introduction { .intro}
 
-Dans ce projet, vous apprendrez à positionner des images pour créer votre propre robot !
+Dans ce projet, vous apprendrez Ã  positionner des images pour crÃ©er votre propre robotÂ !
 
 ![screenshot](images/robot-final.png)
 
-# Étape 1 : Donner des yeux à votre robot { .activity}
+# Ã‰tape 1Â : Donner des yeux Ã  votre robot { .activity}
 
-Donnons des yeux à votre robot !
+Donnons des yeux Ã  votre robotÂ !
 
-## Liste de contrôle de l'activité { .check}
+## Liste de contrÃ´le de l'activitÃ© { .check}
 
-+ Ouvrez ce trinket : <a href="http://jumpto.cc/web-robot" target="_blank">jumpto.cc/web-robot</a>.
++ Ouvrez ce trinketÂ : <a href="http://jumpto.cc/web-robot" target="_blank">jumpto.cc/web-robot</a>.
 
-    Le projet doit ressembler à ça :
+    Le projet doit ressembler Ã  Ã§aÂ :
 
 	![screenshot](images/robot-starter.png)
 
-+ Chaque image de ce projet possède son propre nom (ou __id__). Par exemple, le lien HTML pour les images des yeux et du visage (â€˜faceâ€™, â€˜eyes1â€™ et â€˜eyes2â€™ commençant à la ligne 8 de votre code) ressemblent à ça :
++ Chaque image de ce projet possÃ¨de son propre nom (ou __id__). Par exemple, le lien HTML pour les images des yeux et du visage (Ã¢â‚¬ËœfaceÃ¢â‚¬â„¢, Ã¢â‚¬Ëœeyes1Ã¢â‚¬â„¢ et Ã¢â‚¬Ëœeyes2Ã¢â‚¬â„¢ commenÃ§ant Ã  la ligne 8 de votre code) ressemblent Ã  Ã§aÂ :
 
 ```
 <img id="face" ...>
@@ -31,13 +31,13 @@ Donnons des yeux à votre robot !
 <img id="eyes2" ...>
 ```
 
-+ Vous pouvez utiliser l'id d'une image pour lui donne son propre style, en utilisant le symbole `#`. Cela vous permet de styliser chaque image séparément.
++ Vous pouvez utiliser l'id d'une image pour lui donne son propre style, en utilisant le symbole `#`. Cela vous permet de styliser chaque image sÃ©parÃ©ment.
 
-Cliquez sur le fichier `style.css`. Vous voyez comme la taille du visage du robot et celle des autres images sont différentes ?
+Cliquez sur le fichier `style.css`. Vous voyez comme la taille du visage du robot et celle des autres images sont diffÃ©rentesÂ ?
 
 ![screenshot](images/robot-id.png)
 
-+ Ajoutez ce code CSS pour donner un style aux yeux du robot :
++ Ajoutez ce code CSS pour donner un style aux yeux du robotÂ :
 
 ```
 #eyes1 {
@@ -45,13 +45,13 @@ Cliquez sur le fichier `style.css`. Vous voyez comme la taille du visage du robo
 }
 ```
 
-Remarquez que vous stylisez uniquement l'image `eyes1`, en utilisant `#eyes1` dans votre CSS. Si vous préférez, vous pouvez utiliser `#eyes2` ou `#eyes3` à la place !
+Remarquez que vous stylisez uniquement l'image `eyes1`, en utilisant `#eyes1` dans votre CSS. Si vous prÃ©fÃ©rez, vous pouvez utiliser `#eyes2` ou `#eyes3` Ã  la placeÂ !
 
 ![screenshot](images/robot-eyes-width.png)
 
-+ Vous remarquez comme chaque image est affichée l'une après l'autre ? Il s'agit d'un positionnement __relatif__. Si vous voulez dire au navigateur exactement où placer les yeux de votre robot, il vous faudra utiliser un positionnement __absolu__ à la place.
++ Vous remarquez comme chaque image est affichÃ©e l'une aprÃ¨s l'autreÂ ? Il s'agit d'un positionnement __relatif__. Si vous voulez dire au navigateur exactement oÃ¹ placer les yeux de votre robot, il vous faudra utiliser un positionnement __absolu__ Ã  la place.
 
-Ajoutez ces 3 lignes de code au CSS pour votre image `eyes1` :
+Ajoutez ces 3 lignes de code au CSS pour votre image `eyes1`Â :
 
 ```
 position: absolute;
@@ -59,23 +59,23 @@ top: 200px;
 left: 100px;
 ```
 
-Vous devriez voir les yeux de votre robot se déplacer au bon endroit sur votre robot.
+Vous devriez voir les yeux de votre robot se dÃ©placer au bon endroit sur votre robot.
 
 ![screenshot](images/robot-eyes-position.png)
 
-Ce code CSS dit au navigateur à quelle distance afficher l'image du sommet/de la gauche de la page Web.
+Ce code CSS dit au navigateur Ã  quelle distance afficher l'image du sommet/de la gauche de la page Web.
 
 ![screenshot](images/robot-eyes-position2.png)
 
-Vous pouvez utiliser `bottom` au lieu de `top` pour dire au navigateur à quelle distance du bas de l'écran afficher l'image, et utiliser `right` au lieu de `left`.
+Vous pouvez utiliser `bottom` au lieu de `top` pour dire au navigateur Ã  quelle distance du bas de l'Ã©cran afficher l'image, et utiliser `right` au lieu de `left`.
 
-# Étape 2 : Donner une bouche à votre robot { .activity}
+# Ã‰tape 2Â : Donner une bouche Ã  votre robot { .activity}
 
-Donnons une bouche à votre robot !
+Donnons une bouche Ã  votre robotÂ !
 
-## Liste de contrôle de l'activité { .check}
+## Liste de contrÃ´le de l'activitÃ© { .check}
 
-+ Ajoutez le code CSS suivant pour styliser votre image `mouth1` :
++ Ajoutez le code CSS suivant pour styliser votre image `mouth1`Â :
 
 ```
 #mouth1 {
@@ -86,23 +86,23 @@ Donnons une bouche à votre robot !
 }
 ```
 
-+ La bouche de votre robot a l'air très petite, et elle ne se trouve pas au bon endroit.
++ La bouche de votre robot a l'air trÃ¨s petite, et elle ne se trouve pas au bon endroit.
 
 ![screenshot](images/robot-mouth.png)
 
-Pouvez-vous modifier cela en effectuant des changements dans votre CSS ?
+Pouvez-vous modifier cela en effectuant des changements dans votre CSSÂ ?
 
 ## Enregistrez votre projet {.save}
 
 ##Challenge: Concevez votre propre robot {.challenge}
-Utilisez ce que vous avez appris pour finir la conception de votre propre robot. Voici quelques exemples de ce à quoi votre robot pourrait ressembler :
+Utilisez ce que vous avez appris pour finir la conception de votre propre robot. Voici quelques exemples de ce Ã  quoi votre robot pourrait ressemblerÂ :
 
 ![screenshot](images/robot-examples.png)
 
 ## Enregistrez votre projet {.save}
 
 ##Challenge: Ajoutez vos propres images {.challenge}
-Pouvez-vous trouver des images supplémentaires à ajouter à votre robot, et les positionner sur votre page Web ? Vous pouvez même remplacer le visage de votre robot par le vôtre !
+Pouvez-vous trouver des images supplÃ©mentaires Ã  ajouter Ã  votre robot, et les positionner sur votre page WebÂ ? Vous pouvez mÃªme remplacer le visage de votre robot par le vÃ´treÂ !
 
 ```
 <img id="face" src="myFace.png">

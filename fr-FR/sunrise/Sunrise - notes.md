@@ -1,24 +1,24 @@
 ---
-title: Aurores â€” Notes pour les leaders du club
+title: Aurores - Notes pour les leaders du club
 ---
 
 #Introduction:
-Dans ce projet, les enfants apprendront à animer une scène simple en utilisant CSS. Ils utiliseront la règle @keyframes en CSS pour animer différentes propriétés d'images et de divisions.
+Dans ce projet, les enfants apprendront Ã  animer une scÃ¨ne simple en utilisant CSS. Ils utiliseront la rÃ¨gle @keyframes en CSS pour animer diffÃ©rentes propriÃ©tÃ©s d'images et de divisions.
 
 #Ressources en ligne
 
-Nous recommandons d'utiliser [trinket](https://trinket.io/) pour écrire du HTML & CSS en ligne. Ce projet contient les trinkets suivants :
+Nous recommandons d'utiliser [trinket](https://trinket.io/) pour Ã©crire du HTML & CSS en ligne. Ce projet contient les trinkets suivantsÂ :
 
-+ [Point de départ 'Sunrise'](https://trinket.io/html/web-sunrise)
++ [Point de dÃ©part 'Sunrise'](https://trinket.io/html/web-sunrise)
 
-Des enfants peuvent aussi utiliser ce trinket vide [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) pour écrire leur propre code HTML & CSS, ou ils peuvent utiliser ce trinket modèle [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Des enfants peuvent aussi utiliser ce trinket vide [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) pour Ã©crire leur propre code HTML & CSS, ou ils peuvent utiliser ce trinket modÃ¨le [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-Il y a aussi un trinket contenant une solution d'exemple à tous les challenges :
+Il y a aussi un trinket contenant une solution d'exemple Ã  tous les challengesÂ :
 
-+ ['Sunrise' terminé](https://trinket.io/html/abcc0284a3)
++ ['Sunrise' terminÃ©](https://trinket.io/html/abcc0284a3)
 
 #Ressources hors ligne
-Ce projet peut être [terminé hors ligne](../offline.html) si désiré. Vous pouvez accéder aux ressources du projet en cliquant sur le lien 'Télécharger matériaux du projet' pour ce projet. Ce lien contient un dossier 'Ressources du projet', laquelle inclut des ressources dont les enfants auront besoin pour terminer ce projet en mode hors ligne. Assurez-vous que chaque enfant ait accès à une copie de ces ressources. Ce dossier inclut les fichiers suivants :
+Ce projet peut Ãªtre [terminÃ© hors ligne](../offline.html) si dÃ©sirÃ©. Vous pouvez accÃ©der aux ressources du projet en cliquant sur le lien 'TÃ©lÃ©charger matÃ©riaux du projet' pour ce projet. Ce lien contient un dossier 'Ressources du projet', laquelle inclut des ressources dont les enfants auront besoin pour terminer ce projet en mode hors ligne. Assurez-vous que chaque enfant ait accÃ¨s Ã  une copie de ces ressources. Ce dossier inclut les fichiers suivantsÂ :
 
 + template/index.html
 + template/prefix.js
@@ -32,7 +32,7 @@ Ce projet peut être [terminé hors ligne](../offline.html) si désiré. Vous pouvez
 + sunrise/rainbow.png
 + sunrise/sun.png
 
-Vous pouvez aussi trouver une version terminée des challenges de ce projet dans la section 'Ressources bénévoles', qui contient :
+Vous pouvez aussi trouver une version terminÃ©e des challenges de ce projet dans la section 'Ressources bÃ©nÃ©voles', qui contientÂ :
 
 + sunrise-finished/index.html
 + sunrise-finished/style.css
@@ -42,25 +42,25 @@ Vous pouvez aussi trouver une version terminée des challenges de ce projet dans 
 + sunrise-finished/rainbow.png
 
 #Objectifs d'apprentissage
-+ Stylisation et animation avec CSS :
-	+ Introduction de la règle `@keyframes` pour définir des étapes dans une animation.
-	+ Renforcement de l'utilisation des propriétés pour définir la taille, la forme, la position et la coupe des éléments d'une page Web.
++ Stylisation et animation avec CSSÂ :
+	+ Introduction de la rÃ¨gle `@keyframes` pour dÃ©finir des Ã©tapes dans une animation.
+	+ Renforcement de l'utilisation des propriÃ©tÃ©s pour dÃ©finir la taille, la forme, la position et la coupe des Ã©lÃ©ments d'une page Web.
 
-Ce projet couvre des éléments des composantes suivantes de [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ce projet couvre des Ã©lÃ©ments des composantes suivantes de [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 + [Conception de ressources 2D et 3D](https://www.raspberrypi.org/curriculum/design/creator).
 
 #Challenges
-+ "Animation diagonale" - modification de l'animation des propriétés `@keyframe` à utiliser à gauche :;
-+ "Améliorer le ciel" - ajouter plus d'images clés et paramétrage de l'arrière-plan:.
-+ "Plus d'animations" - animer plus d'images ou d'éléments en utilisant différentes propriétés CSS. 
++ "Animation diagonale" - modification de l'animation des propriÃ©tÃ©s `@keyframe` Ã  utiliser Ã  gaucheÂ :;
++ "AmÃ©liorer le ciel" - ajouter plus d'images clÃ©s et paramÃ©trage de l'arriÃ¨re-plan:.
++ "Plus d'animations" - animer plus d'images ou d'Ã©lÃ©ments en utilisant diffÃ©rentes propriÃ©tÃ©s CSS. 
 
-#Questions fréquemment posées
+#Questions frÃ©quemment posÃ©es
 
-+ Ce projet utilise la bibliothèque javascript `prefixfree.js` pour permettre une compatibilité des animations entre les navigateurs. Si cette bibliothèque n'est pas utilisée, alors les enfants utilisant des anciens navigateurs devront déclarer une animation pour leur navigateur, par exemple :
++ Ce projet utilise la bibliothÃ¨que javascript `prefixfree.js` pour permettre une compatibilitÃ© des animations entre les navigateurs. Si cette bibliothÃ¨que n'est pas utilisÃ©e, alors les enfants utilisant des anciens navigateurs devront dÃ©clarer une animation pour leur navigateur, par exempleÂ :
 
 ```
-animation: sky 10s infinite; 		  	// pour tous les navigateurs plus récents
+animation: sky 10s infinite; 		  	// pour tous les navigateurs plus rÃ©cents
 -webkit-animation: sky 10s infinite;  	// pour les navigateurs Webkit (Chrome, Safari...)
 -moz-animation: sky 10s infinite;     	// pour les navigateurs Mozilla
 -o-animation: sky 10s infinite;       	// pour les navigateurs Opera
