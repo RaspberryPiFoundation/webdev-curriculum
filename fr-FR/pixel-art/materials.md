@@ -1,49 +1,49 @@
 ---
-title: Pixel Art - Materials
+title: Pixel Art - Matériaux
 layout: project-materials
 project-resources:
   - url: pixel-project-resources.zip
-    type: file
-    description: .zip file containing all project resources
+    type: fichier
+    description: fichier .zip contenant toutes les ressources du projet
   - url: http://jumpto.cc/web-pixel
-    type: link
-    text: jumpto.cc/web-pixel
-    description: Online Trinket containing all 'Pixel Art' project resources
-  - url: http://jumpto.cc/trinket-template
-    type: link
-    text: jumpto.cc/trinket-template
-    description: Online Trinket template
+    type: lien
+    texte: jumpto.cc/web-pixel
+    description: Trinket en ligne contenant toutes les ressources du projet 'Pixel art'
+  - url: robot-project-resources.zip
+    type: lien
+    texte: jumpto.cc/trinket-template
+    description: Modèle de trinket en ligne
   - url: http://jumpto.cc/trinket-blank
-    type: link
-    text: jumpto.cc/trinket-blank
-    description: Online blank Trinket
+    type: lien
+    texte: jumpto.cc/trinket-blank
+    description: Trinket en ligne vide
   - url: template/index.html
-    type: file
+    type: fichier
   - url: template/style.css
-    type: file
+    type: fichier
   - url: intro/index.html
-    type: file
+    type: fichier
   - url: intro/style.css
-    type: file
+    type: fichier
   - url: pixel/index.html
-    type: file
+    type: fichier
   - url: pixel/style.css
-    type: file
+    type: fichier
   - url: pixel/script.js
-    type: file
+    type: fichier
   
 volunteer-resources:
   - url: pixel-volunteer-resources.zip
-    type: file
-    description: .zip file containing all completed project resources
+    type: fichier
+    description: fichier .zip contenant toutes les ressources du projet terminé
   - url: https://trinket.io/html/0e102a306b
-    type: link
-    text: trinket.io/html/0e102a306b
-    description: Online completed Trinket project
+    type: lien
+    texte: trinket.io/html/0e102a306b
+    description: Projet Trinket en ligne terminé
   - url: pixel-finished/index.html
-    type: file
+    type: fichier
   - url: pixel-finished/style.css
-    type: flie
+    type: fichier
   - url: pixel-finished/script.js
-    type: file
+    type: fichier
 ---

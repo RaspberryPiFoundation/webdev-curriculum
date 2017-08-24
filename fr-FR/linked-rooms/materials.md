@@ -1,34 +1,34 @@
 ---
-title: Linked Rooms - Materials
+title: Salons liés - Matériaux
 layout: project-materials
 project-resources:
   - url: rooms-project-resources.zip
-    type: file
-    description: .zip file containing all project resources
+    type: fichier
+    description: fichier .zip contenant toutes les ressources du projet
   - url: http://jumpto.cc/web-rooms
-    type: link
-    text: jumpto.cc/web-rooms
-    description: Online Trinket containing all 'Linked Rooms' project resources
-  - url: http://jumpto.cc/trinket-template
-    type: link
-    text: jumpto.cc/trinket-template
-    description: Online Trinket template
+    type: lien
+    texte: jumpto.cc/web-rooms
+    description: Trinket en ligne contenant toutes les ressources du projet 'Salons liés'
+  - url: robot-project-resources.zip
+    type: lien
+    texte: jumpto.cc/trinket-template
+    description: Modèle de trinket en ligne
   - url: http://jumpto.cc/trinket-blank
-    type: link
-    text: jumpto.cc/trinket-blank
-    description: Online blank Trinket
+    type: lien
+    texte: jumpto.cc/trinket-blank
+    description: Trinket en ligne vide
   - url: template/index.html
-    type: file
+    type: fichier
   - url: template/style.css
-    type: file
+    type: fichier
   - url: linked-rooms/index.html
-    type: file
+    type: fichier
   - url: linked-rooms/style.css
-    type: file
+    type: fichier
   - url: linked-rooms/tvroom.html
-    type: file
+    type: fichier
   - url: linked-rooms/tvroom.css
-    type: file
+    type: fichier
   - url: linked-rooms/wallpaper.png
     type: image
   - url: linked-rooms/space-invader.png
@@ -41,24 +41,24 @@ project-resources:
     type: image
 volunteer-resources:
   - url: rooms-volunteer-resources.zip
-    type: file
-    description: .zip file containing all completed project resources
+    type: fichier
+    description: fichier .zip contenant toutes les ressources du projet terminé
   - url: https://trinket.io/html/1d4d4c5ce1
-    type: link
-    text: trinket.io/html/1d4d4c5ce1
-    description: Online completed Trinket project
+    type: lien
+    texte: trinket.io/html/1d4d4c5ce1
+    description: Projet Trinket en ligne terminé
   - url: linked-rooms-finished/index.html
-    type: file
+    type: fichier
   - url: linked-rooms-finished/style.css
-    type: file
+    type: fichier
   - url: linked-rooms-finished/tvroom.html
-    type: file
+    type: fichier
   - url: linked-rooms-finished/tvroom.css
-    type: file
+    type: fichier
   - url: linked-rooms-finished/gamesroom.html
-    type: file
+    type: fichier
   - url: linked-rooms-finished/gamesroom.css
-    type: file
+    type: fichier
   - url: linked-rooms-finished/wallpaper.png
     type: image
   - url: linked-rooms-finished/space-invader.png

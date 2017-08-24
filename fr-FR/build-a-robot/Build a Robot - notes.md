@@ -1,59 +1,59 @@
 ---
-title: Build a Robot â€” Volunteer Notes
+title: Notes bénévoles Construire un robot
 ---
 
 #Introduction:
-In this project, children will learn about CSS positioning by building their own robot.
+Dans ce projet, les enfants apprendront le positionnement CSS en construisant leur propre robot.
 
-#Online Resources
+#Ressources en ligne
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
+Nous recommandons d'utiliser [trinket](https://trinket.io/) pour écrire du HTML & CSS en ligne. Ce projet contient les trinkets suivants :
 
-+ ['Build a Robot' starting point -- jumpto.cc/web-robot](http://jumpto.cc/web-robot)
++ [Point de départ 'Construire un robot' -- jumpto.cc/web-robot](http://jumpto.cc/web-robot)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Des enfants peuvent aussi utiliser ce trinket vide [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) pour écrire leur propre code HTML & CSS, ou ils peuvent utiliser ce trinket modèle [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-There is also a trinket containing a sample solution to the challenges:
+Il y a aussi un trinket contenant une solution d'exemple à tous les challenges :
 
-+ ['Build a Robot' Finished -- trinket.io/html/00736c0e18](https://trinket.io/html/00736c0e18)
++ ['Construire un robot' terminé -- trinket.io/html/00736c0e18](https://trinket.io/html/00736c0e18)
 
-#Offline Resources
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+#Ressources hors ligne
+Ce projet peut être [terminé hors ligne](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) si désiré. Vous pouvez accéder aux ressources du projet en cliquant sur le lien 'Matériaux du projet' pour ce projet. Ce lien contient une section 'Ressources du projet', laquelle inclut des ressources dont les enfants auront besoin pour terminer ce projet en mode hors ligne. Assurez-vous que chaque enfant ait accès à une copie de ces ressources. Cette section inclut les fichiers suivants :
 
 + template/index.html
 + template/style.css
 + robot/index.html
 + robot/style.css
-+ Lots of .png images
++ Beaucoup d'images .png
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+Vous pouvez aussi trouver une version terminée des challenges de ce projet dans la section 'Ressources bénévoles', qui contient :
 
 + robot-finished/index.html
 + robot-finished/style.css
-+ robot-finished/Lots of .png images
++ robot-finished/Beaucoup d'images .png
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Toutes les ressources ci-dessus sont aussi téléchargeables en tant que fichiers `.zip` bénévoles et projet.)
 
-#Learning Objectives
-+ HTML id attribute;
-+ Writing CSS:
-	+ `#` id selector;
-	+ position;
-	+ top;
-	+ left.
+#Objectifs d'apprentissage
++ attribut id HTML;
++ Écrire CSS:
+	+ sélecteur d'id `#`;
+	+ positionnement;
+	+ haut;
+	+ gauche.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ce projet couvre des éléments des composantes suivantes de [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
++ [Conception de ressources 2D et 3D](https://www.raspberrypi.org/curriculum/design/creator).
 
 #Challenges
-+ "Design your own robot" - applying CSS positioning to create a robot;
-+ "Add your own images" - adding more images, with an HTML id attribute and associated CSS.
++ "Concevez votre propre robot" - appliquer un positionnement CSS pour créer un robot;
++ "Ajoutez vos propres images" - ajouter plus d'images, avec un attribut id HTML et le CSS associé.
 
-#Completing this project offline
-If children are completing this project offline, theyâ€™ll need to save images they intend to use in the same folder as their `Robot.html` file.
+#Effectuer ce projet en mode hors ligne
+Si des enfants effectuent ce projet en mode hors ligne, ils devront enregistrer des images qu'ils ont l'intention d'utiliser dans le même dossier que leur fichier `Robot.html`.
 
-They can then just add the name of the file in their `<img>` tags:
+Ils peuvent alors simplement ajouter le nom du fichier dans leurs balises `<img>`.
 
 ```
 <img id="hat" src="hat.png" />

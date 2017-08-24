@@ -1,30 +1,30 @@
 ---
-title: Build a Robot - Materials
+title: Construire un robot - Matériaux
 layout: project-materials
 project-resources:
   - url: robot-project-resources.zip
-    type: file
-    description: .zip file containing all project resources
-  - url: http://jumpto.cc/web-robot
-    type: link
-    text: jumpto.cc/web-robot
-    description: Online Trinket containing all 'Build a Robot' project resources
-  - url: http://jumpto.cc/trinket-template
-    type: link
-    text: jumpto.cc/trinket-template
-    description: Online Trinket template
+    type: fichier
+    description: fichier .zip contenant toutes les ressources du projet
+  - url: robot-project-resources.zip
+    type: lien
+    texte: jumpto.cc/web-robot
+    description: Trinket en ligne contenant toutes les ressources du projet 'Construire un robot'
+  - url: robot-project-resources.zip
+    type: lien
+    texte: jumpto.cc/trinket-template
+    description: Modèle de trinket en ligne
   - url: http://jumpto.cc/trinket-blank
-    type: link
-    text: jumpto.cc/trinket-blank
-    description: Online blank Trinket
+    type: lien
+    texte: jumpto.cc/trinket-blank
+    description: Trinket en ligne vide
   - url: template/index.html
-    type: file
+    type: fichier
   - url: template/style.css
-    type: file
+    type: fichier
   - url: robot/index.html
-    type: file
+    type: fichier
   - url: robot/style.css
-    type: flie
+    type: fichier
   - url: robot/antenna.png
     type: image
   - url: robot/bird.png
@@ -76,17 +76,17 @@ project-resources:
   - url: robot/sunglasses.png
     type: image
 volunteer-resources:
-  - url: robot-volunteer-resources.zip
-    type: file
-    description: .zip file containing all completed project resources
+  - url: http://jumpto.cc/trinket-blank
+    type: fichier
+    description: fichier .zip contenant toutes les ressources du projet terminé
   - url: https://trinket.io/html/00736c0e18
-    type: link
-    text: trinket.io/html/00736c0e18
-    description: Online completed Trinket project
+    type: lien
+    texte: trinket.io/html/00736c0e18
+    description: Projet Trinket en ligne terminé
   - url: robot-finished/index.html
-    type: file
+    type: fichier
   - url: robot-finished/style.css
-    type: flie
+    type: fichier
   - url: robot-finished/antenna.png
     type: image
   - url: robot-finished/bird.png

@@ -1,36 +1,36 @@
 ---
-title: Stickers - Materials
+title: Stickers - Matériaux
 layout: project-materials
 project-resources:
   - url: stickers-project-resources.zip
-    type: file
-    description: .zip file containing all project resources
+    type: fichier
+    description: fichier .zip contenant toutes les ressources du projet
   - url: http://jumpto.cc/web-intro
-    type: link
-    text: jumpto.cc/web-intro
-    description: Online Trinket containing all 'Intro' project resources
+    type: lien
+    texte: jumpto.cc/web-intro
+    description: Trinket en ligne contenant toutes les ressources du projet 'Intro'
   - url: http://jumpto.cc/web-stickers
-    type: link
-    text: jumpto.cc/web-stickers
-    description: Online Trinket containing all 'Stickers' project resources
-  - url: http://jumpto.cc/trinket-template
-    type: link
-    text: jumpto.cc/trinket-template
-    description: Online Trinket template
+    type: lien
+    texte: jumpto.cc/web-stickers
+    description: Trinket en ligne contenant toutes les ressources du projet 'Stickers'
+  - url: robot-project-resources.zip
+    type: lien
+    texte: jumpto.cc/trinket-template
+    description: Modèle de trinket en ligne
   - url: http://jumpto.cc/trinket-blank
-    type: link
-    text: jumpto.cc/trinket-blank
-    description: Online blank Trinket
+    type: lien
+    texte: jumpto.cc/trinket-blank
+    description: Trinket en ligne vide
   - url: template/index.html
-    type: file
+    type: fichier
   - url: template/style.css
-    type: file
+    type: fichier
   - url: stickers/index.html
-    type: file
+    type: fichier
   - url: stickers/style.css
-    type: file
+    type: fichier
   - url: stickers/prefixfree.js
-    type: file
+    type: fichier
   - url: stickers/bluerobot.png
     type: image
   - url: stickers/firerobot.png
@@ -49,18 +49,18 @@ project-resources:
     type: image
 volunteer-resources:
   - url: stickers-volunteer-resources.zip
-    type: file
-    description: .zip file containing all completed project resources
+    type: fichier
+    description: fichier .zip contenant toutes les ressources du projet terminé
   - url: https://trinket.io/html/bb4e538e0a
-    type: link
-    text: trinket.io/html/bb4e538e0a
-    description: Online completed Trinket project
+    type: lien
+    texte: trinket.io/html/bb4e538e0a
+    description: Projet Trinket en ligne terminé
   - url: stickers-finished/index.html
-    type: file
+    type: fichier
   - url: stickers-finished/style.css
-    type: flie
+    type: fichier
   - url: stickers-finished/prefixfree.js
-    type: file
+    type: fichier
   - url: stickers-finished/bluerobot.png
     type: image
   - url: stickers-finished/firerobot.png

@@ -1,36 +1,36 @@
 ---
-title: Magazine - Materials
+title: Magazine - Matériaux
 layout: project-materials
 project-resources:
   - url: magazine-project-resources.zip
-    type: file
-    description: .zip file containing all project resources
+    type: fichier
+    description: fichier .zip contenant toutes les ressources du projet
   - url: http://jumpto.cc/web-magazine
-    type: link
-    text: jumpto.cc/web-magazine
-    description: Online Trinket containing all 'Magazine' project resources
-  - url: http://jumpto.cc/trinket-template
-    type: link
-    text: jumpto.cc/trinket-template
-    description: Online Trinket template
+    type: lien
+    texte: jumpto.cc/web-magazine
+    description: Trinket en ligne contenant toutes les ressources du projet 'Magazine'
+  - url: robot-project-resources.zip
+    type: lien
+    texte: jumpto.cc/trinket-template
+    description: Modèle de trinket en ligne
   - url: http://jumpto.cc/trinket-blank
-    type: link
-    text: jumpto.cc/trinket-blank
-    description: Online blank Trinket
+    type: lien
+    texte: jumpto.cc/trinket-blank
+    description: Trinket en ligne vide
   - url: template/index.html
-    type: file
+    type: fichier
   - url: template/style.css
-    type: file
+    type: fichier
   - url: intro/index.html
-    type: file
+    type: fichier
   - url: intro/style.css
-    type: file
+    type: fichier
   - url: magazine/index.html
-    type: file
+    type: fichier
   - url: magazine/style.css
-    type: file
+    type: fichier
   - url: magazine/script.js
-    type: file
+    type: fichier
   - url: magazine/kitten.jpg
     type: image
   - url: magazine/recipe-final.png
@@ -45,18 +45,18 @@ project-resources:
     type: image
 volunteer-resources:
   - url: magazine-volunteer-resources.zip
-    type: file
-    description: .zip file containing all completed project resources
+    type: fichier
+    description: fichier .zip contenant toutes les ressources du projet terminé
   - url: https://trinket.io/html/a41e4e1c5c
-    type: link
-    text: trinket.io/html/a41e4e1c5c
-    description: Online completed Trinket project
+    type: lien
+    texte: trinket.io/html/a41e4e1c5c
+    description: Projet Trinket en ligne terminé
   - url: magazine-finished/index.html
-    type: file
+    type: fichier
   - url: magazine-finished/style.css
-    type: flie
+    type: fichier
   - url: magazine-finished/script.js
-    type: file
+    type: fichier
   - url: magazine-finished/kitten.jpg
     type: image
   - url: magazine-finished/recipe-final.png

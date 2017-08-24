@@ -1,24 +1,24 @@
 ---
-title: Sunrise â€” Notes for Club Leaders
+title: Aurores â€” Notes pour les leaders du club
 ---
 
 #Introduction:
-In this project, children will to learn how to animate a simple scene using CSS. They will use the CSS @keyframes rule to animate various properties of images and divs.
+Dans ce projet, les enfants apprendront à animer une scène simple en utilisant CSS. Ils utiliseront la règle @keyframes en CSS pour animer différentes propriétés d'images et de divisions.
 
-#Online Resources
+#Ressources en ligne
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinkets:
+Nous recommandons d'utiliser [trinket](https://trinket.io/) pour écrire du HTML & CSS en ligne. Ce projet contient les trinkets suivants :
 
-+ ['Sunrise' starting point](https://trinket.io/html/web-sunrise)
++ [Point de départ 'Sunrise'](https://trinket.io/html/web-sunrise)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Des enfants peuvent aussi utiliser ce trinket vide [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) pour écrire leur propre code HTML & CSS, ou ils peuvent utiliser ce trinket modèle [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-There is also a trinket containing a sample solution to the challenges:
+Il y a aussi un trinket contenant une solution d'exemple à tous les challenges :
 
-+ ['Sunrise' Finished](https://trinket.io/html/abcc0284a3)
++ ['Sunrise' terminé](https://trinket.io/html/abcc0284a3)
 
-#Offline Resources
-This project can be [completed offline](../offline.html) if preferred. You can access the project resources by clicking the 'Download Project Materials' link for this project. This link contains a 'Project Resources' folder, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This folder includes the following files:
+#Ressources hors ligne
+Ce projet peut être [terminé hors ligne](../offline.html) si désiré. Vous pouvez accéder aux ressources du projet en cliquant sur le lien 'Télécharger matériaux du projet' pour ce projet. Ce lien contient un dossier 'Ressources du projet', laquelle inclut des ressources dont les enfants auront besoin pour terminer ce projet en mode hors ligne. Assurez-vous que chaque enfant ait accès à une copie de ces ressources. Ce dossier inclut les fichiers suivants :
 
 + template/index.html
 + template/prefix.js
@@ -32,7 +32,7 @@ This project can be [completed offline](../offline.html) if preferred. You can a
 + sunrise/rainbow.png
 + sunrise/sun.png
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+Vous pouvez aussi trouver une version terminée des challenges de ce projet dans la section 'Ressources bénévoles', qui contient :
 
 + sunrise-finished/index.html
 + sunrise-finished/style.css
@@ -41,28 +41,28 @@ You can also find a completed version of this project's challenges in the 'Volun
 + sunrise-finished/sun.png
 + sunrise-finished/rainbow.png
 
-#Learning Objectives
-+ Styling and animation with CSS:
-	+ Introducing `@keyframes` rule for defining steps in an animation.
-	+ Reinforcing the use of properties to define the size, shape, position and colour of elements on a webpage.
+#Objectifs d'apprentissage
++ Stylisation et animation avec CSS :
+	+ Introduction de la règle `@keyframes` pour définir des étapes dans une animation.
+	+ Renforcement de l'utilisation des propriétés pour définir la taille, la forme, la position et la coupe des éléments d'une page Web.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ce projet couvre des éléments des composantes suivantes de [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
++ [Conception de ressources 2D et 3D](https://www.raspberrypi.org/curriculum/design/creator).
 
 #Challenges
-+ "Diagonal animation" - editing animation `@keyframe` properties to use left:;
-+ "Improve the sky" - add more keyframes and setting background:.
-+ "More animation" - animate more images or elements using a variety of CSS properties. 
++ "Animation diagonale" - modification de l'animation des propriétés `@keyframe` à utiliser à gauche :;
++ "Améliorer le ciel" - ajouter plus d'images clés et paramétrage de l'arrière-plan:.
++ "Plus d'animations" - animer plus d'images ou d'éléments en utilisant différentes propriétés CSS. 
 
-#Frequently Asked Questions
+#Questions fréquemment posées
 
-+ This project makes use of the javascript `prefixfree.js` library, to allow animation compatibility between browsers. If this library isn't used, then children using older browsers will instead need to declare an animation for their browser, for example:
++ Ce projet utilise la bibliothèque javascript `prefixfree.js` pour permettre une compatibilité des animations entre les navigateurs. Si cette bibliothèque n'est pas utilisée, alors les enfants utilisant des anciens navigateurs devront déclarer une animation pour leur navigateur, par exemple :
 
 ```
-animation: sky 10s infinite; 		  	//for all newer browsers
--webkit-animation: sky 10s infinite;  	// For Webkit browsers(Chrome, Safari...)
--moz-animation: sky 10s infinite;     	// For Mozilla browsers
--o-animation: sky 10s infinite;       	// For Opera browsers
--ms-animation: sky 10s infinite;		// For Microsoft browsers 
+animation: sky 10s infinite; 		  	// pour tous les navigateurs plus récents
+-webkit-animation: sky 10s infinite;  	// pour les navigateurs Webkit (Chrome, Safari...)
+-moz-animation: sky 10s infinite;     	// pour les navigateurs Mozilla
+-o-animation: sky 10s infinite;       	// pour les navigateurs Opera
+-ms-animation: sky 10s infinite;		// pour les navigateurs Microsoft 
 ```

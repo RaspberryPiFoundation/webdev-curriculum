@@ -1,25 +1,25 @@
 ---
-title: Linked Rooms â€” Volunteer Notes
+title: Salons liés â€” Notes bénévoles
 ---
 
 #Introduction:
-In this project, children are introduced to multiple linked web pages in the same project each with their own CSS file. 
+Dans ce projet, de multiples pages Web liées sont présentées aux enfants dans le même projet avec chacune leur propre fichier CSS. 
 
 
-#Online Resources
+#Ressources en ligne
 
-We recommend using [trinket](https://trinket.io/) to write HTML & CSS online. This project contains the following trinket:
+Nous recommandons d'utiliser [trinket](https://trinket.io/) pour écrire du HTML & CSS en ligne. Ce projet contient le trinket suivant :
 
-+ ['Linked Rooms' starting point  -- jumpto.cc/web-rooms](http://jumpto.cc/web-rooms)
++ [Point de départ 'Salons liés'  -- jumpto.cc/web-rooms](http://jumpto.cc/web-rooms)
 
-Children can also make use of this blank trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) to write their own HTML & CSS, or alternatively they can use this template trinket [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
+Des enfants peuvent aussi utiliser ce trinket vide [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) pour écrire leur propre code HTML & CSS, ou ils peuvent utiliser ce trinket modèle [(jumpto.cc/html-template)](http://jumpto.cc/html-template).
 
-There is also a trinket containing a sample solution to the challenges:
+Il y a aussi un trinket contenant une solution d'exemple à tous les challenges :
 
-+ ['Linked Rooms Finished' -- https://trinket.io/html/ba5d27ec68](https://trinket.io/html/ba5d27ec68)
++ ['Salons liés terminés' -- https://trinket.io/html/ba5d27ec68](https://trinket.io/html/ba5d27ec68)
 
-#Offline Resources
-This project can be [completed offline](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) if preferred. You can access the project resources by clicking the 'Project Materials' link for this project. This link contains a 'Project Resources' section, which includes resources that children will need to complete this project offline. Make sure that each child has access to a copy of these resources. This section includes the following files:
+#Ressources hors ligne
+Ce projet peut être [terminé hors ligne](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/) si désiré. Vous pouvez accéder aux ressources du projet en cliquant sur le lien 'Matériaux du projet' pour ce projet. Ce lien contient une section 'Ressources du projet', laquelle inclut des ressources dont les enfants auront besoin pour terminer ce projet en mode hors ligne. Assurez-vous que chaque enfant ait accès à une copie de ces ressources. Cette section inclut les fichiers suivants :
 
 + linked-rooms/index.html
 + linked-rooms/style.css
@@ -29,7 +29,7 @@ This project can be [completed offline](https://www.codeclubprojects.org/en-GB/r
 + template/template.html
 + template/style.css
 
-You can also find a completed version of this project's challenges in the 'Volunteer Resources' section, which contains:
+Vous pouvez aussi trouver une version terminée des challenges de ce projet dans la section 'Ressources bénévoles', qui contient :
 
 + linked-rooms-finished/index.html
 + linked-rooms-finished/style.css
@@ -37,21 +37,21 @@ You can also find a completed version of this project's challenges in the 'Volun
 + linked-rooms-finished/prefixfree.js
 + linked-rooms-finished/4 x .png images
 
-(All of the resources above are also downloadable as project and volunteer `.zip` files.)
+(Toutes les ressources ci-dessus sont aussi téléchargeables en tant que fichiers `.zip` bénévoles et projet.)
 
-#Learning Objectives
-+ This project introduces projects with multiple html pages linked together
-+ Multiple CSS files are also introduced
+#Objectifs d'apprentissage
++ Ce projet présente des projets avec de multiples pages html liées entre elles
++ Plusieurs fichiers CSS sont aussi présentés
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ce projet couvre des éléments des composantes suivantes de [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator).
++ [Conception de ressources 2D et 3D](https://www.raspberrypi.org/curriculum/design/creator).
 
 #Challenges
-+ â€œAdd another linkâ€ - Add a link between pages in the same project;
-+ â€œStyle and link the Games Roomâ€ - Add a link and style a page with its own CSS file. 
-+ â€œAdd more doors!â€ - Use <div>s as clickable links
-+ "Add wallpaper to the Games Room" - Add a background image
-+ "Make it yours!" - Add more rooms using the skills learned
-+ "Add a key cursor" - A fun optional extra for those who complete the project
++ â€œAjouter un autre lienâ€ - Ajouter un lien entre des pages d'un même projet ;
++ â€œStyliser et lier le Salon de jeuxâ€ - Ajouter un lien et un style à une page avec son propre fichier CSS. 
++ â€œAjouter plus de portes!â€ - Utiliser <div> comme liens cliquables
++ "Ajouter un fond d'écran au Salon de jeux" - Ajouter un fond d'écran
++ "Personnalise-le !" - Ajouter plus de salons en mettant à profit les compétences apprises
++ "Ajouter un curseur clé" - Un extra facultatif et feu pour ceux qui ont terminé le projet
 

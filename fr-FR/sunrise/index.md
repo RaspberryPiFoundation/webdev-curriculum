@@ -1,13 +1,13 @@
 ---
-title: Sunrise
-description: Create an animated sunrise. 
+title: Lever de Soleil
+description: Créer un lever de soleil animé 
 layout: project
-notes: "Sunrise - notes.md"
+notes: Lever de soleil - matériaux
 ...
 
 # Introduction { .intro}
 
-In this project, you'll learn how to use CSS to create an animated sunrise.
+Dans ce projet, vous apprendrez à utiliser le CSS pour créer un lever de soleil animé.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/abcc0284a3?outputOnly=true&start=result" width="600" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -15,19 +15,19 @@ In this project, you'll learn how to use CSS to create an animated sunrise.
   <img src="images/sunrise-final.png">
 </div>
 
-# Step 1: Creating the sun { .activity}
+# Étape 1 : Créer le soleil { .activity}
 
-Let's start by adding an image for the sun and positioning it with some CSS.
+Commençons en ajoutant une image pour le soleil et en le positionnant avec un peu de CSS.
 
-## Activity Checklist { .check}
+## Liste de contrôle de l'activité { .check}
 
-+ Open this trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>. 
++ Ouvrez ce trinket : <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>. 
 
-    The project should look like this:
+    Le projet doit ressembler à ça :
 
 	![screenshot](images/sunrise-starter.png)
 
-+ Look inside the `body` of your `index.html` file and you'll find the the `div` elements for the sky and the sea.
++ Regardez à l'intérieur du `body` de votre fichier `index.html` et vous trouverez les éléments de `div` pour le ciel et la mer.
 
     ```
     <div id="sky">
@@ -37,36 +37,36 @@ Let's start by adding an image for the sun and positioning it with some CSS.
     </div>
     ```
 
-+ An image for the sun is already included in your project. 
++ Une image pour le soleil est déjà incluse dans votre projet. 
 
-    Add the image inside your sun `div` including an id so you can style it:
+    Ajoutez l'image à l'intérieur de la `div` soleil en incluant un id pour pouvoir y appliquer un style :
 
     ![screenshot](images/sunrise-sun-image.png)
 
-+ Whoa, the image is huge. Go to `style.css` and add the CSS to set the image height:
++ Whoa, l'image est grande. Allez dans `style.css` et ajoutez le CSS pour régler la hauteur de l'image :
 
     ![screenshot](images/sunrise-sun-height.png)
 
-    Note that the width is updated automatically to keep the proportions the same. 
+    Notez que la largeur est mise à jour automatiquement pour garder les mêmes proportions. 
 
-+ Finally, let's add some code to position the sun:
++ Enfin, ajoutons un peu de code pour positionner le soleil :
 
     ![screenshot](images/sunrise-sun-position.png)
 
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-# Step 2: Animating the sunrise { .activity}
+# Étape 2 : Animer le lever de soleil { .activity}
 
-To animate your sunrise, you need to define how the sun moves and how long it takes to rise.
+Pour animer votre lever de soleil, vous devez définir comment le soleil bouge et combien il met de temps à se lever.
 
-To do this you define a list of __key frames__. Each key frame defines the CSS properties of an element at a particular point in an animation. 
+Pour ce faire, vous devez définir une liste __images clés__. Chaque image clé définit les propriétés CSS d'un élément à un point spécifique de l'animation. 
 
-## Activity Checklist { .check}
+## Liste de contrôle de l'activité { .check}
 
-+ First, you need to use `@keyframes` to create a new animation called sunrise. 
++ D'abord, vous devez utiliser `@keyframes` pour créer une nouvelle animation appelée lever de soleil. 
 
-    Add this CSS code to the end of your `style.css` file:
+    Ajoutez ce code CSS à la fin de votre fichier `style.css` :
 
     ```
     @keyframes sunrise {
@@ -75,27 +75,27 @@ To do this you define a list of __key frames__. Each key frame defines the CSS p
     }
     ```
 
-    This code tells the sun where to position itself at the start (`0%`) and the end (`100%`) of the animation.
+    Ce code indique au soleil où se positionner au début (`0%`) et à la fin (`100%`)de l'animation.
 
-    Because the sun is inside the sky `div`, the `top` and `left` positions you give are within to the sky, with `top: 100%` being the bottom of the sky, and not the bottom of the webpage.
+    Puisque le soleil est à l'intérieur de la `div` ciel, les positions `top` et `left` que vous donnez sont comprises dans le ciel, avec `top : 100%` étant le bas du ciel, et non le bas de la page Web.
 
 
-+ Now that you have created a `sunrise` animation, you just need to tell your sun to use it! 
++ Maintenant que vous avez créé une animation `sunrise`, vous devez simplement dire à votre soleil de l'utiliser ! 
 
-    Add the highlighted code to your sun's CSS:
+    Ajoutez le code en surbrillance au CSS de votre soleil :
 
     ![screenshot](images/sunrise-sunrise.png)
 
-    This tells the sun to spend 10 seconds animating a sunrise.
+    Il indique à votre soleil de passer 10 secondes à animer un lever de soleil.
 
-+ To run the animation again in Trinket, just click **Autorun**. 
++ Pour lancer l'animation à nouveau dans Trinket, cliquez simplement sur **Autorun**. 
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-##Challenge: Diagonal animation {.challenge}
-Can you add code to your `sunrise` animation, to make your sun start at the bottom left of the sky and move diagonally to its position at roughly the top center?
+##Challenge: Animation diagonale {.challenge}
+Pouvez-vous ajouter du code à votre animation `sunrise` pour que votre soleil commence en bas à gauche du ciel et se déplace en diagonale par rapport à sa position pour se retrouver centré au sommet ?
 
-You can use the `left` property to do this, for example:
+Vous pouvez utiliser la propriété `left` pour le faire, par exemple :
 
 ```
 left: 40%;
@@ -103,16 +103,16 @@ left: 40%;
 
 ![screenshot](images/sunrise-left.png)
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
 
-# Step 3: Infinite animation { .activity}
+# Étape 3 : Animation infinie { .activity}
 
-Let's make the animation keep repeating forever.
+Faisons en sorte que l'animation se répète à l'infini.
 
-## Activity Checklist { .check}
+## Liste de contrôle de l'activité { .check}
 
-+ If you want the sun to rise and then set, just add more keyframes to your animation:
++ Si vous voulez que le soleil se lève puis se couche, ajoutez plus d'images clés à votre animation :
 
     ```
     @keyframes sunrise {
@@ -123,24 +123,24 @@ Let's make the animation keep repeating forever.
     }
     ```
 
-    This means that the animation starts and ends with the sun at the bottom of the sky, and stays at the top from 33% until 66% of the animation.
+    Cela signifie que l'animation commence et se termine avec le soleil au bas du ciel, et qu'il reste au sommet de 33 % à 66 % de l'animation.
 
-+ Now you just need to add the word `infinite` to the `#sun` animation to make it loop forever:
++ Maintenant, vous devez simplement ajouter le mot `infinite` à l'animation `#sun` pour qu'elle tourne en boucle à l'infini :
 
     ![screenshot](images/sunrise-infinite.png)
 
-+ Test out your animation. Does the sun keep rising and setting? 
++ Testez votre animation. Le soleil se lève-t-il et se couche-t-il en boucle ? 
 
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-# Step 4: Animating the sky { .activity}
+# Étape 4 : Animer le ciel { .activity}
 
-Animation isn't just for movement. Let's animate the sky to turn dark at night.
+L'animation n'est pas que pour les mouvements. Animons le ciel pour qu'il soit sombre la nuit.
 
-## Activity Checklist { .check}
+## Liste de contrôle de l'activité { .check}
 
-+ Add an animation called `sky` to your CSS:
++ Ajoutez une animation appelée  `sky` à votre CSS :
 
     ```
     @keyframes sky {
@@ -149,9 +149,9 @@ Animation isn't just for movement. Let's animate the sky to turn dark at night.
     }
     ```
 
-    Notice that this time you're animating the colour of the sky, and not the position.
+    Remarquez que cette fois vous animez la couleur du ciel, et non pas une position.
 
-+ Add code to your sky, to tell it to use your new animation:
++ Ajoutez du code à votre ciel pour lui dire d'utiliser votre nouvelle animation :
 
     ```
     animation: sky 10s;
@@ -159,38 +159,38 @@ Animation isn't just for movement. Let's animate the sky to turn dark at night.
 
     ![screenshot](images/sunrise-sky.png)
 
-+ Click **Autorun** to test your animation. 
++ Cliquez sur **Autorun** pour tester votre animation. 
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
 
-##Challenge: Improve the sky {.challenge}
+##Challenge: Améliorer le ciel {.challenge}
 
-Can you change the sky animation so that it matches the sun and stays blue during the day and returns to black as the sun sets. Make it loop forever too. 
+Pouvez-vous changer l'animation du ciel pour qu'il soit en phase avec le soleil, qu'il reste bleu durant la journée et qu'il devienne sombre lorsque le soleil se couche ? Faites en sorte qu'il s'agisse d'une boucle. 
 
 ![screenshot](images/sunrise-sky-challenge.png)
 
-##Challenge: More animation {.challenge}
+##Challenge: Plus d'animations {.challenge}
 
-Can you animate another image? You can animate the position, colour, shape, size, opacity (seethroughness) or anything else you can think of. Also try changing the amount of time your animations run for. 
+Pouvez-vous animer une autre image ? Vous pouvez animer la position, la couleur, la forme, la taille, l'opacité (seethroughness) ou tout ce à quoi vous pouvez penser. Essayez également de changer la durée de vos animations. 
 
-For each item you want to animate, you will need to:
+Pour chaque objet que vous souhaitez animer, il vous faudra :
 
-+ Include it in your HTML with an id
-+ Add a style for the id
-+ Create an @keyframes rule
-+ Use `animation:` in the style to use the animation you defined with @keyframes 
++ L'inclure dans votre HTML avec un id
++ Ajouter un style pour l'id
++ Créer une règle @keyframes
++ Utiliser `animation:` dans le style pour utiliser l'animation que vous avez définie avec @keyframes 
 
-Click on the image icon to see the images that are included in the project:
+Cliquez sur l'icône image pour voir les images qui sont incluses dans le projet :
 
 ![screenshot](images/sunrise-images.png)
 
-You can also upload your own images if you like. 
+Vous pouvez aussi mettre en ligne vos propres images si vous le souhaitez. 
 
-Don't forget you can put items in the sea as well as the sky:
+N'oubliez pas de placer les objets dans la mer ainsi que dans le ciel :
 
 ![screenshot](images/sunrise-boat.png)
 
-In the example the rainbow uses opacity for a fade effect:
+Dans l'exemple, l'arc-en-ciel utilise l'opacité pour obtenir un effet d'atténuation :
 
 ```
 @keyframes fade {
@@ -201,7 +201,7 @@ In the example the rainbow uses opacity for a fade effect:
 }
 ```
 
-The boat uses a negative starting position so that you can't see it for part of the animation:
+Le bateau utilise une position de départ négative pour que vous ne puissiez pas le voir pendant une partie de l'animation :
 
 ```
  @keyframes left-right {
@@ -210,4 +210,4 @@ The boat uses a negative starting position so that you can't see it for part of 
 }
 ```
 
-## Save Your Project {.save}
+## Enregistrez votre projet {.save}
