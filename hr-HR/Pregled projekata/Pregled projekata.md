@@ -1,7 +1,7 @@
 ---
 title: Pregled projekata
 level: HTML & CSS 1
-language:hr-HR
+language: hr-HR
 embeds: "*.png"
 materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
 stylesheet: web
