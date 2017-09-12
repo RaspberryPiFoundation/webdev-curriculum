@@ -1,0 +1,47 @@
+{
+    "description": false,
+    "id": "html_02",
+    "language": "uk-UA",
+    "number": 6,
+    "title": "HTML & CSS 2",
+    "category": "cat-html",
+    "projects":
+    [
+        {
+            "number": 1,
+            "beta": true,
+            "filename": "Build a Robot/Build a Robot.md",
+            "note": "Build a Robot/Build a Robot - notes.md"
+        },
+        {
+            "number": 2,
+            "beta": true,
+            "filename": "Stickers/Stickers.md",
+            "note": "Stickers/Stickers - notes.md"
+        },
+        {
+            "number": 3,
+            "beta": true,
+            "filename": "Sunrise/Sunrise.md",
+            "note": "Sunrise/Sunrise - notes.md"
+        },
+        {
+            "number": 4,
+            "beta": true,
+            "filename": "Linked Rooms/Linked Rooms.md",
+            "note": "Linked Rooms/Linked Rooms - notes.md"
+        },
+        {
+            "number": 5,
+            "beta": true,
+            "filename": "Magazine/Magazine.md",
+            "note": "Magazine/Magazine - notes.md"
+        },
+        {
+            "number": 6,
+            "beta": true,
+            "filename": "Pixel Art/Pixel Art.md",
+            "note": "Pixel Art/Pixel Art - notes.md"
+        }    
+    ]
+}

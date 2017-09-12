@@ -1,0 +1,47 @@
+{
+    "description": false,
+    "id": "html_01",
+    "language": "uk-UA",
+    "number": 5,
+    "title": "HTML & CSS 1",
+    "category": "cat-html",
+    "projects":
+    [
+        {
+            "number": 1,
+            "beta": true,
+            "filename": "Happy Birthday/Happy Birthday.md",
+            "note": "Happy Birthday/Happy Birthday - notes.md"
+        },
+        {
+            "number": 2,
+            "beta": true,
+            "filename": "Tell a Story/Tell a Story.md",
+            "note": "Tell a Story/Tell a Story - notes.md"
+        },
+        {
+            "number": 3,
+            "beta": true,
+            "filename": "Wanted/Wanted.md",
+            "note": "Wanted/Wanted - notes.md"
+        },
+        {
+            "number": 4,
+            "beta": true,
+            "filename": "Recipe/recipe.md",
+            "note": "Recipe/Recipe - notes.md"
+        },
+        {
+            "number": 5,
+            "beta": true,
+            "filename": "Mystery Letter/Mystery Letter.md",
+            "note": "Mystery Letter/Mystery Letter - notes.md"
+        },
+        {
+            "number": 6,
+            "beta": true,
+            "filename": "Project Showcase/Project Showcase.md",
+            "note": "Project Showcase/Project Showcase - notes.md"
+        }
+    ]
+}
