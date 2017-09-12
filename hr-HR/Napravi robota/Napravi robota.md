@@ -48,7 +48,7 @@ Klikom na karticu `style.css` otvori pripadajuću CSS datoteku. Primjećuješ li
 }
 ```
 
-Koristeći `#eyes1`, u CSS kôdu oblikovali smo sliku `eyes1`. Ako ti je draže možeš umjesto `#eyes1` koristiti `#eyes2` ili `#eyes3`. 
+Primijeti da smo, koristeći `#eyes1`, u CSS kôdu oblikovali samo sliku `eyes1`. Ako ti je draže možeš umjesto `#eyes1` koristiti `#eyes2` ili `#eyes3`. 
 
 ![screenshot](robot-eyes-width.png)
 
@@ -70,7 +70,7 @@ Taj CSS kôd govori pregledniku koliko daleko od vrha (top) ili lijevog ruba (le
 
 ![screenshot](robot-eyes-position2.png)
 
-Umjesto `top`  moguće je koristiti `bottom`. Na taj način kažemo pregledniku koliko daleko od __dna__ prozora  treba prikazati sliku. Isto tako umjesto `left` može se koristiti `right`.
+Umjesto `top`  moguće je koristiti `bottom`. Na taj način gažemo pregledniku koliko daleko od __dna__ prozora  treba prikazati sliku. Isto tako umjesto `left` može se koristiti `right`.
 
 # Korak 2: Usta { .activity}
 

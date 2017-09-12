@@ -12,43 +12,6 @@
             "beta": true,
             "filename": "Napravi robota/Napravi robota.md",
             "note": "Napravi robota/Napravi robota - bilješke.md"
-        },
-        {
-            "number": 2,
-            "beta": true,
-            "filename": "Naljepnice/Naljepnice.md",
-            "note": "Naljepnice/Naljepnice - bilješke.md"
-        },
-        {
-            "number": 3,
-            "beta": true,
-            "filename": "Izlazak sunca/Izlazak sunca.md",
-            "note": "Izlazak sunca/Izlazak sunca - bilješke.md"
-        },
-        {
-            "number": 4,
-            "beta": true,
-            "filename": "Povezane sobe/Povezane sobe.md",
-            "note": "Povezane sobe/Povezane sobe - bilješke.md"
-        },
-        {
-            "number": 5,
-            "beta": true,
-            "filename": "Časopis/Časopis.md",
-            "note": "Časopis/Časopis - bilješke.md"
-        },
-        {
-            "number": 6,
-            "beta": true,
-            "filename": "Crtanje pikselima/Crtanje pikselima.md",
-            "note": "Crtanje pikselima/Crtanje pikselima - bilješke.md"
-        }    
-    ],
-
-    "extras": [
-        {
-            "name": "Introduction to HTML & CSS",
-            "note": "extras/html-css.md"
         }
     ]
 }

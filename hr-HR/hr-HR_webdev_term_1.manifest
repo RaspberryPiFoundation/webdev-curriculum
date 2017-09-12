@@ -20,8 +20,6 @@
 
             "filename": "Ispričaj priču/Ispričaj priču.md",
             "note": "Ispričaj priču/Ispričaj priču - bilješke.md"
-            "filename": "Tell a Story/Tell a Story.md",
-            "note": "Tell a Story/Tell a Story - notes.md"
         },
         {
             "number": 3,
@@ -33,26 +31,19 @@
             "number": 4,
             "beta": true,
             "filename": "Recept/Recept.md",
-            "note": "Recept/Recept-notes.md"
+            "note": "Recept/Recept - bilješke.md"
         },
         {
             "number": 5,
             "beta": true,
             "filename": "Zagonetno pismo/Zagonetno pismo.md",
-            "note": "Zagonetno pismo/Zagonetno pismo - notes.md"
+            "note": "Zagonetno pismo/Zagonetno pismo - bilješke.md"
         },
         {
             "number": 6,
             "beta": true,
             "filename": "Pregled projekata/Pregled projekata.md",
             "note": "Pregled projekata/Pregled projekata - bilješke.md"
-        }
-    ],
-
-    "extras": [
-        {
-            "name": "Introduction to HTML & CSS",
-            "note": "extras/html-css.md"
         }
     ]
 }
