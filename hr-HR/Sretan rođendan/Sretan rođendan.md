@@ -30,7 +30,7 @@ HTML je  __HyperText Markup Language__, a njime se koristimo za izradu web stran
 	</iframe>
 </div>
 
-+ Kôd koji se naazi s lijeve strane Trinket sučelja je HTML. S desne strane prikazana je web stranica - rezultat HTML koda s lijeve strane.
++ Kôd koji se nalazi s lijeve strane Trinket sučelja je HTML. S desne strane prikazana je web stranica - rezultat HTML koda s lijeve strane.
 
 	HTML koristi oznake (tags) za izradu web stranica. Vidiš li HTML u osmom redu kôda?
 
@@ -62,7 +62,7 @@ HTML je  __HyperText Markup Language__, a njime se koristimo za izradu web stran
 
 + Zamijeni tekst prvog odlomka 'Hi. My name is Andy' s 'Pozdrav. Moje ime je Ivan'
 + Zamijeni tekst drugog odlomka 'I like running and riding my bike' s 'Volim trčati i voziti bicikl'.
-	Slobodno ime Marko zamijeni svojim imenom. Također zamijeni trčanje i vožnju biciklom aktivnosima koje voliš.
+	Slobodno ime Ivan zamijeni svojim imenom. Također zamijeni trčanje i vožnju biciklom aktivnosima koje voliš.
 
 + U slučaju pogreške promjene je moguće poništiti naredbom 'Reset' do koje se dolazi pomoću gumba s izbornicima (menu). Pokušaj!
 
