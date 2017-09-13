@@ -30,7 +30,7 @@ HTML je  __HyperText Markup Language__, a njime se koristimo za izradu web stran
 	</iframe>
 </div>
 
-+ Kôd koji se naazi s lijeve strane Trinket sučelja je HTML. S desne strane prikazana je web stranica - rezultat HTML koda s lijeve strane.
++ Kôd koji se nalazi s lijeve strane Trinket sučelja je HTML. S desne strane prikazana je web stranica - rezultat HTML koda s lijeve strane.
 
 	HTML koristi oznake (tags) za izradu web stranica. Vidiš li HTML u osmom redu kôda?
 
