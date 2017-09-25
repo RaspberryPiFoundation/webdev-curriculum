@@ -1,0 +1,35 @@
+body {
+  font-family: Impact;
+  background-color: black;
+  color: chartreuse;
+}
+
+.room {
+  position: relative;
+  height: 200px;
+  border: 1px solid chartreuse;
+  background-image: url(space-invader.png);
+}
+
+.roomname {
+  font-size: 30px;
+}
+
+.description {
+  padding: 10px;
+}
+
+#games2hall {
+  width: 50px;
+  height: 100px;
+  display: inline-block;
+  background-color: grey;
+  border: 10px ridge grey;
+  border-bottom: none;
+  padding: 10px;
+  color: chartreuse;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 10;
+}

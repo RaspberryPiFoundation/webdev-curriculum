@@ -1,0 +1,19 @@
+body {
+  font-family: Impact;
+  background-color: linen;
+}
+
+.roomname {
+  font-size: 30px;
+  text-align: center;
+}
+
+.room {
+  position: relative;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.description {
+  padding: 10px;
+}

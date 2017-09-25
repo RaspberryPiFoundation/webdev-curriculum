@@ -1,0 +1,179 @@
+﻿---
+제목: 생일 축하합니다
+난이도: HTML & CSS 1
+언어: ko-KR
+embeds: "*.png"
+materials: ["Club Leader Resources/*.*","Project Resources/*.*"]
+stylesheet: web
+...
+
+# 소개 { .intro}
+
+이 프로젝트에선 나만의 생일 카드를 만들어 보는 것으로 HTML & CSS 를 소개합니다
+
+<div class="trinket">
+  <iframe src="https://trinket.io/embed/html/e996dc0380?outputOnly=true&start=result" width="600" height="450" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+  <img src="birthday-final.png">
+</div>
+
+# 1 단계: HTML 이란? { .activity}
+
+HTML 은 __HyperText Markup Language__의 줄임 말이며 웹페이지를 만드는데 사용하는 언어입니다. 예시를 보죠!
+
+## 단계별 체크리스트 { .check}
+
++ 트링켓이란 웹사이트를 사용하여 HTML을 써볼 것입니다. 이 트링켓을 여세요: <a href="http://jumpto.cc/web-intro" target="_blank">jumpto.cc/web-intro</a>. 만약 온라인으로 읽고 있다면 아래의 embedded 된 트링켓을 사용할 수 있습니다.
+
+<div class="trinket">
+	<iframe src="https://trinket.io/embed/html/850a678202" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+	</iframe>
+</div>
+
++ 트링켓 왼쪽에 보이는 코드가 HTML입니다. 오른쪽으론 HTML코드로 만들어진 웹사이트를 볼 수 있습니다.
+
+	HTML 은 __태그__ 를 이용하여 웹페이지를 만듭니다. 다음 HTML을 코드 8번째 줄에서 볼 수 있나요?
+
+	```
+	<p>Hi. My name is Andy.</p>
+	```
+
+	`<p>` 는 태그의 예이며  __paragraph__의 줄임 말입니다. `<p>` 로 문단을 시작하고 `</p>`로 문단을 끝낼 수 있습니다.
+
++ 다른 태그를 찾아볼 수 있나요? 찾을 수 있는 다른 태그 중 하나는 9번째 줄의 `<b>`이며  __bold__의 줄임 말입니다:
+
+	```
+	<b>running</b>
+	```
+
+	더 많은 예시들입니다:
+
+	+ `<html>` 과 `</html>` 은 HTML 문서의 시작과 끝을 표기합니다;
+	+ `<head>` 와 `</head>` 은 CSS가 들어가는 곳입니다 (나중에 알려드립니다!);
+	+ `<body>` 와`</body>` 는 웹사이트의 콘텐츠가 들어가는 곳입니다.
+
+	![screenshot](birthday-head-body.png)
+
++ HTML(왼쪽)의 문단 중 하나를 수정하고 'Run'을 클릭하면 웹페이지(오른쪽의)가 바뀌는 걸 볼 수 있습니다!
+
+	![screenshot](birthday-edit-html.png)
+
++ 만약 실수를 해서 수정한걸 취소하고 싶다면 메뉴 버튼을 클릭하고 'Reset'을 누르면 됩니다. 시도해 보세요!
+
+	![screenshot](birthday-reset.png)
+
+## 프로젝트 저장하기 {.save}
+
+__프로젝트를 저장하는데 트링켓 계정은 필요하지 않습니다!__ 
+
+트링켓 계정이 없다면 아래 화살표를 클릭하고 'Link'를 클릭하세요. 이걸로 나중에 돌아올 수 있는 링크를 받을 수 있습니다. 변경하면 링크가 바뀌니 변경할 때마다 링크를 받아야 합니다!
+
+![screenshot](birthday-link.png)
+
+만약 트링켓 계정이 있다면 웹페이지를 저장하는 가장 간단한 방법은 트링켓 위쪽의 'Remix' 누르는 것입니다. 이걸로 프로파일에 트링켓의 복사본이 저장됩니다.
+
+![screenshot](birthday-remix.png)
+
+##도전과제: 문단 추가하기 {.challenge}
+다른 두 문단 아래에 세번째 문단을 추가할 수 있겠 나요? 새 문단은 `<p>` 태그로 시작하고 `</p>`태그로 끝난다는 것을 잊지 마세요.
+
+웹페이지는 이제 이렇게 보여야 합니다:
+
+![screenshot](birthday-paragraph.png)
+
+__bold__ 와 <u>underlined</u> 된 텍스트를 새 문단에 더할 수 있겠 나요? 밑줄 친 텍스트엔 `<u>` 와 `</u>` 를 써야합니다.
+
+## 프로젝트를 저장하세요 {.save}
+
+# 2 단계: CSS 란? { .activity}
+
+CSS 는 __Cascading Style Sheets__의 줄임 말이며 웹페이지를 멋지게 보이게 스타일 하는데 사용되는 언어입니다.  HTML 문서의 `<head>` 로 웹페이지를 CSS파일로 이렇게 링크할 수 있습니다:
+
+![screenshot](birthday-css-link.png)
+
+## 단계별 체크리스트 { .check}
+
++ CSS는 지정 태그의 모든 __속성__을 리스트 합니다. 'style.css' 탭을 클릭해서 웹페이지의 CSS를 확인해보세요.
+
+	![screenshot](birthday-css-tab.png)
+
++ 이 코드를 찾으세요:
+
+	```
+	p {
+		color: black;
+	}
+	```
+
+	이 CSS코드는 문단에 텍스트 색이 검은색이어야 한다는 문단의 한 속성을 보여줍니다.
+
++ CSS의 'black' 이란 단어를 'blue'로 바꿔보세요. 문단의 모든 텍스트색이 파란색으로 바뀐 걸 볼 수 있을 겁니다.
+
+	![screenshot](birthday-edit-css.png)
+
+## 프로젝트를 저장하세요 {.save}
+
+##도전과제: 스타일 더하기 {.challenge}
+문단의 텍스트 색을 주황색으로 바꾸거나 배경색을 회색으로 바꿀 수 있겠 나요?
+
+![screenshot](birthday-more-style.png)
+
+## 프로젝트를 저장하세요 {.save}
+
+# 3단계: 생일 카드 만들기 { .activity}
+
+지금까지 HTML 고 CSS 에 대해 배워온 것들을 사용해 나만의 생일 카드를 만들어 봅시다.
+
+## 단계별 체크리스트 { .check}
+
++ 이 트링켓을 열거나: <a href="http://jumpto.cc/web-card" target="_blank">jumpto.cc/web-card</a>, 온라인에서 읽고 있다면 아래의 embedded 된 트링켓을 사용하세요.
+
+<div class="trinket">
+	<iframe src="https://trinket.io/embed/html/90506676c9" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+	</iframe>
+</div>
+
+코드 전부를 이해하지 않고 있더라도 걱정하지 마세요. 이 생일 카드는 재미 없어 보이니 HTML 과 CSS 수정을 가해보죠.
+
++ 카드 앞의 버튼을 누르면 열려서 안의 내용이 보일 것입니다.
+
+	![screenshot](birthday-click.png)
+
++ 코드의 13번째 줄로 간 후 이전 예처럼 HTML의 어떤 텍스트도 수정해서 바꿀 수 있습니다.
+
+	![screenshot](birthday-card-html.png)
+
++ 로봇 이미지의 HTML을 찾을 수 있겠 나요? (힌트: 16번째 줄에 있습니다!) `robot` 이란 단어를 `sun`으로 바꾸면 이미지가 바뀌는 걸 확인할 수 있습니다!
+
+	![screenshot](birthday-card-sun.png)
+
+	다음 중 어떤 단어를 사용해도 됩니다:  `boy`, `diamond`, `dinosaur`, `flowers`, `girl`, `rainbow`, `robot`, `spaceship`, `sun`, `tea`, `trophy`.
+
++ 또한 생일 카드의 CSS를 수정할 수 있습니다. "style.css” 탭을 클릭하세요. 카드 '바깥쪽'의 CSS로 시작합니다  `background-color` 를 `lightgreen`으로 바꿔보세요.
+
+	![screenshot](birthday-card-outside.png)
+
++ 또한 이미지의 크기를 바꿀 수도 있습니다. CSS의 29 번째 줄로 간 후 바깥쪽 이미지의 `width` 와 `height` 을 `200px` 로 바꾸세요(`px` 는 픽셀의 줄임 말입니다).
+
+	![screenshot](birthday-card-size.png)	
+
++ 폰트 또한 바꿀 수 있습니다. 24번째 줄로 간 후 `font-family` 를 `Comic Sans MS`로 바꾸고  `font-size` 를 `16pt`로 바꿔보세요.
+
+	![screenshot](birthday-card-font.png)
+
+	다음 폰트를 사용할 수도 있습니다:<span style="font-family: Arial;">arial</span>, <span style="font-family: impact;">Impact</span> 와 <span style="font-family: tahoma;">Tahoma</span>. 
+
+## 프로젝트를 저장하세요 {.save}
+
+##도전과제: 나만의 카드 만들기 {.challenge}
+지금까지 HTML 과 CSS 에 관해 배워온 것들을 활용해 나만의 카드를 만들어보세요. 생일 뿐만이 아니라 어떤 기념일을 위한 카드라도 괜찮습니다!
+
+예시입니다:
+
+![screenshot](birthday-final.png)
+
+## 프로젝트를 저장하세요 {.save}
+
+이제 카드를 완성하셨으니 다른 사람에게 직접 주거나 이메일로 보내 볼 수 잇습니다..
+
+![screenshot](birthday-share.png)

@@ -1,0 +1,85 @@
+span
+{
+	display: inline-block; 
+	margin: 8px; 
+	box-shadow: 1px 2px 2px grey; 
+}
+
+body {
+ 	background-color: white;
+	padding: 30px;
+	max-width: 450px;
+	margin: auto;
+}
+
+.newspaper {
+	background-color: antiquewhite;
+	font-family: "Times New Roman";
+	font-weight: bold;
+}
+
+.magazine1  {
+ 	background-color: teal;
+ 	color:white;
+ 	font-family: Verdana;
+	font-weight: 900;
+	text-transform: uppercase; 
+}
+
+.magazine2 {
+	background-image: url('pink-pattern.png');
+  	color: fuchsia;
+  	font-family: Verdana;
+	font-weight: 900;
+}
+
+.comic {
+ 	background-color: yellow;
+  	color: red;
+  	font-weight: bold;
+}
+
+.manuscript {
+	background-image: url('rough-paper.png');
+	color: saddlebrown;
+	font-family: 'Italianno', cursive;
+	font-style: italic;
+}
+
+.printout {
+	background-image: url('computer-printout-paper.png');
+	color: black;
+	font-family: 'VT323', sans-serif;
+	font-size: larger;
+}
+
+.medium {
+	font-size: 15px;
+	padding: 6px;
+}
+
+.big {
+	font-size: 20px;
+	padding: 8px;
+}
+
+.reallybig {
+	font-size: 30px;
+	padding: 10px;
+}
+
+.rotateleft {
+	transform: rotate(-5deg);
+}
+
+.rotateright {
+	transform: rotate(5deg);
+}
+
+.skewleft {
+	transform: skewX(10deg);
+}
+
+.skewright {
+	transform: skewX(-10deg);
+}

@@ -1,0 +1,42 @@
+img {
+  width: 50px;
+}
+#face {
+  width: 400px;
+}
+#eyes1 {
+  width: 200px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+#nose1 {
+  width: 50px;
+  position: absolute;
+  top: 250px;
+  left: 170px;
+}      
+#mouth1 {
+  width: 100px;
+  position: absolute;
+  top: 330px;
+  left: 150px;
+}
+#hat {
+  width: 300px;
+  position: absolute;
+  top: 0px;
+  left: 60px;
+}
+#bowtie {
+  width: 150px;
+  position: absolute;
+  top: 380px;
+  left: 120px;        
+}
+#bird {
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  left: 240px;
+}
