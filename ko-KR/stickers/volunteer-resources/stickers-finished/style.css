@@ -1,0 +1,136 @@
+body {
+   background: white;
+}
+
+.sticker {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+}
+
+#coding {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  font-family: "Courier New";
+  background: linear-gradient(red, magenta);
+  padding: 50px 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#web {
+  font-size: 40px;
+  font-family: Impact;
+  text-shadow: 2px 2px grey;
+  background: radial-gradient(yellow, orange, red);
+  padding: 30px;
+  border-radius: 100px;
+}
+
+#save {
+  font-size: 40px;
+  color: white;
+  background: linear-gradient(green, yellow, orange, red, purple, blue);
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#purplerobot {
+ background: radial-gradient(gray, purple);
+ padding: 15px;
+ border-radius: 150px;
+}
+
+#bluerobot {
+ background: linear-gradient(white, blue);
+ padding: 15px;
+ border-radius: 15px;
+}
+
+#greenrobot {
+  background: linear-gradient(to right, green, yellow);
+  border-radius: 20px;
+  border: 5px solid black;
+  position: relative;
+}
+
+#greentext {
+  font-size: 30px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+#firerobot {
+  background: linear-gradient(to bottom left, white, yellow, tomato);
+  border: 10px dashed tomato;
+  outline: 4px solid tomato;
+  outline-offset: 2px;
+  position: relative;
+}
+
+#firetext {
+  font-size: 30px;
+  font-family: Impact;
+  position: absolute;
+  bottom: 60px;
+  left: 10px;
+  transform: rotate(-15deg);
+}
+
+#dogrobot {
+  background: linear-gradient(to top right, turquoise, white, dodgerblue);
+  border-radius: 20px;
+  padding: 10px;
+  border: 10px solid turquoise;
+  position: relative;
+}
+
+#dogtext {
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  color: yellow;
+  bottom: 50px;
+  left: 10px;
+  transform: rotate(15deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

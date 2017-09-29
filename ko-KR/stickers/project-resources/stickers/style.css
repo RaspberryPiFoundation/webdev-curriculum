@@ -1,0 +1,11 @@
+body {
+   background: white;
+}
+
+.sticker {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 5px;
+}
+

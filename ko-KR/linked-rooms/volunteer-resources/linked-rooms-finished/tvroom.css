@@ -1,0 +1,47 @@
+body {
+  font-family: Impact;
+  background-color: white;
+  color: black;
+}
+
+.room {
+  position: relative;
+  height: 200px;
+  border: 1px solid black;
+  background-image: url(stripes.png);
+}
+
+.roomname {
+  font-size: 30px;
+}
+
+.description {
+  padding: 10px;
+}
+
+#tv2hall {
+  width: 50px;
+  height: 100px;
+  display: inline-block;
+  background-color: burlywood;
+  margin: 10px 10px 0 10px;
+  border: 10px ridge burlywood;
+  border-bottom: none;
+  text-align: center;
+  color: black;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#tv {
+  position: absolute;
+  width: 200px;
+  height:100px;
+  left: 120px;
+  top: 30px;
+  background-color: black;
+  border: solid grey 8px;
+  border-bottom: solid grey 15px;
+}
+
