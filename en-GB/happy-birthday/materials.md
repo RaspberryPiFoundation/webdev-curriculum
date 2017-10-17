@@ -39,17 +39,31 @@ project-resources:
     type: file
   - url: birthday-card/boy.png
     type: image
+  - url: birthday-card/cracker.png
+    type: image
   - url: birthday-card/diamond.png
     type: image
   - url: birthday-card/dinosaur.png
+    type: image
+  - url: birthday-card/elf.png
     type: image
   - url: birthday-card/flowers.png
     type: image
   - url: birthday-card/girl.png
     type: image
+  - url: birthday-card/penguin.png
+    type: image
+  - url: birthday-card/present.png
+    type: image
   - url: birthday-card/rainbow.png
     type: image
+  - url: birthday-card/reindeer.png
+    type: image
   - url: birthday-card/robot.png
+    type: image
+  - url: birthday-card/santa.png
+    type: image
+  - url: birthday-card/snowman.png
     type: image
   - url: birthday-card/spaceship.png
     type: image
