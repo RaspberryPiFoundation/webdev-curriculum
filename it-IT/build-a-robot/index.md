@@ -1,6 +1,6 @@
 ---
 title: Costruire un robot
-description: Impara a posizionare le immagini per costruire il tuo robot.
+description: "Impara a posizionare le immagini per costruire il tuo robot."
 layout: project
 notes: "Build a Robot - notes.md"
 ---
@@ -108,4 +108,4 @@ Riusciresti a trovare altre immagini da aggiungere al robot posizionandole sulla
 <img id="face" src="myFace.png">
 ```
 
-## Salva il progetto {.save} 
+## Salva il progetto {.save}

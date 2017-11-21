@@ -1,6 +1,6 @@
 ---
 title: Sorgere del sole
-description: Crea l'animazione del sorgere del sole. 
+description: "Crea l'animazione del sorgere del sole." 
 layout: project
 notes: "Sunrise - notes.md"
 ...
@@ -17,11 +17,11 @@ In questo progetto, imparerai a usare il CSS per creare l'animazione del sorgere
 
 # Passo 1: Creazione del sole { .activity}
 
-Iniziamo aggiungendo un'immagine del sole e posizionandola con il CSS. 
+Iniziamo aggiungendo un'immagine del sole e posizionandola con il CSS.
 
 ## Lista di controllo delle attività { .check}
 
-+ Apri questo trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>. 
++ Apri questo trinket: <a href="http://jumpto.cc/web-sunrise" target="_blank">jumpto.cc/web-sunrise</a>.
 
     Il progetto dovrebbe avere questo aspetto:
 
@@ -32,12 +32,12 @@ Iniziamo aggiungendo un'immagine del sole e posizionandola con il CSS.
     ```
     <div id="sky">
     </div>
-    
+
     <div id="sea">
     </div>
     ```
 
-+ Un'immagine del sole è già inclusa nel progetto. 
++ Un'immagine del sole è già inclusa nel progetto.
 
     Aggiungi l'immagine del `div` del sole includendo un id in modo da applicare uno stile:
 
@@ -47,7 +47,7 @@ Iniziamo aggiungendo un'immagine del sole e posizionandola con il CSS.
 
     ![screenshot](images/sunrise-sun-height.png)
 
-    Nota che l'altezza è aggiornata automaticamente per mantenere le stesse proporzioni. 
+    Nota che l'altezza è aggiornata automaticamente per mantenere le stesse proporzioni.
 
 + Infine, aggiungiamo il codice per posizionare il sole:
 
@@ -60,11 +60,11 @@ Iniziamo aggiungendo un'immagine del sole e posizionandola con il CSS.
 
 Per animare il sorgere del sole, è necessario definire come si sposta e il tempo impiegato.
 
-per farlo, è necessario definire un elenco di __key frames__. Ogni key frame (fotogramma chiave) definisce le proprietà CSS di un elemento in un punto particolare dell'animazione. 
+per farlo, è necessario definire un elenco di __key frames__. Ogni key frame (fotogramma chiave) definisce le proprietà CSS di un elemento in un punto particolare dell'animazione.
 
 ## Lista di controllo delle attività { .check}
 
-+ Anzitutto è necessario usare `@keyframes` per creare una nuova animazione denominata sorgere del sole. 
++ Anzitutto è necessario usare `@keyframes` per creare una nuova animazione denominata sorgere del sole.
 
     Aggiungi questo codice CSS al termine del file `style.css`:
 
@@ -80,7 +80,7 @@ per farlo, è necessario definire un elenco di __key frames__. Ogni key frame (f
     Dal momento che il sole è nel cielo`div`, le posizioni `top` (alto) e `left` (sinistra) date da te si trovano nel cielo, in cui `top: 100%` indica il fondo del cielo, e non della pagina web.
 
 
-+Ora che hai creato l'animazione `sunrise` non ti rimane che dire al sole di usarla! 
++Ora che hai creato l'animazione `sunrise` non ti rimane che dire al sole di usarla!
 
     Aggiungi il codice evidenziato al CSS del tuo sole:
 
@@ -88,7 +88,7 @@ per farlo, è necessario definire un elenco di __key frames__. Ogni key frame (f
 
     In questo modo dici al sole di impiegare 10 secondi per l'animazione.
 
-+ Per eseguire nuovamente l'animazione nel Trinket, fai clic su **Autorun**. 
++ Per eseguire nuovamente l'animazione nel Trinket, fai clic su **Autorun**.
 
 ## Salva il progetto {.save}
 
@@ -130,7 +130,7 @@ Facciamo in modo che l'animazione si ripeta all'infinito.
 
     ![screenshot](images/sunrise-infinite.png)
 
-+ Fai un test della tua animazione. Il sole continua a sorgere e tramontare? 
++ Fai un test della tua animazione. Il sole continua a sorgere e tramontare?
 
 
 ## Salva il progetto {.save}
@@ -160,32 +160,32 @@ L'animazione non riguarda solo il movimento. Facciamo in modo che il cielo diven
 
     ![screenshot](images/sunrise-sky.png)
 
-+ Fai clic su **Autorun** per provare l'animazione. 
++ Fai clic su **Autorun** per provare l'animazione.
 
 ## Salva il progetto {.save}
 
 ##Sfida: Migliora il cielo {.challenge}
 
-Puoi cambiare l'animazione del cielo in modo che corrisponda al sole e rimanga azzurro durante il giorno e diventi scuro al tramonto. Fai in modo che si ripeta all'infinito. 
+Puoi cambiare l'animazione del cielo in modo che corrisponda al sole e rimanga azzurro durante il giorno e diventi scuro al tramonto. Fai in modo che si ripeta all'infinito.
 
 ![screenshot](images/sunrise-sky-challenge.png)
 
 ##Sfida: Altre animazioni {.challenge}
 
-Riesci ad animare un'altra immagine? Puoi animare la posizione, il colore, la forma, le dimensioni, l'opacità (la possibilità di vedere attraverso) o qualsiasi altra cosa ti venga in mente. Puoi anche provare a cambiare la quantità di tempo in cui le animazioni vengono eseguite. 
+Riesci ad animare un'altra immagine? Puoi animare la posizione, il colore, la forma, le dimensioni, l'opacità (la possibilità di vedere attraverso) o qualsiasi altra cosa ti venga in mente. Puoi anche provare a cambiare la quantità di tempo in cui le animazioni vengono eseguite.
 
 Per ciascun elemento che vuoi animare, dovrai:
 
 + Includerlo nell'HTML con un id
 + Aggiungere uno stile per l'id
 + Creare una regola @keyframes
-+ Usare `animation:` nello stile per usare l'animazione definita con @keyframes 
++ Usare `animation:` nello stile per usare l'animazione definita con @keyframes
 
 Fare clic sull'icona dell'immagine per vedere le immagini incluse nel progetto:
 
 ![screenshot](images/sunrise-images.png)
 
-Puoi anche caricare una tua immagine, se vuoi. 
+Puoi anche caricare una tua immagine, se vuoi.
 
 Non dimenticare che puoi inserire elementi nel mare e nel cielo:
 

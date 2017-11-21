@@ -1,6 +1,6 @@
 ---
 title: Ricetta
-description: Crea una pagina web della tua ricetta preferita, in modo che i tuoi amici possano realizzarla!
+description: "Crea una pagina web della tua ricetta preferita, in modo che i tuoi amici possano realizzarla!"
 layout: project
 notes: "Recipe - notes.md"
 ---

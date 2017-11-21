@@ -1,6 +1,6 @@
 ---
 title: Ricercato!
-description: Impara a creare il tuo poster.
+description: "Impara a creare il tuo poster."
 layout: project
 notes: "Wanted - notes.md"
 ---
@@ -17,10 +17,10 @@ Iniziamo a modificare il codice CSS del poster.
 
 ## Lista di controllo delle attività { .check}
 
-+ Apri questo trinket: <a href="http://jumpto.cc/web-wanted" target="_blank">jumpto.cc/web-wanted</a>. 
++ Apri questo trinket: <a href="http://jumpto.cc/web-wanted" target="_blank">jumpto.cc/web-wanted</a>.
 
 	Il progetto dovrebbe apparire così:
-	
+
 	![screenshot](images/wanted-starter.png)
 
 + Clicca sul tab "style.css". Noterai che ci sono già proprietà CSS per il 'div' contenente le diverse parti del poster.
@@ -31,7 +31,7 @@ Iniziamo a modificare il codice CSS del poster.
 	    overflow: hidden;
 	    border: 2px solid black;
 	    width: 300px;
-    }	
+    }
 	```
 
 + Iniziamo ad alterare la proprietà 'text-align' (allineamento del testo):
@@ -39,7 +39,7 @@ Iniziamo a modificare il codice CSS del poster.
 	```
 	text-align: center;
 	```
-	
+
 	Che succede quando cambi la parola 'center' (centro) a 'left' (sinistra) o 'right' (destra)?
 
 + E la proprietà 'border' (bordo)?
@@ -185,7 +185,7 @@ Miglioriamo lo stile dell'intestazione `<h1>`.
 	```
 
 ## Sfida: Rendi bellissimo il tuo poster! {.challenge}
-Aggiungi altri codici CSS per personalizzare le intestazioni `<h3>` e i paragrafi. 
+Aggiungi altri codici CSS per personalizzare le intestazioni `<h3>` e i paragrafi.
 
 ![screenshot](images/wanted-final.png)
 

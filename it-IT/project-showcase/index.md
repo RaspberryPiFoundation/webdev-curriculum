@@ -1,13 +1,13 @@
 ---
 title: Presentazione dei progetti
-description: Crea una presentazione dei tuoi progetti web
+description: "Crea una presentazione dei tuoi progetti web"
 layout: project
 notes: "Project Showcase - notes.md"
 ---
 
 # Introduzione {.activity}
 
-In questo progetto creerai una presentazione dei tuoi progetti in HTML e imparerai cosa sono i link e come inserire risorse. 
+In questo progetto creerai una presentazione dei tuoi progetti in HTML e imparerai cosa sono i link e come inserire risorse.
 
 ![screenshot](images/showcase-intro.png)
 
@@ -17,17 +17,17 @@ I link di testo ti permettono di fare clic su alcune parole che ti porteranno su
 
 ## Lista di controllo delle attività { .check}
 
-+ Apri questo trinket: <a href="https://jumpto.cc/web-showcase">jumpto.cc/web-showcase</a>. 
++ Apri questo trinket: <a href="https://jumpto.cc/web-showcase">jumpto.cc/web-showcase</a>.
 
 	Il progetto dovrebbe avere questo aspetto:
 
 	![screenshot](images/showcase-starter.png)
 
-+ HTML utilizza il tag `<a>` per i link. 
++ HTML utilizza il tag `<a>` per i link.
 
 ![screenshot](images/showcase-link.png)
 
-+ Cerca il tag `<a>` nel tuo progetto. 
++ Cerca il tag `<a>` nel tuo progetto.
 
 ![screenshot](images/showcase-a-template.png)
 
@@ -44,13 +44,13 @@ I link di testo ti permettono di fare clic su alcune parole che ti porteranno su
 
 ![screenshot](images/showcase-cc-website.png)
 
-+ Per tornare alla pagina hai diverse opzioni: 
++ Per tornare alla pagina hai diverse opzioni:
 
 	+ Esegui il trinket di nuovo,
 
 	+ Premi il tasto Backspace sulla tastiera, oppure
 
-	+ Premi il tasto destro del mouse e scegli Indietro. 
+	+ Premi il tasto destro del mouse e scegli Indietro.
 
 ## Lista di controllo delle attività { .check}
 
@@ -58,7 +58,7 @@ I link di testo ti permettono di fare clic su alcune parole che ti porteranno su
 
 ![screenshot](images/showcase-paragraph.png)
 
-Prova la pagina web. 
+Prova la pagina web.
 
 ## Sfida: Aggiungi un altro link {.challenge}
 
@@ -84,7 +84,7 @@ Se hai aperto il trinket dal tuo account, cerca l’opzione Share che si trova s
 
 ![screenshot](images/showcase-share2.png)
 
-+ Seleziona "Only show code or result (let users toggle between them)" che significa "Mostra solo il codice o il risultato (permettere agli utenti di alternare tra i due)" e copia il link del trinket. 
++ Seleziona "Only show code or result (let users toggle between them)" che significa "Mostra solo il codice o il risultato (permettere agli utenti di alternare tra i due)" e copia il link del trinket.
 
 ![screenshot](images/showcase-get-link.png)
 
@@ -134,7 +134,7 @@ Oltre a collegare i trinket come pagine web, possiamo anche inserirli in una pag
 
 Premi il tasto Esc (escape) per uscire dalla modalità schermo intero.
 
-+ Esegui il trinket e fai clic sul link Buon compleanno. 
++ Esegui il trinket e fai clic sul link Buon compleanno.
 
 + Fai clic sul menu trinket e seleziona __embed__(inserisci). Se non sei in modalità schermo intero, è possibile che tu debba scorrere. Usa la barra di scorrimento sulla destra oppure la freccia giù sulla tastiera.
 
@@ -142,25 +142,25 @@ Premi il tasto Esc (escape) per uscire dalla modalità schermo intero.
 
 ## Lista di controllo delle attività { .check}
 
-+ Seleziona "Only show code or result (let users toggle between them)" che significa "Mostra solo il codice o il risultato (permettere agli utenti di alternare tra i due)" e __copia__ il codice inserito per il trinket. 
++ Seleziona "Only show code or result (let users toggle between them)" che significa "Mostra solo il codice o il risultato (permettere agli utenti di alternare tra i due)" e __copia__ il codice inserito per il trinket.
 
 ![screenshot](images/showcase-embed.png)
 
-+ Il trinket ha creato un HTML perché tu lo includa nella pagina web. Utilizza un tag `<iframe>` che consente l’inserimento del contenuto in una pagina. 
++ Il trinket ha creato un HTML perché tu lo includa nella pagina web. Utilizza un tag `<iframe>` che consente l’inserimento del contenuto in una pagina.
 
 + Ora incolla il codice sotto il link del trinket Buon compleanno:
 
 ![screenshot](images/showcase-paste-embed.png)
 
-+ Esegui il trinket per provarlo. Dovresti vedere il progetto Buon compleanno inserito nella pagina web. 
++ Esegui il trinket per provarlo. Dovresti vedere il progetto Buon compleanno inserito nella pagina web.
 
 ![screenshot](images/showcase-embed-output.png)
 
-+ È possibile che la parte inferiore del trinket non si veda. Puoi correggere modificando il valore dell’altezza (height) su `<iframe>`. 
++ È possibile che la parte inferiore del trinket non si veda. Puoi correggere modificando il valore dell’altezza (height) su `<iframe>`.
 
 ![screenshot](images/showcase-embed-height.png)
 
-Impostare l’altezza a __400__. Se hai effettuato delle modifiche al progetto Buon compleanno, è possibile che debba scegliere un valore diverso. 
+Impostare l’altezza a __400__. Se hai effettuato delle modifiche al progetto Buon compleanno, è possibile che debba scegliere un valore diverso.
 
 ![screenshot](images/showcase-embed-fixed.png)
 
@@ -168,15 +168,15 @@ Impostare l’altezza a __400__. Se hai effettuato delle modifiche al progetto B
 
 ## Sfida: Integra altri progetti {.challenge}
 
-Integra altri progetti nella Presentazione. Ricorda che puoi trovare facilmente le pagine del trinket facendo clic sui link della pagina web. 
+Integra altri progetti nella Presentazione. Ricorda che puoi trovare facilmente le pagine del trinket facendo clic sui link della pagina web.
 
 # Passo 4: Crea un indice {.activity}
 
-Aggiungiamo un Indice in modo da accedere facilmente a tutti i progetti. 
+Aggiungiamo un Indice in modo da accedere facilmente a tutti i progetti.
 
 ## Lista di controllo delle attività { .check}
 
-+ Oltre a poter creare link ad altre pagine web, possiamo creare link alle parti di una pagina web se le attribuiamo un id. 
++ Oltre a poter creare link ad altre pagine web, possiamo creare link alle parti di una pagina web se le attribuiamo un id.
 
 Aggiungi un id all’intestazione `<h2>` del progetto Buon compleanno:
 
@@ -184,13 +184,13 @@ Aggiungi un id all’intestazione `<h2>` del progetto Buon compleanno:
 
 + Aggiungi gli id a ciascun progetto e assegna dei nomi brevi: storia, ricercato, ricetta e lettera.  
 
-+ Puoi creare un link a un elemento con un id se inserisci il simbolo hash ‘#’ davanti al nome. Ad esempio, `#compleanno`. 
++ Puoi creare un link a un elemento con un id se inserisci il simbolo hash ‘#’ davanti al nome. Ad esempio, `#compleanno`.
 
 Crea un elenco ordinato di link ai tuoi progetti. (Gli elenchi ordinati sono spiegati nel progetto Ricetta).
 
 ![screenshot](images/showcase-list.png)
 
-+ Esegui il tuo progetto e provalo facendo clic sui link per spostarti tra i progetti. 
++ Esegui il tuo progetto e provalo facendo clic sui link per spostarti tra i progetti.
 
 ![screenshot](images/showcase-list-output.png)
 
@@ -200,7 +200,7 @@ Crea un elenco ordinato di link ai tuoi progetti. (Gli elenchi ordinati sono spi
 
 ## Lista di controllo delle attività { .check}
 
-+ Inoltre può essere utile avere la possibilità di tornare all’inizio della pagina. HTML ha `#top` (inizio) a questo scopo. 
++ Inoltre può essere utile avere la possibilità di tornare all’inizio della pagina. HTML ha `#top` (inizio) a questo scopo.
 
 + Aggiungi un link a `#top` dopo ogni progetto inserito nella pagina web:
 
@@ -208,7 +208,7 @@ Crea un elenco ordinato di link ai tuoi progetti. (Gli elenchi ordinati sono spi
 
 ![screenshot](images/showcase-top-output.png)
 
-+ Prova i link facendo clic su Inizio per tornare all’inizio della pagina. 
++ Prova i link facendo clic su Inizio per tornare all’inizio della pagina.
 
 ## Salva il progetto {.save}
 
@@ -220,17 +220,17 @@ Puoi anche aggiungere alcune informazioni su ciascun progetto e raccontare cosa 
 
 ## Sfida: Crea una nuova presentazione {.challenge}
 
-I trinket non sono l’unica cosa che puoi inserire in una pagina web. Puoi anche inserire video, widget (come un widget meteo) o progetti di Scratch. 
+I trinket non sono l’unica cosa che puoi inserire in una pagina web. Puoi anche inserire video, widget (come un widget meteo) o progetti di Scratch.
 
 Apri il trinket integrato di Scratch come esempio ed eseguilo: <a href="https://trinket.io/html/9f7212b8fe">https://trinket.io/html/9f7212b8fe</a>
 
 Vai al sito web Scratch e trova un progetto che ti piace. Può essere uno dei tuoi o uno che hai trovato.
 
-Se hai eseguito l’accesso, puoi fare clic sul pulsante "Embed" (inserisci) sotto al progetto per ottenere il codice HTML e poterlo inserire. 
+Se hai eseguito l’accesso, puoi fare clic sul pulsante "Embed" (inserisci) sotto al progetto per ottenere il codice HTML e poterlo inserire.
 
 ![screenshot](images/scratch-embed.png)
 
-Se non hai eseguito l’accesso, cerca il numero di progetto Scratch al suo indirizzo web. 
+Se non hai eseguito l’accesso, cerca il numero di progetto Scratch al suo indirizzo web.
 
 ![screenshot](images/scratch-project-number.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Rivista
-description: Crea un sito Web in stile rivista a più pagine.
+description: "Crea un sito Web in stile rivista a più pagine."
 layout: project
 notes: "Magazine - notes.md"
 ...

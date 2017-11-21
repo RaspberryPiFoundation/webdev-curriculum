@@ -1,6 +1,6 @@
 ---
 title: Buon compleanno
-description: Scopri come realizzare un biglietto di auguri personalizzato.
+description: "Scopri come realizzare un biglietto di auguri personalizzato."
 layout: project
 notes: "Happy Birthday - notes.md"
 project-type: sample
@@ -23,7 +23,7 @@ HTML significa __HyperText Markup Language__ ed è il linguaggio utilizzato per 
 
 ## Lista di controllo delle attività { .check}
 
-+ Per scrivere in HTML, utilizzerai un sito Web chiamato Trinket. Apri questo Trinket: <a href="http://jumpto.cc/web-intro" target="_blank">jumpto.cc/web-intro</a>. 
++ Per scrivere in HTML, utilizzerai un sito Web chiamato Trinket. Apri questo Trinket: <a href="http://jumpto.cc/web-intro" target="_blank">jumpto.cc/web-intro</a>.
 
 	Il progetto si presenta così:
 
@@ -63,7 +63,7 @@ HTML significa __HyperText Markup Language__ ed è il linguaggio utilizzato per 
 
 ## Salva il progetto {.save}
 
-__Non è obbligatorio avere un account su Trinket per salvare i progetti!__ 
+__Non è obbligatorio avere un account su Trinket per salvare i progetti!__
 
 Se non hai un account su Trinket, fai clic prima sulla freccia in giù e poi su "Link". In questo modo potrai salvare un link che potrai aprire più tardi. Dovrai eseguire questa procedura ogni volta che farai qualche cambiamento perché cambierà anche il link!
 
@@ -154,13 +154,13 @@ Non ti preoccupare se non riesci a capire tutto il codice. Questo biglietto di a
 
 + È possibile modificare anche le dimensioni di un’immagine. Vai al CSS `#outside-pic` e cambia la larghezza `width` e l’altezza `height` dell’immagine esterna a `200px` (`px` sta per pixel).
 
-	![screenshot](images/birthday-card-size.png)	
+	![screenshot](images/birthday-card-size.png)
 
 + È possibile modificare anche il carattere. Vai al CSS `#outside-title` e sostituisci il tipo di carattere `font-family` con il `Comic Sans MS` e la dimensione del carattere `font-size` con `16pt`.
 
 	![screenshot](images/birthday-card-font.png)
 
-	Puoi usare anche altri caratteri: <span style="font-family: Arial;">arial</span>, <span style="font-family: impact;">Impact</span> e <span style="font-family: tahoma;">Tahoma</span>. 
+	Puoi usare anche altri caratteri: <span style="font-family: Arial;">arial</span>, <span style="font-family: impact;">Impact</span> e <span style="font-family: tahoma;">Tahoma</span>.
 
 ## Salva il progetto {.save}
 

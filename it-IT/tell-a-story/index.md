@@ -1,6 +1,6 @@
 ---
 title: Racconta una storia
-description: Crea una pagina Web per raccontare una storia, una barzelletta o una poesia.
+description: "Crea una pagina Web per raccontare una storia, una barzelletta o una poesia."
 layout: project
 notes: "Tell a Story - notes.md"
 project-type: sample
@@ -31,10 +31,10 @@ Iniziamo modificando il contenuto HTML e lo stile CSS della pagina Web della sto
 
 ## Lista di controllo delle attività { .check}
 
-+ Apri questo trinket: <a href="http://jumpto.cc/web-story" target="_blank">jumpto.cc/web-story</a>. 
++ Apri questo trinket: <a href="http://jumpto.cc/web-story" target="_blank">jumpto.cc/web-story</a>.
 
 	Il progetto si presenta così:
-	
+
 	![screenshot](images/story-starter.png)
 
 + Forse ti ricorderai dal progetto "Buon compleanno" che il contenuto di una pagina Web è incluso nel tag `<body>` del documento HTML.
@@ -93,7 +93,7 @@ Aggiungiamo ora una seconda parte alla storia.
 
 	I tag `<img>` sono leggermente diversi dagli altri, in quanto non dispongono di un tag di chiusura.
 
-+ Per le immagini in HTML, dovrai aggiungere la __fonte__ dell’immagine, all’interno delle virgolette. 
++ Per le immagini in HTML, dovrai aggiungere la __fonte__ dell’immagine, all’interno delle virgolette.
 
 	Fai clic sull’icona delle immagini per visualizzare le immagini disponibili per la tua storia.
 
