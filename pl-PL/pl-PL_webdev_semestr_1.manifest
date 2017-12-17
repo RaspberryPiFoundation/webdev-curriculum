@@ -53,6 +53,12 @@
             "number": 8,
             "beta": true,
             "filename": "Pokoje/index.md"
+        },
+        {
+            "number": 9,
+            "beta": true,
+            "filename": "Stickers/Stickers.md",
+            "note": "Stickers/Stickers - notes.md"
         }
     ],
 
