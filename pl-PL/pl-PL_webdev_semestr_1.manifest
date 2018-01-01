@@ -59,6 +59,12 @@
             "beta": true,
             "filename": "Stickers/Stickers.md",
             "note": "Stickers/Stickers - notes.md"
+        },
+        {
+            "number": 10,
+            "beta": true,
+            "filename": "Wschod Slonca/Wschod Slonca.md",
+            "note": "Wschod Slonca/Wschod Slonca - informacje.md"
         }
     ],
 
