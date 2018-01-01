@@ -53,6 +53,12 @@
             "number": 8,
             "beta": true,
             "filename": "Pokoje/index.md"
+        },
+        {
+            "number": 9,
+            "beta": true,
+            "filename": "Naklejki/Naklejki.md",
+            "note": "Naklejki/Naklejki - informacje.md"
         }
     ],
 
