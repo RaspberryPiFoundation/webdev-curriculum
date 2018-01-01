@@ -26,216 +26,213 @@ Gradient to stopiowe przejście z jednego koloru w drugi. Gradienty mogą być u
 
 + Zróbmy naklejkę 'I <3 Coding' (ang. "Uwieblbiam kodowanie")
 
-  Użyj `<div>` z klasą `sticker` i identyfikatorem `coding`, aby później go ostylować:
+    Użyj `<div>` z klasą `sticker` i identyfikatorem `coding`, aby później go ostylować:
 
-	![screenshot](stickers-coding-error.png)
+    ![screenshot](stickers-coding-error.png)
 
 
 + Hmm, zauważyłeś, że edytor pokazał błąd? A to dlatego, że "<" to w HTML-u znak specjalny. Zamiast "<" musisz użyć specjalnego kodu `&lt;`.
 
-  Zmień swój kod i użyj `&lt;`, aby pozbyć się tego błędu.
+    Zmień swój kod i użyj `&lt;`, aby pozbyć się tego błędu.
 
-	![screenshot](stickers-coding-fixed.png)
+    ![screenshot](stickers-coding-fixed.png)
 
-	`<br>` powoduje przejście do następnej linii.
+    `<br>` powoduje przejście do następnej linii.
 
 + Teraz zmieńmy naklejkę tak, aby była nieco ciekawsza.
 
-  Przełącz się na plik `style.css`. Zauważ, że klasa `.sticker` jest już opisana w taki sposób, aby naklejka wyświetlała się na stronie i miała wyśrodkowaną zawartość.
+    Przełącz się na plik `style.css`. Zauważ, że klasa `.sticker` jest już opisana w taki sposób, aby naklejka wyświetlała się na stronie i miała wyśrodkowaną zawartość.
 
-  Pamiętaj, że do swojej naklejki dodałeś identyfikator `coding`. Na końcu pliku `style.css` dodaj poniższy kod, aby ostylować tekst:
+    Pamiętaj, że do swojej naklejki dodałeś identyfikator `coding`. Na końcu pliku `style.css` dodaj poniższy kod, aby ostylować tekst:
 
-	![screenshot](stickers-coding-font.png)
+    ![screenshot](stickers-coding-font.png)
 
 + Teraz możesz dodać gradient jako tło naklejki. Liniowy gradient polega na zmianie koloru z jednego w drugi wzdłuż linii prostej.
 
-  Taki gradient powoduje przejście z czerwonego na górze do purpurowego na dole. Dodaj poniższy kod do stylu `coding`:
+    Taki gradient powoduje przejście z czerwonego na górze do purpurowego na dole. Dodaj poniższy kod do stylu `coding`:
 
-	![screenshot](stickers-coding-gradient.png)
+    ![screenshot](stickers-coding-gradient.png)
 
 + Możesz jeszcze ulepszyć efekt dodając odpowiednie odstępy i zaokrąglone narożniki.
 
-	Dodaj podświetlony kod:
+    Dodaj podświetlony kod:
 
-	![screenshot](stickers-coding-padding.png)
+    ![screenshot](stickers-coding-padding.png)
 
-  Atrybut `padding` dodaje odstęp wielkości 50px na górze i dole oraz 30px z lewej i prawej strony.
-
+    Atrybut `padding` dodaje odstęp wielkości 50px na górze i dole oraz 30px z lewej i prawej strony.
 
 ## Zapisz swój projekt {.save}
 
-# Step 2: Make a radial gradient sticker {.activity}
+# Krok 2: Naklejka z promienistym gradientem {.activity}
 
-Gradients can also change colour from the centre out to the edges, this is called a radial gradient.
+Gradienty mogą też zmianiać kolor od środka w kierunku krawędzi - nazywamy je gradientami promienistymi.
 
-+ Let's create a sticker with the text `HTML & CSS.`  `&` is another character that needs encoding in HTML, the code is `&amp;`.
++ Zróbmy naklejkę z tekstem `HTML & CSS`. `&` to kolejny znak, który musimy zakodować w HTML-u, kod tego znaku to `&amp;`.
 
-	Add the highlighted code to create a new sticker:
+    Aby stworzyć nową naklejkę, dodaj podświetlony kod:
 
-	![screenshot](stickers-web-html.png)
+    ![screenshot](stickers-web-html.png)
 
-+ Now switch to your `style.css` file and add a style for your new sticker:
++ Teraz przejdź do pliku `style.css` i dodaj styl do swojej nowej naklejki:
 
-	![screenshot](stickers-web-font.png)
+    ![screenshot](stickers-web-font.png)
 
-	The `text-shadow` code adds a shadow which extends 2px below and to the right of the text to make it stand out.
+    Atrybut `text-shadow` dodaje cień, który znajduje się 2px niżej i bardziej na prawo od tekstu. W ten sposób dodajemy wrażenie jakby tekst wystawał.
 
-+ Now for the gradient. This time let's use a radial gradient. The colour will change from yellow in the centre through to orange and then red.
++ Przejdźmy teraz do gradientu. Tym razem użyjemy gradientu promienistego. Kolor będzie zmieniał się od żółtego na środku przez pomarańczowy po czerwony.
 
-	![screenshot](stickers-web-gradient.png)
+    ![screenshot](stickers-web-gradient.png)
 
-	Notice that gradients can include multiple colours, not just two.
+    Zauważ, że gradienty mogą mieć więcej kolorów, nie tylko dwa.
 
-+ The sticker will look much better with some padding and a rounded border.
++ Naklejka będzie wyglądać znacznie lepiej kiedy dodamy do niej odstępy i zaokrągloną ramkę.
 
-	Add the highlighted code:
+    Dopisz podświetlony kod:
 
-	![screenshot](stickers-web-padding.png)
+    ![screenshot](stickers-web-padding.png)
 
+## Zapisz swój projekt {.save}
 
-## Save Your Project {.save}
+## Wyzwanie: Twoja własna naklejka z gradientem {.challenge}
 
-##Challenge: Create your own gradient sticker {.challenge}
+Stwórz swoją naklejkę z gradientem. Spróbuj liniowego i promienistego gradientu używając różnych kolorów.
 
-Now make your own gradient sticker. Try linear and radial gradients using multiple HTML colours.
+Aby to zrobić:
 
-You'll need to:
++ W pliku `index.html` dodaj `<div>` z tekstem, jaki ma być na naklejce i nadaj mu klasę `sticker` oraz nowy identyfikator (`id`).
++ W pliku `style.css` dodaj styl korzystając z identyfikatora, jaki nadałeś wcześniej. Możesz skopiować style innej naklejki i zmienić według własnego uznania.
 
-+ Add a `<div>` with your sticker text to `index.html` and give it the `sticker` class and a new `id`.
-+ Add style for the `id` you chose in `style.css`. You could copy one of the sticker styles you have already made and edit that.
+Tutaj znajdziesz listę ze wszystkimi nazwami kolorów, których możesz użyć: [jumpto.cc/web-colours](http://jumpto.cc/web-colours) (np. `tomato`, `firebrick`, `peachpuff`).
 
-There’s a list of all the colour names you can use: [jumpto.cc/web-colours](http://jumpto.cc/web-colours), which includes colour names like `tomato`, `firebrick` and `peachpuff`.
+Jeśli chcesz zmienić kolor tekstu możesz użyć `color:`.
 
-If you want to change the text colour you can use `color:`.
-
-Here's an example of what you can do with multiple colours in a linear gradient:
+Oto co można zrobić używając różnych kolorów w gradiencie liniowym:
 
 ![screenshot](stickers-save-robots.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-# Step 3: Make a gradient sticker with an image  {.activity}
+# Krok 3: Naklejka z gradientem i obrazkiem {.activity}
 
-You can also make a gradient sticker using an image. If you use an image with a transparent background then the gradient will show through.
+Możesz zrobić też naklejkę z gradientem używając obrazka. Gradient będzie widoczny, jeśli użyjesz obrazka z przezroczystym tłem.
 
-+ First let's create an sticker that includes an image.
++ Najpierw zrobimy naklejkę z obrazkiem w środku.
 
-	Your project already includes an image called `purplerobot.png`.
+    Projekt, na którym pracujesz ma już dołączony obrazek o nazwie `purplerobot.png`.
 
-	Add the highlighted code to `index.html`:
+    Dodaj podświetlony kod do pliku `index.html`:
 
-	![screenshot](stickers-purple-html.png)
+    ![screenshot](stickers-purple-html.png)
 
-	You can adjust the `height` to resize the image, the width will change automatically.
+    Możesz dopasować wysokość (`height`), aby zmienić rozmiar obrazka. Szerokość zmieni się automatycznie.
 
-+ Now add the style code to create a gradient background for your image sticker:
++ Teraz dodaj kod ze stylami, aby stworzyć tło z gradientem dla twojej naklejki:
 
-	![screenshot](stickers-purple-css.png)
+    ![screenshot](stickers-purple-css.png)
 
+## Zapisz swój projekt {.save}
 
-## Save Your Project {.save}
+## Wyzwanie: Zrób własną naklejkę z obrazkiem i gradientem {.challenge}
 
-##Challenge: Make your own image sticker {.challenge}
+Teraz stwórz swoją naklejkę z obrazkiem i gradientem
 
-Now make your own image sticker with a gradient.
+Aby to zrobić:
 
-You'll need to:
++ Dodaj nową naklejkę z obrazkiem używając `<div>` w pliku `index.html`.
++ Dodaj klasę `sticker` i nowy identyfikator do tagu `div` z naklejką.
++ Utwórz styl dla identyfikatora używając gradientu i odpowiednich odstępów (`padding`).
 
-+ Add a new sticker `<div>` to `index.html` which includes an image.
-+ Add the `sticker` class and a new id to your sticker div.
-+ Create a style for your new id with a gradient and padding.
-
-Your project already includes a set of robot images. Click on the images icon to see the available images.
+Ten projekt ma już dołączony cały zestaw obrazków z robotami. Aby zobaczyć wszystkie dostępne obrazki kliknij na ikonę z obrazkiem.
 
 ![screenshot](stickers-images.png)
 
-Here's an example image sticker with a linear gradient:
+Oto przykład naklejki z obrazkiem i liniowym gradientem:
 
 ![screenshot](stickers-blue-robot.png)
 
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-# Step 4: Horizontal gradients  {.activity}
+# Krok 4: Gradienty poziome  {.activity}
 
-Gradients can be horizontal as well as vertical.
+Gradienty mogą być zarówno poziome jak i pionowe.
 
-+ Let's create another image sticker.
++ Zrobimy teraz kolejną naklejkę z obrazkiem.
 
-	This time we'll use `greenrobot.png`. Add the following code to `index.html`:
+    Tym razem użyjemy `greenrobot.png`. Dodaj poniższy kod do `index.html`:
 
-	![screenshot](stickers-green-html.png)
+    ![screenshot](stickers-green-html.png)
 
-+ Normally a linear gradient runs from top to bottom, but if we add `to right` then we can make it run from left to right.
++ Zazwyczaj liniowy gradient zaczyna się u góry i kończy na dole. Jeśli jednak dodamy `to right` (do prawej), wtedy gradient będzie od lewej do prawej.
 
-	Add the highlighted code to `style.css` to add a horizontal gradient to your green robot sticker.
+    Dodaj podświetlony kod do `style.css`, aby dodać poziomy gradient do naklejki z zielonym robotem.
 
-	![screenshot](stickers-green-style.png)
+    ![screenshot](stickers-green-style.png)
 
-	Notice that the gradient runs from green on the left to yellow on the right.
+    Zauważ, że gradient zaczyna się od zielonego po lewej stronie, a kończy się na żółtym po prawej stronie.
 
-+ This robot looks like he wants to say something. Let's also add some text to your sticker.
++ Robot wygląda jakby chciał coś powiedzieć. Dodajmy więc do naklejki także tekst.
 
-	Go to `index.html` and add the text 'Hello!' to your green robot sticker, put it inside a `<span>` with an id so that you'll be able to style it:  
+    Przejdź do `index.html` i dodaj tekst `Hello!` do naklejki z zielonym robotem. Tekst dodaj wewnątrz tagu `<span>` z wymyślonym identyfikatorem, aby można go było później odpowiednio ostylować:
 
-	![screenshot](stickers-green-span.png)
+    ![screenshot](stickers-green-span.png)
 
-+ The text will look better if you make it bigger and position it.
++ Tekst będzie wyglądał lepiej kiedy go powiększysz i ustawisz w odpowiednim miejscu.
 
-	To position the text you'll need to add `position: relative;` to `#greensticker` and `position: absolute` to `#greentext`. This is covered in more detail in the `Build a Robot` project.
+    Aby ustawić tekst musisz dodać `position: relative;` do `#greensticker` i `position: absolute;` do `#greentext`. Opisywaliśmy to szczegółowo w projekcie `Zbuduj robota`.
 
-	Add the highlighted code to `style.css`:
+    Dodaj podświetlony kod do `style.css`:
 
-	![screenshot](stickers-green-text-style.png)
+    ![screenshot](stickers-green-text-style.png)
 
-	Now the 'Hello!' text is positioned relative to the bottom right corner of the sticker.
+    Teraz tekst "Hello!" jest ustawiony w prawym dolnym rogu naklejki.
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-# Step 5: Diagonal gradients  {.activity}
+# Krok 5: Gradienty skośne  {.activity}
 
-You can also create diagonal gradients that run from corner to corner.
+Możesz także zrobić skośne gradienty które idą od jednego narożnika do drugiego.
 
-+ Add a sticker to `index.html` using the `firerobot.png` image:
++ Dodaj naklejkę do `index.html` używając obrazka `firerobot.png`:
 
-	![screenshot](stickers-fire-html.png)
+    ![screenshot](stickers-fire-html.png)
 
-+ With a diagonal gradient you give two directions. The example uses `to bottom left`.
++ Używając gradientu skośnego musisz podać dwa kierunki. W przykładzie użyto `to bottom left` (do dołu do lewej)
 
-	Add this style to `style.css` to give your new robot sticker a diagonal gradient and a fancy border:
+    Dodaj poniższy kod do `style.css`, aby nadać naklejce z robotem skośny gradient i czadową ramkę:
 
-	![screenshot](stickers-fire-gradient.png)
+    ![screenshot](stickers-fire-gradient.png)
 
-	Note that you can use `outline` to create another border outside the usual one.
-	`outline-offset` gives the gap between the border and the outline.
+    Zauważ, że możesz użyć `outline` aby stworzyć kolejną ramkę na zewnątrz tej zwykłej.
+    `outline-offset` określa odległość między ramkami.
 
-+ Let's add some text to this sticker.
++ Dodaj trochę tekstu na naklejce.
 
-	Add a `<span>` containing the text "ROBOTS!" to `index.html` and give it an id.
+    W pliku `index.html` dodaj tag `<span>` zawierający tekst "ROBOTS!" i nadaj mu identyfikator.
 
-	![screenshot](stickers-fire-span.png)
+    ![screenshot](stickers-fire-span.png)
 
-+ Now you can position the text by adding the following style:
++ Teraz możesz ustawić tekst dodając poniższy styl:
 
-	![screenshot](stickers-fire-text-style.png)
+    ![screenshot](stickers-fire-text-style.png)
 
-+ And for a final twist, let's rotate the text using `transform: rotate`.
++ A na koniec obróćmy trochę tekst używając `transform: rotate`.
 
-	![screenshot](stickers-fire-rotate.png)
+    ![screenshot](stickers-fire-rotate.png)
 
-	Try changing the number of degrees that the text is rotated.
+    Spróbuj pozmieniać ilość stopni, o jaką obrócony jest tekst.
 
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
 
-##Challenge: Make more stickers {.challenge}
+## Wyzwanie: Jeszcze więcej naklejek {.challenge}
 
-Now try making more stickers using different gradient directions and adding images and text and using borders and outlines.
+Teraz spróbuj zrobić więcej naklejek używając gradientów w różnych kierunkach, dodając obrazki i tekst oraz używając obu rodzajów ramek.
 
-You can copy one of your examples and make changes to create a new sticker.
+Możesz skopiować jeden z przykładów i zmienić go tak, aby utworzyć nową naklejkę.
 
-Here's an example using a diagonal gradient:
+Oto przykład z użyciem gradientu skośnego:
 
 ![screenshot](stickers-dog-robot.png)
 
-## Save Your Project {.save}
+## Zapisz swój projekt {.save}
