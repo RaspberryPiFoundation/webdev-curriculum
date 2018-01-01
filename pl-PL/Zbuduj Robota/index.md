@@ -1,6 +1,6 @@
 ---
 title: Zbuduj robota
-level: HTML & CSS 1
+level: HTML & CSS 2
 language: pl-PL
 embeds: "*.png"
 materials: ["volunteer-resources/*.*","project-resources/*.*"]
@@ -17,7 +17,7 @@ W tym projekcie nauczysz się, jak wstawiać obrazki, by stworzyć własnego rob
 
 ## Lista zadań { .check}
 
-+ Otwórz edytor: <a href="http://jumpto.cc/web-robot" target="_blank">jumpto.cc/web-robot</a>. Jeśli pracujesz online, możesz również posłużyć się wersją wyświetloną poniżej. 
++ Otwórz edytor: <a href="http://jumpto.cc/web-robot" target="_blank">jumpto.cc/web-robot</a>. Jeśli pracujesz online, możesz również posłużyć się wersją wyświetloną poniżej.
 
 <div class="trinket">
   <iframe src="https://trinket.io/embed/html/b29b50e571" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -32,13 +32,13 @@ W tym projekcie nauczysz się, jak wstawiać obrazki, by stworzyć własnego rob
 <img id="eyes2" ...>
 ```
 
-+ Możesz użyć id obrazka, by nadać mu własny styl, poprzez użycie symbolu `#`. Pozwoli ci to stylizować każdy obrazek osobno. 
++ Możesz użyć id obrazka, by nadać mu własny styl, poprzez użycie symbolu `#`. Pozwoli ci to stylizować każdy obrazek osobno.
 
-Kliknij w plik `style.css`. Zauważ, jak różnią się rozmiary obrazków twarzy robota i innych części. 
+Kliknij w plik `style.css`. Zauważ, jak różnią się rozmiary obrazków twarzy robota i innych części.
 
 ![screenshot](robot-id.png)
 
-+ Dodaj ten CSS, by stylizować oczy robota: 
++ Dodaj ten CSS, by stylizować oczy robota:
 
 ```
 #eyes1 {
@@ -89,22 +89,22 @@ Możesz użyć `bottom` zamiast `top`, by powiedzieć przeglądarce, w jakiej od
 
 ![screenshot](robot-mouth.png)
 
-Czy potrafisz to naprawić zmieniając kod CSS? 
+Czy potrafisz to naprawić zmieniając kod CSS?
 
 ## Zachowaj swój projekt {.save}
 
 ##Wyzwanie: Zaprojektuj swojego własnego robota {.challenge}
-Skorzystaj z wiedzy, którą nabyłeś, by skończyć projektowanie twojego robota. Oto przykłady, jak twój robot może wyglądać: 
+Skorzystaj z wiedzy, którą nabyłeś, by skończyć projektowanie twojego robota. Oto przykłady, jak twój robot może wyglądać:
 
 ![screenshot](robot-examples.png)
 
 ## Zachowaj swój projekt {.save}
 
 ##Wyzwanie: Dodaj swoje własne obrazy {.challenge}
-Czy potrafisz znaleźć dodatkowe obrazy do dodania do projektu robota, a potem umiejscowić je na stronie? Możesz nawet zastąpić twarz robota swoją własną! 
+Czy potrafisz znaleźć dodatkowe obrazy do dodania do projektu robota, a potem umiejscowić je na stronie? Możesz nawet zastąpić twarz robota swoją własną!
 
 ```
 <img id="face" src="mojaTwarz.png">
 ```
 
-## Zachowaj swój projekt {.save} 
+## Zachowaj swój projekt {.save}

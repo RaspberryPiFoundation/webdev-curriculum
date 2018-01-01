@@ -1,0 +1,41 @@
+{
+    "description": false,
+    "id": "html_02",
+    "language": "pl-PL",
+    "number": 6,
+    "title": "HTML & CSS 2",
+    "category": "cat-html",
+    "projects":
+    [
+        {
+            "number": 1,
+            "beta": true,
+            "filename": "Zbuduj Robota/index.md",
+            "note": "Zbuduj Robota/Zbuduj Robota - informacje.md"
+        },
+        {
+            "number": 2,
+            "beta": true,
+            "filename": "Naklejki/Naklejki.md",
+            "note": "Naklejki/Naklejki - informacje.md"
+        },
+        {
+            "number": 3,
+            "beta": true,
+            "filename": "Wschod Slonca/Wschod Slonca.md",
+            "note": "Wschod Slonca/Wschod Slonca - informacje.md"
+        },
+        {
+            "number": 4,
+            "beta": true,
+            "filename": "Pokoje/index.md"
+        }
+    ],
+
+    "extras": [
+        {
+            "name": "Wrowadzenie do HTML i CSS (ang.)",
+            "note": "extras/html-css.md"
+        }
+    ]
+}

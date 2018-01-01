@@ -1,6 +1,6 @@
 ---
 title: Pokoje
-level: HTML & CSS 1
+level: HTML & CSS 2
 language: pl-PL
 embeds: "*.png"
 materials: ["volunteer-resources/*.*","project-resources/*.*"]
