@@ -1,5 +1,5 @@
 {
-    "description": "-~- Kolejne projekty wkrótce! -~-",
+    "description": false,
     "id": "html_01",
     "language": "pl-PL",
     "number": 5,
@@ -34,31 +34,20 @@
         {
             "number": 5,
             "beta": true,
-            "filename": "Zbuduj Robota/index.md",
-            "note": "Zbuduj Robota/Zbuduj Robota - informacje.md"
-        },
-        {
-            "number": 6,
-            "beta": true,
             "filename": "Tajemniczy List/index.md",
             "note": "Tajemniczy List/Tajemniczy List - informacje.md"
         },
         {
-            "number": 7,
+            "number": 6,
             "beta": true,
             "filename": "Moje Projekty/index.md",
             "note": "Moje Projekty/Moje Projekty - informacje.md"
-        },
-        {
-            "number": 8,
-            "beta": true,
-            "filename": "Pokoje/index.md"
         }
     ],
 
     "extras": [
         {
-            "name": "Introduction to HTML & CSS",
+            "name": "Wprowadzenie do HTML & CSS (ang.)",
             "note": "extras/html-css.md"
         }
     ]
