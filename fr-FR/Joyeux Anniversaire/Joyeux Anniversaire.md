@@ -23,7 +23,7 @@ HTML veux dire __HyperText Markup Language__, et c'est le langage utilisé pour 
 
 ## Liste d'activités { .check}
 
-+ Tu vas utiliser un site internet qui s'appelle Trinket pour écrire du HTML. Ouvre ce Trinket: <a href="http://jumpto.cc/web-intro" target="_blank">jumpto.cc/web-intro</a>. Si tu lis ce cours en ligne, tu peux aussi utiliser la version incorporé de ce Trinket ci-dessous.
++ Tu vas utiliser un site internet qui s'appelle Trinket pour écrire du HTML. Ouvre ce Trinket: <a href="http://jumpto.cc/web-intro" target="_blank">jumpto.cc/web-intro</a>. Si tu lis ce cours en ligne, tu peux aussi utiliser la version incorporée de ce Trinket ci-dessous.
 
 <div class="trinket">
 	<iframe src="https://trinket.io/embed/html/850a678202" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -40,7 +40,7 @@ HTML veux dire __HyperText Markup Language__, et c'est le langage utilisé pour 
 
 	`<p>` est un exemple de tag, cela veux dire __paragraphe__. Tu peux commencer un paragraphe par `<p>` et le terminer par `</p>`.
 
-+ Peut-tu voir un autre tag ? Un autre tag que tu a peut-etre remarqué à la ligne 9 est le `<b>`, qui veux dire __bold__ (traduit par 'gras' en Francais):
++ Peux-tu voir un autre tag ? Un autre tag que tu as peut-etre remarqué à la ligne 9 est le `<b>`, qui veux dire __bold__ (traduit par 'gras' en Francais):
 
 	```
 	<b>courrir</b>
@@ -49,12 +49,12 @@ HTML veux dire __HyperText Markup Language__, et c'est le langage utilisé pour 
 	Et en voila d'autres:
 
 	+ `<html>` et `</html>` marque le debut de ton document HTML;
-	+ `<head>` et `</head>` c'est la ou, entre autres, va le code CSS (On reviendra la dessus plu tard!);
+	+ `<head>` et `</head>` c'est la ou, entre autres, va le code CSS (On reviendra la dessus plus tard!);
 	+ `<body>` et `</body>` c'est la ou le contenu de ton site internet doit etre.
 
 	![screenshot](birthday-head-body.png)
 
-+ Fait un changement sur un des paragraphes dans le code HTML (sur la gauche). Appuie sur 'Run' et tu devrais voir ta page internet changer (sur la droite)!
++ Fais un changement sur un des paragraphes dans le code HTML (sur la gauche). Appuie sur 'Run' et tu devrais voir ta page internet changer (sur la droite)!
 
 	![screenshot](birthday-edit-html.png)
 
@@ -66,7 +66,7 @@ HTML veux dire __HyperText Markup Language__, et c'est le langage utilisé pour 
 
 __Tu n'as pas besoin d'un compte Trinket pour enregistrer tes projets!__ 
 
-Si tu n'as pas de compte Trinket, clique sur la flèche descendante et clique sur 'Link'. Ceci devrais te donner un lien qui te permettra de revenir plu tard sur ta page. Tu dois faire ceci à chaque fois que tu changes ton projet, le lien sera different à chaque fois.
+Si tu n'as pas de compte Trinket, clique sur la flèche descendante et clique sur 'Link'. Ceci devrait te donner un lien qui te permettra de revenir plus tard sur ta page. Tu dois faire ceci à chaque fois que tu changes ton projet, le lien sera different à chaque fois.
 
 ![screenshot](birthday-link.png)
 
@@ -75,9 +75,9 @@ Si tu as un compte Trinket, la facon la plus simple est de sauvegarder ta page e
 ![screenshot](birthday-remix.png)
 
 ##Défi: Ajoute un autre paragraphe {.challenge}
-Peut tu ajouter un 3e paragraphe de texte a ta page, en dessous des deux autres? n'oublie pas qu'un paragraphe dois commencer par un tag `<p>`, et finir avec un tag `</p>`.
+Peux-tu ajouter un 3e paragraphe de texte a ta page, en dessous des deux autres? n'oublie pas qu'un paragraphe doit commencer par un tag `<p>`, et finir avec un tag `</p>`.
 
-Voici a quoi ta page devrais ressembler maintenant:	
+Voici a quoi ta page devrait ressembler maintenant:	
 
 ![screenshot](birthday-paragraph.png)
 
@@ -126,7 +126,7 @@ Aller, maintenant nous allons utiliser ce qu'on a appris en HTML et CSS pour fab
 
 ## Liste d'activités { .check}
 
-+ Ouvre ce Trinket: <a href="http://jumpto.cc/web-card" target="_blank">jumpto.cc/web-card</a>, ou utilise la version incorporé si tu utilises la version en ligne.
++ Ouvre ce Trinket: <a href="http://jumpto.cc/web-card" target="_blank">jumpto.cc/web-card</a>, ou utilise la version incorporée si tu utilises la version en ligne.
 
 <div class="trinket">
 	<iframe src="https://trinket.io/embed/html/90506676c9" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -165,7 +165,7 @@ Ne t'inquietes pas si tu ne comprends pas tout le code. Cette carte d'anniversai
 
 ## Enregistre ton Projet {.save}
 
-##Défi: Crée une carte personalisé {.challenge}
+##Défi: Crée une carte personalisée {.challenge}
 Utilise tout ce que tu as appris en HTML et CSS pour finir ta carte d'anniversaire. Tu peux même transformer ta carte d'anniversaire par une autre carte si tu veux! 
 
 Voici un exemple:
@@ -176,6 +176,6 @@ Tu peux trouver plus de couleurs CSS ici: <a href="http://jumpto.cc/colours" tar
 
 ## Enregistre ton Projet {.save}
 
-Maintenant que tu as finis ta carte, tu peux l'enregistrer et la partager a quelqu'un.
+Maintenant que tu as finis ta carte, tu peux l'enregistrer et la partager avec quelqu'un.
 
 ![screenshot](birthday-share.png)
