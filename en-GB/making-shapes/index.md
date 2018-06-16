@@ -1,16 +1,15 @@
 ---
 title: Making Shapes
-description: Create a pixel art editor. 
+description: Create shapes. 
 layout: project
 notes: "Creating shapes - notes.md"
 ---
 
 # Introduction {.intro}
 
-In this project, you'll create a pixel art editor. As well as using HTML and CSS you'll learn how to use JavaScript to add interactivity to your project.
-
+In this project, you'll create a different shapes using javascript.
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/html/0e102a306b?outputOnly=true&start=result" width="600" height="450" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://trinket.io/embed/html/d357df23a7?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
   </iframe>
   <img src="images/pixel-art-final.png">
 </div>
