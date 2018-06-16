@@ -1,5 +1,5 @@
 ---
-title: Pixel Art
+title: Making Shapes
 description: Create a pixel art editor. 
 layout: project
 notes: "Pixel Art - notes.md"
