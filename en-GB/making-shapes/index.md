@@ -2,7 +2,7 @@
 title: Making Shapes
 description: Create a pixel art editor. 
 layout: project
-notes: "Pixel Art - notes.md"
+notes: "Creating shapes - notes.md"
 ---
 
 # Introduction {.intro}
