@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: ProjectName
 description: Add description here.
@@ -31,6 +32,8 @@ Briefly explain the outcome of this step.
 
 ## Test your project { .flag }
 You should regularly ask children to test their project, so that they can see the effects of the code they're creating. You can even use these points as opportunities to fix bugs and improve code.
+=======
+>>>>>>> 061e0805d0b1e8612c3ead00ff07cec6bac64d84
 
 ## Challenge: Challenge name {.challenge}
 You should add at least 1 challenge, to allow children to apply what they've during the project. You can ask children to fix a problem or improve or adapt their project in some way. 
