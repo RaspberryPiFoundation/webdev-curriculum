@@ -1,33 +1,17 @@
 ---
-<<<<<<< HEAD
 title: ProjectName
 description: Add description here.
 notes: "notes.md"
 layout: project
 new: true
 project-type: community
-=======
-title: Making Shapes
-description: Create shapes. 
-layout: project
-notes: "Creating shapes - notes.md"
->>>>>>> 18dbe0fe7edf2f16e31b0a45153c8ba9fb4e6454
 ---
 
 # Introduction { .intro }
 
-<<<<<<< HEAD
 Introduce the project here. What will children be creating? What is the objective of the project?
 
 # Step 1: Step name goes here { .activity }
-=======
-In this project, you'll create a different shapes using javascript.
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/html/d357df23a7?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-  </iframe>
-  <img src="images/pixel-art-final.png">
-</div>
->>>>>>> 18dbe0fe7edf2f16e31b0a45153c8ba9fb4e6454
 
 Briefly explain the outcome of this step.
 
