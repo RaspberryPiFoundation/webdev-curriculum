@@ -1,6 +1,6 @@
 ---
-title: ProjectName
-description: Add description here.
+title: Making shapes
+description: Using basic shapes creating objects.
 notes: "notes.md"
 layout: project
 new: true
@@ -9,7 +9,9 @@ project-type: community
 
 # Introduction { .intro }
 
-Introduce the project here. What will children be creating? What is the objective of the project?
+In this project, you'll create objects by combining simple shapes. You'll learn how to use JavaScript to add interactivity to your project.
+
+<iframe src="https://trinket.io/embed/html/cd22828fdb?outputOnly=true&start=result" width="600" height="450" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 # Step 1: Step name goes here { .activity }
 
