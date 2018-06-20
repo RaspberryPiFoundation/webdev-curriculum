@@ -21,12 +21,17 @@ Javascript is a programming language used to create interactive effect in webpag
 + You'll be using a website called Trinket to write HTML. Open this Trinket: <a href="https://trinket.io/embed/html/50ddc249a1"  target="_blank">jumpto.cc/makingshapes-intro</a>.
 	The project should look like this:
 	![screenshot](images/java1.png)
-+ The code you can see on the left within the <script> </script> tag is the Javascript code.
++ The code within the <script> </script> tag is the Javascript code.
 + Within the script tags their are two functions: 
 	1- function setup - where the canvas is created and background is set. 
 	2- function draw - where you can draw shapes.
 + Function is always written as 
 	![screenshot](images/javafunc.png)
+	
++ Now , lets create the canvas and give it a background color.For creating canvas we have to write 'createCanvas',which is written in CAMEL CASE meaning if you have to write 'car wash' it will be written as 'carWash'.
+
+	![screenshot](images/java2.png)
+ Background color can be any 'green','blue'or any RGB ('255, 87, 51') or HEX color ('#FF5733') can be used.
 + The steps should be broken down into a number of checkpoints. You can add text in __bold__ or _italics_ to add emphasis to key words or important points.
 
 + Each checkpoint should clearly explain what the child needs to do.
