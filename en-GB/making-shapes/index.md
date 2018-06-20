@@ -9,7 +9,7 @@ project-type: community
 
 # Introduction { .intro }
 
-In this project, you'll create objects by combining simple shapes. You'll be introduce the basics of JavaScript to make different geometrical shapes using HTML Canvas.
+In this project, you'll create objects by combining simple shapes. You'll be introduced the basics of JavaScript to make different geometrical shapes using HTML Canvas.
 
 <iframe src="https://trinket.io/embed/html/cfe39e41f3?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
