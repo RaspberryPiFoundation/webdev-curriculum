@@ -9,9 +9,9 @@ project-type: community
 
 # Introduction { .intro }
 
-In this project, you'll create objects by combining simple shapes. You'll learn how to use JavaScript to add interactivity to your project.
+In this project, you'll create objects by combining simple shapes. You'll learn how to use JavaScript to make different geometrical shapes.
 
-<iframe src="https://trinket.io/embed/html/cd22828fdb?outputOnly=true&start=result" width="600" height="450" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://trinket.io/embed/html/cfe39e41f3?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 # Step 1: Step name goes here { .activity }
 
