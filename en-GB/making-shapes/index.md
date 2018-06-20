@@ -52,18 +52,12 @@ Javascript is a programming language used to create interactive effect in webpag
 	
 
 + Let's draw a ellipse or circle shapes.
-   ellipse(x , y, width and height )
+   ellipse(x , y, width and height ).
    Ellipse just like in rectangle have different width and height , while circle have same width and height.
    
    ![screenshot](images/ellipse.png)
 
-+ The steps should be broken down into a number of checkpoints. You can add text in __bold__ or _italics_ to add emphasis to key words or important points.
 
-+ Each checkpoint should clearly explain what the child needs to do.
-
-+ To aid clarity, you can also include images, like this:
-
-	![screenshot](images/image.png)
 	
 ## Save Your Project {.save}
 
@@ -75,8 +69,20 @@ If you don't have a Trinket account, click the down arrow and then click 'Link'.
 
 ![screenshot](images/cam1.png)
 
-For making a camera use rect and ellipse code .
+For making a camera use rect and ellipse code .# Hint  For making circles inside the circle use this code:
+![screenshot](images/radius.png).
 
+
+
+
+
++ The steps should be broken down into a number of checkpoints. You can add text in __bold__ or _italics_ to add emphasis to key words or important points.
+
++ Each checkpoint should clearly explain what the child needs to do.
+
++ To aid clarity, you can also include images, like this:
+
+	![screenshot](images/image.png)
 + You should also regularly remind children to save their project:
 
 ## Save your project { .save }
