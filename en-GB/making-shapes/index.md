@@ -13,12 +13,15 @@ In this project, you'll create objects by combining simple shapes. You'll be int
 
 <iframe src="https://trinket.io/embed/html/cfe39e41f3?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-# Step 1: Step name goes here { .activity }
+# Step 1: What is Javascript? { .activity }
 
-Briefly explain the outcome of this step.
+Javascript is a programming language used to create interactive effect in webpages.Let's have a look at an example!
 
 ## Activity Checklist { .check }
++ You'll be using a website called Trinket to write HTML. Open this Trinket: <iframe src="https://trinket.io/embed/html/50ddc249a1" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
+<a href="http://jumpto.cc/web-intro" target="_blank">jumpto.cc/makingshapes-intro</a>.
+	The project should look like this:
 + The steps should be broken down into a number of checkpoints. You can add text in __bold__ or _italics_ to add emphasis to key words or important points.
 
 + Each checkpoint should clearly explain what the child needs to do.
