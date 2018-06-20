@@ -36,7 +36,7 @@ Javascript is a programming language used to create interactive effect in webpag
  Here, Canvas is extending the whole width and height of the browser window.	
  Background color can be any 'green','blue'or any RGB ('255, 87, 51') or HEX color ('#FF5733') can be used.
  	
-	![screenshot](images/java2.png)
+   ![screenshot](images/java2.png)
 
 + Let's draw a rectangle .
   For rectangle or square shapes the code is :
