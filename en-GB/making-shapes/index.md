@@ -41,6 +41,9 @@ Javascript is a programming language used to create interactive effect in webpag
 + Let's draw a rectangle  or square shapes.
   For rectangle or square shapes the code is :
   rect(x , y , width , height )
+  The top left corner of the canvas corresponds to x=0 and y=0.The x-coordinates increase
+  ![screenshot](images/coordinate.png)
+  
   The only difference between rectangle and square is that square got four equal sides so the width and height remain same , while       rectangle got two sides equal ,so they have different width and height. 
  + For filing the shapes with color ,write the code " fill('color name or HEX or RGB') ".
 	![screenshot](images/rect.png)
@@ -58,6 +61,18 @@ Javascript is a programming language used to create interactive effect in webpag
 + To aid clarity, you can also include images, like this:
 
 	![screenshot](images/image.png)
+	
+## Save Your Project {.save}
+
+__You don't need a Trinket account to save your projects!__ 
+
+If you don't have a Trinket account, click the down arrow and then click 'Link'. This will give you a link that you can save and come back to later. You'll need to do this every time you make changes, as the link will change!
+
+##Challenge: Make a camera.
+
+![screenshot](images/cam1.png)
+
+For making a camera use rect and ellipse code .
 
 + You should also regularly remind children to save their project:
 
