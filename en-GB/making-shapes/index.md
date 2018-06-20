@@ -84,7 +84,7 @@ ellipseMode(RADIUS)  uses the  the x and y parameters of the first circle as the
  
  Instead, of 'fill' ,here we've used 'stroke' for the line or for making borders , while strokeWidth determines the thickness of the stroke.'noStroke' if you don't need any borders.
 
-      ![screenshot](images/line2.png)
+   ![screenshot](images/line2.png)
 
 
 
