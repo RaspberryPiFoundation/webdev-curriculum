@@ -20,7 +20,7 @@ Javascript is a programming language used to create interactive effect in webpag
 ## Activity Checklist { .check }
 + You'll be using a website called Trinket to write HTML. Open this Trinket: <iframe src="https://trinket.io/embed/html/50ddc249a1" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-<a href="http://jumpto.cc/web-intro" target="_blank">jumpto.cc/makingshapes-intro</a>.
+<a href="https://trinket.io/embed/html/50ddc249a1"  target="_blank">jumpto.cc/makingshapes-intro</a>.
 	The project should look like this:
 + The steps should be broken down into a number of checkpoints. You can add text in __bold__ or _italics_ to add emphasis to key words or important points.
 
