@@ -53,7 +53,9 @@ Javascript is a programming language used to create interactive effect in webpag
 
 + Let's draw a ellipse or circle shapes.
    ellipse(x , y, width and height ).
-   ![screenshot](images/ellipse1.png)
+  
+  ![screenshot](images/ellipse1.png)
+   
    Ellipse just like in rectangle have different width and height , while circle have same width and height.
    
    ![screenshot](images/ellipse.png)
@@ -78,15 +80,25 @@ For making a camera use rect and ellipse code .
 ellipseMode(RADIUS)  uses the  the x and y parameters of the first circle as the shape's center point, but uses the width and height parameters to specify half of the shapes's width and height.
 
 + Let's make some lines and triangles.
-+ For lines you will be using (x1 , y1 , x2 , y2 )
++ For lines you will be using : line(x1 , y1 , x2 , y2 )
 
      ![screenshot](images/line.png)
  
  Instead, of 'fill' ,here we've used 'stroke' for the line or for making borders , while strokeWidth determines the thickness of the stroke.'noStroke' if you don't need any borders.
 
    ![screenshot](images/line2.png)
+   
++ for triangles the code is: triangle(x1 , y1 , x2 , y2 , x3 , y3 )
 
+  ![screenshot](images/tri2.png)
+  
+  ![screenshot](images/tri.png)
+  
+##Challenge: Make a fish.
 
+   ![screenshot](images/fish.png)
+  
+  
 
 + The steps should be broken down into a number of checkpoints. You can add text in __bold__ or _italics_ to add emphasis to key words or important points.
 
