@@ -26,14 +26,24 @@ Javascript is a programming language used to create interactive effect in webpag
 	1- function setup - where the canvas is created and background is set. 
 	2- function draw - where you can draw shapes.
 + Function is always written as 
+	
 	![screenshot](images/javafunc.png)
 	
 + Now , lets create the canvas and give it a background color.For creating canvas we have to write 'createCanvas',which is written in  CAMEL CASE meaning if you have to write 'car wash' it will be written as 'carWash'.Canvas could be of any size.
+	
 	![screenshot](images/javafunc1.png)
 
- Here, Canvas is extending the whle width and height of the browser window.	
+ Here, Canvas is extending the whole width and height of the browser window.	
  Background color can be any 'green','blue'or any RGB ('255, 87, 51') or HEX color ('#FF5733') can be used.
- 	![screenshot](images/java2.png)
+ 	
+	![screenshot](images/java2.png)
+
++ Let's draw a rectangle .
+  For rectangle or square shapes the code is :
+  rect(x , y , width , height )
+  The only difference between rectangle and square is that square got four equal sides so the width and height remain same , while rectangle got two sides equal ,so they have different width and height
+	![screenshot](images/rect.png)
+
 + The steps should be broken down into a number of checkpoints. You can add text in __bold__ or _italics_ to add emphasis to key words or important points.
 
 + Each checkpoint should clearly explain what the child needs to do.
