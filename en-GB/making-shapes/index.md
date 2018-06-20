@@ -53,6 +53,7 @@ Javascript is a programming language used to create interactive effect in webpag
 
 + Let's draw a ellipse or circle shapes.
    ellipse(x , y, width and height ).
+   ![screenshot](images/ellipse1.png)
    Ellipse just like in rectangle have different width and height , while circle have same width and height.
    
    ![screenshot](images/ellipse.png)
@@ -69,10 +70,15 @@ If you don't have a Trinket account, click the down arrow and then click 'Link'.
 
 ![screenshot](images/cam1.png)
 
-For making a camera use rect and ellipse code .# Hint  For making circles inside the circle use this code:
+For making a camera use rect and ellipse code .
++ Hint  For making circles inside the circle use this code:
 ![screenshot](images/radius.png).
+ellipseMode(RADIUS)  uses the  the x and y parameters of the first circle as the shape's center point, but uses the width and height parameters to specify half of the shapes's width and height.
 
++ Let's make some lines and triangles.
++ For lines you will be using (x1 , y1 , x2 , y2 )
 
+![screenshot](images/line.png)
 
 
 
