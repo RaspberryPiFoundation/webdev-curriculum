@@ -41,12 +41,13 @@ Javascript is a programming language used to create interactive effect in webpag
 + Let's draw a rectangle  or square shapes.
   For rectangle or square shapes the code is :
   rect(x , y , width , height ) .
-  ![screenshot](images/coordinate.png)
-  The top left corner of the canvas corresponds to x=0 and y=0.The x-coordinates increases left to right ,while y-coordinates increases  downwards.
+  ![screenshot](images/coordinate.png) 
+  
+ + The top left corner of the canvas corresponds to x=0 and y=0.The x-coordinates increases left to right ,while y-coordinates increases   downwards.So shapes can made on different places on the canvas according to their x an y coordinates.
   
   ![screenshot](images/rect.png)
   
- + The only difference between rectangle and square is that rectangle got two sides equal ,so they have different width and height.While    square got four equal sides so the width and height remain same .        
+ + The difference between rectangle and square is that rectangle got two sides equal ,so they have different width and height.While    square got four equal sides so the width and height remain same .        
  + For filing the shapes with color ,write the code " fill('color name or HEX or RGB') ".
 	
 
