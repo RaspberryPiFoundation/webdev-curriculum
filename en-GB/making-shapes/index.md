@@ -28,10 +28,12 @@ Javascript is a programming language used to create interactive effect in webpag
 + Function is always written as 
 	![screenshot](images/javafunc.png)
 	
-+ Now , lets create the canvas and give it a background color.For creating canvas we have to write 'createCanvas',which is written in CAMEL CASE meaning if you have to write 'car wash' it will be written as 'carWash'.
++ Now , lets create the canvas and give it a background color.For creating canvas we have to write 'createCanvas',which is written in  CAMEL CASE meaning if you have to write 'car wash' it will be written as 'carWash'.Canvas could be of any size.
+	![screenshot](images/javafunc1.png)
 
-	![screenshot](images/java2.png)
+ Here, Canvas is extending the whle width and height of the browser window.	
  Background color can be any 'green','blue'or any RGB ('255, 87, 51') or HEX color ('#FF5733') can be used.
+ 	![screenshot](images/java2.png)
 + The steps should be broken down into a number of checkpoints. You can add text in __bold__ or _italics_ to add emphasis to key words or important points.
 
 + Each checkpoint should clearly explain what the child needs to do.
