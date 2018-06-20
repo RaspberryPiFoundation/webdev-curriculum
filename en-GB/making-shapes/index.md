@@ -38,11 +38,18 @@ Javascript is a programming language used to create interactive effect in webpag
  	
    ![screenshot](images/java2.png)
 
-+ Let's draw a rectangle .
++ Let's draw a rectangle  or square shapes.
   For rectangle or square shapes the code is :
   rect(x , y , width , height )
-  The only difference between rectangle and square is that square got four equal sides so the width and height remain same , while rectangle got two sides equal ,so they have different width and height
+  The only difference between rectangle and square is that square got four equal sides so the width and height remain same , while       rectangle got two sides equal ,so they have different width and height. 
+ + For filing the shapes with color ,write the code " fill('color name or HEX or RGB') ".
 	![screenshot](images/rect.png)
+
++ Let's draw a ellipse or circle shapes.
+   ellipse(x , y, width and height )
+   Ellipse just like in rectangle have different width and height , while circle have same width and height.
+   
+   ![screenshot](images/ellipse.png)
 
 + The steps should be broken down into a number of checkpoints. You can add text in __bold__ or _italics_ to add emphasis to key words or important points.
 
