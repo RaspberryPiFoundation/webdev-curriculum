@@ -29,7 +29,7 @@ Javascript is a programming language used to create interactive effect in webpag
 	
 	![screenshot](images/javafunc.png)
 	
-+ Now , lets create the canvas and give it a background color.For creating canvas we have to write 'createCanvas',which is written in  CAMEL CASE meaning if you have to write 'car wash' it will be written as 'carWash'.Canvas could be of any size.
++ Now , lets create the canvas and give it a background color.For creating canvas we have to write 'createCanvas',which is written in  CAMEL CASE meaning if you have to write 'car wash' it will be written as 'carWash'.Canvas can be as big as the size of the browser window.
 	
 	![screenshot](images/javafunc1.png)
 
