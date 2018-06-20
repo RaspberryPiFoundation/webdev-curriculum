@@ -19,10 +19,14 @@ Javascript is a programming language used to create interactive effect in webpag
 
 ## Activity Checklist { .check }
 + You'll be using a website called Trinket to write HTML. Open this Trinket: <a href="https://trinket.io/embed/html/50ddc249a1"  target="_blank">jumpto.cc/makingshapes-intro</a>.
-The project should look like this:
-![screenshot](images/java1.png)
-
-
+	The project should look like this:
+	![screenshot](images/java1.png)
++ The code you can see on the left within the <script> </script> tag is the Javascript code.
++ Within the script tags their are two functions: 
+	1- function setup - where the canvas is created and background is set. 
+	2- function draw - where you can draw shapes.
++ Function is always written as 
+	![screenshot](images/javafunc.png)
 + The steps should be broken down into a number of checkpoints. You can add text in __bold__ or _italics_ to add emphasis to key words or important points.
 
 + Each checkpoint should clearly explain what the child needs to do.
