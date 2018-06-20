@@ -48,7 +48,7 @@ Javascript is a programming language used to create interactive effect in webpag
   ![screenshot](images/rect.png)
   
  + The difference between rectangle and square is that rectangle got two sides equal ,so they have different width and height.While    square got four equal sides so the width and height remain same .        
- + For filing the shapes with color ,write the code " fill('color name or HEX or RGB') " .
+ + For filing the shapes with color ,write the code " fill('color name or HEX or RGB') " . 'noFill' is used if you don't want any color.
 	
 
 + Let's draw a ellipse or circle shapes.
@@ -68,17 +68,21 @@ If you don't have a Trinket account, click the down arrow and then click 'Link'.
 
 ##Challenge: Make a camera.
 
-![screenshot](images/cam1.png)
+   ![screenshot](images/cam1.png)
 
 For making a camera use rect and ellipse code .
 + Hint  For making circles inside the circle use this code:
-![screenshot](images/radius.png).
+    
+    ![screenshot](images/radius.png).
+
 ellipseMode(RADIUS)  uses the  the x and y parameters of the first circle as the shape's center point, but uses the width and height parameters to specify half of the shapes's width and height.
 
 + Let's make some lines and triangles.
 + For lines you will be using (x1 , y1 , x2 , y2 )
 
-![screenshot](images/line.png)
+     ![screenshot](images/line.png)
+ 
+ Instead, of 'fill' ,here we've used 'stroke' for the line or for making borders , while strokeWidth determines the thickness of the stroke.'noStroke' if you don't need any borders.
 
 
 
