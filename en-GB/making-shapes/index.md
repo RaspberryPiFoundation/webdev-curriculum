@@ -76,6 +76,8 @@ For making a camera use rect and ellipse code .
 
 ellipseMode(RADIUS)  uses the  the x and y parameters of the first circle as the shape's center point, but uses the width and height parameters to specify half of the shapes's width and height.
 
+## Save Your Project {.save}
+
 + Let's make some lines and triangles.
 + For lines you will be using : line(x1 , y1 , x2 , y2 )
 
@@ -91,10 +93,11 @@ ellipseMode(RADIUS)  uses the  the x and y parameters of the first circle as the
   
   ![screenshot](images/tri.png)
   
-##Challenge: Make a fish.
+##Challenge: Make a fish with trangles.
 
    ![screenshot](images/fish.png)
-  
+ 
+ ## Save Your Project {.save}
   
 
 + The steps should be broken down into a number of checkpoints. You can add text in __bold__ or _italics_ to add emphasis to key words or important points.
