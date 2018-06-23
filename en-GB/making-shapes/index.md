@@ -25,9 +25,6 @@ Javascript is a programming language used to create interactive effect in webpag
 + Within the script tags their are two functions: 
 	1- function setup - where the canvas is created and background is set. 
 	2- function draw - where you can draw shapes.
-+ Function is always written as 
-	
-	![screenshot](images/javafunc.png)
 	
 + Now , lets create the canvas and give it a background color.For creating canvas we have to write 'createCanvas',which is written in  CAMEL CASE meaning if you have to write 'car wash' it will be written as 'carWash'.Canvas can be as big as the size of the browser window.
 	
