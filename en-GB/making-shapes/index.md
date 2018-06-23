@@ -15,7 +15,7 @@ In this project, you'll create objects by combining simple shapes. You'll be int
 
 # Step 1: What is Javascript? { .activity }
 
-Javascript is a programming language used to create interactive effect in webpages.Let's have a look at an example!
+Javascript is a programming language used to make webpages interactive.Let's have a look at an example!
 
 ## Activity Checklist { .check }
 + You'll be using a website called Trinket to write HTML. Open this Trinket: <a href="https://trinket.io/embed/html/50ddc249a1"  target="_blank">jumpto.cc/makingshapes-intro</a>.
@@ -40,11 +40,11 @@ Javascript is a programming language used to create interactive effect in webpag
   rect(x , y , width , height ) .
   ![screenshot](images/coordinate.png) 
   
- + The top left corner of the canvas corresponds to x=0 and y=0.The x-coordinates increases left to right ,while y-coordinates increases   downwards.So shapes can made on different places on the canvas according to their x an y coordinates.
+ + The top left corner of the canvas corresponds to x=0 and y=0.The x-coordinates increases left to right ,while y-coordinates increases   downwards.So shapes can be made on different places on the canvas according to their x an y coordinates.
   
   ![screenshot](images/rect.png)
   
- + The difference between rectangle and square is that rectangle got two sides equal ,so they have different width and height.While    square got four equal sides so the width and height remain same .        
+ + The difference between rectangle and square is that square has same width and height whereas rectanlge has different width and height .        
  + For filing the shapes with color ,write the code " fill('color name or HEX or RGB') " . 'noFill' is used if you don't want any color.
 	
 
@@ -53,7 +53,7 @@ Javascript is a programming language used to create interactive effect in webpag
   
   ![screenshot](images/ellipse1.png)
    
-   Ellipse just like in rectangle have different width and height , while circle have same width and height.
+   Ellipse just like a rectangle has different width and height , while circle has same width and height.
    
    ![screenshot](images/ellipse.png)
 
@@ -74,7 +74,7 @@ For making a camera use rect and ellipse code .
     
     ![screenshot](images/radius.png).
 
-ellipseMode(RADIUS)  uses the  the x and y parameters of the first circle as the shape's center point, but uses the width and height parameters to specify half of the shapes's width and height.
+ellipseMode(RADIUS)  uses the  the x and y parameters of the first circle as the shape's center point, but uses the width and height parameters to change the size of the circle.
 
 ## Save Your Project {.save}
 
@@ -83,7 +83,7 @@ ellipseMode(RADIUS)  uses the  the x and y parameters of the first circle as the
 
      ![screenshot](images/line.png)
  
- Instead, of 'fill' ,here we've used 'stroke' for the line or for making borders , while strokeWidth determines the thickness of the stroke.'noStroke' if you don't need any borders.
+ Instead, of 'fill' ,here we've used 'stroke' .Stroke is used for making a line or borders of different shapes , while strokeWidth determines the thickness of the stroke.Use 'noStroke' if you don't need any borders.
 
    ![screenshot](images/line2.png)
    
